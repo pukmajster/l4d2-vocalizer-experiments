@@ -1,0 +1,208 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {
+    "L4D1PlayerNiceShotTeenGirl": [
+      "Nicely played sir",
+      "Great shot!",
+      "Nice shot!",
+      "Good one!",
+      "Sweet shot!",
+      "Killer shot!"
+    ],
+    "C6M1Intro_01TeenGirl01TeenGirl": [
+      "Nice car!",
+      "Nice car, dude!",
+      "and then once you get over here, we can fill up the generator. The generator will make a lot of noise but don't worry Ellis we can cover you from up here. You got all that?"
+    ],
+    "C6M1Intro_01TeenGirl02TeenGirl": [
+      "Hello down there! Sorry but we can't lower the bridge."
+    ],
+    "C6M1Intro_01TeenGirl03TeenGirl": [
+      "Hello down there!"
+    ],
+    "C6M1Intro_01TeenGirl04TeenGirl": [
+      "You need to get to the other side to lower this bridge. Road's clear past that.",
+      "Sorry, I can't lower the bridge."
+    ],
+    "C6M1Intro_03aTeenGirl": [
+      "Sorry, can't! We got wounded up here. If you can get to the other side of the bridge, we can help you can get it down."
+    ],
+    "C6M1Intro_04aTeenGirl": [
+      "Generator's out on the other side!"
+    ],
+    "C6M1Intro_04cTeenGirl": [
+      "Sorry, can't! We got wounded up here. If you can get to the other side of the bridge, we can help you can get it down."
+    ],
+    "C6M1Intro_11bTeenGirl": [
+      "Sorry man, no can do. Generators out. Get to the other side of the river and we can help you get it down."
+    ],
+    "C6M1Intro_13dTeenGirl": [
+      "You are going to need to get to the other side of the bridge. We can help you there."
+    ],
+    "C6M1Intro_15bTeenGirl": [
+      "Boohoo hoo, I don't know what to do\u0085 Go to hell Colonel Sanders"
+    ],
+    "C6M1Intro_15dTeenGirl": [
+      "I could shoot you where you stand."
+    ],
+    "C6M1Intro_17aTeenGirl": [
+      "I'm sorry, there really isn't. If you can get to the other side of the river we can help you lower it. But we lost a man and another's hurt, we really can't do it by ourselves."
+    ],
+    "C6M1Intro_17cTeenGirl": [
+      "Sorry, good luck?"
+    ],
+    "C6M1Intro_22bTeenGirl": [
+      "Yeah, I know that feeling."
+    ],
+    "C6M1Intro_22dTeenGirl": [
+      "Sorry can't. We lost a guy and another's injured. If you can find another way over, we can help you get the bridge down."
+    ],
+    "C6M1Intro_22gTeenGirl": [
+      "Good luck."
+    ],
+    "C6M1Intro_23aTeenGirl": [
+      "Not exactly.",
+      "Well... no.",
+      "Umm, no, I can't.",
+      "Umm, no."
+    ],
+    "C6M1Intro_23cTeenGirl": [
+      "Uh, no... Generator is out of gas. If you get over to the other side and fill it up, we can cover you. Best I can offer."
+    ],
+    "c6m3_outroL4D1TeenGirl": [
+      "(10 commandments) Go - proclaim liberty throughout all the lands, and to all the inhabitants thereof!",
+      "(Planet of the apes) You finally really did it. You maniacs! You blew it up! God damn you! God damn you all to hell!",
+      "Remember soylent green is people!",
+      "Y'all come back now!"
+    ],
+    "c6m3_outroL4D101aTeenGirl": [
+      "Yeah, but... it's us three now."
+    ],
+    "c6m3_outroL4D102bTeenGirl": [
+      "Don't worry, they won't be the last."
+    ],
+    "c6m3_outroL4D103aTeenGirl": [
+      "No. It's hard enough out there."
+    ],
+    "c6m3_outroL4D104aTeenGirl": [
+      "Francis, it's nice to see you still have that in you."
+    ],
+    "c6m3_outroL4D105aTeenGirl": [
+      "Where? At the mall?"
+    ],
+    "c6m3_outroL4D107aTeenGirl": [
+      "Yeah, for about 10 minutes."
+    ],
+    "c6m3_outroL4D109aTeenGirl": [
+      "Sure you are Francis, sure you are."
+    ],
+    "c6m3_outroL4D1AllTeenGirl": [
+      "Bye Ellis! Bye Rochelle! Bye Coach! Bye Nick!"
+    ],
+    "c6m3_outroL4D1MechanicTeenGirl": [
+      "I ever tell you about the time my buddy Ellis stole a race car from the mall and drove it over some zombies?"
+    ],
+    "c6m3_outroL4D1MechanicZoeyTeenGirl": [
+      "Ellis! ELLIS!!! Maybe we should have gone with him?",
+      "Ellis! ELLIS!!! Maybe he should have come with us?",
+      "I'm going to miss Ellis.",
+      "Hm. I'm going to miss Ellis."
+    ],
+    "c6m3_outroL4D1MechanicZoey2TeenGirl": [
+      "Ellis! ELLIS!!! Maybe we should have gone with him?",
+      "Ellis! ELLIS!!! Maybe he should have come with us?",
+      "I'm going to miss Ellis.",
+      "Hm. I'm going to miss Ellis."
+    ],
+    "C6M3VocalizeLookOutTeenGirl": [
+      "Look out!",
+      "Watch out!",
+      "Behind you!!"
+    ],
+    "L4D1_AttractPlayerForThrowTeenGirl": [
+      "Heads up!",
+      "Look over here!",
+      "Look here.",
+      "Helloooo?"
+    ],
+    "L4D1_SurvivorBotTakeThisItemTeenGirl": [
+      "Take this.",
+      "Hey, take this.",
+      "Here you go!",
+      "Take this!",
+      "Here, be safe.",
+      "Take this, good luck."
+    ],
+    "WorldC6M3_ByBridge01TeenGirl": [
+      "GO! THE BRIDGE IS DOWN!",
+      "We got your backs, go!",
+      "Go, go, go! We'll hold them off.",
+      "Go! We'll hold them off."
+    ],
+    "WorldC6M3_ByBridge01EllisTeenGirl": [
+      "Get to your car Ellis!",
+      "Ellis, the car's calling!"
+    ],
+    "L4D1AlsoSpottedBoomerTeenGirl": [
+      "BOOMER!"
+    ],
+    "L4D1AlsoSpottedHunterTeenGirl": [
+      "HUNTER!"
+    ],
+    "L4D1AlsoSpottedSmokerTeenGirl": [
+      "SMOKER!"
+    ],
+    "L4D1AlsoSpottedTankTeenGirl": [
+      "Guys come back!",
+      "Guys let us cover you!",
+      "TWO TANKS!",
+      "Bring the tanks back here!"
+    ],
+    "L4D1SpottedBoomerTeenGirl": [
+      "BOOMER!"
+    ],
+    "L4D1SpottedChargerTeenGirl": [
+      "CHARGER!"
+    ],
+    "L4D1SpottedHunterTeenGirl": [
+      "HUNTER!"
+    ],
+    "L4D1SpottedJockeyTeenGirl": [
+      "JOCKEY!"
+    ],
+    "L4D1SpottedSmokerTeenGirl": [
+      "SMOKER!"
+    ],
+    "L4D1SpottedSpitterTeenGirl": [
+      "SPITTER!"
+    ],
+    "L4D1SpottedTankTeenGirl": [
+      "Guys come back!",
+      "Guys let us cover you!",
+      "TWO TANKS!",
+      "Bring the tanks back here!"
+    ],
+    "L4D1_ReloadingTeenGirl": [
+      "Reloading!",
+      "I'm Reloading!"
+    ],
+    "L4D1PlayerKillConfirmationTeenGirl": [
+      "Got it!",
+      "Nailed it!",
+      "Got 'em"
+    ],
+    "L4D1PlayerWarnMegaMobTeenGirl": [
+      "Incoming!",
+      "They're coming!",
+      "Here they come!",
+      "Get ready!",
+      "Oh god, get ready, here they come!"
+    ]
+  },
+  "NamVet": {},
+  "Manager": {},
+  "Biker": {}
+}

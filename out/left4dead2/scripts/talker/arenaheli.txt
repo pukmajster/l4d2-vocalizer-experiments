@@ -1,0 +1,8 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2/scripts/talker/arenaheli.txt
+-------------------------------------------------------
+
+RULE C2M5_PilotNagArenaHeli CRITERIA ConceptC2M5_PilotNag AutoIsNotScavenge AutoIsNotSurvival RESPONSE C2M5_PilotNagArenaHeli
+
+
+

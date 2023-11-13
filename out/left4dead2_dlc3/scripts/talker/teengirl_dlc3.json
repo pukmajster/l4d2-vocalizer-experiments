@@ -1,0 +1,600 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {
+    "C7M1_saferoom02TeenGirl": [
+      "Yeah, or Bill'll leave you behind."
+    ],
+    "C7M1_saferoom09bTeenGirl": [
+      "Whatever.",
+      "Let's just go."
+    ],
+    "C7M1_saferoom10aTeenGirl": [
+      "Whatever, I don't care.",
+      "Sure. Whatever."
+    ],
+    "C7M1_saferoom11TeenGirl": [
+      "Those people still dead?"
+    ],
+    "C7M1_saferoom15aTeenGirl": [
+      "Sure. It's the rest of the world we can just let die."
+    ],
+    "C7M1_saferoom18TeenGirl": [
+      "I'd like to put it to a vote that maybe we shouldn't go rot on an island in the middle of nowhere, and actually, you know, help everybody else fight the zombies?"
+    ],
+    "C7M1_saferoom19aTeenGirl": [
+      "Louis, you of all people should understand."
+    ],
+    "C7M1_saferoom20aTeenGirl": [
+      "How can you be sure?"
+    ],
+    "C7M1_saferoom23TeenGirl": [
+      "Great maybe we can meet some new people and leave them behind."
+    ],
+    "C7M1OpenTankDoorTeenGirl": [
+      "Get ready to fight this tank.",
+      "Door's opening, get ready...",
+      "I am so dead.",
+      "I cannot believe I am doing this.",
+      "Unbelievable. You guys are the biggest chickenshits."
+    ],
+    "C7M1SafeRoomIdleTeenGirl": [
+      "Francis: Tell Bill I'm ready to go.",
+      "This was your plan, Bill? A train to the Keys? This isn't the keys, Bill. We're nowhere.",
+      "Well--better get moving. Remember, if you fall behind, Bill thinks it's okay to let you die.",
+      "Are you kidding me? This is the middle of nowhere. We left all those people behind for THIS?",
+      "Good thing we left all those people behind so WE could escape, Bill."
+    ],
+    "C7M1SafeRoomStartTeenGirl": [
+      "Blank"
+    ],
+    "C7M2_saferoom01TeenGirl": [
+      "I really don't want to hear it."
+    ],
+    "C7M2_saferoom01bTeenGirl": [
+      "Bill, I'm not ready to give up on everything yet."
+    ],
+    "C7M2_saferoom05bTeenGirl": [
+      "Because, Francis... hey, yeah, what the hell, Bill?"
+    ],
+    "C7M2SafeRoomIdleTeenGirl": [
+      "So this is really it? We're gonna run away to some island? \"So long world good luck with all the zombies\"?"
+    ],
+    "C7M2SafeRoomStartTeenGirl": [
+      "Blank"
+    ],
+    "Player.WarnMegaMobc7m201TeenGirl": [
+      "Into the chute.",
+      "We need to get into the chute."
+    ],
+    "C7M3_saferoom004bTeenGirl": [
+      "Ohhhh. Boo."
+    ],
+    "C7M3_saferoom005TeenGirl": [
+      "You asked me that last year? It would have been ten zombie movies. Now? Probably a documentary on how to make toilet paper.",
+      "A month ago? I would have picked ten zombie movies. Now? Like, ten documentaries on how to build shelter, catch food and make toilet paper."
+    ],
+    "C7M3_saferoom006cTeenGirl": [
+      "No more human race..."
+    ],
+    "C7M3_saferoom007TeenGirl": [
+      "In most movies they sink."
+    ],
+    "C7M3_saferoom007bTeenGirl": [
+      "I think that means we're safe."
+    ],
+    "C7M3_saferoom016TeenGirl": [
+      "That's the spirit, Louis!"
+    ],
+    "C7M3_saferoom016cTeenGirl": [
+      "I hate putting the lotion in the basket."
+    ],
+    "C7M3BridgeBreaksTeenGirl": [
+      "Crap! That generator stalled!",
+      "Damnit to hell, that generator's out.",
+      "You're kidding me, that generator's out."
+    ],
+    "C7M3FinalPressBikerTeenGirl": [
+      "FRANCIS!",
+      "Francis! You did it!",
+      "Francis! We're safe!"
+    ],
+    "C7M3FinalPressManagerTeenGirl": [
+      "Thanks Louis!",
+      "LOOOOOOUUUUIIIIIISSSSS!",
+      "Oh damnit Louis!"
+    ],
+    "C7M3FinalPressNamVetTeenGirl": [
+      "Bill! No!!",
+      "BIIILLLLL!!!",
+      "Ah shit Bill, you didn't have to do that.",
+      "Bill, you did it! We're safe!",
+      "Bill you saved us!",
+      "We won't forget you Bill!",
+      "I'm sorry Bill.  I love you!",
+      "Ahh Bill, I love you old man.",
+      "Bill, bill, bill, bill.",
+      "Bill, you did it! You did it!"
+    ],
+    "C7M3GeneratorPress01TeenGirl": [
+      "These generators must be setup to power the bridge.",
+      "We need to power these three generators to raise the bridge!",
+      "Starting these generators is going to alert the horde.",
+      "I just know starting these generators isn't going to be quiet."
+    ],
+    "C7M3GeneratorPress02TeenGirl": [
+      "Let's get ready before we hit it."
+    ],
+    "C7M3GeneratorPress03TeenGirl": [
+      "Last generator.",
+      "This is it, get ready."
+    ],
+    "C7M3PlayerGetToRescueVehicleTeenGirl": [
+      "The bridge is ready, let's go!",
+      "Get to the bridge!",
+      "We did it! Get to the bridge!"
+    ],
+    "C7M3SafeRoomStartTeenGirl": [
+      "Blank"
+    ],
+    "C7M3WaveOverGen1TeenGirl": [
+      "Done! To the next generator.",
+      "Let's go, we have more generators."
+    ],
+    "C7M3WaveOverGen2TeenGirl": [
+      "This one is done, let's go!",
+      "One more!",
+      "We're almost out here! One more generator!"
+    ],
+    "SurvivorSpottedAdrenalineTeenGirl": [
+      "Look over here!",
+      "Look here."
+    ],
+    "SurvivorSpottedAdrenalineAutoTeenGirl": [
+      "Look over here!",
+      "Look here."
+    ],
+    "SurvivorSpottedGrenadeLauncherTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedGrenadeLauncherAutoTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedUpPack_ExplosiveTeenGirl": [
+      "Look over here!",
+      "Look here."
+    ],
+    "SurvivorSpottedUpPack_ExplosiveAutoTeenGirl": [
+      "Look over here!",
+      "Look here."
+    ],
+    "SurvivorSpottedUpPack_IncendiaryTeenGirl": [
+      "Look over here!",
+      "Look here."
+    ],
+    "SurvivorSpottedUpPack_IncendiAutoTeenGirl": [
+      "Look over here!",
+      "Look here."
+    ],
+    "SurvivorSpottedVomitJarTeenGirl": [
+      "Look over here!",
+      "Look here."
+    ],
+    "SurvivorSpottedVomitJarAutoTeenGirl": [
+      "Look over here!",
+      "Look here."
+    ],
+    "PlayerToTheRescueRosTeenGirl": [
+      "Hold on, I'm on my way!",
+      "I'm coming!",
+      "Hold on, I'm coming!",
+      "Help is on the way!",
+      "Hang on, hang on, I'm coming!",
+      "Hang in there, I'm coming!",
+      "Coming, coming, coming!"
+    ],
+    "SurvivorTauntResponseTeenGirl": [
+      "Cool.",
+      "Awesome!",
+      "YESSS!",
+      "YEAH!",
+      "Oh yeah, lovely.",
+      "Oh yeah!",
+      "Impressive.",
+      "Thats right. [grim, determined]",
+      "All right!",
+      "Lookin good.",
+      "OH YEAH!",
+      "YEAHHHH!"
+    ],
+    "PlayerRemarkc7m1_bricktopTeenGirl": [
+      "On top of the bricks."
+    ],
+    "PlayerRemarkc7m1_pastbricksTeenGirl": [
+      "Past the bricks."
+    ],
+    "PlayerRemarkc7m1_pretankTeenGirl": [
+      "The one thing that survives this train wreck is a tank?",
+      "So... who's gonna open the door?",
+      "Hey, Louis. You got a good feeling about opening that door.",
+      "So. This whole... door situation? You guys work it out.",
+      "Hey Francis. Guywhoopensthetraindoorsayswhat?",
+      "Hey, Francis. Be a pal and open that door.",
+      "Somebody want to get the door? I'll open the next train car with a tank in it. Promise.",
+      "So, I'm a girl, right? You guys wouldn't make a lady open up a deathtrap, right?"
+    ],
+    "PlayerRemarkc7m1_tankcarTeenGirl": [
+      "God, this must have been horrible...",
+      "Man. I thought it was bad fighting this thing outside."
+    ],
+    "PlayerRemarkc7m2_climbupcrapTeenGirl": [
+      "Climb up this pile of crap!",
+      "We can get back up over here!",
+      "Up that fence!"
+    ],
+    "PlayerRemarkc7m2_gravelhillTeenGirl": [
+      "Climb up this pile of crap!"
+    ],
+    "PlayerRemarkc7m2_overboatTeenGirl": [
+      "Over the ship!"
+    ],
+    "PlayerRemarkc7m2_throughhereTeenGirl": [
+      "Through here!"
+    ],
+    "PlayerRemarkc7m3_seesailboatTeenGirl": [
+      "We'll need to raise that bridge if we want to get that boat out of here.",
+      "We can use that sailboat by the bridge!",
+      "We need to raise the."
+    ],
+    "PlayerYellRunTeenGirl": [
+      "Let's go, let's go",
+      "Just go! GO!",
+      "RUN!",
+      "Keep moving! Come on, keep moving!"
+    ],
+    "GrabbingGasSCTeenGirl": [
+      "Got it!"
+    ],
+    "PlayerShotGasCanTeenGirl": [
+      "Uh oh",
+      "Are you kidding me?",
+      "Crap",
+      "No No No No NO",
+      "Mother.",
+      "Ah bullshit.",
+      "Shit.",
+      "Goddammit."
+    ],
+    "ScavengeStartTeenGirl": [
+      "Let's go",
+      "Come on, lets go!",
+      "We need  to get going guys"
+    ],
+    "GasPourSCTeenGirl": [
+      "Cover me.",
+      "Watch my back please."
+    ],
+    "GasPourDoneSCTeenGirl": [
+      "We are kickin' ass.",
+      "We are unstoppable.",
+      "We are awesome together.",
+      "OH YEAH!",
+      "YEAHHHH!"
+    ],
+    "FinaleAheadc7m3TeenGirl": [
+      "Let's go.",
+      "Let's get moving",
+      "Come on, lets go!"
+    ],
+    "Player.C7M2CrowsFlyTeenGirl": [
+      "Great, crows.",
+      "Ah! Dammit! Stupid birds.",
+      "Shut. Up. You. Stupid. Crows."
+    ],
+    "Player.C7M3BridgeLeapTeenGirl": [
+      "Louis, you sure you can't get up?  Can you try?",
+      "Stay put! I'll be right back! I hope.",
+      "Stay up there! I got this!",
+      "What am I doing what am I doing what am I doing...",
+      "This is the last time you're gonna see these! Guns!",
+      "Louis! I will always be your friend!",
+      "Oh god, I am so screwed.",
+      "I've got this! Not a big deal.  Oh... shit.",
+      "I've got a plan! Stay there!",
+      "Don't get off the bridge!",
+      "I'll miss you guys! Stay there!",
+      "I'll be back! Oh god, no I won't..."
+    ],
+    "SurvivorPickupAdrenalineTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupAdrenalineAlwaysTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupbaseball_batTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupchainsawTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupcricket_batTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupCricketBatTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupCrowBarTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupelectric_guitarTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupFireAxeTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupFryingPanTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupGrenadeLauncherTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupIncendiaryAmmoTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupKatanaTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupLaserSightsAlwaysTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupMacheteTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupMagnumTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupMagnumAlwaysTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickuptonfaTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupGolfClubTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupUpExplosiveAmmoTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupUpExplosivesTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupUpIncendiaryTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupUpIncendiaryAmmoTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupVomitJarTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupVomitJarAlwaysTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "Well, this looks dangerous",
+      "Okay.",
+      "Cool"
+    ],
+    "InfoReminfo_powerboat4TeenGirl": [
+      "Francis, you do know what a sailboat looks like right?",
+      "Francis, do you even know what a sail boat looks like?",
+      "Francis, do you even know what a sailboat looks like?"
+    ],
+    "PlayerLostCallTeenGirl": [
+      "Hello?",
+      "Where are you guys?",
+      "Is anyone there?",
+      "Helloooo?",
+      "Anyone Around?",
+      "Hey guys, where are you?",
+      "Guys?"
+    ],
+    "SurvivorSpottedChainsawTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedChainsawAutoTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedcricket_batTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedcricket_batAutoTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedcrowbarTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedcrowbarAutoTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedGuitarTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedGuitarAutoTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedKatanaTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedKatanaAutoTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedLaserSightsTeenGirl": [
+      "Look over here!",
+      "Look here."
+    ],
+    "SurvivorSpottedLaserSightsAutoTeenGirl": [
+      "Look over here!",
+      "Look here."
+    ],
+    "SurvivorSpottedMacheteTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedMacheteAutoTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedMagnumTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedMagnumAutoTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedtonfaTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedtonfaAutoTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedGolfClubTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedGolfClubAutoTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedDefibrillatorTeenGirl": [
+      "Look over here!",
+      "Look here."
+    ],
+    "SurvivorSpottedDefibrillatorAutoTeenGirl": [
+      "Look over here!",
+      "Look here."
+    ],
+    "SurvivorPickupDefibrillatorTeenGirl": [
+      "Cool.",
+      "[pleasure & interest sounds]",
+      "We might need these.",
+      "Okay.",
+      "Cool"
+    ]
+  },
+  "NamVet": {},
+  "Manager": {},
+  "Biker": {}
+}

@@ -1,0 +1,550 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc1/scripts/talker/gambler_dlc1.txt
+-------------------------------------------------------
+
+RESPONSE L4D1PlayerNiceShotGambler CHARACTER Gambler SUBTITLE "Nice shooting."
+RESPONSE L4D1PlayerNiceShotGambler CHARACTER Gambler SUBTITLE "Nice shot!"
+RESPONSE L4D1PlayerNiceShotGambler CHARACTER Gambler SUBTITLE "Nice shot Ace."
+RULE L4D1PlayerNiceShotGambler CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsGambler IsSubjectDistNear1500  IsTalk IsTalkGambler IsWorldTalkGambler IsNotSpeaking ChanceToFire70Percent RESPONSE L4D1PlayerNiceShotGambler
+RESPONSE L4D1PlayerNiceShotFrancisGambler CHARACTER Gambler SUBTITLE "I owe you one, Francis!"
+RESPONSE L4D1PlayerNiceShotFrancisGambler CHARACTER Gambler SUBTITLE "Nice shot, Francis!"
+RULE L4D1PlayerNiceShotFrancisGambler CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsGambler IsSubjectDistNear1500  IsTalk IsTalkGambler  IsWorldTalkGambler SubjectIsBiker ChanceToFire70Percent IsNotSpeaking RESPONSE L4D1PlayerNiceShotFrancisGambler
+RESPONSE L4D1PlayerNiceShotLouisGambler CHARACTER Gambler SUBTITLE "Thanks, Louis!"
+RESPONSE L4D1PlayerNiceShotLouisGambler CHARACTER Gambler SUBTITLE "Louis, I am beginning to like you and your gun."
+RESPONSE L4D1PlayerNiceShotLouisGambler CHARACTER Gambler SUBTITLE "Louis, you are a badass with that gun."
+RESPONSE L4D1PlayerNiceShotLouisGambler CHARACTER Gambler SUBTITLE "Louis, you sure you don't want to come with us? We can leave Ellis behind."
+RESPONSE L4D1PlayerNiceShotLouisGambler CHARACTER Gambler SUBTITLE "Louis, you are a badass with that gun."
+RESPONSE L4D1PlayerNiceShotLouisGambler CHARACTER Gambler SUBTITLE "Louis, you sure you don't want to come with us? We can leave Ellis behind."
+RULE L4D1PlayerNiceShotLouisGambler CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsGambler IsSubjectDistNear1500  IsTalk IsTalkGambler  IsWorldTalkGambler SubjectIsManager ChanceToFire70Percent IsNotSpeaking RESPONSE L4D1PlayerNiceShotLouisGambler
+RESPONSE L4D1PlayerNiceShotZoeyGambler CHARACTER Gambler SUBTITLE "Thanks, Zoey!"
+RESPONSE L4D1PlayerNiceShotZoeyGambler CHARACTER Gambler SUBTITLE "Zoey, all right!"
+RESPONSE L4D1PlayerNiceShotZoeyGambler CHARACTER Gambler SUBTITLE "Nice shot, Zoey!"
+RULE L4D1PlayerNiceShotZoeyGambler CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsGambler IsSubjectDistNear1500  IsTalk IsTalkGambler  IsWorldTalkGambler SubjectIsTeenGirl ChanceToFire70Percent IsNotSpeaking RESPONSE L4D1PlayerNiceShotZoeyGambler
+RESPONSE C6M3GasPourGambler CHARACTER Gambler SUBTITLE "I'm filling the generator."
+RESPONSE C6M3GasPourGambler CHARACTER Gambler SUBTITLE "Pouring it in!"
+RESPONSE C6M3GasPourGambler CHARACTER Gambler SUBTITLE "Another one in!"
+RESPONSE C6M3GasPourGambler CHARACTER Gambler SUBTITLE "Almost outta here!"
+RESPONSE C6M3GasPourGambler CHARACTER Gambler SUBTITLE "Why doesn't anything have enough gas in it?"
+RULE C6M3GasPourGambler CRITERIA ConceptPlayerPourStarted IsGambler IsTalk IsTalkGambler IsWorldTalkGambler IsNotScavenge isC6M3_Port ChanceToFire70Percent RESPONSE C6M3GasPourGambler
+RESPONSE C6M1_IntotheparkNoHealthGambler CHARACTER Gambler SUBTITLE "Grab a health kit."
+RESPONSE C6M1_IntotheparkNoHealthGambler CHARACTER Gambler SUBTITLE "Everyone grab a health kit."
+RESPONSE C6M1_IntotheparkNoHealthGambler CHARACTER Gambler SUBTITLE "Don't forget a health kit."
+RESPONSE C6M1_IntotheparkNoHealthGambler CHARACTER Gambler SUBTITLE "Quick, grab a health kit."
+RULE C6M1_IntotheparkNoHealthGambler CRITERIA ConceptC6M1_IntotheparkNoHealth IsGambler RESPONSE C6M1_IntotheparkNoHealthGambler
+RESPONSE C6M1Intro_01Biker05Gambler CHARACTER Gambler SUBTITLE "I'm telling you for the last goddamn time, lower the goddamn bridge you greasy vest wearing monkey."
+RULE C6M1Intro_01Biker05Gambler CRITERIA ConceptintroC6M1 IsGambler IsFrancisIntroActor IsNotSaidIntroScene FrancisGroup5 IsNotVersus RESPONSE C6M1Intro_01Biker05Gambler
+RESPONSE C6M1Intro_07bGambler CHARACTER Gambler SUBTITLE "That guy's no cop."
+RESPONSE C6M1Intro_07bGambler CHARACTER Gambler SUBTITLE "I'll tell ya something; that guy is no cop."
+RULE C6M1Intro_07bGambler CRITERIA ConceptC6M1Intro_07b IsGambler RESPONSE C6M1Intro_07bGambler
+RESPONSE C6M1Intro_09aGambler CHARACTER Gambler SUBTITLE "Hey! (Realization someone else is alive) HEEEYYY!!"
+RULE C6M1Intro_09aGambler CRITERIA ConceptC6M1Intro_09a IsGambler RESPONSE C6M1Intro_09aGambler
+RESPONSE C6M1Intro_09bGambler CHARACTER Gambler SUBTITLE "Hey! (Realization someone else is alive) HEEEYYY!!"
+RULE C6M1Intro_09bGambler CRITERIA ConceptC6M1Intro_09b IsGambler RESPONSE C6M1Intro_09bGambler
+RESPONSE C6M1Intro_09dGambler CHARACTER Gambler SUBTITLE "What the..."
+RESPONSE C6M1Intro_09dGambler CHARACTER Gambler SUBTITLE "What?"
+RULE C6M1Intro_09dGambler CRITERIA ConceptC6M1Intro_09d IsGambler RESPONSE C6M1Intro_09dGambler
+RESPONSE C6M1Intro_10eGambler CHARACTER Gambler SUBTITLE "Whatever."
+RESPONSE C6M1Intro_10eGambler CHARACTER Gambler SUBTITLE "Whatever."
+RESPONSE C6M1Intro_10eGambler CHARACTER Gambler SUBTITLE "Whatever sweety."
+RESPONSE C6M1Intro_10eGambler CHARACTER Gambler SUBTITLE "Or: I could try is being more attractive to grease ball bikers."
+RESPONSE C6M1Intro_10eGambler CHARACTER Gambler SUBTITLE "Or: I could try is being more attractive to grease ball bikers."
+RULE C6M1Intro_10eGambler CRITERIA ConceptC6M1Intro_10e IsGambler RESPONSE C6M1Intro_10eGambler
+RESPONSE C6M1Intro_11dGambler CHARACTER Gambler SUBTITLE "All right."
+RESPONSE C6M1Intro_11dGambler CHARACTER Gambler SUBTITLE "Yeah, all right."
+RULE C6M1Intro_11dGambler CRITERIA ConceptC6M1Intro_11d IsGambler RESPONSE C6M1Intro_11dGambler
+RESPONSE C6M1Intro_14aGambler CHARACTER Gambler SUBTITLE "Okay, listen to me, jackass, lower the goddamn bridge so we can drive our goddamn car across."
+RULE C6M1Intro_14aGambler CRITERIA ConceptC6M1Intro_14a IsGambler RESPONSE C6M1Intro_14aGambler
+RESPONSE C6M1Intro_14cGambler CHARACTER Gambler SUBTITLE "(to his group) Do you believe this guy?"
+RESPONSE C6M1Intro_14cGambler CHARACTER Gambler SUBTITLE "(to self) I don't believe this guy."
+RULE C6M1Intro_14cGambler CRITERIA ConceptC6M1Intro_14c IsGambler RESPONSE C6M1Intro_14cGambler
+RESPONSE C6M1Intro_15aGambler CHARACTER Gambler SUBTITLE "That's terrific cupcake, is there a man up there we can talk to?"
+RULE C6M1Intro_15aGambler CRITERIA ConceptC6M1Intro_15a IsGambler RESPONSE C6M1Intro_15aGambler
+RESPONSE C6M1Intro_15eGambler CHARACTER Gambler SUBTITLE "Hey, lighten up. Man, no one can take a joke anymore."
+RESPONSE C6M1Intro_15eGambler CHARACTER Gambler SUBTITLE "Wouldja  lighten up?  Man, no one can take a joke anymore."
+RULE C6M1Intro_15eGambler CRITERIA ConceptC6M1Intro_15e IsGambler RESPONSE C6M1Intro_15eGambler
+RESPONSE C6M1Intro_16aGambler CHARACTER Gambler SUBTITLE "Well then climb down, you big ape, and help us."
+RULE C6M1Intro_16aGambler CRITERIA ConceptC6M1Intro_16a IsGambler RESPONSE C6M1Intro_16aGambler
+RESPONSE LeavingC6M1StartGambler CHARACTER Gambler SUBTITLE ""
+RULE LeavingC6M1StartGambler CRITERIA ConceptSurvivorLeavingCheckpoint IsGambler RESPONSE LeavingC6M1StartGambler
+RESPONSE RemWorldC6M1_WeddingWarn02Gambler CHARACTER Gambler SUBTITLE "Coach, no time for cake."
+RESPONSE RemWorldC6M1_WeddingWarn02Gambler CHARACTER Gambler SUBTITLE "I'll keep an eye out for some."
+RESPONSE RemWorldC6M1_WeddingWarn02Gambler CHARACTER Gambler SUBTITLE "Coach, I'll keep an eye out for some. Okay buddy?"
+RULE RemWorldC6M1_WeddingWarn02Gambler CRITERIA ConceptRemWorldC6M1_WeddingWarn02 IsGambler IsSubjectDistNear800 RESPONSE RemWorldC6M1_WeddingWarn02Gambler
+RESPONSE WorldC6M1_HistoricTourGambler CHARACTER Gambler SUBTITLE "[reading] "Historic Rayford Under-the-River Tunnel Tour." THAT'll get us across.""
+RESPONSE WorldC6M1_HistoricTourGambler CHARACTER Gambler SUBTITLE "Look, we can just go under the river. Doesn't that sound fun Ellis?"
+RESPONSE WorldC6M1_HistoricTourGambler CHARACTER Gambler SUBTITLE "Look, we can just go under the river. Doesn't that sound like fun Ellis?"
+RESPONSE WorldC6M1_HistoricTourGambler CHARACTER Gambler SUBTITLE "If we can go under the river, we can get to the other side of the bridge."
+RESPONSE WorldC6M1_HistoricTourGambler CHARACTER Gambler SUBTITLE "Only in the South do I have to go under a goddamn river."
+RESPONSE WorldC6M1_HistoricTourGambler CHARACTER Gambler SUBTITLE "If we can't take the bridge, let's try this under-the-river tour."
+RESPONSE WorldC6M1_HistoricTourGambler CHARACTER Gambler SUBTITLE "Okay, explain something to me; how is an under-the-river tour scenic?"
+RULE WorldC6M1_HistoricTourGambler CRITERIA ConceptWorldC6M1_HistoricTour IsGambler IsNotLeftC6M1Start RESPONSE WorldC6M1_HistoricTourGambler
+RESPONSE WorldC6M1_PostWedding02aGambler CHARACTER Gambler SUBTITLE "Marrying her is the last thing you should do."
+RULE WorldC6M1_PostWedding02aGambler CRITERIA ConceptWorldC6M1_PostWedding02a IsGambler IsSubjectDistNear800 RESPONSE WorldC6M1_PostWedding02aGambler
+RESPONSE WorldC6M1_WeddingWarn05aGambler CHARACTER Gambler SUBTITLE "Yeah, look Ellis, all women are emotional wrecks who will eventually kill you."
+RESPONSE WorldC6M1_WeddingWarn05aGambler CHARACTER Gambler SUBTITLE "Yeah, you're about to get mauled to death."
+RULE WorldC6M1_WeddingWarn05aGambler CRITERIA ConceptWorldC6M1_WeddingWarn05a IsGambler IsSubjectDistNear800 RESPONSE WorldC6M1_WeddingWarn05aGambler
+RESPONSE C6M2_OpenGate1Gambler CHARACTER Gambler SUBTITLE "I opened it."
+RESPONSE C6M2_OpenGate1Gambler CHARACTER Gambler SUBTITLE "I hit it!"
+RULE C6M2_OpenGate1Gambler CRITERIA ConceptC6M2_OpenGate1 IsGambler RESPONSE C6M2_OpenGate1Gambler
+RESPONSE C6M2_OpenGate1aGambler CHARACTER Gambler SUBTITLE "Ellis, what did you just do?"
+RULE C6M2_OpenGate1aGambler CRITERIA ConceptC6M2_OpenGate1a IsGambler RESPONSE C6M2_OpenGate1aGambler
+RESPONSE C6M2_OpenGate2Gambler CHARACTER Gambler SUBTITLE "I opened it."
+RESPONSE C6M2_OpenGate2Gambler CHARACTER Gambler SUBTITLE "Ahh, Christ, you gotta be kidding me."
+RESPONSE C6M2_OpenGate2Gambler CHARACTER Gambler SUBTITLE "Ahh, COME ON!"
+RULE C6M2_OpenGate2Gambler CRITERIA ConceptC6M2_OpenGate2 IsGambler RESPONSE C6M2_OpenGate2Gambler
+RESPONSE C6M2SafeRoomGambler CHARACTER Gambler SUBTITLE ""
+RULE C6M2SafeRoomGambler CRITERIA ConceptTalkIdle  Joined3 IsGambler isC6m2_bedlam IsInStartArea AutoIsNotScavenge AutoIsNotSurvival IsNotSaidC6M2SafeRoom IsNotSpeakingWeight0 RESPONSE C6M2SafeRoomGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo01Gambler CHARACTER Gambler SUBTITLE "So we find this historic section. Go under the river. And then we kick that biker dude's ass, right?"
+RULE DLC1_C6M2_SafeRoomConvo01Gambler CRITERIA ConceptC6M2SafeRoom2 IsGambler IsFrancisIntroActor FrancisGroup5 IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo01Gambler
+RESPONSE DLC1_C6M2_SafeRoomConvo01bGambler CHARACTER Gambler SUBTITLE "Go to hell."
+RULE DLC1_C6M2_SafeRoomConvo01bGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo01b IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo01bGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo02Gambler CHARACTER Gambler SUBTITLE "I can't believe we're waking this far just to keep a damn car."
+RULE DLC1_C6M2_SafeRoomConvo02Gambler CRITERIA ConceptC6M2SafeRoom2 IsGambler IsFrancisIntroActor FrancisGroup1 IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo02Gambler
+RESPONSE DLC1_C6M2_SafeRoomConvo02bGambler CHARACTER Gambler SUBTITLE "I don't have a problem with leaving the car AND you behind. Okay, Ellis?"
+RULE DLC1_C6M2_SafeRoomConvo02bGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo02b IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo02bGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo06aGambler CHARACTER Gambler SUBTITLE "Boiled nuts? Christ. What is wrong with you Southerners?"
+RESPONSE DLC1_C6M2_SafeRoomConvo06aGambler CHARACTER Gambler SUBTITLE "Boiled nuts? Coah, come on, what is wrong with you Southerners?"
+RESPONSE DLC1_C6M2_SafeRoomConvo06aGambler CHARACTER Gambler SUBTITLE "And you want to live?"
+RESPONSE DLC1_C6M2_SafeRoomConvo06aGambler CHARACTER Gambler SUBTITLE "I hate your life Coach."
+RULE DLC1_C6M2_SafeRoomConvo06aGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo06a IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo06aGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo07aGambler CHARACTER Gambler SUBTITLE "I think you had a better chance with that witch."
+RULE DLC1_C6M2_SafeRoomConvo07aGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo07a IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo07aGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo08Gambler CHARACTER Gambler SUBTITLE "So this under-the-river tour, who wants to bet that is going to be filthy."
+RESPONSE DLC1_C6M2_SafeRoomConvo08Gambler CHARACTER Gambler SUBTITLE "If anybody sees any hand sanitizer let me know."
+RULE DLC1_C6M2_SafeRoomConvo08Gambler CRITERIA ConceptC6M2SafeRoom2 IsGambler IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo08Gambler
+RESPONSE DLC1_C6M2_SafeRoomConvo08aGambler CHARACTER Gambler SUBTITLE "What's a matter Rochelle, playing hard to get?"
+RESPONSE DLC1_C6M2_SafeRoomConvo08aGambler CHARACTER Gambler SUBTITLE "What's a matter sweetie, you playing hard to get?"
+RULE DLC1_C6M2_SafeRoomConvo08aGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo08a IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo08aGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo08cGambler CHARACTER Gambler SUBTITLE "I saw the way you were looking at him."
+RESPONSE DLC1_C6M2_SafeRoomConvo08cGambler CHARACTER Gambler SUBTITLE "C'mon... I saw the way you were looking at him."
+RULE DLC1_C6M2_SafeRoomConvo08cGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo08c IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo08cGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo08eGambler CHARACTER Gambler SUBTITLE "I don't know... he fills out a vest pretty good."
+RESPONSE DLC1_C6M2_SafeRoomConvo08eGambler CHARACTER Gambler SUBTITLE "He could be the one."
+RESPONSE DLC1_C6M2_SafeRoomConvo08eGambler CHARACTER Gambler SUBTITLE "Look, there are probably 10 guys left on the planet Rochelle, and you're not getting any younger, sweetie."
+RULE DLC1_C6M2_SafeRoomConvo08eGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo08e IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo08eGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo09bGambler CHARACTER Gambler SUBTITLE "Coach, A germ just wiped out the whole planet. So yes."
+RULE DLC1_C6M2_SafeRoomConvo09bGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo09b IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo09bGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo10Gambler CHARACTER Gambler SUBTITLE "So Ellis, Zoey huh? What do you think?"
+RULE DLC1_C6M2_SafeRoomConvo10Gambler CRITERIA ConceptC6M2SafeRoom2 IsGambler IsZoeyIntroActor ZoeyGroup2 IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo10Gambler
+RESPONSE DLC1_C6M2_SafeRoomConvo10bGambler CHARACTER Gambler SUBTITLE "Yeah, hahaha a little bit more hand sanitizer and we wouldn't be in this mess."
+RULE DLC1_C6M2_SafeRoomConvo10bGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo10b IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo10bGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo10dGambler CHARACTER Gambler SUBTITLE "Under the what now?"
+RULE DLC1_C6M2_SafeRoomConvo10dGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo10d IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo10dGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo11bGambler CHARACTER Gambler SUBTITLE "Yeah agreed, she is totally out of your league."
+RULE DLC1_C6M2_SafeRoomConvo11bGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo11b IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo11bGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo12aGambler CHARACTER Gambler SUBTITLE "Okay, let me get this straight. It's a tunnel... under the river. Right?"
+RESPONSE DLC1_C6M2_SafeRoomConvo12aGambler CHARACTER Gambler SUBTITLE "Let me get this straight, Coach. It's a tunnel... under the river. Right?"
+RULE DLC1_C6M2_SafeRoomConvo12aGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo12a IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo12aGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo12cGambler CHARACTER Gambler SUBTITLE "And this is supposed to teach me about what exactly?"
+RESPONSE DLC1_C6M2_SafeRoomConvo12cGambler CHARACTER Gambler SUBTITLE "And this is supposed to teach me about what exactly?"
+RULE DLC1_C6M2_SafeRoomConvo12cGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo12c IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo12cGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo13aGambler CHARACTER Gambler SUBTITLE "I am not looking forward to this under the river tour."
+RULE DLC1_C6M2_SafeRoomConvo13aGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo13a IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo13aGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo13cGambler CHARACTER Gambler SUBTITLE "Coach, it's a hole. Oh no, excuse me, an historic hole. Under a river."
+RESPONSE DLC1_C6M2_SafeRoomConvo13cGambler CHARACTER Gambler SUBTITLE "Okay, good point. You know what? I am looking forward to punching that grease bag biker in the mouth."
+RULE DLC1_C6M2_SafeRoomConvo13cGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo13c IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo13cGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo14fGambler CHARACTER Gambler SUBTITLE "Yeah, no, I'm good, I'm good."
+RULE DLC1_C6M2_SafeRoomConvo14fGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo14f IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo14fGambler
+RESPONSE DLC1_C6M2_SafeRoomConvo15cGambler CHARACTER Gambler SUBTITLE "Whatever."
+RULE DLC1_C6M2_SafeRoomConvo15cGambler CRITERIA ConceptDLC1_C6M2_SafeRoomConvo15c IsGambler RESPONSE DLC1_C6M2_SafeRoomConvo15cGambler
+RESPONSE WorldC6M2_AfterGate201aGambler CHARACTER Gambler SUBTITLE "Not the time, Ellis."
+RESPONSE WorldC6M2_AfterGate201aGambler CHARACTER Gambler SUBTITLE "Not the time, Ellis."
+RULE WorldC6M2_AfterGate201aGambler CRITERIA ConceptWorldC6M2_AfterGate201a IsGambler RESPONSE WorldC6M2_AfterGate201aGambler
+RESPONSE WorldC6M2_FinalWater01aGambler CHARACTER Gambler SUBTITLE "I hate you, Ellis!"
+RULE WorldC6M2_FinalWater01aGambler CRITERIA ConceptWorldC6M2_FinalWater01a IsGambler RESPONSE WorldC6M2_FinalWater01aGambler
+RESPONSE WorldC6M2_InSewer101cGambler CHARACTER Gambler SUBTITLE "Ellis. I NEED this."
+RULE WorldC6M2_InSewer101cGambler CRITERIA ConceptWorldC6M2_InSewer101c IsGambler RESPONSE WorldC6M2_InSewer101cGambler
+RESPONSE WorldC6M2_InSewer102bGambler CHARACTER Gambler SUBTITLE "YES."
+RULE WorldC6M2_InSewer102bGambler CRITERIA ConceptWorldC6M2_InSewer102b IsGambler RESPONSE WorldC6M2_InSewer102bGambler
+RESPONSE WorldC6M2_InSewer201aGambler CHARACTER Gambler SUBTITLE "Don't you DARE."
+RULE WorldC6M2_InSewer201aGambler CRITERIA ConceptWorldC6M2_InSewer201a IsGambler RESPONSE WorldC6M2_InSewer201aGambler
+RESPONSE WorldC6M2_InSewer202aGambler CHARACTER Gambler SUBTITLE "Ugh"
+RESPONSE WorldC6M2_InSewer202aGambler CHARACTER Gambler SUBTITLE "Ugh"
+RULE WorldC6M2_InSewer202aGambler CRITERIA ConceptWorldC6M2_InSewer202a IsGambler RESPONSE WorldC6M2_InSewer202aGambler
+RESPONSE WorldC6M2_InSewerLadder101aGambler CHARACTER Gambler SUBTITLE "Ugh"
+RESPONSE WorldC6M2_InSewerLadder101aGambler CHARACTER Gambler SUBTITLE "Augh"
+RESPONSE WorldC6M2_InSewerLadder101aGambler CHARACTER Gambler SUBTITLE "Ugh, ugh"
+RESPONSE WorldC6M2_InSewerLadder101aGambler CHARACTER Gambler SUBTITLE "Ugh"
+RESPONSE WorldC6M2_InSewerLadder101aGambler CHARACTER Gambler SUBTITLE "Ugh"
+RESPONSE WorldC6M2_InSewerLadder101aGambler CHARACTER Gambler SUBTITLE "Ugh, ugh"
+RESPONSE WorldC6M2_InSewerLadder101aGambler CHARACTER Gambler SUBTITLE "Bad advice. BAD advice."
+RULE WorldC6M2_InSewerLadder101aGambler CRITERIA ConceptWorldC6M2_InSewerLadder101a IsGambler RESPONSE WorldC6M2_InSewerLadder101aGambler
+RESPONSE WorldC6M2_OnTourWalk101aGambler CHARACTER Gambler SUBTITLE "Shithole?"
+RULE WorldC6M2_OnTourWalk101aGambler CRITERIA ConceptWorldC6M2_OnTourWalk101a IsGambler RESPONSE WorldC6M2_OnTourWalk101aGambler
+RESPONSE WorldC6M2_OnTourWalk102aGambler CHARACTER Gambler SUBTITLE "Toldja."
+RULE WorldC6M2_OnTourWalk102aGambler CRITERIA ConceptWorldC6M2_OnTourWalk102a IsGambler RESPONSE WorldC6M2_OnTourWalk102aGambler
+RESPONSE WorldC6M2_Tattoo01b>Gambler CHARACTER Gambler SUBTITLE "I'll just write greasy pig. We'll all know who we are talking about."
+RESPONSE WorldC6M2_Tattoo01b>Gambler CHARACTER Gambler SUBTITLE "I'll just write greasy pig, we all...(laughs)"
+RESPONSE WorldC6M2_Tattoo01b>Gambler CHARACTER Gambler SUBTITLE "Greasy pig should be close enough, right?"
+RESPONSE WorldC6M2_Tattoo01b>Gambler CHARACTER Gambler SUBTITLE "I'll just write greasy pig. We'll all know who we are talking about."
+RULE WorldC6M2_Tattoo01b>Gambler CRITERIA ConceptWorldC6M2_Tattoo01b> IsGambler RESPONSE WorldC6M2_Tattoo01b>Gambler
+RESPONSE WorldC6M2_Tattoo03a>Gambler CHARACTER Gambler SUBTITLE "That is never going to happen, Ellis."
+RESPONSE WorldC6M2_Tattoo03a>Gambler CHARACTER Gambler SUBTITLE "I'm gonna get a tattoo that says "no"."
+RULE WorldC6M2_Tattoo03a>Gambler CRITERIA ConceptWorldC6M2_Tattoo03a> IsGambler RESPONSE WorldC6M2_Tattoo03a>Gambler
+RESPONSE C6M3_BridgeDownGambler CHARACTER Gambler SUBTITLE "Bridge is down, to the car!"
+RESPONSE C6M3_BridgeDownGambler CHARACTER Gambler SUBTITLE "Bridge is down, to the car!"
+RESPONSE C6M3_BridgeDownGambler CHARACTER Gambler SUBTITLE "GET TO THE CAR, GET TO THE CAR!"
+RESPONSE C6M3_BridgeDownGambler CHARACTER Gambler SUBTITLE "GET TO THE CAR, GET TO THE CAR!"
+RESPONSE C6M3_BridgeDownGambler CHARACTER Gambler SUBTITLE "Thank YOU, Jimmy Gibbs, Jr."
+RESPONSE C6M3_BridgeDownGambler CHARACTER Gambler SUBTITLE "Get to the car!"
+RESPONSE C6M3_BridgeDownGambler CHARACTER Gambler SUBTITLE "Would you get to the goddamn car?"
+RESPONSE C6M3_BridgeDownGambler CHARACTER Gambler SUBTITLE "Everyone to the car!"
+RESPONSE C6M3_BridgeDownGambler CHARACTER Gambler SUBTITLE "I'm not waiting long, get to the car!"
+RESPONSE C6M3_BridgeDownGambler CHARACTER Gambler SUBTITLE "Time to leave people!"
+RESPONSE C6M3_BridgeDownGambler CHARACTER Gambler SUBTITLE "Let's go people, let's go!"
+RULE C6M3_BridgeDownGambler CRITERIA ConceptC6M3_BridgeDown IsGambler RESPONSE C6M3_BridgeDownGambler
+RESPONSE C6M3_BridgeGettoCarGambler CHARACTER Gambler SUBTITLE "Bridge is down, to the car!"
+RESPONSE C6M3_BridgeGettoCarGambler CHARACTER Gambler SUBTITLE "Bridge is down, to the car!"
+RESPONSE C6M3_BridgeGettoCarGambler CHARACTER Gambler SUBTITLE "GET TO THE CAR, GET TO THE CAR!"
+RESPONSE C6M3_BridgeGettoCarGambler CHARACTER Gambler SUBTITLE "GET TO THE CAR, GET TO THE CAR!"
+RESPONSE C6M3_BridgeGettoCarGambler CHARACTER Gambler SUBTITLE "Thank YOU, Jimmy Gibbs, Jr."
+RESPONSE C6M3_BridgeGettoCarGambler CHARACTER Gambler SUBTITLE "Get to the car!"
+RESPONSE C6M3_BridgeGettoCarGambler CHARACTER Gambler SUBTITLE "Would you get to the goddamn car?"
+RESPONSE C6M3_BridgeGettoCarGambler CHARACTER Gambler SUBTITLE "Everyone to the car!"
+RESPONSE C6M3_BridgeGettoCarGambler CHARACTER Gambler SUBTITLE "I'm not waiting long, get to the car!"
+RESPONSE C6M3_BridgeGettoCarGambler CHARACTER Gambler SUBTITLE "Time to leave people!"
+RESPONSE C6M3_BridgeGettoCarGambler CHARACTER Gambler SUBTITLE "Let's go people, let's go!"
+RULE C6M3_BridgeGettoCarGambler CRITERIA ConceptGetToVehicle IsGambler IsNotSaidGetToCar Isc6m3_port RESPONSE C6M3_BridgeGettoCarGambler
+RESPONSE C6M3_elevatorGambler CHARACTER Gambler SUBTITLE "I guess they'll help. Right?"
+RESPONSE C6M3_elevatorGambler CHARACTER Gambler SUBTITLE "First we fill up Gibby's car with gas, now a generator, what next? Don't answer, Ellis."
+RESPONSE C6M3_elevatorGambler CHARACTER Gambler SUBTITLE "Let's get these cans fast."
+RESPONSE C6M3_elevatorGambler CHARACTER Gambler SUBTITLE "Let's not piss around here, alright? Gas up the generator, let's get out of here."
+RULE C6M3_elevatorGambler CRITERIA Conceptc6m3_elevatorCancel IsGambler IsNotSaidC6M3Elevator IsC6M3_port RESPONSE C6M3_elevatorGambler
+RESPONSE C6M3_elevatorFrancisGambler CHARACTER Gambler SUBTITLE "The minute we get down there, I'm shooting that biker."
+RULE C6M3_elevatorFrancisGambler CRITERIA Conceptc6m3_elevatorCancel IsGambler IsNotSaidC6M3Elevator IsC6M3_port IsFrancisIntroActor IsNotVersus FrancisGroup5 RESPONSE C6M3_elevatorFrancisGambler
+RESPONSE C6M3_GivenItemBikerGambler CHARACTER Gambler SUBTITLE "Shit, thanks!"
+RESPONSE C6M3_GivenItemBikerGambler CHARACTER Gambler SUBTITLE "Sorry if I was rude before. You guys are all right!"
+RESPONSE C6M3_GivenItemBikerGambler CHARACTER Gambler SUBTITLE "Thanks, greaseball!"
+RESPONSE C6M3_GivenItemBikerGambler CHARACTER Gambler SUBTITLE "Thanks, pal!"
+RULE C6M3_GivenItemBikerGambler CRITERIA ConceptPlayerPickup IsGambler IsDonorBiker Isc6m3_portHeavy RESPONSE C6M3_GivenItemBikerGambler
+RESPONSE C6M3_GivenItemTeenGirlGambler CHARACTER Gambler SUBTITLE "Thanks, we'll make good use of this."
+RESPONSE C6M3_GivenItemTeenGirlGambler CHARACTER Gambler SUBTITLE "Hey thanks, babe!"
+RESPONSE C6M3_GivenItemTeenGirlGambler CHARACTER Gambler SUBTITLE "Got it, thank you!"
+RULE C6M3_GivenItemTeenGirlGambler CRITERIA ConceptPlayerPickup IsGambler IsDonorTeenGirl Isc6m3_portHeavy RESPONSE C6M3_GivenItemTeenGirlGambler
+RESPONSE C6M3SafeRoomGambler CHARACTER Gambler SUBTITLE ""
+RULE C6M3SafeRoomGambler CRITERIA ConceptTalkIdle  Joined3 IsGambler isC6m3_port IsInStartArea AutoIsNotScavenge AutoIsNotSurvival IsNotSaidC6M3SafeRoom IsNotSpeakingWeight0 RESPONSE C6M3SafeRoomGambler
+RESPONSE DLC1_C6M3_SafeRoomConvo02Gambler CHARACTER Gambler SUBTITLE "I don't trust that biker. He better still be here."
+RULE DLC1_C6M3_SafeRoomConvo02Gambler CRITERIA ConceptC6M3SafeRoom2 IsGambler IsNotSaidC6M3SafeRoom2 IsFrancisIntroActor FrancisGroup5 IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo02Gambler
+RESPONSE DLC1_C6M3_SafeRoomConvo02bGambler CHARACTER Gambler SUBTITLE "You know him that well?"
+RULE DLC1_C6M3_SafeRoomConvo02bGambler CRITERIA ConceptDLC1_C6M3_SafeRoomConvo02b IsGambler RESPONSE DLC1_C6M3_SafeRoomConvo02bGambler
+RESPONSE DLC1_C6M3_SafeRoomConvo02dGambler CHARACTER Gambler SUBTITLE "You got a good feeling about every scumbag that lives on a bridge."
+RULE DLC1_C6M3_SafeRoomConvo02dGambler CRITERIA ConceptDLC1_C6M3_SafeRoomConvo02d IsGambler  IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo02dGambler
+RESPONSE DLC1_C6M3_SafeRoomConvo03bGambler CHARACTER Gambler SUBTITLE "Like you've been crawling through a sewer."
+RULE DLC1_C6M3_SafeRoomConvo03bGambler CRITERIA ConceptDLC1_C6M3_SafeRoomConvo03b IsGambler  IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo03bGambler
+RESPONSE DLC1_C6M3_SafeRoomConvo03dGambler CHARACTER Gambler SUBTITLE "I'm not even going to look."
+RESPONSE DLC1_C6M3_SafeRoomConvo03dGambler CHARACTER Gambler SUBTITLE "I'm not even going to look, Ellis."
+RULE DLC1_C6M3_SafeRoomConvo03dGambler CRITERIA ConceptDLC1_C6M3_SafeRoomConvo03d IsGambler IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo03dGambler
+RESPONSE DLC1_C6M3_SafeRoomConvo04cGambler CHARACTER Gambler SUBTITLE "Don't listen to her. You got five minutes to get this done, Ellis. It is do or die time, buddy."
+RULE DLC1_C6M3_SafeRoomConvo04cGambler CRITERIA ConceptDLC1_C6M3_SafeRoomConvo04c IsGambler IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo04cGambler
+RESPONSE DLC1_C6M3_SafeRoomConvo05Gambler CHARACTER Gambler SUBTITLE "So we're about to see that girl again, what's her name? Zoey?"
+RULE DLC1_C6M3_SafeRoomConvo05Gambler CRITERIA ConceptC6M3SafeRoom2 IsGambler IsNotSaidC6M3SafeRoom2 IsZoeyIntroActor ZoeyGroup1 IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo05Gambler
+RESPONSE DLC1_C6M3_SafeRoomConvo05bGambler CHARACTER Gambler SUBTITLE "What are you nervous about? You had your chance, you didn't do shit. Now you can watch Nick take care of business."
+RULE DLC1_C6M3_SafeRoomConvo05bGambler CRITERIA ConceptDLC1_C6M3_SafeRoomConvo05b IsGambler IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo05bGambler
+RESPONSE DLC1_C6M3_SafeRoomConvo05dGambler CHARACTER Gambler SUBTITLE "What? I'm a handsome man."
+RESPONSE DLC1_C6M3_SafeRoomConvo05dGambler CHARACTER Gambler SUBTITLE "What? I'm a closer."
+RESPONSE DLC1_C6M3_SafeRoomConvo05dGambler CHARACTER Gambler SUBTITLE "What? I'm a handsome man, what can I tell ya?"
+RESPONSE DLC1_C6M3_SafeRoomConvo05dGambler CHARACTER Gambler SUBTITLE "A-B-C. A;ways be closing."
+RULE DLC1_C6M3_SafeRoomConvo05dGambler CRITERIA ConceptDLC1_C6M3_SafeRoomConvo05d IsGambler IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo05dGambler
+RESPONSE IncapBounceGambler CHARACTER Gambler SUBTITLE ""
+RULE IncapBounceGambler CRITERIA ConceptSurvivorIncapacitated IsGambler IsNotSaidInCapBounce isC6m3_port RESPONSE IncapBounceGambler
+RESPONSE C6M3_CansDoneGambler CHARACTER Gambler SUBTITLE "Everyone to the car!"
+RESPONSE C6M3_CansDoneGambler CHARACTER Gambler SUBTITLE "Thanks! We gotta run!"
+RULE C6M3_CansDoneGambler CRITERIA Conceptc6m3escapeready IsGambler IsC6M3_Port IsNotSaidc6m3escapeready RESPONSE C6M3_CansDoneGambler
+RESPONSE SurvivorSpottedFallenGambler CHARACTER Gambler SUBTITLE "Kill that zombie, he's got something!"
+RESPONSE SurvivorSpottedFallenGambler CHARACTER Gambler SUBTITLE "That zombie's got something! Kill it!"
+RESPONSE SurvivorSpottedFallenGambler CHARACTER Gambler SUBTITLE "Get that zombie! He's got something!"
+RESPONSE SurvivorSpottedFallenGambler CHARACTER Gambler SUBTITLE "What's that zombie got?"
+RESPONSE SurvivorSpottedFallenGambler CHARACTER Gambler SUBTITLE "I think that zombie's got something!"
+RESPONSE SurvivorSpottedFallenGambler CHARACTER Gambler SUBTITLE "That zombie's got something!"
+RESPONSE SurvivorSpottedFallenGambler CHARACTER Gambler SUBTITLE "Is that a survivor?"
+RULE SurvivorSpottedFallenGambler CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeFallen IsNotCoughing IsGambler IsTalk IsTalkGambler IsWorldTalkGambler IsNotSaidFallenWarn IsNotSpeakingWeight0 RESPONSE SurvivorSpottedFallenGambler
+RESPONSE PlayerWitchChasingC6M1Gambler CHARACTER Gambler SUBTITLE "Here comes the bride!"
+RULE PlayerWitchChasingC6M1Gambler CRITERIA ConceptPlayerExertionMinor IsGambler IsWitchPresent SubjectIsNotWitch IsNotSaidGamblerWitchChasing IsSaidGamblerWitchAttacking isc6m1_riverbank RESPONSE PlayerWitchChasingC6M1Gambler
+RESPONSE PlayerRemarkremark_MidnightRidersBusGambler CHARACTER Gambler SUBTITLE "Did you guys see that?"
+RESPONSE PlayerRemarkremark_MidnightRidersBusGambler CHARACTER Gambler SUBTITLE "Did you guys see that?"
+RESPONSE PlayerRemarkremark_MidnightRidersBusGambler CHARACTER Gambler SUBTITLE "What in the hell was that?"
+RESPONSE PlayerRemarkremark_MidnightRidersBusGambler CHARACTER Gambler SUBTITLE "I must be dreaming."
+RULE PlayerRemarkremark_MidnightRidersBusGambler CRITERIA ConceptRemark IsGambler Isremark_MidnightRidersBus IsNotSaidremark_MidnightRidersBus IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear1500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkremark_MidnightRidersBusGambler
+RESPONSE PlayerRemarkWorldC6M1_AcrossHereGambler CHARACTER Gambler SUBTITLE "Across the walk-way."
+RULE PlayerRemarkWorldC6M1_AcrossHereGambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_AcrossHere IsNotSaidWorldC6M1_AcrossHere IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_AcrossHereGambler
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowGambler CHARACTER Gambler SUBTITLE "We've got to get up across these walk-ways."
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowGambler CHARACTER Gambler SUBTITLE "We've got to get into this building."
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowGambler CHARACTER Gambler SUBTITLE "We need to get up there."
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowGambler CHARACTER Gambler SUBTITLE "Down this alley."
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowGambler CHARACTER Gambler SUBTITLE "Down here."
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowGambler CHARACTER Gambler SUBTITLE "Down this alley."
+RULE PlayerRemarkWorldC6M1_AlleyBelowGambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_AlleyBelow IsNotSaidWorldC6M1_AlleyBelow IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_AlleyBelowGambler
+RESPONSE PlayerRemarkWorldC6M1_AlleyIntoBuildingGambler CHARACTER Gambler SUBTITLE "Into the apartments."
+RULE PlayerRemarkWorldC6M1_AlleyIntoBuildingGambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_AlleyIntoBuilding IsNotSaidWorldC6M1_AlleyIntoBuilding IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_AlleyIntoBuildingGambler
+RESPONSE PlayerRemarkWorldC6M1_InAptsGambler CHARACTER Gambler SUBTITLE "Into here."
+RESPONSE PlayerRemarkWorldC6M1_InAptsGambler CHARACTER Gambler SUBTITLE "In here."
+RESPONSE PlayerRemarkWorldC6M1_InAptsGambler CHARACTER Gambler SUBTITLE "Over here."
+RESPONSE PlayerRemarkWorldC6M1_InAptsGambler CHARACTER Gambler SUBTITLE "Let's search these rooms for supplies."
+RULE PlayerRemarkWorldC6M1_InAptsGambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_InApts IsNotSaidWorldC6M1_InApts IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_InAptsGambler
+RESPONSE PlayerRemarkWorldC6M1_IntotheparkGambler CHARACTER Gambler SUBTITLE "Let's go through this park."
+RESPONSE PlayerRemarkWorldC6M1_IntotheparkGambler CHARACTER Gambler SUBTITLE "Through this park."
+RULE PlayerRemarkWorldC6M1_IntotheparkGambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_Intothepark IsNotSaidWorldC6M1_Intothepark IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_IntotheparkGambler
+RESPONSE PlayerRemarkWorldC6M1_IntoThePark2Gambler CHARACTER Gambler SUBTITLE "Let's go through this park."
+RULE PlayerRemarkWorldC6M1_IntoThePark2Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_IntoThePark2 IsNotSaidWorldC6M1_IntoThePark2 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_IntoThePark2Gambler
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreGambler CHARACTER Gambler SUBTITLE "Through this store."
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreGambler CHARACTER Gambler SUBTITLE "Let's go through this store."
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreGambler CHARACTER Gambler SUBTITLE "We can get around through this store."
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreGambler CHARACTER Gambler SUBTITLE "Guns in this store!"
+RULE PlayerRemarkWorldC6M1_IntoTheStoreGambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_IntoTheStore IsNotSaidWorldC6M1_IntoTheStore IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreGambler
+RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyGambler CHARACTER Gambler SUBTITLE "Behind this bus."
+RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyGambler CHARACTER Gambler SUBTITLE "Safe house in this building!"
+RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyGambler CHARACTER Gambler SUBTITLE "Safe house back here!"
+RULE PlayerRemarkWorldC6M1_SafeRoomAlleyGambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_SafeRoomAlley IsNotSaidWorldC6M1_SafeRoomAlley IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear600 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyGambler
+RESPONSE PlayerRemarkWorldC6M1_ThroughBarGambler CHARACTER Gambler SUBTITLE "Through here."
+RESPONSE PlayerRemarkWorldC6M1_ThroughBarGambler CHARACTER Gambler SUBTITLE "Through here."
+RULE PlayerRemarkWorldC6M1_ThroughBarGambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_ThroughBar IsNotSaidWorldC6M1_ThroughBar IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_ThroughBarGambler
+RESPONSE PlayerRemarkWorldC6M1_UpHereGambler CHARACTER Gambler SUBTITLE "Back this way."
+RESPONSE PlayerRemarkWorldC6M1_UpHereGambler CHARACTER Gambler SUBTITLE "Back this way."
+RESPONSE PlayerRemarkWorldC6M1_UpHereGambler CHARACTER Gambler SUBTITLE "Guess we go this way."
+RESPONSE PlayerRemarkWorldC6M1_UpHereGambler CHARACTER Gambler SUBTITLE "Up here."
+RULE PlayerRemarkWorldC6M1_UpHereGambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_UpHere IsNotSaidWorldC6M1_UpHere IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_UpHereGambler
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairsGambler CHARACTER Gambler SUBTITLE "Up these stairs."
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairsGambler CHARACTER Gambler SUBTITLE "Let's try upstairs."
+RULE PlayerRemarkWorldC6M1_UpTheStairsGambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_UpTheStairs IsNotSaidWorldC6M1_UpTheStairs IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_UpTheStairsGambler
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Gambler CHARACTER Gambler SUBTITLE "Up the stairs!"
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Gambler CHARACTER Gambler SUBTITLE "We have to get up stairs."
+RULE PlayerRemarkWorldC6M1_UpTheStairs2Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_UpTheStairs2 IsNotSaidWorldC6M1_UpTheStairs2 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Gambler
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnGambler CHARACTER Gambler SUBTITLE "Guess we're crashing this wedding."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnGambler CHARACTER Gambler SUBTITLE "Oh shit a wedding."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnGambler CHARACTER Gambler SUBTITLE "Oh Christ, this is more depressing than the zombies."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnGambler CHARACTER Gambler SUBTITLE "I hate going to weddings."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnGambler CHARACTER Gambler SUBTITLE "Think we are a little late for the wedding."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnGambler CHARACTER Gambler SUBTITLE "Careful! I've seen a bride just like this before."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnGambler CHARACTER Gambler SUBTITLE "That dress. The crying. This is bringing back some bad memories."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnGambler CHARACTER Gambler SUBTITLE "This is bringing back some bad memories."
+RULE PlayerRemarkWorldC6M1_WeddingWarnGambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_WeddingWarn IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarnGambler
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Gambler CHARACTER Gambler SUBTITLE "Guess we're crashing this wedding."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Gambler CHARACTER Gambler SUBTITLE "Oh shit a wedding."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Gambler CHARACTER Gambler SUBTITLE "Oh Christ, this is more depressing than the zombies."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Gambler CHARACTER Gambler SUBTITLE "I hate going to weddings."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Gambler CHARACTER Gambler SUBTITLE "Think we are a little late for the wedding."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Gambler CHARACTER Gambler SUBTITLE "Careful! I've seen a bride just like this before."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Gambler CHARACTER Gambler SUBTITLE "That dress. The crying. This is bringing back some bad memories."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Gambler CHARACTER Gambler SUBTITLE "This is bringing back some bad memories."
+RULE PlayerRemarkWorldC6M1_WeddingWarn1Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_WeddingWarn1 IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Gambler
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Gambler CHARACTER Gambler SUBTITLE "Guess we're crashing this wedding."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Gambler CHARACTER Gambler SUBTITLE "Oh shit a wedding."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Gambler CHARACTER Gambler SUBTITLE "Oh Christ, this is more depressing than the zombies."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Gambler CHARACTER Gambler SUBTITLE "I hate going to weddings."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Gambler CHARACTER Gambler SUBTITLE "Think we are a little late for the wedding."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Gambler CHARACTER Gambler SUBTITLE "Careful! I've seen a bride just like this before."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Gambler CHARACTER Gambler SUBTITLE "That dress. The crying. This is bringing back some bad memories."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Gambler CHARACTER Gambler SUBTITLE "This is bringing back some bad memories."
+RULE PlayerRemarkWorldC6M1_WeddingWarn2Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_WeddingWarn2 IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Gambler
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Gambler CHARACTER Gambler SUBTITLE "Guess we're crashing this wedding."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Gambler CHARACTER Gambler SUBTITLE "Oh shit a wedding."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Gambler CHARACTER Gambler SUBTITLE "Oh Christ, this is more depressing than the zombies."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Gambler CHARACTER Gambler SUBTITLE "I hate going to weddings."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Gambler CHARACTER Gambler SUBTITLE "Think we are a little late for the wedding."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Gambler CHARACTER Gambler SUBTITLE "Careful! I've seen a bride just like this before."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Gambler CHARACTER Gambler SUBTITLE "That dress. The crying. This is bringing back some bad memories."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Gambler CHARACTER Gambler SUBTITLE "This is bringing back some bad memories."
+RULE PlayerRemarkWorldC6M1_WeddingWarn3Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_WeddingWarn3 IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Gambler
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnAngelGambler CHARACTER Gambler SUBTITLE "(whispered in Ellis accent) Ellis look, it's another angel."
+RULE PlayerRemarkWorldC6M1_WeddingWarnAngelGambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_WeddingWarn IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsMechanicNear800Weight0 IsZoeyIntroActor ZoeyGroup2 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarnAngelGambler
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnEllisGambler CHARACTER Gambler SUBTITLE "Ellis, maybe you should grab that dress for your new girlfriend."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnEllisGambler CHARACTER Gambler SUBTITLE "Ellis, go give the bride a kiss it'll be good luck. Trust me."
+RULE PlayerRemarkWorldC6M1_WeddingWarnEllisGambler CRITERIA ConceptRemark IsGambler IsWorldC6M1_WeddingWarn IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsMechanicNear800Weight0 IsZoeyIntroActor ZoeyGroup1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarnEllisGambler
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankGambler CHARACTER Gambler SUBTITLE "Over this plank."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankGambler CHARACTER Gambler SUBTITLE "Watch out for smokers."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankGambler CHARACTER Gambler SUBTITLE "Watch out for chargers."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankGambler CHARACTER Gambler SUBTITLE "Okay, let's cross this plank quick."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankGambler CHARACTER Gambler SUBTITLE "Don't look down."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankGambler CHARACTER Gambler SUBTITLE "Watch yourself on this thing."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankGambler CHARACTER Gambler SUBTITLE "Watch out for chargers."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankGambler CHARACTER Gambler SUBTITLE "Cross quick before a smoker grabs you."
+RULE PlayerRemarkWorldC6M2_AcrossPlankGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_AcrossPlank IsNotSaidWorldC6M2_AcrossPlank IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear250 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_AcrossPlankGambler
+RESPONSE PlayerRemarkWorldC6M2_AfterGate1Gambler CHARACTER Gambler SUBTITLE "Keep moving!"
+RESPONSE PlayerRemarkWorldC6M2_AfterGate1Gambler CHARACTER Gambler SUBTITLE "Don't stop in the sewer!"
+RESPONSE PlayerRemarkWorldC6M2_AfterGate1Gambler CHARACTER Gambler SUBTITLE "We gotta keep moving, people."
+RULE PlayerRemarkWorldC6M2_AfterGate1Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_AfterGate1 IsNotSaidWorldC6M2_AfterGate1 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_AfterGate1Gambler
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Gambler CHARACTER Gambler SUBTITLE "Ehhh."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Gambler CHARACTER Gambler SUBTITLE "Ahhh."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Gambler CHARACTER Gambler SUBTITLE "Ahhh."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Gambler CHARACTER Gambler SUBTITLE "Ehhh."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Gambler CHARACTER Gambler SUBTITLE "I am walking through a toilet. Thank you, Jimmy Gibbs."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Gambler CHARACTER Gambler SUBTITLE "[to self] "Hey, Nick, what's new?" "Oh, not much. I couldn't drive Jimmy Gibby's stock car over a bridge, so I'm crawling through a shit-filled sewer so I can lower it. You?""
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Gambler CHARACTER Gambler SUBTITLE "Gotta get up on the cat walks."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Gambler CHARACTER Gambler SUBTITLE "We need to find a ladder."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Gambler CHARACTER Gambler SUBTITLE "Gotta get back up on the cat walk."
+RULE PlayerRemarkWorldC6M2_AfterGate2Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_AfterGate2 IsNotSaidWorldC6M2_AfterGate2 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_AfterGate2Gambler
+RESPONSE PlayerRemarkWorldC6M2_DownHereGambler CHARACTER Gambler SUBTITLE "Down here."
+RESPONSE PlayerRemarkWorldC6M2_DownHereGambler CHARACTER Gambler SUBTITLE "Down here!"
+RESPONSE PlayerRemarkWorldC6M2_DownHereGambler CHARACTER Gambler SUBTITLE "Down here."
+RESPONSE PlayerRemarkWorldC6M2_DownHereGambler CHARACTER Gambler SUBTITLE "Down here."
+RESPONSE PlayerRemarkWorldC6M2_DownHereGambler CHARACTER Gambler SUBTITLE "Down here."
+RULE PlayerRemarkWorldC6M2_DownHereGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_DownHere IsNotSaidWorldC6M2_DownHere IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_DownHereGambler
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingGambler CHARACTER Gambler SUBTITLE "Through this building."
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingGambler CHARACTER Gambler SUBTITLE "In here."
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingGambler CHARACTER Gambler SUBTITLE "Down these stairs."
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingGambler CHARACTER Gambler SUBTITLE "Get in there."
+RULE PlayerRemarkWorldC6M2_DownIntoBuildingGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_DownIntoBuilding IsNotSaidWorldC6M2_DownIntoBuilding IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingGambler
+RESPONSE PlayerRemarkWorldC6M2_FinalLadderGambler CHARACTER Gambler SUBTITLE "Ladder!"
+RESPONSE PlayerRemarkWorldC6M2_FinalLadderGambler CHARACTER Gambler SUBTITLE "Up the ladder!"
+RULE PlayerRemarkWorldC6M2_FinalLadderGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_FinalLadder IsNotSaidWorldC6M2_FinalLadder IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_FinalLadderGambler
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterGambler CHARACTER Gambler SUBTITLE "Back in the water."
+RULE PlayerRemarkWorldC6M2_FinalWaterGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_FinalWater IsNotSaidWorldC6M2_FinalWater IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_FinalWaterGambler
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoGambler CHARACTER Gambler SUBTITLE "Keep moving!"
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoGambler CHARACTER Gambler SUBTITLE "Keep moving!"
+RULE PlayerRemarkWorldC6M2_FinalWaterGoGoGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_FinalWaterGoGo IsNotSaidWorldC6M2_FinalWaterGoGo IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoGambler
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubGambler CHARACTER Gambler SUBTITLE "Into the Jazz Club."
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubGambler CHARACTER Gambler SUBTITLE "Looks like the tour is in the Jazz Club."
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubGambler CHARACTER Gambler SUBTITLE "The tunnel's in the Club."
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubGambler CHARACTER Gambler SUBTITLE "The tour's through this Jazz Club."
+RULE PlayerRemarkWorldC6M2_InJazzClubGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_InJazzClub IsNotSaidWorldC6M2_InJazzClub IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear1000 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InJazzClubGambler
+RESPONSE PlayerRemarkWorldC6M2_InSewer1Gambler CHARACTER Gambler SUBTITLE "(to self) It's just a storm sewer, it is just a STORM sewer"
+RESPONSE PlayerRemarkWorldC6M2_InSewer1Gambler CHARACTER Gambler SUBTITLE "A sewer filled with bodies. [Sarcastic] This is sanitary."
+RESPONSE PlayerRemarkWorldC6M2_InSewer1Gambler CHARACTER Gambler SUBTITLE "Here's a pleasant thought: Any one of us gets pounced, we are going to be fully submerged in shit water."
+RESPONSE PlayerRemarkWorldC6M2_InSewer1Gambler CHARACTER Gambler SUBTITLE "Seriously, is nobody else freaked out right now? We are walking through a SEWER."
+RESPONSE PlayerRemarkWorldC6M2_InSewer1Gambler CHARACTER Gambler SUBTITLE "A sewer filled with bodies. [Sarcastic] This is sanitary."
+RESPONSE PlayerRemarkWorldC6M2_InSewer1Gambler CHARACTER Gambler SUBTITLE "Oh, this is some gross shit."
+RULE PlayerRemarkWorldC6M2_InSewer1Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_InSewer1 IsNotSaidWorldC6M2_InSewer1 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InSewer1Gambler
+RESPONSE PlayerRemarkWorldC6M2_InSewer2Gambler CHARACTER Gambler SUBTITLE "I am breathing shit air into my lungs, it is being absorbed into my bloodstream. I am literally full of shit."
+RESPONSE PlayerRemarkWorldC6M2_InSewer2Gambler CHARACTER Gambler SUBTITLE "Seriously, look, I will pay any one of you a thousand dollars right now to give me a piggyback ride."
+RULE PlayerRemarkWorldC6M2_InSewer2Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_InSewer2 IsNotSaidWorldC6M2_InSewer2 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsSaidWorldC6M2_InSewer1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InSewer2Gambler
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Gambler CHARACTER Gambler SUBTITLE "Everyone out of the pool."
+RULE PlayerRemarkWorldC6M2_InSewerLadder1Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_InSewerLadder1 IsNotSaidWorldC6M2_InSewerLadder1 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Gambler
+RESPONSE PlayerRemarkWorldC6M2_IntoConstructionGambler CHARACTER Gambler SUBTITLE "Drop down here."
+RESPONSE PlayerRemarkWorldC6M2_IntoConstructionGambler CHARACTER Gambler SUBTITLE "Into the construction site."
+RULE PlayerRemarkWorldC6M2_IntoConstructionGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_IntoConstruction IsNotSaidWorldC6M2_IntoConstruction IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear150 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_IntoConstructionGambler
+RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallGambler CHARACTER Gambler SUBTITLE "Get into the pool hall!"
+RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallGambler CHARACTER Gambler SUBTITLE "Jump in through the window."
+RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallGambler CHARACTER Gambler SUBTITLE "Go in the window."
+RULE PlayerRemarkWorldC6M2_IntoPoolHallGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_IntoPoolHall IsNotSaidWorldC6M2_IntoPoolHall IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallGambler
+RESPONSE PlayerRemarkWorldC6M2_JukeBoxGambler CHARACTER Gambler SUBTITLE "Hit the jukebox."
+RESPONSE PlayerRemarkWorldC6M2_JukeBoxGambler CHARACTER Gambler SUBTITLE "Let's hear some music."
+RULE PlayerRemarkWorldC6M2_JukeBoxGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_JukeBox IsNotSaidWorldC6M2_JukeBox IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear150 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_JukeBoxGambler
+RESPONSE PlayerRemarkWorldC6M2_JumpDownGambler CHARACTER Gambler SUBTITLE "Let's do this together."
+RESPONSE PlayerRemarkWorldC6M2_JumpDownGambler CHARACTER Gambler SUBTITLE "Who wants to jump first?"
+RULE PlayerRemarkWorldC6M2_JumpDownGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_JumpDown IsNotSaidWorldC6M2_JumpDown IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_JumpDownGambler
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Gambler CHARACTER Gambler SUBTITLE "Stay on the walkway."
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Gambler CHARACTER Gambler SUBTITLE "Follow the walkway."
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Gambler CHARACTER Gambler SUBTITLE "Jesus, this place sucks."
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Gambler CHARACTER Gambler SUBTITLE "[sarcastic] Yeah. Tunnels. You're right, Coach, you're so right. History is coming alive."
+RULE PlayerRemarkWorldC6M2_OnTourWalk1Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_OnTourWalk1 IsNotSaidWorldC6M2_OnTourWalk1 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Gambler
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk2Gambler CHARACTER Gambler SUBTITLE "So... it's an antique basement, then. Fanntastic."
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk2Gambler CHARACTER Gambler SUBTITLE "Why is everything "historic" always so goddamn filthy?"
+RULE PlayerRemarkWorldC6M2_OnTourWalk2Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_OnTourWalk2 IsNotSaidWorldC6M2_OnTourWalk2 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OnTourWalk2Gambler
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk3Gambler CHARACTER Gambler SUBTITLE "From one con man to another: five bucks for this? I tip my hat to you, Rayford."
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk3Gambler CHARACTER Gambler SUBTITLE "Five goddamn dollars for an under-the-river tour? Well played, Rayford. Well played."
+RULE PlayerRemarkWorldC6M2_OnTourWalk3Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_OnTourWalk3 IsNotSaidWorldC6M2_OnTourWalk3 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OnTourWalk3Gambler
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Gambler CHARACTER Gambler SUBTITLE "Goddamn alarm door."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Gambler CHARACTER Gambler SUBTITLE "When we open this door its gonna alert the zombies."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Gambler CHARACTER Gambler SUBTITLE "Shit, alarm door."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Gambler CHARACTER Gambler SUBTITLE "Let's get ready!"
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Gambler CHARACTER Gambler SUBTITLE "This is gonna get noisy."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Gambler CHARACTER Gambler SUBTITLE "Get ready to run."
+RULE PlayerRemarkWorldC6M2_OpenGate1Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_OpenGate1 IsNotSaidWorldC6M2_OpenGate1 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSaidOpenedGate1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OpenGate1Gambler
+RESPONSE PlayerRemarkWorldC6M2_OpenGate2Gambler CHARACTER Gambler SUBTITLE "Hope this one works."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate2Gambler CHARACTER Gambler SUBTITLE "This one better work."
+RULE PlayerRemarkWorldC6M2_OpenGate2Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_OpenGate2 IsNotSaidWorldC6M2_OpenGate2 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSaidOpenedGate2 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OpenGate2Gambler
+RESPONSE PlayerRemarkWorldC6M2_Phase2Gambler CHARACTER Gambler SUBTITLE "Tour ends, time to head down."
+RESPONSE PlayerRemarkWorldC6M2_Phase2Gambler CHARACTER Gambler SUBTITLE "Tour's over."
+RESPONSE PlayerRemarkWorldC6M2_Phase2Gambler CHARACTER Gambler SUBTITLE "Should we wait until they finish?"
+RESPONSE PlayerRemarkWorldC6M2_Phase2Gambler CHARACTER Gambler SUBTITLE "Jesus Christ, what did we just pay five bucks for?"
+RESPONSE PlayerRemarkWorldC6M2_Phase2Gambler CHARACTER Gambler SUBTITLE "Phase Two? Does this even go through?"
+RULE PlayerRemarkWorldC6M2_Phase2Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_Phase2 IsNotSaidWorldC6M2_Phase2 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_Phase2Gambler
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownGambler CHARACTER Gambler SUBTITLE "Let's get off these stairs."
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownGambler CHARACTER Gambler SUBTITLE "DOWN THE STAIRS, DOWN THE STAIRS!"
+RULE PlayerRemarkWorldC6M2_Phase2DownGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_Phase2Down IsNotSaidWorldC6M2_Phase2Down IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_Phase2DownGambler
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseGambler CHARACTER Gambler SUBTITLE "Don't stop on the stairs, GO!!!"
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseGambler CHARACTER Gambler SUBTITLE "GO DOWN!"
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseGambler CHARACTER Gambler SUBTITLE "DOWN DOWN DOWN!"
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseGambler CHARACTER Gambler SUBTITLE "DOWN, LET'S GO!"
+RULE PlayerRemarkWorldC6M2_Phase2DownIntenseGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_Phase2Down IsNotSaidWorldC6M2_Phase2Down IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IntensityOver75 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseGambler
+RESPONSE PlayerRemarkWorldC6M2_PostGate1xGambler CHARACTER Gambler SUBTITLE "Goddamnit. Back in the shit water."
+RESPONSE PlayerRemarkWorldC6M2_PostGate1xGambler CHARACTER Gambler SUBTITLE "Goddamnit. We're back in the toilet."
+RESPONSE PlayerRemarkWorldC6M2_PostGate1xGambler CHARACTER Gambler SUBTITLE "THIS was going to be their goddamn tour?"
+RESPONSE PlayerRemarkWorldC6M2_PostGate1xGambler CHARACTER Gambler SUBTITLE "Great, back to the goddamn history of sewage."
+RULE PlayerRemarkWorldC6M2_PostGate1xGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_PostGate1 IsNotSaidWorldC6M2_PostGate1 IsNotCoughing IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsSaidOpenedGate1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_PostGate1xGambler
+RESPONSE PlayerRemarkWorldC6M2_SafeRoomGambler CHARACTER Gambler SUBTITLE "Saferoom!"
+RULE PlayerRemarkWorldC6M2_SafeRoomGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_SafeRoom IsNotSaidWorldC6M2_SafeRoom IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear800 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_SafeRoomGambler
+RESPONSE PlayerRemarkWorldC6M2_SuitcaseGambler CHARACTER Gambler SUBTITLE "I like the way this guy packs."
+RESPONSE PlayerRemarkWorldC6M2_SuitcaseGambler CHARACTER Gambler SUBTITLE "Don't mind if I do."
+RULE PlayerRemarkWorldC6M2_SuitcaseGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_Suitcase IsNotSaidWorldC6M2_Suitcase IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear100 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_SuitcaseGambler
+RESPONSE PlayerRemarkWorldC6M2_TattooGambler CHARACTER Gambler SUBTITLE "Who wants a tattoo?"
+RESPONSE PlayerRemarkWorldC6M2_TattooGambler CHARACTER Gambler SUBTITLE "I've never done a colored tattoo."
+RULE PlayerRemarkWorldC6M2_TattooGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_Tattoo IsNotSaidWorldC6M2_Tattoo IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_TattooGambler
+RESPONSE PlayerRemarkWorldC6M2_TattooR&NGambler CHARACTER Gambler SUBTITLE "Rochelle, do you want me to tattoo your boyfriend's name on your arm?"
+RULE PlayerRemarkWorldC6M2_TattooR&NGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_Tattoo IsNotSaidWorldC6M2_Tattoo IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300  IsProducerNear800Weight0 FrancisGroup4 IsFrancisIntroActor IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_TattooR&NGambler
+RESPONSE PlayerRemarkWorldC6M2_TattooZoeyGambler CHARACTER Gambler SUBTITLE "Ellis, did you get that girl's name? 'Cause I can tattoo it on your ass. She'll like that."
+RESPONSE PlayerRemarkWorldC6M2_TattooZoeyGambler CHARACTER Gambler SUBTITLE "Hey Ellis, did you get that girl's name? Because you know what? I can tattoo it on your ass. She'll love it."
+RESPONSE PlayerRemarkWorldC6M2_TattooZoeyGambler CHARACTER Gambler SUBTITLE "Ellis, did you get that girl's name? 'Cause I can tattoo it on your ass. She'll like that."
+RULE PlayerRemarkWorldC6M2_TattooZoeyGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_Tattoo IsNotSaidWorldC6M2_Tattoo IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsMechanicNear800Weight0 IsZoeyIntroActor ZoeyGroup1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_TattooZoeyGambler
+RESPONSE PlayerRemarkWorldC6M2_TattooZoey2Gambler CHARACTER Gambler SUBTITLE "Ellis, did you get that girl's name? 'Cause I can tattoo it on your ass. She'll like that."
+RESPONSE PlayerRemarkWorldC6M2_TattooZoey2Gambler CHARACTER Gambler SUBTITLE "Hey Ellis, did you get that girl's name? Because you know what? I can tattoo it on your ass. She'll love it."
+RESPONSE PlayerRemarkWorldC6M2_TattooZoey2Gambler CHARACTER Gambler SUBTITLE "Ellis, did you get that girl's name? 'Cause I can tattoo it on your ass. She'll like that."
+RULE PlayerRemarkWorldC6M2_TattooZoey2Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_Tattoo IsNotSaidWorldC6M2_Tattoo IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsMechanicNear800Weight0 IsZoeyIntroActor ZoeyGroup2 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_TattooZoey2Gambler
+RESPONSE PlayerRemarkWorldC6M2_TourEntranceGambler CHARACTER Gambler SUBTITLE "This'll take us under the river."
+RULE PlayerRemarkWorldC6M2_TourEntranceGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_TourEntrance IsNotSaidWorldC6M2_TourEntrance IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_TourEntranceGambler
+RESPONSE PlayerRemarkWorldC6M2_UpCatWalkGambler CHARACTER Gambler SUBTITLE "Thank GOD!"
+RESPONSE PlayerRemarkWorldC6M2_UpCatWalkGambler CHARACTER Gambler SUBTITLE "A ladder!"
+RULE PlayerRemarkWorldC6M2_UpCatWalkGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_UpCatWalk IsNotSaidWorldC6M2_UpCatWalk IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_UpCatWalkGambler
+RESPONSE PlayerRemarkWorldC6M2_UpStairsGambler CHARACTER Gambler SUBTITLE "Up these stairs."
+RESPONSE PlayerRemarkWorldC6M2_UpStairsGambler CHARACTER Gambler SUBTITLE "Up the stairs!"
+RESPONSE PlayerRemarkWorldC6M2_UpStairsGambler CHARACTER Gambler SUBTITLE "Let's get up to the street."
+RESPONSE PlayerRemarkWorldC6M2_UpStairsGambler CHARACTER Gambler SUBTITLE "Let's get to the street."
+RESPONSE PlayerRemarkWorldC6M2_UpStairsGambler CHARACTER Gambler SUBTITLE "Let's get to street level."
+RULE PlayerRemarkWorldC6M2_UpStairsGambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_UpStairs IsNotSaidWorldC6M2_UpStairs IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_UpStairsGambler
+RESPONSE PlayerRemarkWorldC6M2_UpStairs2Gambler CHARACTER Gambler SUBTITLE "Up these stairs."
+RESPONSE PlayerRemarkWorldC6M2_UpStairs2Gambler CHARACTER Gambler SUBTITLE "Up the stairs!"
+RULE PlayerRemarkWorldC6M2_UpStairs2Gambler CRITERIA ConceptRemark IsGambler IsWorldC6M2_UpStairs2 IsNotSaidWorldC6M2_UpStairs2 IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_UpStairs2Gambler
+RESPONSE PlayerRemarkWorldC6M3_BridgeRunGambler CHARACTER Gambler SUBTITLE "THANKS, YOU THREE!"
+RESPONSE PlayerRemarkWorldC6M3_BridgeRunGambler CHARACTER Gambler SUBTITLE "GOOD LUCK! THANKS!"
+RULE PlayerRemarkWorldC6M3_BridgeRunGambler CRITERIA ConceptRemark IsGambler IsWorldC6M3_BridgeRun IsNotSaidWorldC6M3_BridgeRun IsNotCoughing  IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M3_BridgeRunGambler
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeGambler CHARACTER Gambler SUBTITLE "Thanks, guys. You good?"
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeGambler CHARACTER Gambler SUBTITLE "Thank you. Good luck out there, huh?"
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeGambler CHARACTER Gambler SUBTITLE "You three take care of yourselves. And thanks."
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeGambler CHARACTER Gambler SUBTITLE "We won't forget this."
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeGambler CHARACTER Gambler SUBTITLE "Be safe, you three."
+RULE PlayerRemarkWorldC6M3_ByBridgeGambler CRITERIA ConceptRemark IsGambler IsWorldC6M3_ByBridge IsNotSaidWorldC6M3_ByBridge IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear300 IsSaidFinalVehicleArrived IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M3_ByBridgeGambler
+RESPONSE PlayerRemarkWorldFootLockerGambler CHARACTER Gambler SUBTITLE "Let's see what's in here."
+RESPONSE PlayerRemarkWorldFootLockerGambler CHARACTER Gambler SUBTITLE "Let's open this up."
+RESPONSE PlayerRemarkWorldFootLockerGambler CHARACTER Gambler SUBTITLE "Open it up."
+RULE PlayerRemarkWorldFootLockerGambler CRITERIA ConceptRemark IsGambler IsWorldFootLocker IsNotSaidWorldFootLocker IsNotCoughing NotInCombat IsTalk IsTalkGambler IsWorldTalkGambler IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldFootLockerGambler
+RESPONSE C6M3_PourFinishedGambler CHARACTER Gambler SUBTITLE ""
+RULE C6M3_PourFinishedGambler CRITERIA ConceptPlayerPourFinished IsGambler IsTalk IsTalkGambler IsWorldTalkGambler  Isc6m3_port ChanceToFire20Percent RESPONSE C6M3_PourFinishedGambler
+RESPONSE SurvivorNearFinaleC6M3Gambler CHARACTER Gambler SUBTITLE ""
+RULE SurvivorNearFinaleC6M3Gambler CRITERIA ConceptPlayerNearFinale IsNotCoughing IsGambler IsNotSaidFinaleAhead NotInCombat IsTalk IsTalkGambler IsNotIncapacitated IsWorldTalkGambler Isc6m3_port RESPONSE SurvivorNearFinaleC6M3Gambler
+RESPONSE C6M1TakeSubMachineGunGambler CHARACTER Gambler SUBTITLE "(picking up gun) Hold on a sec, I'm gonna go back and shoot that jackass."
+RESPONSE C6M1TakeSubMachineGunGambler CHARACTER Gambler SUBTITLE "(picking up gun) Hold on, I'm gonna go back and shoot that tattoo disaster."
+RESPONSE C6M1TakeSubMachineGunGambler CHARACTER Gambler SUBTITLE "(picking up gun - to self) I would love to go back and shoot that vest wearing jackass."
+RULE C6M1TakeSubMachineGunGambler CRITERIA ConceptPlayerPickup IsNotCoughing IsGambler IsPickedUpSMG IsNotSpeaking ChanceToFire30Percent GamblerNotPickedUpItem IsTalk IsTalkGambler IsWorldTalkGambler IsJustSaidWorldC6M1_IntoTheStore FrancisGroup5 RESPONSE C6M1TakeSubMachineGunGambler
+RESPONSE SurvivorPickupGolfCLubGambler CHARACTER Gambler SUBTITLE "Grabbing a golf club."
+RESPONSE SurvivorPickupGolfCLubGambler CHARACTER Gambler SUBTITLE "Grabbing the driver."
+RULE SurvivorPickupGolfCLubGambler CRITERIA ConceptPlayerPickup IsNotCoughing IsGambler IsPickedUpGolfClub  IsNotSpeaking  GamblerNotPickedUpItem IsTalk IsTalkGambler IsWorldTalkGambler RESPONSE SurvivorPickupGolfCLubGambler
+RESPONSE SurvivorPickupM60Gambler CHARACTER Gambler SUBTITLE "I'm grabbing the big gun."
+RESPONSE SurvivorPickupM60Gambler CHARACTER Gambler SUBTITLE "Grabbing the chain gun."
+RESPONSE SurvivorPickupM60Gambler CHARACTER Gambler SUBTITLE "Shit, this is heavy."
+RULE SurvivorPickupM60Gambler CRITERIA ConceptPlayerPickup IsNotCoughing IsGambler IsPickedUpM60  IsNotSpeaking  GamblerNotPickedUpItem IsTalk IsTalkGambler IsWorldTalkGambler RESPONSE SurvivorPickupM60Gambler
+RESPONSE HistoricTour01aGambler CHARACTER Gambler SUBTITLE "Trust me, that won't be the case."
+RULE HistoricTour01aGambler CRITERIA ConceptHistoricTour01a IsGambler RESPONSE HistoricTour01aGambler
+RESPONSE WeddingWitchDead03Gambler CHARACTER Gambler SUBTITLE "That's a good one Coach."
+RESPONSE WeddingWitchDead03Gambler CHARACTER Gambler SUBTITLE "Coach! That's a good one."
+RULE WeddingWitchDead03Gambler CRITERIA ConceptWeddingWitchDead03 IsGambler RESPONSE WeddingWitchDead03Gambler
+RESPONSE Player.LostCallC6M3Gambler CHARACTER Gambler SUBTITLE ""
+RULE Player.LostCallC6M3Gambler CRITERIA ConceptTalkIdle IsGambler IsClosestSurvivorFar3000 IsNotSaidPlayerLostCall Isc6m3_port  ChanceToFire100Percent IsNotSpeakingWeight0 RESPONSE Player.LostCallC6M3Gambler
+RESPONSE SurvivorSpottedGolfClubGambler CHARACTER Gambler SUBTITLE "Club here!"
+RESPONSE SurvivorSpottedGolfClubGambler CHARACTER Gambler SUBTITLE "Club here!"
+RESPONSE SurvivorSpottedGolfClubGambler CHARACTER Gambler SUBTITLE "Driver here!"
+RULE SurvivorSpottedGolfClubGambler CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsGambler IsTalk IsTalkGambler IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsGolfClub IsWorldTalkGambler IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGolfClubGambler
+RESPONSE SurvivorSpottedGolfClubAutoGambler CHARACTER Gambler SUBTITLE "Club here!"
+RESPONSE SurvivorSpottedGolfClubAutoGambler CHARACTER Gambler SUBTITLE "Club here!"
+RESPONSE SurvivorSpottedGolfClubAutoGambler CHARACTER Gambler SUBTITLE "Driver here!"
+RULE SurvivorSpottedGolfClubAutoGambler CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsGambler IsTalk IsTalkGambler IsNotSmartLookAuto IsGolfClub IsWorldTalkGambler RESPONSE SurvivorSpottedGolfClubAutoGambler
+RESPONSE SurvivorSpottedM60Gambler CHARACTER Gambler SUBTITLE "Now this is a gun."
+RESPONSE SurvivorSpottedM60Gambler CHARACTER Gambler SUBTITLE "Shit, this is a gun."
+RESPONSE SurvivorSpottedM60Gambler CHARACTER Gambler SUBTITLE "Big gun."
+RULE SurvivorSpottedM60Gambler CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsGambler IsTalk IsTalkGambler IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsM60 IsWorldTalkGambler IsNotSpeakingWeight0 RESPONSE SurvivorSpottedM60Gambler
+RESPONSE SurvivorSpottedM60AutoGambler CHARACTER Gambler SUBTITLE "Now this is a gun."
+RESPONSE SurvivorSpottedM60AutoGambler CHARACTER Gambler SUBTITLE "Shit, this is a gun."
+RESPONSE SurvivorSpottedM60AutoGambler CHARACTER Gambler SUBTITLE "Big gun."
+RULE SurvivorSpottedM60AutoGambler CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsGambler IsTalk IsTalkGambler IsNotSmartLookAuto IsM60 IsWorldTalkGambler RESPONSE SurvivorSpottedM60AutoGambler
+
+
+

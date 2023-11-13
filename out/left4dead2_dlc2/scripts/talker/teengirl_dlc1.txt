@@ -1,0 +1,186 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc2/scripts/talker/teengirl_dlc1.txt
+-------------------------------------------------------
+
+RESPONSE L4D1PlayerNiceShotTeenGirl CHARACTER TeenGirl SUBTITLE "Nicely played sir"
+RESPONSE L4D1PlayerNiceShotTeenGirl CHARACTER TeenGirl SUBTITLE "Great shot!"
+RESPONSE L4D1PlayerNiceShotTeenGirl CHARACTER TeenGirl SUBTITLE "Nice shot!"
+RESPONSE L4D1PlayerNiceShotTeenGirl CHARACTER TeenGirl SUBTITLE "Good one!"
+RESPONSE L4D1PlayerNiceShotTeenGirl CHARACTER TeenGirl SUBTITLE "Sweet shot!"
+RESPONSE L4D1PlayerNiceShotTeenGirl CHARACTER TeenGirl SUBTITLE "Killer shot!"
+RULE L4D1PlayerNiceShotTeenGirl CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsTeenGirl IsSubjectDistNear1500  IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotSpeaking ChanceToFire70Percent RESPONSE L4D1PlayerNiceShotTeenGirl
+RESPONSE C6M1Intro_01TeenGirl01TeenGirl CHARACTER TeenGirl SUBTITLE "Nice car!"
+RESPONSE C6M1Intro_01TeenGirl01TeenGirl CHARACTER TeenGirl SUBTITLE "Nice car, dude!"
+RESPONSE C6M1Intro_01TeenGirl01TeenGirl CHARACTER TeenGirl SUBTITLE "and then once you get over here, we can fill up the generator. The generator will make a lot of noise but don't worry Ellis we can cover you from up here. You got all that?"
+RULE C6M1Intro_01TeenGirl01TeenGirl CRITERIA ConceptintroC6M1 IsTeenGirl IsZoeyIntroActor IsNotSaidIntroScene MoreThan0  LessThan30 IsNotVersus RESPONSE C6M1Intro_01TeenGirl01TeenGirl
+RESPONSE C6M1Intro_01TeenGirl02TeenGirl CHARACTER TeenGirl SUBTITLE "Hello down there! Sorry but we can't lower the bridge."
+RESPONSE C6M1Intro_01TeenGirl02TeenGirl CHARACTER TeenGirl SUBTITLE "Hello down there! Sorry but we can't lower the bridge."
+RULE C6M1Intro_01TeenGirl02TeenGirl CRITERIA ConceptintroC6M1 IsTeenGirl IsZoeyIntroActor IsNotSaidIntroScene MoreThan30  LessThan40 IsNotVersus RESPONSE C6M1Intro_01TeenGirl02TeenGirl
+RESPONSE C6M1Intro_01TeenGirl03TeenGirl CHARACTER TeenGirl SUBTITLE "Hello down there!"
+RESPONSE C6M1Intro_01TeenGirl03TeenGirl CHARACTER TeenGirl SUBTITLE "Hello down there!"
+RULE C6M1Intro_01TeenGirl03TeenGirl CRITERIA ConceptintroC6M1 IsTeenGirl IsZoeyIntroActor IsNotSaidIntroScene MoreThan40  LessThan60 IsNotVersus RESPONSE C6M1Intro_01TeenGirl03TeenGirl
+RESPONSE C6M1Intro_01TeenGirl04TeenGirl CHARACTER TeenGirl SUBTITLE "You need to get to the other side to lower this bridge. Road's clear past that."
+RESPONSE C6M1Intro_01TeenGirl04TeenGirl CHARACTER TeenGirl SUBTITLE "Sorry, I can't lower the bridge."
+RULE C6M1Intro_01TeenGirl04TeenGirl CRITERIA ConceptintroC6M1 IsTeenGirl IsZoeyIntroActor IsNotSaidIntroScene MoreThan60  LessThan100 IsNotVersus RESPONSE C6M1Intro_01TeenGirl04TeenGirl
+RESPONSE C6M1Intro_03aTeenGirl CHARACTER TeenGirl SUBTITLE "Sorry, can't! We got wounded up here. If you can get to the other side of the bridge, we can help you can get it down."
+RULE C6M1Intro_03aTeenGirl CRITERIA ConceptC6M1Intro_03a IsTeenGirl RESPONSE C6M1Intro_03aTeenGirl
+RESPONSE C6M1Intro_04aTeenGirl CHARACTER TeenGirl SUBTITLE "Generator's out on the other side!"
+RULE C6M1Intro_04aTeenGirl CRITERIA ConceptC6M1Intro_04a IsTeenGirl RESPONSE C6M1Intro_04aTeenGirl
+RESPONSE C6M1Intro_04cTeenGirl CHARACTER TeenGirl SUBTITLE "Sorry, can't! We got wounded up here. If you can get to the other side of the bridge, we can help you can get it down."
+RULE C6M1Intro_04cTeenGirl CRITERIA ConceptC6M1Intro_04c IsTeenGirl RESPONSE C6M1Intro_04cTeenGirl
+RESPONSE C6M1Intro_11bTeenGirl CHARACTER TeenGirl SUBTITLE "Sorry man, no can do. Generators out. Get to the other side of the river and we can help you get it down."
+RULE C6M1Intro_11bTeenGirl CRITERIA ConceptC6M1Intro_11b IsTeenGirl RESPONSE C6M1Intro_11bTeenGirl
+RESPONSE C6M1Intro_13dTeenGirl CHARACTER TeenGirl SUBTITLE "You are going to need to get to the other side of the bridge. We can help you there."
+RULE C6M1Intro_13dTeenGirl CRITERIA ConceptC6M1Intro_13d IsTeenGirl RESPONSE C6M1Intro_13dTeenGirl
+RESPONSE C6M1Intro_15bTeenGirl CHARACTER TeenGirl SUBTITLE "Boohoo hoo, I don't know what to do Go to hell Colonel Sanders"
+RULE C6M1Intro_15bTeenGirl CRITERIA ConceptC6M1Intro_15b IsTeenGirl RESPONSE C6M1Intro_15bTeenGirl
+RESPONSE C6M1Intro_15dTeenGirl CHARACTER TeenGirl SUBTITLE "I could shoot you where you stand."
+RESPONSE C6M1Intro_15dTeenGirl CHARACTER TeenGirl SUBTITLE "I could shoot you where you stand."
+RULE C6M1Intro_15dTeenGirl CRITERIA ConceptC6M1Intro_15d IsTeenGirl RESPONSE C6M1Intro_15dTeenGirl
+RESPONSE C6M1Intro_17aTeenGirl CHARACTER TeenGirl SUBTITLE "I'm sorry, there really isn't. If you can get to the other side of the river we can help you lower it. But we lost a man and another's hurt, we really can't do it by ourselves."
+RULE C6M1Intro_17aTeenGirl CRITERIA ConceptC6M1Intro_17a IsTeenGirl RESPONSE C6M1Intro_17aTeenGirl
+RESPONSE C6M1Intro_17cTeenGirl CHARACTER TeenGirl SUBTITLE "Sorry, good luck?"
+RESPONSE C6M1Intro_17cTeenGirl CHARACTER TeenGirl SUBTITLE "Sorry, good luck?"
+RULE C6M1Intro_17cTeenGirl CRITERIA ConceptC6M1Intro_17c IsTeenGirl RESPONSE C6M1Intro_17cTeenGirl
+RESPONSE C6M1Intro_22bTeenGirl CHARACTER TeenGirl SUBTITLE "Yeah, I know that feeling."
+RESPONSE C6M1Intro_22bTeenGirl CHARACTER TeenGirl SUBTITLE "Yeah, I know that feeling."
+RULE C6M1Intro_22bTeenGirl CRITERIA ConceptC6M1Intro_22b IsTeenGirl RESPONSE C6M1Intro_22bTeenGirl
+RESPONSE C6M1Intro_22dTeenGirl CHARACTER TeenGirl SUBTITLE "Sorry can't. We lost a guy and another's injured. If you can find another way over, we can help you get the bridge down."
+RULE C6M1Intro_22dTeenGirl CRITERIA ConceptC6M1Intro_22d IsTeenGirl RESPONSE C6M1Intro_22dTeenGirl
+RESPONSE C6M1Intro_22gTeenGirl CHARACTER TeenGirl SUBTITLE "Good luck."
+RULE C6M1Intro_22gTeenGirl CRITERIA ConceptC6M1Intro_22g IsTeenGirl RESPONSE C6M1Intro_22gTeenGirl
+RESPONSE C6M1Intro_23aTeenGirl CHARACTER TeenGirl SUBTITLE "Not exactly."
+RESPONSE C6M1Intro_23aTeenGirl CHARACTER TeenGirl SUBTITLE "Well... no."
+RESPONSE C6M1Intro_23aTeenGirl CHARACTER TeenGirl SUBTITLE "Umm, no, I can't."
+RESPONSE C6M1Intro_23aTeenGirl CHARACTER TeenGirl SUBTITLE "Umm, no."
+RULE C6M1Intro_23aTeenGirl CRITERIA ConceptC6M1Intro_23a IsTeenGirl RESPONSE C6M1Intro_23aTeenGirl
+RESPONSE C6M1Intro_23cTeenGirl CHARACTER TeenGirl SUBTITLE "Uh, no... Generator is out of gas. If you get over to the other side and fill it up, we can cover you. Best I can offer."
+RULE C6M1Intro_23cTeenGirl CRITERIA ConceptC6M1Intro_23c IsTeenGirl RESPONSE C6M1Intro_23cTeenGirl
+RESPONSE c6m3_outroL4D1TeenGirl CHARACTER TeenGirl SUBTITLE "(10 commandments) Go - proclaim liberty throughout all the lands, and to all the inhabitants thereof!"
+RESPONSE c6m3_outroL4D1TeenGirl CHARACTER TeenGirl SUBTITLE "(Planet of the apes) You finally really did it. You maniacs! You blew it up! God damn you! God damn you all to hell!"
+RESPONSE c6m3_outroL4D1TeenGirl CHARACTER TeenGirl SUBTITLE "Remember soylent green is people!"
+RESPONSE c6m3_outroL4D1TeenGirl CHARACTER TeenGirl SUBTITLE "Y'all come back now!"
+RULE c6m3_outroL4D1TeenGirl CRITERIA Conceptc6m3_outro3 IsTeenGirl isC6m3_port IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1TeenGirl
+RESPONSE c6m3_outroL4D101aTeenGirl CHARACTER TeenGirl SUBTITLE "Yeah, but... it's us three now."
+RULE c6m3_outroL4D101aTeenGirl CRITERIA Conceptc6m3_outroL4D101a IsTeenGirl RESPONSE c6m3_outroL4D101aTeenGirl
+RESPONSE c6m3_outroL4D102bTeenGirl CHARACTER TeenGirl SUBTITLE "Don't worry, they won't be the last."
+RULE c6m3_outroL4D102bTeenGirl CRITERIA Conceptc6m3_outroL4D102b IsTeenGirl RESPONSE c6m3_outroL4D102bTeenGirl
+RESPONSE c6m3_outroL4D103aTeenGirl CHARACTER TeenGirl SUBTITLE "No. It's hard enough out there."
+RULE c6m3_outroL4D103aTeenGirl CRITERIA Conceptc6m3_outroL4D103a IsTeenGirl RESPONSE c6m3_outroL4D103aTeenGirl
+RESPONSE c6m3_outroL4D104aTeenGirl CHARACTER TeenGirl SUBTITLE "Francis, it's nice to see you still have that in you."
+RULE c6m3_outroL4D104aTeenGirl CRITERIA Conceptc6m3_outroL4D104a IsTeenGirl RESPONSE c6m3_outroL4D104aTeenGirl
+RESPONSE c6m3_outroL4D105aTeenGirl CHARACTER TeenGirl SUBTITLE "Where? At the mall?"
+RULE c6m3_outroL4D105aTeenGirl CRITERIA Conceptc6m3_outroL4D105a IsTeenGirl RESPONSE c6m3_outroL4D105aTeenGirl
+RESPONSE c6m3_outroL4D107aTeenGirl CHARACTER TeenGirl SUBTITLE "Yeah, for about 10 minutes."
+RULE c6m3_outroL4D107aTeenGirl CRITERIA Conceptc6m3_outroL4D107a IsTeenGirl RESPONSE c6m3_outroL4D107aTeenGirl
+RESPONSE c6m3_outroL4D109aTeenGirl CHARACTER TeenGirl SUBTITLE "Sure you are Francis, sure you are."
+RULE c6m3_outroL4D109aTeenGirl CRITERIA Conceptc6m3_outroL4D109a IsTeenGirl RESPONSE c6m3_outroL4D109aTeenGirl
+RESPONSE c6m3_outroL4D1AllTeenGirl CHARACTER TeenGirl SUBTITLE "Bye Ellis! Bye Rochelle! Bye Coach! Bye Nick!"
+RULE c6m3_outroL4D1AllTeenGirl CRITERIA Conceptc6m3_outro3 IsTeenGirl isC6m3_port IsEveryoneAliveWeight0 IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1AllTeenGirl
+RESPONSE c6m3_outroL4D1MechanicTeenGirl CHARACTER TeenGirl SUBTITLE "I ever tell you about the time my buddy Ellis stole a race car from the mall and drove it over some zombies?"
+RULE c6m3_outroL4D1MechanicTeenGirl CRITERIA Conceptc6m3_outro3 IsTeenGirl isC6m3_port IsMechanicAlive IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1MechanicTeenGirl
+RESPONSE c6m3_outroL4D1MechanicZoeyTeenGirl CHARACTER TeenGirl SUBTITLE "Ellis! ELLIS!!! Maybe we should have gone with him?"
+RESPONSE c6m3_outroL4D1MechanicZoeyTeenGirl CHARACTER TeenGirl SUBTITLE "Ellis! ELLIS!!! Maybe he should have come with us?"
+RESPONSE c6m3_outroL4D1MechanicZoeyTeenGirl CHARACTER TeenGirl SUBTITLE "I'm going to miss Ellis."
+RESPONSE c6m3_outroL4D1MechanicZoeyTeenGirl CHARACTER TeenGirl SUBTITLE "Hm. I'm going to miss Ellis."
+RESPONSE c6m3_outroL4D1MechanicZoeyTeenGirl CHARACTER TeenGirl SUBTITLE "I'm going to miss Ellis."
+RULE c6m3_outroL4D1MechanicZoeyTeenGirl CRITERIA Conceptc6m3_outro3 IsTeenGirl isC6m3_port IsZoeyIntroActor ZoeyGroup1 IsMechanicAlive IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1MechanicZoeyTeenGirl
+RESPONSE c6m3_outroL4D1MechanicZoey2TeenGirl CHARACTER TeenGirl SUBTITLE "Ellis! ELLIS!!! Maybe we should have gone with him?"
+RESPONSE c6m3_outroL4D1MechanicZoey2TeenGirl CHARACTER TeenGirl SUBTITLE "Ellis! ELLIS!!! Maybe he should have come with us?"
+RESPONSE c6m3_outroL4D1MechanicZoey2TeenGirl CHARACTER TeenGirl SUBTITLE "I'm going to miss Ellis."
+RESPONSE c6m3_outroL4D1MechanicZoey2TeenGirl CHARACTER TeenGirl SUBTITLE "Hm. I'm going to miss Ellis."
+RESPONSE c6m3_outroL4D1MechanicZoey2TeenGirl CHARACTER TeenGirl SUBTITLE "I'm going to miss Ellis."
+RULE c6m3_outroL4D1MechanicZoey2TeenGirl CRITERIA Conceptc6m3_outro3 IsTeenGirl isC6m3_port IsZoeyIntroActor ZoeyGroup2 IsMechanicAlive IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1MechanicZoey2TeenGirl
+RESPONSE C6M3VocalizeLookOutTeenGirl CHARACTER TeenGirl SUBTITLE "Look out!"
+RESPONSE C6M3VocalizeLookOutTeenGirl CHARACTER TeenGirl SUBTITLE "Watch out!"
+RESPONSE C6M3VocalizeLookOutTeenGirl CHARACTER TeenGirl SUBTITLE "Behind you!!"
+RULE C6M3VocalizeLookOutTeenGirl CRITERIA ConceptPlayerLookOut IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl RESPONSE C6M3VocalizeLookOutTeenGirl
+RESPONSE L4D1_AttractPlayerForThrowTeenGirl CHARACTER TeenGirl SUBTITLE "Heads up!"
+RESPONSE L4D1_AttractPlayerForThrowTeenGirl CHARACTER TeenGirl SUBTITLE "Look over here!"
+RESPONSE L4D1_AttractPlayerForThrowTeenGirl CHARACTER TeenGirl SUBTITLE "Look here."
+RESPONSE L4D1_AttractPlayerForThrowTeenGirl CHARACTER TeenGirl SUBTITLE "Helloooo?"
+RULE L4D1_AttractPlayerForThrowTeenGirl CRITERIA ConceptL4D1_AttractPlayerForThrow IsTeenGirl RESPONSE L4D1_AttractPlayerForThrowTeenGirl
+RESPONSE L4D1_SurvivorBotTakeThisItemTeenGirl CHARACTER TeenGirl SUBTITLE "Take this."
+RESPONSE L4D1_SurvivorBotTakeThisItemTeenGirl CHARACTER TeenGirl SUBTITLE "Hey, take this."
+RESPONSE L4D1_SurvivorBotTakeThisItemTeenGirl CHARACTER TeenGirl SUBTITLE "Here you go!"
+RESPONSE L4D1_SurvivorBotTakeThisItemTeenGirl CHARACTER TeenGirl SUBTITLE "Here you go!"
+RESPONSE L4D1_SurvivorBotTakeThisItemTeenGirl CHARACTER TeenGirl SUBTITLE "Take this!"
+RESPONSE L4D1_SurvivorBotTakeThisItemTeenGirl CHARACTER TeenGirl SUBTITLE "Here, be safe."
+RESPONSE L4D1_SurvivorBotTakeThisItemTeenGirl CHARACTER TeenGirl SUBTITLE "Take this, good luck."
+RULE L4D1_SurvivorBotTakeThisItemTeenGirl CRITERIA ConceptL4D1_SurvivorBotTakeThisItem IsTeenGirl RESPONSE L4D1_SurvivorBotTakeThisItemTeenGirl
+RESPONSE WorldC6M3_ByBridge01TeenGirl CHARACTER TeenGirl SUBTITLE "GO! THE BRIDGE IS DOWN!"
+RESPONSE WorldC6M3_ByBridge01TeenGirl CHARACTER TeenGirl SUBTITLE "We got your backs, go!"
+RESPONSE WorldC6M3_ByBridge01TeenGirl CHARACTER TeenGirl SUBTITLE "Go, go, go! We'll hold them off."
+RESPONSE WorldC6M3_ByBridge01TeenGirl CHARACTER TeenGirl SUBTITLE "Go! We'll hold them off."
+RULE WorldC6M3_ByBridge01TeenGirl CRITERIA ConceptWorldC6M3_ByBridge01 IsTeenGirl RESPONSE WorldC6M3_ByBridge01TeenGirl
+RESPONSE WorldC6M3_ByBridge01EllisTeenGirl CHARACTER TeenGirl SUBTITLE "Get to your car Ellis!"
+RESPONSE WorldC6M3_ByBridge01EllisTeenGirl CHARACTER TeenGirl SUBTITLE "Get to your car Ellis!"
+RESPONSE WorldC6M3_ByBridge01EllisTeenGirl CHARACTER TeenGirl SUBTITLE "Ellis, the car's calling!"
+RULE WorldC6M3_ByBridge01EllisTeenGirl CRITERIA ConceptWorldC6M3_ByBridge01Ellis IsTeenGirl RESPONSE WorldC6M3_ByBridge01EllisTeenGirl
+RESPONSE L4D1AlsoSpottedBoomerTeenGirl CHARACTER TeenGirl SUBTITLE "BOOMER!"
+RESPONSE L4D1AlsoSpottedBoomerTeenGirl CHARACTER TeenGirl SUBTITLE "BOOMER!"
+RESPONSE L4D1AlsoSpottedBoomerTeenGirl CHARACTER TeenGirl SUBTITLE "BOOMER!"
+RULE L4D1AlsoSpottedBoomerTeenGirl CRITERIA ConceptPlayerAlsoWarnBoomer IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl RESPONSE L4D1AlsoSpottedBoomerTeenGirl
+RESPONSE L4D1AlsoSpottedHunterTeenGirl CHARACTER TeenGirl SUBTITLE "HUNTER!"
+RESPONSE L4D1AlsoSpottedHunterTeenGirl CHARACTER TeenGirl SUBTITLE "HUNTER!"
+RESPONSE L4D1AlsoSpottedHunterTeenGirl CHARACTER TeenGirl SUBTITLE "HUNTER!"
+RULE L4D1AlsoSpottedHunterTeenGirl CRITERIA ConceptPlayerAlsoWarnHunter IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl RESPONSE L4D1AlsoSpottedHunterTeenGirl
+RESPONSE L4D1AlsoSpottedSmokerTeenGirl CHARACTER TeenGirl SUBTITLE "SMOKER!"
+RESPONSE L4D1AlsoSpottedSmokerTeenGirl CHARACTER TeenGirl SUBTITLE "SMOKER!"
+RESPONSE L4D1AlsoSpottedSmokerTeenGirl CHARACTER TeenGirl SUBTITLE "SMOKER!"
+RULE L4D1AlsoSpottedSmokerTeenGirl CRITERIA ConceptPlayerAlsoWarnSmoker IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl RESPONSE L4D1AlsoSpottedSmokerTeenGirl
+RESPONSE L4D1AlsoSpottedTankTeenGirl CHARACTER TeenGirl SUBTITLE "Guys come back!"
+RESPONSE L4D1AlsoSpottedTankTeenGirl CHARACTER TeenGirl SUBTITLE "Guys let us cover you!"
+RESPONSE L4D1AlsoSpottedTankTeenGirl CHARACTER TeenGirl SUBTITLE "TWO TANKS!"
+RESPONSE L4D1AlsoSpottedTankTeenGirl CHARACTER TeenGirl SUBTITLE "Bring the tanks back here!"
+RULE L4D1AlsoSpottedTankTeenGirl CRITERIA ConceptPlayerAlsoWarnTank IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl Isc6m3_port RESPONSE L4D1AlsoSpottedTankTeenGirl
+RESPONSE L4D1SpottedBoomerTeenGirl CHARACTER TeenGirl SUBTITLE "BOOMER!"
+RESPONSE L4D1SpottedBoomerTeenGirl CHARACTER TeenGirl SUBTITLE "BOOMER!"
+RESPONSE L4D1SpottedBoomerTeenGirl CHARACTER TeenGirl SUBTITLE "BOOMER!"
+RULE L4D1SpottedBoomerTeenGirl CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeBoomer IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotSpeaking RESPONSE L4D1SpottedBoomerTeenGirl
+RESPONSE L4D1SpottedChargerTeenGirl CHARACTER TeenGirl SUBTITLE "CHARGER!"
+RESPONSE L4D1SpottedChargerTeenGirl CHARACTER TeenGirl SUBTITLE "CHARGER!"
+RESPONSE L4D1SpottedChargerTeenGirl CHARACTER TeenGirl SUBTITLE "CHARGER!"
+RULE L4D1SpottedChargerTeenGirl CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeCharger  IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotSpeakingWeight0 RESPONSE L4D1SpottedChargerTeenGirl
+RESPONSE L4D1SpottedHunterTeenGirl CHARACTER TeenGirl SUBTITLE "HUNTER!"
+RESPONSE L4D1SpottedHunterTeenGirl CHARACTER TeenGirl SUBTITLE "HUNTER!"
+RESPONSE L4D1SpottedHunterTeenGirl CHARACTER TeenGirl SUBTITLE "HUNTER!"
+RULE L4D1SpottedHunterTeenGirl CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeHunter IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotSpeakingWeight0 RESPONSE L4D1SpottedHunterTeenGirl
+RESPONSE L4D1SpottedJockeyTeenGirl CHARACTER TeenGirl SUBTITLE "JOCKEY!"
+RESPONSE L4D1SpottedJockeyTeenGirl CHARACTER TeenGirl SUBTITLE "JOCKEY!"
+RESPONSE L4D1SpottedJockeyTeenGirl CHARACTER TeenGirl SUBTITLE "JOCKEY!"
+RULE L4D1SpottedJockeyTeenGirl CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeJockey IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotSpeakingWeight0 RESPONSE L4D1SpottedJockeyTeenGirl
+RESPONSE L4D1SpottedSmokerTeenGirl CHARACTER TeenGirl SUBTITLE "SMOKER!"
+RESPONSE L4D1SpottedSmokerTeenGirl CHARACTER TeenGirl SUBTITLE "SMOKER!"
+RESPONSE L4D1SpottedSmokerTeenGirl CHARACTER TeenGirl SUBTITLE "SMOKER!"
+RULE L4D1SpottedSmokerTeenGirl CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeSmoker IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotSpeakingWeight0 RESPONSE L4D1SpottedSmokerTeenGirl
+RESPONSE L4D1SpottedSpitterTeenGirl CHARACTER TeenGirl SUBTITLE "SPITTER!"
+RESPONSE L4D1SpottedSpitterTeenGirl CHARACTER TeenGirl SUBTITLE "SPITTER!"
+RESPONSE L4D1SpottedSpitterTeenGirl CHARACTER TeenGirl SUBTITLE "SPITTER!"
+RULE L4D1SpottedSpitterTeenGirl CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeSpitter IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotSpeakingWeight0 RESPONSE L4D1SpottedSpitterTeenGirl
+RESPONSE L4D1SpottedTankTeenGirl CHARACTER TeenGirl SUBTITLE "Guys come back!"
+RESPONSE L4D1SpottedTankTeenGirl CHARACTER TeenGirl SUBTITLE "Guys let us cover you!"
+RESPONSE L4D1SpottedTankTeenGirl CHARACTER TeenGirl SUBTITLE "TWO TANKS!"
+RESPONSE L4D1SpottedTankTeenGirl CHARACTER TeenGirl SUBTITLE "Bring the tanks back here!"
+RULE L4D1SpottedTankTeenGirl CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeTank IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl Isc6m3_port IsNotSpeakingWeight0 RESPONSE L4D1SpottedTankTeenGirl
+RESPONSE L4D1_ReloadingTeenGirl CHARACTER TeenGirl SUBTITLE "Reloading!"
+RESPONSE L4D1_ReloadingTeenGirl CHARACTER TeenGirl SUBTITLE "Reloading!"
+RESPONSE L4D1_ReloadingTeenGirl CHARACTER TeenGirl SUBTITLE "Reloading!"
+RESPONSE L4D1_ReloadingTeenGirl CHARACTER TeenGirl SUBTITLE "I'm Reloading!"
+RULE L4D1_ReloadingTeenGirl CRITERIA ConceptPlayerReloading IsNotSpeaking IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl RESPONSE L4D1_ReloadingTeenGirl
+RESPONSE L4D1PlayerKillConfirmationTeenGirl CHARACTER TeenGirl SUBTITLE "Got it!"
+RESPONSE L4D1PlayerKillConfirmationTeenGirl CHARACTER TeenGirl SUBTITLE "Nailed it!"
+RESPONSE L4D1PlayerKillConfirmationTeenGirl CHARACTER TeenGirl SUBTITLE "Got 'em"
+RESPONSE L4D1PlayerKillConfirmationTeenGirl CHARACTER TeenGirl SUBTITLE "Got it!"
+RESPONSE L4D1PlayerKillConfirmationTeenGirl CHARACTER TeenGirl SUBTITLE "Got 'em"
+RESPONSE L4D1PlayerKillConfirmationTeenGirl CHARACTER TeenGirl SUBTITLE "Got 'em"
+RULE L4D1PlayerKillConfirmationTeenGirl CRITERIA ConceptKilledZombie IsNotCoughing IsTeenGirl  IsTalk IsTalkTeenGirl IsSubjectFar300 ChanceToFire80Percent IsWorldTalkTeenGirl RESPONSE L4D1PlayerKillConfirmationTeenGirl
+RESPONSE L4D1PlayerWarnMegaMobTeenGirl CHARACTER TeenGirl SUBTITLE "Incoming!"
+RESPONSE L4D1PlayerWarnMegaMobTeenGirl CHARACTER TeenGirl SUBTITLE "They're coming!"
+RESPONSE L4D1PlayerWarnMegaMobTeenGirl CHARACTER TeenGirl SUBTITLE "Here they come!"
+RESPONSE L4D1PlayerWarnMegaMobTeenGirl CHARACTER TeenGirl SUBTITLE "Get ready!"
+RESPONSE L4D1PlayerWarnMegaMobTeenGirl CHARACTER TeenGirl SUBTITLE "Oh god, get ready, here they come!"
+RULE L4D1PlayerWarnMegaMobTeenGirl CRITERIA ConceptPlayerWarnMegaMob IsNotCoughing IsTeenGirl IsNotWarnMegaMob IsTalk IsTalkTeenGirl IsNotSpeaking IsWorldTalkTeenGirl RESPONSE L4D1PlayerWarnMegaMobTeenGirl
+
+
+

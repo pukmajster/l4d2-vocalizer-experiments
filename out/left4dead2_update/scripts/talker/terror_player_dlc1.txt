@@ -1,0 +1,14 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_update/scripts/talker/terror_player_dlc1.txt
+-------------------------------------------------------
+
+RULE FinaleSceneTriggerFrancisProducer CRITERIA ConceptC6M3Stairs IsProducer IsNotSaidFinaleExchange Isc6m3_port IsFrancisIntroActor IsNotVersus RESPONSE FinaleSceneTriggerFrancisProducer
+RULE FinaleSceneTriggerLouisProducer CRITERIA ConceptC6M3Stairs IsProducer IsNotSaidFinaleExchange Isc6m3_port IsZoeyIntroActor IsNotVersus RESPONSE FinaleSceneTriggerLouisProducer
+RULE FinaleSceneTriggerFrancisGambler CRITERIA ConceptC6M3Stairs IsGambler IsNotSaidFinaleExchange Isc6m3_port IsFrancisIntroActor IsNotVersus RESPONSE FinaleSceneTriggerFrancisGambler
+RULE FinaleSceneTriggerZoeyCoach CRITERIA ConceptC6M3Stairs IsCoach IsNotSaidFinaleExchange Isc6m3_port IsZoeyIntroActor IsNotVersus RESPONSE FinaleSceneTriggerZoeyCoach
+RULE FinaleSceneTriggerFrancisCoach CRITERIA ConceptC6M3Stairs IsCoach IsNotSaidFinaleExchange Isc6m3_port IsFrancisIntroActor IsNotVersus RESPONSE FinaleSceneTriggerFrancisCoach
+RULE FinaleSceneTriggerZoeyMechanic CRITERIA ConceptC6M3Stairs IsMechanic IsNotSaidFinaleExchange Isc6m3_port IsZoeyIntroActor IsNotVersus RESPONSE FinaleSceneTriggerZoeyMechanic
+RULE FinaleSceneTriggerFrancisMechanic CRITERIA ConceptC6M3Stairs IsMechanic IsNotSaidFinaleExchange Isc6m3_port IsFrancisIntroActor IsNotVersus RESPONSE FinaleSceneTriggerFrancisMechanic
+
+
+

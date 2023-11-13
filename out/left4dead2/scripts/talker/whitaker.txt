@@ -1,0 +1,16 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2/scripts/talker/whitaker.txt
+-------------------------------------------------------
+
+RULE NPCC1M2WhitakerPutCola CRITERIA Conceptwhitakerputcola IsTalk IsNotSaidwhitakerputcola RESPONSE NPCC1M2WhitakerPutCola
+RULE C1M2GoodLuckGettingToTheMall CRITERIA ConceptC1M2GoodLuckGettingToTheMall AutoIsNotScavenge AutoIsNotSurvival RESPONSE C1M2GoodLuckGettingToTheMall
+RULE C1M2GunRoomDoorResponse1Whitaker CRITERIA ConceptC1M2GunRoomDoorResponse1 IsWhitaker AutoIsNotScavenge AutoIsNotSurvival RESPONSE C1M2GunRoomDoorResponse1Whitaker
+RULE C1M2GunRoomDoorResponse2Whitaker CRITERIA ConceptC1M2GunRoomDoorResponse2 IsWhitaker AutoIsNotScavenge AutoIsNotSurvival RESPONSE C1M2GunRoomDoorResponse2Whitaker
+RULE C1M2GunRoomDoorResponse3Whitaker CRITERIA ConceptC1M2GunRoomDoorResponse3 IsWhitaker AutoIsNotScavenge AutoIsNotSurvival RESPONSE C1M2GunRoomDoorResponse3Whitaker
+RULE C1M2GunRoomDoorResponse4Whitaker CRITERIA ConceptC1M2GunRoomDoorResponse4 IsWhitaker AutoIsNotScavenge AutoIsNotSurvival RESPONSE C1M2GunRoomDoorResponse4Whitaker
+RULE C1M2GunRoomDoorResponse5Whitaker CRITERIA ConceptC1M2GunRoomDoorResponse5 IsWhitaker AutoIsNotScavenge AutoIsNotSurvival RESPONSE C1M2GunRoomDoorResponse5Whitaker
+RULE C1M2GunRoomDoorWhit CRITERIA ConceptC1M2GunRoomDoor AutoIsNotScavenge AutoIsNotSurvival RESPONSE C1M2GunRoomDoorWhit
+RULE Whitaker.NagsWhitaker CRITERIA ConceptWhitaker.Nags IsWhitaker _auto_NotSaidC1M2GrabbedCola RESPONSE Whitaker.NagsWhitaker
+
+
+

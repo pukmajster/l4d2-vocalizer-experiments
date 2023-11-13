@@ -1,0 +1,1783 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {},
+  "NamVet": {},
+  "Manager": {
+    "PlayerNiceShotManager": [
+      "Nice shot!",
+      "Oh man, great shot.",
+      "Wooo, nice baby!",
+      "Whoah. Nice shot.",
+      "Nice one!",
+      "Great shot!",
+      "POW!",
+      "Oh, HELL yes."
+    ],
+    "ReviveMeINterruptedManager": [
+      "AHHHH!",
+      "Whoah!",
+      "Ah ah!",
+      "Dammit."
+    ],
+    "SurvivorMournBillManager": [
+      "Bill, no!",
+      "Oh no, no, not the old man.",
+      "Ah Bill. Ah, shit."
+    ],
+    "SurvivorMournFrancisManager": [
+      "Francis!  NO!",
+      "Jesus, Francis!",
+      "Oh shit. Shit. Shit shit shit."
+    ],
+    "SurvivorMournZoeyManager": [
+      "Oh this is bad - she's dead.",
+      "Goddamn it zoey wakeup",
+      "Ah! Zoey!",
+      "Damn Zoey",
+      "Zoey, Zoey Goddamnit"
+    ],
+    "PlayerRemarkFarm01_path09Manager": [
+      "Safe house ahead!",
+      "There's the safe house!",
+      "Safe house up ahead!"
+    ],
+    "PlayerRemarkSmalltown03_path14Manager": [
+      "Safe house up ahead!"
+    ],
+    "ThanksGotItemManager": [
+      "Thanks.",
+      "Thanks Dog"
+    ],
+    "HealThanksManager": [
+      "Thanks, I owe you one.",
+      "Thanks, I owe ya a big one.",
+      "Thanks a lot.",
+      "Whoo, thanks.",
+      "Thanks Dog"
+    ],
+    "ReviveThanksManager": [
+      "Thanks, I owe you one.",
+      "Thanks, I owe ya a big one.",
+      "Thanks a lot.",
+      "Whoo, thanks.",
+      "Thanks Dog"
+    ],
+    "ReviveThanksBillManager": [
+      "Yo, thanks, man."
+    ],
+    "ReviveThanksFrancisManager": [
+      "Thanks, man!"
+    ],
+    "ReviveThanksZoeyManager": [
+      "Girl, thanks"
+    ],
+    "AutoYouAreWelcomeManager": [
+      "It's fine.",
+      "Any time.",
+      "Hey, no problem.",
+      "Sure.",
+      "Its all good.",
+      "My pleasure.",
+      "Hey, man, no problem.",
+      "Not a problem.",
+      "You are totally welcome.",
+      "Sure thing, man.",
+      "Sure"
+    ],
+    "BotAttentionBattleManager": [
+      "Ready for this?",
+      "Waddya say, we ready?",
+      "Okay, let's do it!"
+    ],
+    "BotHurrahAlsoManager": [
+      "Hell yeah.",
+      "YEAH!",
+      "Sweet Baby!",
+      "That's what I'm talkin' about",
+      "Yeah, baby, Yeah!",
+      "Helll yeah, Hell yeah!"
+    ],
+    "BotPlayer.YourWelcomeManager": [
+      "It's fine.",
+      "Any time.",
+      "Hey, no problem.",
+      "Sure.",
+      "Its all good.",
+      "My pleasure.",
+      "Hey, man, no problem.",
+      "Not a problem.",
+      "You are totally welcome.",
+      "Sure thing, man.",
+      "Sure"
+    ],
+    "BotReassureComingManager": [
+      "Allright.",
+      "Yeah.",
+      "Okay.",
+      "Yeah, I'm cool with that",
+      "Yes",
+      "Cool"
+    ],
+    "BotReassureNearbyManager": [
+      "Don't worry, I got your back.",
+      "Right behind you.",
+      "I'm with ya."
+    ],
+    "BotYesReadyManager": [
+      "Allright.",
+      "Yeah.",
+      "Okay.",
+      "Yeah, I'm cool with that",
+      "Yes",
+      "Cool"
+    ],
+    "crashHowitzerNagManager": [
+      "Someone needs to fire that big ass gun."
+    ],
+    "HowitzerBurnEnd00Manager": [
+      "The fire's out! Let's get across that bridge!"
+    ],
+    "CrashFinaleGenerator2OnSpkManager": [
+      "Sweet Baby!"
+    ],
+    "CrashFinaleGenerator2SpeakManager": [
+      "Come on! Hurry up, hurry up! I'm starting not to like this generator...",
+      "Oh god. Hurry up, hurry up. Goddamit generator, START!",
+      "Start. Start. Damn generator. Start, dammit, start!"
+    ],
+    "CrashFinaleGeneratorBreakSpkManager": [
+      "The generator's off!",
+      "The damn generator broke again!"
+    ],
+    "CrashFinaleGeneratorNagManager": [
+      "We need to restart the generator!",
+      "Someone needs to restart the generator!"
+    ],
+    "CrashFinaleGeneratorSpeakManager": [
+      "Allright, allright. Come onnnn. Come on, catch.",
+      "Allright, allright. Come on baby, start for me."
+    ],
+    "CrashFinaleGenUnPressSpeakManager": [
+      "Dammit."
+    ],
+    "CrashFinaleTruckNagManager": [
+      "Get to the truck! TO THE TRUCK!",
+      "GET TO THE TRUCK!"
+    ],
+    "CrashFinaleTruckReadySpkManager": [
+      "It's down! Get in!"
+    ],
+    "CrashFinaleTruckResp01Manager": [
+      "If we power up the generator, we can bring down the lift."
+    ],
+    "IntroCrashWalkingBManager": [
+      "I got a baaad feeling about this. Ohp. It passed. I think we're gonna be JUST fine."
+    ],
+    "PlayerRemarkcrashcourse02_path14Manager": [
+      "Cool truck!",
+      "Looks like they were working here for awhile!"
+    ],
+    "CrashCourseR04Manager": [
+      "I'll be damned. Francis, when'd you learn to read?"
+    ],
+    "CrashCourseR06Manager": [
+      "Canada? Francis, we're in Pennsylvania."
+    ],
+    "PlayerRemarkcrashcourse01_path04Manager": [
+      "If we can get on that bridge, I'm sure we can follow the train tracks out of town."
+    ],
+    "PlayerRemarkcrashcourse01_path05Manager": [
+      "That truck is blocking the alley."
+    ],
+    "PlayerRemarkcrashcourse01_path06Manager": [
+      "Anything in this warehouse?"
+    ],
+    "PlayerRemarkcrashcourse01_path13Manager": [
+      "We can cross the river on that bridge."
+    ],
+    "PlayerRemarkcrashcourse01_path14Manager": [
+      "We can get back up over here!"
+    ],
+    "PlayerRemarkcrashcourse01_path17Manager": [
+      "How are we going to get past the barricade?",
+      "We can fire that big ass gun to break the barricade!"
+    ],
+    "PlayerRemarkcrashcourse01_path18Manager": [
+      "We can fire that big ass gun to break the barricade!"
+    ],
+    "PlayerRemarkcrashcourse01_path20Manager": [
+      "Riverside! We're headed the right way!",
+      "If we can just make it to Riverside, we are HOME FREE, guys..."
+    ],
+    "PlayerRemarkcrashcourse01_path24Manager": [
+      "Safehouse down there!"
+    ],
+    "PlayerRemarkcrashcourse01_path25Manager": [
+      "Safe house through here."
+    ],
+    "PlayerRemarkcrashcourse02_path01Manager": [
+      "Wall Street Weekly. There's no more Wall Street Weekly. DAMN."
+    ],
+    "PlayerRemarkcrashcourse02_path04Manager": [
+      "Hey, Francis. Wasn't this the alley you were born in?"
+    ],
+    "PlayerRemarkcrashcourse02_path05Manager": [
+      "Through this container!"
+    ],
+    "PlayerRemarkcrashcourse02_path07Manager": [
+      "'Team building exercise every Tuesday.' Man, they oughtta try this zombie bullshit."
+    ],
+    "PlayerRemarkcrashcourse02_path10Manager": [
+      "Over that truck!"
+    ],
+    "PlayerRemarkcrashcourse02_path11Manager": [
+      "We get out of this alive? I can't WAIT to have to recycle shit again."
+    ],
+    "PlayerRemarkcrashcourse02_path12Manager": [
+      "Through the truck yard!"
+    ],
+    "IntroCrashR03Manager": [
+      "We're walkin' AWAY from it, ain't we?"
+    ],
+    "IntroCrashR05Manager": [
+      "Great. What is it?"
+    ],
+    "IntroCrashR09Manager": [
+      "For once, we're in complete agreement, Francis."
+    ],
+    "IntroCrashR10Manager": [
+      "Well, I guess we're walking.",
+      "Looks like we're gonna have to walk outta here."
+    ],
+    "IntroCrashR13Manager": [
+      "Have you tried turning it off and on again?",
+      "Uh uh."
+    ],
+    "IntroCrashR15Manager": [
+      "Uh uh."
+    ],
+    "IntroCrashR17Manager": [
+      "Francis, why would you BET that we're doomed?"
+    ],
+    "IntroCrashR22Manager": [
+      "Look, five minutes ago you hated flying."
+    ],
+    "IntroCrashR24Manager": [
+      "That's FUNNY, Francis. Why don't you take your moustache, your little vest and your chaps and go find yourself a PARADE."
+    ],
+    "IntroCrashR30Manager": [
+      "Damn. I had a good feeling about that helicopter, too."
+    ],
+    "IntroCrashR31Manager": [
+      "On the bright side: look at all the great scenery we'd have missed if we flew over this in a helicopter, huh?"
+    ],
+    "IntroCrashR36Manager": [
+      "Well, I guess we're walking."
+    ],
+    "IntroCrashR37Manager": [
+      "That was my first time in a helicopter, pretty exciting!",
+      "You know what? I don't think we're gonna see a witch from NOW ON. Who wants to bet me?"
+    ],
+    "CrashCourseI01Manager": [
+      "Sounds good.",
+      "Alright, that's a plan.",
+      "Sounds good to me."
+    ],
+    "PlayerRemarkcrashcourse02_introManager": [
+      "We should try and find this depot."
+    ],
+    "IntroFarm4Manager": [
+      "Sounds good to me."
+    ],
+    "SurvivorBoomerBlunderManager": [
+      "Sorry about that!",
+      "Aww, man, sorry."
+    ],
+    "SurvivorFinaleTriggeredBoatManager": [
+      "Okay, we gotta hold out til the rescue boat gets here."
+    ],
+    "SurvivorFinaleTriggeredFarmManager": [
+      "Our ride out of here's on its way.",
+      "Allright, now we just gotta hold out til the truck gets here."
+    ],
+    "SurvivorFinaleTriggeredRooftopManager": [
+      "Okay, the chopper's coming.",
+      "Help is on the way! I can't believe it, but I think we might actually make it out of here!"
+    ],
+    "SurvivorFinalVehicleBoatManager": [
+      "Get to the boat!",
+      "Run to the boat!"
+    ],
+    "SurvivorFinalVehicleFarmManager": [
+      "Get to the truck! TO THE TRUCK!",
+      "GET TO THE TRUCK!"
+    ],
+    "SurvivorFinalVehicleFarmSpottedManager": [
+      "The truck's here! Let's go!"
+    ],
+    "SurvivorFinalVehicleRooftopManager": [
+      "Everyone in the helicopter! Go!",
+      "Get to the helicopter!"
+    ],
+    "SurvivorFinalVehicleRunwayManager": [
+      "Get to the plane. GO!",
+      "Get to the plane!"
+    ],
+    "SurvivorFinalVehicleSpottedBoatManager": [
+      "The boat's here! Let's go!",
+      "Our boat's here! Let's go!"
+    ],
+    "SurvivorFinalVehicleSpottedRooftopManager": [
+      "The heli's here. Let's go!",
+      "The helicopter's here! Let's go!"
+    ],
+    "SurvivorFinalVehicleSpottedRunwayManager": [
+      "Get to the plane. GO!",
+      "Get to the plane!"
+    ],
+    "ResponseLoudDispleasureSwearManager": [
+      "Dammit.",
+      "Aw hell.",
+      "Shit.",
+      "Ah shit.",
+      "Shit shit shit."
+    ],
+    "ResponseSoftDispleasureSwearManager": [
+      "I have a bad feeling about this",
+      "I don't like this one damn bit.",
+      "Shit.",
+      "Dammit.",
+      "Aw hell.",
+      "Ah shit.",
+      "That's some country-ass bullshit."
+    ],
+    "SurvivorAskBillForHealthManager": [
+      "Bill, Bill... first aid kit?",
+      "Bill, could I get some first aid?"
+    ],
+    "SurvivorAskFrancisForHealthManager": [
+      "Francis, can you lend me your med kit?",
+      "Francis, mind spottin' me a med kit?",
+      "Francis, health kit?"
+    ],
+    "SurvivorAskZoeyForHealthManager": [
+      "Zoey, are you going to use that med kit?",
+      "Zoey, any chance I could get some first aid?"
+    ],
+    "SurvivorSpottedAmmoManager": [
+      "Ammo here!"
+    ],
+    "SurvivorSpottedBillCloseManager": [
+      "Bill (quiet)"
+    ],
+    "SurvivorSpottedBillClose2Manager": [
+      "Bill (quiet)"
+    ],
+    "SurvivorSpottedBillFarManager": [
+      "Bill! (loud)",
+      "Bill! (calling out)"
+    ],
+    "SurvivorSpottedFrancisCloseManager": [
+      "Francis (quiet)"
+    ],
+    "SurvivorSpottedFrancisClose2Manager": [
+      "Francis (quiet)"
+    ],
+    "SurvivorSpottedFrancisFarManager": [
+      "Francis! (loud)",
+      "Francis! (calling out)"
+    ],
+    "SurvivorSpottedGrenadeManager": [
+      "Pipe bomb here!",
+      "Pipe bomb!"
+    ],
+    "SurvivorSpottedGrenadeAutoManager": [
+      "Pipe bomb here!",
+      "Pipe bomb!"
+    ],
+    "SurvivorSpottedGrenadeAutoManager2": [
+      "Oh cool",
+      "Oh, Cool",
+      "Yeah.",
+      "Cool"
+    ],
+    "SurvivorSpottedHealthManager": [
+      "A First Aid Kit here!",
+      "First Aid here!",
+      "First aid kit over here!",
+      "First aid here!"
+    ],
+    "SurvivorSpottedHealthAutoManager": [
+      "A First Aid Kit here!",
+      "First Aid here!",
+      "First aid kit over here!",
+      "First aid here!"
+    ],
+    "SurvivorSpottedHealthAutoManager2": [
+      "Oh cool",
+      "Oh, Cool",
+      "Yeah.",
+      "Cool"
+    ],
+    "SurvivorSpottedMolotovManager": [
+      "Molotovs over here!",
+      "Molotovs here!"
+    ],
+    "SurvivorSpottedMolotovAutoManager": [
+      "Molotovs over here!",
+      "Molotovs here!"
+    ],
+    "SurvivorSpottedMolotovAutoManager2": [
+      "Oh cool",
+      "Oh, Cool",
+      "Yeah.",
+      "Cool"
+    ],
+    "SurvivorSpottedPillsManager": [
+      "Pills here!"
+    ],
+    "SurvivorSpottedPillsAutoManager": [
+      "Pills here!"
+    ],
+    "SurvivorSpottedPillsAutoManager2": [
+      "Oh cool",
+      "Oh, Cool",
+      "Yeah.",
+      "Cool"
+    ],
+    "SurvivorSpottedWorldCloseManager": [
+      "Check this out.",
+      "Yo, Check this out.",
+      "Oh man, look at this.",
+      "Look at this.",
+      "Oh man, you better look at this."
+    ],
+    "SurvivorSpottedZoeyCloseManager": [
+      "Zoey (quiet)"
+    ],
+    "SurvivorSpottedZoeyClose2Manager": [
+      "Zoey (quiet)"
+    ],
+    "SurvivorSpottedZoeyFarManager": [
+      "Zoey! (loud)",
+      "Zoey! (calling out)"
+    ],
+    "SurvivorMovingToBattleStationManager": [
+      "Ready!",
+      "Let's do it!",
+      "Come on, let's do it!"
+    ],
+    "SurvivorSpottedBoomerManager": [
+      "BOOMER!"
+    ],
+    "SurvivorSpottedHunterManager": [
+      "HUNTER!"
+    ],
+    "SurvivorSpottedInfectedManager": [
+      "Here they come!",
+      "They're comin'!",
+      "Incoming!",
+      "Oh shit, here they come!"
+    ],
+    "SurvivorSpottedSmokerManager": [
+      "SMOKER!"
+    ],
+    "SurvivorSpottedTankManager": [
+      "TANK!"
+    ],
+    "SurvivorSpottedWitchManager": [
+      "WITCH!"
+    ],
+    "EmphaticArriveRunManager": [
+      "Let's get the hell outta here!",
+      "RUN!"
+    ],
+    "PlayerAlertGiveItemManager": [
+      "Here take this.",
+      "Here, I got something for you.",
+      "Take this.",
+      "Go ahead and take this.",
+      "Here man, take this.",
+      "Take it and you can pay me back later",
+      "It's not a time to be a hero, just take it"
+    ],
+    "PlayerFriendlyFireManager": [
+      "Hey, man, that hurt.",
+      "AH! Will you knock it off?",
+      "Do I look like one of them?",
+      "You know I would appreciate it, IF YOU'D STOP SHOOTING ME.",
+      "Watch where you're shooting!",
+      "Hey, man, that's not cool.",
+      "Man, what the hell, quit shooting me",
+      "Whoa, whoa, don't shoot, it's me!",
+      "Ow man ow! Why you shooting me!",
+      "Look at my face, do I look like them?",
+      "Oh what the hell, why you shootin' me",
+      "I'm gonna shoot you back next time",
+      "Ahhh Mother"
+    ],
+    "PlayerFriendlyFire2Manager": [
+      "Woah man, you gotta be careful.",
+      "What the hell man?",
+      "Be careful, what are you doing?"
+    ],
+    "PlayerFriendlyFireFromBillManager": [
+      "Old man, stop shooting me!",
+      "Whoah, whoah whoah! Jesus, Bill, what are you doing?",
+      "William! Come on, man!",
+      "Watch it, Bill!",
+      "[angry] Bill!",
+      "I cannot BELIEVE you just shot me AGAIN."
+    ],
+    "PlayerFriendlyFireFromFrancisManager": [
+      "Francis, that's MY ass your shootin'.",
+      "Francis, What the HELL is wrong with you?",
+      "[angry] Francis!",
+      "Go on do it one more time, fat man.",
+      "Francis! (loud)"
+    ],
+    "PlayerFriendlyFireFromZoeyManager": [
+      "You gotta stop that shit, Zoey!",
+      "[angry] Zoey!"
+    ],
+    "PlayerFriendlyFireNoBulletManager": [
+      "Hey, man, that hurt.",
+      "AH! Will you knock it off?",
+      "Do I look like one of them?",
+      "Hey, man, that's not cool.",
+      "Look at my face, do I look like them?",
+      "Ahhh Mother"
+    ],
+    "PlayerToTheRescueManager": [
+      "Hold on, I'm on my way!",
+      "Look, I'm coming!",
+      "Don't worry, I'm on my way!"
+    ],
+    "SurvivorTauntResponseManager": [
+      "Aw riiiight!",
+      "Woo baby, Aw riiiight!",
+      "Hell yeah.",
+      "YEAH!",
+      "YEAH WOO!",
+      "That's right!",
+      "Woo Hoo, that's right!",
+      "Yeah, baby, Yeah!",
+      "Alllright!",
+      "Oh yeah, who's your momma, who's your daddy",
+      "Helll yeah, Hell yeah!",
+      "[loud, evil laugh]"
+    ],
+    "PlayerChokeResponseManager": [
+      "[Choking]",
+      "Help!"
+    ],
+    "PlayerTonguePullStartResponseManager": [
+      "no, No, NO, NO!!!!!",
+      "no, No, NO, NOOOOOOO!!!!!!!!!"
+    ],
+    "SurvivorCriticalHurtManager": [
+      "[Pain noise - loud major pain]"
+    ],
+    "SurvivorIncapacitatedHurtManager": [
+      "[Ahhhh - terrified yell]"
+    ],
+    "SurvivorMajorHurtManager": [
+      "[Pain noise - huh]",
+      "[Pain noise - ahh]",
+      "[Pain noise - oy]",
+      "[Pain noise - ugh]"
+    ],
+    "SurvivorMinorHurtManager": [
+      "[Pain noise - short minor pain]"
+    ],
+    "SurvivorReloadingManager": [
+      "Reloading!"
+    ],
+    "PlayerHelpIncappedManager": [
+      "Help!",
+      "I need some help over here!",
+      "Need a little help over here!",
+      "Help me!",
+      "I'm in trouble!",
+      "I need some help!",
+      "Somebody help me!",
+      "Can you hear me? I need some help!",
+      "What part of help do you not understand?  Help!"
+    ],
+    "HelpResponseBillManager": [
+      "We cannot leave anyone behind",
+      "What you waitin' for, let's go help him!"
+    ],
+    "HelpResponseFrancisManager": [
+      "I'm no hero, but we can't just leave 'em out there.",
+      "Come on, I'd want them to come for me.",
+      "We cannot leave anyone behind",
+      "What you waitin' for, let's go help him!"
+    ],
+    "HelpResponseZoeyManager": [
+      "I am NOT leaving Zoey behind!",
+      "We cannot leave anyone behind",
+      "What you waitin' for, let's go help her!"
+    ],
+    "hospital02_path03a1": [
+      "Allright, no problem. Now we gotta get out of the subway."
+    ],
+    "hospital03_path03a1": [
+      "Hurry!",
+      "Hurry up."
+    ],
+    "PlayeGoingToDie3VampireaManager": [
+      "They ain't vampires, man, they're zombies."
+    ],
+    "PlayerAirport02CraneStartedManager": [
+      "Stay positive, guys! I got a good feeling about this."
+    ],
+    "Playerairport03_barrieraManager": [
+      "Let's do it!",
+      "Good thinking.",
+      "Okay, let's do it!",
+      "Sounds good to me."
+    ],
+    "PlayerAirport03FirePathClearaManager": [
+      "Let's go let's go let's go!"
+    ],
+    "Playerairport04_05aManager": [
+      "Oh no. Ain't no damn way...",
+      "Not a chance.",
+      "No way, man."
+    ],
+    "Playerairport04_08bManager": [
+      "You're joking, right?",
+      "Holy shit..."
+    ],
+    "PlayerFrancisSuggestsCraneManager": [
+      "Good thinking."
+    ],
+    "PlayerLaughFrancisManager": [
+      "<Short laugh>"
+    ],
+    "PlayerRemarkairport03_07Manager": [
+      "Safe house!",
+      "Safe house up ahead!"
+    ],
+    "PlayerRemarkairport04_02Manager": [
+      "They really trashed this airport",
+      "Man, they really trashed this place"
+    ],
+    "PlayerRemarkcrashcourse01_path01Manager": [
+      "Poor guy, he tried to help us."
+    ],
+    "PlayerRemarkFarm01_path02Manager": [
+      "This way."
+    ],
+    "PlayerRemarkFarm01_path03aManager": [
+      "I bet your country ass DOES like this trailer."
+    ],
+    "PlayerRemarkFarm02_path01Manager": [
+      "This way."
+    ],
+    "PlayerRemarkFarm02_path02Manager": [
+      "Down there."
+    ],
+    "PlayerRemarkFarm02_path02aManager": [
+      "Down there."
+    ],
+    "PlayerRemarkFarm02_path06Manager": [
+      "Here's a way down!"
+    ],
+    "PlayerRemarkFarm02_path09Manager": [
+      "Let's get up that ladder!"
+    ],
+    "PlayerRemarkFarm03_path01aManager": [
+      "Stay positive, guys! I got a good feeling about this."
+    ],
+    "PlayerRemarkFarm03_path03Manager": [
+      "Through this door!"
+    ],
+    "PlayerRemarkFarm03_path06Manager": [
+      "Tracks are blocked. We gotta find another way"
+    ],
+    "PlayerRemarkFarm03_path07Manager": [
+      "That is some nasty shit."
+    ],
+    "PlayerRemarkFarm03_path10Manager": [
+      "Up there!"
+    ],
+    "PlayerRemarkFarm04_path07Manager": [
+      "Up the stairs!"
+    ],
+    "PlayerRemarkFarm04_path08Manager": [
+      "Through here!"
+    ],
+    "PlayerRemarkFarm04_path09Manager": [
+      "Safe house up ahead!"
+    ],
+    "PlayerRemarkFarm04_path10Manager": [
+      "Jee-zus..."
+    ],
+    "PlayerRemarkFarm05_path08Manager": [
+      "We're almost out of here!"
+    ],
+    "PlayerRemarkhospital01_path01Manager": [
+      "Subway station's just around the corner!",
+      "The Station's just up the street."
+    ],
+    "PlayerRemarkhospital01_path02Manager": [
+      "This way!",
+      "Station's up the street!"
+    ],
+    "PlayerRemarkhospital01_path03Manager": [
+      "There's the station!",
+      "Get to the station!",
+      "There it is!"
+    ],
+    "PlayerRemarkhospital02_path02Manager": [
+      "Red Line North is the way.",
+      "We gotta take the Red Line North to Mercy Hospital.",
+      "The red line will take us to Mercy."
+    ],
+    "PlayerRemarkhospital02_path03Manager": [
+      "Damn, the line's blocked.",
+      "Tracks are blocked. We gotta find another way"
+    ],
+    "PlayerRemarkhospital02_path04Manager": [
+      "Safe house in the pawnshop!",
+      "Get to the pawnshop!"
+    ],
+    "PlayerRemarkhospital02_safehouseManager": [
+      "There's the safe house!",
+      "Safe house!",
+      "Safe house up ahead!"
+    ],
+    "PlayerRemarkhospital03_path01Manager": [
+      "Tch. I think it's this way.",
+      "Should be around here.",
+      "We should be close!"
+    ],
+    "PlayerRemarkhospital03_path02Manager": [
+      "Hospital's just past the water works!",
+      "There's the Hospital!!"
+    ],
+    "PlayerRemarkhospital03_path03Manager": [
+      "Excellent! We can use that lift!",
+      "Get on the lift!",
+      "Everybody, get on the lift!"
+    ],
+    "PlayerRemarkhospital03_path04Manager": [
+      "This way.",
+      "This way!",
+      "Through the warehouse!"
+    ],
+    "PlayerRemarkhospital03_path05Manager": [
+      "Bet it's just a little further"
+    ],
+    "PlayerRemarkhospital03_path06Manager": [
+      "Still can't get used to this."
+    ],
+    "PlayerRemarkhospital03_path07Manager": [
+      "This is going to be messy.",
+      "Well... into the sewers we go!",
+      "This is not going to be sanitary."
+    ],
+    "PlayerRemarkhospital03_path08Manager": [
+      "Gonna be messy."
+    ],
+    "PlayerRemarkhospital03_path08aManager": [
+      "Phew... Francis..."
+    ],
+    "PlayerRemarkhospital03_path10Manager": [
+      "Mercy Hospital should be right above us."
+    ],
+    "PlayerRemarkhospital03_path11Manager": [
+      "The HOSPITAL!",
+      "GET TO THE HOSPITAL!",
+      "The Hospital! We made it!",
+      "Hurry eveyrone!"
+    ],
+    "PlayerRemarkhospital04_path01Manager": [
+      "This doesn't smell like a hospital...",
+      "Were they saving people or killin' them?"
+    ],
+    "PlayerRemarkhospital04_path02aManager": [
+      "Stairs are a good workout.",
+      "It's good for you Bill, cardio!"
+    ],
+    "PlayerRemarkhospital04_path04Manager": [
+      "Elevator's here!",
+      "To the elevator!",
+      "Into the elevator!",
+      "Get in  the elevator!"
+    ],
+    "PlayerRemarkhospital04_path04aManager": [
+      "Elevator's here!",
+      "To the elevator!",
+      "Into the elevator!",
+      "Get in  the elevator!"
+    ],
+    "PlayerRemarkhospital04_path05Manager": [
+      "We need to find access to the roof!",
+      "We need to find roof access!"
+    ],
+    "PlayerRemarkhospital04_path06Manager": [
+      "Stay away from the edge."
+    ],
+    "PlayerRemarkhospital04_path07Manager": [
+      "Safe house through here.",
+      "Roof this way!",
+      "Let's go, let's go!",
+      "The roof's this way!"
+    ],
+    "PlayerRemarkhospital05_path01Manager": [
+      "Bet the chopper pilot'll be happy to hear from us!",
+      "Let's find that radio!",
+      "Well, this is it.",
+      "Well, it can only get better, right?"
+    ],
+    "PlayerRemarkhospital05_path01bManager": [
+      "Works for me."
+    ],
+    "PlayerRemarkhospital05_path02Manager": [
+      "Through here!"
+    ],
+    "PlayerRemarkhospital05_path03Manager": [
+      "There's the landing pad."
+    ],
+    "PlayerRemarkhospital05_path04Manager": [
+      "Big ass gun up here.",
+      "Check out this gun up here!",
+      "Man, I always wanted to fire one of these things.",
+      "Man, check this gun out!"
+    ],
+    "PlayerRemarkPathClearVanManager": [
+      "Time to move.",
+      "Whaddya say we get moving?"
+    ],
+    "PlayerRemarkSmalltown01_path01Manager": [
+      "Ah, hell. The bridge is out."
+    ],
+    "PlayerRemarkSmalltown01_path02Manager": [
+      "Looks like we can get back up the other side."
+    ],
+    "PlayerRemarkSmalltown01_path03Manager": [
+      "Let's get up that ladder!"
+    ],
+    "PlayerRemarkSmalltown01_path06Manager": [
+      "I don't like this one damn bit."
+    ],
+    "PlayerRemarkSmalltown01_path07Manager": [
+      "The tunnel's blocked."
+    ],
+    "PlayerRemarkSmalltown01_path08Manager": [
+      "Through here!",
+      "Through this door!"
+    ],
+    "PlayerRemarkSmalltown01_path09Manager": [
+      "There's the safe house!",
+      "Safe house up ahead!"
+    ],
+    "PlayerRemarksmalltown02_path01Manager": [
+      "These must be overflow pipes for Riverside."
+    ],
+    "PlayerRemarksmalltown02_path01bManager": [
+      "Interesting true story. In 1975, the local township - [gets cut off]"
+    ],
+    "PlayerRemarksmalltown02_path02Manager": [
+      "Through here!"
+    ],
+    "PlayerRemarksmalltown02_path03Manager": [
+      "Through here!"
+    ],
+    "PlayerRemarksmalltown02_path04Manager": [
+      "Through here!"
+    ],
+    "PlayerRemarksmalltown02_path06Manager": [
+      "We have to lower that platform!"
+    ],
+    "PlayerRemarksmalltown02_path08Manager": [
+      "That'll seal the lock."
+    ],
+    "PlayerRemarksmalltown02_path08aManager": [
+      "That'll seal the lock."
+    ],
+    "PlayerRemarkSmalltown02_path09Manager": [
+      "Safe house up ahead!"
+    ],
+    "PlayerRemarkSmalltown03_path03Manager": [
+      "We need to get over this fence."
+    ],
+    "PlayerRemarkSmalltown03_path04Manager": [
+      "Up the stairs!",
+      "We can cross up here."
+    ],
+    "PlayerRemarkSmalltown03_path05Manager": [
+      "Up the stairs!",
+      "We can cross up here."
+    ],
+    "PlayerRemarkSmalltown03_path06Manager": [
+      "We can cross up here."
+    ],
+    "PlayerRemarkSmalltown03_path08Manager": [
+      "[Reading a turnpike sign] Riverside! At least we're going the right way.",
+      "Almost to Riverside."
+    ],
+    "PlayerRemarkSmalltown03_path11Manager": [
+      "Man, It's too quiet, too dman quiet"
+    ],
+    "PlayerRemarkSmalltown03_path12Manager": [
+      "Look, there's lights on in that church!",
+      "Church still got its lights on."
+    ],
+    "PlayerRemarkSmalltown03_path13Manager": [
+      "Look, there's lights on in that church!",
+      "Church still got its lights on."
+    ],
+    "PlayerRemarkSmalltown04_path03Manager": [
+      "Goddamn it, there's gotta be some place that held out."
+    ],
+    "PlayerRemarkSmalltown04_path04Manager": [
+      "Goddamn it, there's gotta be some place that held out."
+    ],
+    "PlayerRemarkSmalltown04_path05Manager": [
+      "This way."
+    ],
+    "PlayerRemarkSmalltown04_path07AManager": [
+      "If you ignore the crazy guy and the zombies, nice town"
+    ],
+    "PlayerRemarkSmalltown04_path08Manager": [
+      "Now *this* is a big ass machine gun."
+    ],
+    "PlayerRemarkSmalltown04_path09Manager": [
+      "Goddamn it, there's gotta be some place that held out."
+    ],
+    "PlayerRemarkSmalltown04_path10Manager": [
+      "We can cross up here."
+    ],
+    "PlayerRemarkSmalltown05_path02Manager": [
+      "Careful, this is wide open."
+    ],
+    "PlayerRemarkSmalltown05_path03Manager": [
+      "We can get to the river through here."
+    ],
+    "PlayerRemarkSmalltown05_path06Manager": [
+      "Through here!"
+    ],
+    "PlayerRemarkThroughHereManager": [
+      "Through here!"
+    ],
+    "PlayerRemarkUpThatLadderManager": [
+      "Let's get up that ladder!"
+    ],
+    "PlayerZoeySuggestsCraneManager": [
+      "Allright, then, let's do it.",
+      "Good thinking."
+    ],
+    "RespondAffirmativeManager": [
+      "Allright.",
+      "Okay."
+    ],
+    "RiversideIsDeadManager": [
+      "Riverside's a bust. Let's just get to the river."
+    ],
+    "RiversideIsDeadBManager": [
+      "If we get to the river we can find a boat"
+    ],
+    "RiversideIsDeadPlanManager": [
+      "Okay...",
+      "Works for me."
+    ],
+    "RiversideIsDeadSpecial1Manager": [
+      "Riverside's a bust. Let's just get to the river."
+    ],
+    "SafeSpotAheadResponse": [
+      "Finally!",
+      "We made it!",
+      "Knew we'd make it!",
+      "Man, I KNEW we was gonna make it."
+    ],
+    "PlayerCoverMeManager": [
+      "Cover me!",
+      "Watch my back!"
+    ],
+    "PlayerFollowMeManager": [
+      "Come on this way.",
+      "Follow me.",
+      "Follow me!",
+      "This way.",
+      "Come on man, this way."
+    ],
+    "PlayerHelpManager": [
+      "Help!",
+      "I need some help over here!",
+      "Need a little help over here!",
+      "Help me!",
+      "I'm in trouble!",
+      "I need some help!",
+      "Somebody help me!",
+      "Can you hear me? I need some help!",
+      "What part of help do you not understand?  Help!"
+    ],
+    "PlayerHurryUpManager": [
+      "Hurry up!",
+      "Hurry!",
+      "Move!",
+      "Come on!",
+      "Faster!",
+      "Move it",
+      "Let's go let's go let's go!",
+      "Come on, catch up!",
+      "Move it, move it up here!",
+      "I'm not waiting on you, get up here!"
+    ],
+    "PlayerKillThatLightManager": [
+      "Kill that light!",
+      "Flashlights off!",
+      "Turn your light off!",
+      "Kill the light, man.",
+      "Lights off!"
+    ],
+    "PlayerLeadOnManager": [
+      "You all go right ahead.",
+      "You go ahead, I'll follow you.",
+      "You take the lead.",
+      "Go ahead.",
+      "You first."
+    ],
+    "PlayerMoveOnManager": [
+      "Allright, let's go.",
+      "Time to move.",
+      "Let's go.",
+      "Let's Move, Let's Move!",
+      "I really think we should keep moving.",
+      "Whaddya say we get moving?",
+      "Tme to move"
+    ],
+    "PlayerStayTogetherManager": [
+      "Stay close.",
+      "Come on, we got to stay together.",
+      "Keep together!",
+      "Stay together!",
+      "We've got to stick together.",
+      "Nobody run off."
+    ],
+    "PlayerWatchOutBehindManager": [
+      "Behind us!",
+      "They're behind us!",
+      "Turn around man!"
+    ],
+    "PlayerAskReadyManager": [
+      "Ready?",
+      "Ready for this?",
+      "Waddya say, we ready?",
+      "Your ready to bounce?",
+      "You Ready?",
+      "Yeah, let's get ready",
+      "I'm ready, you ready?"
+    ],
+    "PlayerImWithYouManager": [
+      "Don't worry, I got your back.",
+      "Right behind you.",
+      "I'm with ya."
+    ],
+    "PlayerLaughManager": [
+      "<Hearty Laugh>",
+      "<Short laugh>"
+    ],
+    "PlayerNiceJobResponseManager": [
+      "Nice.",
+      "Nice work.",
+      "Nice job.",
+      "Dammmn, man, that was nice.",
+      "That was great.",
+      "That was cool.",
+      "Ah, that was off the chain"
+    ],
+    "PlayerNoManager": [
+      "No way.",
+      "Uh uh.",
+      "Nope.",
+      "Not a chance.",
+      "No way, man.",
+      "No.",
+      "I said No"
+    ],
+    "PlayerProfanityManager": [
+      "ah, Jesus.",
+      "Dammit.",
+      "Aw hell.",
+      "[loud, evil laugh]",
+      "Jee-zus..."
+    ],
+    "PlayerSorryManager": [
+      "Sorry!",
+      "Sorry about that!",
+      "Aww, man, sorry.",
+      "My bad.",
+      "100% my fault"
+    ],
+    "PlayerThanksManager": [
+      "Thanks.",
+      "Thanks, I owe you one.",
+      "Thanks, man.",
+      "Thank you.",
+      "Thanks, I owe ya a big one.",
+      "Thanks a lot.",
+      "Whoo, thanks.",
+      "Hey, thanks.",
+      "Thanks Dog",
+      "Thanks, Playa"
+    ],
+    "PlayerYesManager": [
+      "Allright.",
+      "Yeah.",
+      "Okay.",
+      "Yeah, I'm cool with that",
+      "Yes",
+      "Cool"
+    ],
+    "PlayerYouAreWelcomeManager": [
+      "It's fine.",
+      "Any time.",
+      "Hey, no problem.",
+      "Sure.",
+      "Its all good.",
+      "My pleasure.",
+      "Hey, man, no problem.",
+      "Not a problem.",
+      "You are totally welcome.",
+      "Sure thing, man.",
+      "Sure"
+    ],
+    "PlayerNegativeManager": [
+      "ohhh nooooo",
+      "[Improv non-verbal displeasure & frustration sounds]",
+      "[Improv non-verbal pleasure & interest sounds]"
+    ],
+    "PlayerAreaClearManager": [
+      "Clear!",
+      "Nothing in here!",
+      "Nothin' here!",
+      "All Clean!"
+    ],
+    "PlayerHurrahManager": [
+      "We're going to be okay.",
+      "Man, I think we're gonna make it.",
+      "They can't stop us now",
+      "Nothing can stop us.",
+      "Nothing can stop us, do you hear me? Nothing can stop us!",
+      "We are unstoppable.",
+      "That's right, we should call ourselves the unstoppables",
+      "I am bad, yes I am bad, YES I AM! WOO!"
+    ],
+    "PlayerWarnCarefulManager": [
+      "Caarefullll...",
+      "Careful...",
+      "Be careful...",
+      "Watch yourself now...",
+      "Take it easy...",
+      "We gotta be careful...",
+      "Careful, careful",
+      "We've got to be careful..."
+    ],
+    "SurvivorSpottedWorldFarManager": [
+      "Over there.",
+      "Look.",
+      "Look!"
+    ],
+    "IntroSmalltownManager": [
+      "I heeard the military was evacuating people to Riverside.",
+      "I heard reports that Riverside held out!"
+    ],
+    "IntroSmalltown3Manager": [
+      "Sounds good to me.",
+      "We get to Riverside and we'll probably be allright."
+    ],
+    "SurvivorSpawnManager": [
+      "I'm here!",
+      "Hello!",
+      "Hey, I'm here!"
+    ],
+    "PlayerBillPouncedManager": [
+      "Bill!",
+      "Hunter on Bill!"
+    ],
+    "PlayerEatPillsManager": [
+      "Ah",
+      "Ohh"
+    ],
+    "PlayerFrancisPouncedManager": [
+      "Francis!",
+      "Hunter on Francis!"
+    ],
+    "PlayerGetInsideCheckPointManager": [
+      "C'mon, everyone inside, inside!",
+      "Let's get inside!",
+      "We gotta get inside!"
+    ],
+    "PlayerGrenadeManager": [
+      "GRENADE!",
+      "DUCK AND COVER!",
+      "FIRE IN THE HOLE!",
+      "LOOK OUT, GRENADE!"
+    ],
+    "PlayerGrenadeCarefulManager": [
+      "Be very damn careful....",
+      "Caarefullll...",
+      "Careful...",
+      "Watch yourself now..."
+    ],
+    "PlayerIncapacitatedInitialManager": [
+      "Ahhhh, I'm down!",
+      "Jesus! I'm down!",
+      "Shit! I'm down!",
+      "I'm down!"
+    ],
+    "PlayerKillConfirmationManager": [
+      "Got it!",
+      "Killed it!",
+      "Dead!"
+    ],
+    "PlayerLockTheDoorCheckPointManager": [
+      "Lock that door.",
+      "Lock the door.",
+      "Lock the door, man!",
+      "Go ahead and lock that door.",
+      "Lock the damn door",
+      "Did you lock the door?"
+    ],
+    "PlayerRemarkairport01_burningManager": [
+      "Man... this is going to take forever to rebuild",
+      "This is NOT what I expected"
+    ],
+    "PlayerStayTogetherInsideManager": [
+      "C'mon, everyone inside, inside!",
+      "Let's get inside!",
+      "We gotta get inside!"
+    ],
+    "PlayerSuggestHealthBillManager": [
+      "Maybe you oughtta heal up.",
+      "Bill, you might wanna use your med kit.",
+      "Bill, you oughtta heal.",
+      "Hey Bill, might be a good time to patch yerself up."
+    ],
+    "PlayerSuggestHealthFrancisManager": [
+      "Francis, you should use your med kit.",
+      "Hey tough guy, heal up.",
+      "Yo Francis, come on buddy, heal up.",
+      "Francis, patch yerself up."
+    ],
+    "PlayerSuggestHealthZoeyManager": [
+      "Zoey, you really oughtta heal.",
+      "Go on and heal up, girl.",
+      "Might be a good time to heal, Zoey.",
+      "Come on, girl - time to heal up.",
+      "Go on and heal up, Zoey."
+    ],
+    "PlayerTransitionManager": [
+      "Woo baby, Aw riiiight!",
+      "Nice job.",
+      "BOOM-diah",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Allright!",
+      "Heh hehhhh.",
+      "Nice!",
+      "Sweet Baby!",
+      "That's what I'm talkin' about"
+    ],
+    "PlayerTransitionCloseManager": [
+      "Woah Jesus!",
+      "Damn!",
+      "At least we're safe now!",
+      "The guy's used to laugh when I hit the rifle range at lunch, not so funny now is it? Riflerange_02.wav"
+    ],
+    "PlayerWarnHeardBoomerManager": [
+      "Watch your fire, I hear a Boomer.",
+      "I hear a Boomer.",
+      "Careful, there's a Boomer's around.",
+      "Careful, I hear a Boomer.",
+      "Watch it, I hear a Boomer.",
+      "Heads up, man, I hear a Boomer.",
+      "Ah, man, that sounds like a Boomer.",
+      "Look out, we got a Boomer around here.",
+      "I definitely hear a Boomer."
+    ],
+    "PlayerWarnHeardHunterManager": [
+      "Watch your back, I hear a Hunter.",
+      "Careful, I hear a Hunter.",
+      "I hear a Hunter",
+      "There's a Hunter out there.",
+      "Careful now,  there's a Hunter around here.",
+      "Careful now, there's a hunter around here."
+    ],
+    "PlayerWarnHeardSmokerManager": [
+      "There's a Smoker around here.",
+      "Smoker - somewhere around here.",
+      "Careful, I smell a Smoker.",
+      "I hear a Smoker."
+    ],
+    "PlayerWarnHeardWitchManager": [
+      "Shhh, I hear a Witch.",
+      "I hear a Witch.",
+      "I hear a damn Witch.",
+      "There's a Witch around here.",
+      "Hold on, hold on, shhh, that's a witch!",
+      "Ahh damn, a witch is around here.",
+      "Stop, Stop, Stop - I hear a witch"
+    ],
+    "PlayerWarnMegaMobManager": [
+      "Here they come!",
+      "They're comin'!",
+      "Incoming!",
+      "Uh oh.",
+      "ah, Jesus.",
+      "Keep together!"
+    ],
+    "PlayerWarnMegaMobCraneManager": [
+      "Uh oh."
+    ],
+    "PlayerWarnWitchAngryManager": [
+      "Yo, that Witch ain't gonna set still much longer.",
+      "Will you stop that shit?  The witch ain't gonna sit still much longer",
+      "Stop freakin' out the damn Witch.",
+      "Oh man, do not piss the witch off!",
+      "The Witch is getting up!"
+    ],
+    "PlayerZoeyPouncedManager": [
+      "Hunter on Zoey!",
+      "Zoey!"
+    ],
+    "SurvivorCaughtVomitManager": [
+      "sptting gross noises"
+    ],
+    "SurvivorCoughingManager": [
+      "[Coughing from smoke]"
+    ],
+    "SurvivorCoughingDeathManager": [
+      "[Coughing from smoke]"
+    ],
+    "SurvivorDeathManager": [
+      "[Death rattle and final breath]",
+      "[Loud, painful death scream]",
+      "[Short quick death scream]"
+    ],
+    "SurvivorFinaleAheadHospitalManager": [
+      "I hear the pilot!",
+      "Let's find that radio."
+    ],
+    "SurvivorGrabbedByTongueManager": [
+      "no, No, NO, NO!!!!!",
+      "no, No, NO, NOOOOOOO!!!!!!!!!"
+    ],
+    "SurvivorNearFinaleManager": [
+      "We're almost out of here!"
+    ],
+    "SurvivorTankPoundManager": [
+      "Get this thing off me!",
+      "Ah shit, ah shit. Stop this thing!",
+      "AAHHHH It's crushing me!",
+      "I can't breath, help me, I can't breath",
+      "Shoot it, I can't breath, shoot it"
+    ],
+    "SurvivorVocalizeBackUpManager": [
+      "Back up!",
+      "Backbackback!"
+    ],
+    "SurvivorVocalizeEmphaticGoManager": [
+      "Go go go!",
+      "Go go GO!",
+      "GO!",
+      "MOVE!",
+      "C'mon go!",
+      "MOVE IT!",
+      "Move it mooove it!"
+    ],
+    "SurvivorVocalizeFollowMeManager": [
+      "Come on this way.",
+      "Follow me.",
+      "Follow me!",
+      "This way.",
+      "Come on man, this way."
+    ],
+    "SurvivorVocalizeGoingToDieManager": [
+      "I don't feel so good",
+      "I don't, I don't know if I'm going to make it",
+      "I feel awful.",
+      "I'm not gonna last much longer.",
+      "Shit, I am really messed up.",
+      "I have to heal up.",
+      "Every part of me hurts.",
+      "This sucks.",
+      "At this rate, I'm not gonna make it.",
+      "I feel terrible.",
+      "This is bad. This is really bad.",
+      "I think I'm hurt bad.",
+      "I think I'm dyin'.",
+      "I feel awful",
+      "[gasps and sharp intake of breath]",
+      "I think something's broken.",
+      "I should have stayed in damn the store...",
+      "[pain sound] Dammit.",
+      "Oh man, I am in sorry ass shape.",
+      "I feel kinda woozy.",
+      "I'm not gonna make it man",
+      "Every part of me hurts",
+      "Man, this hurts.",
+      "[quiet pep talk to self]C'mon Louis: you are NOT dyin' here.",
+      "[pain noise] Oh man, every damn thing hurts.",
+      "[blows air out through pursed lips] This is some real bullshit right here.",
+      "Ah. [pain noise] hell, hell."
+    ],
+    "SurvivorVocalizeGoingToDie3Manager": [
+      "I really need to get some First Aid.",
+      "I don't think I'm gonnna make it.",
+      "I'm not kidding, we need to find me some First Aid.",
+      "Ah, I might not make it"
+    ],
+    "SurvivorVocalizeGoingToDieAloneManager": [
+      "[Nervous Humming]",
+      "[Nervous Whistle]"
+    ],
+    "SurvivorVocalizeLookOutManager": [
+      "Look out!",
+      "Watch out!",
+      "Heads up!"
+    ],
+    "SurvivorVocalizeThisWayManager": [
+      "Come on this way.",
+      "Follow me.",
+      "Follow me!",
+      "This way.",
+      "Come on man, this way."
+    ],
+    "SurvivorVocalizeWaitHereManager": [
+      "Let's wait here.",
+      "Hold up! Let's wait here",
+      "Chill, let's wait here.",
+      "Everybody hold up!",
+      "Hold up! Hold Up!"
+    ],
+    "PlayerLedgeHangEndManager": [
+      "I'M SLIPPING! PULL ME UP!",
+      "I'm about to fall off this thing. HELP! HELLLLLP!!!!",
+      "I CAN'T HOLD ON - I CAN'T HOLD ON I'M FALLING!",
+      "SOMEBOY, SOMEBODY OH SHIT I'M FALLING! I'M FALLING!"
+    ],
+    "PlayerLedgeHangMiddleManager": [
+      "I really do need someone to pull me up!",
+      "Somebody really needs to get over here a pull me up!",
+      "Hey, I'm still hanging off a ledge here!",
+      "It's a long way down here. You gotta pull me up!",
+      "Come on man, I'm not playin', get over here and pull me up!",
+      "I'm getting tired of hanging around, pull me up!"
+    ],
+    "PlayerLedgeHangStartManager": [
+      "Someone pull me up!",
+      "Could somebody give me a hand up over here?",
+      "I could really use a hand up over here!",
+      "Hey! I need somebody to pull me up!",
+      "Throw me a hand man, pull me up!",
+      "Don't laugh man, just pull me up"
+    ],
+    "DoubleDeathManager": [
+      "This shit was not in my plans.",
+      "We gotta pull ourselves together.",
+      "Oh shit. Shit. Shit shit shit."
+    ],
+    "SurvivorDiedBillManager": [
+      "Bill, no!",
+      "Ah Bill. Ah, shit.",
+      "Bill, Bill, no!",
+      "Bill! (loud)",
+      "Bill (quiet)"
+    ],
+    "SurvivorDiedFrancisManager": [
+      "Francis!  NO!",
+      "Jesus Christ, Francis, no, Francis!",
+      "Francis! (loud)",
+      "Francis (quiet)"
+    ],
+    "SurvivorDiedZoeyManager": [
+      "Ah! Zoey!",
+      "ZOEY! Goddamn it.",
+      "Noo, oh ho ho, ZOEY!",
+      "Zoey!",
+      "Zoey! (loud)"
+    ],
+    "SurvivorPickupAutoShotgunManager": [
+      "I'll take this shotgun.",
+      "I'll take the shotgun.",
+      "I'm grabbing this shotgun.",
+      "Got the shotgun.",
+      "Oh, I'm grabbing this shotgun."
+    ],
+    "SurvivorPickupFirstAidKitManager": [
+      "First Aid. [to self]",
+      "Grabbing First Aid!",
+      "Oh, this first aid is mine!"
+    ],
+    "SurvivorPickupHuntingRifleManager": [
+      "I'm gonna take this rifle.",
+      "This is a nice rifle."
+    ],
+    "SurvivorPickupMolotovManager": [
+      "Molotovs. [to self]",
+      "Grabbing a Molotov.",
+      "Molotovs, hell yeah!"
+    ],
+    "SurvivorPickupPainPillsManager": [
+      "Better grab everything I can [to self]",
+      "Grabbing Pills."
+    ],
+    "SurvivorPickupPipeBombManager": [
+      "Woah, this'll blow something up",
+      "Grabbing a pipe bomb.",
+      "Woo hoo hoo hoo, I'm grabbing a pipe bomb.",
+      "This shit look real jerry-rigged."
+    ],
+    "SurvivorPickupPumpShotgunManager": [
+      "Guess I'll try this shotgun."
+    ],
+    "SurvivorPickupRifleManager": [
+      "I'm takin' this rifle.",
+      "This rifle is now mine.",
+      "This big rifle is now mine.",
+      "Oh, this rifle is mine!"
+    ],
+    "SurvivorPickupSecondPistolManager": [
+      "An extra pistol might come in handy. [to self]",
+      "I'm taking an extra pistol."
+    ],
+    "SurvivorPickupSMGManager": [
+      "Grabbing a machinegun!",
+      "A machinegun. [to self]",
+      "Cool, just like counter-strike"
+    ],
+    "TakeShotgunGroovyLouis": [
+      "<Short laugh>"
+    ],
+    "PlayerGettingRevivedManager": [
+      "I'm okay.",
+      "I'm allright.",
+      "[groan]",
+      "I don't even know.",
+      "Aw hell, I'm bleedin'.",
+      "[groan2]",
+      "I'll make it.",
+      "I'll live.",
+      "I can shake it off.",
+      "Just help me up.",
+      "I ain't done yet."
+    ],
+    "PlayerHealOtherManager": [
+      "Let me heal you up.",
+      "Hold on, I'm gonna heal you.",
+      "Hold up, this'll help.",
+      "Hang on, let me fix you up.",
+      "This should last you until we're safe."
+    ],
+    "PlayerLedgeSaveManager": [
+      "Okay, okay, I think I can get you up. Just hang on one more second.",
+      "I'm here. I gotcha, man. Grab my hand and we're gonna get you back on solid ground!",
+      "Don't worry, I gotcha, man. Hang on, hang on. Almost up..."
+    ],
+    "PlayerReviveFriendManager": [
+      "I didn't think you were gettin' back up.",
+      "Don't worry, I gotcha. You're gonna be just fine.",
+      "I never saw nobody take that much abuse and live! Oughtta start callin' you Jason.",
+      "I never saw nobody take that much abuse and live! Oughtta start callin' you Hercules.",
+      "I gotcha, I gotcha. Don't worry, I'm not gonna let you die. Come on, up ya go.",
+      "Come on, man, look at me. Focus. You are going to be okay. Let's get moving.",
+      "Okay, okay, I'm here, don't worry. Onnne second. I'll get you back on your feet.",
+      "C'mon, okay, break time's over. Let's get you on your feet and back to work.",
+      "I think... Yeah, I think you're okay. Let's get you up so we can keep moving.",
+      "I'm no doctor, but you are *definitely* not dead yet. So come on, let's get you up and moving."
+    ],
+    "PlayerReviveFriendCriticalManager": [
+      "Oh man, you don't look so good. If we don't get you some first aid , you're not gonna survive another hit like that.",
+      "Ah, ah jesus, you're bleedin' all over the place. If we don't get you some first aid, you're not gonna survive another hit like that.",
+      "I can get you on your feet, but just barely. If we don't get you some first aid, you're not gonna survive another hit like that.",
+      "Okay, come on, stay with me. I can get you moving again, but if we don't find you some first aid, you're not gonna survive another hit like that.",
+      "I can help you up, but, Jesus, you shouldn't even be alive. If we don't find you some first aid, you're not gonna survive another hit like that."
+    ],
+    "PlayerReviveFriendLoudManager": [
+      "Come on, come on! You're okay!",
+      "Let's get up, let's get up!",
+      "Get up, we gotta go!",
+      "Come on, get up!",
+      "Come on, man, get up!",
+      "Come on, you gotta get up.",
+      "Come on now. Get up!",
+      "Get up now, come on!"
+    ],
+    "PlayerReviveFriendLoudFrancisManager": [
+      "No time for this, bro, let's move!",
+      "We gotta get your ass up, man."
+    ],
+    "PlayerReviveFriendLoudZoeyManager": [
+      "Come on, girl, get up!"
+    ],
+    "PlayerReviveFriendShortManager": [
+      "Up and at 'em.",
+      "Come on up!",
+      "Up ya go.",
+      "You'll be okay.",
+      "I got ya.",
+      "Up we go.",
+      "You're fine.",
+      "It doesn't look bad.",
+      "Come on up.",
+      "Let's move!",
+      "You'll be fine."
+    ],
+    "PlayerHospitalIntroManager": [
+      "The Subway can take us straight to Mercy Hospital!"
+    ],
+    "PlayerHospitalIntro02Manager": [
+      "Sounds good."
+    ],
+    "PlayerCoverMeHealManager": [
+      "Cover me!",
+      "Watch my back!",
+      "Cover me, I'm healing!",
+      "Everybody stop a sec, I gotta heal.",
+      "Wait up while I heal.",
+      "Hold up, I gotta heal.",
+      "Cover me whille I heal."
+    ],
+    "SurvivorSpottedRifleAutoManager2": [
+      "Oh cool",
+      "Oh, Cool",
+      "Yeah.",
+      "Cool"
+    ],
+    "SurvivorSpottedShotgunAutoManager2": [
+      "Oh cool",
+      "Oh, Cool",
+      "Yeah.",
+      "Cool"
+    ],
+    "SurvivorSpottedSMGAutoManager2": [
+      "Oh cool",
+      "Oh, Cool",
+      "Yeah.",
+      "Cool"
+    ],
+    "SurvivorSpottedSniperRifleAutoManager2": [
+      "Oh cool",
+      "Oh, Cool",
+      "Yeah.",
+      "Cool"
+    ],
+    "SurvivorSpottedWeaponManager": [
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedWeaponAShotgunAutoManager2": [
+      "Oh cool",
+      "Oh, Cool",
+      "Yeah.",
+      "Cool"
+    ],
+    "SurvivorSpottedWeaponPistolAutoManager": [
+      "Weapons here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedWeaponPistolAutoManager2": [
+      "Oh cool",
+      "Oh, Cool",
+      "Yeah.",
+      "Cool"
+    ],
+    "PlayerRelaxedSighManager": [
+      "Ahhh",
+      "OAhhhhh",
+      "Wooooohh"
+    ],
+    "PlayerUseAdrenalineManager": [
+      "Wooooohh",
+      "WOOOO!",
+      "Haaa!"
+    ],
+    "PlayerUsingDefibrillatorManager": [
+      "Clear!",
+      "Let's go--let's go let's go!"
+    ],
+    "PlayerRevivedByDefibrillatorManager": [
+      "[reaction to body hits - uhs ahs]",
+      "[Pain noise - ugh]",
+      "[gasp for breath]"
+    ],
+    "PlayerRevivedByDefibrillator2Manager": [
+      "AH HAH, YEAH!",
+      "Awww SHIT!",
+      "Wooo, thanks...",
+      "Whoa!",
+      "HOOOLY SHITT!"
+    ],
+    "SurvivorPouncedByHunterManager": [
+      "GET IT GET IT OFF GET IT OFF!"
+    ],
+    "PlayerGrabbedByJockeyManager": [
+      "GET THIS OFF MY BACK!",
+      "GET HIM OFF!",
+      "Aaah!",
+      "YAA!",
+      "Aww Jesus!",
+      "AHH!",
+      "DAMN IT!"
+    ],
+    "SurvivorJockeyHurtMajorManager": [
+      "GET THIS OFF MY BACK!",
+      "GET HIM OFF!",
+      "[pain noise - ahh]",
+      "[pain noise - ugh]",
+      "[pain noise - short minor pain]"
+    ],
+    "SurvivorJockeyHurtMinorManager": [
+      "GET THIS OFF MY BACK!",
+      "GET HIM OFF!",
+      "[pain noise - ahh]",
+      "[pain noise - ugh]",
+      "[pain noise - short minor pain]"
+    ],
+    "PlayerCommentJockeyManager": [
+      "That's some country ass bullshit!",
+      "Look at that zombie jumpin' on him!",
+      "That's some crazy zombie!",
+      "THAT--is some nasty shit."
+    ],
+    "SurvivorchargerpoundManager": [
+      "I can't breath, help me, I can't breath",
+      "Shoot it, I can't breath, shoot it"
+    ],
+    "SurvivorGooedBySpitterManager": [
+      "AHH!",
+      "AH!",
+      "GO!",
+      "MOOVE!",
+      "MOVE IT!",
+      "Move it move it!",
+      "Back back back back!",
+      "BACK UP!"
+    ],
+    "SurvivorWarnSpitterIncomingManager": [
+      "Get down!",
+      "DUCK!",
+      "INCOMING!"
+    ],
+    "SurvivorDeployUpExplosivesManager": [
+      "Everybody hold up!",
+      "Hold up! Hold Up!"
+    ],
+    "SurvivorDeployUpIncendiaryManager": [
+      "Everybody hold up!",
+      "Hold up! Hold Up!"
+    ],
+    "SurvivorPickupM60Manager": [
+      "Man, I always wanted to fire one of these things.",
+      "Man, check this gun out!"
+    ]
+  },
+  "Biker": {}
+}

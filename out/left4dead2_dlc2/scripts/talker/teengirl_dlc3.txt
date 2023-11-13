@@ -1,0 +1,528 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc2/scripts/talker/teengirl_dlc3.txt
+-------------------------------------------------------
+
+RESPONSE C7M1_saferoom02TeenGirl CHARACTER TeenGirl SUBTITLE "Yeah, or Bill'll leave you behind."
+RULE C7M1_saferoom02TeenGirl CRITERIA ConceptC7M1_saferoom02 IsTeenGirl RESPONSE C7M1_saferoom02TeenGirl
+RESPONSE C7M1_saferoom09bTeenGirl CHARACTER TeenGirl SUBTITLE "Whatever."
+RESPONSE C7M1_saferoom09bTeenGirl CHARACTER TeenGirl SUBTITLE "Let's just go."
+RULE C7M1_saferoom09bTeenGirl CRITERIA ConceptC7M1_saferoom09b IsTeenGirl RESPONSE C7M1_saferoom09bTeenGirl
+RESPONSE C7M1_saferoom10aTeenGirl CHARACTER TeenGirl SUBTITLE "Whatever, I don't care."
+RESPONSE C7M1_saferoom10aTeenGirl CHARACTER TeenGirl SUBTITLE "Sure. Whatever."
+RULE C7M1_saferoom10aTeenGirl CRITERIA ConceptC7M1_saferoom10a IsTeenGirl RESPONSE C7M1_saferoom10aTeenGirl
+RESPONSE C7M1_saferoom11TeenGirl CHARACTER TeenGirl SUBTITLE "Those people still dead?"
+RULE C7M1_saferoom11TeenGirl CRITERIA ConceptC7M1_saferoom11 IsTeenGirl RESPONSE C7M1_saferoom11TeenGirl
+RESPONSE C7M1_saferoom15aTeenGirl CHARACTER TeenGirl SUBTITLE "Sure. It's the rest of the world we can just let die."
+RULE C7M1_saferoom15aTeenGirl CRITERIA ConceptC7M1_saferoom15a IsTeenGirl RESPONSE C7M1_saferoom15aTeenGirl
+RESPONSE C7M1_saferoom18TeenGirl CHARACTER TeenGirl SUBTITLE "I'd like to put it to a vote that maybe we shouldn't go rot on an island in the middle of nowhere, and actually, you know, help everybody else fight the zombies?"
+RULE C7M1_saferoom18TeenGirl CRITERIA ConceptC7M1_saferoom18 IsTeenGirl RESPONSE C7M1_saferoom18TeenGirl
+RESPONSE C7M1_saferoom19aTeenGirl CHARACTER TeenGirl SUBTITLE "Louis, you of all people should understand."
+RULE C7M1_saferoom19aTeenGirl CRITERIA ConceptC7M1_saferoom19a IsTeenGirl RESPONSE C7M1_saferoom19aTeenGirl
+RESPONSE C7M1_saferoom20aTeenGirl CHARACTER TeenGirl SUBTITLE "How can you be sure?"
+RULE C7M1_saferoom20aTeenGirl CRITERIA ConceptC7M1_saferoom20a IsTeenGirl RESPONSE C7M1_saferoom20aTeenGirl
+RESPONSE C7M1_saferoom23TeenGirl CHARACTER TeenGirl SUBTITLE "Great maybe we can meet some new people and leave them behind."
+RULE C7M1_saferoom23TeenGirl CRITERIA ConceptC7M1_saferoom23 IsTeenGirl RESPONSE C7M1_saferoom23TeenGirl
+RESPONSE C7M1OpenTankDoorTeenGirl CHARACTER TeenGirl SUBTITLE "Get ready to fight this tank."
+RESPONSE C7M1OpenTankDoorTeenGirl CHARACTER TeenGirl SUBTITLE "Door's opening, get ready..."
+RESPONSE C7M1OpenTankDoorTeenGirl CHARACTER TeenGirl SUBTITLE "I am so dead."
+RESPONSE C7M1OpenTankDoorTeenGirl CHARACTER TeenGirl SUBTITLE "I cannot believe I am doing this."
+RESPONSE C7M1OpenTankDoorTeenGirl CHARACTER TeenGirl SUBTITLE "Unbelievable. You guys are the biggest chickenshits."
+RULE C7M1OpenTankDoorTeenGirl CRITERIA Conceptc7m1opentankdoorspeakTeenGirl IsTeenGirl _auto_NotsaidC7M1OpenTankDoor RESPONSE C7M1OpenTankDoorTeenGirl
+RESPONSE C7M1SafeRoomIdleTeenGirl CHARACTER TeenGirl SUBTITLE "Francis: Tell Bill I'm ready to go."
+RESPONSE C7M1SafeRoomIdleTeenGirl CHARACTER TeenGirl SUBTITLE "This was your plan, Bill? A train to the Keys? This isn't the keys, Bill. We're nowhere."
+RESPONSE C7M1SafeRoomIdleTeenGirl CHARACTER TeenGirl SUBTITLE "Well--better get moving. Remember, if you fall behind, Bill thinks it's okay to let you die."
+RESPONSE C7M1SafeRoomIdleTeenGirl CHARACTER TeenGirl SUBTITLE "Are you kidding me? This is the middle of nowhere. We left all those people behind for THIS?"
+RESPONSE C7M1SafeRoomIdleTeenGirl CHARACTER TeenGirl SUBTITLE "Good thing we left all those people behind so WE could escape, Bill."
+RULE C7M1SafeRoomIdleTeenGirl CRITERIA ConceptTalkIdle IsTeenGirl IsMapc7m1_docks IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_IsSafeRoomStart _auto_NotSafeRoomQuiet _auto_NotC7M1SafeRoomConvo IsNotSpeakingWeight0 RESPONSE C7M1SafeRoomIdleTeenGirl
+RESPONSE C7M1SafeRoomStartTeenGirl CHARACTER TeenGirl SUBTITLE "Blank"
+RULE C7M1SafeRoomStartTeenGirl CRITERIA ConceptTalkIdle IsTeenGirl IsMapc7m1_docks IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_NotSafeRoomStart IsNotSpeakingWeight0 RESPONSE C7M1SafeRoomStartTeenGirl
+RESPONSE C7M2_saferoom01TeenGirl CHARACTER TeenGirl SUBTITLE "I really don't want to hear it."
+RULE C7M2_saferoom01TeenGirl CRITERIA ConceptC7M2_saferoom01 IsTeenGirl RESPONSE C7M2_saferoom01TeenGirl
+RESPONSE C7M2_saferoom01bTeenGirl CHARACTER TeenGirl SUBTITLE "Bill, I'm not ready to give up on everything yet."
+RULE C7M2_saferoom01bTeenGirl CRITERIA ConceptC7M2_saferoom01b IsTeenGirl RESPONSE C7M2_saferoom01bTeenGirl
+RESPONSE C7M2_saferoom05bTeenGirl CHARACTER TeenGirl SUBTITLE "Because, Francis... hey, yeah, what the hell, Bill?"
+RULE C7M2_saferoom05bTeenGirl CRITERIA ConceptC7M2_saferoom05b IsTeenGirl RESPONSE C7M2_saferoom05bTeenGirl
+RESPONSE C7M2SafeRoomIdleTeenGirl CHARACTER TeenGirl SUBTITLE "So this is really it? We're gonna run away to some island? "So long world good luck with all the zombies"?"
+RULE C7M2SafeRoomIdleTeenGirl CRITERIA ConceptTalkIdle IsTeenGirl IsMapc7m2_barge IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_IsSafeRoomStart _auto_NotSafeRoomQuiet _auto_NotC7M2SafeRoomConvo IsNotSpeakingWeight0 RESPONSE C7M2SafeRoomIdleTeenGirl
+RESPONSE C7M2SafeRoomStartTeenGirl CHARACTER TeenGirl SUBTITLE "Blank"
+RULE C7M2SafeRoomStartTeenGirl CRITERIA ConceptTalkIdle IsTeenGirl IsMapc7m2_barge IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_NotSafeRoomStart IsNotSpeakingWeight0 RESPONSE C7M2SafeRoomStartTeenGirl
+RESPONSE Player.WarnMegaMobc7m201TeenGirl CHARACTER TeenGirl SUBTITLE "Into the chute."
+RESPONSE Player.WarnMegaMobc7m201TeenGirl CHARACTER TeenGirl SUBTITLE "We need to get into the chute."
+RULE Player.WarnMegaMobc7m201TeenGirl CRITERIA ConceptPlayer.WarnMegaMobc7m201 IsTeenGirl RESPONSE Player.WarnMegaMobc7m201TeenGirl
+RESPONSE C7M3_saferoom004bTeenGirl CHARACTER TeenGirl SUBTITLE "Ohhhh. Boo."
+RULE C7M3_saferoom004bTeenGirl CRITERIA ConceptC7M3_saferoom004b IsTeenGirl RESPONSE C7M3_saferoom004bTeenGirl
+RESPONSE C7M3_saferoom005TeenGirl CHARACTER TeenGirl SUBTITLE "You asked me that last year? It would have been ten zombie movies. Now? Probably a documentary on how to make toilet paper."
+RESPONSE C7M3_saferoom005TeenGirl CHARACTER TeenGirl SUBTITLE "A month ago? I would have picked ten zombie movies. Now? Like, ten documentaries on how to build shelter, catch food and make toilet paper."
+RULE C7M3_saferoom005TeenGirl CRITERIA ConceptC7M3_saferoom005 IsTeenGirl RESPONSE C7M3_saferoom005TeenGirl
+RESPONSE C7M3_saferoom006cTeenGirl CHARACTER TeenGirl SUBTITLE "No more human race..."
+RULE C7M3_saferoom006cTeenGirl CRITERIA ConceptC7M3_saferoom006c IsTeenGirl RESPONSE C7M3_saferoom006cTeenGirl
+RESPONSE C7M3_saferoom007TeenGirl CHARACTER TeenGirl SUBTITLE "In most movies they sink."
+RULE C7M3_saferoom007TeenGirl CRITERIA ConceptC7M3_saferoom007 IsTeenGirl RESPONSE C7M3_saferoom007TeenGirl
+RESPONSE C7M3_saferoom007bTeenGirl CHARACTER TeenGirl SUBTITLE "I think that means we're safe."
+RULE C7M3_saferoom007bTeenGirl CRITERIA ConceptC7M3_saferoom007b IsTeenGirl RESPONSE C7M3_saferoom007bTeenGirl
+RESPONSE C7M3_saferoom016TeenGirl CHARACTER TeenGirl SUBTITLE "That's the spirit, Louis!"
+RULE C7M3_saferoom016TeenGirl CRITERIA ConceptC7M3_saferoom016 IsTeenGirl RESPONSE C7M3_saferoom016TeenGirl
+RESPONSE C7M3_saferoom016cTeenGirl CHARACTER TeenGirl SUBTITLE "I hate putting the lotion in the basket."
+RULE C7M3_saferoom016cTeenGirl CRITERIA ConceptC7M3_saferoom016c IsTeenGirl RESPONSE C7M3_saferoom016cTeenGirl
+RESPONSE C7M3BridgeBreaksTeenGirl CHARACTER TeenGirl SUBTITLE "Crap! That generator stalled!"
+RESPONSE C7M3BridgeBreaksTeenGirl CHARACTER TeenGirl SUBTITLE "Damnit to hell, that generator's out."
+RESPONSE C7M3BridgeBreaksTeenGirl CHARACTER TeenGirl SUBTITLE "You're kidding me, that generator's out."
+RULE C7M3BridgeBreaksTeenGirl CRITERIA conceptC7M3BridgeBreaks IsTeenGirl _auto_NotSaidC7M3BridgeBreaks RESPONSE C7M3BridgeBreaksTeenGirl
+RESPONSE C7M3FinalPressBikerTeenGirl CHARACTER TeenGirl SUBTITLE "FRANCIS!"
+RESPONSE C7M3FinalPressBikerTeenGirl CHARACTER TeenGirl SUBTITLE "Francis! You did it!"
+RESPONSE C7M3FinalPressBikerTeenGirl CHARACTER TeenGirl SUBTITLE "Francis! We're safe!"
+RULE C7M3FinalPressBikerTeenGirl CRITERIA ConceptC7M3FinalSpeakBiker IsTeenGirl IsLastGenerator IsNotBiker _auto_NotC7M3FinalPress RESPONSE C7M3FinalPressBikerTeenGirl
+RESPONSE C7M3FinalPressManagerTeenGirl CHARACTER TeenGirl SUBTITLE "Thanks Louis!"
+RESPONSE C7M3FinalPressManagerTeenGirl CHARACTER TeenGirl SUBTITLE "LOOOOOOUUUUIIIIIISSSSS!"
+RESPONSE C7M3FinalPressManagerTeenGirl CHARACTER TeenGirl SUBTITLE "Oh damnit Louis!"
+RULE C7M3FinalPressManagerTeenGirl CRITERIA ConceptC7M3FinalSpeakManager IsTeenGirl IsLastGenerator IsNotManager _auto_NotC7M3FinalPress RESPONSE C7M3FinalPressManagerTeenGirl
+RESPONSE C7M3FinalPressNamVetTeenGirl CHARACTER TeenGirl SUBTITLE "Bill! No!!"
+RESPONSE C7M3FinalPressNamVetTeenGirl CHARACTER TeenGirl SUBTITLE "BIIILLLLL!!!"
+RESPONSE C7M3FinalPressNamVetTeenGirl CHARACTER TeenGirl SUBTITLE "Ah shit Bill, you didn't have to do that."
+RESPONSE C7M3FinalPressNamVetTeenGirl CHARACTER TeenGirl SUBTITLE "Bill, you did it! We're safe!"
+RESPONSE C7M3FinalPressNamVetTeenGirl CHARACTER TeenGirl SUBTITLE "Bill you saved us!"
+RESPONSE C7M3FinalPressNamVetTeenGirl CHARACTER TeenGirl SUBTITLE "We won't forget you Bill!"
+RESPONSE C7M3FinalPressNamVetTeenGirl CHARACTER TeenGirl SUBTITLE "I'm sorry Bill.  I love you!"
+RESPONSE C7M3FinalPressNamVetTeenGirl CHARACTER TeenGirl SUBTITLE "Ahh Bill, I love you old man."
+RESPONSE C7M3FinalPressNamVetTeenGirl CHARACTER TeenGirl SUBTITLE "Bill, bill, bill, bill."
+RESPONSE C7M3FinalPressNamVetTeenGirl CHARACTER TeenGirl SUBTITLE "Bill, you did it! You did it!"
+RULE C7M3FinalPressNamVetTeenGirl CRITERIA ConceptC7M3FinalSpeakNamVet IsTeenGirl IsLastGenerator IsNotNamVet _auto_NotC7M3FinalPress RESPONSE C7M3FinalPressNamVetTeenGirl
+RESPONSE C7M3GeneratorPress01TeenGirl CHARACTER TeenGirl SUBTITLE "These generators must be setup to power the bridge."
+RESPONSE C7M3GeneratorPress01TeenGirl CHARACTER TeenGirl SUBTITLE "We need to power these three generators to raise the bridge!"
+RESPONSE C7M3GeneratorPress01TeenGirl CHARACTER TeenGirl SUBTITLE "Starting these generators is going to alert the horde."
+RESPONSE C7M3GeneratorPress01TeenGirl CHARACTER TeenGirl SUBTITLE "I just know starting these generators isn't going to be quiet."
+RULE C7M3GeneratorPress01TeenGirl CRITERIA ConceptC7M3GeneratorSpeakTeenGirl IsTeenGirl IsFirstGenerator _auto_NotC7M3PressingTeenGirl RESPONSE C7M3GeneratorPress01TeenGirl
+RESPONSE C7M3GeneratorPress02TeenGirl CHARACTER TeenGirl SUBTITLE "Let's get ready before we hit it."
+RULE C7M3GeneratorPress02TeenGirl CRITERIA ConceptC7M3GeneratorSpeakTeenGirl IsTeenGirl IsSecondGenerator _auto_NotC7M3PressingTeenGirl RESPONSE C7M3GeneratorPress02TeenGirl
+RESPONSE C7M3GeneratorPress03TeenGirl CHARACTER TeenGirl SUBTITLE "Last generator."
+RESPONSE C7M3GeneratorPress03TeenGirl CHARACTER TeenGirl SUBTITLE "This is it, get ready."
+RULE C7M3GeneratorPress03TeenGirl CRITERIA ConceptC7M3GeneratorSpeakTeenGirl IsTeenGirl IsThirdGenerator _auto_NotC7M3PressingTeenGirl RESPONSE C7M3GeneratorPress03TeenGirl
+RESPONSE C7M3PlayerGetToRescueVehicleTeenGirl CHARACTER TeenGirl SUBTITLE "The bridge is ready, let's go!"
+RESPONSE C7M3PlayerGetToRescueVehicleTeenGirl CHARACTER TeenGirl SUBTITLE "Get to the bridge!"
+RESPONSE C7M3PlayerGetToRescueVehicleTeenGirl CHARACTER TeenGirl SUBTITLE "We did it! Get to the bridge!"
+RULE C7M3PlayerGetToRescueVehicleTeenGirl CRITERIA ConceptGetToVehicle IsTeenGirl ismapc7m3_port IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl _auto_NotC7M3ToBridgeTeenGirl RESPONSE C7M3PlayerGetToRescueVehicleTeenGirl
+RESPONSE C7M3SafeRoomStartTeenGirl CHARACTER TeenGirl SUBTITLE "Blank"
+RULE C7M3SafeRoomStartTeenGirl CRITERIA ConceptTalkIdle IsTeenGirl IsMapc7m3_port IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_NotSafeRoomStart IsNotSpeakingWeight0 RESPONSE C7M3SafeRoomStartTeenGirl
+RESPONSE C7M3WaveOverGen1TeenGirl CHARACTER TeenGirl SUBTITLE "Done! To the next generator."
+RESPONSE C7M3WaveOverGen1TeenGirl CHARACTER TeenGirl SUBTITLE "Let's go, we have more generators."
+RULE C7M3WaveOverGen1TeenGirl CRITERIA conceptC7M3WaveOverGen1 IsTeenGirl IsSecondGenerator _auto_NotSaidC7M3WaveOverGen1 RESPONSE C7M3WaveOverGen1TeenGirl
+RESPONSE C7M3WaveOverGen2TeenGirl CHARACTER TeenGirl SUBTITLE "This one is done, let's go!"
+RESPONSE C7M3WaveOverGen2TeenGirl CHARACTER TeenGirl SUBTITLE "One more!"
+RESPONSE C7M3WaveOverGen2TeenGirl CHARACTER TeenGirl SUBTITLE "We're almost out here! One more generator!"
+RULE C7M3WaveOverGen2TeenGirl CRITERIA conceptC7M3WaveOverGen2 IsTeenGirl IsThirdGenerator _auto_NotSaidC7M3WaveOverGen2 RESPONSE C7M3WaveOverGen2TeenGirl
+RESPONSE SurvivorSpottedAdrenalineTeenGirl CHARACTER TeenGirl SUBTITLE "Look over here!"
+RESPONSE SurvivorSpottedAdrenalineTeenGirl CHARACTER TeenGirl SUBTITLE "Look here."
+RULE SurvivorSpottedAdrenalineTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsAdrenaline IsWorldTalkTeenGirl RESPONSE SurvivorSpottedAdrenalineTeenGirl
+RESPONSE SurvivorSpottedAdrenalineAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Look over here!"
+RESPONSE SurvivorSpottedAdrenalineAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Look here."
+RULE SurvivorSpottedAdrenalineAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotAdrenaline IsNotSaidSpot IsAdrenaline IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedAdrenalineAutoTeenGirl
+RESPONSE SurvivorSpottedGrenadeLauncherTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedGrenadeLauncherTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto Isgrenade_launcher IsWorldTalkTeenGirl RESPONSE SurvivorSpottedGrenadeLauncherTeenGirl
+RESPONSE SurvivorSpottedGrenadeLauncherAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedGrenadeLauncherAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotgrenade_launcher IsNotSaidSpot Isgrenade_launcher IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGrenadeLauncherAutoTeenGirl
+RESPONSE SurvivorSpottedUpPack_ExplosiveTeenGirl CHARACTER TeenGirl SUBTITLE "Look over here!"
+RESPONSE SurvivorSpottedUpPack_ExplosiveTeenGirl CHARACTER TeenGirl SUBTITLE "Look here."
+RULE SurvivorSpottedUpPack_ExplosiveTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsUpgradePack_Explosive  IsWorldTalkTeenGirl RESPONSE SurvivorSpottedUpPack_ExplosiveTeenGirl
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Look over here!"
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Look here."
+RULE SurvivorSpottedUpPack_ExplosiveAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotAlone IsNotSaidSpotUpgradePack_Explosive IsNotSaidSpot IsUpgradePack_Explosive IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedUpPack_ExplosiveAutoTeenGirl
+RESPONSE SurvivorSpottedUpPack_IncendiaryTeenGirl CHARACTER TeenGirl SUBTITLE "Look over here!"
+RESPONSE SurvivorSpottedUpPack_IncendiaryTeenGirl CHARACTER TeenGirl SUBTITLE "Look here."
+RULE SurvivorSpottedUpPack_IncendiaryTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsUpgradePack_Incendiary  IsWorldTalkTeenGirl RESPONSE SurvivorSpottedUpPack_IncendiaryTeenGirl
+RESPONSE SurvivorSpottedUpPack_IncendiAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Look over here!"
+RESPONSE SurvivorSpottedUpPack_IncendiAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Look here."
+RULE SurvivorSpottedUpPack_IncendiAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotAlone IsNotSaidSpotUpgradePack_Incendiary IsNotSaidSpot IsUpgradePack_Incendiary IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedUpPack_IncendiAutoTeenGirl
+RESPONSE SurvivorSpottedVomitJarTeenGirl CHARACTER TeenGirl SUBTITLE "Look over here!"
+RESPONSE SurvivorSpottedVomitJarTeenGirl CHARACTER TeenGirl SUBTITLE "Look here."
+RULE SurvivorSpottedVomitJarTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsVomitJar IsWorldTalkTeenGirl RESPONSE SurvivorSpottedVomitJarTeenGirl
+RESPONSE SurvivorSpottedVomitJarAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Look over here!"
+RESPONSE SurvivorSpottedVomitJarAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Look here."
+RULE SurvivorSpottedVomitJarAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotVomitJar IsNotSaidSpot IsVomitJar IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedVomitJarAutoTeenGirl
+RESPONSE PlayerToTheRescueRosTeenGirl CHARACTER TeenGirl SUBTITLE "Hold on, I'm on my way!"
+RESPONSE PlayerToTheRescueRosTeenGirl CHARACTER TeenGirl SUBTITLE "I'm coming!"
+RESPONSE PlayerToTheRescueRosTeenGirl CHARACTER TeenGirl SUBTITLE "Hold on, I'm coming!"
+RESPONSE PlayerToTheRescueRosTeenGirl CHARACTER TeenGirl SUBTITLE "Help is on the way!"
+RESPONSE PlayerToTheRescueRosTeenGirl CHARACTER TeenGirl SUBTITLE "Hang on, hang on, I'm coming!"
+RESPONSE PlayerToTheRescueRosTeenGirl CHARACTER TeenGirl SUBTITLE "Hang in there, I'm coming!"
+RESPONSE PlayerToTheRescueRosTeenGirl CHARACTER TeenGirl SUBTITLE "Coming, coming, coming!"
+RESPONSE PlayerToTheRescueRosTeenGirl CHARACTER TeenGirl SUBTITLE "Hold on, I'm on my way!"
+RULE PlayerToTheRescueRosTeenGirl CRITERIA ConceptPlayerToTheRescue IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl RESPONSE PlayerToTheRescueRosTeenGirl
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Awesome!"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "YESSS!"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "YEAH!"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Oh yeah, lovely."
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Oh yeah!"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Impressive."
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Thats right. [grim, determined]"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Awesome!"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "All right!"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Awesome!"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "YEAH!"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "YESSS!"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Lookin good."
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Oh yeah!"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Impressive."
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Thats right. [grim, determined]"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Oh yeah, lovely."
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Lookin good."
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "OH YEAH!"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "Thats right. [grim, determined]"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "YESSS!"
+RESPONSE SurvivorTauntResponseTeenGirl CHARACTER TeenGirl SUBTITLE "YEAHHHH!"
+RULE SurvivorTauntResponseTeenGirl CRITERIA ConceptPlayerTaunt IsSurvivor IsNotSpeaking IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl RESPONSE SurvivorTauntResponseTeenGirl
+RESPONSE PlayerRemarkc7m1_bricktopTeenGirl CHARACTER TeenGirl SUBTITLE "On top of the bricks."
+RULE PlayerRemarkc7m1_bricktopTeenGirl CRITERIA ConceptRemark IsTeenGirl Isc7m1_bricktop IsNotSaidc7m1_bricktop IsNotCoughing NotInCombat IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsSubjectNear100 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_bricktopTeenGirl
+RESPONSE PlayerRemarkc7m1_pastbricksTeenGirl CHARACTER TeenGirl SUBTITLE "Past the bricks."
+RULE PlayerRemarkc7m1_pastbricksTeenGirl CRITERIA ConceptRemark IsTeenGirl Isc7m1_pastbricks IsNotSaidc7m1_pastbricks IsNotCoughing NotInCombat IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsSubjectNear700 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_pastbricksTeenGirl
+RESPONSE PlayerRemarkc7m1_pretankTeenGirl CHARACTER TeenGirl SUBTITLE "The one thing that survives this train wreck is a tank?"
+RESPONSE PlayerRemarkc7m1_pretankTeenGirl CHARACTER TeenGirl SUBTITLE "So... who's gonna open the door?"
+RESPONSE PlayerRemarkc7m1_pretankTeenGirl CHARACTER TeenGirl SUBTITLE "Hey, Louis. You got a good feeling about opening that door."
+RESPONSE PlayerRemarkc7m1_pretankTeenGirl CHARACTER TeenGirl SUBTITLE "So. This whole... door situation? You guys work it out."
+RESPONSE PlayerRemarkc7m1_pretankTeenGirl CHARACTER TeenGirl SUBTITLE "Hey Francis. Guywhoopensthetraindoorsayswhat?"
+RESPONSE PlayerRemarkc7m1_pretankTeenGirl CHARACTER TeenGirl SUBTITLE "Hey, Francis. Be a pal and open that door."
+RESPONSE PlayerRemarkc7m1_pretankTeenGirl CHARACTER TeenGirl SUBTITLE "Somebody want to get the door? I'll open the next train car with a tank in it. Promise."
+RESPONSE PlayerRemarkc7m1_pretankTeenGirl CHARACTER TeenGirl SUBTITLE "So, I'm a girl, right? You guys wouldn't make a lady open up a deathtrap, right?"
+RULE PlayerRemarkc7m1_pretankTeenGirl CRITERIA ConceptRemark IsTeenGirl Isc7m1_pretank IsNotSaidc7m1_pretank IsNotCoughing NotInCombat IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsSubjectNear200 IsNotSpeakingWeight0 _auto_NotsaidC7M1OpenTankDoorLong RESPONSE PlayerRemarkc7m1_pretankTeenGirl
+RESPONSE PlayerRemarkc7m1_tankcarTeenGirl CHARACTER TeenGirl SUBTITLE "God, this must have been horrible..."
+RESPONSE PlayerRemarkc7m1_tankcarTeenGirl CHARACTER TeenGirl SUBTITLE "Man. I thought it was bad fighting this thing outside."
+RULE PlayerRemarkc7m1_tankcarTeenGirl CRITERIA ConceptRemark IsTeenGirl Isc7m1_tankcar IsNotSaidc7m1_tankcar IsNotCoughing NotInCombat IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_tankcarTeenGirl
+RESPONSE PlayerRemarkc7m2_climbupcrapTeenGirl CHARACTER TeenGirl SUBTITLE "Climb up this pile of crap!"
+RESPONSE PlayerRemarkc7m2_climbupcrapTeenGirl CHARACTER TeenGirl SUBTITLE "We can get back up over here!"
+RESPONSE PlayerRemarkc7m2_climbupcrapTeenGirl CHARACTER TeenGirl SUBTITLE "Up that fence!"
+RULE PlayerRemarkc7m2_climbupcrapTeenGirl CRITERIA ConceptRemark IsTeenGirl Isc7m2_climbupcrap IsNotSaidc7m2_climbupcrap IsNotCoughing NotInCombat IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_climbupcrapTeenGirl
+RESPONSE PlayerRemarkc7m2_gravelhillTeenGirl CHARACTER TeenGirl SUBTITLE "Climb up this pile of crap!"
+RULE PlayerRemarkc7m2_gravelhillTeenGirl CRITERIA ConceptRemark IsTeenGirl Isc7m2_gravelhill IsNotSaidc7m2_gravelhill IsNotCoughing NotInCombat IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_gravelhillTeenGirl
+RESPONSE PlayerRemarkc7m2_overboatTeenGirl CHARACTER TeenGirl SUBTITLE "Over the ship!"
+RULE PlayerRemarkc7m2_overboatTeenGirl CRITERIA ConceptRemark IsTeenGirl Isc7m2_overboat IsNotSaidc7m2_overboat IsNotCoughing NotInCombat IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_overboatTeenGirl
+RESPONSE PlayerRemarkc7m2_throughhereTeenGirl CHARACTER TeenGirl SUBTITLE "Through here!"
+RESPONSE PlayerRemarkc7m2_throughhereTeenGirl CHARACTER TeenGirl SUBTITLE "Through here!"
+RESPONSE PlayerRemarkc7m2_throughhereTeenGirl CHARACTER TeenGirl SUBTITLE "Through here!"
+RULE PlayerRemarkc7m2_throughhereTeenGirl CRITERIA ConceptRemark IsTeenGirl Isc7m2_throughhere IsNotSaidc7m2_throughhere IsNotCoughing NotInCombat IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_throughhereTeenGirl
+RESPONSE PlayerRemarkc7m3_seesailboatTeenGirl CHARACTER TeenGirl SUBTITLE "We'll need to raise that bridge if we want to get that boat out of here."
+RESPONSE PlayerRemarkc7m3_seesailboatTeenGirl CHARACTER TeenGirl SUBTITLE "We can use that sailboat by the bridge!"
+RESPONSE PlayerRemarkc7m3_seesailboatTeenGirl CHARACTER TeenGirl SUBTITLE "We need to raise the."
+RULE PlayerRemarkc7m3_seesailboatTeenGirl CRITERIA ConceptRemark IsTeenGirl Isc7m3_seesailboat IsNotSaidc7m3_seesailboat IsNotCoughing NotInCombat IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsFirstGenerator IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m3_seesailboatTeenGirl
+RESPONSE PlayerYellRunTeenGirl CHARACTER TeenGirl SUBTITLE "Let's go, let's go"
+RESPONSE PlayerYellRunTeenGirl CHARACTER TeenGirl SUBTITLE "Just go! GO!"
+RESPONSE PlayerYellRunTeenGirl CHARACTER TeenGirl SUBTITLE "RUN!"
+RESPONSE PlayerYellRunTeenGirl CHARACTER TeenGirl SUBTITLE "Keep moving! Come on, keep moving!"
+RULE PlayerYellRunTeenGirl CRITERIA ConceptPlayerYellRun IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl RESPONSE PlayerYellRunTeenGirl
+RESPONSE GrabbingGasSCTeenGirl CHARACTER TeenGirl SUBTITLE "Got it!"
+RESPONSE GrabbingGasSCTeenGirl CHARACTER TeenGirl SUBTITLE "Got it!"
+RULE GrabbingGasSCTeenGirl CRITERIA ConceptPlayerEquippedScavengeItem IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl TeenGirlNotSaidGrabbingCan RESPONSE GrabbingGasSCTeenGirl
+RESPONSE PlayerShotGasCanTeenGirl CHARACTER TeenGirl SUBTITLE "Uh oh"
+RESPONSE PlayerShotGasCanTeenGirl CHARACTER TeenGirl SUBTITLE "Are you kidding me?"
+RESPONSE PlayerShotGasCanTeenGirl CHARACTER TeenGirl SUBTITLE "Crap"
+RESPONSE PlayerShotGasCanTeenGirl CHARACTER TeenGirl SUBTITLE "No No No No NO"
+RESPONSE PlayerShotGasCanTeenGirl CHARACTER TeenGirl SUBTITLE "Mother."
+RESPONSE PlayerShotGasCanTeenGirl CHARACTER TeenGirl SUBTITLE "Ah bullshit."
+RESPONSE PlayerShotGasCanTeenGirl CHARACTER TeenGirl SUBTITLE "Shit."
+RESPONSE PlayerShotGasCanTeenGirl CHARACTER TeenGirl SUBTITLE "Goddammit."
+RULE PlayerShotGasCanTeenGirl CRITERIA ConceptPlayerShotGasCan IsTeenGirl IsNotSaidPlayerShotGasCan IsScavenge RESPONSE PlayerShotGasCanTeenGirl
+RESPONSE ScavengeStartTeenGirl CHARACTER TeenGirl SUBTITLE "Let's go"
+RESPONSE ScavengeStartTeenGirl CHARACTER TeenGirl SUBTITLE "Come on, lets go!"
+RESPONSE ScavengeStartTeenGirl CHARACTER TeenGirl SUBTITLE "We need  to get going guys"
+RULE ScavengeStartTeenGirl CRITERIA ConceptSurvivorLeavingCheckpoint IsTeenGirl IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsScavenge IsNotSaidStartScavenge RESPONSE ScavengeStartTeenGirl
+RESPONSE FinaleAheadc7m3TeenGirl CHARACTER TeenGirl SUBTITLE "Let's go."
+RESPONSE FinaleAheadc7m3TeenGirl CHARACTER TeenGirl SUBTITLE "Let's get moving"
+RESPONSE FinaleAheadc7m3TeenGirl CHARACTER TeenGirl SUBTITLE "Come on, lets go!"
+RULE FinaleAheadc7m3TeenGirl CRITERIA ConceptPlayerNearFinale IsNotCoughing IsTeenGirl IsNotSaidFinaleAhead NotInCombat IsTalk IsTalkTeenGirl IsNotIncapacitated IsWorldTalkTeenGirl Ismapc7m3_port RESPONSE FinaleAheadc7m3TeenGirl
+RESPONSE Player.C7M2CrowsFlyTeenGirl CHARACTER TeenGirl SUBTITLE "Great, crows."
+RESPONSE Player.C7M2CrowsFlyTeenGirl CHARACTER TeenGirl SUBTITLE "Ah! Dammit! Stupid birds."
+RESPONSE Player.C7M2CrowsFlyTeenGirl CHARACTER TeenGirl SUBTITLE "Shut. Up. You. Stupid. Crows."
+RULE Player.C7M2CrowsFlyTeenGirl CRITERIA ConceptC7M2CrowsFlySpeakTeenGirl ismapc7m2_barge IsTeenGirl _auto_NotC7M2CrowsFlySpeak RESPONSE Player.C7M2CrowsFlyTeenGirl
+RESPONSE Player.C7M3BridgeLeapTeenGirl CHARACTER TeenGirl SUBTITLE "Louis, you sure you can't get up?  Can you try?"
+RESPONSE Player.C7M3BridgeLeapTeenGirl CHARACTER TeenGirl SUBTITLE "Stay put! I'll be right back! I hope."
+RESPONSE Player.C7M3BridgeLeapTeenGirl CHARACTER TeenGirl SUBTITLE "Stay up there! I got this!"
+RESPONSE Player.C7M3BridgeLeapTeenGirl CHARACTER TeenGirl SUBTITLE "What am I doing what am I doing what am I doing..."
+RESPONSE Player.C7M3BridgeLeapTeenGirl CHARACTER TeenGirl SUBTITLE "This is the last time you're gonna see these! Guns!"
+RESPONSE Player.C7M3BridgeLeapTeenGirl CHARACTER TeenGirl SUBTITLE "Louis! I will always be your friend!"
+RESPONSE Player.C7M3BridgeLeapTeenGirl CHARACTER TeenGirl SUBTITLE "Oh god, I am so screwed."
+RESPONSE Player.C7M3BridgeLeapTeenGirl CHARACTER TeenGirl SUBTITLE "I've got this! Not a big deal.  Oh... shit."
+RESPONSE Player.C7M3BridgeLeapTeenGirl CHARACTER TeenGirl SUBTITLE "I've got a plan! Stay there!"
+RESPONSE Player.C7M3BridgeLeapTeenGirl CHARACTER TeenGirl SUBTITLE "Don't get off the bridge!"
+RESPONSE Player.C7M3BridgeLeapTeenGirl CHARACTER TeenGirl SUBTITLE "I'll miss you guys! Stay there!"
+RESPONSE Player.C7M3BridgeLeapTeenGirl CHARACTER TeenGirl SUBTITLE "I'll be back! Oh god, no I won't..."
+RULE Player.C7M3BridgeLeapTeenGirl CRITERIA ConceptC7M3BridgeLeapSpeakTeenGirl IsNotCoughing IsTeenGirl  IsTalk IsTalkTeenGirl IsNotSpeaking  ismapc7m3_port IsWorldTalkTeenGirl IsNotScavenge _auto_NotSaidC7M3BridgeLeap RESPONSE Player.C7M3BridgeLeapTeenGirl
+RESPONSE SurvivorPickupAdrenalineTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupAdrenalineTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupAdrenalineTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupAdrenalineTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupAdrenalineTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupAdrenalineTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpAdrenaline IsNotSpeaking IsInSafeSpot IsNotInStartArea IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupAdrenalineTeenGirl
+RESPONSE SurvivorPickupAdrenalineAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupAdrenalineAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupAdrenalineAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupAdrenalineAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupAdrenalineAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupAdrenalineAlwaysTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpAdrenaline IsNotSpeaking IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupAdrenalineAlwaysTeenGirl
+RESPONSE SurvivorPickupbaseball_batTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupbaseball_batTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupbaseball_batTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupbaseball_batTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupbaseball_batTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupbaseball_batTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpbaseball_bat IsNotSpeaking  TeenGirlNotPickedUpItem IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupbaseball_batTeenGirl
+RESPONSE SurvivorPickupchainsawTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupchainsawTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupchainsawTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupchainsawTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupchainsawTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupchainsawTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpchainsaw IsNotSpeaking  TeenGirlNotPickedUpItem IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupchainsawTeenGirl
+RESPONSE SurvivorPickupcricket_batTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupcricket_batTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupcricket_batTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupcricket_batTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupcricket_batTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupcricket_batTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpcricket_bat IsNotSpeaking  TeenGirlNotPickedUpItem IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupcricket_batTeenGirl
+RESPONSE SurvivorPickupCricketBatTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupCricketBatTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupCricketBatTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupCricketBatTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupCricketBatTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupCricketBatTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpcricket_bat IsNotSpeaking  TeenGirlNotPickedUpItem IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupCricketBatTeenGirl
+RESPONSE SurvivorPickupCrowBarTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupCrowBarTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupCrowBarTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupCrowBarTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupCrowBarTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupCrowBarTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpCrowBar  IsNotSpeaking  TeenGirlNotPickedUpItem IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl  IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupCrowBarTeenGirl
+RESPONSE SurvivorPickupelectric_guitarTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupelectric_guitarTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupelectric_guitarTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupelectric_guitarTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupelectric_guitarTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupelectric_guitarTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpelectric_guitar IsNotSpeaking  TeenGirlNotPickedUpItem IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupelectric_guitarTeenGirl
+RESPONSE SurvivorPickupFireAxeTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupFireAxeTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupFireAxeTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupFireAxeTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupFireAxeTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupFireAxeTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpFireAxe  IsNotSpeaking  TeenGirlNotPickedUpItem IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupFireAxeTeenGirl
+RESPONSE SurvivorPickupFryingPanTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupFryingPanTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupFryingPanTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupFryingPanTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupFryingPanTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupFryingPanTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpFryingPan IsNotSpeaking  TeenGirlNotPickedUpItem IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupFryingPanTeenGirl
+RESPONSE SurvivorPickupGrenadeLauncherTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupGrenadeLauncherTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupGrenadeLauncherTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupGrenadeLauncherTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupGrenadeLauncherTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupGrenadeLauncherTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpGrenadeLauncher IsNotSpeaking IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupGrenadeLauncherTeenGirl
+RESPONSE SurvivorPickupIncendiaryAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupIncendiaryAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupIncendiaryAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupIncendiaryAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupIncendiaryAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupIncendiaryAmmoTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpIncendiaryAmmo IsNotSpeaking  ChanceToFire40Percent TeenGirlNotPickedUpItem IsNotInStartArea IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupIncendiaryAmmoTeenGirl
+RESPONSE SurvivorPickupKatanaTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupKatanaTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupKatanaTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupKatanaTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupKatanaTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupKatanaTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpKatana IsNotSpeaking  TeenGirlNotPickedUpItem IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupKatanaTeenGirl
+RESPONSE SurvivorPickupLaserSightsAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupLaserSightsAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupLaserSightsAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupLaserSightsAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupLaserSightsAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupLaserSightsAlwaysTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpLaserSights IsNotSpeaking ChanceToFire50Percent TeenGirlNotPickedUpItem IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupLaserSightsAlwaysTeenGirl
+RESPONSE SurvivorPickupMacheteTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupMacheteTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupMacheteTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupMacheteTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupMacheteTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupMacheteTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpMachete IsNotSpeaking  TeenGirlNotPickedUpItem IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupMacheteTeenGirl
+RESPONSE SurvivorPickupMagnumTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupMagnumTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupMagnumTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupMagnumTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupMagnumTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupMagnumTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpMagnum IsNotSpeaking IsInSafeSpot ChanceToFire30Percent TeenGirlNotPickedUpItem IsNotInStartArea IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupMagnumTeenGirl
+RESPONSE SurvivorPickupMagnumAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupMagnumAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupMagnumAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupMagnumAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupMagnumAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupMagnumAlwaysTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpMagnum IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent TeenGirlNotPickedUpItem IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupMagnumAlwaysTeenGirl
+RESPONSE SurvivorPickuptonfaTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickuptonfaTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickuptonfaTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickuptonfaTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickuptonfaTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickuptonfaTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUptonfa IsNotSpeaking  TeenGirlNotPickedUpItem IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickuptonfaTeenGirl
+RESPONSE SurvivorPickupUpExplosiveAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupUpExplosiveAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupUpExplosiveAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupUpExplosiveAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupUpExplosiveAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupUpExplosiveAmmoTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpExplosiveAmmo IsNotSpeaking  IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupUpExplosiveAmmoTeenGirl
+RESPONSE SurvivorPickupUpExplosivesTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupUpExplosivesTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupUpExplosivesTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupUpExplosivesTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupUpExplosivesTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupUpExplosivesTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpUpgradePack_Explosive IsNotSpeaking  IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupUpExplosivesTeenGirl
+RESPONSE SurvivorPickupUpIncendiaryTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupUpIncendiaryTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupUpIncendiaryTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupUpIncendiaryTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupUpIncendiaryTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupUpIncendiaryTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpUpgradePack_Incendiary IsNotSpeaking  IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupUpIncendiaryTeenGirl
+RESPONSE SurvivorPickupUpIncendiaryAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupUpIncendiaryAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupUpIncendiaryAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupUpIncendiaryAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupUpIncendiaryAmmoTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupUpIncendiaryAmmoTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpIncendiaryAmmo IsNotSpeaking  IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupUpIncendiaryAmmoTeenGirl
+RESPONSE SurvivorPickupVomitJarTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupVomitJarTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupVomitJarTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupVomitJarTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupVomitJarTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupVomitJarTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpVomitJar IsNotSpeaking IsInSafeSpot IsNotInStartArea IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupVomitJarTeenGirl
+RESPONSE SurvivorPickupVomitJarAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Cool."
+RESPONSE SurvivorPickupVomitJarAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "[pleasure & interest sounds]"
+RESPONSE SurvivorPickupVomitJarAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Well, this looks dangerous"
+RESPONSE SurvivorPickupVomitJarAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Okay."
+RESPONSE SurvivorPickupVomitJarAlwaysTeenGirl CHARACTER TeenGirl SUBTITLE "Cool"
+RULE SurvivorPickupVomitJarAlwaysTeenGirl CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsTeenGirl IsPickedUpVomitJar IsNotSpeaking IsTalk IsTalkTeenGirl IsWorldTalkTeenGirl ChanceToFire30Percent RESPONSE SurvivorPickupVomitJarAlwaysTeenGirl
+RESPONSE InfoReminfo_powerboat4TeenGirl CHARACTER TeenGirl SUBTITLE "Francis, you do know what a sailboat looks like right?"
+RESPONSE InfoReminfo_powerboat4TeenGirl CHARACTER TeenGirl SUBTITLE "Francis, do you even know what a sail boat looks like?"
+RESPONSE InfoReminfo_powerboat4TeenGirl CHARACTER TeenGirl SUBTITLE "Francis, do you even know what a sailboat looks like?"
+RULE InfoReminfo_powerboat4TeenGirl CRITERIA ConceptInfoReminfo_powerboat4 IsTeenGirl IsTeenGirlNear800 RESPONSE InfoReminfo_powerboat4TeenGirl
+RESPONSE PlayerLostCallTeenGirl CHARACTER TeenGirl SUBTITLE "Hello?"
+RESPONSE PlayerLostCallTeenGirl CHARACTER TeenGirl SUBTITLE "Where are you guys?"
+RESPONSE PlayerLostCallTeenGirl CHARACTER TeenGirl SUBTITLE "Is anyone there?"
+RESPONSE PlayerLostCallTeenGirl CHARACTER TeenGirl SUBTITLE "Helloooo?"
+RESPONSE PlayerLostCallTeenGirl CHARACTER TeenGirl SUBTITLE "Anyone Around?"
+RESPONSE PlayerLostCallTeenGirl CHARACTER TeenGirl SUBTITLE "Hey guys, where are you?"
+RESPONSE PlayerLostCallTeenGirl CHARACTER TeenGirl SUBTITLE "Guys?"
+RULE PlayerLostCallTeenGirl CRITERIA ConceptTalkIdle IsTeenGirl IsClosestSurvivorFar3000 IsNotSaidPlayerLostCall _auto_NotNoLostCall IsNotSpeakingWeight0 RESPONSE PlayerLostCallTeenGirl
+RESPONSE SurvivorSpottedChainsawTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedChainsawTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsChainsaw IsWorldTalkTeenGirl RESPONSE SurvivorSpottedChainsawTeenGirl
+RESPONSE SurvivorSpottedChainsawAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedChainsawAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsChainsaw IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedChainsawAutoTeenGirl
+RESPONSE SurvivorSpottedcricket_batTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedcricket_batTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto Iscricket_bat IsWorldTalkTeenGirl RESPONSE SurvivorSpottedcricket_batTeenGirl
+RESPONSE SurvivorSpottedcricket_batAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedcricket_batAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot Iscricket_bat IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedcricket_batAutoTeenGirl
+RESPONSE SurvivorSpottedcrowbarTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedcrowbarTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto Iscrowbar IsWorldTalkTeenGirl RESPONSE SurvivorSpottedcrowbarTeenGirl
+RESPONSE SurvivorSpottedcrowbarAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedcrowbarAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot Iscrowbar IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedcrowbarAutoTeenGirl
+RESPONSE SurvivorSpottedGuitarTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedGuitarTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsGuitar IsWorldTalkTeenGirl RESPONSE SurvivorSpottedGuitarTeenGirl
+RESPONSE SurvivorSpottedGuitarAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedGuitarAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsGuitar IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGuitarAutoTeenGirl
+RESPONSE SurvivorSpottedKatanaTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedKatanaTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsKatana IsWorldTalkTeenGirl RESPONSE SurvivorSpottedKatanaTeenGirl
+RESPONSE SurvivorSpottedKatanaAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedKatanaAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsKatana IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedKatanaAutoTeenGirl
+RESPONSE SurvivorSpottedLaserSightsTeenGirl CHARACTER TeenGirl SUBTITLE "Look over here!"
+RESPONSE SurvivorSpottedLaserSightsTeenGirl CHARACTER TeenGirl SUBTITLE "Look here."
+RULE SurvivorSpottedLaserSightsTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsLaserSights IsWorldTalkTeenGirl RESPONSE SurvivorSpottedLaserSightsTeenGirl
+RESPONSE SurvivorSpottedLaserSightsAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Look over here!"
+RESPONSE SurvivorSpottedLaserSightsAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Look here."
+RULE SurvivorSpottedLaserSightsAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsLaserSights IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedLaserSightsAutoTeenGirl
+RESPONSE SurvivorSpottedMacheteTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedMacheteTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsMachete IsWorldTalkTeenGirl RESPONSE SurvivorSpottedMacheteTeenGirl
+RESPONSE SurvivorSpottedMacheteAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedMacheteAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsMachete IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedMacheteAutoTeenGirl
+RESPONSE SurvivorSpottedMagnumTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedMagnumTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsMagnum IsWorldTalkTeenGirl RESPONSE SurvivorSpottedMagnumTeenGirl
+RESPONSE SurvivorSpottedMagnumAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedMagnumAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsMagnum IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedMagnumAutoTeenGirl
+RESPONSE SurvivorSpottedtonfaTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedtonfaTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto Istonfa IsWorldTalkTeenGirl RESPONSE SurvivorSpottedtonfaTeenGirl
+RESPONSE SurvivorSpottedtonfaAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaAutoTeenGirl CHARACTER TeenGirl SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedtonfaAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot Istonfa IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedtonfaAutoTeenGirl
+RULE SurvivorSpottedAutoShotgunTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsAutoShotgun IsWorldTalkTeenGirl RESPONSE SurvivorSpottedWeaponTeenGirl
+RULE SurvivorSpottedAutoShotgunAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsAutoShotgun IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponTeenGirl
+RULE SurvivorSpottedHuntingRifleTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsHuntingRifle IsWorldTalkTeenGirl RESPONSE SurvivorSpottedWeaponTeenGirl
+RULE SurvivorSpottedHuntingRifleAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsHuntingRifle IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponTeenGirl
+RULE SurvivorSpottedPumpShotgunTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsPumpShotgun IsWorldTalkTeenGirl RESPONSE SurvivorSpottedWeaponTeenGirl
+RULE SurvivorSpottedRifleTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsRifle IsWorldTalkTeenGirl RESPONSE SurvivorSpottedWeaponTeenGirl
+RULE SurvivorSpottedRifle_AK47TeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsRifle_AK47 IsWorldTalkTeenGirl RESPONSE SurvivorSpottedWeaponTeenGirl
+RULE SurvivorSpottedRifle_AK47AutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsRifle_AK47 IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponTeenGirl
+RULE SurvivorSpottedRifleAutoTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsRifle IsWorldTalkTeenGirl _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponTeenGirl
+RULE SurvivorSpottedSecondPistolTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsSecondPistol IsWorldTalkTeenGirl RESPONSE SurvivorSpottedWeaponTeenGirl
+RULE SurvivorSpottedShotgun_ChromeTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsShotgun_Chrome IsWorldTalkTeenGirl RESPONSE SurvivorSpottedWeaponTeenGirl
+RULE SurvivorSpottedSMGTeenGirl CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsTeenGirl IsTalk IsTalkTeenGirl IsNotSmartLookAuto IsSMG IsWorldTalkTeenGirl RESPONSE SurvivorSpottedWeaponTeenGirl
+
+
+

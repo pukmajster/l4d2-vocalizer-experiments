@@ -1,0 +1,230 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc1/scripts/talker/biker_dlc1.txt
+-------------------------------------------------------
+
+RESPONSE L4D1PlayerNiceShotBiker CHARACTER Biker SUBTITLE "Nice job."
+RESPONSE L4D1PlayerNiceShotBiker CHARACTER Biker SUBTITLE "Whoah. Nice shot."
+RESPONSE L4D1PlayerNiceShotBiker CHARACTER Biker SUBTITLE "Good one!"
+RULE L4D1PlayerNiceShotBiker CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsBiker IsSubjectDistNear1500  IsTalk IsTalkBiker IsWorldTalkBiker IsNotSpeaking ChanceToFire70Percent RESPONSE L4D1PlayerNiceShotBiker
+RESPONSE C6M1Intro_01bBiker CHARACTER Biker SUBTITLE "Nope!"
+RESPONSE C6M1Intro_01bBiker CHARACTER Biker SUBTITLE "Nope, not a chance."
+RESPONSE C6M1Intro_01bBiker CHARACTER Biker SUBTITLE "Nope, no way in hell."
+RULE C6M1Intro_01bBiker CRITERIA ConceptC6M1Intro_01b IsBiker IsNotVersus RESPONSE C6M1Intro_01bBiker
+RESPONSE C6M1Intro_01Biker01Biker CHARACTER Biker SUBTITLE "Heyyy! Nice ride!"
+RESPONSE C6M1Intro_01Biker01Biker CHARACTER Biker SUBTITLE "Heyyy! Nice ride!"
+RESPONSE C6M1Intro_01Biker01Biker CHARACTER Biker SUBTITLE "Heyy! Are you a racecar driver?"
+RULE C6M1Intro_01Biker01Biker CRITERIA ConceptintroC6M1 IsBiker IsFrancisIntroActor IsNotSaidIntroScene FrancisGroup1 IsNotVersus RESPONSE C6M1Intro_01Biker01Biker
+RESPONSE C6M1Intro_01Biker03Biker CHARACTER Biker SUBTITLE "Ma'am uhh Miss? I'm sorry but I can't lower the bridge myself. If you can get to the other side I can help you lower it."
+RULE C6M1Intro_01Biker03Biker CRITERIA ConceptintroC6M1 IsBiker IsFrancisIntroActor IsNotSaidIntroScene FrancisGroup3 IsNotVersus RESPONSE C6M1Intro_01Biker03Biker
+RESPONSE C6M1Intro_01Biker05Biker CHARACTER Biker SUBTITLE "Brother, that's what I'm trying to tell ya. We can't get this thing down ourselves. You have to get to the other side."
+RESPONSE C6M1Intro_01Biker05Biker CHARACTER Biker SUBTITLE "And I'm telling you, I can't lower the bridge. You gotta get around to the other side."
+RULE C6M1Intro_01Biker05Biker CRITERIA ConceptintroC6M1 IsBiker IsFrancisIntroActor IsNotSaidIntroScene FrancisGroup5 IsNotVersus RESPONSE C6M1Intro_01Biker05Biker
+RESPONSE C6M1Intro_01Biker06Biker CHARACTER Biker SUBTITLE "You down there, be calm. We're cops."
+RULE C6M1Intro_01Biker06Biker CRITERIA ConceptintroC6M1 IsBiker IsFrancisIntroActor IsNotSaidIntroScene FrancisGroup6 IsNotVersus RESPONSE C6M1Intro_01Biker06Biker
+RESPONSE C6M1Intro_01Biker07Biker CHARACTER Biker SUBTITLE "Hey!"
+RULE C6M1Intro_01Biker07Biker CRITERIA ConceptintroC6M1 IsBiker IsFrancisIntroActor IsNotSaidIntroScene FrancisGroup7 IsNotVersus RESPONSE C6M1Intro_01Biker07Biker
+RESPONSE C6M1Intro_01Biker08Biker CHARACTER Biker SUBTITLE "Are any of you vampires?"
+RESPONSE C6M1Intro_01Biker08Biker CHARACTER Biker SUBTITLE "Are any of you vampires?"
+RULE C6M1Intro_01Biker08Biker CRITERIA ConceptintroC6M1 IsBiker IsFrancisIntroActor IsNotSaidIntroScene FrancisGroup8 IsNotVersus RESPONSE C6M1Intro_01Biker08Biker
+RESPONSE C6M1Intro_01dBiker CHARACTER Biker SUBTITLE "Generator's out. Get to the other side and we'll help you get this thing down!"
+RESPONSE C6M1Intro_01dBiker CHARACTER Biker SUBTITLE "Can't generator's out"
+RULE C6M1Intro_01dBiker CRITERIA ConceptC6M1Intro_01d IsBiker IsNotVersus RESPONSE C6M1Intro_01dBiker
+RESPONSE C6M1Intro_02bBiker CHARACTER Biker SUBTITLE "Can't! Generator's out. Get to the other side and fill it up! We'll cover ya!"
+RULE C6M1Intro_02bBiker CRITERIA ConceptC6M1Intro_02b IsBiker RESPONSE C6M1Intro_02bBiker
+RESPONSE C6M1Intro_05bBiker CHARACTER Biker SUBTITLE "Ahh sorry, No Ma'am."
+RULE C6M1Intro_05bBiker CRITERIA ConceptC6M1Intro_05b IsBiker RESPONSE C6M1Intro_05bBiker
+RESPONSE C6M1Intro_05dBiker CHARACTER Biker SUBTITLE "No ma'am."
+RESPONSE C6M1Intro_05dBiker CHARACTER Biker SUBTITLE "No ma'am."
+RULE C6M1Intro_05dBiker CRITERIA ConceptC6M1Intro_05d IsBiker RESPONSE C6M1Intro_05dBiker
+RESPONSE C6M1Intro_06aBiker CHARACTER Biker SUBTITLE "If I could, I would. Can't. Get to the other side and we can lower it together."
+RULE C6M1Intro_06aBiker CRITERIA ConceptC6M1Intro_06a IsBiker RESPONSE C6M1Intro_06aBiker
+RESPONSE C6M1Intro_06cBiker CHARACTER Biker SUBTITLE "(fumbling) Uhhh yyyeaaah."
+RESPONSE C6M1Intro_06cBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE C6M1Intro_06cBiker CRITERIA ConceptC6M1Intro_06c IsBiker RESPONSE C6M1Intro_06cBiker
+RESPONSE C6M1Intro_06eBiker CHARACTER Biker SUBTITLE "HELL YEAH!"
+RULE C6M1Intro_06eBiker CRITERIA ConceptC6M1Intro_06e IsBiker RESPONSE C6M1Intro_06eBiker
+RESPONSE C6M1Intro_07aBiker CHARACTER Biker SUBTITLE "If you want to keep going this way, you're gonna have to walk to the other side of this bridge and then me and an some uhh other cops up here can help you lower the bridge."
+RULE C6M1Intro_07aBiker CRITERIA ConceptC6M1Intro_07a IsBiker RESPONSE C6M1Intro_07aBiker
+RESPONSE C6M1Intro_09cBiker CHARACTER Biker SUBTITLE "I was talking to the little lady."
+RULE C6M1Intro_09cBiker CRITERIA ConceptC6M1Intro_09c IsBiker RESPONSE C6M1Intro_09cBiker
+RESPONSE C6M1Intro_09gBiker CHARACTER Biker SUBTITLE "Ahh shit. Nooo. But if you can get to the other side we can help you lower it."
+RULE C6M1Intro_09gBiker CRITERIA ConceptC6M1Intro_09g IsBiker RESPONSE C6M1Intro_09gBiker
+RESPONSE C6M1Intro_10aBiker CHARACTER Biker SUBTITLE "Go to hell suit."
+RESPONSE C6M1Intro_10aBiker CHARACTER Biker SUBTITLE "Bite me Colonel Sanders."
+RESPONSE C6M1Intro_10aBiker CHARACTER Biker SUBTITLE "Bite me Colonel Sanders."
+RULE C6M1Intro_10aBiker CRITERIA ConceptC6M1Intro_10a IsBiker RESPONSE C6M1Intro_10aBiker
+RESPONSE C6M1Intro_10cBiker CHARACTER Biker SUBTITLE "Hell yeah, I'll help *YOU*."
+RULE C6M1Intro_10cBiker CRITERIA ConceptC6M1Intro_10c IsBiker RESPONSE C6M1Intro_10cBiker
+RESPONSE C6M1Intro_14bBiker CHARACTER Biker SUBTITLE "Is there anyone of you four who isn't an asshole?"
+RULE C6M1Intro_14bBiker CRITERIA ConceptC6M1Intro_14b IsBiker RESPONSE C6M1Intro_14bBiker
+RESPONSE C6M1Intro_16bBiker CHARACTER Biker SUBTITLE "Look, I don't love this bridge. But we just lost a man and Sorry brother, but you are on your own."
+RESPONSE C6M1Intro_16bBiker CHARACTER Biker SUBTITLE "Brother, I don't love this bridge, but right now we just lost a man and got a man down. Sorry, you are on your own."
+RULE C6M1Intro_16bBiker CRITERIA ConceptC6M1Intro_16b IsBiker RESPONSE C6M1Intro_16bBiker
+RESPONSE C6M1Intro_18aBiker CHARACTER Biker SUBTITLE "Okay! Bridge is down! That's as far as it goes."
+RULE C6M1Intro_18aBiker CRITERIA ConceptC6M1Intro_18a IsBiker RESPONSE C6M1Intro_18aBiker
+RESPONSE C6M1Intro_18cBiker CHARACTER Biker SUBTITLE "Really, this is as far as it goes. Never saw it any lower."
+RULE C6M1Intro_18cBiker CRITERIA ConceptC6M1Intro_18c IsBiker RESPONSE C6M1Intro_18cBiker
+RESPONSE C6M1Intro_18eBiker CHARACTER Biker SUBTITLE "Oh yeah... uh, yeah it is."
+RULE C6M1Intro_18eBiker CRITERIA ConceptC6M1Intro_18e IsBiker RESPONSE C6M1Intro_18eBiker
+RESPONSE C6M1Intro_19aBiker CHARACTER Biker SUBTITLE "Kick ASS! Now all you gotta do is go back into town, find some way to cross the river, fight your way to the other side of this bridge, refuel the generator and get it back going. Then its kissing time!"
+RULE C6M1Intro_19aBiker CRITERIA ConceptC6M1Intro_19a IsBiker RESPONSE C6M1Intro_19aBiker
+RESPONSE C6M1Intro_20cBiker CHARACTER Biker SUBTITLE "Sorry, can't."
+RULE C6M1Intro_20cBiker CRITERIA ConceptC6M1Intro_20c IsBiker RESPONSE C6M1Intro_20cBiker
+RESPONSE C6M1Intro_20eBiker CHARACTER Biker SUBTITLE "Louis! I told you, there were vampires!"
+RULE C6M1Intro_20eBiker CRITERIA ConceptC6M1Intro_20e IsBiker RESPONSE C6M1Intro_20eBiker
+RESPONSE C6M1Intro_20fBiker CHARACTER Biker SUBTITLE "I'm not talking to any goddamn vampires."
+RULE C6M1Intro_20fBiker CRITERIA ConceptC6M1Intro_20f IsBiker RESPONSE C6M1Intro_20fBiker
+RESPONSE C6M1Intro_21cBiker CHARACTER Biker SUBTITLE "Sorry, can't."
+RULE C6M1Intro_21cBiker CRITERIA ConceptC6M1Intro_21c IsBiker RESPONSE C6M1Intro_21cBiker
+RESPONSE C6M1Intro_21eBiker CHARACTER Biker SUBTITLE "Louis! I told you, there were vampires!"
+RULE C6M1Intro_21eBiker CRITERIA ConceptC6M1Intro_21e IsBiker RESPONSE C6M1Intro_21eBiker
+RESPONSE C6M1Intro_21fBiker CHARACTER Biker SUBTITLE "I'm not talking to any goddamn vampires."
+RULE C6M1Intro_21fBiker CRITERIA ConceptC6M1Intro_21f IsBiker RESPONSE C6M1Intro_21fBiker
+RESPONSE C6M1Intro_24bBiker CHARACTER Biker SUBTITLE "Yeah! Yeah! That's what I've been saying."
+RULE C6M1Intro_24bBiker CRITERIA ConceptC6M1Intro_24b IsBiker RESPONSE C6M1Intro_24bBiker
+RESPONSE C6M1Intro_24dBiker CHARACTER Biker SUBTITLE "Sorry brother. Like I've been telling you. This bridge is up until the generator gets refueled."
+RULE C6M1Intro_24dBiker CRITERIA ConceptC6M1Intro_24d IsBiker RESPONSE C6M1Intro_24dBiker
+RESPONSE c6m3_outroBiker CHARACTER Biker SUBTITLE ""
+RULE c6m3_outroBiker CRITERIA Conceptc6m3_outro IsBiker IsNotSaidc6m3_outro isC6m3_port RESPONSE c6m3_outroBiker
+RESPONSE c6m3_outroL4D1Biker CHARACTER Biker SUBTITLE "I hate goodbyes."
+RULE c6m3_outroL4D1Biker CRITERIA Conceptc6m3_outro3 IsBiker isC6m3_port IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1Biker
+RESPONSE c6m3_outroL4D1010aBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE c6m3_outroL4D1010aBiker CRITERIA Conceptc6m3_outroL4D1010a IsBiker RESPONSE c6m3_outroL4D1010aBiker
+RESPONSE c6m3_outroL4D104bBiker CHARACTER Biker SUBTITLE "What? Seriously, what?"
+RULE c6m3_outroL4D104bBiker CRITERIA Conceptc6m3_outroL4D104b IsBiker RESPONSE c6m3_outroL4D104bBiker
+RESPONSE c6m3_outroL4D108aBiker CHARACTER Biker SUBTITLE "No, I haven't heard that one."
+RULE c6m3_outroL4D108aBiker CRITERIA Conceptc6m3_outroL4D108a IsBiker RESPONSE c6m3_outroL4D108aBiker
+RESPONSE c6m3_outroL4D1AllBiker CHARACTER Biker SUBTITLE "You know, they were all right."
+RESPONSE c6m3_outroL4D1AllBiker CHARACTER Biker SUBTITLE "I'm gonna miss them."
+RULE c6m3_outroL4D1AllBiker CRITERIA Conceptc6m3_outro3 IsBiker isC6m3_port IsEveryoneAliveWeight0 IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1AllBiker
+RESPONSE c6m3_outroL4D1CoachBiker CHARACTER Biker SUBTITLE "Bye Coach! Keep the pedal to the metal!"
+RULE c6m3_outroL4D1CoachBiker CRITERIA Conceptc6m3_outro3 IsBiker isC6m3_port IsCoachAlive IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1CoachBiker
+RESPONSE c6m3_outroL4D1CopBiker CHARACTER Biker SUBTITLE "I really am a cop you know!"
+RESPONSE c6m3_outroL4D1CopBiker CHARACTER Biker SUBTITLE "I really am a cop!"
+RULE c6m3_outroL4D1CopBiker CRITERIA Conceptc6m3_outro3 IsBiker isC6m3_port FrancisGroup6 IsFrancisIntroActor IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1CopBiker
+RESPONSE c6m3_outroL4D1GamblerBiker CHARACTER Biker SUBTITLE "Nick! Good luck, my brother!"
+RULE c6m3_outroL4D1GamblerBiker CRITERIA Conceptc6m3_outro3 IsBiker isC6m3_port IsGamblerAlive IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1GamblerBiker
+RESPONSE c6m3_outroL4D1GibbsBiker CHARACTER Biker SUBTITLE "I love that car."
+RESPONSE c6m3_outroL4D1GibbsBiker CHARACTER Biker SUBTITLE "Look at that car go!"
+RULE c6m3_outroL4D1GibbsBiker CRITERIA Conceptc6m3_outro3 IsBiker isC6m3_port FrancisGroup1 IsFrancisIntroActor IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1GibbsBiker
+RESPONSE c6m3_outroL4D1MechanicBiker CHARACTER Biker SUBTITLE "See Ya Ellis! Keep the pedal to the metal!"
+RULE c6m3_outroL4D1MechanicBiker CRITERIA Conceptc6m3_outro3 IsBiker isC6m3_port IsMechanicAlive IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1MechanicBiker
+RESPONSE c6m3_outroL4D1ProducerBiker CHARACTER Biker SUBTITLE "Bye-bye RO! My lovely little angel."
+RESPONSE c6m3_outroL4D1ProducerBiker CHARACTER Biker SUBTITLE "I'm gonna miss Ro."
+RESPONSE c6m3_outroL4D1ProducerBiker CHARACTER Biker SUBTITLE "Bye RO! I love you!!!!!!!"
+RESPONSE c6m3_outroL4D1ProducerBiker CHARACTER Biker SUBTITLE "Bye RO! I love you!!!!!!! (sobbing) I love you!"
+RESPONSE c6m3_outroL4D1ProducerBiker CHARACTER Biker SUBTITLE "Go, Ro, go!"
+RULE c6m3_outroL4D1ProducerBiker CRITERIA Conceptc6m3_outro3 IsBiker isC6m3_port IsProducerAlive IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1ProducerBiker
+RESPONSE C6M3VocalizeLookOutBiker CHARACTER Biker SUBTITLE "Look out!"
+RESPONSE C6M3VocalizeLookOutBiker CHARACTER Biker SUBTITLE "Look out!"
+RESPONSE C6M3VocalizeLookOutBiker CHARACTER Biker SUBTITLE "Watch out!"
+RESPONSE C6M3VocalizeLookOutBiker CHARACTER Biker SUBTITLE "Watch out!"
+RESPONSE C6M3VocalizeLookOutBiker CHARACTER Biker SUBTITLE "Watch your ass!"
+RESPONSE C6M3VocalizeLookOutBiker CHARACTER Biker SUBTITLE "Heads up!"
+RULE C6M3VocalizeLookOutBiker CRITERIA ConceptPlayerLookOut IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker RESPONSE C6M3VocalizeLookOutBiker
+RESPONSE IncapBounce2Biker CHARACTER Biker SUBTITLE "Keep together!"
+RESPONSE IncapBounce2Biker CHARACTER Biker SUBTITLE "Stay together!"
+RESPONSE IncapBounce2Biker CHARACTER Biker SUBTITLE "Don't split up!"
+RESPONSE IncapBounce2Biker CHARACTER Biker SUBTITLE "Stay together!"
+RESPONSE IncapBounce2Biker CHARACTER Biker SUBTITLE "Keep together!"
+RULE IncapBounce2Biker CRITERIA ConceptInCapBounce2 IsBiker IsNotSaidInCapBounce2 isC6m3_port RESPONSE IncapBounce2Biker
+RESPONSE L4D1_AttractPlayerForThrowBiker CHARACTER Biker SUBTITLE "Hold up I got something for you."
+RESPONSE L4D1_AttractPlayerForThrowBiker CHARACTER Biker SUBTITLE "Hey come over here."
+RESPONSE L4D1_AttractPlayerForThrowBiker CHARACTER Biker SUBTITLE "Here, you're gonna need this."
+RESPONSE L4D1_AttractPlayerForThrowBiker CHARACTER Biker SUBTITLE "You lookin' for this?"
+RESPONSE L4D1_AttractPlayerForThrowBiker CHARACTER Biker SUBTITLE "Check this out."
+RESPONSE L4D1_AttractPlayerForThrowBiker CHARACTER Biker SUBTITLE "Look at this."
+RESPONSE L4D1_AttractPlayerForThrowBiker CHARACTER Biker SUBTITLE "Look here."
+RESPONSE L4D1_AttractPlayerForThrowBiker CHARACTER Biker SUBTITLE "Hello"
+RULE L4D1_AttractPlayerForThrowBiker CRITERIA ConceptL4D1_AttractPlayerForThrow IsBiker RESPONSE L4D1_AttractPlayerForThrowBiker
+RESPONSE L4D1_SurvivorBotTakeThisItemBiker CHARACTER Biker SUBTITLE "Here, take this."
+RESPONSE L4D1_SurvivorBotTakeThisItemBiker CHARACTER Biker SUBTITLE "Take it. Hell, I don't need it."
+RESPONSE L4D1_SurvivorBotTakeThisItemBiker CHARACTER Biker SUBTITLE "Take this!"
+RESPONSE L4D1_SurvivorBotTakeThisItemBiker CHARACTER Biker SUBTITLE "You can have this."
+RESPONSE L4D1_SurvivorBotTakeThisItemBiker CHARACTER Biker SUBTITLE "Here, you're gonna need this."
+RESPONSE L4D1_SurvivorBotTakeThisItemBiker CHARACTER Biker SUBTITLE "Take this, now be safe."
+RULE L4D1_SurvivorBotTakeThisItemBiker CRITERIA ConceptL4D1_SurvivorBotTakeThisItem IsBiker RESPONSE L4D1_SurvivorBotTakeThisItemBiker
+RESPONSE WorldC6M3_ByBridge01Biker CHARACTER Biker SUBTITLE "Don't just stand there! HAUL ASS!"
+RESPONSE WorldC6M3_ByBridge01Biker CHARACTER Biker SUBTITLE "Don't just stand there! HAUL ASS!"
+RESPONSE WorldC6M3_ByBridge01Biker CHARACTER Biker SUBTITLE "Get to your car, we'll hold them off!"
+RESPONSE WorldC6M3_ByBridge01Biker CHARACTER Biker SUBTITLE "Get your asses to your car!"
+RESPONSE WorldC6M3_ByBridge01Biker CHARACTER Biker SUBTITLE "Get your goddamn asses to your car!"
+RULE WorldC6M3_ByBridge01Biker CRITERIA ConceptWorldC6M3_ByBridge01 IsBiker RESPONSE WorldC6M3_ByBridge01Biker
+RESPONSE WorldC6M3_ByBridge01EllisBiker CHARACTER Biker SUBTITLE "Hey Ellis, I HATE YOUR HAT! [laughs]"
+RULE WorldC6M3_ByBridge01EllisBiker CRITERIA ConceptWorldC6M3_ByBridge01Ellis IsBiker RESPONSE WorldC6M3_ByBridge01EllisBiker
+RESPONSE L4D1AlsoSpottedBoomerBiker CHARACTER Biker SUBTITLE "BOOMER!"
+RESPONSE L4D1AlsoSpottedBoomerBiker CHARACTER Biker SUBTITLE "BOOMER!"
+RESPONSE L4D1AlsoSpottedBoomerBiker CHARACTER Biker SUBTITLE "BOOMER!"
+RULE L4D1AlsoSpottedBoomerBiker CRITERIA ConceptPlayerAlsoWarnBoomer IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker RESPONSE L4D1AlsoSpottedBoomerBiker
+RESPONSE L4D1AlsoSpottedHunterBiker CHARACTER Biker SUBTITLE "HUNTER!"
+RESPONSE L4D1AlsoSpottedHunterBiker CHARACTER Biker SUBTITLE "HUNTER!"
+RESPONSE L4D1AlsoSpottedHunterBiker CHARACTER Biker SUBTITLE "HUNTER!"
+RULE L4D1AlsoSpottedHunterBiker CRITERIA ConceptPlayerAlsoWarnHunter IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker RESPONSE L4D1AlsoSpottedHunterBiker
+RESPONSE L4D1AlsoSpottedSmokerBiker CHARACTER Biker SUBTITLE "SMOKER!"
+RESPONSE L4D1AlsoSpottedSmokerBiker CHARACTER Biker SUBTITLE "SMOKER!"
+RESPONSE L4D1AlsoSpottedSmokerBiker CHARACTER Biker SUBTITLE "SMOKER!"
+RULE L4D1AlsoSpottedSmokerBiker CRITERIA ConceptPlayerAlsoWarnSmoker IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker RESPONSE L4D1AlsoSpottedSmokerBiker
+RESPONSE L4D1AlsoSpottedTankBiker CHARACTER Biker SUBTITLE "Lead 'em over here!"
+RESPONSE L4D1AlsoSpottedTankBiker CHARACTER Biker SUBTITLE "Oh shit, two tanks!"
+RESPONSE L4D1AlsoSpottedTankBiker CHARACTER Biker SUBTITLE "TWO TANKS! I HATE THE SOUTH!"
+RULE L4D1AlsoSpottedTankBiker CRITERIA ConceptPlayerAlsoWarnTank IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker Isc6m3_port RESPONSE L4D1AlsoSpottedTankBiker
+RESPONSE L4D1SpottedBoomerBiker CHARACTER Biker SUBTITLE "BOOMER!"
+RESPONSE L4D1SpottedBoomerBiker CHARACTER Biker SUBTITLE "BOOMER!"
+RESPONSE L4D1SpottedBoomerBiker CHARACTER Biker SUBTITLE "BOOMER!"
+RULE L4D1SpottedBoomerBiker CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeBoomer IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker IsNotSpeaking RESPONSE L4D1SpottedBoomerBiker
+RESPONSE L4D1SpottedChargerBiker CHARACTER Biker SUBTITLE "CHARGER!"
+RESPONSE L4D1SpottedChargerBiker CHARACTER Biker SUBTITLE "CHARGER!"
+RESPONSE L4D1SpottedChargerBiker CHARACTER Biker SUBTITLE "CHARGER!"
+RULE L4D1SpottedChargerBiker CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeCharger  IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker IsNotSpeakingWeight0 RESPONSE L4D1SpottedChargerBiker
+RESPONSE L4D1SpottedHunterBiker CHARACTER Biker SUBTITLE "HUNTER!"
+RESPONSE L4D1SpottedHunterBiker CHARACTER Biker SUBTITLE "HUNTER!"
+RESPONSE L4D1SpottedHunterBiker CHARACTER Biker SUBTITLE "HUNTER!"
+RULE L4D1SpottedHunterBiker CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeHunter IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker IsNotSpeakingWeight0 RESPONSE L4D1SpottedHunterBiker
+RESPONSE L4D1SpottedJockeyBiker CHARACTER Biker SUBTITLE "JOCKEY!"
+RESPONSE L4D1SpottedJockeyBiker CHARACTER Biker SUBTITLE "JOCKEY!"
+RESPONSE L4D1SpottedJockeyBiker CHARACTER Biker SUBTITLE "JOCKEY!"
+RULE L4D1SpottedJockeyBiker CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeJockey IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker IsNotSpeakingWeight0 RESPONSE L4D1SpottedJockeyBiker
+RESPONSE L4D1SpottedSmokerBiker CHARACTER Biker SUBTITLE "SMOKER!"
+RESPONSE L4D1SpottedSmokerBiker CHARACTER Biker SUBTITLE "SMOKER!"
+RESPONSE L4D1SpottedSmokerBiker CHARACTER Biker SUBTITLE "SMOKER!"
+RULE L4D1SpottedSmokerBiker CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeSmoker IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker IsNotSpeakingWeight0 RESPONSE L4D1SpottedSmokerBiker
+RESPONSE L4D1SpottedSpitterBiker CHARACTER Biker SUBTITLE "SPITTER!"
+RESPONSE L4D1SpottedSpitterBiker CHARACTER Biker SUBTITLE "SPITTER!"
+RESPONSE L4D1SpottedSpitterBiker CHARACTER Biker SUBTITLE "SPITTER!"
+RULE L4D1SpottedSpitterBiker CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeSpitter IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker IsNotSpeakingWeight0 RESPONSE L4D1SpottedSpitterBiker
+RESPONSE L4D1SpottedTankBiker CHARACTER Biker SUBTITLE "Lead 'em over here!"
+RESPONSE L4D1SpottedTankBiker CHARACTER Biker SUBTITLE "Oh shit, two tanks!"
+RESPONSE L4D1SpottedTankBiker CHARACTER Biker SUBTITLE "TWO TANKS! I HATE THE SOUTH!"
+RULE L4D1SpottedTankBiker CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeTank IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker Isc6m3_port IsNotSpeakingWeight0 RESPONSE L4D1SpottedTankBiker
+RESPONSE L4D1_ReloadingBiker CHARACTER Biker SUBTITLE "Reloading!"
+RESPONSE L4D1_ReloadingBiker CHARACTER Biker SUBTITLE "Reloading!"
+RESPONSE L4D1_ReloadingBiker CHARACTER Biker SUBTITLE "Reloading!"
+RULE L4D1_ReloadingBiker CRITERIA ConceptPlayerReloading IsNotSpeaking IsBiker IsTalk IsTalkBiker IsWorldTalkBiker RESPONSE L4D1_ReloadingBiker
+RESPONSE L4D1PlayerKillConfirmationBiker CHARACTER Biker SUBTITLE "Got it!"
+RESPONSE L4D1PlayerKillConfirmationBiker CHARACTER Biker SUBTITLE "Nailed it!"
+RESPONSE L4D1PlayerKillConfirmationBiker CHARACTER Biker SUBTITLE "Down!"
+RESPONSE L4D1PlayerKillConfirmationBiker CHARACTER Biker SUBTITLE "That's mine."
+RESPONSE L4D1PlayerKillConfirmationBiker CHARACTER Biker SUBTITLE "Dead!"
+RESPONSE L4D1PlayerKillConfirmationBiker CHARACTER Biker SUBTITLE "Popped it!"
+RESPONSE L4D1PlayerKillConfirmationBiker CHARACTER Biker SUBTITLE "Popped a cap in his ass!"
+RULE L4D1PlayerKillConfirmationBiker CRITERIA ConceptKilledZombie IsNotCoughing IsBiker  IsTalk IsTalkBiker IsSubjectFar300 ChanceToFire80Percent IsWorldTalkBiker RESPONSE L4D1PlayerKillConfirmationBiker
+RESPONSE L4D1PlayerKillConfirmationTankBiker CHARACTER Biker SUBTITLE "I hate tanks."
+RESPONSE L4D1PlayerKillConfirmationTankBiker CHARACTER Biker SUBTITLE "I hate tanks."
+RESPONSE L4D1PlayerKillConfirmationTankBiker CHARACTER Biker SUBTITLE "I hate tanks."
+RESPONSE L4D1PlayerKillConfirmationTankBiker CHARACTER Biker SUBTITLE "I hate tanks."
+RESPONSE L4D1PlayerKillConfirmationTankBiker CHARACTER Biker SUBTITLE "I hate tanks."
+RESPONSE L4D1PlayerKillConfirmationTankBiker CHARACTER Biker SUBTITLE "I hate tanks."
+RESPONSE L4D1PlayerKillConfirmationTankBiker CHARACTER Biker SUBTITLE "I hate tanks."
+RESPONSE L4D1PlayerKillConfirmationTankBiker CHARACTER Biker SUBTITLE "I hate tanks."
+RESPONSE L4D1PlayerKillConfirmationTankBiker CHARACTER Biker SUBTITLE "I hate tanks."
+RESPONSE L4D1PlayerKillConfirmationTankBiker CHARACTER Biker SUBTITLE "I hate tanks."
+RULE L4D1PlayerKillConfirmationTankBiker CRITERIA ConceptKilledZombie IsNotCoughing IsBiker  IsTalk IsTalkBiker IsWorldTalkBiker SubjectIsTank ChanceToFire30Percent RESPONSE L4D1PlayerKillConfirmationTankBiker
+RESPONSE L4D1PlayerWarnMegaMobBiker CHARACTER Biker SUBTITLE "Holy shit, here they come!"
+RESPONSE L4D1PlayerWarnMegaMobBiker CHARACTER Biker SUBTITLE "They're coming!"
+RESPONSE L4D1PlayerWarnMegaMobBiker CHARACTER Biker SUBTITLE "Incoming!"
+RESPONSE L4D1PlayerWarnMegaMobBiker CHARACTER Biker SUBTITLE "Get ready ladies!"
+RESPONSE L4D1PlayerWarnMegaMobBiker CHARACTER Biker SUBTITLE "This is gonna be good."
+RULE L4D1PlayerWarnMegaMobBiker CRITERIA ConceptPlayerWarnMegaMob IsNotCoughing IsBiker IsNotWarnMegaMob IsTalk IsTalkBiker IsNotSpeaking IsWorldTalkBiker RESPONSE L4D1PlayerWarnMegaMobBiker
+
+
+

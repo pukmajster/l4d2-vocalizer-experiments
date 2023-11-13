@@ -1,0 +1,650 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {
+    "L4D1PlayerNiceShotGambler": [
+      "Nice shooting.",
+      "Nice shot!",
+      "Nice shot Ace."
+    ],
+    "L4D1PlayerNiceShotFrancisGambler": [
+      "I owe you one, Francis!",
+      "Nice shot, Francis!"
+    ],
+    "L4D1PlayerNiceShotLouisGambler": [
+      "Thanks, Louis!",
+      "Louis, I am beginning to like you and your gun.",
+      "Louis, you are a badass with that gun.",
+      "Louis, you sure you don't want to come with us? We can leave Ellis behind."
+    ],
+    "L4D1PlayerNiceShotZoeyGambler": [
+      "Thanks, Zoey!",
+      "Zoey, all right!",
+      "Nice shot, Zoey!"
+    ],
+    "C6M3GasPourGambler": [
+      "I'm filling the generator.",
+      "Pouring it in!",
+      "Another one in!",
+      "Almost outta here!",
+      "Why doesn't anything have enough gas in it?"
+    ],
+    "C6M1_IntotheparkNoHealthGambler": [
+      "Grab a health kit.",
+      "Everyone grab a health kit.",
+      "Don't forget a health kit.",
+      "Quick, grab a health kit."
+    ],
+    "C6M1Intro_01Biker05Gambler": [
+      "I'm telling you for the last goddamn time, lower the goddamn bridge you greasy vest wearing monkey."
+    ],
+    "C6M1Intro_07bGambler": [
+      "That guy's no cop.",
+      "I'll tell ya something; that guy is no cop."
+    ],
+    "C6M1Intro_09aGambler": [
+      "Hey! (Realization someone else is alive) HEEEYYY!!"
+    ],
+    "C6M1Intro_09bGambler": [
+      "Hey! (Realization someone else is alive) HEEEYYY!!"
+    ],
+    "C6M1Intro_09dGambler": [
+      "What the...",
+      "What?"
+    ],
+    "C6M1Intro_10eGambler": [
+      "Whatever.",
+      "Whatever sweety.",
+      "Or: I could try is being more attractive to grease ball bikers."
+    ],
+    "C6M1Intro_11dGambler": [
+      "All right.",
+      "Yeah, all right."
+    ],
+    "C6M1Intro_14aGambler": [
+      "Okay, listen to me, jackass, lower the goddamn bridge so we can drive our goddamn car across."
+    ],
+    "C6M1Intro_14cGambler": [
+      "(to his group) Do you believe this guy?",
+      "(to self) I don't believe this guy."
+    ],
+    "C6M1Intro_15aGambler": [
+      "That's terrific cupcake, is there a man up there we can talk to?"
+    ],
+    "C6M1Intro_15eGambler": [
+      "Hey, lighten up. Man, no one can take a joke anymore.",
+      "Wouldja  lighten up?  Man, no one can take a joke anymore."
+    ],
+    "C6M1Intro_16aGambler": [
+      "Well then climb down, you big ape, and help us."
+    ],
+    "RemWorldC6M1_WeddingWarn02Gambler": [
+      "Coach, no time for cake.",
+      "I'll keep an eye out for some.",
+      "Coach, I'll keep an eye out for some. Okay buddy?"
+    ],
+    "WorldC6M1_HistoricTourGambler": [
+      "[reading] \"Historic Rayford Under-the-River Tunnel Tour.\" THAT'll get us across.\"",
+      "Look, we can just go under the river. Doesn't that sound fun Ellis?",
+      "Look, we can just go under the river. Doesn't that sound like fun Ellis?",
+      "If we can go under the river, we can get to the other side of the bridge.",
+      "Only in the South do I have to go under a goddamn river.",
+      "If we can't take the bridge, let's try this under-the-river tour.",
+      "Okay, explain something to me; how is an under-the-river tour scenic?"
+    ],
+    "WorldC6M1_PostWedding02aGambler": [
+      "Marrying her is the last thing you should do."
+    ],
+    "WorldC6M1_WeddingWarn05aGambler": [
+      "Yeah, look Ellis, all women are emotional wrecks who will eventually kill you.",
+      "Yeah, you're about to get mauled to death."
+    ],
+    "C6M2_OpenGate1Gambler": [
+      "I opened it.",
+      "I hit it!"
+    ],
+    "C6M2_OpenGate1aGambler": [
+      "Ellis, what did you just do?"
+    ],
+    "C6M2_OpenGate2Gambler": [
+      "I opened it.",
+      "Ahh, Christ, you gotta be kidding me.",
+      "Ahh, COME ON!"
+    ],
+    "DLC1_C6M2_SafeRoomConvo01Gambler": [
+      "So we find this historic section. Go under the river. And then we kick that biker dude's ass, right?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo01bGambler": [
+      "Go to hell."
+    ],
+    "DLC1_C6M2_SafeRoomConvo02Gambler": [
+      "I can't believe we're waking this far just to keep a damn car."
+    ],
+    "DLC1_C6M2_SafeRoomConvo02bGambler": [
+      "I don't have a problem with leaving the car AND you behind. Okay, Ellis?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo06aGambler": [
+      "Boiled nuts? Christ. What is wrong with you Southerners?",
+      "Boiled nuts? Coah, come on, what is wrong with you Southerners?",
+      "And you want to live?",
+      "I hate your life Coach."
+    ],
+    "DLC1_C6M2_SafeRoomConvo07aGambler": [
+      "I think you had a better chance with that witch."
+    ],
+    "DLC1_C6M2_SafeRoomConvo08Gambler": [
+      "So this under-the-river tour, who wants to bet that is going to be filthy.",
+      "If anybody sees any hand sanitizer let me know."
+    ],
+    "DLC1_C6M2_SafeRoomConvo08aGambler": [
+      "What's a matter Rochelle, playing hard to get?",
+      "What's a matter sweetie, you playing hard to get?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo08cGambler": [
+      "I saw the way you were looking at him.",
+      "C'mon... I saw the way you were looking at him."
+    ],
+    "DLC1_C6M2_SafeRoomConvo08eGambler": [
+      "I don't know... he fills out a vest pretty good.",
+      "He could be the one.",
+      "Look, there are probably 10 guys left on the planet Rochelle, and you're not getting any younger, sweetie."
+    ],
+    "DLC1_C6M2_SafeRoomConvo09bGambler": [
+      "Coach, A germ just wiped out the whole planet. So yes."
+    ],
+    "DLC1_C6M2_SafeRoomConvo10Gambler": [
+      "So Ellis, Zoey huh? What do you think?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo10bGambler": [
+      "Yeah, hahaha a little bit more hand sanitizer and we wouldn't be in this mess."
+    ],
+    "DLC1_C6M2_SafeRoomConvo10dGambler": [
+      "Under the what now?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo11bGambler": [
+      "Yeah agreed, she is totally out of your league."
+    ],
+    "DLC1_C6M2_SafeRoomConvo12aGambler": [
+      "Okay, let me get this straight. It's a tunnel... under the river. Right?",
+      "Let me get this straight, Coach. It's a tunnel... under the river. Right?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo12cGambler": [
+      "And this is supposed to teach me about what exactly?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo13aGambler": [
+      "I am not looking forward to this under the river tour."
+    ],
+    "DLC1_C6M2_SafeRoomConvo13cGambler": [
+      "Coach, it's a hole. Oh no, excuse me, an historic hole. Under a river.",
+      "Okay, good point. You know what? I am looking forward to punching that grease bag biker in the mouth."
+    ],
+    "DLC1_C6M2_SafeRoomConvo14fGambler": [
+      "Yeah, no, I'm good, I'm good."
+    ],
+    "DLC1_C6M2_SafeRoomConvo15cGambler": [
+      "Whatever."
+    ],
+    "WorldC6M2_AfterGate201aGambler": [
+      "Not the time, Ellis."
+    ],
+    "WorldC6M2_FinalWater01aGambler": [
+      "I hate you, Ellis!"
+    ],
+    "WorldC6M2_InSewer101cGambler": [
+      "Ellis. I NEED this."
+    ],
+    "WorldC6M2_InSewer102bGambler": [
+      "YES."
+    ],
+    "WorldC6M2_InSewer201aGambler": [
+      "Don't you DARE."
+    ],
+    "WorldC6M2_InSewer202aGambler": [
+      "Ugh"
+    ],
+    "WorldC6M2_InSewerLadder101aGambler": [
+      "Ugh",
+      "Augh",
+      "Ugh, ugh",
+      "Bad advice. BAD advice."
+    ],
+    "WorldC6M2_OnTourWalk101aGambler": [
+      "Shithole?"
+    ],
+    "WorldC6M2_OnTourWalk102aGambler": [
+      "Toldja."
+    ],
+    "WorldC6M2_Tattoo01b>Gambler": [
+      "I'll just write greasy pig. We'll all know who we are talking about.",
+      "I'll just write greasy pig, we all...(laughs)",
+      "Greasy pig should be close enough, right?"
+    ],
+    "WorldC6M2_Tattoo03a>Gambler": [
+      "That is never going to happen, Ellis.",
+      "I'm gonna get a tattoo that says \"no\"."
+    ],
+    "C6M3_BridgeDownGambler": [
+      "Bridge is down, to the car!",
+      "GET TO THE CAR, GET TO THE CAR!",
+      "Thank YOU, Jimmy Gibbs, Jr.",
+      "Get to the car!",
+      "Would you get to the goddamn car?",
+      "Everyone to the car!",
+      "I'm not waiting long, get to the car!",
+      "Time to leave people!",
+      "Let's go people, let's go!"
+    ],
+    "C6M3_BridgeGettoCarGambler": [
+      "Bridge is down, to the car!",
+      "GET TO THE CAR, GET TO THE CAR!",
+      "Thank YOU, Jimmy Gibbs, Jr.",
+      "Get to the car!",
+      "Would you get to the goddamn car?",
+      "Everyone to the car!",
+      "I'm not waiting long, get to the car!",
+      "Time to leave people!",
+      "Let's go people, let's go!"
+    ],
+    "C6M3_elevatorGambler": [
+      "I guess they'll help. Right?",
+      "First we fill up Gibby's car with gas, now a generator, what next? Don't answer, Ellis.",
+      "Let's get these cans fast.",
+      "Let's not piss around here, alright? Gas up the generator, let's get out of here."
+    ],
+    "C6M3_elevatorFrancisGambler": [
+      "The minute we get down there, I'm shooting that biker."
+    ],
+    "C6M3_GivenItemBikerGambler": [
+      "Shit, thanks!",
+      "Sorry if I was rude before. You guys are all right!",
+      "Thanks, greaseball!",
+      "Thanks, pal!"
+    ],
+    "C6M3_GivenItemTeenGirlGambler": [
+      "Thanks, we'll make good use of this.",
+      "Hey thanks, babe!",
+      "Got it, thank you!"
+    ],
+    "DLC1_C6M3_SafeRoomConvo02Gambler": [
+      "I don't trust that biker. He better still be here."
+    ],
+    "DLC1_C6M3_SafeRoomConvo02bGambler": [
+      "You know him that well?"
+    ],
+    "DLC1_C6M3_SafeRoomConvo02dGambler": [
+      "You got a good feeling about every scumbag that lives on a bridge."
+    ],
+    "DLC1_C6M3_SafeRoomConvo03bGambler": [
+      "Like you've been crawling through a sewer."
+    ],
+    "DLC1_C6M3_SafeRoomConvo03dGambler": [
+      "I'm not even going to look.",
+      "I'm not even going to look, Ellis."
+    ],
+    "DLC1_C6M3_SafeRoomConvo04cGambler": [
+      "Don't listen to her. You got five minutes to get this done, Ellis. It is do or die time, buddy."
+    ],
+    "DLC1_C6M3_SafeRoomConvo05Gambler": [
+      "So we're about to see that girl again, what's her name? Zoey?"
+    ],
+    "DLC1_C6M3_SafeRoomConvo05bGambler": [
+      "What are you nervous about? You had your chance, you didn't do shit. Now you can watch Nick take care of business."
+    ],
+    "DLC1_C6M3_SafeRoomConvo05dGambler": [
+      "What? I'm a handsome man.",
+      "What? I'm a closer.",
+      "What? I'm a handsome man, what can I tell ya?",
+      "A-B-C. A;ways be closing."
+    ],
+    "C6M3_CansDoneGambler": [
+      "Everyone to the car!",
+      "Thanks! We gotta run!"
+    ],
+    "SurvivorSpottedFallenGambler": [
+      "Kill that zombie, he's got something!",
+      "That zombie's got something! Kill it!",
+      "Get that zombie! He's got something!",
+      "What's that zombie got?",
+      "I think that zombie's got something!",
+      "That zombie's got something!",
+      "Is that a survivor?"
+    ],
+    "PlayerWitchChasingC6M1Gambler": [
+      "Here comes the bride!"
+    ],
+    "PlayerRemarkremark_MidnightRidersBusGambler": [
+      "Did you guys see that?",
+      "What in the hell was that?",
+      "I must be dreaming."
+    ],
+    "PlayerRemarkWorldC6M1_AcrossHereGambler": [
+      "Across the walk-way."
+    ],
+    "PlayerRemarkWorldC6M1_AlleyBelowGambler": [
+      "We've got to get up across these walk-ways.",
+      "We've got to get into this building.",
+      "We need to get up there.",
+      "Down this alley.",
+      "Down here."
+    ],
+    "PlayerRemarkWorldC6M1_AlleyIntoBuildingGambler": [
+      "Into the apartments."
+    ],
+    "PlayerRemarkWorldC6M1_InAptsGambler": [
+      "Into here.",
+      "In here.",
+      "Over here.",
+      "Let's search these rooms for supplies."
+    ],
+    "PlayerRemarkWorldC6M1_IntotheparkGambler": [
+      "Let's go through this park.",
+      "Through this park."
+    ],
+    "PlayerRemarkWorldC6M1_IntoThePark2Gambler": [
+      "Let's go through this park."
+    ],
+    "PlayerRemarkWorldC6M1_IntoTheStoreGambler": [
+      "Through this store.",
+      "Let's go through this store.",
+      "We can get around through this store.",
+      "Guns in this store!"
+    ],
+    "PlayerRemarkWorldC6M1_SafeRoomAlleyGambler": [
+      "Behind this bus.",
+      "Safe house in this building!",
+      "Safe house back here!"
+    ],
+    "PlayerRemarkWorldC6M1_ThroughBarGambler": [
+      "Through here."
+    ],
+    "PlayerRemarkWorldC6M1_UpHereGambler": [
+      "Back this way.",
+      "Guess we go this way.",
+      "Up here."
+    ],
+    "PlayerRemarkWorldC6M1_UpTheStairsGambler": [
+      "Up these stairs.",
+      "Let's try upstairs."
+    ],
+    "PlayerRemarkWorldC6M1_UpTheStairs2Gambler": [
+      "Up the stairs!",
+      "We have to get up stairs."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarnGambler": [
+      "Guess we're crashing this wedding.",
+      "Oh shit a wedding.",
+      "Oh Christ, this is more depressing than the zombies.",
+      "I hate going to weddings.",
+      "Think we are a little late for the wedding.",
+      "Careful! I've seen a bride just like this before.",
+      "That dress. The crying. This is bringing back some bad memories.",
+      "This is bringing back some bad memories."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarn1Gambler": [
+      "Guess we're crashing this wedding.",
+      "Oh shit a wedding.",
+      "Oh Christ, this is more depressing than the zombies.",
+      "I hate going to weddings.",
+      "Think we are a little late for the wedding.",
+      "Careful! I've seen a bride just like this before.",
+      "That dress. The crying. This is bringing back some bad memories.",
+      "This is bringing back some bad memories."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarn2Gambler": [
+      "Guess we're crashing this wedding.",
+      "Oh shit a wedding.",
+      "Oh Christ, this is more depressing than the zombies.",
+      "I hate going to weddings.",
+      "Think we are a little late for the wedding.",
+      "Careful! I've seen a bride just like this before.",
+      "That dress. The crying. This is bringing back some bad memories.",
+      "This is bringing back some bad memories."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarn3Gambler": [
+      "Guess we're crashing this wedding.",
+      "Oh shit a wedding.",
+      "Oh Christ, this is more depressing than the zombies.",
+      "I hate going to weddings.",
+      "Think we are a little late for the wedding.",
+      "Careful! I've seen a bride just like this before.",
+      "That dress. The crying. This is bringing back some bad memories.",
+      "This is bringing back some bad memories."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarnAngelGambler": [
+      "(whispered in Ellis accent) Ellis look, it's another angel."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarnEllisGambler": [
+      "Ellis, maybe you should grab that dress for your new girlfriend.",
+      "Ellis, go give the bride a kiss it'll be good luck. Trust me."
+    ],
+    "PlayerRemarkWorldC6M2_AcrossPlankGambler": [
+      "Over this plank.",
+      "Watch out for smokers.",
+      "Watch out for chargers.",
+      "Okay, let's cross this plank quick.",
+      "Don't look down.",
+      "Watch yourself on this thing.",
+      "Cross quick before a smoker grabs you."
+    ],
+    "PlayerRemarkWorldC6M2_AfterGate1Gambler": [
+      "Keep moving!",
+      "Don't stop in the sewer!",
+      "We gotta keep moving, people."
+    ],
+    "PlayerRemarkWorldC6M2_AfterGate2Gambler": [
+      "Ehhh.",
+      "Ahhh.",
+      "I am walking through a toilet. Thank you, Jimmy Gibbs.",
+      "[to self] \"Hey, Nick, what's new?\" \"Oh, not much. I couldn't drive Jimmy Gibby's stock car over a bridge, so I'm crawling through a shit-filled sewer so I can lower it. You?\"",
+      "Gotta get up on the cat walks.",
+      "We need to find a ladder.",
+      "Gotta get back up on the cat walk."
+    ],
+    "PlayerRemarkWorldC6M2_DownHereGambler": [
+      "Down here.",
+      "Down here!"
+    ],
+    "PlayerRemarkWorldC6M2_DownIntoBuildingGambler": [
+      "Through this building.",
+      "In here.",
+      "Down these stairs.",
+      "Get in there."
+    ],
+    "PlayerRemarkWorldC6M2_FinalLadderGambler": [
+      "Ladder!",
+      "Up the ladder!"
+    ],
+    "PlayerRemarkWorldC6M2_FinalWaterGambler": [
+      "Back in the water."
+    ],
+    "PlayerRemarkWorldC6M2_FinalWaterGoGoGambler": [
+      "Keep moving!"
+    ],
+    "PlayerRemarkWorldC6M2_InJazzClubGambler": [
+      "Into the Jazz Club.",
+      "Looks like the tour is in the Jazz Club.",
+      "The tunnel's in the Club.",
+      "The tour's through this Jazz Club."
+    ],
+    "PlayerRemarkWorldC6M2_InSewer1Gambler": [
+      "(to self) It's just a storm sewer, it is just a STORM sewer",
+      "A sewer filled with bodies. [Sarcastic] This is sanitary.",
+      "Here's a pleasant thought: Any one of us gets pounced, we are going to be fully submerged in shit water.",
+      "Seriously, is nobody else freaked out right now? We are walking through a SEWER.",
+      "Oh, this is some gross shit."
+    ],
+    "PlayerRemarkWorldC6M2_InSewer2Gambler": [
+      "I am breathing shit air into my lungs, it is being absorbed into my bloodstream. I am literally full of shit.",
+      "Seriously, look, I will pay any one of you a thousand dollars right now to give me a piggyback ride."
+    ],
+    "PlayerRemarkWorldC6M2_InSewerLadder1Gambler": [
+      "Everyone out of the pool."
+    ],
+    "PlayerRemarkWorldC6M2_IntoConstructionGambler": [
+      "Drop down here.",
+      "Into the construction site."
+    ],
+    "PlayerRemarkWorldC6M2_IntoPoolHallGambler": [
+      "Get into the pool hall!",
+      "Jump in through the window.",
+      "Go in the window."
+    ],
+    "PlayerRemarkWorldC6M2_JukeBoxGambler": [
+      "Hit the jukebox.",
+      "Let's hear some music."
+    ],
+    "PlayerRemarkWorldC6M2_JumpDownGambler": [
+      "Let's do this together.",
+      "Who wants to jump first?"
+    ],
+    "PlayerRemarkWorldC6M2_OnTourWalk1Gambler": [
+      "Stay on the walkway.",
+      "Follow the walkway.",
+      "Jesus, this place sucks.",
+      "[sarcastic] Yeah. Tunnels. You're right, Coach, you're so right. History is coming alive."
+    ],
+    "PlayerRemarkWorldC6M2_OnTourWalk2Gambler": [
+      "So... it's an antique basement, then. Fanntastic.",
+      "Why is everything \"historic\" always so goddamn filthy?"
+    ],
+    "PlayerRemarkWorldC6M2_OnTourWalk3Gambler": [
+      "From one con man to another: five bucks for this? I tip my hat to you, Rayford.",
+      "Five goddamn dollars for an under-the-river tour? Well played, Rayford. Well played."
+    ],
+    "PlayerRemarkWorldC6M2_OpenGate1Gambler": [
+      "Goddamn alarm door.",
+      "When we open this door its gonna alert the zombies.",
+      "Shit, alarm door.",
+      "Let's get ready!",
+      "This is gonna get noisy.",
+      "Get ready to run."
+    ],
+    "PlayerRemarkWorldC6M2_OpenGate2Gambler": [
+      "Hope this one works.",
+      "This one better work."
+    ],
+    "PlayerRemarkWorldC6M2_Phase2Gambler": [
+      "Tour ends, time to head down.",
+      "Tour's over.",
+      "Should we wait until they finish?",
+      "Jesus Christ, what did we just pay five bucks for?",
+      "Phase Two? Does this even go through?"
+    ],
+    "PlayerRemarkWorldC6M2_Phase2DownGambler": [
+      "Let's get off these stairs.",
+      "DOWN THE STAIRS, DOWN THE STAIRS!"
+    ],
+    "PlayerRemarkWorldC6M2_Phase2DownIntenseGambler": [
+      "Don't stop on the stairs, GO!!!",
+      "GO DOWN!",
+      "DOWN DOWN DOWN!",
+      "DOWN, LET'S GO!"
+    ],
+    "PlayerRemarkWorldC6M2_PostGate1xGambler": [
+      "Goddamnit. Back in the shit water.",
+      "Goddamnit. We're back in the toilet.",
+      "THIS was going to be their goddamn tour?",
+      "Great, back to the goddamn history of sewage."
+    ],
+    "PlayerRemarkWorldC6M2_SafeRoomGambler": [
+      "Saferoom!"
+    ],
+    "PlayerRemarkWorldC6M2_SuitcaseGambler": [
+      "I like the way this guy packs.",
+      "Don't mind if I do."
+    ],
+    "PlayerRemarkWorldC6M2_TattooGambler": [
+      "Who wants a tattoo?",
+      "I've never done a colored tattoo."
+    ],
+    "PlayerRemarkWorldC6M2_TattooR&NGambler": [
+      "Rochelle, do you want me to tattoo your boyfriend's name on your arm?"
+    ],
+    "PlayerRemarkWorldC6M2_TattooZoeyGambler": [
+      "Ellis, did you get that girl's name? 'Cause I can tattoo it on your ass. She'll like that.",
+      "Hey Ellis, did you get that girl's name? Because you know what? I can tattoo it on your ass. She'll love it."
+    ],
+    "PlayerRemarkWorldC6M2_TattooZoey2Gambler": [
+      "Ellis, did you get that girl's name? 'Cause I can tattoo it on your ass. She'll like that.",
+      "Hey Ellis, did you get that girl's name? Because you know what? I can tattoo it on your ass. She'll love it."
+    ],
+    "PlayerRemarkWorldC6M2_TourEntranceGambler": [
+      "This'll take us under the river."
+    ],
+    "PlayerRemarkWorldC6M2_UpCatWalkGambler": [
+      "Thank GOD!",
+      "A ladder!"
+    ],
+    "PlayerRemarkWorldC6M2_UpStairsGambler": [
+      "Up these stairs.",
+      "Up the stairs!",
+      "Let's get up to the street.",
+      "Let's get to the street.",
+      "Let's get to street level."
+    ],
+    "PlayerRemarkWorldC6M2_UpStairs2Gambler": [
+      "Up these stairs.",
+      "Up the stairs!"
+    ],
+    "PlayerRemarkWorldC6M3_BridgeRunGambler": [
+      "THANKS, YOU THREE!",
+      "GOOD LUCK! THANKS!"
+    ],
+    "PlayerRemarkWorldC6M3_ByBridgeGambler": [
+      "Thanks, guys. You good?",
+      "Thank you. Good luck out there, huh?",
+      "You three take care of yourselves. And thanks.",
+      "We won't forget this.",
+      "Be safe, you three."
+    ],
+    "PlayerRemarkWorldFootLockerGambler": [
+      "Let's see what's in here.",
+      "Let's open this up.",
+      "Open it up."
+    ],
+    "C6M1TakeSubMachineGunGambler": [
+      "(picking up gun) Hold on a sec, I'm gonna go back and shoot that jackass.",
+      "(picking up gun) Hold on, I'm gonna go back and shoot that tattoo disaster.",
+      "(picking up gun - to self) I would love to go back and shoot that vest wearing jackass."
+    ],
+    "SurvivorPickupGolfCLubGambler": [
+      "Grabbing a golf club.",
+      "Grabbing the driver."
+    ],
+    "SurvivorPickupM60Gambler": [
+      "I'm grabbing the big gun.",
+      "Grabbing the chain gun.",
+      "Shit, this is heavy."
+    ],
+    "HistoricTour01aGambler": [
+      "Trust me, that won't be the case."
+    ],
+    "WeddingWitchDead03Gambler": [
+      "That's a good one Coach.",
+      "Coach! That's a good one."
+    ],
+    "SurvivorSpottedGolfClubGambler": [
+      "Club here!",
+      "Driver here!"
+    ],
+    "SurvivorSpottedGolfClubAutoGambler": [
+      "Club here!",
+      "Driver here!"
+    ],
+    "SurvivorSpottedM60Gambler": [
+      "Now this is a gun.",
+      "Shit, this is a gun.",
+      "Big gun."
+    ],
+    "SurvivorSpottedM60AutoGambler": [
+      "Now this is a gun.",
+      "Shit, this is a gun.",
+      "Big gun."
+    ]
+  },
+  "Producer": {},
+  "TeenGirl": {},
+  "NamVet": {},
+  "Manager": {},
+  "Biker": {}
+}

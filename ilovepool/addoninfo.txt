@@ -1,0 +1,12 @@
+
+"AddonInfo"
+{
+	addonSteamAppID 550
+	addontitle "I love pool."
+	addonversion 1.0
+	addonauthor "kri"
+	addonauthorSteamId "kryfixzzz"
+	
+	addonDescription "Elish."
+}
+

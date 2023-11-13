@@ -1,0 +1,702 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {},
+  "NamVet": {},
+  "Manager": {},
+  "Biker": {
+    "C7M3_saferoom001Biker": [
+      "I wish I was heading to a deserted island. Can we each get our own?"
+    ],
+    "C7M1_saferoom01Biker": [
+      "Is this the Keys? Because I don't wanna live here."
+    ],
+    "C7M1_saferoom04Biker": [
+      "And why don't we want any of these perfectly good boats?",
+      "And why don't we want any of these boats?  They look cool."
+    ],
+    "C7M1_saferoom05Biker": [
+      "Louis. Tell Zoey I don't know what's going on."
+    ],
+    "C7M1_saferoom06Biker": [
+      "Found one."
+    ],
+    "C7M1_saferoom07aBiker": [
+      "What? We're not even gonna try driving it on the ground?"
+    ],
+    "C7M1_saferoom12aBiker": [
+      "Really? This is you pissed?"
+    ],
+    "C7M1_saferoom13Biker": [
+      "I think those are Bill's tears."
+    ],
+    "C7M1_saferoom14aBiker": [
+      "Hey, I ain't the one that thought we could drive a frickin'  train through the ocean."
+    ],
+    "C7M1_saferoom15bBiker": [
+      "Wow, I never thought I'd say this, but I think I wanna hang out with Louis."
+    ],
+    "C7M1_saferoom16Biker": [
+      "Hey Bill, I think I mighta missed the finer points of your plan. I caught all the train stuff. Something about a boat to an island paradise. But I missed the part where we're stranded in the middle of goddamn nowhere."
+    ],
+    "C7M1_saferoom16bBiker": [
+      "I'm goin', I'm goin'."
+    ],
+    "C7M1_saferoom17Biker": [
+      "Yeah! Sandy beaches. Coconuts. Sand. Beaches. Sand... Wait a minute, I hate islands."
+    ],
+    "C7M1_saferoom18aBiker": [
+      "Okay. I vote for the island paradise where we don't have to fight any more zombies."
+    ],
+    "C7M1_saferoom21Biker": [
+      "Aye, Aye Captain!",
+      "Bill, when you sailed ships were they all still made of wood?"
+    ],
+    "C7M1_saferoom21aBiker": [
+      "Nah, don't worry, I hate boats too."
+    ],
+    "C7M1OpenTankDoorBiker": [
+      "Get ready with some fire.",
+      "Alright, alright, I'll be the brave one.",
+      "Oh shit. There is a tank in here.",
+      "Hey, remember who letcha out of here.",
+      "Go for the one with the tie."
+    ],
+    "C7M1SafeRoomIdleBiker": [
+      "Why'd we stop?",
+      "Holy shit! Did that truck have a head-on collision with a boat? Man, I wish I could have seen that.",
+      "Man, Zoey is pissed.",
+      "So this is the Florida Keys. Crazy how it looks like some shithole in the middle of nowhere.",
+      "I was getting' tired of being cooped up, lookin' forward to some walking."
+    ],
+    "C7M1SafeRoomStartBiker": [
+      "Blank"
+    ],
+    "InfoRemc7m1_pretank01Biker": [
+      "Fine with me."
+    ],
+    "InfoRemc7m1_pretank03Biker": [
+      "What?"
+    ],
+    "InfoRemc7m1_pretank04Biker": [
+      "Hey, Bill. Zoey said you should open the door."
+    ],
+    "InfoRemc7m1_tankcar01Biker": [
+      "Tanks?"
+    ],
+    "C7M2_saferoom02cBiker": [
+      "Bullshit. Say \"Bill's an idiot\" in Japanese."
+    ],
+    "C7M2_saferoom02eBiker": [
+      "Nice."
+    ],
+    "C7M2_saferoom03Biker": [
+      "Louis, if you don't stop being positive, I'm gonna sink the boat just to make you sad."
+    ],
+    "C7M2_saferoom03bBiker": [
+      "About to die in a brick factory? Cause I'm about to do that too. And I got to complain about shit the whole time."
+    ],
+    "C7M2_saferoom05aBiker": [
+      "Okay. But why didn't we drive one of those boats to look for a sail boat?"
+    ],
+    "C7M2SafeRoomIdleBiker": [
+      "What the hell does this mean?",
+      "Hey, Louis. We been through the whole goddamn country, and it's all one big shithole. Still think it's going back to normal?",
+      "Okay. Explain to me again why we didn't take any one of the perfectly good boats we passed?",
+      "I'm still not seeing a boat. Why don't we head back and see if the train floats?"
+    ],
+    "C7M2SafeRoomStartBiker": [
+      "Blank"
+    ],
+    "Player.WarnMegaMobc7m201Biker": [
+      "Get into the chute!"
+    ],
+    "C7M3_saferoom002Biker": [
+      "I hate your good feelings."
+    ],
+    "C7M3_saferoom004bBiker": [
+      "Why aren't I allowed to shoot you again?",
+      "Yeah, I get it, Louis. Bill gets it for chrissake, and he can't even work a flush toilet.",
+      "Nerd.",
+      "You're such a nerd."
+    ],
+    "C7M3_saferoom006aBiker": [
+      "No more vampires."
+    ],
+    "C7M3_saferoom008Biker": [
+      "Why don't we just live on the boat?"
+    ],
+    "C7M3_saferoom008bBiker": [
+      "Well\u0085 there was that ship back there."
+    ],
+    "C7M3_saferoom012aBiker": [
+      "Jesus, have you ever been to an island? They're goddamn horrible."
+    ],
+    "C7M3_saferoom012cBiker": [
+      "They're not the only ones..."
+    ],
+    "C7M3_saferoom012eBiker": [
+      "I hate this plan."
+    ],
+    "C7M3_saferoom013Biker": [
+      "Start hating it."
+    ],
+    "C7M3_saferoom013bBiker": [
+      "I hate it now too."
+    ],
+    "C7M3_saferoom013dBiker": [
+      "I seriously doubt it."
+    ],
+    "C7M3_saferoom014Biker": [
+      "I hate fish."
+    ],
+    "C7M3_saferoom014bBiker": [
+      "Oh no, I like eating them. That's one of the ways I let fish know how much I hate them."
+    ],
+    "C7M3_saferoom015Biker": [
+      "The vampires want to kill us, the army wants to kill us. With our luck, Zoey probably crossed the mob. What the hell makes you think we're gonna live to see Bill's horrible goddamn island in the keys?"
+    ],
+    "C7M3_saferoom016aBiker": [
+      "That's the spirit allright - of insanity.",
+      "I mean, I'd like to hear your reasons why Louis isn't some sort of lunatic. For all we know, he's a serial killer."
+    ],
+    "C7M3_saferoom016cBiker": [
+      "See? I'm serious. Given, you know, current goddamn events, that's not optimism, it's mental illness."
+    ],
+    "C7M3_saferoom017aBiker": [
+      "No, I'm being serious. I really hate islands. I have insulaphobia - I'm afraid of islands."
+    ],
+    "C7M3_saferoom017cBiker": [
+      "No, man. It's a medical condition. Just my goddamn luck..."
+    ],
+    "C7M3_saferoom017eBiker": [
+      "Stupid island..."
+    ],
+    "C7M3_saferoom017gBiker": [
+      "Dumbass island shithole..."
+    ],
+    "C7M3_saferoom017hBiker": [
+      "Damn right."
+    ],
+    "C7M3BridgeBreaksBiker": [
+      "Goddamn it, who broke the bridge?",
+      "Someone's gotta restart that generator.",
+      "Do you think that generator might restart itself?"
+    ],
+    "C7M3FinalPressManagerBiker": [
+      "I could have predicted that.",
+      "Louis is dead.",
+      "Louis little buddy, you did it!",
+      "Thanks Louis!"
+    ],
+    "C7M3FinalPressNamVetBiker": [
+      "Bill! It should have been Louis! It should have been Louis!",
+      "Bill did it!",
+      "Bill restarted the generator!",
+      "The bridge is going up!",
+      "Thanks Bill, I owe you one. You old bastard...",
+      "Bill, you did it, buddy! You really did it!"
+    ],
+    "C7M3FinalPressTeenGirlBiker": [
+      "Noooo! You monsters! Take Louis instead!",
+      "Not ZOEY!",
+      "SHIT ZOEY!",
+      "I hate this!"
+    ],
+    "C7M3GeneratorPress01Biker": [
+      "Let's start these generators.",
+      "We gotta start these generators."
+    ],
+    "C7M3GeneratorPress02Biker": [
+      "Everyone ready to start this one?"
+    ],
+    "C7M3GeneratorPress03Biker": [
+      "I hate these stupid generators.",
+      "Last generator."
+    ],
+    "C7M3PlayerGetToRescueVehicleBiker": [
+      "All aboard! The bridge",
+      "Everyone to the bridge!",
+      "Get to the bridge!"
+    ],
+    "C7M3SafeRoomIdleBiker": [
+      "Bill, I just wanna make it clear - in front of everyone - that I am against the island plan.",
+      "Hey, um... Louis... did I ever mention how I feel about islands?"
+    ],
+    "C7M3SafeRoomStartBiker": [
+      "Blank"
+    ],
+    "C7M3WaveOverGen1Biker": [
+      "Okay, its done let's go!",
+      "Why are we still here? To the next generator!"
+    ],
+    "C7M3WaveOverGen2Biker": [
+      "You think that last generator is going to start itself?",
+      "One more!"
+    ],
+    "SurvivorSpottedAdrenalineBiker": [
+      "Look!",
+      "Check this out.",
+      "Look here.",
+      "What the hell is this?"
+    ],
+    "SurvivorSpottedAdrenalineAutoBiker": [
+      "Look!",
+      "Check this out.",
+      "Look here.",
+      "What the hell is this?"
+    ],
+    "SurvivorSpottedGrenadeLauncherBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedGrenadeLauncherAutoBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedUpPack_ExplosiveBiker": [
+      "Look!",
+      "Check this out.",
+      "Look here.",
+      "What the hell is this?"
+    ],
+    "SurvivorSpottedUpPack_ExplosiveAutoBiker": [
+      "Look!",
+      "Check this out.",
+      "Look here.",
+      "What the hell is this?"
+    ],
+    "SurvivorSpottedUpPack_IncendiaryBiker": [
+      "Look!",
+      "Check this out.",
+      "Look here.",
+      "What the hell is this?"
+    ],
+    "SurvivorSpottedUpPack_IncendiAutoBiker": [
+      "Look!",
+      "Check this out.",
+      "Look here.",
+      "What the hell is this?"
+    ],
+    "SurvivorSpottedVomitJarBiker": [
+      "Look!",
+      "Check this out.",
+      "Look here.",
+      "What the hell is this?"
+    ],
+    "SurvivorSpottedVomitJarAutoBiker": [
+      "Look!",
+      "Check this out.",
+      "Look here.",
+      "What the hell is this?"
+    ],
+    "PlayerToTheRescueRosBiker": [
+      "Hang on, I'm on my way!",
+      "I'm coming!",
+      "Hang in there buddy, I'm comin.",
+      "I'm coming for ya!",
+      "Hang on I'm coming!",
+      "Hang in there, I'm comin!",
+      "Hang on, hang on, I'm comin!",
+      "I heard ya, I'm comin'!"
+    ],
+    "SurvivorTauntResponseBiker": [
+      "All right.",
+      "Aw riiiight.",
+      "Awesome.",
+      "Goddamn right!",
+      "Hell yeah!",
+      "That's right!",
+      "HELL YEAH!",
+      "OH YEAH!",
+      "Oh yeah!",
+      "[Loud, evil laugh]",
+      "YEAH! YEAH!",
+      "Damn straight!"
+    ],
+    "PlayerRemarkc7m1_bricktopBiker": [
+      "On top the bricks."
+    ],
+    "PlayerRemarkc7m1_pastbricksBiker": [
+      "Past the bricks."
+    ],
+    "PlayerRemarkc7m1_pretankBiker": [
+      "Do we really want to open that door? Please say no.",
+      "Hey, Bill, I think there's a sailboat in the train.",
+      "Okay. So, I'm not opening the door. You guys work it out and let me know when the door's open.",
+      "Hey Louis, I don't think it's a tank in there.  It sounds like a puppy.  You should stand closer.",
+      "Louis, you gonna open that door or what?"
+    ],
+    "PlayerRemarkc7m1_tankcarBiker": [
+      "Hey, Bill. Your sailboat smells like shit.",
+      "God. Smells like Bill's beard in here"
+    ],
+    "PlayerRemarkc7m2_climbupcrapBiker": [
+      "We can get back up over here!",
+      "Up that fence!"
+    ],
+    "PlayerRemarkc7m2_gravelhillBiker": [
+      "Nesting birds, Bill! Watch your beard?",
+      "Get up this pile of crap!",
+      "Anyone wanna guess what I'm hatin' right now?"
+    ],
+    "PlayerRemarkc7m2_listingtugBiker": [
+      "Hey, here's a boat."
+    ],
+    "PlayerRemarkc7m2_overboatBiker": [
+      "Over the ship!"
+    ],
+    "PlayerRemarkc7m2_seebargeBiker": [
+      "Yo, Captain Bill, can we take this ship?"
+    ],
+    "PlayerRemarkc7m2_throughhereBiker": [
+      "Through here!"
+    ],
+    "PlayerRemarkc7m3_seesailboatBiker": [
+      "That boat'll do. We better lift the bridge so we can head out.",
+      "There's your sailboat Bill, by the bridge.",
+      "Bill, is that a sailboat by the bridge?  WHY YES IT IS!",
+      "We're gonna need to raise that bridge."
+    ],
+    "PlayerRemarkinfo_carboatBiker": [
+      "I think this car will float."
+    ],
+    "PlayerRemarkinfo_carnotboatBiker": [
+      "Boat! Hop in, let's get outta here!"
+    ],
+    "PlayerRemarkInfo_powerboatBiker": [
+      "Found one.",
+      "There's a boat.",
+      "How about this boat?",
+      "Hey, there's a boat.",
+      "That boat?",
+      "BOAT!"
+    ],
+    "PlayerRemarkInfo_powerboat2Biker": [
+      "Found one.",
+      "There's a boat.",
+      "How about this boat?",
+      "Hey, there's a boat.",
+      "That boat?",
+      "BOAT!"
+    ],
+    "PlayerRemarkinfo_powerboat3Biker": [
+      "Found one.",
+      "There's a boat.",
+      "How about this boat?",
+      "Hey, there's a boat.",
+      "That boat?",
+      "BOAT!"
+    ],
+    "PlayerRemarkinfo_powerboat4Biker": [
+      "There's a boat.",
+      "Will that boat work?"
+    ],
+    "PlayerRemarkinfo_sunkboatthereBiker": [
+      "Bill, there's a boat."
+    ],
+    "PlayerRemarkinfo_trailerboatBiker": [
+      "Look Bill, this boat has wheels."
+    ],
+    "PlayerRemarkinfo_trailerboatruckBiker": [
+      "What about this one? It comes with a truck!"
+    ],
+    "PlayerYellRunBiker": [
+      "RUN!",
+      "HOLY SHIT! Run!",
+      "LET'S BEAT IT!",
+      "SHIT! Run!",
+      "Get the lead out!",
+      "Haul Ass!"
+    ],
+    "GrabbingGasSCBiker": [
+      "Got it!"
+    ],
+    "PlayerShotGasCanBiker": [
+      "Shit",
+      "Damnit.",
+      "Ah shit.",
+      "Ah bullshit.",
+      "Dammit.",
+      "Bullshit."
+    ],
+    "ScavengeStartBiker": [
+      "Let's get moving.",
+      "Let's move.",
+      "Time to go, ladies.",
+      "Come on, let's go."
+    ],
+    "FinaleAheadc7m3Biker": [
+      "Let's go kill somethin'!",
+      "Let's go, let's go!",
+      "Let's go.",
+      "I'm tired of waitin' around here. Come on, let's go.",
+      "Come on, let's go."
+    ],
+    "Player.C7M2CrowsFlyBiker": [
+      "Shut up, you stupid birds.",
+      "Nice rockpile, birds! Ha ha, hold on, do you hear a zombie?",
+      "Into the chute."
+    ],
+    "Player.C7M3BridgeLeapBiker": [
+      "Jesus, I'm brave.",
+      "Guess I better save everybody.",
+      "I hate suicide missions.",
+      "Stay there! God damn it, I don't wanna die",
+      "Stay there! Oh my god, I'm an idiot",
+      "Stay there! Oh god, it shoulda been Louis.",
+      "Nobody try to help me! Unless you want!",
+      "Don't try to talk me out of this! Anyone?",
+      "Don't move! I have a plan!"
+    ],
+    "SurvivorPickupAdrenalineBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupAdrenalineAlwaysBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupbaseball_batBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupchainsawBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupcricket_batBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupCricketBatBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupCrowBarBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupelectric_guitarBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupFireAxeBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupFryingPanBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupGrenadeLauncherBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupIncendiaryAmmoBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupKatanaBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupLaserSightsAlwaysBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupMacheteBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupMagnumBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupMagnumAlwaysBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickuptonfaBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupUpExplosiveAmmoBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupUpExplosivesBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupUpIncendiaryBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupUpIncendiaryAmmoBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupVomitJarBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "SurvivorPickupVomitJarAlwaysBiker": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Yes.",
+      "Yeah."
+    ],
+    "InfoReminfo_powerboat4aBiker": [
+      "Quiet Zoey."
+    ],
+    "PlayerLostCallBiker": [
+      "Hello",
+      "Is anyone there?",
+      "Marco!",
+      "Hello? Where dija go?"
+    ],
+    "SurvivorSpottedChainsawBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedChainsawAutoBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedcricket_batBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedcricket_batAutoBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedcrowbarBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedcrowbarAutoBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedGuitarBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedGuitarAutoBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedKatanaBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedKatanaAutoBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedLaserSightsBiker": [
+      "Look!",
+      "Check this out.",
+      "Look here.",
+      "What the hell is this?"
+    ],
+    "SurvivorSpottedLaserSightsAutoBiker": [
+      "Look!",
+      "Check this out.",
+      "Look here.",
+      "What the hell is this?"
+    ],
+    "SurvivorSpottedMacheteBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedMacheteAutoBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedMagnumBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedMagnumAutoBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedtonfaBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedtonfaAutoBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ]
+  }
+}

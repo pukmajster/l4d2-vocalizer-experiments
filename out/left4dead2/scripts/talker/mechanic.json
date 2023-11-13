@@ -1,0 +1,4028 @@
+{
+  "Coach": {},
+  "Mechanic": {
+    "C1M1InSmokeMechanic": [
+      "[Coughing from smoke]"
+    ],
+    "C1M3AlarmOffMechanic": [
+      "I Got it!"
+    ],
+    "C1M3BrokeWindowMechanic": [
+      "We have to turn that alarm off!",
+      "Somebody turn off the alarm!"
+    ],
+    "C1M3DoorAlarmMechanic": [
+      "We have to turn that alarm off!",
+      "Somebody turn off the alarm!"
+    ],
+    "C1M3SafeRoomMechanic": [
+      "Blank"
+    ],
+    "C1M4SafeRoomMechanic": [
+      "Blank"
+    ],
+    "C4M3Saferoom001Mechanic": [
+      "Everybody got a can?"
+    ],
+    "PlayerNiceShotMechanic": [
+      "Well, Nice.",
+      "Nice shot.",
+      "Cool.",
+      "Yeah, nice!",
+      "Good shootin', Tex!",
+      "Nice.",
+      "Goddamn your good.",
+      "Hey good shootin'!"
+    ],
+    "PlayerNiceShotCoachMechanic": [
+      "You nailed it coach!",
+      "Nice shot, coach! Nailed it."
+    ],
+    "PlayerNiceShotGamblerMechanic": [
+      "Whoa, Nick! Well... why doesn't it surpise me you're good with a gun?"
+    ],
+    "PlayerNiceShotProducerMechanic": [
+      "Well, goddamn Annie Oakley."
+    ],
+    "SurvivorMournCoachMechanic": [
+      "Ah man Coach.",
+      "Well, Coach, thanks for all you done, man.",
+      "Goodbye Coach.",
+      "You were a hell of a man, Coach.",
+      "Thanks Coach."
+    ],
+    "SurvivorMournCoachC1Mechanic": [
+      "Man, I was hoping me and coach were gonna be friends."
+    ],
+    "SurvivorMournGamblerMechanic": [
+      "Ahh Nick.",
+      "Nick, you were cool.",
+      "Miss ya, brother.",
+      "Damn, Nick. We was just gettin' to be friends."
+    ],
+    "SurvivorMournGamblerC1Mechanic": [
+      "Bet he didn't think he'd die before me."
+    ],
+    "SurvivorMournProducerMechanic": [
+      "Be good Rochelle.",
+      "Ro, I'm gonna miss ya.",
+      "I'll remember you in my prayers Ro.",
+      "Hell of a girl, Ro."
+    ],
+    "SurvivorMournProducerC1Mechanic": [
+      "She was the last one I wanted to see go."
+    ],
+    "_C1M1_ElevatorHello01Mechanic": [
+      "Holy shit! This is some kind of nightmare. Goddamn Zombie Apocalypse and shit. Shit, shit, shit. What in the hell are we going to do?"
+    ],
+    "C1M1_ElevatorHello01_02CMechanic": [
+      "Oh shit man, I ain't ever seen anyone die before."
+    ],
+    "C1M1_ElevatorHello01_02PCMechanic": [
+      "We gotta watch each other's backs. My name's Ellis, you?"
+    ],
+    "C3M1FerryInTransitMechanic": [
+      "Dang, man, I sure wish that boat would hurry.",
+      "That is the slowest boat ever, man!",
+      "Is that boat ever gonna come?",
+      "Okay, that is the slowest damn pontoon boat, ever!",
+      "That is the slowest damn boat!"
+    ],
+    "Playerc1m1_enter_elevatorMechanic": [
+      "This elevator's still workin!",
+      "Thank the lord, this one's still workin.",
+      "Hey, everybody, in the elevator!"
+    ],
+    "PlayerC1M2AlarmDoor2Mechanic": [
+      "Let's  go!",
+      "Go go go!",
+      "Get ready!",
+      "Y'all get ready!",
+      "Hey, grab that cola!"
+    ],
+    "PlayerC1M2GrabbingCola2Mechanic": [
+      "Alright, man, I got that dudes cola! Let's go! Let's go! Let's go!",
+      "Hey I got the cola!",
+      "Grabbin' cola!"
+    ],
+    "PlayerC1M2GunRoomDoorResponseMechanic": [
+      "I can understand that, man needs his snacks. Man this guy's weird.",
+      "So we get you some snacks and you clear the way? Shit, that sound fair.",
+      "Cola for guns, I think this is like the reverse of what my school did."
+    ],
+    "PlayerC1M2InsideGunShop2Mechanic": [
+      "This is cool.",
+      "Aw, man, this is gonna be cool."
+    ],
+    "PlayerC3M1CallFerry2Mechanic": [
+      "I'll call it.",
+      "Alright, the boat's coming!",
+      "Hey, boat's coming!"
+    ],
+    "PlayerC3M1FerryLanded2Mechanic": [
+      "Pontoon boat's here!",
+      "Boat's here!",
+      "Let's get on the boat!",
+      "Let's go! boat's leaving!",
+      "Let's go! Let's GO!",
+      "What we waitin' for? Let's go!",
+      "Let's go! Everybody on the boat!",
+      "Here we go! Everybody on the boat!"
+    ],
+    "PlayerC3M1FerryLaunched2aMechanic": [
+      "Blank"
+    ],
+    "PlayerC3M2ComingHomeMechanic": [
+      "They could have held out!",
+      "Hey Y'all!",
+      "Anyone home?!",
+      "Hello?!",
+      "Hey, anybody there?!",
+      "Hello! Anyone there?!",
+      "Hello! Anyone here?!"
+    ],
+    "PlayerC3M2OpenDoor2Mechanic": [
+      "All hell, I'm opening it.",
+      "Alright, get ready y'all, I'm openin' the door!"
+    ],
+    "PlayerC3M2PlaneDoorOpenMechanic": [
+      "All hell, I'm opening it.",
+      "Alright, get ready y'all, I'm openin' the door!"
+    ],
+    "Playerc5m4floatendMechanic": [
+      "Hey, we can get across now."
+    ],
+    "Playerc5m4floatstart2Mechanic": [
+      "Hit it!",
+      "I'll hit it.  Get ready.",
+      "All right, I'm hittin' it."
+    ],
+    "PlayerPlayerUsingColaBottlesMechanic": [
+      "Blank"
+    ],
+    "PlayerRelaxedSighMechanic": [
+      "Oooh yeah.",
+      "Much, much better now.",
+      "Oooh, yeah. Oh yeah, oh yeah.",
+      "Oh yeah, oh yeah.",
+      "That fixed me up good."
+    ],
+    "PlayerStayTogetherInsideReponseMechanic": [
+      "Sorry, I can't go any faster.",
+      "I'm goin' as fast as I can."
+    ],
+    "PlayerUseAdrenalineMechanic": [
+      "[shaking self awake]"
+    ],
+    "PlayerWorldC3M1FeedGator2Mechanic": [
+      "I had no plans on feeding the gators."
+    ],
+    "PlayerWorldC3M1FerryCrossingA01Mechanic": [
+      "Oh yeah, I know plenty about swarmps. Tthey're full of bugs and gators and snakes and well zombies now!"
+    ],
+    "PlayerWorldC3M1FerryCrossingB01Mechanic": [
+      "Oh this here?  That says I'm a bad ass zombie killing machine"
+    ],
+    "PlayerWorldC3M1FerryCrossingD03Mechanic": [
+      "The way were shootin'?  Each other."
+    ],
+    "PlayerWorldC3M1FerryCrossingE02Mechanic": [
+      "Duh?  Farmers that don't grow crops, they grow people.  To eat."
+    ],
+    "PlayerWorldC3M1FerryCrossingE04Mechanic": [
+      "Yeah, well, you'll be real sorry if we run into them."
+    ],
+    "PlayerWorldC3M1FerryCrossingG02Mechanic": [
+      "Alright, alright, kinda hopin' you wouldn't get all bibical on me.",
+      "Okayt, kinda hopin' you weren't gonna get all fire and brimstone on me.",
+      "Yeah? I'm walking through that valley kickin' some ass.",
+      "Yeah? I'm walking through that valley kickin' ass."
+    ],
+    "PlayerWorldC3M1FerryCrossingI02Mechanic": [
+      "Oh yeah, when I had first holy communion in the 2nd grade.",
+      "Oh yeah, when I had first holy communion in the 2nd grade.  I don't think it fits anymore."
+    ],
+    "PlayerWorldIntroC31Mechanic": [
+      "Nick, what the hell you shot the pilot!"
+    ],
+    "ThanksGotItemMechanic": [
+      "Hey thanks, man!",
+      "I owe you one.",
+      "Hey, thanks a lot.",
+      "Thanks man."
+    ],
+    "ReviveThanksMechanic": [
+      "Much obliged",
+      "I owe you one.",
+      "Hey, thanks a lot."
+    ],
+    "ReviveThanksCoachMechanic": [
+      "Much obliged",
+      "I owe you one.",
+      "Thanks man."
+    ],
+    "ReviveThanksGamblerMechanic": [
+      "Much obliged",
+      "I owe you one.",
+      "Thanks man."
+    ],
+    "ReviveThanksProducerMechanic": [
+      "Thank you kindly, ma'm.",
+      "Hey, thanks a lot."
+    ],
+    "AutoYouAreWelcomeMechanic": [
+      "You're welcome.",
+      "Yeah, you're welcome.",
+      "We're cool.",
+      "We're good.",
+      "Anytime, man.",
+      "Hey, you bet!",
+      "Always.",
+      "You got it, man.",
+      "You got it, girl."
+    ],
+    "BotPlayer.YourWelcomeMechanic": [
+      "You're welcome.",
+      "Yeah, you're welcome.",
+      "We're cool.",
+      "We're good.",
+      "Anytime, man.",
+      "Hey, you bet!",
+      "Always.",
+      "You got it, man.",
+      "You got it, girl."
+    ],
+    "BotReassureComingMechanic": [
+      "Yes.",
+      "Hell yeah.",
+      "Yep.",
+      "Okay.",
+      "Yeah.",
+      "Sure.",
+      "Yeah, let's do it.",
+      "Alright.",
+      "I'm game."
+    ],
+    "BotReassureNearbyMechanic": [
+      "Sure, I'm with ya.",
+      "Yeah, let's do this.",
+      "Yeah, let's go.",
+      "Hell yeah, I'm with ya."
+    ],
+    "BotYesReadyMechanic": [
+      "Yes.",
+      "Hell yeah.",
+      "Yep.",
+      "Okay.",
+      "Yeah.",
+      "Sure.",
+      "Yeah, let's do it.",
+      "Alright.",
+      "I'm game."
+    ],
+    "C1M2_GoodLuck01Mechanic": [
+      "God be with you too sir."
+    ],
+    "C1M2LeavingSafeRoomMechanic": [
+      "Y'all ready?"
+    ],
+    "C1M2SafeRoomMechanic": [
+      "Blank"
+    ],
+    "C1M2SafeRooma2Mechanic": [
+      "Heh heh. Zombie apocalypse ain't all bad."
+    ],
+    "C1M2SafeRoomc1Mechanic": [
+      "Man, Savannah's awesome. C'mon, I'll show you the sights on the way to the mall!"
+    ],
+    "C1M2TankerAttackMechanic": [
+      "Barrier's down! Let's get outta here.",
+      "Woohoo! There she goes! Let's get outta here.",
+      "Now, that is how you clear a path."
+    ],
+    "c1m4escapeMechanic": [
+      "Let's go! I'm driving! WOOO!",
+      "Woooohoooo!",
+      "Next stop: New Orleans!",
+      "Buckle up, folks! I aim to see what this car can DO!",
+      "Here we go folks! Buckle up, I aim to see what this car can DO!"
+    ],
+    "C1M4GasPourMechanic": [
+      "Come comeoncomeoncomeon...",
+      "Please get in the tank, please please please...",
+      "C'mon, hurrrry up up up up up...",
+      "Man I feel like I'm gassin' up royalty.",
+      "This is... such an honor.",
+      "Man, never in my wildest dreams did I think I'd be gassin' up Jimmy Gibb's car.",
+      "I'll be drivin' you REALLLL soon, girl.",
+      "I can't wait to get behind your wheel, darlin'.",
+      "Come onnnn, come onnnnnn...Fill it up here!"
+    ],
+    "C1M4PlayerGetToRescueVehicleMechanic": [
+      "Let's go, let's go!",
+      "Let's go! Let's GO!"
+    ],
+    "c1m4startelevatorMechanic": [
+      "blank"
+    ],
+    "FinaleStartC1M4Mechanic": [
+      "Go! Go! Go! Find some gas!",
+      "Grab a gas can and fill 'er up!",
+      "Find a gas can!",
+      "Let's go! Let'sget this car gassed up!",
+      "Let'sget this car gassed up!",
+      "Jimmy Gibbs Jr. I will do this for you."
+    ],
+    "GasPourDoneC1M4Mechanic": [
+      "We're all filled up, let's go!",
+      "Let's get outta here!",
+      "Everybody get in the damn car!",
+      "Get in the car! We're ready!",
+      "Come on, let's GO!"
+    ],
+    "C2M2CarouselIdleMechanic": [
+      "Hey, turn it off! Turn it off!",
+      "Turn that damn thing off!"
+    ],
+    "C2M2TunnelIdleMechanic": [
+      "Everybody into the tunnel of love!"
+    ],
+    "C2M3RubbleNagIdleMechanic": [
+      "Start it up.",
+      "Let's start it up!"
+    ],
+    "C2M2Saferoom001Mechanic": [
+      "Hey, check it out man! That's theThe Midnight Riders!"
+    ],
+    "C2M1Intro_400Mechanic": [
+      "Man. This was the best day of my life.",
+      "Well, this is it. Let's not make it harder than it needs to be.",
+      "Well, this isn't the way I saw it, but I'm sorry I'm gonna have to leave you here.",
+      "You did good."
+    ],
+    "C2M1Intro_401Mechanic": [
+      "You are the most beautiful thing I have ever sat between."
+    ],
+    "C2M1Intro_402Mechanic": [
+      "I love you."
+    ],
+    "C2M1Intro_403Mechanic": [
+      "You did good."
+    ],
+    "C2M1Intro_404Mechanic": [
+      "Thank you."
+    ],
+    "C2M1Intro_405Mechanic": [
+      "We had a good time.",
+      "You did good."
+    ],
+    "C2M1Intro_406Mechanic": [
+      "Thank you."
+    ],
+    "C2M1Intro_407Mechanic": [
+      "Thank you. We couldn't have done it without you."
+    ],
+    "C2M1Intro_408Mechanic": [
+      "You did good."
+    ],
+    "c2m3CoasterEndMechanic": [
+      "Alarm's off!",
+      "It's off!",
+      "OFF!"
+    ],
+    "C2M3CoasterRunMMechanic": [
+      "Oh, shit, man, run!",
+      "Oh, shit, run, man, run!"
+    ],
+    "C2M3CoasterStartMechanic": [
+      "I'm starting it!"
+    ],
+    "C2M3SafeIntro075Mechanic": [
+      "I never once thought a merry-go-round would turn on me."
+    ],
+    "C2M3SafeIntro076Mechanic": [
+      "I mean, what is this world coming to when you dread a merry-go-round?"
+    ],
+    "c2m3SeeChopperMechanic": [
+      "It's a helicopter!",
+      "A chopper!"
+    ],
+    "c2m3SpotIncendiaryMechanic": [
+      "Incendiary ammo of love here!"
+    ],
+    "c2m3SpotKatanaMechanic": [
+      "Katana sword of love here!"
+    ],
+    "PlayerRemarkc2m3_saferoomaMechanic": [
+      "Blank"
+    ],
+    "C2M4_saferoom02Mechanic": [
+      "Oh come on now, that was fun."
+    ],
+    "c2m4_saferoominitMechanic": [
+      "Blank"
+    ],
+    "C2M4ButtonPressedMechanic": [
+      "I Got it!",
+      "I'm opening it!"
+    ],
+    "C2M4Chopper001Mechanic": [
+      "Hey, we need to signal that chopper."
+    ],
+    "C2M4GateIdle1Mechanic": [
+      "We gotta open this gate."
+    ],
+    "C2M4GateIdle2Mechanic": [
+      "Press the button!",
+      "Let's go, push the button! Push the button!"
+    ],
+    "C2M4Saferoom001Mechanic": [
+      "Nick remember when we ran on that roller coaster?"
+    ],
+    "c2m4SeeChopperMechanic": [
+      "Hey, we need to signal that chopper."
+    ],
+    "C2M5_Button2YellMechanic": [
+      "Turn it up! Turn it WAYY UP!",
+      "I love this song!",
+      "It's like we're roadies for the Midnight Riders!",
+      "This song is AWESOME!",
+      "We need crank this shit up, baby!",
+      "ROCK 'N' ROLL!!"
+    ],
+    "C2M5_ChoppercomingMechanic": [
+      "The chopper saw us!"
+    ],
+    "c2m5_intro003Mechanic": [
+      "So we gotta setup to rock, then fight zombies?"
+    ],
+    "c2m5_intro005Mechanic": [
+      "Coach, I hate to break it to you, but I don't think they're actually HERE."
+    ],
+    "c2m5_intro008Mechanic": [
+      "So we gotta setup to rock, then fight zombies?",
+      "Coach, you are a brilliant man."
+    ],
+    "c2m5_intro009Mechanic": [
+      "What next? Dinosaurs flying down from the sky and shooting lasers out of their eyes?",
+      "This is the best day of my life!"
+    ],
+    "c2m5_intro011Mechanic": [
+      "I'm in. Let's rock and roll."
+    ],
+    "c2m5_intro015Mechanic": [
+      "I'm in. This arena's about to get rocked."
+    ],
+    "c2m5_intro019Mechanic": [
+      "And that'll signal the chopper pilot! This is gonna be like the FOURTH time the Midnight Riders have saved my life."
+    ],
+    "c2m5_intro024Mechanic": [
+      "I was born ready. So... yes.",
+      "I always wanted to run to a helicopter during a guitar solo. Just like in a music video."
+    ],
+    "c2m5_intro029Mechanic": [
+      "So we gotta setup to rock, then fight zombies?"
+    ],
+    "C2M5_PlanWorkedMechanic": [
+      "See? The Midnight Riders' music saves lives!"
+    ],
+    "c2m5_saferoominitMechanic": [
+      "Blank"
+    ],
+    "C2M5Button1Mechanic": [
+      "Lights!"
+    ],
+    "C2M5ChopperNagMechanic": [
+      "Let's go! Get to the chopper!",
+      "Everybody get to the chopper!",
+      "Let's go, guys! Get to the chopper!",
+      "Chopper's leaving, let's go! Let's go!",
+      "Let's go, let's go! Chopper's here!"
+    ],
+    "C2M5InArenaNagMechanic": [
+      "Hit the lights!",
+      "Turn on the lights!"
+    ],
+    "C2M5SingingMechanic": [
+      "Check one...",
+      "Check one two...",
+      "[singing] ...Gotta reach for the top, stay on that mountainnnn...",
+      "[singing] ...Every lady's crazy when her daddy's not around..."
+    ],
+    "C2M5ThankYouMechanic": [
+      "Thank you, Whispering Oaks and goodnight! You've been a GREAT AUDIENCE!"
+    ],
+    "C2M5WeAreRocking##Name##": [
+      "We are kings of the world!",
+      "We are a right damn good team!",
+      "I ain't no god damn son of a bitch, yeah ya better think about that baby."
+    ],
+    "C3M1FerryEnd2Mechanic": [
+      "Let's  go!",
+      "Let's roll.",
+      "Hey man, we should get goin'."
+    ],
+    "WorldC3M1FerryCrossingJMechanic": [
+      "Hey, guys. Be honest. Are my muscles gettin' bigger?"
+    ],
+    "WorldC3M1FerryCrossingJ3Mechanic": [
+      "I knew it. All this runnin' around climbin' up on stuff's makin' me buff as hell."
+    ],
+    "WorldC3M1FerryCrossingkMechanic": [
+      "Y'all ask me? These swamp people got it all figured out, man. No cops, no rules..."
+    ],
+    "WorldC3M1FerryCrossingk3Mechanic": [
+      "They figured out how to stop going to the bathroom? That's AMAZING. Ohhhh. No, wait, I just got it. Shit, that's gross as hell."
+    ],
+    "C3M2DisgustMechanic": [
+      "Ain't that a load of shit."
+    ],
+    "C3M2SafeRooma2Mechanic": [
+      "You know what you can do? You could try to cover yourself in mud...   we're definitely not short on that.",
+      "Ooh - you could try covering yourself in mud..."
+    ],
+    "C3M2SafeRoomb3Mechanic": [
+      "Nick does have a point."
+    ],
+    "InfoRemc3m2_parachutist1Mechanic": [
+      "Why would he parachute out here?"
+    ],
+    "InfoRemC3M2Bathtub2Mechanic": [
+      "Have you smelled yourself recently?"
+    ],
+    "C3M3SafeRoom2Mechanic": [
+      "Shit, man. They didn't make it.",
+      "Zombies got here too.",
+      "Hey, is there a way out of the village?"
+    ],
+    "C3M3SafeRoom2a2Mechanic": [
+      "Man, I don't think we're ever gonna get good news again."
+    ],
+    "C3M3SafeRoom2c3Mechanic": [
+      "No sense hanging out here."
+    ],
+    "C3M3SafeRoom2d2Mechanic": [
+      "Looks like they all headed off to a plantation."
+    ],
+    "InfoRemC3M3Bodies2Mechanic": [
+      "So they just killed them?"
+    ],
+    "InfoRemC3M3LowerGateaMechanic": [
+      "Yeah, just hit that lever.",
+      "Somebody hit the lever.",
+      "Lower the bridge.",
+      "Hey, lower that bridge.",
+      "Hit it!"
+    ],
+    "InfoRemC3M3Unsanitarya1Mechanic": [
+      "Is that what that is? Smelled like a raccoon died an abandoned refrigerator.",
+      "[sniffs] Smells like dead zombies to me. I got no quarrels with that smell."
+    ],
+    "C3M4BoatNagsMechanic": [
+      "GET TO THE BOAT!",
+      "Y'ALL GET TO THE BOAT!"
+    ],
+    "C3M4Button1Mechanic": [
+      "Howdy"
+    ],
+    "C3M4Button104EllisMechanic": [
+      "Okay, this guys askin' alot of questions, does somebody else wanta take this?"
+    ],
+    "C3M4Button201Mechanic": [
+      "We're at a plantation house."
+    ],
+    "C4StormBlindIdleMechanic": [
+      "I can't see a damn thing."
+    ],
+    "C4M2IdleWitchville01Mechanic": [
+      "Man, that is the most witches I ever saw!",
+      "Holy shit that's a lotta witches."
+    ],
+    "C4M2IdleWitchville02Mechanic": [
+      "Nick, you ever seen this many witches? Ho-lee shit."
+    ],
+    "C4M2PushedButtonMechanic": [
+      "I hit it!"
+    ],
+    "C4M5BoatNagsMechanic": [
+      "Let's go! Everybody on the boat!",
+      "Here we go! Everybody on the boat!",
+      "Hey, run to the boat! Run to the boat!",
+      "Hey, quit fighting and get on the boat!",
+      "GET TO THE BOAT!",
+      "Y'ALL GET TO THE BOAT!"
+    ],
+    "C5M1_intro002Mechanic": [
+      "Thanks, brother!"
+    ],
+    "C5M2AlarmNagMechanic": [
+      "Run!",
+      "Hey, turn it off! Turn it off!",
+      "Shit, run, man!",
+      "RUN!",
+      "RUN! RUN! RUN!",
+      "MAN, DON'T STOP RUNNING!"
+    ],
+    "PlayerRemarkWorldC502HorseMechanic": [
+      "Man, I wish we had a horse.  I love horses.",
+      "I wish we had a horse.  I loooove horses.",
+      "[pointing] Horse!"
+    ],
+    "PlayerRemarkWorldC502Horse3Mechanic": [
+      "Who ain't right in the head now? (You ever eat horse?  Tasty. )",
+      "Horses are for ridin' not eatin', Nick."
+    ],
+    "C5M3AlarmFieldNagsMechanic": [
+      "Careful where ya' walking.",
+      "Shit! You guys ever seen something like this?",
+      "I tell ya what would be real bad right now?  A tank.",
+      "All these alarm cars, it's like a puzzle!",
+      "Maybe we ought not to use our guns here."
+    ],
+    "C5M3AlarmFieldNags01Mechanic": [
+      "It's cool to see new shit."
+    ],
+    "C5M3AlarmFieldNags03Mechanic": [
+      "We'll see that was just uncalled for.  Seriously. (Your mom's car. )",
+      "Yeah, very funny."
+    ],
+    "C5M3AlarmFieldNags2Mechanic": [
+      "Hey Nick, what kind of car did you drive?"
+    ],
+    "C5M3Bodies01Mechanic": [
+      "Man, this is givin' me the creeps more than them zombies."
+    ],
+    "C5M3Bodies02Mechanic": [
+      "People shootin' people, that shit ain't right, man."
+    ],
+    "C5M3FirstInAlarmMechanic": [
+      "Shit.  They all got alarms.",
+      "Man, look at all these cars!"
+    ],
+    "C5M3GraveNagsMechanic": [
+      "Hey Nick, I don't like the way how this smells.",
+      "Do you know why they bury them above ground?"
+    ],
+    "C5M3GraveNags01Mechanic": [
+      "They bury them like this cause they're under sea level."
+    ],
+    "C5M3Jets2Mechanic": [
+      "Well shit, guess we ain't goin' that way.",
+      "Woah! That was cool and all but shit!"
+    ],
+    "C5M3OnBridgeMechanic": [
+      "We're gonna make it out of here!"
+    ],
+    "C5M3SeeGraveyard01Mechanic": [
+      "I guess we're gonna have to visit that graveyard."
+    ],
+    "C5M3SeeGraveyard03Mechanic": [
+      "It's a little city of graves.",
+      "Man, If these were real zombies going into this graveyard would be like death.",
+      "Oh man, I hope we don't see no ghosts."
+    ],
+    "C5M3SeeGraveyard06Mechanic": [
+      "You can't shoot a ghost, Nick. I mean, shit, it ain't rocket science, man."
+    ],
+    "C5M3ShootCarMechanic": [
+      "Oh SHIT!",
+      "That's bullshit!",
+      "Hey, I swear that wasn't me!"
+    ],
+    "C5M3ShootCar2Mechanic": [
+      "STOP SHOOTING THE CARS!"
+    ],
+    "C5M3ShootCar3Mechanic": [
+      "WELL ALRIGHT, I CAN SHOOT A CAR TOO!"
+    ],
+    "PlayerRemarkc5m3bodiesMechanic": [
+      "Ain't none of the bodes zombies."
+    ],
+    "PlayerRemarkc5m3crashedheliMechanic": [
+      "Man, look at that helicopter."
+    ],
+    "PlayerRemarkc5m3insewerMechanic": [
+      "Blank"
+    ],
+    "PlayerRemarkc5m3seegraveyardMechanic": [
+      "I guess we're gonna have to visit that graveyard."
+    ],
+    "PlayerRemarkc5m3seesaferoomMechanic": [
+      "Safe house ahead!",
+      "Yeah, safehouse y'all!"
+    ],
+    "PlayerRemarkc5m3upladderMechanic": [
+      "Up this ladder!",
+      "Everybody up the ladder!"
+    ],
+    "PlayerRemarkc5m3upstepsMechanic": [
+      "Stairs!"
+    ],
+    "C5M4BombInt01Mechanic": [
+      "Woah!"
+    ],
+    "C5M4BombInt02Mechanic": [
+      "They nailed that.",
+      "What are they even aiming at?",
+      "We need to get the hell out of here.",
+      "They must not see us."
+    ],
+    "C5M4BombInt03Mechanic": [
+      "HEY, STOP WITH THE BOMBING!",
+      "PLEASE DO NOT BOMB US!"
+    ],
+    "c5m4floatendMechanic": [
+      "Hey, we can get across now."
+    ],
+    "C5M4MadeIt01Mechanic": [
+      "We're gonna make it out of here!"
+    ],
+    "PlayerRemarkc5m4alleyMechanic": [
+      "Never been through so many back alley's in my life."
+    ],
+    "PlayerRemarkc5m4seebridgeMechanic": [
+      "There's the bridge!"
+    ],
+    "PlayerRemarkc5m4seesaferoomMechanic": [
+      "Hey, we got a safe room ahead!",
+      "Hey, we got a safe room right ahead!"
+    ],
+    "PlayerRemarkc5m4tractornagMechanic": [
+      "We gotta start that there tractor!",
+      "Somebody start the tractor!"
+    ],
+    "C5M5_Button2Mechanic": [
+      "Blank"
+    ],
+    "C5M5_Button2099Mechanic": [
+      "They just said we oughta lower the bridge to get across to it.",
+      "Alright, he says we gotta lower the bridge, be careful of the zombies and they'll be waitin' on the other side."
+    ],
+    "C5M5_Button2100Mechanic": [
+      "Oh yeah, and he wishes us good luck."
+    ],
+    "C5M5_Button2200Mechanic": [
+      "Once we lower it we all gotta be careful because there's zombies on the bridge."
+    ],
+    "C5M5_Button2201Mechanic": [
+      "I guess he didn't know we been like  fighting zombies all through the city."
+    ],
+    "C5M5_Button2202Mechanic": [
+      "And the swamps."
+    ],
+    "C5M5_Button2203Mechanic": [
+      "And the river."
+    ],
+    "C5M5_Button2204Mechanic": [
+      "And shit.  Everywhere."
+    ],
+    "C5M5_Button2205Mechanic": [
+      "Man, we're like fightin' zombie machines and shit."
+    ],
+    "C5M5_saferoom002Mechanic": [
+      "I don't."
+    ],
+    "C5M5_SurvivorConv01Mechanic": [
+      "Name's Ellis, you?",
+      "Four people that could use some help sir.",
+      "Well shit, I'm Ellis. I got Rochelle here with me, Coach and Nick."
+    ],
+    "C5M5_SurvivorConv02Mechanic": [
+      "I ain't sick.",
+      "I'm feelin' pretty good.",
+      "I guess, I think so. What do you mean?"
+    ],
+    "C5M5_SurvivorConv03Mechanic": [
+      "We fought zombies, yeah.",
+      "Wll, hell yeah, we fought zombies.."
+    ],
+    "C5M5_SurvivorConv04Mechanic": [
+      "God be with you too sir."
+    ],
+    "C5M5_SurvivorConv05Mechanic": [
+      "Okay, see ya soon."
+    ],
+    "C5M5Button1Mechanic": [
+      "Hello there!"
+    ],
+    "C5M5HearSoldiersNagMechanic": [
+      "Yo, somebody oughta pick up the radio.",
+      "Grab that radio."
+    ],
+    "C5M5LeaveSafeMechanic": [
+      "Blank"
+    ],
+    "C5M5RescueStartMechanic": [
+      "Chopper down there!"
+    ],
+    "C5M5RunToHeliMechanic": [
+      "To the'copter!",
+      "Head to the helicopter!",
+      "Just get inside the helicopter, man!",
+      "Let's go! Get to the chopper!",
+      "Everybody get to the chopper!",
+      "Let's go, guys! Get to the chopper!",
+      "Chopper's leaving, let's go! Let's go!"
+    ],
+    "C5M5SafeRoomStartMechanic": [
+      "Blank"
+    ],
+    "ScenarioJoinLastMechanic": [
+      "Blank"
+    ],
+    "C1M2EllisStoryStartKMechanic": [
+      "My buddy Keith tried camping out on top of a building once. He was just shooting crows, but the police were too busy tear gassing him to ask what he was doing up there. He screamed for an entire YEAR every single time he opened his eyes."
+    ],
+    "C1M3EllisStoryStartAMechanic": [
+      "Man I love malls.  I do.  Once we were in a mall, up in Atlanta, and these guys were dancing for like money and stuff and my friend Dave was all like... okay."
+    ],
+    "C1M4EllisStoryStartBMechanic": [
+      "Jimmy Gibbs Jr is the man, I mean I don't know anyone like that.  But there's this guy I know, he raced dirt tracks, not stock cars but open wheeled cars you know, and he was racing once and a goat..."
+    ],
+    "C2M2EllisStoryStartCMechanic": [
+      "I knew this guy who was trying to set the world record on staying on a Ferris wheel.  He had been up there like 2 days or somethin' and he wanted some beer, but they weren't givin' him any so he got this rope, don't ask me where he got the rope from and"
+    ],
+    "C2M2EllisStoryStartQMechanic": [
+      "I ever tell you about the time me and Keith made a homemade bumper car ride with riding mowers in Keith's back yard? Mower blade wounds over 90% of his body. I didn't run him over, either, he somehow managed to fall under his own -"
+    ],
+    "C2M3EllisStoryStartMMechanic": [
+      "I ever tell you about the time my buddy Keith drowned in a tunnel of love? You wouldn't think it could happen cause the water's so shallow, but that's how it gets you: Over confidence."
+    ],
+    "C2M4EllisStoryStartPMechanic": [
+      "I ever tell you about the time me and Keith snuck paintball guns on a roller coaster? I never heard of nobody else doing it, so I think we might have invented a sport. Keith called the patent office but-"
+    ],
+    "C2M4EllisStoryStartVMechanic": [
+      "I ever tell you about the time my buddy Keith fell out of a roller coaster? He didn't drop far, mind you, just onto the tracks, but the carnival people wouldn't stop the ride cause all the other people'd paid good money,"
+    ],
+    "C2M5EllisStoryStartGMechanic": [
+      "I ever tell you about the time Keith and I made fireworks? Now, I didn't know shit about chemistry, but Keith figured,  \"Gasoline burns, don't it?\" Third degree burns on 95% percent of his body."
+    ],
+    "C3M2EllisStoryStartHMechanic": [
+      "I ever tell you about the time Keith tried to deep fry a turkey? Third degree burns over ninety percent of his body. His doctor called up, like, other doctors to look at him cause they'd never seen burns on top of existing burns-"
+    ],
+    "C3M3EllisStoryStartDMechanic": [
+      "All this mud reminds me of my friend Keith.  He was goin' to build a shack once, to live in and all, I know most of these here people build houses and they become shacks, but keith was about jumpin' right to the shack stage, but he had no wood."
+    ],
+    "C3M4EllisStoryStartLMechanic": [
+      "I ever tell you guys about the time my buddy Keith got rolled by a gator in a swamp? He didn't antagonize it or nothing, we were just trying to grab two so we could piss them off and get 'em to fight."
+    ],
+    "C4M2EllisStoryStartIMechanic": [
+      "I ever tell you about the time my buddy Keith drove his car off a cliff and broke both his legs? It's not a funny ha-ha story so much as a make you think story.  For instance: windshields look pretty durable, right? Not the case, according to Keith."
+    ],
+    "C4M3EllisStoryStartEMechanic": [
+      "I ain't ever been in a sugar cane field before, I mean I see 'em and all, but no real reason to go into one, but now you go into a peach grove, you can find all kinds of cool shit.  One time I was..."
+    ],
+    "C4M4EllisStoryStartUMechanic": [
+      "I ever tell you about the time my buddy Keith and I were on top of a burning building and we had to fight our way down like five floors of zombies? We-no wait, I guess that was you guys. Shit, wait'll I tell Keith about that one."
+    ],
+    "C5M2EllisStoryStartFMechanic": [
+      "Do you know what suck the heads means?  Because I came down here with Keith once and he didn't know and\u0085 It ain't nothin' bad.  It's about eatin'."
+    ],
+    "C5M3EllisStoryStartRMechanic": [
+      "I ever tell you about the time me and Keith filled up water balloons with own p-"
+    ],
+    "C5M3EllisStoryStartTMechanic": [
+      "I ever tell you about the time my buddy Keith fell down an open manhole? He was unconscious down there for a week, and during that time, unbeknownst to Keith, they paved over the hole. Keith had to-"
+    ],
+    "C5M4EllisStoryStartJMechanic": [
+      "My buddy Keith lived in a grave yard once, for a whole year. It wasn't on a dare or nothing, he just got kicked out of his house."
+    ],
+    "C5M5EllisStoryStartSMechanic": [
+      "One the time the army bombed my buddy Keith. He went camping and didn't bother reading the signs, and I guess they were testing bombs that day-all sorts of stuff too, not just regular bombs."
+    ],
+    "EllisStoryReac01Mechanic": [
+      "Okay."
+    ],
+    "EllisStoryReac01GoatMechanic": [
+      "okay but there was a goat."
+    ],
+    "SurvivorSpotFirstWeaponsMechanic": [
+      "Weapons up and let's go.",
+      "You best grab a weapon. I reckon you'll need 'em.",
+      "Everybody grab a weapon. It's better to have one and not need it than NEED one and not have it.",
+      "I ain't going back downstairs unarmed.",
+      "Don't know what's down there, but I'm grabbin' somethin' just in case.",
+      "Hey, we should all grab something.",
+      "hey, everybody grab somethin' I think we got some killin to do."
+    ],
+    "SurvivorSpottedAdrenalineMechanic": [
+      "Adrenaline shot here!"
+    ],
+    "SurvivorSpottedAdrenalineAutoMechanic": [
+      "Adrenaline shot here!"
+    ],
+    "SurvivorSpottedAmmoMechanic": [
+      "Ammo here!",
+      "Got some ammo right here!",
+      "Ammo!"
+    ],
+    "SurvivorSpottedCoachCloseMechanic": [
+      "Coach."
+    ],
+    "SurvivorSpottedCoachClose2Mechanic": [
+      "Coach."
+    ],
+    "SurvivorSpottedCoachClose2C1Mechanic": [
+      "Hey Coach!",
+      "Coach.",
+      "Coach, Coach, Coach."
+    ],
+    "SurvivorSpottedCoachCloseC1Mechanic": [
+      "Hey Coach!",
+      "Coach.",
+      "Coach, Coach, Coach."
+    ],
+    "SurvivorSpottedCoachFarMechanic": [
+      "Hey Coach!",
+      "Coach!"
+    ],
+    "SurvivorSpottedDefibrillatorMechanic": [
+      "Chest paddles here.",
+      "Defibrillator here.",
+      "Defib unit here.",
+      "Hey, defib unit here."
+    ],
+    "SurvivorSpottedDefibrillatorAutoMechanic": [
+      "Chest paddles here.",
+      "Defibrillator here.",
+      "Defib unit here.",
+      "Hey, defib unit here."
+    ],
+    "SurvivorSpottedGamblerCloseMechanic": [
+      "Nick."
+    ],
+    "SurvivorSpottedGamblerClose2Mechanic": [
+      "Nick."
+    ],
+    "SurvivorSpottedGamblerClose2C1Mechanic": [
+      "Excuse me sir.",
+      "Mr Gambling Man.",
+      "You in the suit.",
+      "Hey sir."
+    ],
+    "SurvivorSpottedGamblerCloseC1Mechanic": [
+      "Excuse me sir.",
+      "Mr Gambling Man.",
+      "You in the suit.",
+      "Hey sir."
+    ],
+    "SurvivorSpottedGamblerFarMechanic": [
+      "Nick!",
+      "Hey, Nick!"
+    ],
+    "SurvivorSpottedGamblerFarC1Mechanic": [
+      "Sir.",
+      "Excuse me sir.",
+      "Hey you in the suit.",
+      "Mr Gambling Man."
+    ],
+    "SurvivorSpottedGrenadeMechanic": [
+      "Pipebomb here.",
+      "Hey, there's a pipebomb right here.",
+      "Pipe bomb."
+    ],
+    "SurvivorSpottedGrenadeAutoMechanic": [
+      "Pipebomb here.",
+      "Hey, there's a pipebomb right here.",
+      "Pipe bomb."
+    ],
+    "SurvivorSpottedGrenadeAutoMechanic2": [
+      "Cool.",
+      "Alright!",
+      "Yeah."
+    ],
+    "SurvivorSpottedGrenadeLauncherMechanic": [
+      "Grenade Launcher!",
+      "Grenade Launcher here!"
+    ],
+    "SurvivorSpottedGrenadeLauncherAutoMechanic": [
+      "Grenade Launcher!",
+      "Grenade Launcher here!"
+    ],
+    "SurvivorSpottedHealthMechanic": [
+      "First Aid Kit here!",
+      "First Aid here!",
+      "First Aid!"
+    ],
+    "SurvivorSpottedHealthAutoMechanic": [
+      "First Aid Kit here!",
+      "First Aid here!",
+      "First Aid!"
+    ],
+    "SurvivorSpottedHealthAutoMechanic2": [
+      "Cool.",
+      "Alright!",
+      "Yeah."
+    ],
+    "SurvivorSpottedMolotovMechanic": [
+      "Molotov.",
+      "Molotov here."
+    ],
+    "SurvivorSpottedMolotovAutoMechanic": [
+      "Molotov.",
+      "Molotov here."
+    ],
+    "SurvivorSpottedMolotovAutoMechanic2": [
+      "Cool.",
+      "Alright!",
+      "Yeah."
+    ],
+    "SurvivorSpottedPillsMechanic": [
+      "Pills here!",
+      "Pills!"
+    ],
+    "SurvivorSpottedPillsAutoMechanic": [
+      "Pills here!",
+      "Pills!"
+    ],
+    "SurvivorSpottedPillsAutoMechanic2": [
+      "Cool.",
+      "Alright!",
+      "Yeah."
+    ],
+    "SurvivorSpottedProducerCloseMechanic": [
+      "Rochelle.",
+      "Ro."
+    ],
+    "SurvivorSpottedProducerClose2Mechanic": [
+      "Rochelle.",
+      "Ro."
+    ],
+    "SurvivorSpottedProducerClose2C1Mechanic": [
+      "Ma'am.",
+      "Miss.",
+      "Excuse me, miss."
+    ],
+    "SurvivorSpottedProducerCloseC1Mechanic": [
+      "Ma'am.",
+      "Miss.",
+      "Excuse me, miss."
+    ],
+    "SurvivorSpottedProducerFarMechanic": [
+      "Rochelle!",
+      "Hey, Ro!",
+      "Hey Rochelle!"
+    ],
+    "SurvivorSpottedProducerFarC1Mechanic": [
+      "Ma'am.",
+      "Miss."
+    ],
+    "SurvivorSpottedUpPack_ExplosiveMechanic": [
+      "Explosive rounds here!",
+      "Got some explosive rounds right here!",
+      "Frag rounds here!",
+      "Got some frag rounds here!"
+    ],
+    "SurvivorSpottedUpPack_ExplosiveAutoMechanic": [
+      "Explosive rounds here!",
+      "Got some explosive rounds right here!",
+      "Frag rounds here!",
+      "Got some frag rounds here!"
+    ],
+    "SurvivorSpottedUpPack_IncendiaryMechanic": [
+      "Fire bullets here!",
+      "Hey, fire bullets right here!"
+    ],
+    "SurvivorSpottedUpPack_IncendiAutoMechanic": [
+      "Fire bullets here!",
+      "Hey, fire bullets right here!"
+    ],
+    "SurvivorSpottedVomitJarMechanic": [
+      "Bottle of puke here.",
+      "Bile bomb here!",
+      "Boomer puke right here.",
+      "I got a bile bomb here!",
+      "There's a bile bomb right there!"
+    ],
+    "SurvivorSpottedVomitJarAutoMechanic": [
+      "Bottle of puke here.",
+      "Bile bomb here!",
+      "Boomer puke right here.",
+      "I got a bile bomb here!",
+      "There's a bile bomb right there!"
+    ],
+    "SurvivorSpottedVomitJarAutoC1Mechanic": [
+      "Here's a bottle of... looks like puke.",
+      "Oh, man, a jar's no place for bodily functions."
+    ],
+    "SurvivorSpottedVomitJarC1Mechanic": [
+      "Here's a bottle of... looks like puke.",
+      "Oh, man, a jar's no place for bodily functions."
+    ],
+    "SurvivorSpottedWorldCloseMechanic": [
+      "Hey look over here!",
+      "Look here.",
+      "Hey look at this here.",
+      "Well looky over here.",
+      "Well look what we got right here.",
+      "Yeah, look at this here right now, ah ha!"
+    ],
+    "C2M1IntroMechanic": [
+      "Sorry, folks. This car's capable of miracles, but it can't drive over twenty miles of parked cars. I think we're walkin'.",
+      "Hey guys, can I have a second? Alone with the car? I just... I got some things that need saying."
+    ],
+    "SurvivorSpottedArmoredMechanic": [
+      "Aw, hell, now they're bulletproof?",
+      "Aw, hell, they're bulletproof!",
+      "Hey, you gotta spin 'em around if you want 'em dead!",
+      "Their backs ain't bulletproof!",
+      "Shoot that son of a bitch in the back!"
+    ],
+    "SurvivorSpottedBoomerMechanic": [
+      "BOOMER!",
+      "BOOMER! BOOMER!"
+    ],
+    "SurvivorSpottedBoomerC1Mechanic": [
+      "PUKER!",
+      "IT'S EXPLODING GUY!",
+      "BOOMER!  YEAH - BOOMER!"
+    ],
+    "SurvivorSpottedCedaMechanic": [
+      "What the hell. These things fireproof?",
+      "Watch out for the ones in the hazmat suits.",
+      "Well, I'll be damned. Fireproof zombies."
+    ],
+    "SurvivorSpottedChargerMechanic": [
+      "CHARGER!"
+    ],
+    "SurvivorSpottedChargerAlsoMechanic": [
+      "CHARGER!"
+    ],
+    "SurvivorSpottedChargerAlsoC1Mechanic": [
+      "Watch out, man, that thing charges!",
+      "ONE ARM!",
+      "BIG ARM!"
+    ],
+    "SurvivorSpottedChargerC1Mechanic": [
+      "Watch out, man, that thing charges!",
+      "ONE ARM!",
+      "BIG ARM!"
+    ],
+    "SurvivorSpottedClownMechanic": [
+      "That clown's bringing friends! Take him down!",
+      "We gotta shut that clown up!",
+      "Hey, take that clown down!",
+      "Take that clown down!",
+      "Take the clown down!",
+      "Take down that clown!",
+      "Man, I've never been so scared of clowns."
+    ],
+    "SurvivorSpottedFirstClownMechanic": [
+      "Clowns!",
+      "Clowns? Clowns. Oh, you have got to be kidding me."
+    ],
+    "SurvivorSpottedHunterMechanic": [
+      "HUNTER!",
+      "HUNTER, HUNTER, HUNTER!"
+    ],
+    "SurvivorSpottedHunterC1Mechanic": [
+      "LEAPER!",
+      "JUMPER!",
+      "HOODED DUDE!"
+    ],
+    "SurvivorSpottedInfectedMechanic": [
+      "They're coming!",
+      "Get ready!",
+      "Here they come!",
+      "Y'all get ready!"
+    ],
+    "SurvivorSpottedJimmyMechanic": [
+      "NOOOOOOO!!!!"
+    ],
+    "SurvivorSpottedJockeyMechanic": [
+      "JOCKEY!",
+      "JOCKEY!   JOCKEY!"
+    ],
+    "SurvivorSpottedJockeyAlsoMechanic": [
+      "JOCKEY!",
+      "JOCKEY!   JOCKEY!"
+    ],
+    "SurvivorSpottedJockeyAlsoC1Mechanic": [
+      "HUMPER!",
+      "LITTLE GUY! LITTLE GUY!"
+    ],
+    "SurvivorSpottedJockeyC1Mechanic": [
+      "HUMPER!",
+      "LITTLE GUY! LITTLE GUY!"
+    ],
+    "SurvivorSpottedMudmenMechanic": [
+      "Mudmen!",
+      "Hey, watch out! Mudmen!",
+      "Hey, look out! Mudmen, right there!",
+      "Look out! Mudmen!",
+      "Mud people!"
+    ],
+    "SurvivorSpottedMudmen2Mechanic": [
+      "Are you shittin' me now? Mud people?",
+      "I got a new thing I hate: mud people.",
+      "Tell you what, mud people take all the fun out of the mud."
+    ],
+    "SurvivorSpottedSmokerMechanic": [
+      "SMOKER!",
+      "SMOKER, SMOKER!",
+      "SMOKER! SMOKER!"
+    ],
+    "SurvivorSpottedSmokerC1Mechanic": [
+      "It's that nasty tongue thing!",
+      "YO, IT'S THAT SMOKING DUDE WITH THE TONGUE!",
+      "THAT'S A TONGUE GUY!",
+      "SMOKING DUDE!",
+      "TONGUER!"
+    ],
+    "SurvivorSpottedSpitterMechanic": [
+      "YO, SPITTER!",
+      "IT'S A SPITTER DUDE!",
+      "HEY IT'S A SPITTER!",
+      "SPITTER!"
+    ],
+    "SurvivorSpottedSpitterAlsoMechanic": [
+      "YO, SPITTER!",
+      "IT'S A SPITTER DUDE!",
+      "HEY IT'S A SPITTER!",
+      "SPITTER!"
+    ],
+    "SurvivorSpottedSpitterAlsoC1Mechanic": [
+      "SPITTING THING!",
+      "SPITTING NASTY THING!",
+      "THAT LOOGIE DUDE!",
+      "IT'S THAT GOO GUY!",
+      "HEY, THAT BIG NECK THING!"
+    ],
+    "SurvivorSpottedSpitterC1Mechanic": [
+      "SPITTING THING!",
+      "SPITTING NASTY THING!",
+      "THAT LOOGIE DUDE!",
+      "IT'S THAT GOO GUY!",
+      "HEY, THAT BIG NECK THING!"
+    ],
+    "SurvivorSpottedTankMechanic": [
+      "Tank! Tank!",
+      "HOLY SHIT! SHIT TANK!!!",
+      "TANK! Run no, don't run! SHOOOOOT!",
+      "TANK!",
+      "TANK, TANK, TANK!"
+    ],
+    "SurvivorSpottedTankC1Mechanic": [
+      "HOLY SHIT TANK!",
+      "GIANT THING!",
+      "Oh lordy! Big ass thing!"
+    ],
+    "SurvivorSpottedWitchMechanic": [
+      "Aw a witch.",
+      "Witch.",
+      "Witch, witch, witch."
+    ],
+    "SurvivorSpottedWitchC1Mechanic": [
+      "Blank"
+    ],
+    "PlayerAlertGiveItemMechanic": [
+      "I got this for ya, man.",
+      "I want you to have this.",
+      "Here ya go, I got this for ya.",
+      "Here ya go, man.",
+      "Here ya go, man, I want ya to have this.",
+      "You can have this.",
+      "Hey, I want you to have this.",
+      "Hold on now, hold on now, here ya go."
+    ],
+    "PlayerAlertGiveItemCombatMechanic": [
+      "Take this!",
+      "Just take this!",
+      "Here!, here!",
+      "Grab this here!"
+    ],
+    "PlayerFriendlyFireMechanic": [
+      "Why in the hell y'all keep shooting me?",
+      "I'm not a zombie.  Shoot the zombies!",
+      "Come on, its not funny anymore!",
+      "I know you shot me.",
+      "That's not cool.  Seriously.",
+      "I'm not a zombie, man.  Shoot the zombies!",
+      "Stop shooting me.",
+      "What was that for?",
+      "Those bullets hurt ya know!",
+      "Come on, watch it! Damn.",
+      "Would ya mind not shooting me, please?",
+      "Ya know, shooting me ain't gonna help nothin'.",
+      "Damn, man. Ain't got but no reason to be shootin' me.",
+      "You ain't right in the head shootin' me like that.",
+      "I'm gettin' so mad I could shit a squealin' worm.",
+      "Did y'all take leave of your senses?",
+      "Damn man, quit shootin' me!",
+      "You shootin' me! Well that just dills my pickle!",
+      "You're shootin' me!",
+      "Do that again and I'll knock you into next week.",
+      "I'm gettin' so mad I could shit a squealin' worm, man.",
+      "Y'all know you shot me right?",
+      "Man, y'all are shootin' me.",
+      "Hey, man! That hit me!",
+      "Woah, woah that hurts!",
+      "Okay, stop shooting me!",
+      "Quit shooting me, man!",
+      "Quit shooting me!",
+      "Don't be shootin' me!",
+      "Hey, let's stop shooting each other, please!",
+      "Let's not shoot each other!",
+      "We're on the same team!"
+    ],
+    "PlayerFriendlyFire2Mechanic": [
+      "Woah! I didn't do that! Man, that ain't right!",
+      "That's just straight messed up, man.",
+      "Jumpin' Jesus! What are you doin'!?!?!",
+      "Yo we're on the same team aren't we?",
+      "Jesus Christ, man!"
+    ],
+    "PlayerFriendlyFireC1Mechanic": [
+      "In case y'all didn't know - it hurts to get shot!",
+      "Why don't we save those bullets for the zombies."
+    ],
+    "PlayerFriendlyFireFromCoachC1Mechanic": [
+      "I can see you weren't the shootin' coach.",
+      "Yo Coach! Stop shootin' me!"
+    ],
+    "PlayerFriendlyFireFromGamblerC1Mechanic": [
+      "Nick! Did you mean to do that?",
+      "Nick! I know that was you shootin' me."
+    ],
+    "PlayerFriendlyFireFromProducerMechanic": [
+      "Come on girl, I thought we were closer than that."
+    ],
+    "PlayerFriendlyFireFromProducerC1Mechanic": [
+      "Ma'am you want me to show you how to work that thing?",
+      "Rochelle, STOP GIRL!",
+      "Okay, Rochelle, I know that was you shootin' me."
+    ],
+    "PlayerFriendlyFireNoBulletMechanic": [
+      "That's not cool.  Seriously.",
+      "What was that for?",
+      "Come on, watch it! Damn."
+    ],
+    "PlayerFriendlyFireNoBulletC1Mechanic": [
+      "That's not cool.  Seriously.",
+      "Woah, woah that hurts!",
+      "We're on the same team!"
+    ],
+    "PlayerToTheRescueMechanic": [
+      "Keep your britches on, I'm a comin'.",
+      "I'm a comin!",
+      "Hold on now, I'm coming!",
+      "Ellis on the way!",
+      "Hang on, I'm coming!",
+      "I'm comin', I'm comin'!",
+      "Makin' a beeline for ya!"
+    ],
+    "PlayerToTheRescueRosMechanic": [
+      "Keep your britches on, I'm a comin'.",
+      "I'm a comin!",
+      "Hold on now, I'm coming!",
+      "Ellis on the way!",
+      "Hang on, I'm coming!",
+      "I'm comin', I'm comin'!",
+      "Makin' a beeline for ya!"
+    ],
+    "SurvivorTauntResponseMechanic": [
+      "Why don't you remember that for next time you son's of a bitches.",
+      "They ain't takin' us alive!",
+      "We knocked the piss out of them",
+      "Haha! We whipped the dogshit out of them!",
+      "That's right, you can't kill us!",
+      "Yo! Whose your daddy!?!?",
+      "Uh oh. My trigger finger got tired!"
+    ],
+    "ShotMannequinmechanic2": [
+      "<Short laugh> Hell yeah!",
+      "<Short laugh>"
+    ],
+    "C4M1IdleComment01Mechanic": [
+      "Watch for landmarks. We may be comin' through here in a hurry on the back."
+    ],
+    "C4M2IdleCommentCane01Mechanic": [
+      "KEEP MOVING! JUST HEAD FOR THE SIGN!",
+      "HEAD FOR THE SIGN! HEAD FOR THE SIGN!"
+    ],
+    "PlayerChokeResponseMechanic": [
+      "[Choking]",
+      "Shoot the tongue! Shoot the tongue!",
+      "Smoker's GOT ME!!!",
+      "Shit! Smoker's got me!"
+    ],
+    "PlayerReloadingC502RunMechanic": [
+      "Let's go, let's go!",
+      "Run!",
+      "Hey, turn it off! Turn it off!",
+      "Turn off that alarm!",
+      "Hey, get up there and turn it off!",
+      "Get to the alarm!"
+    ],
+    "PlayerReloadingTankMechanic": [
+      "Shoot it!",
+      "Keep shooting!",
+      "Kill it, man! Kill it!",
+      "Hey, keep shooting, keep shooting!",
+      "Light that mother up!",
+      "Just keep shooting!",
+      "Kill him!"
+    ],
+    "PlayerReloadingTankC1Mechanic": [
+      "Holy shit, look at that big thing!",
+      "Are guns even gonna work against that thing?",
+      "That is a big ass zombie."
+    ],
+    "PlayerTonguePullStartResponseMechanic": [
+      "no, No,  No, NO!!!!!!!!",
+      "Ugh!",
+      "Agh!",
+      "NO!",
+      "Daaa-ugh!!",
+      "no, No, NOOOOOOO!!!!!!!!!",
+      "NOOOOOOO!!!!",
+      "no, No,  No, NO, NO!!!!!!!!",
+      "Ah, NO!",
+      "AAGH!",
+      "Ngahhh!",
+      "SMOKER'S GOT ME!!",
+      "D'OH, OH!",
+      "DAAAAH!!"
+    ],
+    "PlayerTonguePullStartResponseC1Mechanic": [
+      "What the hell's got me?!?!",
+      "Oh! I've been lassoed!",
+      "I can't move help!",
+      "I'm getting dragged away!",
+      "Where's this thing draggin' me?!?!?",
+      "Mother f... TONGUE!!!"
+    ],
+    "PlayerWitchChasingMechanic": [
+      "Out of my way, man, witch coming!!",
+      "COMING THROUGH! WITCH ON MY ASS!!",
+      "Run I pissed her off!",
+      "SHOOT HER! SHOOT HER!",
+      "WITCH WITCH WITCH!"
+    ],
+    "PlayerWitchStartAttackMechanic": [
+      "Ahh SHIT!",
+      "Oh SHIT!"
+    ],
+    "SurvivorCriticalHurtMechanic": [
+      "[pain noise - loud major pain]"
+    ],
+    "SurvivorIncapacitatedHurtMechanic": [
+      "AHHHHH [terrified yell]"
+    ],
+    "SurvivorJockeyHurtMajorMechanic": [
+      "GET THIS OFF MY BACK!",
+      "I GOT A JOCKEY ON ME!",
+      "SUMBITCH IS ON MY BACK!",
+      "THIS AIN'T RIGHT HAVING THIS THING ON ME!",
+      "GET THIS THING OFF ME!",
+      "THIS THINGS RIDING ME!",
+      "IS THIS THING HUMPING ME!??!",
+      "[pain noise - ahh]",
+      "[pain noise - ugh]",
+      "[pain noise - short minor pain]",
+      "GET HIM OFF!",
+      "OW! GET...!"
+    ],
+    "SurvivorJockeyHurtMajorC1Mechanic": [
+      "THIS AIN'T RIGHT HAVING THIS THING ON ME!",
+      "GET THIS THING OFF ME!",
+      "THIS THINGS RIDING ME!"
+    ],
+    "SurvivorJockeyHurtMinorMechanic": [
+      "GET THIS OFF MY BACK!",
+      "I GOT A JOCKEY ON ME!",
+      "SUMBITCH IS ON MY BACK!",
+      "THIS AIN'T RIGHT HAVING THIS THING ON ME!",
+      "GET THIS THING OFF ME!",
+      "THIS THINGS RIDING ME!",
+      "IS THIS THING HUMPING ME!??!",
+      "[pain noise - ahh]",
+      "[pain noise - ugh]",
+      "[pain noise - short minor pain]",
+      "GET HIM OFF!",
+      "OW! GET...!"
+    ],
+    "SurvivorJockeyHurtMinorC1Mechanic": [
+      "THIS AIN'T RIGHT HAVING THIS THING ON ME!",
+      "GET THIS THING OFF ME!",
+      "THIS THINGS RIDING ME!"
+    ],
+    "SurvivorMajorHurtMechanic": [
+      "[pain noise - huh]",
+      "[pain noise - ahh]",
+      "[pain noise - oy]",
+      "[pain noise - ugh]"
+    ],
+    "SurvivorMinorHurtMechanic": [
+      "[pain noise - short minor pain]"
+    ],
+    "SurvivorReloadingMechanic": [
+      "Reloading!",
+      "Hey, I'm Reloading!",
+      "I'm a reload!"
+    ],
+    "SurvivorReloadingIntenseMechanic": [
+      "Reloading!",
+      "Reloading here!",
+      "Gotta reload!"
+    ],
+    "PlayerHelpIncappedMechanic": [
+      "Help! Help!",
+      "Hey, I need some help over here!",
+      "Help me out!",
+      "Help!",
+      "Oh shit! Help!",
+      "I need some help!"
+    ],
+    "HelpResponseMechanicMechanic": [
+      "Blank"
+    ],
+    "C2M1DoneFallingMechanic": [
+      "That's a righteous ride down that hill.",
+      "Anybody wanna go back up and do that again?"
+    ],
+    "C2M1DoneFalling2Mechanic": [
+      "Coach, you're breathin a little hard, you okay?"
+    ],
+    "C2M1FallingMechanic": [
+      "Whoa hey!",
+      "WHOOOAA!"
+    ],
+    "C2M2CarouselOffMechanic": [
+      "It's off!"
+    ],
+    "C2M2CarouselOnMechanic": [
+      "I hit it!",
+      "Hit it!"
+    ],
+    "C3M3BridgeButtonMechanic": [
+      "Bridge comin' down!",
+      "Hey, bridge comin' down!"
+    ],
+    "PlayerChainSawUsedMechanic": [
+      "YEAH!!",
+      "DIE!!",
+      "WOO! GET SOME, BABY GET SOME!",
+      "DIE, DIE MY DARLINS! DIE, DIE, DIE!!"
+    ],
+    "PlayerRemarkC1M1AroundFireMechanic": [
+      "We've gotta get around this fire!"
+    ],
+    "PlayerRemarkC1M1OverTableMechanic": [
+      "This way, guys!",
+      "Over here."
+    ],
+    "PlayerRemarkC1M1SearchRoomsMechanic": [
+      "Search these rooms, yall. Might be some useful shit in some of em.",
+      "Search these rooms, y'all. Might be something we can use."
+    ],
+    "PlayerRemarkC1M1ThroughThisDoorMechanic": [
+      "Through this door!"
+    ],
+    "PlayerRemarkC1M2SpotGunStoreMechanic": [
+      "Hey, I recognize this! That gun store's just up ahead!",
+      "I think that gun store's just up ahead!"
+    ],
+    "PlayerRemarkC1M3AlarmDoorsMechanic": [
+      "I got a feelin' this alarm ain't gonna go unnoticed."
+    ],
+    "PlayerRemarkC1M3CarefulWindowsMechanic": [
+      "Y'all be careful, now.",
+      "Ain't tellin ya somethin' you don't know, but be careful.",
+      "I got a feelin' this alarm ain't gonna go unnoticed.",
+      "Get ready! The alarm is gonna sound."
+    ],
+    "PlayerRemarkC1M3CEDAGone1Mechanic": [
+      "Doesn't look like we're getting rescued.",
+      "Looks like a slaughterhouse in here...",
+      "Man, this is... this is awful.",
+      "The only folks gonna save us is ourselves."
+    ],
+    "PlayerRemarkC1M3CEDAGone2Mechanic": [
+      "Looks like we'll have to get out of the city on our own.",
+      "If we're gonna get out of here, we're gonna have to do it ourselves."
+    ],
+    "PlayerRemarkC1M3DownHereMechanic": [
+      "Down here!",
+      "Down here."
+    ],
+    "PlayerRemarkC1M3DownHere2Mechanic": [
+      "Down here!",
+      "Down here."
+    ],
+    "PlayerRemarkC1M3DownTheEscalator1Mechanic": [
+      "Down that escalator!"
+    ],
+    "PlayerRemarkC1M3OverHereMechanic": [
+      "Through this door!",
+      "Over this door!"
+    ],
+    "PlayerRemarkC1M3SearchRoomsMechanic": [
+      "Search these rooms, yall. Might be some useful shit in some of em.",
+      "Search these rooms, y'all. Might be something we can use."
+    ],
+    "PlayerRemarkC1M3ThisWayMechanic": [
+      "This way, guys!",
+      "This way!",
+      "Evac's this way!"
+    ],
+    "PlayerRemarkC1M3ThroughHereMechanic": [
+      "Through here!",
+      "Let's go through here!",
+      "Through that gate!",
+      "We can get right through here!",
+      "Right through here.",
+      "We should go right through there."
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm1Mechanic": [
+      "Keep going!",
+      "UP, UP! Keep goin' UP!",
+      "Somebody turn off the alarm!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm1aMechanic": [
+      "Keep going!",
+      "UP, UP! Keep goin' UP!",
+      "Somebody turn off the alarm!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm1bMechanic": [
+      "Keep going!",
+      "UP, UP! Keep goin' UP!",
+      "Somebody turn off the alarm!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm1cMechanic": [
+      "Keep going!",
+      "UP, UP! Keep goin' UP!",
+      "Somebody turn off the alarm!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2Mechanic": [
+      "We have to turn that alarm off!",
+      "Run to the door!",
+      "MAN, DON'T STOP RUNNING!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2aMechanic": [
+      "We have to turn that alarm off!",
+      "Run to the door!",
+      "MAN, DON'T STOP RUNNING!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2bMechanic": [
+      "We have to turn that alarm off!",
+      "Run to the door!",
+      "MAN, DON'T STOP RUNNING!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2cMechanic": [
+      "We have to turn that alarm off!",
+      "Run to the door!",
+      "MAN, DON'T STOP RUNNING!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2dMechanic": [
+      "We have to turn that alarm off!",
+      "Run to the door!",
+      "MAN, DON'T STOP RUNNING!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm3Mechanic": [
+      "We have to turn that alarm off!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm3aMechanic": [
+      "Keep going!",
+      "UP, UP! Keep goin' UP!",
+      "Somebody turn off the alarm!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm3bMechanic": [
+      "Keep going!",
+      "UP, UP! Keep goin' UP!",
+      "Somebody turn off the alarm!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm3cMechanic": [
+      "Keep going!",
+      "UP, UP! Keep goin' UP!",
+      "Somebody turn off the alarm!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3UpEscalator1Mechanic": [
+      "Up this escalator!"
+    ],
+    "PlayerRemarkC1M3UpEscalator2Mechanic": [
+      "Up this escalator!"
+    ],
+    "PlayerRemarkC1M3UpEscalator3Mechanic": [
+      "Up this escalator!"
+    ],
+    "PlayerRemarkc2m1_busblockMechanic": [
+      "Bus is blocking the way."
+    ],
+    "PlayerRemarkc2m1_checkroomsaMechanic": [
+      "Hey, search the rooms.",
+      "Check the rooms.",
+      "Search the rooms.",
+      "Check the rooms! Might be crap in em!"
+    ],
+    "PlayerRemarkc2m1_cliffaMechanic": [
+      "Hey watch your footing. This gully looks steep.",
+      "If we're gonna get to the bottom of this gully, we gotta be careful."
+    ],
+    "PlayerRemarkc2m1_downstairsMechanic": [
+      "Everybody back down the stairs!"
+    ],
+    "PlayerRemarkc2m1_offrampaMechanic": [
+      "Hey, down this off ramp.",
+      "Down this off ramp!"
+    ],
+    "PlayerRemarkc2m1_parkaMechanic": [
+      "Whispering Oaks! We made it!"
+    ],
+    "PlayerRemarkc2m1_poolMechanic": [
+      "Ain't nobody been swimmin' in this pool for a while.",
+      "Look at those poor people. All they wanted to do was go for a swim.",
+      "Look at all those poor people."
+    ],
+    "PlayerRemarkc2m1_saferoomMechanic": [
+      "Safe house ahead!",
+      "Hey, we got a safe room right ahead!",
+      "Safehouse, in there."
+    ],
+    "PlayerRemarkc2m1_searchlightsaMechanic": [
+      "Searchlights. That's the first sign of life we've seen in a hundred miles.",
+      "We should head towards those searchlights."
+    ],
+    "PlayerRemarkc2m1_throughhereMechanic": [
+      "Through this door!"
+    ],
+    "PlayerRemarkc2m1_throughmotelaMechanic": [
+      "Highway's blocked! Let's cut through the motel!"
+    ],
+    "PlayerRemarkc2m1_throughwindowMechanic": [
+      "Hey, through this window!"
+    ],
+    "PlayerRemarkc2m1_uphillMechanic": [
+      "Up here."
+    ],
+    "PlayerRemarkc2m1_upstairsaMechanic": [
+      "Let's get up on the walkway."
+    ],
+    "PlayerRemarkc2m2_cottoncandyaMechanic": [
+      "Can we stop and make some cotton candy? Seriously."
+    ],
+    "PlayerRemarkc2m2_kiddielandMechanic": [
+      "Holy shit, guys! Kiddie Land!",
+      "Check it out! Kiddie Land!"
+    ],
+    "PlayerRemarkc2m2_topofslideaMechanic": [
+      "Man, would you look at all these rides? And no LINES! Wish we weren't in such a hurry.",
+      "It's like we bought the park and got every ride to ourselves! That's the third thing I was gonna do if I ever won the lottery."
+    ],
+    "PlayerRemarkc2m2_tunnelofloveMechanic": [
+      "Hey, there's a saferoom in the tunnel of love!"
+    ],
+    "PlayerRemarkc2m3_coasteroffaMechanic": [
+      "Hey we gotta turn that alarm off!",
+      "Somebody turn off that alarm!",
+      "That alarm is getting on my nerves!"
+    ],
+    "PlayerRemarkc2m3_coollightaMechanic": [
+      "Dang, look at Nick's jacket.",
+      "This is cool."
+    ],
+    "PlayerRemarkc2m3_holeMechanic": [
+      "Down that hole!",
+      "Through the blasted-out hole of love!"
+    ],
+    "PlayerRemarkc2m3_overfenceMechanic": [
+      "Over the fence!"
+    ],
+    "PlayerRemarkc2m3_saferoomendaMechanic": [
+      "Safe house ahead!",
+      "Yeah, safehouse y'all!"
+    ],
+    "PlayerRemarkc2m3_screamingoakaMechanic": [
+      "Aw, MAN, that's the Screamin' Oak!"
+    ],
+    "PlayerRemarkc2m3_swanpileupMechanic": [
+      "Damn. That's quite a wreck."
+    ],
+    "PlayerRemarkc2m3_swanroomaMechanic": [
+      "Into the swan maintenance room of love!",
+      "Into the maintenance tunnel of love!"
+    ],
+    "PlayerRemarkc2m3_tracks01Mechanic": [
+      "I'm gonna fly down these hills.",
+      "Click-click-click-click",
+      "These things ain't never gonna stop!",
+      "Follow the tracks!",
+      "Keep followin the tracks!"
+    ],
+    "PlayerRemarkc2m3_ventaMechanic": [
+      "A little vent crawling.",
+      "One thing videogames have taught me, good shit is always in vents."
+    ],
+    "PlayerRemarkc2m3_waterMechanic": [
+      "Cool looking water."
+    ],
+    "PlayerRemarkc2m3_wayblocked1Mechanic": [
+      "Shit! This way's blocked!"
+    ],
+    "PlayerRemarkc2m4_barnentryMechanic": [
+      "Through here!"
+    ],
+    "PlayerRemarkc2m4_bumpercarsaMechanic": [
+      "Through the bumper cars!"
+    ],
+    "PlayerRemarkc2m4_pendoorMechanic": [
+      "Through that door!"
+    ],
+    "PlayerRemarkc2m4_seesaferoomMechanic": [
+      "Hey, we got a safe room right ahead!"
+    ],
+    "PlayerRemarkc2m4_upbarnaMechanic": [
+      "We can climb across the roofs!"
+    ],
+    "PlayerRemarkc2m5_button2Mechanic": [
+      "Ooh, here's a tape deck marked finale!",
+      "When I hit this tape deck, it's all gonna start. Get ready, guys!",
+      "Get ready to rock! I'm about to start this baby."
+    ],
+    "PlayerRemarkC3M#BridgeDownMechanic": [
+      "Let's go, let's go!",
+      "Let's go! Let's GO!",
+      "We can cross!",
+      "Hey, it's down, let's go! Let's go!"
+    ],
+    "PlayerRemarkC3M1NoSwimmingMechanic": [
+      "Swimming with gators? Why no thank you."
+    ],
+    "PlayerRemarkc3m2_parachutistMechanic": [
+      "What's a parachutist doing out here?",
+      "Don't make no sense for him to parachute here."
+    ],
+    "PlayerRemarkC3M2PlaneCrashMechanic": [
+      "Holy shit. Well this explains our parachutist.",
+      "Goddamn a whole plane!",
+      "Had to be scary to be on this flight."
+    ],
+    "PlayerRemarkC3M2PlaneDoorNagMechanic": [
+      "Yo, we got to go through this emergency door.",
+      "Looks like this emergency door is the only way.",
+      "I just know an alarm is gonna sound when we open that door.",
+      "Get ready and lets open the door."
+    ],
+    "PlayerRemarkC3M2PlaneDoorNagaMechanic": [
+      "Alright, we ready to open the door?",
+      "Somebody has to open this door."
+    ],
+    "PlayerRemarkC3M2RoadMechanic": [
+      "Hey, there's a road!",
+      "Hey man, lights on!",
+      "Hey you see those lights?",
+      "Hey, there's a truck!"
+    ],
+    "PlayerRemarkC3M2StartMechanic": [
+      "Time to get wet."
+    ],
+    "PlayerRemarkC3M2StartDryMechanic": [
+      "Dry land up here.",
+      "It's quicker on the dry land."
+    ],
+    "PlayerRemarkC3M2UnderWaterShackMechanic": [
+      "Jesus Christ, did they really build these houses underwater?",
+      "Wow, this here is some real shacks."
+    ],
+    "PlayerRemarkC3M2Village1Mechanic": [
+      "There's the village!",
+      "They have lights on in the village!"
+    ],
+    "PlayerRemarkC3M2Village2Mechanic": [
+      "Hey, we can get to them through here!",
+      "Safe house is right past that fence!",
+      "Let's go to the house!"
+    ],
+    "PlayerRemarkC3M3LowerGateMechanic": [
+      "What the hell?  The only way is over this bridge?",
+      "Hey, somebody lower the walkway.",
+      "You just know this is gonna be some shit."
+    ],
+    "PlayerRemarkC3M3SafeHouseAheadMechanic": [
+      "Get to the house!",
+      "There's the house!",
+      "Woohoo! That's the house!",
+      "Hey, run to that house!"
+    ],
+    "PlayerRemarkC3M3SearchHousesMechanic": [
+      "Well.. let's look for supplies.",
+      "Maybe they left some around here."
+    ],
+    "PlayerRemarkC3M3StairsMechanic": [
+      "Hey, there's a walkway.",
+      "Man, let's get out of this muck."
+    ],
+    "PlayerRemarkC3M3StayUpHereMechanic": [
+      "Alright everybody, stay on the deck!",
+      "Stay up here!",
+      "Alright, let's get out of here!"
+    ],
+    "PlayerRemarkC3M3ThisWayMechanic": [
+      "This way, guys!",
+      "Planks this way."
+    ],
+    "PlayerRemarkC3M3ThroughHereMechanic": [
+      "Hey, is there a way out of the village?",
+      "Right through here.",
+      "Inside here.",
+      "Back through here."
+    ],
+    "PlayerRemarkC3M3ThroughThisHouseMechanic": [
+      "We can get around back through here.",
+      "Stay up here!",
+      "Right through here.",
+      "Back through here.",
+      "Short-cut through here.",
+      "Y'all should come this way."
+    ],
+    "PlayerRemarkC3M3UpHereMechanic": [
+      "Up here.",
+      "Let's get up on the deck.",
+      "Alright, we gotta stay on the deck."
+    ],
+    "PlayerRemarkC3M3UsePlanksMechanic": [
+      "Hey, we can use these planks."
+    ],
+    "PlayerRemarkc3m4houseMechanic": [
+      "There's the house."
+    ],
+    "PlayerRemarkc3m4radioMechanic": [
+      "Hey, let's use the radio."
+    ],
+    "PlayerRemarkc3m4scaffoldMechanic": [
+      "See the scaffolding?"
+    ],
+    "PlayerRemarkc3m4shacksMechanic": [
+      "There migth be supplies in these houses."
+    ],
+    "PlayerRemarkc4m1_carcrashMechanic": [
+      "Damn. That's quite a wreck."
+    ],
+    "PlayerRemarkc4m1_garagesaleMechanic": [
+      "We can cut through this garage sale!"
+    ],
+    "PlayerRemarkc4m1_nogasMechanic": [
+      "Outta gas."
+    ],
+    "PlayerRemarkc4m1_playgroundfarMechanic": [
+      "Through that playground!"
+    ],
+    "PlayerRemarkc4m1_playgroundnearMechanic": [
+      "Through this playground!"
+    ],
+    "PlayerRemarkc4m1_saferoomcloseMechanic": [
+      "Hey, there's a safe room right up there!"
+    ],
+    "PlayerRemarkc4m1_throughhereAMechanic": [
+      "Through this door!"
+    ],
+    "PlayerRemarkc4m2_gasinsidesignaMechanic": [
+      "It says here the gas's inside."
+    ],
+    "PlayerRemarkc4m2_millentranceMechanic": [
+      "In here!"
+    ],
+    "PlayerRemarkc4m2_millentranceexitMechanic": [
+      "This way!",
+      "C'mon, this way!"
+    ],
+    "PlayerRemarkc4m2_seegasstationaMechanic": [
+      "Allright!! There's the gas station!"
+    ],
+    "PlayerRemarkc4m2_seesaferoomaMechanic": [
+      "There's gas in the safe room!"
+    ],
+    "PlayerRemarkc4m2_streetblockedaMechanic": [
+      "Hey, we ain't goin' no farther on this road."
+    ],
+    "PlayerRemarkc4m2_uprampMechanic": [
+      "Up that ramp!"
+    ],
+    "PlayerRemarkc4m2_upthestairsMechanic": [
+      "Up here."
+    ],
+    "PlayerRemarkc4m2_useelevatoraMechanic": [
+      "We can take that elevator down to the field."
+    ],
+    "PlayerRemarkc4m2_waterpoolaMechanic": [
+      "Man, this water's startin' to pool. Shit."
+    ],
+    "PlayerRemarkc4m2_weatheraMechanic": [
+      "This rain sure ain't lettin' up.",
+      "We are in for a nasty damn storm."
+    ],
+    "PlayerRemarkc4m3_caneaMechanic": [
+      "We gotta go back through the field!"
+    ],
+    "PlayerRemarkc4m3_crosshere1Mechanic": [
+      "Cross here!",
+      "We can get across the water here!"
+    ],
+    "PlayerRemarkc4m3_downhere1Mechanic": [
+      "Jump down there!",
+      "We can jump down here!",
+      "Down here.",
+      "Down there."
+    ],
+    "PlayerRemarkc4m3_downstairsaMechanic": [
+      "Everybody back down the stairs!"
+    ],
+    "PlayerRemarkc4m3_ducatelsignMechanic": [
+      "There's the entrance! We're almost outta here!"
+    ],
+    "PlayerRemarkc4m3_elevatoraMechanic": [
+      "Hey, we can take the elevator back up!"
+    ],
+    "PlayerRemarkc4m3_overtankaMechanic": [
+      "We can cross on that tank!"
+    ],
+    "PlayerRemarkc4m3_rainaMechanic": [
+      "Oh shit, it's really stormin'."
+    ],
+    "PlayerRemarkc4m3_safehousedownaMechanic": [
+      "Safe house ahead!",
+      "Yeah, safehouse y'all!"
+    ],
+    "PlayerRemarkc4m3_startsaferoomaMechanic": [
+      "Blank"
+    ],
+    "PlayerRemarkc4m3_uppipesMechanic": [
+      "UP this pipe!"
+    ],
+    "PlayerRemarkc4m4_floodedaMechanic": [
+      "Man, the whole place is underwater."
+    ],
+    "PlayerRemarkc4m4_garagesaleaMechanic": [
+      "There's that garage sale."
+    ],
+    "PlayerRemarkc4m4_playgroundaMechanic": [
+      "The playground, yeah, yeah! We're almost at the dock!"
+    ],
+    "PlayerRemarkc4m4_porchlightaMechanic": [
+      "There's that porch light we passed on the way in."
+    ],
+    "PlayerRemarkc4m4_safehouseaMechanic": [
+      "Safehouse down this street!",
+      "Let's get down the street to the safehouse!"
+    ],
+    "PlayerRemarkc4m4_useroofsaMechanic": [
+      "We can climb across the roofs!"
+    ],
+    "PlayerRemarkpathc2m1_billboardMechanic": [
+      "Hey look at this here."
+    ],
+    "PlayerRemarkremark_caralarmMechanic": [
+      "Y'all better not shoot that car.",
+      "Hey, don't shoot the car.",
+      "Hey, watch out for the cars."
+    ],
+    "PlayerRemarkWorldC1M1AlmostThereMechanic": [
+      "There's the entrance! We're almost outta here!",
+      "Hey, we got a safe room ahead!",
+      "Hey, we got a safe room right ahead!",
+      "Almost there!"
+    ],
+    "PlayerRemarkWorldC1M1CedaMapsMechanic": [
+      "[whistles] Check out all them X's, man. Looks like New Orleans is the last city standing.",
+      "If this map's right, New Orleans is the last city standing.",
+      "I dunno about you folks, but after lookin' at that map, I wouldn't mind heading to, I dunno, New Orleans?",
+      "Hope you guys like New Orleans, cause that's where we're headed if we wanna live."
+    ],
+    "PlayerRemarkWorldC1M1DownHereMechanic": [
+      "Down here!",
+      "Through here.",
+      "Right through here."
+    ],
+    "PlayerRemarkWorldC1M1DownStairsMechanic": [
+      "Everybody back down the stairs!",
+      "Stairs!"
+    ],
+    "PlayerRemarkWorldC1M1ElevatorBrokenMechanic": [
+      "Goddamn elevator's out!",
+      "This elevator's broke, we better find the stairs!"
+    ],
+    "PlayerRemarkWorldC1M1FireSpreadingMechanic": [
+      "We've gotta get around this fire!",
+      "The fire's spreading!",
+      "The fire's spreading, man, it's spreading!"
+    ],
+    "PlayerRemarkWorldC1M1FirstMechanic": [
+      "Holy shit, zombies are real. I KNEW it!",
+      "Zombies are REAL. I knew them movies were true.",
+      "Dude those zombies are REAL. I knew them books were non-fiction.",
+      "That what I think it is?",
+      "Those what I think they are?",
+      "Those don't look like no Savannahites I ever seen.",
+      "HOLY SHIT!!! KILL IT!",
+      "Whoa - is that a zombie? Like a, like a ZOMBIE zombie?"
+    ],
+    "PlayerRemarkWorldC1M1LedgeMechanic": [
+      "Out here on the ledge!",
+      "Get out to the ledge!",
+      "Hey, out here on the ledge!"
+    ],
+    "PlayerRemarkWorldC1M1StairsSignMechanic": [
+      "Hey, we gotta find the stairs!"
+    ],
+    "PlayerRemarkWorldC1M2CloseMechanic": [
+      "The mall's JUST up ahead!",
+      "Okay, I think we're getting close to the mall!",
+      "Hope we're making the right call going to that mall..."
+    ],
+    "PlayerRemarkWorldC1M2DownStairsMechanic": [
+      "Down here!",
+      "Down here."
+    ],
+    "PlayerRemarkWorldC1M2DumpsterMechanic": [
+      "Over the dumpster!"
+    ],
+    "PlayerRemarkWorldC1M2GunStoreCloseMechanic": [
+      "We're heading the right way."
+    ],
+    "PlayerRemarkWorldC1M2InHereMechanic": [
+      "In here!"
+    ],
+    "PlayerRemarkWorldC1M2JumpTruckMechanic": [
+      "Hey, jump onto the truck!"
+    ],
+    "PlayerRemarkWorldC1M2MadeItMechanic": [
+      "Hey, there's the mall! We MADE it!"
+    ],
+    "PlayerRemarkWorldC1M2MallSignHereMechanic": [
+      "I swear to god, CEDA better be at that mall"
+    ],
+    "PlayerRemarkWorldC1M2MallThisWayMechanic": [
+      "We're heading the right way to the mall."
+    ],
+    "PlayerRemarkWorldC1M2UpStairsMechanic": [
+      "Let's go through here!",
+      "We can get up here!"
+    ],
+    "PlayerRemarkWorldC3M1AmmoUpMechanic": [
+      "Everybody get ammo'd up."
+    ],
+    "PlayerRemarkWorldC3M1CheckingHousesMechanic": [
+      "Man, it looks like people left in a rush.",
+      "Anybody find anything?"
+    ],
+    "PlayerRemarkWorldC3M1FeedGatorMechanic": [
+      "Tour ended here.   I think we gotta keep moving."
+    ],
+    "PlayerRemarkWorldC3M1FerryCrossingMechanicD": [
+      "I'm just gonna say it. I don't like the swamp."
+    ],
+    "PlayerRemarkWorldC3M1FerryCrossingMechanicE": [
+      "Listen up everybody. Be on the lookout for blood farmers. I'm serious."
+    ],
+    "PlayerRemarkWorldC3M1FerryCrossingMechanicG": [
+      "Alright, Coach, you got anything inspirational to say as we enter into the swamps?"
+    ],
+    "PlayerRemarkWorldC3M1FerryCrossingMechanicI": [
+      "Hey Nick, I used to have a suit just like yours."
+    ],
+    "PlayerRemarkWorldC3M1FerryNagMechanic": [
+      "Oh, that's smart,. see, zombies can't operate a ferry.",
+      "Pontoon boat's on the other side of the bayou.",
+      "Let's get ready and then call the boat."
+    ],
+    "PlayerRemarkWorldC3M1FerryNagaMechanic": [
+      "We gotta call it over to this side.",
+      "We just gotta call that pontoon boat over.",
+      "Ain't no thing,  just  call the pontoon boat over.",
+      "Somebody hit that button.",
+      "Whose gonna call the boat?",
+      "Here comes the boat!",
+      "Hit it! Let's go!"
+    ],
+    "PlayerRemarkWorldC3M1GetBackUpMechanic": [
+      "Hey, we gotta get back to the walkway!",
+      "Hey, Let's get back up there!",
+      "I don't like not being on the walkway."
+    ],
+    "PlayerRemarkWorldC3M1LightsOnMechanic": [
+      "Hey, lights on over here!",
+      "Lights by the drainage ditch!"
+    ],
+    "PlayerRemarkWorldC3M1LitterMechanic": [
+      "All this litter is shameful."
+    ],
+    "PlayerRemarkWorldC3M1Path01Mechanic": [
+      "Search the houses.",
+      "Bet you we can find supplies in these houses.",
+      "There migth be supplies in these houses."
+    ],
+    "PlayerRemarkWorldC3M1PlanksRightMechanic": [
+      "Alright, let's all try to the right.",
+      "Dude, they must have gone this way.",
+      "Planks this way.",
+      "Hey, path to the right."
+    ],
+    "PlayerRemarkWorldC3M1StairsMechanic": [
+      "Stairs!"
+    ],
+    "PlayerRemarkWorldC3M1StayOnMechanic": [
+      "Let's just stay on the walkway.",
+      "Hey, don't get off the walkway, okay?"
+    ],
+    "PlayerRemarkWorldC3M1WalkwaysMechanic": [
+      "Alright, stay on the walkways.",
+      "We should be all right if we stay on the walkways."
+    ],
+    "PlayerRemarkWorldC3M1WhichWayMechanic": [
+      "Anyone wanna pick a way to go?",
+      "Left or right my friends?"
+    ],
+    "PlayerRemarkWorldC502AlarmStoppedMechanic": [
+      "Whew, it's off all right!"
+    ],
+    "PlayerRemarkWorldC502AlleyMechanic": [
+      "Right through here.",
+      "We should go that there way."
+    ],
+    "PlayerRemarkWorldC502BusStoryMechanic": [
+      "Did I ever tell you the time me and my grandpa took the bus the Memphis to go visit Graceland and..."
+    ],
+    "PlayerRemarkWorldC502BusStory2bMechanic": [
+      "All right Nick.  But how about this,  did ya know Graceland ain't nothin' but a little house in the ghetto.",
+      "Okay. But I do love goin' on bus rides.",
+      "Nick, you ever even been to Graceland?"
+    ],
+    "PlayerRemarkWorldC502BusStory2cMechanic": [
+      "Man, y'all shoulda came it was fun."
+    ],
+    "PlayerRemarkWorldC502NotZombies2Mechanic": [
+      "People shootin' people, that shit ain't right, man."
+    ],
+    "PlayerRemarkWorldC502Run1Mechanic": [
+      "Let's go, let's go!",
+      "Run!",
+      "Hey, turn it off! Turn it off!",
+      "Turn off that alarm!",
+      "Hey, get up there and turn it off!",
+      "Get to the alarm!"
+    ],
+    "PlayerRemarkWorldC502Smell2Mechanic": [
+      "I don't know.  I kinda like that smell. (What's that smell?)",
+      "I don't know.  Smells nice though don't it. (What's that smell?)"
+    ],
+    "PlayerRemarkWorldC502SmellBath2Mechanic": [
+      "I wouldn't say that.  I think it smells kinda nice. (It stinks like piss.)"
+    ],
+    "PlayerRemarkWorldC502SpotSafeHouseMechanic": [
+      "Yeah, safehouse y'all!",
+      "Hey, we got a safe room ahead!",
+      "Hey, we got a safe room right ahead!"
+    ],
+    "PlayerRemarkWorldDoNotShootCarC501Mechanic": [
+      "Y'all better not shoot that car.",
+      "Hey, don't shoot the car.",
+      "Hey, watch out for the cars."
+    ],
+    "PlayerRemarkWorldSignColdBeerMechanic": [
+      "Oh, I could go for a cold one right about now.."
+    ],
+    "PlayerRemarkWorldSignPhotography2Mechanic": [
+      "What in the hell is a picture gonna do? (photography prohibited)"
+    ],
+    "PlayerRemarkWorldSignReportSick2Mechanic": [
+      "Report the sick?   (report the sick)"
+    ],
+    "PlayerWorldSignC5AlarmWillSound3Mechanic": [
+      "But we should stick together right?  (As soon as that door opens, get ready to run for the tower.)",
+      "Whoa, wait, why we headin' to the tower? (As soon as that door opens, get ready to run for the tower.)",
+      "Yeah, I agree. That's a good plan."
+    ],
+    "PlayerWorldSignC5AlarmWillSound3dMechanic": [
+      "Okay, okay I get it."
+    ],
+    "RespondAffirmativeMechanic": [
+      "Hell yeah.",
+      "Sure.",
+      "Yeah, let's do it."
+    ],
+    "PlayerFollowMeMechanic": [
+      "Follow me.",
+      "Come on, stick with me y'all.",
+      "Follow me this way.",
+      "This way, guys!"
+    ],
+    "PlayerHelpMechanic": [
+      "Help! Help!",
+      "Hey, I need some help over here!",
+      "Help me out!",
+      "Help!"
+    ],
+    "PlayerHurryUpMechanic": [
+      "Come on y'all hurry up!",
+      "Hurry up!",
+      "Let's go, let's go!",
+      "Hurry it! Hurry it!"
+    ],
+    "PlayerKillThatLightMechanic": [
+      "Y'all better kill ya lights.",
+      "Lights off.",
+      "Kill your damn lights.",
+      "Hey, lights off y'all."
+    ],
+    "PlayerLeadOnMechanic": [
+      "I'm game.",
+      "Hell yeah, where we going?",
+      "I'll follow you.",
+      "I'm right behind you.",
+      "You're in charge."
+    ],
+    "PlayerMoveOnMechanic": [
+      "Let's go.",
+      "Let's roll.",
+      "C'mon, keep a move on!",
+      "Hey man, we should get goin'.",
+      "Don't you reckon we should move on now?",
+      "You reckon we should move out now?",
+      "Hey, we should get goin', man."
+    ],
+    "PlayerStayTogetherMechanic": [
+      "Stay close!",
+      "Y'all stay close.",
+      "Y'all stick together, now.",
+      "Alrright y'all stay close, now.",
+      "Y'all, now stick together.",
+      "Now stay close. Ain't nobody wander off.",
+      "Nobody wander off."
+    ],
+    "PlayerWatchOutBehindMechanic": [
+      "They're behind us!",
+      "Behind us!",
+      "Hey, behind us y'all, behind us!",
+      "Check behind!",
+      "Behind us, y'all!"
+    ],
+    "PlayerAskReadyMechanic": [
+      "Yeah, I'm ready, y'all ready?",
+      "Ready?",
+      "Y'all ready?"
+    ],
+    "PlayerImWithYouMechanic": [
+      "Sure, I'm with ya.",
+      "Yeah, let's do this.",
+      "Yeah, let's go.",
+      "Hell yeah, I'm with ya."
+    ],
+    "PlayerLaughMechanic": [
+      "<Hearty Laugh>"
+    ],
+    "PlayerLostCallMechanic": [
+      "Anyone?",
+      "Where is everyone?!",
+      "Not funny man, where are you guys?",
+      "Ca Caw Ca Caw Ca Caw!",
+      "Ca Caw Ca Caw Ca Caw Ca Caw!",
+      "Ca Caw Ca Caw!"
+    ],
+    "PlayerNiceJobResponseMechanic": [
+      "Nice, man!",
+      "Hey, y'all done good!",
+      "You're all right!",
+      "That's the ticket!",
+      "Hey, you're takin' charge, man.",
+      "Nice job, man!",
+      "All right!",
+      "See?  Don't that feel good?",
+      "Hey, don't that feel good?",
+      "You did a good job.",
+      "I told ya it'd feel good!",
+      "You are takin' charge."
+    ],
+    "PlayerNoMechanic": [
+      "No.",
+      "Uh, uh.",
+      "Nope.",
+      "Nah man.",
+      "Nah.",
+      "Yeah no.",
+      "Sorry, no.",
+      "Can't do it, man."
+    ],
+    "PlayerProfanityMechanic": [
+      "No!",
+      "Ahh SHIT!",
+      "God DAMN!",
+      "Ah Lord!",
+      "Jesus NO, man!",
+      "That ain't right!",
+      "Oh SHIT!",
+      "Jesus NO!",
+      "No thank you!",
+      "Shit, that ain't right!",
+      "BULLSHIT!",
+      "Oh, hogwash, man!",
+      "Well piss!",
+      "Hogwash!",
+      "Ain't that a load of shit.",
+      "That's bullshit!"
+    ],
+    "PlayerSorryMechanic": [
+      "Sorry 'bout that.",
+      "Yeah, I'm sorry about that one.",
+      "Sorry!",
+      "Sorry over there."
+    ],
+    "PlayerThanksMechanic": [
+      "Much obliged",
+      "I owe you one.",
+      "Hey, thanks a lot."
+    ],
+    "PlayerYellRunMechanic": [
+      "RUN!",
+      "RUN! RUN! RUN!"
+    ],
+    "PlayerYesMechanic": [
+      "Yes.",
+      "Hell yeah.",
+      "Yep.",
+      "Okay.",
+      "Yeah.",
+      "Sure.",
+      "Yeah, let's do it.",
+      "Alright.",
+      "I'm game."
+    ],
+    "PlayerYouAreWelcomeMechanic": [
+      "You're welcome.",
+      "Yeah, you're welcome.",
+      "We're cool.",
+      "We're good.",
+      "Anytime, man.",
+      "Hey, you bet!",
+      "Always.",
+      "You got it, man.",
+      "You got it, girl."
+    ],
+    "PlayerNegativeMechanic": [
+      "Ahh SHIT!",
+      "Ah Lord!",
+      "Jesus NO, man!",
+      "That ain't right!",
+      "Oh, hogwash, man!",
+      "Well piss!"
+    ],
+    "PlayerHeardBoomerMechanic": [
+      "I hear a boomer.",
+      "Hey, think I heard a boomer.",
+      "Careful, boomer 'round.",
+      "Think I heard a boomer."
+    ],
+    "PlayerHeardHunterMechanic": [
+      "I hear a hunter around.",
+      "Careful.  Hunter.",
+      "I hear a hunter."
+    ],
+    "PlayerHeardSmokerMechanic": [
+      "Smoker around these parts.",
+      "Careful, Smoker.",
+      "Hey, I hear a smoker."
+    ],
+    "PlayerHeardTankMechanic": [
+      "Tank! Tank!",
+      "HOLY SHIT! SHIT TANK!!!",
+      "TANK! Run no, don't run! SHOOOOOT!",
+      "TANK!"
+    ],
+    "PlayerHurrahMechanic": [
+      "We opened up a can of whup ass on them!",
+      "I'm thinkin' we can take on anything!",
+      "We are kings of the world!",
+      "I am proud to be part of this team!",
+      "We are a right damn good team!",
+      "Hey, let me tell ya something. Y'all are the best!",
+      "Well, slap my head and call me silly we are kickin' some ass!",
+      "Ahh HELL YEAH!",
+      "All right then!",
+      "I ain't no god damn son of a bitch, yeah ya better think about that baby.",
+      "We're kickin' more ass than a boot in an ass factory!",
+      "DAMN, we are good.",
+      "Load, lock, and cut the talk! That's how it's done!",
+      "We in the ZOMBIE-killin' bidness!",
+      "Hoohoo! Apocalypse, my ass! We're livin' in the best shooting range of ALL TIME!"
+    ],
+    "PlayerWarnCarefulMechanic": [
+      "Y'all be careful, now.",
+      "Ain't tellin ya somethin' you don't know, but be careful.",
+      "Careful, y'all.",
+      "Be careful!"
+    ],
+    "SurvivorSpottedWorldFarMechanic": [
+      "Look!",
+      "Look.",
+      "Over there!",
+      "Looky looky.",
+      "Look right there.",
+      "Hey look over there!",
+      "Look here!"
+    ],
+    "GasPourDoneSCMechanic": [
+      "WOO! GET SOME, BABY GET SOME!",
+      "I am proud to be part of this team!",
+      "Well, slap my head and call me silly we are kickin' some ass!",
+      "I ain't no god damn son of a bitch, yeah ya better think about that baby.",
+      "We gotta make this fair for the zombies! I'm-a tie an arm around my back.",
+      "Why don't you remember that for next time you son's of a bitches.",
+      "We knocked the piss out of them",
+      "Haha! We whipped the dogshit out of them!",
+      "Yo! Whose your daddy!?!?"
+    ],
+    "GasPourSCMechanic": [
+      "Come comeoncomeoncomeon...",
+      "Please get in the tank, please please please...",
+      "C'mon, hurrrry up up up up up...",
+      "Come onnnn, come onnnnnn...Fill it up here!",
+      "I got this one!"
+    ],
+    "GrabbingGasSCMechanic": [
+      "I got this one!",
+      "I got one."
+    ],
+    "ScavengeStartMechanic": [
+      "Go! Go! Go! Find some gas!",
+      "Find a gas can!"
+    ],
+    "PlayerCommentJockeyMechanic": [
+      "It's like a monkey on a mule.",
+      "Where's that thing goin' with 'em?",
+      "That's just humiliating.",
+      "That don't look dignified."
+    ],
+    "C4M2LockTheDoorCheckPointMechanic": [
+      "Close the door and let's get this gas."
+    ],
+    "GoingToDieCoachCoachMechanic": [
+      "This was not in my plan.",
+      "I'm hurtin' real bad.",
+      "I hurt aplenty.",
+      "I'm all torn up.",
+      "This ain't right.",
+      "They knocked the piss out of me.",
+      "Ohh.....",
+      "I've got a misery in my bones.",
+      "I ain't lyin', this hurts!",
+      "I don't feel right.",
+      "I think I really hurt something.",
+      "Oh man, oh man, oh man.",
+      "Best be findin' me a health kit.",
+      "I ain't just goin' on, I'm really hurt.",
+      "Y'all , y'all I'm hurt!",
+      "Ah hell no, ah hell no.",
+      "These here zombies are tryin' to kill me.",
+      "Ahh shit this hurts.",
+      "Man, I ain't doin' too good.",
+      "Oh, man, I'm hurtin'.",
+      "Com come on. I gotta keep up, gotta keep up.",
+      "I am all tuckered out.",
+      "Goddamn I hurt!",
+      "I could go for a nap, right now."
+    ],
+    "PlayerAlertGiveItemStopMechanic": [
+      "Wait up, now! I got somethin' for ya.",
+      "Hey! Hey! Got something for ya.",
+      "Hey, stop movin', now! I got somethin' for you right here.",
+      "Wait up! I got somethin' for ya.",
+      "Hey, stop movin' I got somethin' for ya"
+    ],
+    "PlayerAlertGiveItemStopAnFirstAidMechanic": [
+      "Blank"
+    ],
+    "PlayerAlertGiveItemStopC1Mechanic": [
+      "Dude, dude, hold up.",
+      "Hey umm...  you! Hold up!"
+    ],
+    "PlayerAlertGiveItemStopQnFirstAidMechanic": [
+      "Blank"
+    ],
+    "PlayerCoachPouncedMechanic": [
+      "Hunter's got Coach!",
+      "Hey, hunter on  Coach!"
+    ],
+    "PlayerCoachPouncedC1Mechanic": [
+      "A zombie's got him!",
+      "One of those things got him!"
+    ],
+    "PlayerEatPillsMechanic": [
+      "Good to go.",
+      "That hit the spot.",
+      "That'll hold me.",
+      "Alright, that's better.",
+      "That'll keep me for a bit.",
+      "Yeah, that hit the spot."
+    ],
+    "PlayerGamblerPouncedMechanic": [
+      "Hunter's got Nick!",
+      "Hey hunter's on Nick!"
+    ],
+    "PlayerGamblerPouncedC1Mechanic": [
+      "A zombie's got him!",
+      "One of those things got him!"
+    ],
+    "PlayerGetInsideCheckPointMechanic": [
+      "I need every one of you inside now!",
+      "Shit! Get inside!",
+      "Y'all inside, now!",
+      "Get inside y'all!",
+      "C'mon y'all get inside now!",
+      "C'mon y'all get inside!",
+      "Hey I need everybody inside now!"
+    ],
+    "PlayerGrabbedByJockeyMechanic": [
+      "GET THIS OFF MY BACK!",
+      "I GOT A JOCKEY ON ME!",
+      "SUMBITCH IS ON MY BACK!",
+      "THIS AIN'T RIGHT HAVING THIS THING ON ME!",
+      "GET THIS THING OFF ME!",
+      "THIS THINGS RIDING ME!",
+      "IS THIS THING HUMPING ME!??!",
+      "[pain noise - ahh]",
+      "[pain noise - ugh]",
+      "[pain noise - short minor pain]",
+      "GET HIM OFF!",
+      "OW! GET...!"
+    ],
+    "PlayerGrabbedByJockeyC1Mechanic": [
+      "THIS AIN'T RIGHT HAVING THIS THING ON ME!",
+      "GET THIS THING OFF ME!",
+      "THIS THINGS RIDING ME!"
+    ],
+    "PlayerGrenadeMolotovMechanic": [
+      "Throwing a Molotov.",
+      "MOLOTOV COMING!",
+      "Hey, fire's comin'!",
+      "Fire is a comin'!"
+    ],
+    "PlayerGrenadePipeBombMechanic": [
+      "GRENADE!",
+      "Throwing a pipe bomb.",
+      "PIPE BOMB OUT!",
+      "Fire in the hole!",
+      "Chase this!",
+      "Pipe bomb on the way!",
+      "Hey! Chase this!"
+    ],
+    "PlayerGrenadeVomitJarMechanic": [
+      "Heads up! Bile bomb!",
+      "Here comes some puke!",
+      "Bile bomb incoming!",
+      "Throwing a bile bomb!",
+      "Tossin' a bile bomb!",
+      "Here comes the bile, you sons of bitches!"
+    ],
+    "PlayerGrenadeVomitJarC1Mechanic": [
+      "Here comes some puke!"
+    ],
+    "PlayerIncapacitatedInitialMechanic": [
+      "I'm down!",
+      "Shit, I'm down.",
+      "Ahh, shit, I'm down."
+    ],
+    "PlayerKillConfirmationMechanic": [
+      "Killed it.",
+      "Hit it.",
+      "I got it.",
+      "Dead!",
+      "Got 'em.",
+      "Hit!",
+      "Mine!"
+    ],
+    "PlayerProducerPouncedMechanic": [
+      "Hunter's got Rochelle!",
+      "Hunter on  Rochelle!"
+    ],
+    "PlayerProducerPouncedC1Mechanic": [
+      "Shit, a zombies got her!",
+      "Hey, one of those things got her!"
+    ],
+    "PlayerRevivedByDefibrillatorMechanic": [
+      "[gasp for breath]",
+      "[being shocked]"
+    ],
+    "PlayerRevivedByDefibrillator2Mechanic": [
+      "Whoa, man...",
+      "Agggh what the hell are you shockin' me for?",
+      "Whoa. Good thing I headed away from the light.",
+      "Was I just dead there? Oh man..."
+    ],
+    "PlayerStayTogetherInsideMechanic": [
+      "I need every one of you inside now!",
+      "Shit! Get inside!",
+      "Y'all inside, now!",
+      "Get inside y'all!",
+      "C'mon y'all get inside now!",
+      "C'mon y'all get inside!",
+      "Hey I need everybody inside now!"
+    ],
+    "PlayerSuggestHealthCoachMechanic": [
+      "It's a good time to heal up everybody.",
+      "Coach, don't forget about that health pack!",
+      "Coach, don't forget about that heal pack, now!",
+      "Coach, now don't forget none about healin'.",
+      "Coach, don't mean to speak out of turn but you should probably heal.",
+      "Coach, don't mean to speak out of turn but you should probably well heal when you get a minute. You know.",
+      "Coach, don't forget about that health pack."
+    ],
+    "PlayerSuggestHealthCoachC1Mechanic": [
+      "Don't forget your health kits.",
+      "Anybody want to heal now?",
+      "Good time to heal."
+    ],
+    "PlayerSuggestHealthGamblerMechanic": [
+      "Hey, y'all should heal now.",
+      "Everybody take a minute and get yourself healed",
+      "Excuse me Nick, but you might wanna heal.",
+      "Nick.  Um.. Nick!  Don't forget about that health pack.",
+      "Nick, don't forget none about that health pack."
+    ],
+    "PlayerSuggestHealthGamblerC1Mechanic": [
+      "Don't forget your health kits.",
+      "Anybody want to heal now?",
+      "Good time to heal."
+    ],
+    "PlayerSuggestHealthMechanicC1Mechanic": [
+      "Don't forget your health kits.",
+      "Anybody want to heal now?",
+      "Good time to heal."
+    ],
+    "PlayerSuggestHealthProducerMechanic": [
+      "Heal up!",
+      "Hey Ro girl, heal up now.",
+      "Ro, you think about healin?",
+      "Rochelle, you ought to heal now.",
+      "I'll help ya if you need me to."
+    ],
+    "PlayerSuggestHealthProducerC1Mechanic": [
+      "Don't forget your health kits.",
+      "Anybody want to heal now?",
+      "Good time to heal."
+    ],
+    "PlayerTransitionMechanic": [
+      "I'm thinkin' we can take on anything!",
+      "We are kings of the world!",
+      "We are a right damn good team!",
+      "Ahh HELL YEAH!",
+      "That's how it's done RIGHT!"
+    ],
+    "PlayerTransitionCloseMechanic": [
+      "YEAH!",
+      "I can't hardly believe we made that!",
+      "That was closer than a... well shit man that was just straight up close!",
+      "Who here didn't think we were gonna make that?",
+      "That there was some crazy shit, man!",
+      "Oh shit yeah! Oh shit yeah!",
+      "Elvis has left the building!",
+      "Oh man! Alright. You might want to clean your drawers after that one! I know I do.",
+      "We gonna need to do better than THAT.",
+      "Dude, we just got our asses handed to us.",
+      "[whistles] That was BRUTAL!",
+      "THAT... was a pretty poor display.",
+      "We'll call that one a tie.",
+      "You know what? We'll call that one a tie.",
+      "We're still standin'!",
+      "Woooow!",
+      "Wow, man!"
+    ],
+    "PlayerUsingDefibrillatorMechanic": [
+      "Clear!",
+      "Come on!",
+      "Come ON!",
+      "Come back, come back!",
+      "Work, damn it..."
+    ],
+    "PlayerWarnHeardBoomerMechanic": [
+      "I hear a boomer.",
+      "Hey, think I heard a boomer.",
+      "Careful, boomer 'round.",
+      "Think I heard a boomer."
+    ],
+    "PlayerWarnHeardBoomerC1Mechanic": [
+      "I hear one of those strange ones.",
+      "What in the hell is making that noise?",
+      "Dude, I do not like the sound of that.",
+      "That is not a happy noise.",
+      "I hope we don't meet whatever's making that noise.",
+      "Worse than zombies?",
+      "I do not like the sound of that.",
+      "That ain't a happy noise."
+    ],
+    "PlayerWarnHeardChargerMechanic": [
+      "Charger around.",
+      "I hear a charger.",
+      "Hear that charger?"
+    ],
+    "PlayerWarnHeardChargerC1Mechanic": [
+      "I hear one of those strange ones.",
+      "What in the hell is making that noise?",
+      "Dude, I do not like the sound of that.",
+      "That is not a happy noise.",
+      "I hope we don't meet whatever's making that noise.",
+      "Worse than zombies?",
+      "I do not like the sound of that.",
+      "That ain't a happy noise."
+    ],
+    "PlayerWarnHeardHunterMechanic": [
+      "I hear a hunter around.",
+      "Careful.  Hunter.",
+      "I hear a hunter."
+    ],
+    "PlayerWarnHeardHunterC1Mechanic": [
+      "I hear one of those strange ones.",
+      "What in the hell is making that noise?",
+      "Dude, I do not like the sound of that.",
+      "That is not a happy noise.",
+      "I hope we don't meet whatever's making that noise.",
+      "Worse than zombies?",
+      "I do not like the sound of that.",
+      "That ain't a happy noise."
+    ],
+    "PlayerWarnHeardJockeyMechanic": [
+      "I hear one of those back humpers around here.",
+      "A freaking jockey's around.",
+      "Hey, watch your back, jockey's around here.",
+      "I hate them things",
+      "I hate those jockeys.",
+      "That is just offensive what they do.",
+      "Dude,I hear one of those back humpers around.",
+      "There's a freaking jockey's around here."
+    ],
+    "PlayerWarnHeardJockeyC1Mechanic": [
+      "I think that's one of them little things."
+    ],
+    "PlayerWarnHeardSmokerMechanic": [
+      "Smoker around these parts.",
+      "Careful, Smoker.",
+      "Hey, I hear a smoker."
+    ],
+    "PlayerWarnHeardSmokerC1Mechanic": [
+      "I hear one of those strange ones.",
+      "What in the hell is making that noise?",
+      "Dude, I do not like the sound of that.",
+      "That is not a happy noise.",
+      "I hope we don't meet whatever's making that noise.",
+      "Worse than zombies?",
+      "I do not like the sound of that.",
+      "That ain't a happy noise."
+    ],
+    "PlayerWarnHeardSpitterMechanic": [
+      "I hear a spitter.",
+      "Spitting thing's around.",
+      "I hear one of them spitters."
+    ],
+    "PlayerWarnHeardSpitterC1Mechanic": [
+      "I hear one of those strange ones.",
+      "What in the hell is making that noise?",
+      "Dude, I do not like the sound of that.",
+      "That is not a happy noise.",
+      "I hope we don't meet whatever's making that noise.",
+      "Worse than zombies?",
+      "I do not like the sound of that.",
+      "That ain't a happy noise."
+    ],
+    "PlayerWarnHeardWitchMechanic": [
+      "That crying girl's around.",
+      "Hey, I hear a witch.",
+      "I hear a witch crying."
+    ],
+    "PlayerWarnHeardWitchC1Mechanic": [
+      "Hey, do you hear that crying?",
+      "Dude, she don't sound happy.",
+      "Let's not go by the crying girl.",
+      "Seriously, I'm thinkin' we should just leave the crying girl alone.",
+      "I don't like the sound of that crying.",
+      "I'm not - I'm not going near the crying gril."
+    ],
+    "PlayerWarnMegaMobMechanic": [
+      "Get ready!",
+      "Here they come!",
+      "Y'all get ready!"
+    ],
+    "PlayerWarnMegaMobC501Mechanic": [
+      "Get ready!",
+      "Here they come!",
+      "Y'all get ready!"
+    ],
+    "PlayerWarnWitchAngryMechanic": [
+      "That witch is having a hissy fit.",
+      "Oh shit man, that witch is a spaz!",
+      "Tell ya man, y'all playin' with fire when you messin' with that damn witch.",
+      "Back away from that witch.",
+      "Don't mess with the damn witch."
+    ],
+    "PlayerWorldIntroC31BlankMechanic": [
+      "Blank"
+    ],
+    "PlayerWorldIntroC51Mechanic": [
+      "Blank"
+    ],
+    "PlayerWorldIntroC51BlankMechanic": [
+      "Blank"
+    ],
+    "SurvivorCaughtVomitMechanic": [
+      "Oh.. ah.. this stuff sucks!",
+      "I can't see shit!",
+      "Oh, Christ! I'm all gooed.",
+      "Christ in a hand basket!  I'm gooed!"
+    ],
+    "SurvivorchargerpoundMechanic": [
+      "Charger's got me!",
+      "Shoot the charger, man! Shoot the charger!",
+      "It's killing me!",
+      "He's bashing me into shit!",
+      "Ahhh hell it's pounding me to death!",
+      "Charger's ripping me up!",
+      "Kill this thing!",
+      "Shoot the damn thing!",
+      "Just shoot it! SHOOT IT!"
+    ],
+    "SurvivorCoughingMechanic": [
+      "[Coughing from smoke]"
+    ],
+    "SurvivorCoughingDeathMechanic": [
+      "[Coughing from smoke]"
+    ],
+    "SurvivorDeathMechanic": [
+      "[Loud painful death scream]",
+      "[Short quick death scream]"
+    ],
+    "SurvivorGooedBySpitterMechanic": [
+      "I got spitter shit on me!",
+      "Spitter goo!",
+      "Get out of the spitter goo!",
+      "Ahh hell, man, spitter goo.",
+      "Move, move, I'm in spitter shit.",
+      "GODDAMN! GOO!",
+      "This stuff burns, man!"
+    ],
+    "SurvivorGooedBySpitterC1Mechanic": [
+      "Ah this shit burns!!?!?",
+      "What the hell!?!? Spittin' fire?",
+      "Hey run, man! This is some crazy shit."
+    ],
+    "SurvivorGrabbedByTongueMechanic": [
+      "no, No,  No, NO!!!!!!!!",
+      "Ugh!",
+      "Agh!",
+      "NO!",
+      "Daaa-ugh!!",
+      "no, No, NOOOOOOO!!!!!!!!!",
+      "NOOOOOOO!!!!",
+      "no, No,  No, NO, NO!!!!!!!!",
+      "Ah, NO!",
+      "AAGH!",
+      "Ngahhh!",
+      "SMOKER'S GOT ME!!",
+      "D'OH, OH!",
+      "DAAAAH!!"
+    ],
+    "SurvivorGrabbedByTongueC1Mechanic": [
+      "What the hell's got me?!?!",
+      "Oh! I've been lassoed!",
+      "I can't move help!",
+      "I'm getting dragged away!",
+      "Where's this thing draggin' me?!?!?",
+      "Mother f... TONGUE!!!"
+    ],
+    "SurvivorNearCheckpoinC3M1tMechanic": [
+      "Safehouse, we gotta be going the right way!"
+    ],
+    "SurvivorPouncedByHunterMechanic": [
+      "GET HIM OFF! GET HIM OFF! GET HIM OFF!",
+      "GET HIM OFF!",
+      "OFF!",
+      "GET HIM OFF ME DAMMIT!",
+      "AH, OW!!",
+      "GET HIM OFF! GET HIM OFF! GET HIM OFF! GET HIM OFF!",
+      "...GET",
+      "OFF!!"
+    ],
+    "SurvivorTankPoundMechanic": [
+      "JESUS CHRIST SHOOT THIS MOTHER!",
+      "KILL THE BASTARD WILL YA!",
+      "This thing's crushin' the shit outa me!",
+      "KILL THIS THING!"
+    ],
+    "SurvivorVocalizeBackUpMechanic": [
+      "Whoa, back it up!",
+      "Come on, back up!",
+      "Move back! Move back!",
+      "Back it up!",
+      "Back up!",
+      "Come on, move back!",
+      "Hey, back it up!"
+    ],
+    "SurvivorVocalizeEmphaticGoMechanic": [
+      "Let's  go!",
+      "Go!",
+      "Go go go!",
+      "Hey man, we gotta go!",
+      "Just run!"
+    ],
+    "SurvivorVocalizeFollowMeMechanic": [
+      "Follow me.",
+      "Come on, stick with me y'all.",
+      "Follow me this way.",
+      "This way, guys!"
+    ],
+    "SurvivorVocalizeGoingToDieMechanic": [
+      "This was not in my plan.",
+      "I'm hurtin' real bad.",
+      "I hurt aplenty.",
+      "I'm all torn up.",
+      "This ain't right.",
+      "They knocked the piss out of me.",
+      "Ohh.....",
+      "I've got a misery in my bones.",
+      "I ain't lyin', this hurts!",
+      "I don't feel right.",
+      "I think I really hurt something.",
+      "Oh man, oh man, oh man.",
+      "Best be findin' me a health kit.",
+      "I ain't just goin' on, I'm really hurt.",
+      "Y'all , y'all I'm hurt!",
+      "Ah hell no, ah hell no.",
+      "These here zombies are tryin' to kill me.",
+      "Ahh shit this hurts.",
+      "Man, I ain't doin' too good.",
+      "Oh, man, I'm hurtin'.",
+      "Com come on. I gotta keep up, gotta keep up.",
+      "I am all tuckered out.",
+      "Goddamn I hurt!",
+      "I could go for a nap, right now."
+    ],
+    "SurvivorVocalizeGoingToDie3Mechanic": [
+      "Well screw me.  I'm not gonna make it.",
+      "I reckon if this keeps up, I'm gonna die.",
+      "I don't mean to be cursing myself, but I think I'm gonna die.",
+      "I hurt so bad, I don't see right."
+    ],
+    "SurvivorVocalizeLookOutMechanic": [
+      "Hey look out!",
+      "Hey watch out!",
+      "Look out now!"
+    ],
+    "SurvivorVocalizeThisWayMechanic": [
+      "Follow me.",
+      "Come on, stick with me y'all.",
+      "Follow me this way.",
+      "This way, guys!"
+    ],
+    "SurvivorVocalizeWaitHereMechanic": [
+      "Freeze",
+      "Wait right here.",
+      "Hey, stop a minute.",
+      "Hold up real quick."
+    ],
+    "SurvivorWarnSpitterIncomingMechanic": [
+      "GOO!",
+      "GOO INBOUND!",
+      "SPIT COMING!",
+      "HEADS UP!"
+    ],
+    "PlayerLedgeHangEndMechanic": [
+      "AHH SHIIIITTTT!!  HELP ME OUT!",
+      "THIS IS NOT  HOW I WANT TO DIE, MAN - HELP!",
+      "HEY Y'ALL I CAN'T HANG HERE ANYMORE!",
+      "PLEASE MAN, COME ON NOW!"
+    ],
+    "PlayerLedgeHangMiddleMechanic": [
+      "Come on y'all I can't hang on all day!",
+      "I could still use a hand over here!",
+      "This here is gettin' scary! I need some help, guys!",
+      "Don't mean to be no bother, but i need some help!",
+      "Don't mean to be no bother guys, but i need some help over here!"
+    ],
+    "PlayerLedgeHangStartMechanic": [
+      "Hey! I seem to have fallen and yeah, I can't get up.",
+      "Hey If anyone don't mind none, could use a hand!",
+      "I'm on this here ledge!",
+      "Ah hell, I'm hangin'.  Over here!",
+      "If y'all miss me, I'm over here hangin' on the ledge. Over here."
+    ],
+    "DoubleDeathMechanic": [
+      "Oh shit man! Oh shit man.  Oh SHIT..."
+    ],
+    "DoubleDeath2Mechanic": [
+      "This is gettin' as serious as a heart attack!",
+      "Ohhh... don't you leave me now!"
+    ],
+    "SurvivorDiedCoachMechanic": [
+      "Coach!"
+    ],
+    "SurvivorDiedGamblerMechanic": [
+      "Nick."
+    ],
+    "SurvivorDiedProducerMechanic": [
+      "Rochelle!",
+      "Ro!"
+    ],
+    "SurvivorDeployUpExplosivesMechanic": [
+      "Deploying frag rounds!"
+    ],
+    "SurvivorDeployUpIncendiaryMechanic": [
+      "Deploying fire bullets!",
+      "I'm deploying some fire bullets!",
+      "Everybody grab some incendiary ammo!",
+      "Hey, everybody grab some incendiary ammo!",
+      "Hey, everybody let's grab some incendiary ammo!"
+    ],
+    "SurvivorPickupAdrenalineMechanic": [
+      "Grabbin' a shot!"
+    ],
+    "SurvivorPickupAdrenalineAlwaysMechanic": [
+      "Grabbin' a shot!"
+    ],
+    "SurvivorPickupAutoShotgunMechanic": [
+      "Going with the shotgun.",
+      "Yeah, I'm taking the shotgun.",
+      "This shotgun feels right. It feels real right."
+    ],
+    "SurvivorPickupAutoShotgunAlwaysMechanic": [
+      "Going with the shotgun.",
+      "Yeah, I'm taking the shotgun.",
+      "This shotgun feels right. It feels real right."
+    ],
+    "SurvivorPickupbaseball_batMechanic": [
+      "Man, I'm gonna beat these sons of bitches till I lose my watch.",
+      "Time to beat on some sons of bitches.",
+      "Gonna beat me a zombie till there ain't a chunk big enough to hit.",
+      "Ohh... I am gonna bash some heads with this.",
+      "I'm gonna mess some zombies up now."
+    ],
+    "SurvivorPickupchainsawMechanic": [
+      "I got a chainsaw.",
+      "Man, if I lose my hand, I'm stitchin' this thing onto the stump.",
+      "Ain't a problem in the world can't be solved with a chainsaw.",
+      "Yeah, this'll work.",
+      "Oh hell yes."
+    ],
+    "SurvivorPickupcricket_batMechanic": [
+      "Man, I'm gonna beat these sons of bitches till I lose my watch.",
+      "Time to beat on some sons of bitches.",
+      "I don't know, some sort of bat here.",
+      "Bat thing here.",
+      "Grabbin' a problem solver.",
+      "I'm gonna mess some zombies up now.",
+      "This shit'll knock some heads."
+    ],
+    "SurvivorPickupCricketBatMechanic": [
+      "Yeah, this'll work.",
+      "This feels right.",
+      "This'll be fun.",
+      "Oh, now, this just might be better than a gun.",
+      "Step back everybody!",
+      "Ohh... I am gonna bash some heads with this.",
+      "I'm gonna mess some zombies up now.",
+      "I'm gonna beat 'em like rented mules with this.",
+      "This shit'll knock some heads."
+    ],
+    "SurvivorPickupCrowBarMechanic": [
+      "Grabbing a crowbar.",
+      "This feels right.",
+      "This'll be fun."
+    ],
+    "SurvivorPickupDefibrillatorMechanic": [
+      "Got some chest paddles.",
+      "Got a defib unit."
+    ],
+    "SurvivorPickupelectric_guitarMechanic": [
+      "Grabbing a guitar.",
+      "Hey, grabbing an axe."
+    ],
+    "SurvivorPickupFireAxeMechanic": [
+      "Yeah, always wanted to be an Axe murderer.",
+      "An axe!",
+      "Axe!",
+      "Oh yeah! Look who has an axe.",
+      "Well, somebody just got themselves an axe.",
+      "I got myself an axe!"
+    ],
+    "SurvivorPickupFirstAidKitMechanic": [
+      "Hope you don't mind, I'm a take this first aid kit here.",
+      "Grabbing first aid.",
+      "First Aid Kit.",
+      "Hey I got a first aid kit if somebody needs it."
+    ],
+    "SurvivorPickupFirstAidKitAlwaysMechanic": [
+      "Hope you don't mind, I'm a take this first aid kit here.",
+      "Grabbing first aid.",
+      "First Aid Kit.",
+      "Hey I got a first aid kit if somebody needs it."
+    ],
+    "SurvivorPickupFirstSMGMechanic": [
+      "I ain't never been so happy to see a gun.",
+      "Guns! Now there's a sight for sore eyes.",
+      "Guns here! This'll help clear a path."
+    ],
+    "SurvivorPickupFryingPanMechanic": [
+      "Spang!",
+      "Man, some zombie's gonna have a headache after this.",
+      "Well somebody's gonna make them some zombie grits!",
+      "Frying pan, yeah!",
+      "Frying pan!",
+      "Let's make some grits."
+    ],
+    "SurvivorPickupGrenadeLauncherMechanic": [
+      "Taking the Grenade Launcher!",
+      "Hey, I gotta take the Grenade Launcher!",
+      "Oh hell yeah, I gotta take the Grenade Launcher!"
+    ],
+    "SurvivorPickupGunC1M2Mechanic": [
+      "I'm grabbin a gun, should we leave some money for these?"
+    ],
+    "SurvivorPickupHuntingRifleMechanic": [
+      "I'm gonna snipe.",
+      "I'm gonna be a sniper like in the movies.",
+      "Grabbing this here sniper rifle."
+    ],
+    "SurvivorPickupHuntingRifleAlwaysMechanic": [
+      "I'm gonna snipe.",
+      "I'm gonna be a sniper like in the movies.",
+      "Grabbing this here sniper rifle."
+    ],
+    "SurvivorPickupIncendiaryAmmoMechanic": [
+      "Cool.",
+      "Time to start some fires.",
+      "Time to start some fires. Who's with me?",
+      "Alright, alright."
+    ],
+    "SurvivorPickupKatanaMechanic": [
+      "Katana here.",
+      "I'm gonna grab this katana.",
+      "Grabbing a katana.",
+      "Grabbing the cool-ass ninja sword.",
+      "Grabbing the ninja sword.",
+      "Grabbing the ninja sword. Wish I'd brought my throwing stars.",
+      "Grabbing the ninja sword. Anybody sees some nunchuks, gimme a holler.",
+      "Alright, alright."
+    ],
+    "SurvivorPickupLaserSightsAlwaysMechanic": [
+      "Cool.",
+      "Oh, cool!"
+    ],
+    "SurvivorPickupMacheteMechanic": [
+      "Got a machete.",
+      "This feels right."
+    ],
+    "SurvivorPickupMagnumMechanic": [
+      "Here we go."
+    ],
+    "SurvivorPickupMagnumAlwaysMechanic": [
+      "Here we go."
+    ],
+    "SurvivorPickupMolotovMechanic": [
+      "Gonna play with fire.",
+      "Grabbin' fire in a bottle, baby.",
+      "I got the Molotov!",
+      "Grabbin' fire in a bottle.",
+      "I'm grabbing the Mollie.",
+      "Mollie's mine.",
+      "Grabbin' a Molotov!"
+    ],
+    "SurvivorPickupMolotovAlwaysMechanic": [
+      "Gonna play with fire.",
+      "Grabbin' fire in a bottle, baby.",
+      "I got the Molotov!",
+      "Grabbin' fire in a bottle.",
+      "I'm grabbing the Mollie.",
+      "Mollie's mine.",
+      "Grabbin' a Molotov!"
+    ],
+    "SurvivorPickupPainPillsMechanic": [
+      "Grabbing pills.",
+      "Somebody gonna need these. (inward)",
+      "Hey we might need these."
+    ],
+    "SurvivorPickupPainPillsAlwaysMechanic": [
+      "Grabbing pills.",
+      "Somebody gonna need these. (inward)",
+      "Hey we might need these."
+    ],
+    "SurvivorPickupPipeBombMechanic": [
+      "Grabbing a pipe bomb.",
+      "Pipe bomb, baby!",
+      "I got a pipebomb!"
+    ],
+    "SurvivorPickupPipeBombAlwaysMechanic": [
+      "Grabbing a pipe bomb.",
+      "Pipe bomb, baby!",
+      "I got a pipebomb!"
+    ],
+    "SurvivorPickupPumpShotgunMechanic": [
+      "I'll try this shotgun.",
+      "Shotgun.",
+      "Yeah, I'll take the shotgun."
+    ],
+    "SurvivorPickupPumpShotgunAlwaysMechanic": [
+      "I'll try this shotgun.",
+      "Shotgun.",
+      "Yeah, I'll take the shotgun."
+    ],
+    "SurvivorPickupRifleMechanic": [
+      "Goin' with the rifle.",
+      "Taking the rifle.",
+      "This rifle right here got my name all over it.",
+      "Man, I wanted this rifle since I was nine."
+    ],
+    "SurvivorPickupRifleAlwaysMechanic": [
+      "Goin' with the rifle.",
+      "Taking the rifle.",
+      "This rifle right here got my name all over it.",
+      "Man, I wanted this rifle since I was nine."
+    ],
+    "SurvivorPickupSecondPistolMechanic": [
+      "Grabbing a pistol!",
+      "Pistol!",
+      "Goin' with double pistols.",
+      "Heck yeah. Goin' with two pistols.",
+      "I'll grab that pistol!"
+    ],
+    "SurvivorPickupSMGMechanic": [
+      "Machinegun.",
+      "Yeah, I'll take it.",
+      "This'll have to do.",
+      "I guess it'll do. Yeah, whatever, it's a machinegun."
+    ],
+    "SurvivorPickupSMGAlwaysMechanic": [
+      "Machinegun.",
+      "Yeah, I'll take it.",
+      "This'll have to do.",
+      "I guess it'll do. Yeah, whatever, it's a machinegun."
+    ],
+    "SurvivorPickuptonfaMechanic": [
+      "Grabbing a nightstick.",
+      "nightstick here...",
+      "[humming] Gonna beat me a zombie to death... with a nightstick...",
+      "Time to beat on some sons of bitches.",
+      "This feels right.",
+      "This shit'll knock some heads."
+    ],
+    "SurvivorPickupUpExplosiveAmmoMechanic": [
+      "Cool.",
+      "Oh, cool!"
+    ],
+    "SurvivorPickupUpExplosivesMechanic": [
+      "Grabbin' some frag rounds!",
+      "I'm gonna grab some of these frag rounds!"
+    ],
+    "SurvivorPickupUpIncendiaryMechanic": [
+      "Grabbin' fire bullets!",
+      "I'm grabbin' some fire bullets!"
+    ],
+    "SurvivorPickupUpIncendiaryAmmoMechanic": [
+      "Cool.",
+      "Time to start some fires.",
+      "Time to start some fires. Who's with me?",
+      "Alright, alright."
+    ],
+    "SurvivorPickupVomitJarMechanic": [
+      "Grabbin' a bile bomb!",
+      "Grabbin' a bile jar!"
+    ],
+    "SurvivorPickupVomitJarAlwaysMechanic": [
+      "Grabbin' a bile bomb!",
+      "Grabbin' a bile jar!"
+    ],
+    "SurvivorPickupVomitJarAlwaysC1Mechanic": [
+      "Grabbin' a bile jar!"
+    ],
+    "SurvivorPickupVomitJarC1Mechanic": [
+      "Grabbin' a bile jar!"
+    ],
+    "PlayerGettingRevivedMechanic": [
+      "Bleedin'.",
+      "Think I'm okay.",
+      "I hurt aplenty",
+      "I hurt.",
+      "I'm pretty torn up.",
+      "Reckon I'm okay.",
+      "Reckon I been better.",
+      "I'm okay.",
+      "I'm alright.",
+      "Good... I think.",
+      "I could be better.",
+      "Hell, I don't know.",
+      "Do I look all right?",
+      "Hurtin'.",
+      "Been better.",
+      "Cool.",
+      "Good, how're you?",
+      "I'm just great, thanks.",
+      "Sorry, don't mean to put you out none.",
+      "Hell no, I ain't cryin'.",
+      "I still got some fight in me.",
+      "I'll live.",
+      "Little sore.",
+      "Pissed at myself."
+    ],
+    "PlayerHealOtherMechanic": [
+      "Hold on let me heal ya!",
+      "Let me patch ya up,",
+      "Let me use this health kit on ya.",
+      "Hear ya go, had no use for this anyhow.",
+      "Hear ya go, had no use for this anyhow. I ain't gonna get shot.",
+      "Let me heal ya, this what friends are for!",
+      "Let me heal ya up now, this what friends are for!",
+      "Here ya go now. You'll probably put this to better use than me.",
+      "You'll probably put this to better use than me anyhow."
+    ],
+    "PlayerHealOtherC1Mechanic": [
+      "I don't know what I'm doin, so hold on a minute.",
+      "I don't know what I'm doin, so just hold on.",
+      "Let me try and fix you up.",
+      "I better practice on you before I do this on myself.",
+      "Hang on a minute, I think it goes somethin' like this."
+    ],
+    "PlayerHealOtherCombatMechanic": [
+      "Hold on! Hold on!",
+      "Stay still, I'm healin' ya!",
+      "Don't stop shootin'!",
+      "Keep shootin', man, Keep shootin!"
+    ],
+    "PlayerLedgeSaveMechanic": [
+      "I gotcha, I gotcha.  Try not to look down.",
+      "Hey, Ellis got ya.  Ain't nothin' gonna happen to ya now.",
+      "Hey, we gonna make this right, let's get ya up.",
+      "Oh hang on there, let's get ya up on your feet."
+    ],
+    "PlayerReviveFriendMechanic": [
+      "Dude, you don't look so good.  Let me get you up.",
+      "Ah man, I don't like to see ya like this.  Come on now, let me help ya up.",
+      "You ain't no good to us down there. We gotta get you back on your feet.",
+      "Ain't no harm in going down. Let Ellis help you up.",
+      "Don't worry.  We all go down.  You'll be fine once we get you up on your feet.",
+      "Don't worry, don't worry.  This ain't nothin but a scratch.",
+      "You know I'd never leave ya down there. Let me help ya up.",
+      "Ahh come on, you can't just stay down there. We got zombies to kill and shit.",
+      "Hey don't worry.  We all go down.  It's fine lemme just get you up.",
+      "Hey you all right?",
+      "Y'all okay?",
+      "Hey you gonna be right?",
+      "Can you make it?",
+      "Does it hurt?",
+      "Can I halp?",
+      "You good?"
+    ],
+    "PlayerReviveFriendBMechanic": [
+      "Alright, well let's go now.",
+      "Okay, on your feet.",
+      "Up we go!",
+      "Alright, upsy daisy!",
+      "See you're all good.",
+      "I knew you'd be okay.",
+      "There you go. Right back to normal.",
+      "Good as new. Let's go kill some zombies.",
+      "On your feet now",
+      "Well let's get you up.",
+      "Alright now, you gonna be all right.",
+      "There ya go. Good as new.",
+      "You'll be good.",
+      "Ah come on now, you'll be all right.",
+      "Shake it off and let's go."
+    ],
+    "PlayerReviveFriendCriticalMechanic": [
+      "Hey, I don't mean to be scarin' ya none. But you go down like that again and that's it.",
+      "Alright, I'm 'onna get ya up. But if you don't heal yourself right quick, that's it for ya.",
+      "I know your tough. But we gotta get you healed up quick like. You understand me?"
+    ],
+    "PlayerReviveFriendLoudMechanic": [
+      "Oh shit, we ain't got time for this.  GET UP, GET UP!",
+      "Get your ass up, NOW! C'MON!",
+      "Well... GET UP! GET UP!",
+      "I ain't leavin' ya, But you better GET UP!"
+    ],
+    "_C1M1_ElevatorHelloMechanic": [
+      "You don't say? Wrestlin' and such?",
+      "Ellis.",
+      "Ellis. Pleased to meet you, Coach.",
+      "Ellis. Nice to meet you, Nick.",
+      "Folks call me Ellis. How 'bout you?",
+      "People call me Ellis. You?",
+      "Folks call me Ellis. I run an auto shop with a couple of my buddies. We're also in a band. I play bass.",
+      "Folks call me Ellis. I run an auto shop around here. Instead of evacuatin, I armored up a truck to drive myself out of here. Built that thing to be zombie proof.",
+      "Turns out it was only 99% zombie proof. The last 1% tore that truck to SHIT.",
+      "Huh. If everybody's evacuatin', who's watchin the news?",
+      "Folks call me Ellis. And I learned how to shoot a gun before I learned how to walk.",
+      "Folks call me Ellis. And I learned how to shoot a gun before I learned how to walk, white suit Nick.",
+      "Figures. Bosses are shitheads. My name's Ellis.",
+      "That's right! My name's Ellis, and I've lived here all my life. And there's tons of places here that ain't pieces of shit.",
+      "Yeah? How you like our city so far?",
+      "Yeah, well it's normally a lot nicer when we don't have the zombies. I'm Ellis, by the way.",
+      "You can call me Ellis.",
+      "Ellis. How 'bout you, big man?"
+    ],
+    "_C1M1_ElevatorHello02cMechanic": [
+      "Ellis, my name is Ellis."
+    ],
+    "_C1M1_ElevatorHello03aMechanic": [
+      "My name is Ellis, but some people call me El. I really prefer Ellis as El sounds like a girl's name. But if you prefer to call me El you can."
+    ],
+    "_C1M1_ElevatorHello03dMechanic": [
+      "Ellis."
+    ],
+    "_C1M1_ElevatorHello05bMechanic": [
+      "Ellis. It's a pleasure to meet you, Rochelle."
+    ],
+    "_c1m4startelevator2Mechanic": [
+      "If you're looking for ideas, look no further. Because I have a good one."
+    ],
+    "_c1m4startelevator2aMechanic": [
+      "Actually, I been thinking..."
+    ],
+    "_c1m4startelevator2bMechanic": [
+      "I might have an idea."
+    ],
+    "_c1m4startelevator2cMechanic": [
+      "I've got an idea. You know them posters we been seein? Get your picture taken with Jimmy Gibbs' stock car? That means it's HERE. We just need to appropriate it, and we got ourselves an escape vehicle."
+    ],
+    "_c1m4startelevator3Mechanic": [
+      "I've got an idea. Jimmy Gibbs, Jr. ain't gonna mind if we borrow his stock car. He's a very generous man."
+    ],
+    "_c1m4startelevator3aMechanic": [
+      "So I been thinking. Jimmy Gibbs' stock car's around here somewhere. We just gotta find it, gas it up, and I'll drive that thing to New Orleans my damn self."
+    ],
+    "_c1m4startelevator3bMechanic": [
+      "Let's go find Jimmy Gibbs' stock car. We get that thing gassed up, we can drive out of here."
+    ],
+    "_c1m4startelevator5aMechanic": [
+      "Now remember: They don't fill up the tanks at car shows, so we'll have to find some gas.",
+      "Alright, I'm bettin' the gas tank'll probably be empty. We'll have to gas it up before we can haul ass."
+    ],
+    "_c1m4startelevator5a1Mechanic": [
+      "Only if I get kilt. Otherwise you better kill me, cause I'M driving.",
+      "I actuallly think the guy who came up with the idea should get to drive the stock car."
+    ],
+    "_c1m4startelevator5bMechanic": [
+      "Wherever he is, Coach-he's proud of you."
+    ],
+    "_c2m1_searchlights01Mechanic": [
+      "That'd be Whispering Oaks Amusement Park, right there."
+    ],
+    "_C2M2_Bathroom01Mechanic": [
+      "Whoa! Sorry Rochel!e!"
+    ],
+    "_C2M2_Kiddie03Mechanic": [
+      "I wanna ride one! Just one! Just lemme ride the Screaming Oak once. Man, when we ever gonna be here again?"
+    ],
+    "_C2M2_Peanut01Mechanic": [
+      "Man, how can you not like Lil Peanut? I love this little guy!",
+      "You guys are jaded. I used to have his toys when I was bite-sized. That little stuffed peanut was the best friend a boy could have."
+    ],
+    "_C2M2_Riders02Mechanic": [
+      "I'll back you up on that. Hell of a show."
+    ],
+    "_C2M2_Riders03Mechanic": [
+      "I saw 'em in '07. Front row center. Lost my eyebrows.",
+      "I heard when they play? You can see the show from SPACE.",
+      "I heard they gotta cancel the concert if there's a breeze, cause any town downwind'll catch on FIRE."
+    ],
+    "_C2M2_Riders04Mechanic": [
+      "Uh, yeah, they're a pretty big deal, alright."
+    ],
+    "_C2M2_Riders06Mechanic": [
+      "I saw 'em in '07. Front row center. Lost my eyebrows.",
+      "I heard when they play? You can see the show from SPACE.",
+      "I heard they gotta cancel the concert if there's a breeze, cause any town downwind'll catch on FIRE."
+    ],
+    "_C2M2_Slide01Mechanic": [
+      "Man, what are y'all in a hurry for? This is awesome."
+    ],
+    "_C2M2_ThisTall02Mechanic": [
+      "You're a real comedian, Nick.",
+      "Ha ha ha.",
+      "Well, aren't you a real comedian."
+    ],
+    "_c2m3_cement01Mechanic": [
+      "Ha ha ha.",
+      "Yeah, very funny."
+    ],
+    "_c2m3_coaster01Mechanic": [
+      "We gotta run the coaster?",
+      "Aw, man, this is gonna be cool.",
+      "Ohmigod!"
+    ],
+    "_c2m3_coaster03Mechanic": [
+      "Ohmigod, it's Christmas."
+    ],
+    "_c2m3_coaster06Mechanic": [
+      "We gotta run the coaster?"
+    ],
+    "_c2m3_coaster07Mechanic": [
+      "Aw, man, this is gonna be cool.",
+      "Ohmigod, it's Christmas.",
+      "Holy shit, it's Christmas."
+    ],
+    "_c2m3_coaster08Mechanic": [
+      "We gotta run the coaster?",
+      "Aw, man, this is gonna be cool.",
+      "Ohmigod, it's Christmas.",
+      "Holy shit, it's Christmas."
+    ],
+    "_c2m3_coollight01Mechanic": [
+      "This is awesome, man!"
+    ],
+    "_c2m3_howcoolMechanic": [
+      "Okay, come on, how cool is this?"
+    ],
+    "_C2M4_GateOpen001Mechanic": [
+      "Let's go! Let's GO!"
+    ],
+    "_C4_BigStormHits01Mechanic": [
+      "STORM!",
+      "STORM COMIN'!"
+    ],
+    "_C4_BigStormHits02Mechanic": [
+      "DON'T WANDER OFF!",
+      "DON'T NOBODY WANDER OFF!"
+    ],
+    "_c4m1_rainresponseMechanic": [
+      "Is it rainin? Never mind, it is.",
+      "Aw what the hell? It's rainin'.",
+      "Aw, shit, it's rainin'."
+    ],
+    "_c4m1Intro04Mechanic": [
+      "Oh, there's flares in the gun bag."
+    ],
+    "_c4m1Intro06Mechanic": [
+      "You didn't grab the guns?"
+    ],
+    "_c4m1Intro08Mechanic": [
+      "Pretty much everybody."
+    ],
+    "_c4m1Intro12Mechanic": [
+      "Nope."
+    ],
+    "_c4m2_caneyell01Mechanic": [
+      "KEEP MOVING!"
+    ],
+    "_c4m2_ElevatorHere01Mechanic": [
+      "ELEVATOR'S HERE!",
+      "HEY EVERYBODY GET IN THE ELEVATOR!"
+    ],
+    "_c4m2_gasinside01Mechanic": [
+      "Sweet. Let's go get it."
+    ],
+    "_c4m2_seestation01Mechanic": [
+      "Through the cane field!"
+    ],
+    "_c4m2_seestation02Mechanic": [
+      "It's sugar cane, Nick."
+    ],
+    "_c4m2_streetblocked01Mechanic": [
+      "Let's head through the mill."
+    ],
+    "_c4m2_streetblocked02Mechanic": [
+      "Let's head through the mill."
+    ],
+    "_c4m2_waterpool01Mechanic": [
+      "Oh hell yes."
+    ],
+    "_c4m2_Witchville05Mechanic": [
+      "Man, I'm gonna start cryin' in a minute."
+    ],
+    "_c4m3_rain02Mechanic": [
+      "A lot worse'n this. We gotta haul ass outta here."
+    ],
+    "_c4m3_startsafe02Mechanic": [
+      "I got one.",
+      "Yup. Got one."
+    ],
+    "_c4m3_startsafe03Mechanic": [
+      "Let's get back to the damn boat"
+    ],
+    "_C4M4_FLOODED01Mechanic": [
+      "It's like a fabled city of Atlantis."
+    ],
+    "_C4M4_garagesale01Mechanic": [
+      "We're headed the right way!"
+    ],
+    "_C4M5_BoatComing01Mechanic": [
+      "VIRGIL!",
+      "VIRGIL, WHAT'S UP BROTHER?!"
+    ],
+    "_C4M5_Intro03Mechanic": [
+      "Hey, what if we turn on the burger tank sign?"
+    ],
+    "_C4M5_Intro04Mechanic": [
+      "Sounds like a plan."
+    ],
+    "_introc1m1Mechanic": [
+      "COME BACK! WE'RE STILL HERE!"
+    ],
+    "_introc1m1a04Mechanic": [
+      "That chopper looks like it's headin' to the evac center over at the mall."
+    ],
+    "_introc1m1b02Mechanic": [
+      "Do you think they saw us?"
+    ],
+    "c1m1_elevator_door_open": [
+      "[Coughing from smoke]"
+    ],
+    "c1m1_elevator_ready2Mechanic": [
+      "Might be a welcomin' committee when these doors open. Get ready"
+    ],
+    "C1M1_ElevatorHello01_02C5Mechanic": [
+      "Ellis, my name is Ellis."
+    ],
+    "C1M1_ElevatorHello01_02G2Mechanic": [
+      "Folks call me Ellis. I run an auto shop around here. Instead of evacuatin, I armored up a truck to drive myself out of here. Built that thing to be zombie proof."
+    ],
+    "C1M1_ElevatorHello01_02G3Mechanic": [
+      "Turns out it was only 99% zombie proof. The last 1% tore that truck to SHIT."
+    ],
+    "C1M1_ElevatorHello01_02PC3Mechanic": [
+      "Who'd we lose?"
+    ],
+    "C1M1_ElevatorHello01_03a3Mechanic": [
+      "Ellis, my name is Ellis."
+    ],
+    "C1M1CoughMechanic": [
+      "[Coughing from smoke]"
+    ],
+    "C1M2SafeRoom2Mechanic": [
+      "Ooh, I know a gun store we can stop at along the way. Get ourselves some REAL weapons."
+    ],
+    "C1M3AlarmOffaMechanic": [
+      "My ears aint never gonna stop ringing."
+    ],
+    "C1M3SafeRoom2Mechanic": [
+      "CEDA better be around here somewhere.",
+      "Maybe the evac's further in the mall."
+    ],
+    "C1M3SafeRoom2dMechanic": [
+      "Amen!"
+    ],
+    "C1M4NearFinale03cMechanic": [
+      "Me neither."
+    ],
+    "c1m4NearFinale1cMechanic": [
+      "Shit! You guys ever seen something like this?"
+    ],
+    "C1M4SafeRoom2Mechanic": [
+      "Check it out, man! Jimmy Gibbs, Jr!",
+      "Check it out, man! That's Jimmy Gibbs, Jr!",
+      "Check it, y'all! Jimmy Gibbs Jr.!"
+    ],
+    "C1M4SafeRoom2b1Mechanic": [
+      "[laughs] Just the best stock car racer of all time. Try reading a book sometime."
+    ],
+    "C1M4SafeRoom2b2Mechanic": [
+      "That's Jimmy Gibbs, Jr. The greatest driver ever to climb into a stock car."
+    ],
+    "C1M4SafeRoom2b3Mechanic": [
+      "That man is the pride of Georgia.",
+      "That man is America's greatest natural resource.",
+      "That man is an American hero."
+    ],
+    "C1M4SafeRoom2b4Mechanic": [
+      "I would take a bullet for that man.",
+      "If the laws of nature allowed it, I would bear that man's children."
+    ],
+    "C1M4SafeRoom2c1Mechanic": [
+      "Aw, shit, we missed him! This apocalypse is startin' to piss me off..",
+      "Aw, shit, we missed him? That is the last straw-these zombies have just made an enemy.",
+      "Aw, hell. I coulda got my picture taken with Jimmy Gibbs' stock car? I HATE this apocalypse.",
+      "God damn it. I coulda got my picture taken with Jimmy Gibbs' stock car."
+    ],
+    "C1M4SafeRoomEndMechanic": [
+      "Hey man, we should get goin'.",
+      "Don't you reckon we should move on now?"
+    ],
+    "C2M1Intro003Mechanic": [
+      "Sorry, folks. I can't drive over a traffic jam."
+    ],
+    "C2M1Intro005Mechanic": [
+      "Hey guys, can I have a second? Alone with the car? I just... I got some things that need saying."
+    ],
+    "C2M1Intro007Mechanic": [
+      "You did good."
+    ],
+    "C2M1Intro008Mechanic": [
+      "I love you."
+    ],
+    "C2M1Intro009Mechanic": [
+      "That's not cool, Nick.",
+      "We'll see that was just uncalled for.  Seriously. (Your mom's car. )"
+    ],
+    "C2M3SafeIntro006Mechanic": [
+      "This ain't that kinda ride, Nick. [whisper] This is where you make out with your girlfriend."
+    ],
+    "C2M3SafeIntro008Mechanic": [
+      "Tunnel of love?"
+    ],
+    "C2M4PenSmell001Mechanic": [
+      "Smells like a raccoon died in a diaper factory.",
+      "Smells like dead zombies to me. Everything smellin' like that lately."
+    ],
+    "C2M5_lipsync001Mechanic": [
+      "A Midnight Riders show aint about the MUSIC, Nick. It's about the explosions.",
+      "That don't matter. I could never hear the music over the protechnics anyway.",
+      "Lots of bands lip sync. Aint nothing wrong with saving your vocal cords for the studio."
+    ],
+    "C2M5_lipsync002Mechanic": [
+      "That don't matter. I could never hear the music over the protechnics anyway.",
+      "Lots of bands lip sync. Aint nothing wrong with saving your vocal cords for the studio."
+    ],
+    "C4FinaleStartMechanic": [
+      "Sign's on, baby! Sign is on!"
+    ],
+    "c4m1_nogas01Mechanic": [
+      "Looks like we're gonna have to walk to this Ducatel place."
+    ],
+    "c4m1_nogas10Mechanic": [
+      "Looks like we're gonna have to walk to this Ducatel place."
+    ],
+    "c4m1_nogas21Mechanic": [
+      "Looks like we're gonna have to walk to this Ducatel place."
+    ],
+    "c4m1_wreck01Mechanic": [
+      "Hell, I've walked away from a lot worse than that.",
+      "Yeah, the ass end of those things'll get real squirrelly in the rain."
+    ],
+    "c4m1_wreck02Mechanic": [
+      "Or if there's a zombie ridin' hood."
+    ],
+    "GasPour10MoreTalkMechanic": [
+      "We still need ten more!"
+    ],
+    "GasPour1MoreMechanic": [
+      "One more can do it!"
+    ],
+    "GasPour2MoreMechanic": [
+      "Just two more!"
+    ],
+    "GasPour3MoreMechanic": [
+      "Alright, just three more!"
+    ],
+    "GasPour5MoreMechanic": [
+      "We still need five more!",
+      "we need five more!"
+    ],
+    "Player.CoverMeC1RMechanic": [
+      "So that's how ya do it.",
+      "Okay, okay, I see what you're doin' there."
+    ],
+    "Player.CoverMeC1RCoach1Mechanic": [
+      "Oh, now, Coach, you like you've done this before."
+    ],
+    "Player.GooedBySpitterC1RMechanic": [
+      "Ahh great, now their spittin' shit at us.",
+      "Yo, somebody's gotta kill that zombie spittin' shit."
+    ],
+    "Player.WarnHunterC1PMechanic": [
+      "Hunter it is then!",
+      "Yeah, Hunter fits em."
+    ],
+    "PlayerShotGasCanMechanic": [
+      "Ahh SHIT!",
+      "God DAMN!",
+      "Oh SHIT!",
+      "Well piss!"
+    ],
+    "WorldIntroC31a2Mechanic": [
+      "True. True. He was a zombie. But he was also the only pilot."
+    ],
+    "WorldIntroC31c1Mechanic": [
+      "OOOH man, that was some crazy shit. Nick, you are a man of action! ... Where the hell are we?"
+    ],
+    "WorldIntroC31d2Mechanic": [
+      "Guess our crash was so soft cause we landed in the swamp"
+    ],
+    "WorldIntroC31e2aMechanic": [
+      "Well that ain't very friendly."
+    ],
+    "PlayerCoverMeHealMechanic": [
+      "Can someone watch my back, I'm gonna heal.",
+      "Can y'all cover me? I gotta heal!",
+      "Wait a second, I'm gonna heal!",
+      "Can somebody wait up, I gotta heal.",
+      "Healing! Cover me please!"
+    ],
+    "PlayerCoverMeHealC1Mechanic": [
+      "Hey, can somebody cover me? I'm gonna try to heal.",
+      "Ah hell, gonna try and heal myself.",
+      "Hope to hell I'm doing this right. (to self)"
+    ],
+    "SurvivorSpottedChainsawMechanic": [
+      "Chainsaw here."
+    ],
+    "SurvivorSpottedChainsawAutoMechanic": [
+      "Chainsaw here."
+    ],
+    "SurvivorSpottedcricket_batMechanic": [
+      "Paddle bat here.",
+      "I don't know, some sort of bat here.",
+      "Bat thing here.",
+      "Paddle here."
+    ],
+    "SurvivorSpottedcricket_batAutoMechanic": [
+      "Paddle bat here.",
+      "I don't know, some sort of bat here.",
+      "Bat thing here.",
+      "Paddle here."
+    ],
+    "SurvivorSpottedcrowbarMechanic": [
+      "Crowbar right here.",
+      "Weapons!"
+    ],
+    "SurvivorSpottedcrowbarAutoMechanic": [
+      "Crowbar right here.",
+      "Weapons!"
+    ],
+    "SurvivorSpottedGuitarMechanic": [
+      "Guitar here."
+    ],
+    "SurvivorSpottedGuitarAutoMechanic": [
+      "Guitar here."
+    ],
+    "SurvivorSpottedKatanaMechanic": [
+      "Katana here."
+    ],
+    "SurvivorSpottedKatanaAutoMechanic": [
+      "Katana here."
+    ],
+    "SurvivorSpottedLaserSightsMechanic": [
+      "Laser sights here.",
+      "Laser sights right here.",
+      "Hey, laser sights here."
+    ],
+    "SurvivorSpottedLaserSightsAutoMechanic": [
+      "Laser sights here.",
+      "Laser sights right here.",
+      "Hey, laser sights here."
+    ],
+    "SurvivorSpottedMacheteMechanic": [
+      "Machete here."
+    ],
+    "SurvivorSpottedMacheteAutoMechanic": [
+      "Machete here."
+    ],
+    "SurvivorSpottedMagnumMechanic": [
+      "Hey look at this here.",
+      "Guns right here!",
+      "Here we go."
+    ],
+    "SurvivorSpottedMagnumAutoMechanic": [
+      "Hey look at this here.",
+      "Guns right here!",
+      "Here we go."
+    ],
+    "SurvivorSpottedRifleAutoMechanic2": [
+      "Cool.",
+      "Alright!",
+      "Yeah."
+    ],
+    "SurvivorSpottedSMGAutoMechanic2": [
+      "Cool.",
+      "Alright!",
+      "Yeah."
+    ],
+    "SurvivorSpottedSniperRifleAutoMechanic2": [
+      "Cool.",
+      "Alright!",
+      "Yeah."
+    ],
+    "SurvivorSpottedtonfaMechanic": [
+      "nightstick here..."
+    ],
+    "SurvivorSpottedtonfaAutoMechanic": [
+      "nightstick here..."
+    ],
+    "SurvivorSpottedWeaponMechanic": [
+      "Weapons over here!",
+      "Weapons!",
+      "Hey, some guns here!",
+      "Guns right here!"
+    ],
+    "SurvivorSpottedWeaponPistolAutoMechanic": [
+      "Weapons over here!",
+      "Weapons!",
+      "Hey, some guns here!",
+      "Guns right here!"
+    ],
+    "SurvivorSpottedWeaponPistolAutoMechanic2": [
+      "Cool.",
+      "Alright!",
+      "Yeah."
+    ],
+    "C2M3Chopper001Mechanic": [
+      "It's a helicopter!",
+      "A chopper!"
+    ]
+  },
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {},
+  "NamVet": {},
+  "Manager": {},
+  "Biker": {}
+}

@@ -1,0 +1,14 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2/scripts/talker/soldier1.txt
+-------------------------------------------------------
+
+RULE C5M5_Soldier1Soldier1 CRITERIA ConceptC5M5_Soldier1 AutoIsNotScavenge AutoIsNotSurvival _auto_IsSoldierChatter _auto_NotButton2 RESPONSE C5M5_Soldier1Soldier1
+RULE C5M5_Soldier1Conv01Soldier1 CRITERIA ConceptC5M5_Soldier1Conv01 AutoIsNotScavenge AutoIsNotSurvival _auto_NotButton2 RESPONSE C5M5_Soldier1Conv01Soldier1
+RULE C5M5_Soldier1Conv02Soldier1 CRITERIA ConceptC5M5_Soldier1Conv02 AutoIsNotScavenge AutoIsNotSurvival _auto_NotButton2 RESPONSE C5M5_Soldier1Conv02Soldier1
+RULE C5M5_Soldier1Conv03Soldier1 CRITERIA ConceptC5M5_Soldier1Conv03 AutoIsNotScavenge AutoIsNotSurvival _auto_NotButton2 RESPONSE C5M5_Soldier1Conv03Soldier1
+RULE C5M5_Soldier1Conv04Soldier1 CRITERIA ConceptC5M5_Soldier1Conv04 AutoIsNotScavenge AutoIsNotSurvival _auto_NotButton2 RESPONSE C5M5_Soldier1Conv04Soldier1
+RULE C5M5_Soldier1Conv05Soldier1 CRITERIA ConceptC5M5_Soldier1Conv05 AutoIsNotScavenge AutoIsNotSurvival _auto_NotButton2 RESPONSE C5M5_Soldier1Conv05Soldier1
+RULE C5M5_Soldier1Conv06Soldier1 CRITERIA ConceptC5M5_Soldier1Conv06 AutoIsNotScavenge AutoIsNotSurvival _auto_NotButton2 RESPONSE C5M5_Soldier1Conv06Soldier1
+
+
+

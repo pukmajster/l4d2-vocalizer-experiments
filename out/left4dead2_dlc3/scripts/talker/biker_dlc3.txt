@@ -1,0 +1,665 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc3/scripts/talker/biker_dlc3.txt
+-------------------------------------------------------
+
+RESPONSE C7M3_saferoom001Biker CHARACTER Biker SUBTITLE "I wish I was heading to a deserted island. Can we each get our own?"
+RULE C7M3_saferoom001Biker CRITERIA ConceptC7M3_saferoom001 IsBiker IsInStartArea AutoIsNotScavenge AutoIsNotSurvival RESPONSE C7M3_saferoom001Biker
+RESPONSE C7M1_saferoom01Biker CHARACTER Biker SUBTITLE "Is this the Keys? Because I don't wanna live here."
+RULE C7M1_saferoom01Biker CRITERIA ConceptC7M1_saferoom01 IsBiker RESPONSE C7M1_saferoom01Biker
+RESPONSE C7M1_saferoom04Biker CHARACTER Biker SUBTITLE "And why don't we want any of these perfectly good boats?"
+RESPONSE C7M1_saferoom04Biker CHARACTER Biker SUBTITLE "And why don't we want any of these boats?  They look cool."
+RULE C7M1_saferoom04Biker CRITERIA ConceptC7M1_saferoom04 IsBiker RESPONSE C7M1_saferoom04Biker
+RESPONSE C7M1_saferoom05Biker CHARACTER Biker SUBTITLE "Louis. Tell Zoey I don't know what's going on."
+RULE C7M1_saferoom05Biker CRITERIA ConceptC7M1_saferoom05 IsBiker RESPONSE C7M1_saferoom05Biker
+RESPONSE C7M1_saferoom06Biker CHARACTER Biker SUBTITLE "Found one."
+RULE C7M1_saferoom06Biker CRITERIA ConceptC7M1_saferoom06 IsBiker RESPONSE C7M1_saferoom06Biker
+RESPONSE C7M1_saferoom07aBiker CHARACTER Biker SUBTITLE "What? We're not even gonna try driving it on the ground?"
+RULE C7M1_saferoom07aBiker CRITERIA ConceptC7M1_saferoom07a IsBiker RESPONSE C7M1_saferoom07aBiker
+RESPONSE C7M1_saferoom12aBiker CHARACTER Biker SUBTITLE "Really? This is you pissed?"
+RULE C7M1_saferoom12aBiker CRITERIA ConceptC7M1_saferoom12a IsBiker RESPONSE C7M1_saferoom12aBiker
+RESPONSE C7M1_saferoom13Biker CHARACTER Biker SUBTITLE "I think those are Bill's tears."
+RULE C7M1_saferoom13Biker CRITERIA ConceptC7M1_saferoom13 IsBiker RESPONSE C7M1_saferoom13Biker
+RESPONSE C7M1_saferoom14aBiker CHARACTER Biker SUBTITLE "Hey, I ain't the one that thought we could drive a frickin'  train through the ocean."
+RULE C7M1_saferoom14aBiker CRITERIA ConceptC7M1_saferoom14a IsBiker RESPONSE C7M1_saferoom14aBiker
+RESPONSE C7M1_saferoom15bBiker CHARACTER Biker SUBTITLE "Wow, I never thought I'd say this, but I think I wanna hang out with Louis."
+RULE C7M1_saferoom15bBiker CRITERIA ConceptC7M1_saferoom15b IsBiker RESPONSE C7M1_saferoom15bBiker
+RESPONSE C7M1_saferoom16Biker CHARACTER Biker SUBTITLE "Hey Bill, I think I mighta missed the finer points of your plan. I caught all the train stuff. Something about a boat to an island paradise. But I missed the part where we're stranded in the middle of goddamn nowhere."
+RULE C7M1_saferoom16Biker CRITERIA ConceptC7M1_saferoom16 IsBiker RESPONSE C7M1_saferoom16Biker
+RESPONSE C7M1_saferoom16bBiker CHARACTER Biker SUBTITLE "I'm goin', I'm goin'."
+RULE C7M1_saferoom16bBiker CRITERIA ConceptC7M1_saferoom16b IsBiker RESPONSE C7M1_saferoom16bBiker
+RESPONSE C7M1_saferoom17Biker CHARACTER Biker SUBTITLE "Yeah! Sandy beaches. Coconuts. Sand. Beaches. Sand... Wait a minute, I hate islands."
+RULE C7M1_saferoom17Biker CRITERIA ConceptC7M1_saferoom17 IsBiker RESPONSE C7M1_saferoom17Biker
+RESPONSE C7M1_saferoom18aBiker CHARACTER Biker SUBTITLE "Okay. I vote for the island paradise where we don't have to fight any more zombies."
+RULE C7M1_saferoom18aBiker CRITERIA ConceptC7M1_saferoom18a IsBiker RESPONSE C7M1_saferoom18aBiker
+RESPONSE C7M1_saferoom21Biker CHARACTER Biker SUBTITLE "Aye, Aye Captain!"
+RESPONSE C7M1_saferoom21Biker CHARACTER Biker SUBTITLE "Bill, when you sailed ships were they all still made of wood?"
+RULE C7M1_saferoom21Biker CRITERIA ConceptC7M1_saferoom21 IsBiker RESPONSE C7M1_saferoom21Biker
+RESPONSE C7M1_saferoom21aBiker CHARACTER Biker SUBTITLE "Nah, don't worry, I hate boats too."
+RULE C7M1_saferoom21aBiker CRITERIA ConceptC7M1_saferoom21a IsBiker RESPONSE C7M1_saferoom21aBiker
+RESPONSE C7M1OpenTankDoorBiker CHARACTER Biker SUBTITLE "Get ready with some fire."
+RESPONSE C7M1OpenTankDoorBiker CHARACTER Biker SUBTITLE "Alright, alright, I'll be the brave one."
+RESPONSE C7M1OpenTankDoorBiker CHARACTER Biker SUBTITLE "Oh shit. There is a tank in here."
+RESPONSE C7M1OpenTankDoorBiker CHARACTER Biker SUBTITLE "Hey, remember who letcha out of here."
+RESPONSE C7M1OpenTankDoorBiker CHARACTER Biker SUBTITLE "Go for the one with the tie."
+RULE C7M1OpenTankDoorBiker CRITERIA Conceptc7m1opentankdoorspeakBiker IsBiker _auto_NotsaidC7M1OpenTankDoor RESPONSE C7M1OpenTankDoorBiker
+RESPONSE C7M1SafeRoomIdleBiker CHARACTER Biker SUBTITLE "Why'd we stop?"
+RESPONSE C7M1SafeRoomIdleBiker CHARACTER Biker SUBTITLE "Holy shit! Did that truck have a head-on collision with a boat? Man, I wish I could have seen that."
+RESPONSE C7M1SafeRoomIdleBiker CHARACTER Biker SUBTITLE "Man, Zoey is pissed."
+RESPONSE C7M1SafeRoomIdleBiker CHARACTER Biker SUBTITLE "So this is the Florida Keys. Crazy how it looks like some shithole in the middle of nowhere."
+RESPONSE C7M1SafeRoomIdleBiker CHARACTER Biker SUBTITLE "I was getting' tired of being cooped up, lookin' forward to some walking."
+RULE C7M1SafeRoomIdleBiker CRITERIA ConceptTalkIdle IsBiker IsMapc7m1_docks IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_IsSafeRoomStart _auto_NotSafeRoomQuiet _auto_NotC7M1SafeRoomConvo IsNotSpeakingWeight0 RESPONSE C7M1SafeRoomIdleBiker
+RESPONSE C7M1SafeRoomStartBiker CHARACTER Biker SUBTITLE "Blank"
+RULE C7M1SafeRoomStartBiker CRITERIA ConceptTalkIdle IsBiker IsMapc7m1_docks IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_NotSafeRoomStart IsNotSpeakingWeight0 RESPONSE C7M1SafeRoomStartBiker
+RESPONSE InfoRemc7m1_pretank01Biker CHARACTER Biker SUBTITLE "Fine with me."
+RULE InfoRemc7m1_pretank01Biker CRITERIA ConceptInfoRemc7m1_pretank01 IsBiker RESPONSE InfoRemc7m1_pretank01Biker
+RESPONSE InfoRemc7m1_pretank03Biker CHARACTER Biker SUBTITLE "What?"
+RULE InfoRemc7m1_pretank03Biker CRITERIA ConceptInfoRemc7m1_pretank03 IsBiker RESPONSE InfoRemc7m1_pretank03Biker
+RESPONSE InfoRemc7m1_pretank04Biker CHARACTER Biker SUBTITLE "Hey, Bill. Zoey said you should open the door."
+RULE InfoRemc7m1_pretank04Biker CRITERIA ConceptInfoRemc7m1_pretank04 IsBiker RESPONSE InfoRemc7m1_pretank04Biker
+RESPONSE InfoRemc7m1_tankcar01Biker CHARACTER Biker SUBTITLE "Tanks?"
+RULE InfoRemc7m1_tankcar01Biker CRITERIA ConceptInfoRemc7m1_tankcar01 IsBiker RESPONSE InfoRemc7m1_tankcar01Biker
+RESPONSE C7M2_saferoom02cBiker CHARACTER Biker SUBTITLE "Bullshit. Say "Bill's an idiot" in Japanese."
+RULE C7M2_saferoom02cBiker CRITERIA ConceptC7M2_saferoom02c IsBiker RESPONSE C7M2_saferoom02cBiker
+RESPONSE C7M2_saferoom02eBiker CHARACTER Biker SUBTITLE "Nice."
+RULE C7M2_saferoom02eBiker CRITERIA ConceptC7M2_saferoom02e IsBiker RESPONSE C7M2_saferoom02eBiker
+RESPONSE C7M2_saferoom03Biker CHARACTER Biker SUBTITLE "Louis, if you don't stop being positive, I'm gonna sink the boat just to make you sad."
+RULE C7M2_saferoom03Biker CRITERIA ConceptC7M2_saferoom03 IsBiker RESPONSE C7M2_saferoom03Biker
+RESPONSE C7M2_saferoom03bBiker CHARACTER Biker SUBTITLE "About to die in a brick factory? Cause I'm about to do that too. And I got to complain about shit the whole time."
+RULE C7M2_saferoom03bBiker CRITERIA ConceptC7M2_saferoom03b IsBiker RESPONSE C7M2_saferoom03bBiker
+RESPONSE C7M2_saferoom05aBiker CHARACTER Biker SUBTITLE "Okay. But why didn't we drive one of those boats to look for a sail boat?"
+RULE C7M2_saferoom05aBiker CRITERIA ConceptC7M2_saferoom05a IsBiker RESPONSE C7M2_saferoom05aBiker
+RESPONSE C7M2SafeRoomIdleBiker CHARACTER Biker SUBTITLE "What the hell does this mean?"
+RESPONSE C7M2SafeRoomIdleBiker CHARACTER Biker SUBTITLE "Hey, Louis. We been through the whole goddamn country, and it's all one big shithole. Still think it's going back to normal?"
+RESPONSE C7M2SafeRoomIdleBiker CHARACTER Biker SUBTITLE "Okay. Explain to me again why we didn't take any one of the perfectly good boats we passed?"
+RESPONSE C7M2SafeRoomIdleBiker CHARACTER Biker SUBTITLE "I'm still not seeing a boat. Why don't we head back and see if the train floats?"
+RULE C7M2SafeRoomIdleBiker CRITERIA ConceptTalkIdle IsBiker IsMapc7m2_barge IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_IsSafeRoomStart _auto_NotSafeRoomQuiet _auto_NotC7M2SafeRoomConvo IsNotSpeakingWeight0 RESPONSE C7M2SafeRoomIdleBiker
+RESPONSE C7M2SafeRoomStartBiker CHARACTER Biker SUBTITLE "Blank"
+RULE C7M2SafeRoomStartBiker CRITERIA ConceptTalkIdle IsBiker IsMapc7m2_barge IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_NotSafeRoomStart IsNotSpeakingWeight0 RESPONSE C7M2SafeRoomStartBiker
+RESPONSE Player.WarnMegaMobc7m201Biker CHARACTER Biker SUBTITLE "Get into the chute!"
+RULE Player.WarnMegaMobc7m201Biker CRITERIA ConceptPlayer.WarnMegaMobc7m201 IsBiker RESPONSE Player.WarnMegaMobc7m201Biker
+RESPONSE C7M3_saferoom001Biker CHARACTER Biker SUBTITLE "I wish I was heading to a deserted island. Can we each get our own?"
+RULE C7M3_saferoom001Biker CRITERIA ConceptC7M3_saferoom001 IsBiker RESPONSE C7M3_saferoom001Biker
+RESPONSE C7M3_saferoom002Biker CHARACTER Biker SUBTITLE "I hate your good feelings."
+RULE C7M3_saferoom002Biker CRITERIA ConceptC7M3_saferoom002 IsBiker RESPONSE C7M3_saferoom002Biker
+RESPONSE C7M3_saferoom004bBiker CHARACTER Biker SUBTITLE "Why aren't I allowed to shoot you again?"
+RESPONSE C7M3_saferoom004bBiker CHARACTER Biker SUBTITLE "Yeah, I get it, Louis. Bill gets it for chrissake, and he can't even work a flush toilet."
+RESPONSE C7M3_saferoom004bBiker CHARACTER Biker SUBTITLE "Nerd."
+RESPONSE C7M3_saferoom004bBiker CHARACTER Biker SUBTITLE "You're such a nerd."
+RULE C7M3_saferoom004bBiker CRITERIA ConceptC7M3_saferoom004b IsBiker RESPONSE C7M3_saferoom004bBiker
+RESPONSE C7M3_saferoom006aBiker CHARACTER Biker SUBTITLE "No more vampires."
+RULE C7M3_saferoom006aBiker CRITERIA ConceptC7M3_saferoom006a IsBiker RESPONSE C7M3_saferoom006aBiker
+RESPONSE C7M3_saferoom008Biker CHARACTER Biker SUBTITLE "Why don't we just live on the boat?"
+RULE C7M3_saferoom008Biker CRITERIA ConceptC7M3_saferoom008 IsBiker RESPONSE C7M3_saferoom008Biker
+RESPONSE C7M3_saferoom008bBiker CHARACTER Biker SUBTITLE "Well there was that ship back there."
+RULE C7M3_saferoom008bBiker CRITERIA ConceptC7M3_saferoom008b IsBiker RESPONSE C7M3_saferoom008bBiker
+RESPONSE C7M3_saferoom012aBiker CHARACTER Biker SUBTITLE "Jesus, have you ever been to an island? They're goddamn horrible."
+RULE C7M3_saferoom012aBiker CRITERIA ConceptC7M3_saferoom012a IsBiker RESPONSE C7M3_saferoom012aBiker
+RESPONSE C7M3_saferoom012cBiker CHARACTER Biker SUBTITLE "They're not the only ones..."
+RULE C7M3_saferoom012cBiker CRITERIA ConceptC7M3_saferoom012c IsBiker RESPONSE C7M3_saferoom012cBiker
+RESPONSE C7M3_saferoom012eBiker CHARACTER Biker SUBTITLE "I hate this plan."
+RULE C7M3_saferoom012eBiker CRITERIA ConceptC7M3_saferoom012e IsBiker RESPONSE C7M3_saferoom012eBiker
+RESPONSE C7M3_saferoom013Biker CHARACTER Biker SUBTITLE "Start hating it."
+RULE C7M3_saferoom013Biker CRITERIA ConceptC7M3_saferoom013 IsBiker RESPONSE C7M3_saferoom013Biker
+RESPONSE C7M3_saferoom013bBiker CHARACTER Biker SUBTITLE "I hate it now too."
+RULE C7M3_saferoom013bBiker CRITERIA ConceptC7M3_saferoom013b IsBiker RESPONSE C7M3_saferoom013bBiker
+RESPONSE C7M3_saferoom013dBiker CHARACTER Biker SUBTITLE "I seriously doubt it."
+RULE C7M3_saferoom013dBiker CRITERIA ConceptC7M3_saferoom013d IsBiker RESPONSE C7M3_saferoom013dBiker
+RESPONSE C7M3_saferoom014Biker CHARACTER Biker SUBTITLE "I hate fish."
+RULE C7M3_saferoom014Biker CRITERIA ConceptC7M3_saferoom014 IsBiker RESPONSE C7M3_saferoom014Biker
+RESPONSE C7M3_saferoom014bBiker CHARACTER Biker SUBTITLE "Oh no, I like eating them. That's one of the ways I let fish know how much I hate them."
+RULE C7M3_saferoom014bBiker CRITERIA ConceptC7M3_saferoom014b IsBiker RESPONSE C7M3_saferoom014bBiker
+RESPONSE C7M3_saferoom015Biker CHARACTER Biker SUBTITLE "The vampires want to kill us, the army wants to kill us. With our luck, Zoey probably crossed the mob. What the hell makes you think we're gonna live to see Bill's horrible goddamn island in the keys?"
+RULE C7M3_saferoom015Biker CRITERIA ConceptC7M3_saferoom015 IsBiker RESPONSE C7M3_saferoom015Biker
+RESPONSE C7M3_saferoom016aBiker CHARACTER Biker SUBTITLE "That's the spirit allright - of insanity."
+RESPONSE C7M3_saferoom016aBiker CHARACTER Biker SUBTITLE "I mean, I'd like to hear your reasons why Louis isn't some sort of lunatic. For all we know, he's a serial killer."
+RULE C7M3_saferoom016aBiker CRITERIA ConceptC7M3_saferoom016a IsBiker RESPONSE C7M3_saferoom016aBiker
+RESPONSE C7M3_saferoom016cBiker CHARACTER Biker SUBTITLE "See? I'm serious. Given, you know, current goddamn events, that's not optimism, it's mental illness."
+RULE C7M3_saferoom016cBiker CRITERIA ConceptC7M3_saferoom016c IsBiker RESPONSE C7M3_saferoom016cBiker
+RESPONSE C7M3_saferoom017aBiker CHARACTER Biker SUBTITLE "No, I'm being serious. I really hate islands. I have insulaphobia - I'm afraid of islands."
+RULE C7M3_saferoom017aBiker CRITERIA ConceptC7M3_saferoom017a IsBiker RESPONSE C7M3_saferoom017aBiker
+RESPONSE C7M3_saferoom017cBiker CHARACTER Biker SUBTITLE "No, man. It's a medical condition. Just my goddamn luck..."
+RULE C7M3_saferoom017cBiker CRITERIA ConceptC7M3_saferoom017c IsBiker RESPONSE C7M3_saferoom017cBiker
+RESPONSE C7M3_saferoom017eBiker CHARACTER Biker SUBTITLE "Stupid island..."
+RULE C7M3_saferoom017eBiker CRITERIA ConceptC7M3_saferoom017e IsBiker RESPONSE C7M3_saferoom017eBiker
+RESPONSE C7M3_saferoom017gBiker CHARACTER Biker SUBTITLE "Dumbass island shithole..."
+RULE C7M3_saferoom017gBiker CRITERIA ConceptC7M3_saferoom017g IsBiker RESPONSE C7M3_saferoom017gBiker
+RESPONSE C7M3_saferoom017hBiker CHARACTER Biker SUBTITLE "Damn right."
+RULE C7M3_saferoom017hBiker CRITERIA ConceptC7M3_saferoom017h IsBiker RESPONSE C7M3_saferoom017hBiker
+RESPONSE C7M3BridgeBreaksBiker CHARACTER Biker SUBTITLE "Goddamn it, who broke the bridge?"
+RESPONSE C7M3BridgeBreaksBiker CHARACTER Biker SUBTITLE "Someone's gotta restart that generator."
+RESPONSE C7M3BridgeBreaksBiker CHARACTER Biker SUBTITLE "Do you think that generator might restart itself?"
+RULE C7M3BridgeBreaksBiker CRITERIA conceptC7M3BridgeBreaks IsBiker _auto_NotSaidC7M3BridgeBreaks RESPONSE C7M3BridgeBreaksBiker
+RESPONSE C7M3FinalPressManagerBiker CHARACTER Biker SUBTITLE "I could have predicted that."
+RESPONSE C7M3FinalPressManagerBiker CHARACTER Biker SUBTITLE "Louis is dead."
+RESPONSE C7M3FinalPressManagerBiker CHARACTER Biker SUBTITLE "Louis little buddy, you did it!"
+RESPONSE C7M3FinalPressManagerBiker CHARACTER Biker SUBTITLE "Thanks Louis!"
+RULE C7M3FinalPressManagerBiker CRITERIA ConceptC7M3FinalSpeakManager IsBiker IsLastGenerator IsNotManager _auto_NotC7M3FinalPress RESPONSE C7M3FinalPressManagerBiker
+RESPONSE C7M3FinalPressNamVetBiker CHARACTER Biker SUBTITLE "Bill! It should have been Louis! It should have been Louis!"
+RESPONSE C7M3FinalPressNamVetBiker CHARACTER Biker SUBTITLE "Bill did it!"
+RESPONSE C7M3FinalPressNamVetBiker CHARACTER Biker SUBTITLE "Bill restarted the generator!"
+RESPONSE C7M3FinalPressNamVetBiker CHARACTER Biker SUBTITLE "The bridge is going up!"
+RESPONSE C7M3FinalPressNamVetBiker CHARACTER Biker SUBTITLE "Thanks Bill, I owe you one. You old bastard..."
+RESPONSE C7M3FinalPressNamVetBiker CHARACTER Biker SUBTITLE "Bill, you did it, buddy! You really did it!"
+RULE C7M3FinalPressNamVetBiker CRITERIA ConceptC7M3FinalSpeakNamVet IsBiker IsLastGenerator IsNotNamVet _auto_NotC7M3FinalPress RESPONSE C7M3FinalPressNamVetBiker
+RESPONSE C7M3FinalPressTeenGirlBiker CHARACTER Biker SUBTITLE "Noooo! You monsters! Take Louis instead!"
+RESPONSE C7M3FinalPressTeenGirlBiker CHARACTER Biker SUBTITLE "Not ZOEY!"
+RESPONSE C7M3FinalPressTeenGirlBiker CHARACTER Biker SUBTITLE "SHIT ZOEY!"
+RESPONSE C7M3FinalPressTeenGirlBiker CHARACTER Biker SUBTITLE "I hate this!"
+RULE C7M3FinalPressTeenGirlBiker CRITERIA ConceptC7M3FinalSpeakTeenGirl IsBiker IsLastGenerator IsNotTeenGirl _auto_NotC7M3FinalPress RESPONSE C7M3FinalPressTeenGirlBiker
+RESPONSE C7M3GeneratorPress01Biker CHARACTER Biker SUBTITLE "Let's start these generators."
+RESPONSE C7M3GeneratorPress01Biker CHARACTER Biker SUBTITLE "We gotta start these generators."
+RULE C7M3GeneratorPress01Biker CRITERIA ConceptC7M3GeneratorSpeakBiker IsBiker IsFirstGenerator _auto_NotC7M3PressingBiker RESPONSE C7M3GeneratorPress01Biker
+RESPONSE C7M3GeneratorPress02Biker CHARACTER Biker SUBTITLE "Everyone ready to start this one?"
+RULE C7M3GeneratorPress02Biker CRITERIA ConceptC7M3GeneratorSpeakBiker IsBiker IsSecondGenerator _auto_NotC7M3PressingBiker RESPONSE C7M3GeneratorPress02Biker
+RESPONSE C7M3GeneratorPress03Biker CHARACTER Biker SUBTITLE "I hate these stupid generators."
+RESPONSE C7M3GeneratorPress03Biker CHARACTER Biker SUBTITLE "Last generator."
+RULE C7M3GeneratorPress03Biker CRITERIA ConceptC7M3GeneratorSpeakBiker IsBiker IsThirdGenerator _auto_NotC7M3PressingBiker RESPONSE C7M3GeneratorPress03Biker
+RESPONSE C7M3PlayerGetToRescueVehicleBiker CHARACTER Biker SUBTITLE "All aboard! The bridge"
+RESPONSE C7M3PlayerGetToRescueVehicleBiker CHARACTER Biker SUBTITLE "Everyone to the bridge!"
+RESPONSE C7M3PlayerGetToRescueVehicleBiker CHARACTER Biker SUBTITLE "Get to the bridge!"
+RULE C7M3PlayerGetToRescueVehicleBiker CRITERIA ConceptGetToVehicle IsBiker ismapc7m3_port IsTalk IsTalkBiker IsWorldTalkBiker _auto_NotC7M3ToBridgeBiker RESPONSE C7M3PlayerGetToRescueVehicleBiker
+RESPONSE C7M3SafeRoomIdleBiker CHARACTER Biker SUBTITLE "Bill, I just wanna make it clear - in front of everyone - that I am against the island plan."
+RESPONSE C7M3SafeRoomIdleBiker CHARACTER Biker SUBTITLE "Hey, um... Louis... did I ever mention how I feel about islands?"
+RULE C7M3SafeRoomIdleBiker CRITERIA ConceptTalkIdle IsBiker IsMapc7m3_port IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_IsSafeRoomStart _auto_NotSafeRoomQuiet _auto_NotC7M3SafeRoomConvo IsNotSpeakingWeight0 RESPONSE C7M3SafeRoomIdleBiker
+RESPONSE C7M3SafeRoomStartBiker CHARACTER Biker SUBTITLE "Blank"
+RULE C7M3SafeRoomStartBiker CRITERIA ConceptTalkIdle IsBiker IsMapc7m3_port IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_NotSafeRoomStart IsNotSpeakingWeight0 RESPONSE C7M3SafeRoomStartBiker
+RESPONSE C7M3WaveOverGen1Biker CHARACTER Biker SUBTITLE "Okay, its done let's go!"
+RESPONSE C7M3WaveOverGen1Biker CHARACTER Biker SUBTITLE "Why are we still here? To the next generator!"
+RULE C7M3WaveOverGen1Biker CRITERIA conceptC7M3WaveOverGen1 IsBiker IsSecondGenerator _auto_NotSaidC7M3WaveOverGen1 RESPONSE C7M3WaveOverGen1Biker
+RESPONSE C7M3WaveOverGen2Biker CHARACTER Biker SUBTITLE "You think that last generator is going to start itself?"
+RESPONSE C7M3WaveOverGen2Biker CHARACTER Biker SUBTITLE "One more!"
+RULE C7M3WaveOverGen2Biker CRITERIA conceptC7M3WaveOverGen2 IsBiker IsThirdGenerator _auto_NotSaidC7M3WaveOverGen2 RESPONSE C7M3WaveOverGen2Biker
+RESPONSE SurvivorSpottedAdrenalineBiker CHARACTER Biker SUBTITLE "Look!"
+RESPONSE SurvivorSpottedAdrenalineBiker CHARACTER Biker SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedAdrenalineBiker CHARACTER Biker SUBTITLE "Look here."
+RESPONSE SurvivorSpottedAdrenalineBiker CHARACTER Biker SUBTITLE "What the hell is this?"
+RULE SurvivorSpottedAdrenalineBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsAdrenaline IsWorldTalkBiker RESPONSE SurvivorSpottedAdrenalineBiker
+RESPONSE SurvivorSpottedAdrenalineAutoBiker CHARACTER Biker SUBTITLE "Look!"
+RESPONSE SurvivorSpottedAdrenalineAutoBiker CHARACTER Biker SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedAdrenalineAutoBiker CHARACTER Biker SUBTITLE "Look here."
+RESPONSE SurvivorSpottedAdrenalineAutoBiker CHARACTER Biker SUBTITLE "What the hell is this?"
+RULE SurvivorSpottedAdrenalineAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotAdrenaline IsNotSaidSpot IsAdrenaline IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedAdrenalineAutoBiker
+RESPONSE SurvivorSpottedGrenadeLauncherBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedGrenadeLauncherBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedGrenadeLauncherBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedGrenadeLauncherBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto Isgrenade_launcher IsWorldTalkBiker RESPONSE SurvivorSpottedGrenadeLauncherBiker
+RESPONSE SurvivorSpottedGrenadeLauncherAutoBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedGrenadeLauncherAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedGrenadeLauncherAutoBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedGrenadeLauncherAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotgrenade_launcher IsNotSaidSpot Isgrenade_launcher IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGrenadeLauncherAutoBiker
+RESPONSE SurvivorSpottedUpPack_ExplosiveBiker CHARACTER Biker SUBTITLE "Look!"
+RESPONSE SurvivorSpottedUpPack_ExplosiveBiker CHARACTER Biker SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedUpPack_ExplosiveBiker CHARACTER Biker SUBTITLE "Look here."
+RESPONSE SurvivorSpottedUpPack_ExplosiveBiker CHARACTER Biker SUBTITLE "What the hell is this?"
+RULE SurvivorSpottedUpPack_ExplosiveBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsUpgradePack_Explosive  IsWorldTalkBiker RESPONSE SurvivorSpottedUpPack_ExplosiveBiker
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoBiker CHARACTER Biker SUBTITLE "Look!"
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoBiker CHARACTER Biker SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoBiker CHARACTER Biker SUBTITLE "Look here."
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoBiker CHARACTER Biker SUBTITLE "What the hell is this?"
+RULE SurvivorSpottedUpPack_ExplosiveAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotAlone IsNotSaidSpotUpgradePack_Explosive IsNotSaidSpot IsUpgradePack_Explosive IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedUpPack_ExplosiveAutoBiker
+RESPONSE SurvivorSpottedUpPack_IncendiaryBiker CHARACTER Biker SUBTITLE "Look!"
+RESPONSE SurvivorSpottedUpPack_IncendiaryBiker CHARACTER Biker SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedUpPack_IncendiaryBiker CHARACTER Biker SUBTITLE "Look here."
+RESPONSE SurvivorSpottedUpPack_IncendiaryBiker CHARACTER Biker SUBTITLE "What the hell is this?"
+RULE SurvivorSpottedUpPack_IncendiaryBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsUpgradePack_Incendiary  IsWorldTalkBiker RESPONSE SurvivorSpottedUpPack_IncendiaryBiker
+RESPONSE SurvivorSpottedUpPack_IncendiAutoBiker CHARACTER Biker SUBTITLE "Look!"
+RESPONSE SurvivorSpottedUpPack_IncendiAutoBiker CHARACTER Biker SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedUpPack_IncendiAutoBiker CHARACTER Biker SUBTITLE "Look here."
+RESPONSE SurvivorSpottedUpPack_IncendiAutoBiker CHARACTER Biker SUBTITLE "What the hell is this?"
+RULE SurvivorSpottedUpPack_IncendiAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotAlone IsNotSaidSpotUpgradePack_Incendiary IsNotSaidSpot IsUpgradePack_Incendiary IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedUpPack_IncendiAutoBiker
+RESPONSE SurvivorSpottedVomitJarBiker CHARACTER Biker SUBTITLE "Look!"
+RESPONSE SurvivorSpottedVomitJarBiker CHARACTER Biker SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedVomitJarBiker CHARACTER Biker SUBTITLE "Look here."
+RESPONSE SurvivorSpottedVomitJarBiker CHARACTER Biker SUBTITLE "What the hell is this?"
+RULE SurvivorSpottedVomitJarBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsVomitJar IsWorldTalkBiker RESPONSE SurvivorSpottedVomitJarBiker
+RESPONSE SurvivorSpottedVomitJarAutoBiker CHARACTER Biker SUBTITLE "Look!"
+RESPONSE SurvivorSpottedVomitJarAutoBiker CHARACTER Biker SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedVomitJarAutoBiker CHARACTER Biker SUBTITLE "Look here."
+RESPONSE SurvivorSpottedVomitJarAutoBiker CHARACTER Biker SUBTITLE "What the hell is this?"
+RULE SurvivorSpottedVomitJarAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotVomitJar IsNotSaidSpot IsVomitJar IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedVomitJarAutoBiker
+RESPONSE PlayerToTheRescueRosBiker CHARACTER Biker SUBTITLE "Hang on, I'm on my way!"
+RESPONSE PlayerToTheRescueRosBiker CHARACTER Biker SUBTITLE "I'm coming!"
+RESPONSE PlayerToTheRescueRosBiker CHARACTER Biker SUBTITLE "Hang in there buddy, I'm comin."
+RESPONSE PlayerToTheRescueRosBiker CHARACTER Biker SUBTITLE "I'm coming for ya!"
+RESPONSE PlayerToTheRescueRosBiker CHARACTER Biker SUBTITLE "Hang on I'm coming!"
+RESPONSE PlayerToTheRescueRosBiker CHARACTER Biker SUBTITLE "Hang in there, I'm comin!"
+RESPONSE PlayerToTheRescueRosBiker CHARACTER Biker SUBTITLE "Hang on, hang on, I'm comin!"
+RESPONSE PlayerToTheRescueRosBiker CHARACTER Biker SUBTITLE "I heard ya, I'm comin'!"
+RULE PlayerToTheRescueRosBiker CRITERIA ConceptPlayerToTheRescue IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker RESPONSE PlayerToTheRescueRosBiker
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "All right."
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "Aw riiiight."
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "Awesome."
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "Awesome."
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "Awesome."
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "Aw riiiight."
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "Aw riiiight."
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "Goddamn right!"
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "Hell yeah!"
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "That's right!"
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "HELL YEAH!"
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "OH YEAH!"
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "Oh yeah!"
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "[Loud, evil laugh]"
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "[Loud, evil laugh]"
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "[Loud, evil laugh]"
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "YEAH! YEAH!"
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "Damn straight!"
+RESPONSE SurvivorTauntResponseBiker CHARACTER Biker SUBTITLE "HELL YEAH!"
+RULE SurvivorTauntResponseBiker CRITERIA ConceptPlayerTaunt IsSurvivor IsNotSpeaking IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker RESPONSE SurvivorTauntResponseBiker
+RESPONSE PlayerRemarkc7m1_bricktopBiker CHARACTER Biker SUBTITLE "On top the bricks."
+RULE PlayerRemarkc7m1_bricktopBiker CRITERIA ConceptRemark IsBiker Isc7m1_bricktop IsNotSaidc7m1_bricktop IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear100 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_bricktopBiker
+RESPONSE PlayerRemarkc7m1_pastbricksBiker CHARACTER Biker SUBTITLE "Past the bricks."
+RULE PlayerRemarkc7m1_pastbricksBiker CRITERIA ConceptRemark IsBiker Isc7m1_pastbricks IsNotSaidc7m1_pastbricks IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear700 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_pastbricksBiker
+RESPONSE PlayerRemarkc7m1_pretankBiker CHARACTER Biker SUBTITLE "Do we really want to open that door? Please say no."
+RESPONSE PlayerRemarkc7m1_pretankBiker CHARACTER Biker SUBTITLE "Hey, Bill, I think there's a sailboat in the train."
+RESPONSE PlayerRemarkc7m1_pretankBiker CHARACTER Biker SUBTITLE "Okay. So, I'm not opening the door. You guys work it out and let me know when the door's open."
+RESPONSE PlayerRemarkc7m1_pretankBiker CHARACTER Biker SUBTITLE "Hey Louis, I don't think it's a tank in there.  It sounds like a puppy.  You should stand closer."
+RESPONSE PlayerRemarkc7m1_pretankBiker CHARACTER Biker SUBTITLE "Louis, you gonna open that door or what?"
+RULE PlayerRemarkc7m1_pretankBiker CRITERIA ConceptRemark IsBiker Isc7m1_pretank IsNotSaidc7m1_pretank IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear200 IsNotSpeakingWeight0 _auto_NotsaidC7M1OpenTankDoorLong RESPONSE PlayerRemarkc7m1_pretankBiker
+RESPONSE PlayerRemarkc7m1_tankcarBiker CHARACTER Biker SUBTITLE "Hey, Bill. Your sailboat smells like shit."
+RESPONSE PlayerRemarkc7m1_tankcarBiker CHARACTER Biker SUBTITLE "God. Smells like Bill's beard in here"
+RULE PlayerRemarkc7m1_tankcarBiker CRITERIA ConceptRemark IsBiker Isc7m1_tankcar IsNotSaidc7m1_tankcar IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_tankcarBiker
+RESPONSE PlayerRemarkc7m2_climbupcrapBiker CHARACTER Biker SUBTITLE "We can get back up over here!"
+RESPONSE PlayerRemarkc7m2_climbupcrapBiker CHARACTER Biker SUBTITLE "Up that fence!"
+RULE PlayerRemarkc7m2_climbupcrapBiker CRITERIA ConceptRemark IsBiker Isc7m2_climbupcrap IsNotSaidc7m2_climbupcrap IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_climbupcrapBiker
+RESPONSE PlayerRemarkc7m2_gravelhillBiker CHARACTER Biker SUBTITLE "Nesting birds, Bill! Watch your beard?"
+RESPONSE PlayerRemarkc7m2_gravelhillBiker CHARACTER Biker SUBTITLE "Get up this pile of crap!"
+RESPONSE PlayerRemarkc7m2_gravelhillBiker CHARACTER Biker SUBTITLE "Anyone wanna guess what I'm hatin' right now?"
+RULE PlayerRemarkc7m2_gravelhillBiker CRITERIA ConceptRemark IsBiker Isc7m2_gravelhill IsNotSaidc7m2_gravelhill IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_gravelhillBiker
+RESPONSE PlayerRemarkc7m2_listingtugBiker CHARACTER Biker SUBTITLE "Hey, here's a boat."
+RULE PlayerRemarkc7m2_listingtugBiker CRITERIA ConceptRemark IsBiker Isc7m2_listingtug IsNotSaidc7m2_listingtug IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear1000 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_listingtugBiker
+RESPONSE PlayerRemarkc7m2_overboatBiker CHARACTER Biker SUBTITLE "Over the ship!"
+RULE PlayerRemarkc7m2_overboatBiker CRITERIA ConceptRemark IsBiker Isc7m2_overboat IsNotSaidc7m2_overboat IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_overboatBiker
+RESPONSE PlayerRemarkc7m2_seebargeBiker CHARACTER Biker SUBTITLE "Yo, Captain Bill, can we take this ship?"
+RULE PlayerRemarkc7m2_seebargeBiker CRITERIA ConceptRemark IsBiker Isc7m2_seebarge IsNotSaidc7m2_seebarge IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_seebargeBiker
+RESPONSE PlayerRemarkc7m2_throughhereBiker CHARACTER Biker SUBTITLE "Through here!"
+RESPONSE PlayerRemarkc7m2_throughhereBiker CHARACTER Biker SUBTITLE "Through here!"
+RULE PlayerRemarkc7m2_throughhereBiker CRITERIA ConceptRemark IsBiker Isc7m2_throughhere IsNotSaidc7m2_throughhere IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_throughhereBiker
+RESPONSE PlayerRemarkc7m3_seesailboatBiker CHARACTER Biker SUBTITLE "That boat'll do. We better lift the bridge so we can head out."
+RESPONSE PlayerRemarkc7m3_seesailboatBiker CHARACTER Biker SUBTITLE "There's your sailboat Bill, by the bridge."
+RESPONSE PlayerRemarkc7m3_seesailboatBiker CHARACTER Biker SUBTITLE "Bill, is that a sailboat by the bridge?  WHY YES IT IS!"
+RESPONSE PlayerRemarkc7m3_seesailboatBiker CHARACTER Biker SUBTITLE "We're gonna need to raise that bridge."
+RULE PlayerRemarkc7m3_seesailboatBiker CRITERIA ConceptRemark IsBiker Isc7m3_seesailboat IsNotSaidc7m3_seesailboat IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsFirstGenerator IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m3_seesailboatBiker
+RESPONSE PlayerRemarkinfo_carboatBiker CHARACTER Biker SUBTITLE "I think this car will float."
+RULE PlayerRemarkinfo_carboatBiker CRITERIA ConceptRemark IsBiker Isinfo_carboat IsNotSaidinfo_carboat IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear400 _auto_IssaidSailBoatIntro IsNotSpeakingWeight0 RESPONSE PlayerRemarkinfo_carboatBiker
+RESPONSE PlayerRemarkinfo_carnotboatBiker CHARACTER Biker SUBTITLE "Boat! Hop in, let's get outta here!"
+RULE PlayerRemarkinfo_carnotboatBiker CRITERIA ConceptRemark IsBiker Isinfo_carnotboat IsNotSaidinfo_carnotboat IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear200 _auto_IssaidSailBoatIntro IsNotSpeakingWeight0 RESPONSE PlayerRemarkinfo_carnotboatBiker
+RESPONSE PlayerRemarkInfo_powerboatBiker CHARACTER Biker SUBTITLE "Found one."
+RESPONSE PlayerRemarkInfo_powerboatBiker CHARACTER Biker SUBTITLE "There's a boat."
+RESPONSE PlayerRemarkInfo_powerboatBiker CHARACTER Biker SUBTITLE "How about this boat?"
+RESPONSE PlayerRemarkInfo_powerboatBiker CHARACTER Biker SUBTITLE "Hey, there's a boat."
+RESPONSE PlayerRemarkInfo_powerboatBiker CHARACTER Biker SUBTITLE "That boat?"
+RESPONSE PlayerRemarkInfo_powerboatBiker CHARACTER Biker SUBTITLE "BOAT!"
+RULE PlayerRemarkInfo_powerboatBiker CRITERIA ConceptRemark IsBiker IsInfo_powerboat IsNotSaidInfo_powerboat IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear300 _auto_IssaidSailBoatIntro IsNotSpeakingWeight0 RESPONSE PlayerRemarkInfo_powerboatBiker
+RESPONSE PlayerRemarkInfo_powerboat2Biker CHARACTER Biker SUBTITLE "Found one."
+RESPONSE PlayerRemarkInfo_powerboat2Biker CHARACTER Biker SUBTITLE "There's a boat."
+RESPONSE PlayerRemarkInfo_powerboat2Biker CHARACTER Biker SUBTITLE "How about this boat?"
+RESPONSE PlayerRemarkInfo_powerboat2Biker CHARACTER Biker SUBTITLE "Hey, there's a boat."
+RESPONSE PlayerRemarkInfo_powerboat2Biker CHARACTER Biker SUBTITLE "That boat?"
+RESPONSE PlayerRemarkInfo_powerboat2Biker CHARACTER Biker SUBTITLE "BOAT!"
+RULE PlayerRemarkInfo_powerboat2Biker CRITERIA ConceptRemark IsBiker IsInfo_powerboat2 IsNotSaidInfo_powerboat2 IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear300 _auto_IssaidSailBoatIntro IsNotSpeakingWeight0 RESPONSE PlayerRemarkInfo_powerboat2Biker
+RESPONSE PlayerRemarkinfo_powerboat3Biker CHARACTER Biker SUBTITLE "Found one."
+RESPONSE PlayerRemarkinfo_powerboat3Biker CHARACTER Biker SUBTITLE "There's a boat."
+RESPONSE PlayerRemarkinfo_powerboat3Biker CHARACTER Biker SUBTITLE "How about this boat?"
+RESPONSE PlayerRemarkinfo_powerboat3Biker CHARACTER Biker SUBTITLE "Hey, there's a boat."
+RESPONSE PlayerRemarkinfo_powerboat3Biker CHARACTER Biker SUBTITLE "That boat?"
+RESPONSE PlayerRemarkinfo_powerboat3Biker CHARACTER Biker SUBTITLE "BOAT!"
+RULE PlayerRemarkinfo_powerboat3Biker CRITERIA ConceptRemark IsBiker Isinfo_powerboat3 IsNotSaidinfo_powerboat3 IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear400 _auto_IssaidSailBoatIntro IsNotSpeakingWeight0 RESPONSE PlayerRemarkinfo_powerboat3Biker
+RESPONSE PlayerRemarkinfo_powerboat4Biker CHARACTER Biker SUBTITLE "There's a boat."
+RESPONSE PlayerRemarkinfo_powerboat4Biker CHARACTER Biker SUBTITLE "Will that boat work?"
+RULE PlayerRemarkinfo_powerboat4Biker CRITERIA ConceptRemark IsBiker Isinfo_powerboat4 IsNotSaidinfo_powerboat4 IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear400 _auto_IssaidSailBoatIntro IsNotSpeakingWeight0 RESPONSE PlayerRemarkinfo_powerboat4Biker
+RESPONSE PlayerRemarkinfo_sunkboatthereBiker CHARACTER Biker SUBTITLE "Bill, there's a boat."
+RULE PlayerRemarkinfo_sunkboatthereBiker CRITERIA ConceptRemark IsBiker Isinfo_sunkboatthere IsNotSaidinfo_sunkboatthere IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear1000 _auto_IssaidSailBoatIntro IsNotSpeakingWeight0 RESPONSE PlayerRemarkinfo_sunkboatthereBiker
+RESPONSE PlayerRemarkinfo_trailerboatBiker CHARACTER Biker SUBTITLE "Look Bill, this boat has wheels."
+RULE PlayerRemarkinfo_trailerboatBiker CRITERIA ConceptRemark IsBiker Isinfo_trailerboat IsNotSaidinfo_trailerboat IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear600 _auto_IssaidSailBoatIntro IsNotSpeakingWeight0 RESPONSE PlayerRemarkinfo_trailerboatBiker
+RESPONSE PlayerRemarkinfo_trailerboatruckBiker CHARACTER Biker SUBTITLE "What about this one? It comes with a truck!"
+RULE PlayerRemarkinfo_trailerboatruckBiker CRITERIA ConceptRemark IsBiker Isinfo_trailerboatruck IsNotSaidinfo_trailerboatruck IsNotCoughing NotInCombat IsTalk IsTalkBiker IsWorldTalkBiker IsSubjectNear400 _auto_IssaidSailBoatIntro IsNotSpeakingWeight0 RESPONSE PlayerRemarkinfo_trailerboatruckBiker
+RESPONSE PlayerYellRunBiker CHARACTER Biker SUBTITLE "RUN!"
+RESPONSE PlayerYellRunBiker CHARACTER Biker SUBTITLE "RUN!"
+RESPONSE PlayerYellRunBiker CHARACTER Biker SUBTITLE "HOLY SHIT! Run!"
+RESPONSE PlayerYellRunBiker CHARACTER Biker SUBTITLE "LET'S BEAT IT!"
+RESPONSE PlayerYellRunBiker CHARACTER Biker SUBTITLE "RUN!"
+RESPONSE PlayerYellRunBiker CHARACTER Biker SUBTITLE "SHIT! Run!"
+RESPONSE PlayerYellRunBiker CHARACTER Biker SUBTITLE "Get the lead out!"
+RESPONSE PlayerYellRunBiker CHARACTER Biker SUBTITLE "Haul Ass!"
+RULE PlayerYellRunBiker CRITERIA ConceptPlayerYellRun IsNotCoughing IsBiker IsTalk IsTalkBiker IsWorldTalkBiker RESPONSE PlayerYellRunBiker
+RESPONSE GrabbingGasSCBiker CHARACTER Biker SUBTITLE "Got it!"
+RULE GrabbingGasSCBiker CRITERIA ConceptPlayerEquippedScavengeItem IsBiker IsTalk IsTalkBiker IsWorldTalkBiker BikerNotSaidGrabbingCan RESPONSE GrabbingGasSCBiker
+RESPONSE PlayerShotGasCanBiker CHARACTER Biker SUBTITLE "Shit"
+RESPONSE PlayerShotGasCanBiker CHARACTER Biker SUBTITLE "Damnit."
+RESPONSE PlayerShotGasCanBiker CHARACTER Biker SUBTITLE "Damnit."
+RESPONSE PlayerShotGasCanBiker CHARACTER Biker SUBTITLE "Ah shit."
+RESPONSE PlayerShotGasCanBiker CHARACTER Biker SUBTITLE "Ah bullshit."
+RESPONSE PlayerShotGasCanBiker CHARACTER Biker SUBTITLE "Dammit."
+RESPONSE PlayerShotGasCanBiker CHARACTER Biker SUBTITLE "Bullshit."
+RULE PlayerShotGasCanBiker CRITERIA ConceptPlayerShotGasCan IsBiker IsNotSaidPlayerShotGasCan IsScavenge RESPONSE PlayerShotGasCanBiker
+RESPONSE ScavengeStartBiker CHARACTER Biker SUBTITLE "Let's get moving."
+RESPONSE ScavengeStartBiker CHARACTER Biker SUBTITLE "Let's move."
+RESPONSE ScavengeStartBiker CHARACTER Biker SUBTITLE "Time to go, ladies."
+RESPONSE ScavengeStartBiker CHARACTER Biker SUBTITLE "Come on, let's go."
+RULE ScavengeStartBiker CRITERIA ConceptSurvivorLeavingCheckpoint IsBiker IsTalk IsTalkBiker IsWorldTalkBiker IsScavenge IsNotSaidStartScavenge RESPONSE ScavengeStartBiker
+RESPONSE GasPourSCBiker CHARACTER Biker SUBTITLE "I hate these stupid generators."
+RESPONSE GasPourSCBiker CHARACTER Biker SUBTITLE "Cover me."
+RESPONSE GasPourSCBiker CHARACTER Biker SUBTITLE "Get my back."
+RESPONSE GasPourSCBiker CHARACTER Biker SUBTITLE "Watch my ass."
+RULE GasPourSCBiker CRITERIA ConceptPlayerPourStarted IsBiker IsTalk IsTalkBiker IsWorldTalkBiker IsScavenge ChanceToFire50Percent _auto_NotNoGasPourLine RESPONSE GasPourSCBiker
+RESPONSE GasPourDoneSCBiker CHARACTER Biker SUBTITLE "Awesome."
+RESPONSE GasPourDoneSCBiker CHARACTER Biker SUBTITLE "They can't stop us."
+RESPONSE GasPourDoneSCBiker CHARACTER Biker SUBTITLE "We are unstoppable!"
+RESPONSE GasPourDoneSCBiker CHARACTER Biker SUBTITLE "Hell yeah!"
+RESPONSE GasPourDoneSCBiker CHARACTER Biker SUBTITLE "That's right!"
+RESPONSE GasPourDoneSCBiker CHARACTER Biker SUBTITLE "OH YEAH!"
+RESPONSE GasPourDoneSCBiker CHARACTER Biker SUBTITLE "oh yeah!"
+RESPONSE GasPourDoneSCBiker CHARACTER Biker SUBTITLE "[Loud, evil laugh]"
+RULE GasPourDoneSCBiker CRITERIA ConceptPlayerPourFinished IsBiker IsTalk IsTalkBiker IsWorldTalkBiker IsScavenge ScoreDoneSC RESPONSE GasPourDoneSCBiker
+RESPONSE FinaleAheadc7m3Biker CHARACTER Biker SUBTITLE "Let's go kill somethin'!"
+RESPONSE FinaleAheadc7m3Biker CHARACTER Biker SUBTITLE "Let's go, let's go!"
+RESPONSE FinaleAheadc7m3Biker CHARACTER Biker SUBTITLE "Let's go."
+RESPONSE FinaleAheadc7m3Biker CHARACTER Biker SUBTITLE "I'm tired of waitin' around here. Come on, let's go."
+RESPONSE FinaleAheadc7m3Biker CHARACTER Biker SUBTITLE "Come on, let's go."
+RULE FinaleAheadc7m3Biker CRITERIA ConceptPlayerNearFinale IsNotCoughing IsBiker IsNotSaidFinaleAhead NotInCombat IsTalk IsTalkBiker IsNotIncapacitated IsWorldTalkBiker Ismapc7m3_port RESPONSE FinaleAheadc7m3Biker
+RESPONSE Player.C7M2CrowsFlyBiker CHARACTER Biker SUBTITLE "Shut up, you stupid birds."
+RESPONSE Player.C7M2CrowsFlyBiker CHARACTER Biker SUBTITLE "Nice rockpile, birds! Ha ha, hold on, do you hear a zombie?"
+RESPONSE Player.C7M2CrowsFlyBiker CHARACTER Biker SUBTITLE "Into the chute."
+RULE Player.C7M2CrowsFlyBiker CRITERIA ConceptC7M2CrowsFlySpeakBiker ismapc7m2_barge IsBiker _auto_NotC7M2CrowsFlySpeak RESPONSE Player.C7M2CrowsFlyBiker
+RESPONSE Player.C7M3BridgeLeapBiker CHARACTER Biker SUBTITLE "Jesus, I'm brave."
+RESPONSE Player.C7M3BridgeLeapBiker CHARACTER Biker SUBTITLE "Guess I better save everybody."
+RESPONSE Player.C7M3BridgeLeapBiker CHARACTER Biker SUBTITLE "I hate suicide missions."
+RESPONSE Player.C7M3BridgeLeapBiker CHARACTER Biker SUBTITLE "Stay there! God damn it, I don't wanna die"
+RESPONSE Player.C7M3BridgeLeapBiker CHARACTER Biker SUBTITLE "Stay there! Oh my god, I'm an idiot"
+RESPONSE Player.C7M3BridgeLeapBiker CHARACTER Biker SUBTITLE "Stay there! Oh god, it shoulda been Louis."
+RESPONSE Player.C7M3BridgeLeapBiker CHARACTER Biker SUBTITLE "Nobody try to help me! Unless you want!"
+RESPONSE Player.C7M3BridgeLeapBiker CHARACTER Biker SUBTITLE "Don't try to talk me out of this! Anyone?"
+RESPONSE Player.C7M3BridgeLeapBiker CHARACTER Biker SUBTITLE "Don't move! I have a plan!"
+RULE Player.C7M3BridgeLeapBiker CRITERIA ConceptC7M3BridgeLeapSpeakBiker IsNotCoughing IsBiker  IsTalk IsTalkBiker IsNotSpeaking  ismapc7m3_port IsWorldTalkBiker IsNotScavenge _auto_NotSaidC7M3BridgeLeap RESPONSE Player.C7M3BridgeLeapBiker
+RESPONSE SurvivorPickupAdrenalineBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupAdrenalineBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupAdrenalineBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupAdrenalineBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupAdrenalineBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupAdrenalineBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpAdrenaline IsNotSpeaking IsInSafeSpot IsNotInStartArea IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent AutoIsNotScavenge AutoIsNotSurvival RESPONSE SurvivorPickupAdrenalineBiker
+RESPONSE SurvivorPickupAdrenalineAlwaysBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupAdrenalineAlwaysBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupAdrenalineAlwaysBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupAdrenalineAlwaysBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupAdrenalineAlwaysBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupAdrenalineAlwaysBiker CRITERIA ConceptPlayerPickup IsNotCoughing IsBiker IsPickedUpAdrenaline IsNotSpeaking IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent AutoIsNotScavenge AutoIsNotSurvival RESPONSE SurvivorPickupAdrenalineAlwaysBiker
+RESPONSE SurvivorPickupbaseball_batBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupbaseball_batBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupbaseball_batBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupbaseball_batBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupbaseball_batBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupbaseball_batBiker CRITERIA ConceptPlayerPickup IsNotCoughing IsBiker IsPickedUpbaseball_bat IsNotSpeaking  BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker IsNotInStartArea ChanceToFire30Percent AutoIsNotScavenge AutoIsNotSurvival RESPONSE SurvivorPickupbaseball_batBiker
+RESPONSE SurvivorPickupchainsawBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupchainsawBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupchainsawBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupchainsawBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupchainsawBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupchainsawBiker CRITERIA criteria ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpchainsaw IsNotSpeaking  BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupchainsawBiker
+RESPONSE SurvivorPickupcricket_batBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupcricket_batBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupcricket_batBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupcricket_batBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupcricket_batBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupcricket_batBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpcricket_bat IsNotSpeaking  BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupcricket_batBiker
+RESPONSE SurvivorPickupCricketBatBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupCricketBatBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupCricketBatBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupCricketBatBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupCricketBatBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupCricketBatBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpcricket_bat IsNotSpeaking  BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupCricketBatBiker
+RESPONSE SurvivorPickupCrowBarBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupCrowBarBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupCrowBarBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupCrowBarBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupCrowBarBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupCrowBarBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpCrowBar  IsNotSpeaking  BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker  IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupCrowBarBiker
+RESPONSE SurvivorPickupelectric_guitarBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupelectric_guitarBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupelectric_guitarBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupelectric_guitarBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupelectric_guitarBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupelectric_guitarBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpelectric_guitar IsNotSpeaking  BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupelectric_guitarBiker
+RESPONSE SurvivorPickupFireAxeBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupFireAxeBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupFireAxeBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupFireAxeBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupFireAxeBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupFireAxeBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpFireAxe  IsNotSpeaking  BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupFireAxeBiker
+RESPONSE SurvivorPickupFryingPanBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupFryingPanBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupFryingPanBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupFryingPanBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupFryingPanBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupFryingPanBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpFryingPan IsNotSpeaking  BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupFryingPanBiker
+RESPONSE SurvivorPickupGrenadeLauncherBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupGrenadeLauncherBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupGrenadeLauncherBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupGrenadeLauncherBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupGrenadeLauncherBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupGrenadeLauncherBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpGrenadeLauncher IsNotSpeaking IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupGrenadeLauncherBiker
+RESPONSE SurvivorPickupIncendiaryAmmoBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupIncendiaryAmmoBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupIncendiaryAmmoBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupIncendiaryAmmoBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupIncendiaryAmmoBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupIncendiaryAmmoBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpIncendiaryAmmo IsNotSpeaking  ChanceToFire40Percent BikerNotPickedUpItem IsNotInStartArea IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupIncendiaryAmmoBiker
+RESPONSE SurvivorPickupKatanaBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupKatanaBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupKatanaBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupKatanaBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupKatanaBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupKatanaBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpKatana IsNotSpeaking  BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupKatanaBiker
+RESPONSE SurvivorPickupLaserSightsAlwaysBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupLaserSightsAlwaysBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupLaserSightsAlwaysBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupLaserSightsAlwaysBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupLaserSightsAlwaysBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupLaserSightsAlwaysBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpLaserSights IsNotSpeaking ChanceToFire50Percent BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupLaserSightsAlwaysBiker
+RESPONSE SurvivorPickupMacheteBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupMacheteBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupMacheteBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupMacheteBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupMacheteBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupMacheteBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpMachete IsNotSpeaking  BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupMacheteBiker
+RESPONSE SurvivorPickupMagnumBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupMagnumBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupMagnumBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupMagnumBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupMagnumBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupMagnumBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpMagnum IsNotSpeaking IsInSafeSpot ChanceToFire30Percent BikerNotPickedUpItem IsNotInStartArea IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupMagnumBiker
+RESPONSE SurvivorPickupMagnumAlwaysBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupMagnumAlwaysBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupMagnumAlwaysBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupMagnumAlwaysBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupMagnumAlwaysBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupMagnumAlwaysBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpMagnum IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupMagnumAlwaysBiker
+RESPONSE SurvivorPickuptonfaBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickuptonfaBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickuptonfaBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickuptonfaBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickuptonfaBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickuptonfaBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUptonfa IsNotSpeaking  BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickuptonfaBiker
+RESPONSE SurvivorPickupGolfClubBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupGolfClubBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupGolfClubBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupGolfClubBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupGolfClubBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupGolfClubBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpGolfClub IsNotSpeaking  BikerNotPickedUpItem IsTalk IsTalkBiker IsWorldTalkBiker IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupGolfClubBiker
+RESPONSE SurvivorPickupUpExplosiveAmmoBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupUpExplosiveAmmoBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupUpExplosiveAmmoBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupUpExplosiveAmmoBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupUpExplosiveAmmoBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupUpExplosiveAmmoBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpExplosiveAmmo IsNotSpeaking  IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupUpExplosiveAmmoBiker
+RESPONSE SurvivorPickupUpExplosivesBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupUpExplosivesBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupUpExplosivesBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupUpExplosivesBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupUpExplosivesBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupUpExplosivesBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpUpgradePack_Explosive IsNotSpeaking  IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupUpExplosivesBiker
+RESPONSE SurvivorPickupUpIncendiaryBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupUpIncendiaryBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupUpIncendiaryBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupUpIncendiaryBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupUpIncendiaryBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupUpIncendiaryBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpUpgradePack_Incendiary IsNotSpeaking  IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupUpIncendiaryBiker
+RESPONSE SurvivorPickupUpIncendiaryAmmoBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupUpIncendiaryAmmoBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupUpIncendiaryAmmoBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupUpIncendiaryAmmoBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupUpIncendiaryAmmoBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupUpIncendiaryAmmoBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpIncendiaryAmmo IsNotSpeaking  IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupUpIncendiaryAmmoBiker
+RESPONSE SurvivorPickupVomitJarBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupVomitJarBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupVomitJarBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupVomitJarBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupVomitJarBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupVomitJarBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpVomitJar IsNotSpeaking IsInSafeSpot IsNotInStartArea IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupVomitJarBiker
+RESPONSE SurvivorPickupVomitJarAlwaysBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupVomitJarAlwaysBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupVomitJarAlwaysBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupVomitJarAlwaysBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupVomitJarAlwaysBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupVomitJarAlwaysBiker CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsBiker IsPickedUpVomitJar IsNotSpeaking IsTalk IsTalkBiker IsWorldTalkBiker ChanceToFire30Percent RESPONSE SurvivorPickupVomitJarAlwaysBiker
+RESPONSE InfoReminfo_powerboat4aBiker CHARACTER Biker SUBTITLE "Quiet Zoey."
+RESPONSE InfoReminfo_powerboat4aBiker CHARACTER Biker SUBTITLE "Quiet Zoey."
+RULE InfoReminfo_powerboat4aBiker CRITERIA ConceptInfoReminfo_powerboat4a IsBiker RESPONSE InfoReminfo_powerboat4aBiker
+RESPONSE PlayerLostCallBiker CHARACTER Biker SUBTITLE "Hello"
+RESPONSE PlayerLostCallBiker CHARACTER Biker SUBTITLE "Is anyone there?"
+RESPONSE PlayerLostCallBiker CHARACTER Biker SUBTITLE "Marco!"
+RESPONSE PlayerLostCallBiker CHARACTER Biker SUBTITLE "Hello? Where dija go?"
+RULE PlayerLostCallBiker CRITERIA ConceptTalkIdle IsBiker IsClosestSurvivorFar3000 IsNotSaidPlayerLostCall _auto_NotNoLostCall IsNotSpeakingWeight0 RESPONSE PlayerLostCallBiker
+RESPONSE SurvivorSpottedChainsawBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedChainsawBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedChainsawBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedChainsawBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsChainsaw IsWorldTalkBiker RESPONSE SurvivorSpottedChainsawBiker
+RESPONSE SurvivorSpottedChainsawAutoBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedChainsawAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedChainsawAutoBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedChainsawAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsChainsaw IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedChainsawAutoBiker
+RESPONSE SurvivorSpottedcricket_batBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedcricket_batBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedcricket_batBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedcricket_batBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto Iscricket_bat IsWorldTalkBiker RESPONSE SurvivorSpottedcricket_batBiker
+RESPONSE SurvivorSpottedcricket_batAutoBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedcricket_batAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedcricket_batAutoBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedcricket_batAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot Iscricket_bat IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedcricket_batAutoBiker
+RESPONSE SurvivorSpottedcrowbarBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedcrowbarBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedcrowbarBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedcrowbarBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto Iscrowbar IsWorldTalkBiker RESPONSE SurvivorSpottedcrowbarBiker
+RESPONSE SurvivorSpottedcrowbarAutoBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedcrowbarAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedcrowbarAutoBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedcrowbarAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot Iscrowbar IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedcrowbarAutoBiker
+RESPONSE SurvivorSpottedGuitarBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedGuitarBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedGuitarBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedGuitarBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsGuitar IsWorldTalkBiker RESPONSE SurvivorSpottedGuitarBiker
+RESPONSE SurvivorSpottedGuitarAutoBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedGuitarAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedGuitarAutoBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedGuitarAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsGuitar IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGuitarAutoBiker
+RESPONSE SurvivorSpottedKatanaBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedKatanaBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedKatanaBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedKatanaBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsKatana IsWorldTalkBiker RESPONSE SurvivorSpottedKatanaBiker
+RESPONSE SurvivorSpottedKatanaAutoBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedKatanaAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedKatanaAutoBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedKatanaAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsKatana IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedKatanaAutoBiker
+RESPONSE SurvivorSpottedLaserSightsBiker CHARACTER Biker SUBTITLE "Look!"
+RESPONSE SurvivorSpottedLaserSightsBiker CHARACTER Biker SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedLaserSightsBiker CHARACTER Biker SUBTITLE "Look here."
+RESPONSE SurvivorSpottedLaserSightsBiker CHARACTER Biker SUBTITLE "What the hell is this?"
+RULE SurvivorSpottedLaserSightsBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsLaserSights IsWorldTalkBiker RESPONSE SurvivorSpottedLaserSightsBiker
+RESPONSE SurvivorSpottedLaserSightsAutoBiker CHARACTER Biker SUBTITLE "Look!"
+RESPONSE SurvivorSpottedLaserSightsAutoBiker CHARACTER Biker SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedLaserSightsAutoBiker CHARACTER Biker SUBTITLE "Look here."
+RESPONSE SurvivorSpottedLaserSightsAutoBiker CHARACTER Biker SUBTITLE "What the hell is this?"
+RULE SurvivorSpottedLaserSightsAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsLaserSights IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedLaserSightsAutoBiker
+RESPONSE SurvivorSpottedMacheteBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedMacheteBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedMacheteBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedMacheteBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsMachete IsWorldTalkBiker RESPONSE SurvivorSpottedMacheteBiker
+RESPONSE SurvivorSpottedMacheteAutoBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedMacheteAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedMacheteAutoBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedMacheteAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsMachete IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedMacheteAutoBiker
+RESPONSE SurvivorSpottedMagnumBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedMagnumBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedMagnumBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedMagnumBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsMagnum IsWorldTalkBiker RESPONSE SurvivorSpottedMagnumBiker
+RESPONSE SurvivorSpottedMagnumAutoBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedMagnumAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedMagnumAutoBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedMagnumAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsMagnum IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedMagnumAutoBiker
+RESPONSE SurvivorSpottedtonfaBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedtonfaBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedtonfaBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedtonfaBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto Istonfa IsWorldTalkBiker RESPONSE SurvivorSpottedtonfaBiker
+RESPONSE SurvivorSpottedtonfaAutoBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedtonfaAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedtonfaAutoBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedtonfaAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot Istonfa IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedtonfaAutoBiker
+RESPONSE SurvivorSpottedGolfClubBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGolfClubBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedGolfClubBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedGolfClubBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedGolfClubBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsGolfClub IsWorldTalkBiker IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGolfClubBiker
+RESPONSE SurvivorSpottedGolfClubAutoBiker CHARACTER Biker SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGolfClubAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedGolfClubAutoBiker CHARACTER Biker SUBTITLE "Weapon's over here!"
+RESPONSE SurvivorSpottedGolfClubAutoBiker CHARACTER Biker SUBTITLE "We got weapons over here."
+RULE SurvivorSpottedGolfClubAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsGolfClub IsWorldTalkBiker RESPONSE SurvivorSpottedGolfClubAutoBiker
+RULE SurvivorSpottedAutoShotgunBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsAutoShotgun IsWorldTalkBiker RESPONSE SurvivorSpottedWeaponBiker
+RULE SurvivorSpottedAutoShotgunAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsAutoShotgun IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponBiker
+RULE SurvivorSpottedHuntingRifleBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsHuntingRifle IsWorldTalkBiker RESPONSE SurvivorSpottedWeaponBiker
+RULE SurvivorSpottedHuntingRifleAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsHuntingRifle IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponBiker
+RULE SurvivorSpottedPumpShotgunBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsPumpShotgun IsWorldTalkBiker RESPONSE SurvivorSpottedWeaponBiker
+RULE SurvivorSpottedRifleBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsRifle IsWorldTalkBiker RESPONSE SurvivorSpottedWeaponBiker
+RULE SurvivorSpottedRifle_AK47Biker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsRifle_AK47 IsWorldTalkBiker RESPONSE SurvivorSpottedWeaponBiker
+RULE SurvivorSpottedRifle_AK47AutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsRifle_AK47 IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponBiker
+RULE SurvivorSpottedRifleAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsRifle IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponBiker
+RULE SurvivorSpottedSecondPistolBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsSecondPistol IsWorldTalkBiker RESPONSE SurvivorSpottedWeaponBiker
+RULE SurvivorSpottedShotgun_ChromeBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsShotgun_Chrome IsWorldTalkBiker RESPONSE SurvivorSpottedWeaponBiker
+RULE SurvivorSpottedSMGBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsSMG IsWorldTalkBiker RESPONSE SurvivorSpottedWeaponBiker
+RESPONSE SurvivorSpottedDefibrillatorBiker CHARACTER Biker SUBTITLE "Look!"
+RESPONSE SurvivorSpottedDefibrillatorBiker CHARACTER Biker SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedDefibrillatorBiker CHARACTER Biker SUBTITLE "Look here."
+RESPONSE SurvivorSpottedDefibrillatorBiker CHARACTER Biker SUBTITLE "What the hell is this?"
+RULE SurvivorSpottedDefibrillatorBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsNotSmartLookAuto IsDefibrillator IsWorldTalkBiker RESPONSE SurvivorSpottedDefibrillatorBiker
+RESPONSE SurvivorSpottedDefibrillatorAutoBiker CHARACTER Biker SUBTITLE "Look!"
+RESPONSE SurvivorSpottedDefibrillatorAutoBiker CHARACTER Biker SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedDefibrillatorAutoBiker CHARACTER Biker SUBTITLE "Look here."
+RESPONSE SurvivorSpottedDefibrillatorAutoBiker CHARACTER Biker SUBTITLE "What the hell is this?"
+RULE SurvivorSpottedDefibrillatorAutoBiker CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsBiker IsTalk IsTalkBiker IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidDefibrillator IsNotSaidSpot IsDefibrillator IsWorldTalkBiker _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedDefibrillatorAutoBiker
+RESPONSE SurvivorPickupDefibrillatorBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupDefibrillatorBiker CHARACTER Biker SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupDefibrillatorBiker CHARACTER Biker SUBTITLE "Cool."
+RESPONSE SurvivorPickupDefibrillatorBiker CHARACTER Biker SUBTITLE "Yes."
+RESPONSE SurvivorPickupDefibrillatorBiker CHARACTER Biker SUBTITLE "Yeah."
+RULE SurvivorPickupDefibrillatorBiker CRITERIA ConceptPlayerPickup IsNotCoughing IsBiker IsPickedUpDefibrillator IsNotSpeaking IsTalk IsTalkBiker IsWorldTalkBiker RESPONSE SurvivorPickupDefibrillatorBiker
+
+
+

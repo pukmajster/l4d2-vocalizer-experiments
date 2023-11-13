@@ -1,0 +1,13 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_update/scripts/talker/pilot.txt
+-------------------------------------------------------
+
+RULE ColdStreamPilotFinaleBrief CRITERIA ConceptC13M4FinaleBrief AutoIsNotScavenge AutoIsNotSurvival RESPONSE ColdStreamPilotFinaleBrief
+RULE ColdStreamPilotFinaleBrief2 CRITERIA ConceptC13M4FinaleBrief2 AutoIsNotScavenge AutoIsNotSurvival RESPONSE ColdStreamPilotFinaleBrief2
+RULE ColdStreamPilotFinaleBrief3 CRITERIA ConceptC13M4FinaleBrief3 AutoIsNotScavenge AutoIsNotSurvival RESPONSE ColdStreamPilotFinaleBrief3
+RULE ColdStreamPilotFinaleStart CRITERIA ConceptC13M4FinaleStart AutoIsNotScavenge AutoIsNotSurvival RESPONSE ColdStreamPilotFinaleStart
+RULE ColdStreamPilotEscapeNags CRITERIA ConceptC13M4PilotEscapeNag NotSaidOutro AutoIsNotScavenge AutoIsNotSurvival RESPONSE ColdStreamPilotEscapeNags
+RULE C13M4OutroPilot CRITERIA ConceptC13M4Outro AutoIsNotScavenge AutoIsNotSurvival RESPONSE C13M4OutroPilot
+
+
+

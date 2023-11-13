@@ -1,0 +1,551 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_update/scripts/talker/finales_dlc2.txt
+-------------------------------------------------------
+
+RULE ConceptHospitalRadioAttract CRITERIA ConceptHospitalRadioAttract FinaleAttract RESPONSE ConceptHospitalRadioAttract
+RULE ConceptHospitalRadioAttract2 CRITERIA ConceptHospitalRadioAttract2 FinaleAttract RESPONSE ConceptHospitalRadioAttract2
+RULE ConceptHospitalFinaleLost CRITERIA ConceptHospitalFinaleLost _auto_IsFinaleStarted RESPONSE ConceptHospitalFinaleLost
+RULE ConceptHospitalRadioContactN CRITERIA ConceptHospitalRadioContact FinaleAttract PanicEventNamVet RESPONSE ConceptHospitalRadioContactN
+RESPONSE ConceptHospitalRadioTalkNamvet CHARACTER NamVet SUBTITLE "Hello?"
+RESPONSE ConceptHospitalRadioTalkNamvet CHARACTER NamVet SUBTITLE "I'm here."
+RESPONSE ConceptHospitalRadioTalkNamvet CHARACTER NamVet SUBTITLE "Hello!"
+RESPONSE ConceptHospitalRadioTalkNamvet CHARACTER NamVet SUBTITLE "Hey, I'm here."
+RULE ConceptHospitalRadioTalkNamvet CRITERIA ConceptHospitalRadioTalk IsNamVet RESPONSE ConceptHospitalRadioTalkNamvet
+RULE ConceptHospitalRadioContactB CRITERIA ConceptHospitalRadioContact FinaleAttract PanicEventBiker RESPONSE ConceptHospitalRadioContactB
+RESPONSE ConceptHospitalRadioTalkBiker CHARACTER Biker SUBTITLE "Uh, hello?"
+RESPONSE ConceptHospitalRadioTalkBiker CHARACTER Biker SUBTITLE "I'm here!"
+RESPONSE ConceptHospitalRadioTalkBiker CHARACTER Biker SUBTITLE "Hey, I'm here!"
+RESPONSE ConceptHospitalRadioTalkBiker CHARACTER Biker SUBTITLE "Hey, I'm here!"
+RESPONSE ConceptHospitalRadioTalkBiker CHARACTER Biker SUBTITLE "Hello!"
+RULE ConceptHospitalRadioTalkBiker CRITERIA ConceptHospitalRadioTalk IsBiker RESPONSE ConceptHospitalRadioTalkBiker
+RULE ConceptHospitalRadioContactM CRITERIA ConceptHospitalRadioContact FinaleAttract PanicEventManager RESPONSE ConceptHospitalRadioContactM
+RESPONSE ConceptHospitalRadioTalkManager CHARACTER Manager SUBTITLE "Hello?"
+RESPONSE ConceptHospitalRadioTalkManager CHARACTER Manager SUBTITLE "Hello?"
+RESPONSE ConceptHospitalRadioTalkManager CHARACTER Manager SUBTITLE "I'm here!"
+RESPONSE ConceptHospitalRadioTalkManager CHARACTER Manager SUBTITLE "Hello!"
+RESPONSE ConceptHospitalRadioTalkManager CHARACTER Manager SUBTITLE "Hey, I'm here!"
+RULE ConceptHospitalRadioTalkManager CRITERIA ConceptHospitalRadioTalk IsManager RESPONSE ConceptHospitalRadioTalkManager
+RULE ConceptHospitalRadioContactT CRITERIA ConceptHospitalRadioContact FinaleAttract PanicEventTeenGirl RESPONSE ConceptHospitalRadioContactT
+RESPONSE ConceptHospitalRadioTalkTeenGirl CHARACTER TeenGirl SUBTITLE "Hello!"
+RESPONSE ConceptHospitalRadioTalkTeenGirl CHARACTER TeenGirl SUBTITLE "Hello!"
+RESPONSE ConceptHospitalRadioTalkTeenGirl CHARACTER TeenGirl SUBTITLE "Hello!"
+RESPONSE ConceptHospitalRadioTalkTeenGirl CHARACTER TeenGirl SUBTITLE "Hey, I'm here."
+RESPONSE ConceptHospitalRadioTalkTeenGirl CHARACTER TeenGirl SUBTITLE "Hey, I'm here."
+RESPONSE ConceptHospitalRadioTalkTeenGirl CHARACTER TeenGirl SUBTITLE "I'm here!"
+RESPONSE ConceptHospitalRadioTalkTeenGirl CHARACTER TeenGirl SUBTITLE "I'm here!"
+RESPONSE ConceptHospitalRadioTalkTeenGirl CHARACTER TeenGirl SUBTITLE "Hey, I'm here."
+RULE ConceptHospitalRadioTalkTeenGirl CRITERIA ConceptHospitalRadioTalk IsTeenGirl RESPONSE ConceptHospitalRadioTalkTeenGirl
+RULE ConceptHospitalRadioPrepare CRITERIA ConceptHospitalRadioPrepare RESPONSE ConceptHospitalRadioPrepare
+RULE ConceptHospitalSurvivorsReadyN CRITERIA ConceptHospitalSurvivorsReady PanicEventNamVet RESPONSE ConceptHospitalSurvivorsReadyN
+RESPONSE ConceptHospitalReadyConfirmedNamVet CHARACTER NamVet SUBTITLE "Go on and head out. We're ready."
+RESPONSE ConceptHospitalReadyConfirmedNamVet CHARACTER NamVet SUBTITLE "Come and get us. We're good to go."
+RULE ConceptHospitalReadyConfirmedNamVet CRITERIA ConceptHospitalReadyConfirmed IsNamVet RESPONSE ConceptHospitalReadyConfirmedNamVet
+RULE ConceptHospitalSurvivorsReadyB CRITERIA ConceptHospitalSurvivorsReady PanicEventBiker RESPONSE ConceptHospitalSurvivorsReadyB
+RESPONSE ConceptHospitalReadyConfirmedBiker CHARACTER Biker SUBTITLE "Come get us!"
+RESPONSE ConceptHospitalReadyConfirmedBiker CHARACTER Biker SUBTITLE "We're all set!"
+RESPONSE ConceptHospitalReadyConfirmedBiker CHARACTER Biker SUBTITLE "We're ready!"
+RULE ConceptHospitalReadyConfirmedBiker CRITERIA ConceptHospitalReadyConfirmed IsBiker RESPONSE ConceptHospitalReadyConfirmedBiker
+RULE ConceptHospitalSurvivorsReadyM CRITERIA ConceptHospitalSurvivorsReady PanicEventManager RESPONSE ConceptHospitalSurvivorsReadyM
+RESPONSE ConceptHospitalReadyConfirmedManager CHARACTER Manager SUBTITLE "Go on and head out. We're ready."
+RULE ConceptHospitalReadyConfirmedManager CRITERIA ConceptHospitalReadyConfirmed IsManager RESPONSE ConceptHospitalReadyConfirmedManager
+RULE ConceptHospitalSurvivorsReadyT CRITERIA ConceptHospitalSurvivorsReady PanicEventTeenGirl RESPONSE ConceptHospitalSurvivorsReadyT
+RESPONSE ConceptHospitalReadyConfirmedTeenGirl CHARACTER TeenGirl SUBTITLE "Let's go."
+RESPONSE ConceptHospitalReadyConfirmedTeenGirl CHARACTER TeenGirl SUBTITLE "Ready"
+RESPONSE ConceptHospitalReadyConfirmedTeenGirl CHARACTER TeenGirl SUBTITLE "Yeah. Ready"
+RULE ConceptHospitalReadyConfirmedTeenGirl CRITERIA ConceptHospitalReadyConfirmed IsTeenGirl RESPONSE ConceptHospitalReadyConfirmedTeenGirl
+RULE ConceptHospitalPilotOnTheWay CRITERIA ConceptHospitalPilotOnTheWay RESPONSE ConceptHospitalPilotOnTheWay
+RULE ConceptHospitalQuickReady CRITERIA ConceptHospitalPilotOnTheWay C8M5ImmediatelyReady RESPONSE ConceptHospitalQuickReady
+RULE ConceptHospitalChopperETA1 CRITERIA ConceptHospitalChopperETA FinaleStage1 RESPONSE ConceptHospitalChopperETA1
+RULE ConceptHospitalChopperETA2 CRITERIA ConceptHospitalChopperETA FinaleStage2 RESPONSE ConceptHospitalChopperETA2
+RULE ConceptHospitalChopperETA3 CRITERIA ConceptHospitalChopperETA FinaleStage3 RESPONSE ConceptHospitalChopperETA3
+RULE ConceptHospitalChopperETA4 CRITERIA ConceptHospitalChopperETA FinaleStage4 RESPONSE ConceptHospitalChopperETA4
+RULE ConceptHospitalChopperETA5 CRITERIA ConceptHospitalChopperETA FinaleStage5 RESPONSE ConceptHospitalChopperETA5
+RULE ConceptHospitalChopperArrives CRITERIA ConceptHospitalChopperArrives NotSaidOutro RESPONSE ConceptHospitalChopperArrives
+RULE ConceptBlockPilotLeaving CRITERIA ConceptBlockPilotLeaving RESPONSE ConceptBlockPilotLeaving
+RULE ConceptBlock500 CRITERIA ConceptBlock500 FinaleAttract RESPONSE ConceptBlock500
+RULE ConceptBlock501 CRITERIA ConceptBlock501 FinaleAttract RESPONSE ConceptBlock501
+RULE ConceptBlock514 CRITERIA ConceptBlock514 FinaleAttract PanicEventNamVet RESPONSE ConceptBlock514
+RESPONSE ConceptBlock515 CHARACTER NamVet SUBTITLE "How ya doin'?"
+RESPONSE ConceptBlock515 CHARACTER NamVet SUBTITLE "Hello?"
+RULE ConceptBlock515 CRITERIA ConceptBlock515 IsNamVet RESPONSE ConceptBlock515
+RULE ConceptBlock516 CRITERIA ConceptBlock514 FinaleAttract PanicEventBiker RESPONSE ConceptBlock516
+RESPONSE ConceptBlock517 CHARACTER Biker SUBTITLE "How ya doin'?"
+RESPONSE ConceptBlock517 CHARACTER Biker SUBTITLE "Uh, hello?"
+RULE ConceptBlock517 CRITERIA ConceptBlock515 IsBiker RESPONSE ConceptBlock517
+RULE ConceptBlock518 CRITERIA ConceptBlock514 FinaleAttract PanicEventTeenGirl RESPONSE ConceptBlock518
+RESPONSE ConceptBlock519 CHARACTER TeenGirl SUBTITLE "Hello!"
+RULE ConceptBlock519 CRITERIA ConceptBlock515 IsTeenGirl RESPONSE ConceptBlock519
+RULE ConceptBlock520 CRITERIA ConceptBlock514 FinaleAttract PanicEventManager RESPONSE ConceptBlock520
+RESPONSE ConceptBlock521 CHARACTER Manager SUBTITLE "Hello?"
+RESPONSE ConceptBlock521 CHARACTER Manager SUBTITLE "Hello?"
+RULE ConceptBlock521 CRITERIA ConceptBlock515 IsManager RESPONSE ConceptBlock521
+RULE ConceptBlock522 CRITERIA ConceptBlock522 RESPONSE ConceptBlock522
+RULE ConceptBlock523 CRITERIA ConceptBlock523 RESPONSE ConceptBlock523
+RULE ConceptBlock525 CRITERIA ConceptBlock525 FinalePreparing RESPONSE ConceptBlock525
+RULE ConceptBlock526 CRITERIA ConceptBlock514 FinaleAttract PanicEventBiker ExtraWeight10 ChanceToFire30Percent RESPONSE ConceptBlock526
+RESPONSE ConceptBlock527 CHARACTER Biker SUBTITLE "Attention boat owner: We are the cops. I command you to pick us up."
+RULE ConceptBlock527 CRITERIA ConceptBlock515 IsBiker FrancisTriedCopGambit RESPONSE ConceptBlock527
+RULE ConceptBlock528 CRITERIA ConceptBlock522 FrancisTriedCopGambit RESPONSE ConceptBlock528
+RULE ConceptBlock530 CRITERIA ConceptBlock523 FrancisTriedCopGambit RESPONSE ConceptBlock530
+RULE ConceptBlock531 CRITERIA ConceptBlock525 FinalePreparing FrancisTriedCopGambit RESPONSE ConceptBlock531
+RULE ConceptBlock532 CRITERIA ConceptBlock532 PanicEventNamVet RESPONSE ConceptBlock532
+RESPONSE ConceptBlock536 CHARACTER NamVet SUBTITLE "Go on and head out. We're ready."
+RESPONSE ConceptBlock536 CHARACTER NamVet SUBTITLE "Come and get us. We're good to go."
+RULE ConceptBlock536 CRITERIA ConceptBlock536  IsNamVet RESPONSE ConceptBlock536
+RULE ConceptBlock533 CRITERIA ConceptBlock532 PanicEventBiker RESPONSE ConceptBlock533
+RESPONSE ConceptBlock537 CHARACTER Biker SUBTITLE "Come get us!"
+RESPONSE ConceptBlock537 CHARACTER Biker SUBTITLE "We're all set!"
+RESPONSE ConceptBlock537 CHARACTER Biker SUBTITLE "We're ready!"
+RULE ConceptBlock537 CRITERIA ConceptBlock536 IsBiker RESPONSE ConceptBlock537
+RULE ConceptBlock534 CRITERIA ConceptBlock532 PanicEventTeenGirl RESPONSE ConceptBlock534
+RESPONSE ConceptBlock538 CHARACTER TeenGirl SUBTITLE "Let's go."
+RULE ConceptBlock538 CRITERIA ConceptBlock536 IsTeenGirl RESPONSE ConceptBlock538
+RULE ConceptBlock535 CRITERIA ConceptBlock532 PanicEventManager RESPONSE ConceptBlock535
+RESPONSE ConceptBlock539 CHARACTER Manager SUBTITLE "Go on and head out. We're ready."
+RULE ConceptBlock539 CRITERIA ConceptBlock536 IsManager RESPONSE ConceptBlock539
+RULE ConceptBlock540 CRITERIA ConceptBlock540 RESPONSE ConceptBlock540
+RULE ConceptBlock541 CRITERIA ConceptBlock532 ChanceToFire30Percent ExtraWeight10 RESPONSE ConceptBlock541
+RULE ConceptBlock542 CRITERIA ConceptBlock542 RESPONSE ConceptBlock542
+RULE ConceptBlockBoatManETABlank CRITERIA ConceptBlock547 FinaleStage1 RESPONSE ConceptBlockBoatManETABlank
+RULE ConceptBlock547 CRITERIA ConceptBlock547 FinaleStage2 RESPONSE ConceptBlock547
+RULE ConceptBlock548 CRITERIA ConceptBlock547 FinaleStage3 RESPONSE ConceptBlock548
+RULE ConceptBlock550 CRITERIA ConceptBlock547 FinaleStage4 RESPONSE ConceptBlock550
+RULE ConceptBlock551 CRITERIA ConceptBlock547 FinaleStage5 RESPONSE ConceptBlock551
+RULE ConceptBlock561 CRITERIA ConceptBlock561 RESPONSE ConceptBlock561
+RULE ConceptBlock561Lighthouse CRITERIA ConceptBlock561 IsLastStand2 RESPONSE ConceptBlock561
+RULE ConceptBlockBoatLeaving CRITERIA ConceptBlockBoatLeaving RESPONSE ConceptBlockBoatLeaving
+RULE ConceptBlock563 CRITERIA ConceptBlock563 NotSaidOutro RESPONSE ConceptBlock563
+RULE ConceptBlock563Lighthouse CRITERIA ConceptBlock563 IsLastStand2 NotSaidOutro RESPONSE ConceptBlock563Lighthouse
+RULE ConceptBlock001 CRITERIA ConceptBlock001 ChurchguyPhase1 AutoIsNotScavenge RESPONSE ConceptBlock001
+RULE ConceptBlock002A CRITERIA ConceptBlock002A ChurchguyPhase2 AutoIsNotScavenge RESPONSE ConceptBlock002A
+RULE ConceptBlock002B CRITERIA ConceptBlock002B ChurchguyPhase2 RESPONSE ConceptBlock002B
+RULE ConceptBlock002C CRITERIA ConceptBlock002C ChurchguyPhase2 RESPONSE ConceptBlock002C
+RULE ConceptBlock004 CRITERIA ConceptBlock004 IsTouchedDoor RESPONSE ConceptBlock004
+RULE ConceptBlock005 CRITERIA ConceptBlock005 RESPONSE ConceptBlock005
+RULE ConceptBlock006 CRITERIA ConceptBlock006 ChurchGuyNotDingDonged RESPONSE ConceptBlock006
+RULE ConceptBlock007 CRITERIA ConceptBlock007 RESPONSE ConceptBlock007
+RULE ConceptBlockDingDong CRITERIA ConceptBlockDingDong ChurchGuyNotDingDonged ChanceToFire25Percent RESPONSE ConceptBlockDingDong
+RULE ConceptBlockDingDong2 CRITERIA ConceptBlockDingDong2 RESPONSE ConceptBlockDingDong2
+RULE ConceptBlockDinnerIsServed CRITERIA ConceptBlock007 FrancisTriedThreat RESPONSE ConceptBlockDinnerIsServed
+RULE ConceptBlock008 CRITERIA ConceptBlock008 PanicEventBiker ChurchguyPhase3 IsNotVersus RESPONSE ConceptBlock008
+RULE ConceptFrancisSpecial CRITERIA ConceptBlock008 PanicEventBiker IsNamVetAlive ChurchguyPhase3 ExtraWeight10 ChanceToFire30Percent IsNotVersus RESPONSE ConceptFrancisSpecial
+RESPONSE ConceptBlock009 CHARACTER Biker SUBTITLE "We're cops. Open up."
+RULE ConceptBlock009 CRITERIA ConceptBlock009 IsBiker RESPONSE ConceptBlock009
+RESPONSE ConceptBlock009BillAlive CHARACTER Biker SUBTITLE "Well, let's see: I'm Francis, and that's Grandpa Bill, and - THERE'S ZOMBIES OUT HERE OPEN THE GODDAMN DOOR."
+RULE ConceptBlock009BillAlive CRITERIA ConceptBlock009 IsBiker IsNamVetAlive ChanceToFire90Percent RESPONSE ConceptBlock009BillAlive
+RESPONSE ConceptFrancisAntagonize CHARACTER Biker SUBTITLE "I am going to tear that bell down and shove it up your ass!"
+RULE ConceptFrancisAntagonize CRITERIA ConceptFrancisAntagonize IsBiker RESPONSE ConceptFrancisAntagonize
+RESPONSE ConceptShutUpFrancis CHARACTER NamVet SUBTITLE "Shut up, Francis."
+RULE ConceptShutUpFrancis CRITERIA ConceptShutUpFrancis IsNamVet RESPONSE ConceptShutUpFrancis
+RULE ConceptBlock010 CRITERIA ConceptBlock010 IsTouchedDoor RESPONSE ConceptBlock010
+RULE ConceptBlock011 CRITERIA ConceptBlock011 IsTouchedDoor RESPONSE ConceptBlock011
+RESPONSE ConceptBlock012 CHARACTER NamVet SUBTITLE "This guy's nuttier than candy bar shit."
+RESPONSE ConceptBlock012 CHARACTER NamVet SUBTITLE "I don't believe this."
+RULE ConceptBlock012 CRITERIA ConceptBlock012 IsNamVet RESPONSE ConceptBlock012
+RESPONSE ConceptBlockIdiotFrancis CHARACTER NamVet SUBTITLE "You ever get tired of being an idiot, Francis?"
+RULE ConceptBlockIdiotFrancis CRITERIA ConceptBlock012 IsNamVet FrancisTriedThreat RESPONSE ConceptBlockIdiotFrancis
+RESPONSE ConceptBlock013 CHARACTER Biker SUBTITLE "I am going to tear that bell down and shove it up your ass!"
+RESPONSE ConceptBlock013 CHARACTER Biker SUBTITLE "If we live through this, I'm gonna frickin' kill that guy."
+RULE ConceptBlock013 CRITERIA ConceptBlock012 IsBiker RESPONSE ConceptBlock013
+RULE ConceptBlock014 CRITERIA ConceptBlock008 PanicEventManager ChurchguyPhase3 IsNotVersus RESPONSE ConceptBlock014
+RESPONSE ConceptBlock015 CHARACTER Manager SUBTITLE "Sir, please! We are NOT infected."
+RULE ConceptBlock015 CRITERIA ConceptBlock015  IsManager RESPONSE ConceptBlock015
+RULE ConceptBlock016 CRITERIA ConceptBlock016 IsTouchedDoor RESPONSE ConceptBlock016
+RESPONSE ConceptBlock017 CHARACTER Manager SUBTITLE "[Disbelief] What?"
+RULE ConceptBlock017 CRITERIA ConceptBlock017  IsManager RESPONSE ConceptBlock017
+RULE ConceptBlock018 CRITERIA ConceptBlock018 IsTouchedDoor RESPONSE ConceptBlock018
+RESPONSE ConceptBlock019 CHARACTER Manager SUBTITLE "Mister, if one of us get killed out here, I am gonna shoot my way in there and beat you to death with my gun!"
+RULE ConceptBlock019 CRITERIA ConceptBlock019  IsManager RESPONSE ConceptBlock019
+RESPONSE ConceptBlock021 CHARACTER Biker SUBTITLE "Man, I don't think the cop thing worked."
+RULE ConceptBlock021 CRITERIA ConceptBlock012 IsBiker FrancisTriedCopGambit RESPONSE ConceptBlock021
+RULE ConceptBlock024 CRITERIA ConceptBlock008 PanicEventNamVet ChurchguyPhase3 IsNotVersus RESPONSE ConceptBlock024
+RESPONSE ConceptBlock025 CHARACTER NamVet SUBTITLE "We're as human as they come, son. I promise you."
+RESPONSE ConceptBlock025 CHARACTER NamVet SUBTITLE "Son, we're immune, we're tired, and there's infected in the damn woods. Now cut the shit and let us in!"
+RULE ConceptBlock025 CRITERIA ConceptBlock025 IsNamVet RESPONSE ConceptBlock025
+RULE ConceptBlockChurchGuyNamVetNo1 CRITERIA ConceptBlockChurchGuyNamVetNo1 IsTouchedDoor RESPONSE ConceptBlockChurchGuyNamVetNo1
+RULE ConceptBlock026 CRITERIA ConceptBlock026 IsTouchedDoor RESPONSE ConceptBlock026
+RULE ConceptBlock027 CRITERIA ConceptBlock027 RESPONSE ConceptBlock027
+RESPONSE ConceptBlock028 CHARACTER NamVet SUBTITLE "I don't believe this shit. We're arguin' for our lives here with a damn mental moron!"
+RESPONSE ConceptBlock028 CHARACTER NamVet SUBTITLE "[Disbelief] What?"
+RESPONSE ConceptBlock028 CHARACTER NamVet SUBTITLE "Oh shit."
+RULE ConceptBlock028 CRITERIA ConceptBlock028 IsNamVet RESPONSE ConceptBlock028
+RULE ConceptBlock029 CRITERIA ConceptBlock029 IsTouchedDoor RESPONSE ConceptBlock029
+RULE ConceptBlock030 CRITERIA ConceptBlock030 IsTouchedDoor RESPONSE ConceptBlock030
+RULE ConceptBlockBell CRITERIA ConceptBlockBell IsTouchedDoor RESPONSE ConceptBlockBell
+RULE ConceptBlock031 CRITERIA ConceptBlock008 PanicEventTeenGirl ChurchguyPhase3 IsNotVersus RESPONSE ConceptBlock031
+RESPONSE ConceptBlock032 CHARACTER TeenGirl SUBTITLE "You know, we can *make* you open that goddamn door."
+RESPONSE ConceptBlock032 CHARACTER TeenGirl SUBTITLE "Hey! Jerkass. Why don't you just open the goddamn door?"
+RESPONSE ConceptBlock032 CHARACTER TeenGirl SUBTITLE "You're not gonna just open the door? Really?"
+RULE ConceptBlock032 CRITERIA ConceptBlock032 IsTeenGirl RESPONSE ConceptBlock032
+RULE ConceptBlockChurchGuyTeenGirlNo CRITERIA ConceptBlockChurchGuyTeenGirlNo IsTouchedDoor RESPONSE ConceptBlockChurchGuyTeenGirlNo
+RULE ConceptBlock033 CRITERIA ConceptBlock033 IsTouchedDoor RESPONSE ConceptBlock033
+RULE ConceptBlock034 CRITERIA ConceptBlock034 IsTouchedDoor RESPONSE ConceptBlock034
+RESPONSE ConceptBlock035 CHARACTER TeenGirl SUBTITLE "[Disbelief] What?"
+RULE ConceptBlock035 CRITERIA ConceptBlock035  IsTeenGirl RESPONSE ConceptBlock035
+RULE ConceptBlock036 CRITERIA ConceptBlock036 RESPONSE ConceptBlock036
+RESPONSE ConceptBlock037 CHARACTER TeenGirl SUBTITLE "What a dick."
+RULE ConceptBlock037 CRITERIA ConceptBlock037 IsTeenGirl RESPONSE ConceptBlock037
+RULE ConceptBlock038 CRITERIA ConceptBlock038 RESPONSE ConceptBlock038
+RULE ConceptBlock039 CRITERIA ConceptBlock039 IsTouchedDoor RESPONSE ConceptBlock039
+RESPONSE ConceptBlock040 CHARACTER Biker SUBTITLE "Listen candy-pants, we can *make* you open that goddamn door."
+RESPONSE ConceptBlock040 CHARACTER Biker SUBTITLE "Just open the goddamn door."
+RESPONSE ConceptBlock040 CHARACTER Biker SUBTITLE "Ah hell."
+RULE ConceptBlock040 CRITERIA ConceptBlock040 IsBiker RESPONSE ConceptBlock040
+RULE ConceptBlock041 CRITERIA ConceptBlock041 RESPONSE ConceptBlock041
+RULE ConceptBlock042 CRITERIA ConceptBlock042 RESPONSE ConceptBlock042
+RULE ConceptBlock043 CRITERIA ConceptBlock043 IsTouchedDoor RESPONSE ConceptBlock043
+RESPONSE ConceptBlock044 CHARACTER Biker SUBTITLE "Everyone but us is either a zombie or an asshole."
+RULE ConceptBlock044 CRITERIA ConceptBlock044 IsBiker RESPONSE ConceptBlock044
+RESPONSE ConceptBlock049 CHARACTER Biker SUBTITLE "[Disbelief] What?"
+RULE ConceptBlock049 CRITERIA ConceptBlock049 IsBiker RESPONSE ConceptBlock049
+RESPONSE ConceptBlock050 CHARACTER Manager SUBTITLE "[Disbelief] What?"
+RULE ConceptBlock050 CRITERIA ConceptBlock050 IsManager RESPONSE ConceptBlock050
+RESPONSE ConceptBlock051 CHARACTER NamVet SUBTITLE "[Disbelief] What?"
+RULE ConceptBlock051 CRITERIA ConceptBlock051 IsNamVet RESPONSE ConceptBlock051
+RESPONSE ConceptBlock052 CHARACTER TeenGirl SUBTITLE "[Disbelief] What?"
+RULE ConceptBlock052 CRITERIA ConceptBlock052 IsTeenGirl RESPONSE ConceptBlock052
+RULE ConceptBlock053 CRITERIA ConceptBlock053 ChurchguyPhase2 RESPONSE ConceptBlock053
+RULE ConceptBlock555 CRITERIA ConceptBlock008 PanicEventBiker ChurchguyPhase3 ChanceToFire25Percent IsNamVetAlive IsNotVersus RESPONSE ConceptBlock555
+RESPONSE ConceptBlock556 CHARACTER NamVet SUBTITLE "[indignant] Hey!"
+RULE ConceptBlock556 CRITERIA ConceptBlock556  IsNamVet RESPONSE ConceptBlock556
+RULE ConceptBlock557 CRITERIA ConceptBlock557 RESPONSE ConceptBlock557
+RESPONSE ConceptBlock558 CHARACTER Biker SUBTITLE "Have a heart, we gotta a helpless old man with us!"
+RULE ConceptBlock558 CRITERIA ConceptBlock558  IsBiker RESPONSE ConceptBlock558
+RULE ConceptBlock008Versus CRITERIA ConceptBlock008 ChurchguyPhase3 IsVersus RESPONSE ConceptBlock008Versus
+RULE ConceptBlock573 CRITERIA ConceptBlock573 ChurchguyTurnLoop RESPONSE ConceptBlock573
+RULE ConceptBlock574 CRITERIA ConceptBlock574 RESPONSE ConceptBlock574
+RULE ConceptBlock600 CRITERIA ConceptBlock600 RESPONSE ConceptBlock600
+RESPONSE ConceptBlock606 CHARACTER NamVet SUBTITLE "We been immune so far, but - well, if I start to turn, promise you'll shoot me."
+RESPONSE ConceptBlock606 CHARACTER NamVet SUBTITLE "I have a bad feeling about this"
+RULE ConceptBlock606 CRITERIA ConceptBlock606 IsNamVet IsBikerAlive ChanceToFire100Percent RESPONSE ConceptBlock606
+RESPONSE ConceptBlock607 CHARACTER Biker SUBTITLE "What if just your beard starts to turn? Can I shoot that?"
+RULE ConceptBlock607 CRITERIA ConceptBlock607  IsBiker RESPONSE ConceptBlock607
+RESPONSE ConceptBlock608 CHARACTER NamVet SUBTITLE "A few years in the service mighta slimmed you down and shut you up, Francis."
+RESPONSE ConceptBlock608 CHARACTER NamVet SUBTITLE "You know who's gonna survive this mess, Francis? It ain't the fella makin' jokes."
+RESPONSE ConceptBlock608 CHARACTER NamVet SUBTITLE "Speak up, Francis. Your voice got all muffled from yer head being so far up yer ass."
+RESPONSE ConceptBlock608 CHARACTER NamVet SUBTITLE "[laughing] You are an idiot."
+RULE ConceptBlock608 CRITERIA ConceptBlock608  IsNamVet RESPONSE ConceptBlock608
+RESPONSE ConceptBlock609 CHARACTER Manager SUBTITLE "Ahhh, this ain't so bad."
+RULE ConceptBlock609 CRITERIA ConceptBlock606 IsManager IsNamVetAlive ChanceToFire100Percent RESPONSE ConceptBlock609
+RESPONSE ConceptBlock610 CHARACTER Manager SUBTITLE "Humanity's gonna bounce right back, you watch."
+RULE ConceptBlock610 CRITERIA ConceptBlock610 IsManager RESPONSE ConceptBlock610
+RESPONSE ConceptBlock611 CHARACTER NamVet SUBTITLE "We're fightin' a war of attrition with a horde of brainless killing machines. I ain't exactly optimistic about our chances."
+RULE ConceptBlock611 CRITERIA ConceptBlock611 IsNamVet RESPONSE ConceptBlock611
+RESPONSE ConceptBlock612 CHARACTER Biker SUBTITLE "<Short laugh>"
+RESPONSE ConceptBlock612 CHARACTER Biker SUBTITLE "<Short laugh>"
+RESPONSE ConceptBlock612 CHARACTER Biker SUBTITLE "[laugh]"
+RULE ConceptBlock612 CRITERIA ConceptBlock612 IsBiker RESPONSE ConceptBlock612
+RESPONSE ConceptBlock613 CHARACTER Manager SUBTITLE "<Short laugh>"
+RULE ConceptBlock613 CRITERIA ConceptBlock612 IsManager RESPONSE ConceptBlock613
+RESPONSE ConceptBlock614 CHARACTER NamVet SUBTITLE "<Short laugh>"
+RESPONSE ConceptBlock614 CHARACTER NamVet SUBTITLE "<Short laugh>"
+RULE ConceptBlock614 CRITERIA ConceptBlock612 IsNamVet RESPONSE ConceptBlock614
+RESPONSE ConceptBlock615 CHARACTER TeenGirl SUBTITLE "[laugh]"
+RESPONSE ConceptBlock615 CHARACTER TeenGirl SUBTITLE "<Short laugh>"
+RESPONSE ConceptBlock615 CHARACTER TeenGirl SUBTITLE "<Short laugh>"
+RULE ConceptBlock615 CRITERIA ConceptBlock612 IsTeenGirl RESPONSE ConceptBlock615
+RESPONSE ConceptBlock616 CHARACTER Manager SUBTITLE "BELCHE - excuse me"
+RESPONSE ConceptBlock616 CHARACTER Manager SUBTITLE "Any of you guys in the Cub Scouts? Surprisingly ineffective at preparin' you for some shit like this."
+RULE ConceptBlock616 CRITERIA ConceptBlock606 IsManager IsNotAlone ChanceToFire80Percent RESPONSE ConceptBlock616
+RESPONSE ConceptBlock617 CHARACTER TeenGirl SUBTITLE "I can't get over how fast they all are. It's not even fair! I'm calling zombie bullshit on that, you know? [laughing at self] They're not allowed to be so fast."
+RULE ConceptBlock617 CRITERIA ConceptBlock606 IsTeenGirl IsNotAlone ChanceToFire80Percent RESPONSE ConceptBlock617
+RESPONSE ConceptBlock618 CHARACTER TeenGirl SUBTITLE "You think one day its all just gonna go back to normal?"
+RULE ConceptBlock618 CRITERIA ConceptBlock606 IsTeenGirl IsManagerAlive ChanceToFire60Percent RESPONSE ConceptBlock618
+RESPONSE ConceptBlock619 CHARACTER Manager SUBTITLE "Humanity's gonna bounce right back, you watch."
+RULE ConceptBlock619 CRITERIA ConceptBlock619  IsManager RESPONSE ConceptBlock619
+RESPONSE ConceptBlock620 CHARACTER TeenGirl SUBTITLE "You're an optimist. I'll give you that, Louis."
+RULE ConceptBlock620 CRITERIA ConceptBlock620 IsTeenGirl RESPONSE ConceptBlock620
+RESPONSE ConceptBlock621 CHARACTER NamVet SUBTITLE "You call this a zombie apocalypse? It don't hold a candle to the great zombie attack of 1957. [beat] Nah, I'm horseshittin' ya."
+RESPONSE ConceptBlock621 CHARACTER NamVet SUBTITLE "Even bein' in a war doesn't prepare you for this. They never stop. They come at you and come at you and they *never* goddamn *stop*."
+RULE ConceptBlock621 CRITERIA ConceptBlock606 IsNamVet IsTeenGirlAlive ChanceToFire60Percent RESPONSE ConceptBlock621
+RESPONSE ConceptBlock622 CHARACTER TeenGirl SUBTITLE "[Disbelief] What?"
+RULE ConceptBlock622 CRITERIA ConceptBlock622  IsTeenGirl RESPONSE ConceptBlock622
+RESPONSE ConceptBlock623 CHARACTER Manager SUBTITLE "How long were you in prison, Francis?"
+RULE ConceptBlock623 CRITERIA ConceptBlock606 IsManager IsBikerAlive ChanceToFire60Percent RESPONSE ConceptBlock623
+RESPONSE ConceptBlockRifleRange CHARACTER Manager SUBTITLE "Guys at the office used to laugh when I'd hit the rifle range on my lunch break. Ain't so damn funny now, is it?"
+RESPONSE ConceptBlockRifleRange CHARACTER Manager SUBTITLE "Guys at the office used to laugh when I'd hit the rifle range on my lunch break. Ain't so damn funny now, is it?"
+RULE ConceptBlockRifleRange CRITERIA ConceptBlock606 IsManager IsBikerAlive IsHoldingAR ChanceToFire30Percent RESPONSE ConceptBlockRifleRange
+RESPONSE ConceptBlock624 CHARACTER Biker SUBTITLE "<Snort>"
+RULE ConceptBlock624 CRITERIA ConceptBlock624 IsBiker RESPONSE ConceptBlock624
+RESPONSE ConceptBlock625 CHARACTER Biker SUBTITLE "If we meet anyone. Tell 'em we're cops."
+RESPONSE ConceptBlock625 CHARACTER Biker SUBTITLE "Where the hell did all these vampires come from?"
+RESPONSE ConceptBlock625 CHARACTER Biker SUBTITLE "Hey Louis, you look like shit."
+RULE ConceptBlock625 CRITERIA ConceptBlock606 IsBiker IsManagerAlive ChanceToFire60Percent RESPONSE ConceptBlock625
+RESPONSE ConceptBlock626 CHARACTER Manager SUBTITLE "Tell me you ain't serious."
+RULE ConceptBlock626 CRITERIA ConceptBlock626 IsManager RESPONSE ConceptBlock626
+RESPONSE ConceptBlock627 CHARACTER Biker SUBTITLE "What?"
+RULE ConceptBlock627 CRITERIA ConceptBlock627 IsBiker RESPONSE ConceptBlock627
+RESPONSE ConceptBlock628 CHARACTER Manager SUBTITLE "They're ZOMBIES, Francis."
+RULE ConceptBlock628 CRITERIA ConceptBlock628 IsManager RESPONSE ConceptBlock628
+RESPONSE ConceptBlock629 CHARACTER Biker SUBTITLE "Yeah whatever you say, Professor Monster."
+RULE ConceptBlock629 CRITERIA ConceptBlock629 IsBiker RESPONSE ConceptBlock629
+RESPONSE ConceptBlock631 CHARACTER Manager SUBTITLE "[Disbelief] What?"
+RULE ConceptBlock631 CRITERIA ConceptBlock631  IsManager RESPONSE ConceptBlock631
+RESPONSE ConceptBlock632 CHARACTER Biker SUBTITLE "Most people'll do anything if a cop tells 'em to."
+RULE ConceptBlock632 CRITERIA ConceptBlock632 IsBiker RESPONSE ConceptBlock632
+RESPONSE ConceptBlock633 CHARACTER Biker SUBTITLE "Trust me."
+RULE ConceptBlock633 CRITERIA ConceptBlock633 IsBiker RESPONSE ConceptBlock633
+RESPONSE ConceptBlock635 CHARACTER Biker SUBTITLE "Hey, look on the bright side: even if you don't make it, I'll still be really handsome."
+RULE ConceptBlock635 CRITERIA ConceptBlock635  IsBiker RESPONSE ConceptBlock635
+RESPONSE ConceptBlock637 CHARACTER Biker SUBTITLE "Long enough to know you got a pretty mouth."
+RESPONSE ConceptBlock637 CHARACTER Biker SUBTITLE "I hate prisons."
+RULE ConceptBlock637 CRITERIA ConceptBlock637  IsBiker RESPONSE ConceptBlock637
+RESPONSE ConceptBlockPrison CHARACTER Biker SUBTITLE "And if anyone's askin' - NO, I haven't been to prison."
+RULE ConceptBlockPrison CRITERIA ConceptBlockPrison  IsBiker RESPONSE ConceptBlockPrison
+RESPONSE ConceptBlock638 CHARACTER TeenGirl SUBTITLE "You think one day its all just gonna go back to normal?"
+RULE ConceptBlock638 CRITERIA ConceptBlock606 IsTeenGirl IsNamVetAlive IsManagerAlive ChanceToFire40Percent RESPONSE ConceptBlock638
+RESPONSE ConceptBlock639 CHARACTER NamVet SUBTITLE "I'll see peace back on earth if I gotta murder every one of these bastards with my bare goddamn hands."
+RESPONSE ConceptBlock639 CHARACTER NamVet SUBTITLE "I'll see peace back on earth if I gotta murder every one of these animals with my own bare hands!"
+RULE ConceptBlock639 CRITERIA ConceptBlock639 IsNamVet RESPONSE ConceptBlock639
+RESPONSE ConceptBlock640 CHARACTER Manager SUBTITLE "That's what I'm talkin' about"
+RULE ConceptBlock640 CRITERIA ConceptBlock640 IsManager RESPONSE ConceptBlock640
+RESPONSE ConceptBlock641 CHARACTER NamVet SUBTITLE "Damn straight."
+RULE ConceptBlock641 CRITERIA ConceptBlock641 IsNamVet RESPONSE ConceptBlock641
+RESPONSE ConceptBlock642 CHARACTER Biker SUBTITLE "Which one of you jackasses just beefed?"
+RULE ConceptBlock642 CRITERIA ConceptBlock606 IsBiker IsBikerAlive IsTeenGirlAlive ChanceToFire40Percent RESPONSE ConceptBlock642
+RESPONSE ConceptBlock643 CHARACTER TeenGirl SUBTITLE "Oops, sorry"
+RULE ConceptBlock643 CRITERIA ConceptBlock643 IsTeenGirl RESPONSE ConceptBlock643
+RESPONSE ConceptBlock645 CHARACTER Manager SUBTITLE "I ain't dyin', man. Death gonna have to pry me off the Earth."
+RESPONSE ConceptBlock645 CHARACTER Manager SUBTITLE "If I go down, go on without me. Actually, wait, no  Save my ass."
+RESPONSE ConceptBlock645 CHARACTER Manager SUBTITLE "I ain't got time to bleed. Oh hell, I *AM* bleedin'!"
+RESPONSE ConceptBlock645 CHARACTER Manager SUBTITLE "I don't wanna die. I know nobody wants to die, but I'm like, fifty times that."
+RULE ConceptBlock645 CRITERIA ConceptBlock645 IsManager RESPONSE ConceptBlock645
+RESPONSE ConceptBlock647 CHARACTER TeenGirl SUBTITLE "Game over man! Game over!"
+RULE ConceptBlock647 CRITERIA ConceptBlock647 IsTeenGirl RESPONSE ConceptBlock647
+RESPONSE ConceptBlock648 CHARACTER NamVet SUBTITLE "What the hell was that?"
+RULE ConceptBlock648 CRITERIA ConceptBlock648  IsNamVet RESPONSE ConceptBlock648
+RESPONSE ConceptBlock649 CHARACTER TeenGirl SUBTITLE "<Short laugh>"
+RULE ConceptBlock649 CRITERIA ConceptBlock649 IsTeenGirl RESPONSE ConceptBlock649
+RESPONSE ConceptBlock650 CHARACTER Manager SUBTITLE "<Short laugh>"
+RULE ConceptBlock650 CRITERIA ConceptBlock650  IsManager RESPONSE ConceptBlock650
+RESPONSE ConceptBlock651 CHARACTER Biker SUBTITLE "[Not-So-Nervous Humming]"
+RESPONSE ConceptBlock651 CHARACTER Biker SUBTITLE "I ain't gonna let these goddamn vampires beat me."
+RESPONSE ConceptBlock651 CHARACTER Biker SUBTITLE "I hate elevators."
+RULE ConceptBlock651 CRITERIA ConceptBlock606 IsBiker IsNamVetAlive ChanceToFire60Percent RESPONSE ConceptBlock651
+RESPONSE ConceptBlock652 CHARACTER Manager SUBTITLE "[Nervous Whistle]"
+RULE ConceptBlock652 CRITERIA ConceptBlock652 IsManager RESPONSE ConceptBlock652
+RESPONSE ConceptBlock653 CHARACTER NamVet SUBTITLE "[Nervous Humming]"
+RULE ConceptBlock653 CRITERIA ConceptBlock652  IsNamVet RESPONSE ConceptBlock653
+RESPONSE ConceptBlock654 CHARACTER TeenGirl SUBTITLE "So um... yeah."
+RULE ConceptBlock654 CRITERIA ConceptBlock652 IsTeenGirl RESPONSE ConceptBlock654
+RESPONSE ConceptBlock655 CHARACTER TeenGirl SUBTITLE "Things like this never end well"
+RULE ConceptBlock655 CRITERIA ConceptBlock606 IsTeenGirl IsManagerAlive ChanceToFire40Percent RESPONSE ConceptBlock655
+RESPONSE ConceptBlock656 CHARACTER Manager SUBTITLE "Come on, cheer up! We're almost through!"
+RULE ConceptBlock656 CRITERIA ConceptBlock656  IsManager RESPONSE ConceptBlock656
+RESPONSE ConceptBlock657 CHARACTER TeenGirl SUBTITLE "Louis (quiet)"
+RULE ConceptBlock657 CRITERIA ConceptBlock657  IsTeenGirl RESPONSE ConceptBlock657
+RESPONSE ConceptBlock658 CHARACTER Manager SUBTITLE "We are unstoppable."
+RULE ConceptBlock658 CRITERIA ConceptBlock658 IsManager RESPONSE ConceptBlock658
+RESPONSE ConceptBlock659 CHARACTER Manager SUBTITLE "That's right, we should call ourselves the unstoppables"
+RULE ConceptBlock659 CRITERIA ConceptBlock659  IsManager RESPONSE ConceptBlock659
+RESPONSE ConceptBlock660 CHARACTER Manager SUBTITLE "Nothing can stop us, do you hear me? Nothing can stop us!"
+RULE ConceptBlock660 CRITERIA ConceptBlock660  IsManager RESPONSE ConceptBlock660
+RESPONSE ConceptBlock661 CHARACTER TeenGirl SUBTITLE "<Hearty Laugh>"
+RULE ConceptBlock661 CRITERIA ConceptBlock661  IsTeenGirl RESPONSE ConceptBlock661
+RESPONSE ConceptBlock662 CHARACTER TeenGirl SUBTITLE "[laugh]"
+RULE ConceptBlock662 CRITERIA ConceptBlock662 IsTeenGirl RESPONSE ConceptBlock662
+RESPONSE ConceptBlock663 CHARACTER NamVet SUBTITLE "<laugh>Whoa-ho-ho."
+RULE ConceptBlock663 CRITERIA ConceptBlock663  IsNamVet RESPONSE ConceptBlock663
+RULE ConceptBlock665 CRITERIA ConceptBlock665 IsDeathToll2 RESPONSE ConceptBlock665
+RESPONSE ConceptBlock666 CHARACTER TeenGirl SUBTITLE "We're good to go! Come on!"
+RULE ConceptBlock666 CRITERIA ConceptBlock666  IsTeenGirl RESPONSE ConceptBlock666
+RESPONSE ConceptBlock667 CHARACTER Biker SUBTITLE "We're good to go! Come on!"
+RULE ConceptBlock667 CRITERIA ConceptBlock666  IsBiker RESPONSE ConceptBlock667
+RESPONSE ConceptBlock668 CHARACTER NamVet SUBTITLE "Cross the bridge! Go go go!"
+RULE ConceptBlock668 CRITERIA ConceptBlock666  IsNamVet RESPONSE ConceptBlock668
+RESPONSE ConceptBlock669 CHARACTER Manager SUBTITLE "GO!"
+RULE ConceptBlock669 CRITERIA ConceptBlock669  IsManager RESPONSE ConceptBlock669
+RESPONSE ConceptBlock670 CHARACTER Biker SUBTITLE "Go go go!"
+RULE ConceptBlock670 CRITERIA ConceptBlock669  IsBiker RESPONSE ConceptBlock670
+RESPONSE ConceptBlock671 CHARACTER NamVet SUBTITLE "go go go"
+RESPONSE ConceptBlock671 CHARACTER NamVet SUBTITLE "HAUL ASS!"
+RULE ConceptBlock671 CRITERIA ConceptBlock669  IsNamVet RESPONSE ConceptBlock671
+RESPONSE ConceptBlock673 CHARACTER TeenGirl SUBTITLE "We're good to go! Come on!"
+RULE ConceptBlock673 CRITERIA ConceptBlock665 IsTeenGirl IsBloodHarvest3 NotFarm03BridgeDown IsNotSurvival RESPONSE ConceptBlock673
+RESPONSE ConceptBlock674 CHARACTER Biker SUBTITLE "We're good to go! Come on!"
+RESPONSE ConceptBlock674 CHARACTER Biker SUBTITLE "We can get up there now!"
+RULE ConceptBlock674 CRITERIA ConceptBlock665 IsBiker IsBloodHarvest3 NotFarm03BridgeDown IsNotSurvival RESPONSE ConceptBlock674
+RESPONSE ConceptBlock676 CHARACTER Biker SUBTITLE "Watch out for the train!"
+RULE ConceptBlock676 CRITERIA ConceptBlock675 IsBiker RESPONSE ConceptBlock676
+RESPONSE ConceptBlock678 CHARACTER NamVet SUBTITLE "All Aboard!"
+RULE ConceptBlock678 CRITERIA ConceptBlock675 IsNamVet RESPONSE ConceptBlock678
+RESPONSE ConceptBlock680 CHARACTER TeenGirl SUBTITLE "Okay."
+RULE ConceptBlock680 CRITERIA ConceptBlock675 IsTeenGirl RESPONSE ConceptBlock680
+RESPONSE ConceptBlock682 CHARACTER Manager SUBTITLE "Heads up!"
+RULE ConceptBlock682 CRITERIA ConceptBlock675 IsManager RESPONSE ConceptBlock682
+RULE ConceptBlock685 CRITERIA ConceptBlock685 RESPONSE ConceptBlock685
+RESPONSE ConceptBlock686 CHARACTER Biker SUBTITLE "Jee-zus..."
+RESPONSE ConceptBlock686 CHARACTER Biker SUBTITLE "Holy crap."
+RESPONSE ConceptBlock686 CHARACTER Biker SUBTITLE "Whoa."
+RESPONSE ConceptBlock686 CHARACTER Biker SUBTITLE "Holy shit..."
+RESPONSE ConceptBlock686 CHARACTER Biker SUBTITLE "Did you see that?"
+RESPONSE ConceptBlock686 CHARACTER Biker SUBTITLE "Hell yeah!"
+RESPONSE ConceptBlock686 CHARACTER Biker SUBTITLE "HELL YEAH!"
+RESPONSE ConceptBlock686 CHARACTER Biker SUBTITLE "OH YEAH!"
+RESPONSE ConceptBlock686 CHARACTER Biker SUBTITLE "Oh yeah!"
+RESPONSE ConceptBlock686 CHARACTER Biker SUBTITLE "YEAH! YEAH!"
+RESPONSE ConceptBlock686 CHARACTER Biker SUBTITLE "Damn straight!"
+RESPONSE ConceptBlock686 CHARACTER Biker SUBTITLE "HELL YEAH!"
+RULE ConceptBlock686 CRITERIA ConceptBlock686 IsBiker RESPONSE ConceptBlock686
+RESPONSE ConceptBlockC11M5FrancisPlane CHARACTER Biker SUBTITLE "Hell yeah!"
+RESPONSE ConceptBlockC11M5FrancisPlane CHARACTER Biker SUBTITLE "HELL YEAH!"
+RESPONSE ConceptBlockC11M5FrancisPlane CHARACTER Biker SUBTITLE "OH YEAH!"
+RESPONSE ConceptBlockC11M5FrancisPlane CHARACTER Biker SUBTITLE "Oh yeah!"
+RESPONSE ConceptBlockC11M5FrancisPlane CHARACTER Biker SUBTITLE "YEAH! YEAH!"
+RESPONSE ConceptBlockC11M5FrancisPlane CHARACTER Biker SUBTITLE "Damn straight!"
+RESPONSE ConceptBlockC11M5FrancisPlane CHARACTER Biker SUBTITLE "HELL YEAH!"
+RULE ConceptBlockC11M5FrancisPlane CRITERIA ConceptBlock686 IsBiker IsFrancisC11M5Happy RESPONSE ConceptBlockC11M5FrancisPlane
+RESPONSE ConceptBlock687 CHARACTER NamVet SUBTITLE "Jee-zus..."
+RESPONSE ConceptBlock687 CHARACTER NamVet SUBTITLE "Holy shit..."
+RESPONSE ConceptBlock687 CHARACTER NamVet SUBTITLE "Holy Mother of God..."
+RULE ConceptBlock687 CRITERIA ConceptBlock686 IsNamVet RESPONSE ConceptBlock687
+RESPONSE ConceptBlock688 CHARACTER Manager SUBTITLE "Whoa!"
+RESPONSE ConceptBlock688 CHARACTER Manager SUBTITLE "Jee-zus..."
+RESPONSE ConceptBlock688 CHARACTER Manager SUBTITLE "Holy shit..."
+RESPONSE ConceptBlock688 CHARACTER Manager SUBTITLE "Holy shit..."
+RESPONSE ConceptBlock688 CHARACTER Manager SUBTITLE "Jee-zus..."
+RULE ConceptBlock688 CRITERIA ConceptBlock686  IsManager RESPONSE ConceptBlock688
+RESPONSE ConceptBlock689 CHARACTER TeenGirl SUBTITLE "Jee-zus..."
+RESPONSE ConceptBlock689 CHARACTER TeenGirl SUBTITLE "Holy crap."
+RESPONSE ConceptBlock689 CHARACTER TeenGirl SUBTITLE "Wha-hoa!"
+RESPONSE ConceptBlock689 CHARACTER TeenGirl SUBTITLE "Holy shit..."
+RESPONSE ConceptBlock689 CHARACTER TeenGirl SUBTITLE "Did you see that?"
+RESPONSE ConceptBlock689 CHARACTER TeenGirl SUBTITLE "Whoa."
+RESPONSE ConceptBlock689 CHARACTER TeenGirl SUBTITLE "Jee-zus..."
+RESPONSE ConceptBlock689 CHARACTER TeenGirl SUBTITLE "Holy crap."
+RESPONSE ConceptBlock689 CHARACTER TeenGirl SUBTITLE "Holy shit..."
+RESPONSE ConceptBlock689 CHARACTER TeenGirl SUBTITLE "Did you see that?"
+RULE ConceptBlock689 CRITERIA ConceptBlock686  IsTeenGirl RESPONSE ConceptBlock689
+RESPONSE ConceptBlock696 CHARACTER NamVet SUBTITLE "They're zombies, Francis."
+RULE ConceptBlock696 CRITERIA ConceptBlock696  IsNamVet RESPONSE ConceptBlock696
+RESPONSE ConceptBlock697 CHARACTER Biker SUBTITLE "*What*ever."
+RULE ConceptBlock697 CRITERIA ConceptBlock697  IsBiker RESPONSE ConceptBlock697
+RESPONSE ConceptBlock698 CHARACTER Biker SUBTITLE "Two left. Allright. We can still do this."
+RESPONSE ConceptBlock698 CHARACTER Biker SUBTITLE "Just two of us left. Shit."
+RESPONSE ConceptBlock698 CHARACTER Biker SUBTITLE "You and me gotta find some tougher friends."
+RULE ConceptBlock698 CRITERIA ConceptBlock606 IsBiker IsWithtwo ChanceToFire100Percent RESPONSE ConceptBlock698
+RESPONSE ConceptBlock699 CHARACTER Manager SUBTITLE "Hell yes."
+RESPONSE ConceptBlock699 CHARACTER Manager SUBTITLE "You're damn right."
+RESPONSE ConceptBlock699 CHARACTER Manager SUBTITLE "Allright."
+RESPONSE ConceptBlock699 CHARACTER Manager SUBTITLE "Yeah."
+RULE ConceptBlock699 CRITERIA ConceptBlock699 IsManager IsManagerALive RESPONSE ConceptBlock699
+RESPONSE ConceptBlock700 CHARACTER NamVet SUBTITLE "I'll say."
+RESPONSE ConceptBlock700 CHARACTER NamVet SUBTITLE "Yeah."
+RULE ConceptBlock700 CRITERIA ConceptBlock699 IsNamVet IsNamVetAlive RESPONSE ConceptBlock700
+RESPONSE ConceptBlock701 CHARACTER TeenGirl SUBTITLE "Yep"
+RULE ConceptBlock701 CRITERIA ConceptBlock699 IsTeenGirl IsTeenGirlAlive RESPONSE ConceptBlock701
+RESPONSE ConceptBlock702 CHARACTER Manager SUBTITLE "Shit."
+RULE ConceptBlock702 CRITERIA ConceptBlock702 IsManager IsManagerALive RESPONSE ConceptBlock702
+RESPONSE ConceptBlock703 CHARACTER NamVet SUBTITLE "Oh shit."
+RULE ConceptBlock703 CRITERIA ConceptBlock702 IsNamVet IsNamVetAlive RESPONSE ConceptBlock703
+RESPONSE ConceptBlock704 CHARACTER TeenGirl SUBTITLE "Shit."
+RULE ConceptBlock704 CRITERIA ConceptBlock702 IsTeenGirl IsTeenGirlAlive RESPONSE ConceptBlock704
+RESPONSE ConceptBlock705 CHARACTER Manager SUBTITLE "Hell yeah."
+RESPONSE ConceptBlock705 CHARACTER Manager SUBTITLE "Hell yes."
+RESPONSE ConceptBlock705 CHARACTER Manager SUBTITLE "You're damn right."
+RULE ConceptBlock705 CRITERIA ConceptBlock705 IsManager IsManagerALive RESPONSE ConceptBlock705
+RESPONSE ConceptBlock706 CHARACTER TeenGirl SUBTITLE "YESSS!"
+RESPONSE ConceptBlock706 CHARACTER TeenGirl SUBTITLE "Great."
+RESPONSE ConceptBlock706 CHARACTER TeenGirl SUBTITLE "Yep"
+RULE ConceptBlock706 CRITERIA ConceptBlock705 IsTeenGirl IsTeenGirlAlive RESPONSE ConceptBlock706
+RESPONSE ConceptBlock707 CHARACTER NamVet SUBTITLE "Damn straight."
+RESPONSE ConceptBlock707 CHARACTER NamVet SUBTITLE "Yeah, yeah, yeah."
+RESPONSE ConceptBlock707 CHARACTER NamVet SUBTITLE "Yeah, okay, it don't mean we're married now"
+RULE ConceptBlock707 CRITERIA ConceptBlock705 IsNamVet IsNamVetAlive RESPONSE ConceptBlock707
+RESPONSE ConceptBlock709 CHARACTER Biker SUBTITLE "I hate helicopters."
+RULE ConceptBlock709 CRITERIA ConceptBlock709  IsBiker RESPONSE ConceptBlock709
+RESPONSE ConceptBlock710 CHARACTER Biker SUBTITLE "I hate hospitals.  And doctors and lawyers and cops..."
+RULE ConceptBlock710 CRITERIA ConceptBlock710  IsBiker RESPONSE ConceptBlock710
+RESPONSE ConceptBlock711 CHARACTER NamVet SUBTITLE "Francis, is there anything you don't hate?"
+RULE ConceptBlock711 CRITERIA ConceptBlock711  IsNamVet RESPONSE ConceptBlock711
+RESPONSE ConceptBlock712 CHARACTER Biker SUBTITLE "You know what I don't hate? I don't hate vests."
+RULE ConceptBlock712 CRITERIA ConceptBlock712  IsBiker RESPONSE ConceptBlock712
+RESPONSE ConceptBlock713 CHARACTER Biker SUBTITLE "[Not-So-Nervous Humming]"
+RULE ConceptBlock713 CRITERIA ConceptBlock606 IsBiker IsAlone RESPONSE ConceptBlock713
+RESPONSE ConceptBlock714 CHARACTER NamVet SUBTITLE "[Nervous Humming]"
+RULE ConceptBlock714 CRITERIA ConceptBlock606 IsNamVet IsAlone RESPONSE ConceptBlock714
+RESPONSE ConceptBlock715 CHARACTER NamVet SUBTITLE "[chuckles and giggles]"
+RULE ConceptBlock715 CRITERIA ConceptBlock715  IsNamVet RESPONSE ConceptBlock715
+RESPONSE ConceptBlock716 CHARACTER Manager SUBTITLE "[Nervous Whistle]"
+RULE ConceptBlock716 CRITERIA ConceptBlock606 IsManager IsAlone RESPONSE ConceptBlock716
+RESPONSE ConceptBlock717 CHARACTER Manager SUBTITLE "I am bad, yes I am bad, YES I AM! WOO!"
+RULE ConceptBlock717 CRITERIA ConceptBlock717  IsManager RESPONSE ConceptBlock717
+RESPONSE ConceptBlock719 CHARACTER TeenGirl SUBTITLE "[Nervous Whistle]"
+RULE ConceptBlock719 CRITERIA ConceptBlock606 IsTeenGirl IsAlone RESPONSE ConceptBlock719
+RESPONSE ConceptBlock720 CHARACTER Manager SUBTITLE "When things go back to normal, Zoe, Bill-I'm giving you both jobs. Francis, I'm gonna teach your ass how to read."
+RULE ConceptBlock720 CRITERIA ConceptBlock606 IsManager IsEveryoneAlive ChanceToFire20Percent RESPONSE ConceptBlock720
+RESPONSE ConceptBlock721 CHARACTER Biker SUBTITLE "[laughing] Go to hell."
+RULE ConceptBlock721 CRITERIA ConceptBlock721  IsBiker RESPONSE ConceptBlock721
+RULE ConceptBlock575 CRITERIA ConceptBlock575 FinaleAttract RESPONSE ConceptBlock575
+RULE ConceptBlock576 CRITERIA ConceptBlock576 FinaleAttract PanicEventBiker RESPONSE ConceptBlock576
+RESPONSE ConceptBlock577 CHARACTER Biker SUBTITLE "Uh, hello?"
+RULE ConceptBlock577 CRITERIA ConceptBlock577 IsBiker RESPONSE ConceptBlock577
+RULE ConceptBlock578 CRITERIA ConceptBlock576 FinaleAttract PanicEventNamVet RESPONSE ConceptBlock578
+RESPONSE ConceptBlock579 CHARACTER NamVet SUBTITLE "Hello?"
+RULE ConceptBlock579 CRITERIA ConceptBlock577 IsNamVet RESPONSE ConceptBlock579
+RULE ConceptBlock580 CRITERIA ConceptBlock576 FinaleAttract PanicEventManager RESPONSE ConceptBlock580
+RESPONSE ConceptBlock581 CHARACTER Manager SUBTITLE "Hello?"
+RULE ConceptBlock581 CRITERIA ConceptBlock577 IsManager RESPONSE ConceptBlock581
+RULE ConceptBlock584 CRITERIA ConceptBlock576 FinaleAttract PanicEventTeenGirl RESPONSE ConceptBlock584
+RESPONSE ConceptBlock585 CHARACTER TeenGirl SUBTITLE "Hello!"
+RULE ConceptBlock585 CRITERIA ConceptBlock577 IsTeenGirl RESPONSE ConceptBlock585
+RULE ConceptBlock582 CRITERIA ConceptBlock582 RESPONSE ConceptBlock582
+RULE ConceptBlock583 CRITERIA ConceptBlock583 RESPONSE ConceptBlock583
+RULE ConceptBlock586 CRITERIA ConceptBlock586 FinalePreparing RESPONSE ConceptBlock586
+RULE ConceptBlock587 CRITERIA ConceptBlock587 PanicEventBiker RESPONSE ConceptBlock587
+RESPONSE ConceptBlock588 CHARACTER Biker SUBTITLE "We're ready!"
+RESPONSE ConceptBlock588 CHARACTER Biker SUBTITLE "We're all set!"
+RESPONSE ConceptBlock588 CHARACTER Biker SUBTITLE "Come get us!"
+RESPONSE ConceptBlock588 CHARACTER Biker SUBTITLE "Rodger dodger."
+RULE ConceptBlock588 CRITERIA ConceptBlock588 IsBiker RESPONSE ConceptBlock588
+RULE ConceptBlock589 CRITERIA ConceptBlock589 RESPONSE ConceptBlock589
+RULE ConceptBlock590 CRITERIA ConceptBlock587 ChanceToFire10Percent RESPONSE ConceptBlock590
+RULE ConceptBlock591 CRITERIA ConceptBlock587 PanicEventNamVet RESPONSE ConceptBlock591
+RESPONSE ConceptBlock592 CHARACTER NamVet SUBTITLE "We're ready, soldier."
+RESPONSE ConceptBlock592 CHARACTER NamVet SUBTITLE "We're good to go, son."
+RULE ConceptBlock592 CRITERIA ConceptBlock588  IsNamVet RESPONSE ConceptBlock592
+RULE ConceptBlock593 CRITERIA ConceptBlock587 PanicEventManager RESPONSE ConceptBlock593
+RESPONSE ConceptBlock594 CHARACTER Manager SUBTITLE "We're set to go, sir! Any time you're ready."
+RESPONSE ConceptBlock594 CHARACTER Manager SUBTITLE "Man, we're good to go whenever you are."
+RULE ConceptBlock594 CRITERIA ConceptBlock588 IsManager RESPONSE ConceptBlock594
+RULE ConceptBlockTeenGirlReady CRITERIA ConceptBlock587 PanicEventTeenGirl RESPONSE ConceptBlockTeenGirlReady
+RESPONSE ConceptBlockTeenGirlReadyFarm CHARACTER TeenGirl SUBTITLE "Ready."
+RESPONSE ConceptBlockTeenGirlReadyFarm CHARACTER TeenGirl SUBTITLE "Ready!"
+RULE ConceptBlockTeenGirlReadyFarm CRITERIA ConceptBlock588 IsTeenGirl RESPONSE ConceptBlockTeenGirlReadyFarm
+RULE ConceptBlock595 CRITERIA ConceptBlock576 FinaleAttract PanicEventBiker ExtraWeight10 ChanceToFire30Percent RESPONSE ConceptBlock595
+RESPONSE ConceptBlock596 CHARACTER Biker SUBTITLE "Attention Army: This is the cops."
+RULE ConceptBlock596 CRITERIA ConceptBlock577 IsBiker FrancisTriedCopGambit RESPONSE ConceptBlock596
+RULE ConceptBlock597 CRITERIA ConceptBlock582 FrancisTriedCopGambit RESPONSE ConceptBlock597
+RULE ConceptBlock598 CRITERIA ConceptBlock583 FrancisTriedCopGambit RESPONSE ConceptBlock598
+RULE ConceptBlockHospitalChopperHasArrived CRITERIA ConceptBlockHospitalChopperArrived RESPONSE ConceptBlockHospitalChopperHasArrived
+RULE ConceptBlockMegaMobAirport CRITERIA ConceptBlockMegaMobAirport RESPONSE ConceptBlockMegaMobAirport
+RULE ConceptBlockFarmETA CRITERIA ConceptBlockETAFarm FinaleStage1 RESPONSE ConceptBlockFarmETA
+RULE ConceptBlock564 CRITERIA ConceptBlock564 FinaleAttract RESPONSE ConceptBlock564
+RULE ConceptBlock565 CRITERIA ConceptBlock565 FinaleAttract RESPONSE ConceptBlock565
+RULE ConceptBlock566 CRITERIA ConceptBlock566 FinaleAttract RESPONSE ConceptBlock566
+RULE ConceptBlock567 CRITERIA ConceptBlock567 RESPONSE ConceptBlock567
+RULE ConceptBlock568 CRITERIA ConceptBlock568 FinalePreparing RESPONSE ConceptBlock568
+RULE ConceptBlock569 CRITERIA ConceptBlock569 AutoIsNotScavenge AutoIsNotSurvival RESPONSE ConceptBlock569
+RULE ConceptBlock570 CRITERIA ConceptBlock570 AutoIsNotScavenge AutoIsNotSurvival RESPONSE ConceptBlock570
+RULE ConceptBlock571 CRITERIA ConceptBlock571 RESPONSE ConceptBlock571
+RULE ConceptBlockPlaneFull CRITERIA ConceptBlockPlaneFull RESPONSE ConceptBlockPlaneFull
+RULE ConceptBlock572 CRITERIA ConceptBlock572 RESPONSE ConceptBlock572
+RULE ConceptBlockPlaneLeaving CRITERIA ConceptBlockPlaneLeaving RESPONSE NoResponse
+RULE ConceptBlock690 CRITERIA ConceptBlock690 FinaleStage1 RESPONSE ConceptBlock690
+RULE ConceptBlock691 CRITERIA ConceptBlock690 FinaleStage2 RESPONSE ConceptBlock691
+RULE ConceptBlock692 CRITERIA ConceptBlock690 FinaleStage3 RESPONSE ConceptBlock692
+RULE ConceptBlock693 CRITERIA ConceptBlock690 FinaleStage4 RESPONSE ConceptBlock693
+RULE ConceptBlock694 CRITERIA ConceptBlock690 FinaleStage5 RESPONSE ConceptBlock694
+RESPONSE ConceptBlock958 CHARACTER NamVet SUBTITLE "[confused from hit on head] Who are you?"
+RESPONSE ConceptBlock958 CHARACTER NamVet SUBTITLE "[confused from hit on head] Mother?"
+RULE ConceptBlock958 CRITERIA ConceptReviveFriendDown IsNotCoughing IsNotReviveInterrupt IsNamVet IsTalk IsTalkNamVet ChanceToFire2Percent RESPONSE ConceptBlock958
+RESPONSE ConceptBlock959 CHARACTER Biker SUBTITLE "[Bill doesn't recognize him] It's Francis!"
+RESPONSE ConceptBlock959 CHARACTER Biker SUBTITLE "[Bill doesn't recognize him] Come on, man, it's Francis!"
+RULE ConceptBlock959 CRITERIA ConceptBlock959 IsNotCoughing IsBiker IsTalk IsNotReviveInterrupt RESPONSE ConceptBlock959
+RESPONSE ConceptBlock960 CHARACTER Manager SUBTITLE "[Bill doesn't recognize him] Come on, Bill, it's Louis!"
+RULE ConceptBlock960 CRITERIA ConceptBlock959 IsNotCoughing IsManager IsTalk IsNotReviveInterrupt RESPONSE ConceptBlock960
+RESPONSE ConceptBlock961 CHARACTER TeenGirl SUBTITLE "[Bill doesn't recognize her] Bill, it's Zoey!"
+RULE ConceptBlock961 CRITERIA ConceptBlock959 IsNotCoughing IsTeenGirl IsTalk IsNotReviveInterrupt RESPONSE ConceptBlock961
+
+
+

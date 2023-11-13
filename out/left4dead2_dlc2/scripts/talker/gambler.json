@@ -1,0 +1,3584 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {
+    "C1M1InSmokeGambler": [
+      "[Coughing from smoke]"
+    ],
+    "C1M3AlarmOffGambler": [
+      "Got it!",
+      "Alarm off!"
+    ],
+    "C1M3BrokeWindowGambler": [
+      "Turn off THAT ALARM!",
+      "We gotta turn off this alarm!",
+      "We need to turn of this alarm!"
+    ],
+    "C1M3DoorAlarmGambler": [
+      "Turn off THAT ALARM!",
+      "We gotta turn off this alarm!",
+      "We need to turn of this alarm!"
+    ],
+    "C1M3SafeRoomGambler": [
+      "Blank"
+    ],
+    "C1M4SafeRoomGambler": [
+      "Blank"
+    ],
+    "C4M3Saferoom001Gambler": [
+      "Okay, everybody gassed up and good to go?"
+    ],
+    "PlayerNiceShotGambler": [
+      "Nice shot.",
+      "How'dja do that?",
+      "Good shooting.",
+      "Nice shooting.",
+      "Nice shot!",
+      "Nice shot Ace.",
+      "Impressive."
+    ],
+    "PlayerNiceShotCoachGambler": [
+      "All right Coach."
+    ],
+    "PlayerNiceShotMechanicGambler": [
+      "You're getting the hang of this Ellis."
+    ],
+    "PlayerNiceShotProducerGambler": [
+      "Damn, Rochelle...",
+      "Rochelle... damn!",
+      "Damn, Rochelle. Nice."
+    ],
+    "SurvivorMournCoachGambler": [
+      "Ahh Coach.",
+      "Later Coach.",
+      "Shit Coach, I'll miss you."
+    ],
+    "SurvivorMournCoachC1Gambler": [
+      "I am going to miss you big guy.",
+      "Goddamn it coach, what'd you leave me with?"
+    ],
+    "SurvivorMournMechanicGambler": [
+      "Ellis.",
+      "Ahh Ellis.",
+      "Ellis, I am surprised you lasted as long as you did."
+    ],
+    "SurvivorMournMechanicC1Gambler": [
+      "He was annoying but he could shoot a gun.",
+      "No time for mourning, let's go."
+    ],
+    "SurvivorMournProducerGambler": [
+      "Rochelle.",
+      "Ahh shit Rochelle.",
+      "Goodnight Rochelle.",
+      "There goes repopulating the earth."
+    ],
+    "SurvivorMournProducerC1Gambler": [
+      "I can think of two other people I would have rather seen go first.",
+      "Guys, what are we going to do now?"
+    ],
+    "_C1M1_ElevatorHello01Gambler": [
+      "Nick, name's Nick. You all did good. What's your names?",
+      "Name's Nick."
+    ],
+    "C1M1_ElevatorHello01_02CMGambler": [
+      "Name's Nick."
+    ],
+    "C1M1_ElevatorHello01_02PMGambler": [
+      "There's blood on me, but it ain't mine."
+    ],
+    "C1M1_ElevatorHello01_03PGambler": [
+      "There's blood on me, but it ain't mine."
+    ],
+    "Playerc1m1_enter_elevatorGambler": [
+      "This elevator's still working!",
+      "Technically... you're not supposed to use an elevator in a fire. But that might not apply during a zombie apocalypse.",
+      "Everybody get in the elevator!"
+    ],
+    "PlayerC1M2AlarmDoor2Gambler": [
+      "Go go go!",
+      "Let's go. Let's go.",
+      "Get ready, this is going to set off the alarm",
+      "Get the cola!",
+      "Grab the cola!",
+      "Somebody grab the Cola!"
+    ],
+    "PlayerC1M2GrabbingCola2Gambler": [
+      "I got his Cola, let's go!",
+      "We got it, let's go!",
+      "Got the cola!"
+    ],
+    "PlayerC1M2GunRoomDoorResponseGambler": [
+      "So let me get this straight: we get you your shit and you'll help us get to the mall? Right? Okay. You screw us and I will kill you with your own gun.",
+      "Thank you for the guns, honestly, we all appreciate it. But you better not be screwing with us.",
+      "Sure, why not.",
+      "Sir, for the use of this gun, I am willing to go get you your cola."
+    ],
+    "PlayerC1M2InsideGunShop2Gambler": [
+      "Candy store for adults.",
+      "Let's grab some guns, we got shit to shoot."
+    ],
+    "PlayerC3M1CallFerry2Gambler": [
+      "We ready?",
+      "If you aren't ready, I don't want to hear it.",
+      "I'm hitting it, get ready!",
+      "I'm calling over the ferry.",
+      "Get ready, I'm calling the ferry."
+    ],
+    "PlayerC3M1FerryLanded2Gambler": [
+      "Get on the boat!",
+      "Get to the boat!"
+    ],
+    "PlayerC3M1FerryLaunched2aGambler": [
+      "Blank"
+    ],
+    "PlayerC3M2ComingHomeGambler": [
+      "Helloooo?",
+      "Heyyy ooooo!",
+      "Lights are on, where's the people?",
+      "Hello!",
+      "HELLO!!!",
+      "HEY! HELLO!!!"
+    ],
+    "PlayerC3M2OpenDoor2Gambler": [
+      "Get ready!",
+      "You guys ready to rock?"
+    ],
+    "PlayerC3M2PlaneDoorOpenGambler": [
+      "I'm opening the door.",
+      "Get ready, I'm opening the door."
+    ],
+    "Playerc5m4floatendGambler": [
+      "Our rides here."
+    ],
+    "Playerc5m4floatstart2Gambler": [
+      "I'm hitting it, get ready!",
+      "I'm hitting it."
+    ],
+    "PlayerPlayerUsingColaBottlesGambler": [
+      "Blank"
+    ],
+    "PlayerRelaxedSighGambler": [
+      "Woah yeah.",
+      "Okay.",
+      "Ahhh.",
+      "Better.",
+      "That worked.",
+      "Alright, now I'm back.",
+      "Ahh, better."
+    ],
+    "PlayerStayTogetherInsideReponseGambler": [
+      "Can you see I'm limping here?",
+      "I'm going as fast as I can."
+    ],
+    "PlayerUseAdrenalineGambler": [
+      "[shaking self awake]",
+      "Bbbbrrrrrrr"
+    ],
+    "PlayerWorldC3M1FerryCrossingC01Gambler": [
+      "What, alive infected or alive and not zombies?"
+    ],
+    "PlayerWorldC3M1FerryCrossingC03Gambler": [
+      "100 to 1."
+    ],
+    "PlayerWorldC3M1FerryCrossingD03Gambler": [
+      "You forgot one thing, from the way we shoot?  Each other."
+    ],
+    "PlayerWorldC3M1FerryCrossingE03Gambler": [
+      "Jesus christ Ellis, like the goddamn zombies aren't bad enough."
+    ],
+    "PlayerWorldC3M1FerryCrossingG02Gambler": [
+      "Wow, Coach, that was uplifting. (sarcastically)",
+      "Well Coach, that was uplifting.  Everybody else motivated now? (sarcastically)",
+      "Thanks, Coach, that was uplifting. (sarcastically)"
+    ],
+    "PlayerWorldC3M1FerryCrossingG04Gambler": [
+      "Yes,"
+    ],
+    "PlayerWorldC3M1FerryCrossingI01Gambler": [
+      "What you?  Really?",
+      "Pffft."
+    ],
+    "ThanksGotItemGambler": [
+      "Thanks.",
+      "Thanks!",
+      "I owe you one."
+    ],
+    "ReviveThanksGambler": [
+      "Thanks.",
+      "Thanks!",
+      "I owe you one."
+    ],
+    "ReviveThanksCoachGambler": [
+      "Thanks, man, I owe you.",
+      "I owe you one.",
+      "Thanks bro."
+    ],
+    "ReviveThanksMechanicGambler": [
+      "Thanks!",
+      "Thanks, man, I owe you.",
+      "Thanks killer."
+    ],
+    "ReviveThanksProducerGambler": [
+      "Thanks!",
+      "I owe you one.",
+      "Thanks Ro."
+    ],
+    "AutoYouAreWelcomeGambler": [
+      "You're welcome.",
+      "Don't worry about it.",
+      "That's what I'm here for.",
+      "Anytime.",
+      "Sure thing."
+    ],
+    "AutoYouAreWelcomeC1Gambler": [
+      "Whatever.",
+      "Um yeah.",
+      "Sure."
+    ],
+    "BotPlayer.YourWelcomeGambler": [
+      "You're welcome.",
+      "Don't worry about it.",
+      "That's what I'm here for.",
+      "Anytime.",
+      "Sure thing."
+    ],
+    "BotPlayer.YourWelcomeC1Gambler": [
+      "Whatever.",
+      "Um yeah.",
+      "Sure."
+    ],
+    "BotReassureComingGambler": [
+      "Yes.",
+      "Yep.",
+      "Yeah.",
+      "Yeppers.",
+      "Yessss.",
+      "Yeah, yeah, yeah, yeah."
+    ],
+    "BotReassureNearbyGambler": [
+      "I'm here.",
+      "Why not? I follow you.",
+      "I'm with you.",
+      "Sure thing, let's go.",
+      "Sure, let's go."
+    ],
+    "BotYesReadyGambler": [
+      "Yes.",
+      "Yep.",
+      "Yeah.",
+      "Yeppers.",
+      "Yessss.",
+      "Yeah, yeah, yeah, yeah."
+    ],
+    "C1M2LeavingSafeRoomGambler": [
+      "What are we waiting for?  Let's go.",
+      "Let's go kill some zombies."
+    ],
+    "C1M2SafeRoomGambler": [
+      "Blank"
+    ],
+    "C1M2SafeRoomb1Gambler": [
+      "I guess living here's finally paying off."
+    ],
+    "C1M2SafeRoomb3Gambler": [
+      "Whatever."
+    ],
+    "C1M2SafeRoomd1Gambler": [
+      "Now we're talking.",
+      "Sounds good to me.",
+      "A gun store sounds like a fine to stop."
+    ],
+    "C1M2TankerAttackGambler": [
+      "Barrier's down! Let's get out of here.",
+      "There goes the tanker. Let's get out of here.",
+      "That's one way to open a path.",
+      "I gotta respect that!",
+      "That is how you clear a path."
+    ],
+    "c1m4escapeGambler": [
+      "HELL YEAH! Next stop: New Orleans...",
+      "Time to go!"
+    ],
+    "C1M4GasPourGambler": [
+      "Come onnnn, come onnnnnn...",
+      "Come on...",
+      "Get in the tank, you stupid goddamn gas, get in the tank.",
+      "Piece of shit gas, GET IN THE CAR!",
+      "Got another can in the tank!",
+      "One more for the gas tank!",
+      "How big is the tank in this thing?",
+      "Hurry up, hurrrry upppp...",
+      "Come comeoncomeoncomeoncomeon. Come on!",
+      "Get! In! The! Tank!"
+    ],
+    "C1M4PlayerGetToRescueVehicleGambler": [
+      "Let's go. Let's go.",
+      "Get in there!",
+      "Would you get to the goddamn car?"
+    ],
+    "c1m4startelevatorGambler": [
+      "CEDA's not gonna save us, any ideas?"
+    ],
+    "FinaleStartC1M4Gambler": [
+      "Let's get some GAS!"
+    ],
+    "GasPourDoneC1M4Gambler": [
+      "She's all filled up, let's go, get to the car!",
+      "Thank YOU, Jimmy Gibbs, Jr.",
+      "Get to the car!",
+      "Everyone to the car!",
+      "I'm not waiting long, get to the car!",
+      "Time to leave people!",
+      "Let's go people, let's go!"
+    ],
+    "C2M2CarouselIdleGambler": [
+      "SHIT, that's loud! Somebody shut it down!",
+      "Goddamn, that's loud! Somebody shut it down!"
+    ],
+    "C2M2TunnelIdleGambler": [
+      "Keep running, keep running.",
+      "Run into the tunnel of love!",
+      "Go go go.  Cut in line."
+    ],
+    "c2m3CoasterEndGambler": [
+      "Alarm's off!"
+    ],
+    "C2M3CoasterStartGambler": [
+      "I hit it!"
+    ],
+    "c2m3SeeChopperGambler": [
+      "Look!"
+    ],
+    "PlayerRemarkc2m3_saferoomaGambler": [
+      "Blank"
+    ],
+    "C2M4_saferoom01Gambler": [
+      "Yes,",
+      "Yes Ellis, I remember."
+    ],
+    "c2m4_saferoominitGambler": [
+      "Blank"
+    ],
+    "C2M4ButtonPressedGambler": [
+      "I hit it!"
+    ],
+    "C2M4Chopper001Gambler": [
+      "We need something big to signal the 'copter."
+    ],
+    "C2M4GateIdle2Gambler": [
+      "Press the button!"
+    ],
+    "C2M4GateOpenIdleGambler": [
+      "Gate's open!"
+    ],
+    "c2m4SeeChopperGambler": [
+      "We need something big to signal the 'copter."
+    ],
+    "C2M5_Button2YellGambler": [
+      "You guys ready to rock?",
+      "I'm gonna regret this, but turn it up!"
+    ],
+    "C2M5_ChoppercomingGambler": [
+      "There's the copter!",
+      "This worked! The copter is here!"
+    ],
+    "c2m5_intro004Gambler": [
+      "Unless someone has a better idea, let's rock."
+    ],
+    "c2m5_intro008Gambler": [
+      "Okay, we'll set off the pyrotechnics, but I'm telling you right now.  I AM NOT GOING TO AIR GUITAR."
+    ],
+    "c2m5_intro011Gambler": [
+      "Coach, that is the stupidest idea I have ever agreed with."
+    ],
+    "c2m5_intro015Gambler": [
+      "Coach, that is the stupidest idea I have ever agreed with."
+    ],
+    "c2m5_intro020Gambler": [
+      "Unless someone has a better idea, let's rock."
+    ],
+    "c2m5_intro026Gambler": [
+      "We need something big to signal the 'copter."
+    ],
+    "C2M5_PlanWorkedGambler": [
+      "Holy shit, this worked!",
+      "Coach, you're a genius this worked!",
+      "It worked! I love you Coach!"
+    ],
+    "c2m5_saferoominitGambler": [
+      "Blank"
+    ],
+    "C2M5Button1Gambler": [
+      "Lights!"
+    ],
+    "C2M5ChopperNagGambler": [
+      "The pilot's landed, let's go!",
+      "Get on the helicopter!",
+      "Everyone to the copter!",
+      "Copter's landed, let's go!",
+      "Let's go, let's go to the copter!"
+    ],
+    "C2M5InArenaNagGambler": [
+      "Hit the lights.",
+      "Someone needs to hit the lights!",
+      "We have to hit the lights!",
+      "Hit the lights!",
+      "Turn on the lights!"
+    ],
+    "C2M5WeAreRocking##Name##": [
+      "We are walking through the valley of the shadow of death and kicking ass.",
+      "We're makin' it look EASY!",
+      "And THAT is how you do that!",
+      "We're the four riders of the goddamn apocalypse!"
+    ],
+    "C3GoingToDieGambler": [
+      "I am not dying in this swamp.",
+      "I am not going to be gator food."
+    ],
+    "C3M1FerryEnd2Gambler": [
+      "Let's roll!",
+      "What are we waiting for?  Let's go."
+    ],
+    "C3M2DisgustGambler": [
+      "Is this some kind of sick joke?",
+      "This is just really unsanitary."
+    ],
+    "C3M2SafeRoomGambler": [
+      "Shit. This swamp is going to ruin my white suit.",
+      "These swamps don't agree with me.",
+      "I am not dying in this goddamn swamp."
+    ],
+    "C3M2SafeRoom3dGambler": [
+      "Brains come out. Swamp water doesn't. Don't ask me how I know that."
+    ],
+    "C3M2SafeRoomb2Gambler": [
+      "This swamp is just a cesspool for disease.",
+      "I can feel my feet growing fungus."
+    ],
+    "C3M3SafeRoom2Gambler": [
+      "The swamp people didn't make it.",
+      "This is ugly."
+    ],
+    "InfoRemC3M3LowerGateaGambler": [
+      "Lower the plank.",
+      "Lower the bridge."
+    ],
+    "InfoRemC3M3Unsanitarya2Gambler": [
+      "What?"
+    ],
+    "C3M4BoatNagsGambler": [
+      "Get on the boat!",
+      "Get to the boat!",
+      "Everyone to the boat!",
+      "To the boat!",
+      "GET TO THE BOAT!"
+    ],
+    "C3M4Button1Gambler": [
+      "Um, hello?"
+    ],
+    "C3M4Button201Gambler": [
+      "We're at a big old house with gate.",
+      "At a plantation with a big gate.",
+      "I'm standing by a big gate, in front of a big house."
+    ],
+    "C3M4GateBlow01Gambler": [
+      "Gate's open!",
+      "Our Cajun buddy blew open the gate, let's go!",
+      "That's one way to open that gate."
+    ],
+    "C4GoingToDieGambler": [
+      "Never get out of the boat. Never get out of the boat. Never get out of the boat.",
+      "I cannot believe I am looking forward to getting back on that boat.",
+      "Some milk run this turned out to be.",
+      "Should have just kept floating down the damn river.",
+      "What in the hell were we thinking stopping here?"
+    ],
+    "C4StormBlindIdleGambler": [
+      "I can't see a damn thing..."
+    ],
+    "_c4m1Intro20Gambler": [
+      "The gas station's right across the street. Let's just get the gas and then we'll figure out how to signal Virgil."
+    ],
+    "_c4m1Intro23Gambler": [
+      "What gun bag?"
+    ],
+    "C4M2IdleWitchville01Gambler": [
+      "Jesus. Welcome to witchville..."
+    ],
+    "C4M2IdleWitchville03Gambler": [
+      "I have never seen so many witches.",
+      "What the hell is with all the witches?",
+      "Man, that's a LOT of witches."
+    ],
+    "C4M2PushedButtonGambler": [
+      "I hit it!"
+    ],
+    "C4M5BoatNagsGambler": [
+      "Everyone to the boat!",
+      "GET TO THE BOAT!"
+    ],
+    "C5GoingToDieGambler": [
+      "I am not going to die in this city.",
+      "I have not come this far to die now."
+    ],
+    "C5M1_intro006Gambler": [
+      "You mean that blurry line on the horizon? Let's not get ahead of ourselves here."
+    ],
+    "C5M1_intro007Gambler": [
+      "Yeah, well, seeing the bridge and getting to it are two different things."
+    ],
+    "C5M1Flyby02Gambler": [
+      "I wonder if that's good news...",
+      "I got a bad feeling about that...",
+      "You don't evacuate people in fighter jets..."
+    ],
+    "C5M2AlarmNagGambler": [
+      "RUN!",
+      "KEEP RUNNING!",
+      "GO!",
+      "JUST RUN!",
+      "MOVE MOVE!",
+      "WE GOTTA TURN OFF THE ALARM!"
+    ],
+    "C5M2Freeway01Gambler": [
+      "Let's follow it."
+    ],
+    "C5M2Horse001Gambler": [
+      "Nice observation, Ellis."
+    ],
+    "PlayerRemarkc5m2busstationGambler": [
+      "Through this bus station!"
+    ],
+    "PlayerRemarkc5m2freewayGambler": [
+      "That freeway looks like it heads to the bridge."
+    ],
+    "PlayerRemarkc5m2parkGambler": [
+      "We can cut through this park!"
+    ],
+    "PlayerRemarkWorldC502Horse2Gambler": [
+      "You ever eat horse?  Tasty. (Ellis - wish we had horses. )"
+    ],
+    "C5M3AlarmFieldNagsGambler": [
+      "Do you still smell sewer?",
+      "Careful. Carefuuulll."
+    ],
+    "C5M3AlarmFieldNags01Gambler": [
+      "Because I still smell it."
+    ],
+    "C5M3AlarmFieldNags02Gambler": [
+      "Your mom's car. (Hey nick, what kind of car did you drive?)"
+    ],
+    "C5M3Bodies02Gambler": [
+      "Somebody? Christ, Coach, you know who did this."
+    ],
+    "C5M3Bodies04Gambler": [
+      "[contemplative, to self] Not good."
+    ],
+    "C5M3FirstInAlarmGambler": [
+      "Ooohhhhh ho ho ho...  watch where you shoot!",
+      "You have GOT to be kidding me.",
+      "Christ, there's car alarms everywhere."
+    ],
+    "C5M3Freeway01Gambler": [
+      "The bridge can't be far now."
+    ],
+    "C5M3GraveNagsGambler": [
+      "The city of the dead (to self)"
+    ],
+    "C5M3GraveNags02Gambler": [
+      "Uh huh."
+    ],
+    "C5M3Jets2Gambler": [
+      "OH COME ON!"
+    ],
+    "C5M3manhole01Gambler": [
+      "Oh Christ, not the sewer.",
+      "I am NOT climbing into... Ah screw it. Let's go."
+    ],
+    "C5M3OnBridgeGambler": [
+      "What do ya know, we're going to make it.",
+      "That's it! We're really here! We're on the bridge! We're here! We're here!"
+    ],
+    "C5M3SeeGraveyard01Gambler": [
+      "You sure we shouldn't just panic? I mean, I think panic was invented for just this sort of situation."
+    ],
+    "C5M3SeeGraveyard05Gambler": [
+      "Ellis, you're carrying like 10 different guns."
+    ],
+    "C5M3SewerIn01Gambler": [
+      "[to self] Tell me about it..."
+    ],
+    "C5M3ShootCarGambler": [
+      "God damn it.",
+      "Bullshit!",
+      "Son of a bitch."
+    ],
+    "C5M3ShootCar2Gambler": [
+      "HOW MANY OF THESE CARS ARE YOU GONNA SHOOT?"
+    ],
+    "C5M3ShootCar3Gambler": [
+      "YOU WANNA START SHOOTING CARS, LET'S SHOOT CARS!"
+    ],
+    "C5M3Sniper01Gambler": [
+      "Jesus, it was open season on everything out here."
+    ],
+    "PlayerRemarkc5m3bodiesGambler": [
+      "These bodies are not infected.",
+      "Jesus. These are people! They were shooting people. I told you I had a bad feeling about this."
+    ],
+    "PlayerRemarkc5m3crashedheliGambler": [
+      "Zombies didn't take down this helicopter."
+    ],
+    "PlayerRemarkc5m3freewayGambler": [
+      "We gotta keep following the freeway."
+    ],
+    "PlayerRemarkc5m3insewerGambler": [
+      "Blank"
+    ],
+    "PlayerRemarkc5m3manholeGambler": [
+      "Oh Christ, not the sewer."
+    ],
+    "PlayerRemarkc5m3safezoneGambler": [
+      "[sarcastic] If that was their idea of safety, I can't wait to see what's out here."
+    ],
+    "PlayerRemarkc5m3seegraveyardGambler": [
+      "They're blowing this bridge to cover a retreat. If we wanna go with 'em, we better hurry."
+    ],
+    "PlayerRemarkc5m3seesaferoomGambler": [
+      "Safe house!",
+      "Safe house ahead!",
+      "There's the safe house!"
+    ],
+    "PlayerRemarkc5m3sewercommentGambler": [
+      "[reacting terrible smell] Oh my god, the stink's inside my head."
+    ],
+    "PlayerRemarkc5m3sniperGambler": [
+      "What the hell was this guy doing?",
+      "Does this guy's scorecard mean what I think it means?",
+      "Jesus, it was open season on everything out here."
+    ],
+    "PlayerRemarkc5m3upladderGambler": [
+      "Up the ladder!",
+      "Climb the ladder."
+    ],
+    "PlayerRemarkc5m3upstepsGambler": [
+      "Let's try upstairs."
+    ],
+    "PlayerRemarkc5m3wargrafittiGambler": [
+      "What the hell was going on here?"
+    ],
+    "C5M4BombInt01Gambler": [
+      "SHIT!"
+    ],
+    "C5M4BombInt01AGambler": [
+      "I guess they ran outta bridges to bomb...",
+      "Well, it's official: They're trying to kill US now."
+    ],
+    "C5M4BombInt02Gambler": [
+      "Christ, those guys are such assholes."
+    ],
+    "C5M4BombInt03Gambler": [
+      "WHAT THE HELL ARE THEY DOING?  (reaction to bombing)",
+      "STOP BOMBING US!"
+    ],
+    "c5m4floatendGambler": [
+      "Our rides here."
+    ],
+    "C5M4MadeIt01Gambler": [
+      "Holy shit, I think we actually made it."
+    ],
+    "PlayerRemarkc5m4pooltableGambler": [
+      "God I love pool."
+    ],
+    "PlayerRemarkc5m4seebridgeGambler": [
+      "The BRIDGE!"
+    ],
+    "PlayerRemarkc5m4seesaferoomGambler": [
+      "There's a safe room in the bridge!"
+    ],
+    "PlayerRemarkc5m4tractornagGambler": [
+      "Someone start the tractor.",
+      "We can use that float to get across."
+    ],
+    "EllisStoryInterruptGambler": [
+      "Ellis. Is now the best time?"
+    ],
+    "EllisStoryInterrupt2Gambler": [
+      "Ellis. Is now the best time?"
+    ],
+    "C5M5_Button2Gambler": [
+      "Well, let's cross the brige and finally get out of this hell.",
+      "You heard the man.  Let's get across this goddamn bridge."
+    ],
+    "C5M5_saferoom001Gambler": [
+      "Or they're gonna line us up against a wall and shoot us."
+    ],
+    "C5M5_saferoom003Gambler": [
+      "[chuckles] Okay, allright, let's go."
+    ],
+    "C5M5_saferoom004Gambler": [
+      "[chuckles] Allright, let's go."
+    ],
+    "C5M5_SurvivorConv01Gambler": [
+      "My name's Nick. There's four of us on the... on the west  end of the bridge."
+    ],
+    "C5M5_SurvivorConv02Gambler": [
+      "We are NOT infected."
+    ],
+    "C5M5_SurvivorConv03Gambler": [
+      "Yeah, you could say that."
+    ],
+    "C5M5_SurvivorConv04Gambler": [
+      "Sure, give us a few minutes."
+    ],
+    "C5M5_SurvivorConv05Gambler": [
+      "Sure, give us a few minutes.",
+      "Roger that. Here we come."
+    ],
+    "C5M5Button1Gambler": [
+      "Um, hello?"
+    ],
+    "C5M5HearSoldiersGambler": [
+      "Hey, those are soldiers. Let's let 'em know we're here."
+    ],
+    "C5M5HearSoldiersNagGambler": [
+      "Is somebody gonna pick up the radio?"
+    ],
+    "C5M5LeaveSafeGambler": [
+      "Blank"
+    ],
+    "C5M5RescueStartGambler": [
+      "There's the copter!",
+      "THERE'S THE COPTER!"
+    ],
+    "C5M5RunToHeliGambler": [
+      "Get to the chopper!",
+      "Get on the helicopter!",
+      "Everyone to the copter!",
+      "Let's go, let's go to the copter!",
+      "GET TO THE COPTER!"
+    ],
+    "C5M5SafeRoomIdleGambler": [
+      "Before we run across this bridge right toward the people who've been dropping bombs on us, anyone wanna talk about a plan b?"
+    ],
+    "C5M5SafeRoomStartGambler": [
+      "Blank"
+    ],
+    "ScenarioJoinLastGambler": [
+      "Blank"
+    ],
+    "SurvivorSpotFirstWeaponsGambler": [
+      "Grab something, I got a feeling this isn't going to be easy.",
+      "We better arm ourselves. I hope you three know how to fight. You don't look it.",
+      "If the world's going to hell, I'm taking a weapon.",
+      "Everybody grab a weapon. I get the feeling we're gonna need 'em."
+    ],
+    "SurvivorSpottedAdrenalineGambler": [
+      "Adrenaline shot here!"
+    ],
+    "SurvivorSpottedAdrenalineAutoGambler": [
+      "Adrenaline shot here!"
+    ],
+    "SurvivorSpottedAmmoGambler": [
+      "Ammo here!",
+      "Ammo!"
+    ],
+    "SurvivorSpottedCoachCloseGambler": [
+      "Coach."
+    ],
+    "SurvivorSpottedCoachClose2Gambler": [
+      "Coach."
+    ],
+    "SurvivorSpottedCoachClose2C1Gambler": [
+      "Coach!",
+      "Coach."
+    ],
+    "SurvivorSpottedCoachCloseC1Gambler": [
+      "Coach!",
+      "Coach."
+    ],
+    "SurvivorSpottedCoachFarGambler": [
+      "Coach!"
+    ],
+    "SurvivorSpottedCoachFarC1Gambler": [
+      "Coach!"
+    ],
+    "SurvivorSpottedDefibrillatorGambler": [
+      "Chest paddles here.",
+      "Defibrillator here.",
+      "Defib unit here."
+    ],
+    "SurvivorSpottedDefibrillatorAutoGambler": [
+      "Chest paddles here.",
+      "Defibrillator here.",
+      "Defib unit here."
+    ],
+    "SurvivorSpottedGrenadeGambler": [
+      "There's a pipebomb here.",
+      "Pipe bomb.",
+      "Pipe bombs!",
+      "Pipebomb here."
+    ],
+    "SurvivorSpottedGrenadeAutoGambler": [
+      "There's a pipebomb here.",
+      "Pipe bomb.",
+      "Pipe bombs!",
+      "Pipebomb here."
+    ],
+    "SurvivorSpottedGrenadeLauncherGambler": [
+      "Grenade launcher here.",
+      "Got a grenade launcher."
+    ],
+    "SurvivorSpottedGrenadeLauncherAutoGambler": [
+      "Grenade launcher here.",
+      "Got a grenade launcher."
+    ],
+    "SurvivorSpottedHealthGambler": [
+      "First Aid Kit here!",
+      "First Aid here!",
+      "First Aid!"
+    ],
+    "SurvivorSpottedHealthAutoGambler": [
+      "First Aid Kit here!",
+      "First Aid here!",
+      "First Aid!"
+    ],
+    "SurvivorSpottedMechanicCloseGambler": [
+      "Ellis.",
+      "Ellis!",
+      "Overalls."
+    ],
+    "SurvivorSpottedMechanicClose2Gambler": [
+      "Ellis.",
+      "Ellis!",
+      "Overalls."
+    ],
+    "SurvivorSpottedMechanicClose2C1Gambler": [
+      "Dude.",
+      "hey kid.",
+      "Kid."
+    ],
+    "SurvivorSpottedMechanicCloseC1Gambler": [
+      "Dude.",
+      "hey kid.",
+      "Kid."
+    ],
+    "SurvivorSpottedMechanicFarGambler": [
+      "Ellis!"
+    ],
+    "SurvivorSpottedMechanicFarC1Gambler": [
+      "Dude.",
+      "Kid."
+    ],
+    "SurvivorSpottedMolotovGambler": [
+      "Molotov!",
+      "Molotov here.",
+      "Molotovs!"
+    ],
+    "SurvivorSpottedMolotovAutoGambler": [
+      "Molotov!",
+      "Molotov here.",
+      "Molotovs!"
+    ],
+    "SurvivorSpottedPillsGambler": [
+      "Pills here!"
+    ],
+    "SurvivorSpottedPillsAutoGambler": [
+      "Pills here!"
+    ],
+    "SurvivorSpottedPillsAutoHasPillsGambler": [
+      "We got pills here!"
+    ],
+    "SurvivorSpottedProducerCloseGambler": [
+      "Ro.",
+      "Rochelle."
+    ],
+    "SurvivorSpottedProducerClose2Gambler": [
+      "Ro.",
+      "Rochelle."
+    ],
+    "SurvivorSpottedProducerClose2C1Gambler": [
+      "Hey sweetheart.",
+      "Hey sweetie.",
+      "Hey honey.",
+      "Sweetheart.",
+      "Hey you.",
+      "Sweetie."
+    ],
+    "SurvivorSpottedProducerCloseC1Gambler": [
+      "Hey sweetheart.",
+      "Hey sweetie.",
+      "Hey honey.",
+      "Sweetheart.",
+      "Hey you.",
+      "Sweetie."
+    ],
+    "SurvivorSpottedProducerFarGambler": [
+      "Rochelle!",
+      "Ro!"
+    ],
+    "SurvivorSpottedProducerFarC1Gambler": [
+      "Hey you.",
+      "Sweetie.",
+      "Hey sweetie."
+    ],
+    "SurvivorSpottedUpPack_ExplosiveGambler": [
+      "Explosive rounds here!",
+      "Frag rounds here!"
+    ],
+    "SurvivorSpottedUpPack_ExplosiveAutoGambler": [
+      "Explosive rounds here!",
+      "Frag rounds here!"
+    ],
+    "SurvivorSpottedUpPack_IncendiaryGambler": [
+      "Fire bullets here!"
+    ],
+    "SurvivorSpottedUpPack_IncendiAutoGambler": [
+      "Fire bullets here!"
+    ],
+    "SurvivorSpottedVomitJarGambler": [
+      "Boomer bile here!",
+      "Is that a bottle of puke?"
+    ],
+    "SurvivorSpottedVomitJarAutoGambler": [
+      "Boomer bile here!",
+      "Is that a bottle of puke?"
+    ],
+    "SurvivorSpottedVomitJarAutoC1Gambler": [
+      "Is that a bottle of puke?",
+      "That can't be a bottle of puke, is it?"
+    ],
+    "SurvivorSpottedVomitJarC1Gambler": [
+      "Is that a bottle of puke?",
+      "That can't be a bottle of puke, is it?"
+    ],
+    "SurvivorSpottedWorldCloseGambler": [
+      "Check it out.",
+      "Look here.",
+      "Look at this."
+    ],
+    "SurvivorSpottedArmoredGambler": [
+      "Those zombies are wearing armor?",
+      "Those zombies are wearing armor!",
+      "Shoot the armored zombies in the back!"
+    ],
+    "SurvivorSpottedBoomerGambler": [
+      "BOOMER!",
+      "WE GOT A BOOMER!"
+    ],
+    "SurvivorSpottedBoomerC1Gambler": [
+      "Fat guy!",
+      "Goiter man!",
+      "Aunt bee.",
+      "Fatty!"
+    ],
+    "SurvivorSpottedCedaGambler": [
+      "Hazmat guys!",
+      "Guess those suits don't stop bites.",
+      "Are those guys fireproof?"
+    ],
+    "SurvivorSpottedChargerGambler": [
+      "CHARGER!",
+      "WE GOT A CHARGER!"
+    ],
+    "SurvivorSpottedChargerAlsoGambler": [
+      "CHARGER!",
+      "WE GOT A CHARGER!"
+    ],
+    "SurvivorSpottedChargerAlsoC1Gambler": [
+      "One Arm!",
+      "Overalls!",
+      "Hillbilly!"
+    ],
+    "SurvivorSpottedChargerC1Gambler": [
+      "One Arm!",
+      "Overalls!",
+      "Hillbilly!"
+    ],
+    "SurvivorSpottedClownGambler": [
+      "That squeaking is driving the zombies crazy!",
+      "Kill the clown!",
+      "Kill the clown, he's attracting more zombies!",
+      "Kill every clown you see!",
+      "Shoot the clown!"
+    ],
+    "SurvivorSpottedHunterGambler": [
+      "WE GOT A HUNTER!",
+      "HUNTER!"
+    ],
+    "SurvivorSpottedHunterC1Gambler": [
+      "Jumper!",
+      "Leaper!",
+      "Scrawny little bitch I'm gonna kill."
+    ],
+    "SurvivorSpottedInfectedGambler": [
+      "This is why we've got guns!",
+      "It's about to get serious!",
+      "We got inbound!",
+      "They're coming!",
+      "Here they come!",
+      "God damn, it's gettin' good.",
+      "Get ready!"
+    ],
+    "SurvivorSpottedJimmyGambler": [
+      "Holy Shit!",
+      "God DAMN you, Jimmy Gibbs, Jr."
+    ],
+    "SurvivorSpottedJockeyGambler": [
+      "Jockey!"
+    ],
+    "SurvivorSpottedJockeyAlsoGambler": [
+      "Jockey!"
+    ],
+    "SurvivorSpottedJockeyAlsoC1Gambler": [
+      "Little guy!",
+      "Little freak!"
+    ],
+    "SurvivorSpottedJockeyC1Gambler": [
+      "Little guy!",
+      "Little freak!"
+    ],
+    "SurvivorSpottedMudmenGambler": [
+      "Mudders!",
+      "Watch out, Mudmen!"
+    ],
+    "SurvivorSpottedMudmen2Gambler": [
+      "Screw these goddamn mud people."
+    ],
+    "SurvivorSpottedSmokerGambler": [
+      "WE GOT A SMOKER!",
+      "SMOKER!"
+    ],
+    "SurvivorSpottedSmokerC1Gambler": [
+      "TONGUE!",
+      "The smoking thing!"
+    ],
+    "SurvivorSpottedSpitterGambler": [
+      "Spitter",
+      "We got a spitter"
+    ],
+    "SurvivorSpottedSpitterAlsoGambler": [
+      "Spitter",
+      "We got a spitter"
+    ],
+    "SurvivorSpottedSpitterAlsoC1Gambler": [
+      "Green thing!",
+      "Neck!"
+    ],
+    "SurvivorSpottedSpitterC1Gambler": [
+      "Green thing!",
+      "Neck!"
+    ],
+    "SurvivorSpottedTankGambler": [
+      "Tank! Tank!",
+      "Tank inbound!",
+      "Man up!  We got a Tank!",
+      "Get ready,  we got a TANK!",
+      "Hold steady, TANK!",
+      "Get ready, TANK!",
+      "WE GOT A TANK!",
+      "TANK!"
+    ],
+    "SurvivorSpottedTankC1Gambler": [
+      "We have a problem!",
+      "HOLY SHIT! BIG FREAKING ZOMBIE!"
+    ],
+    "SurvivorSpottedWitchGambler": [
+      "We got a witch.",
+      "Witch."
+    ],
+    "SurvivorSpottedWitchC1Gambler": [
+      "Blank"
+    ],
+    "PlayerAlertGiveItemGambler": [
+      "It is more blessed to give than to receive.",
+      "Have this.",
+      "Just take this.",
+      "This is for you.",
+      "Here, I don't need this.",
+      "Take it, just take it."
+    ],
+    "PlayerAlertGiveItemC1Gambler": [
+      "Hey you, take this.",
+      "What's your name, here you go."
+    ],
+    "PlayerAlertGiveItemCombatGambler": [
+      "Take this.",
+      "Grab this.",
+      "Take it."
+    ],
+    "PlayerFriendlyFireGambler": [
+      "I don't want to hear any excuses, just stop shooting me.",
+      "STOP SHOOTING ME!",
+      "Can you stop shooting me?",
+      "You know, ot's not all right that you are SHOOTING ME!",
+      "DAMN! You suck at shooting.",
+      "Stop shooting me.",
+      "Well thank you for ventilating my suit.",
+      "You. Are. Shooting. Me.",
+      "You do realize you are shooting me right?",
+      "Shoot me again. Shoot me again, I dare you.",
+      "You want to watch where you're shooting?",
+      "Stop! Shooting me doesn't get us anywhere.",
+      "Let's not mess this up by shooting each other, okay?",
+      "Can we not shoot each other?",
+      "Question: Can we not shoot each other?",
+      "You're shooting me again.",
+      "You shoot me again, and I will drop you.",
+      "Shoot me again, I'll drop you.",
+      "Are you really going to shoot a guy in a $3000 suit?  Come on!",
+      "Do not shoot me.",
+      "Stop shooting each other.",
+      "Can we stop shooting each other?",
+      "Don't shoot each other.",
+      "Can we not shoot each other, please?",
+      "You are shooting - ME!",
+      "Unless you want to be picking your teeth up off the floor, stop shooting me!"
+    ],
+    "PlayerFriendlyFire2Gambler": [
+      "Don't you think we should be killing the zombies instead?",
+      "What in the hell kind of strategy is that?",
+      "What?!!?  This is hard enough without you helping the freaks!"
+    ],
+    "PlayerFriendlyFireC1Gambler": [
+      "I don't know who started this shit, but lets just stop the friendly right now, 'kay?",
+      "Never shoot me again.",
+      "You do not want to be shooting me!",
+      "Why would you think shooting me is a good idea?",
+      "Let's try shooting zombies instead of people, okay?"
+    ],
+    "PlayerFriendlyFireFromCoachC1Gambler": [
+      "Coach! Don't shoot me.",
+      "Coach! Come on."
+    ],
+    "PlayerFriendlyFireFromCoachNBGambler": [
+      "Coach! Come on.",
+      "Coach!",
+      "Coach."
+    ],
+    "PlayerFriendlyFireFromMechanicGambler": [
+      "Hey sport, watch where you're shooting!",
+      "Ellis, come on man.",
+      "Y'all wanna stop shootin me?"
+    ],
+    "PlayerFriendlyFireFromMechanicNBGambler": [
+      "Ellis, come on man.",
+      "Ellis!",
+      "Dumbshit.",
+      "Jesus christ Ellis, like the goddamn zombies aren't bad enough."
+    ],
+    "PlayerFriendlyFireFromProducerGambler": [
+      "Sweetheart? Don't shoot me."
+    ],
+    "PlayerFriendlyFireFromProducerC1Gambler": [
+      "ROCHELLE!",
+      "Ro! Just... just stop okay?"
+    ],
+    "PlayerFriendlyFireFromProducerNBGambler": [
+      "ROCHELLE!",
+      "Rochelle!"
+    ],
+    "PlayerFriendlyFireNoBulletGambler": [
+      "Come ON!",
+      "Do that again and I'll bury you alive.",
+      "I don't know who started this shit, 'kay? But lets just stop the friendly right now,.",
+      "WHAT THE -  (reaction to bombing)",
+      "OH COME ON!"
+    ],
+    "PlayerFriendlyFireNoBulletC1Gambler": [
+      "Come ON!",
+      "I don't know who started this shit, but lets just stop the friendly right now, 'kay?",
+      "WHAT THE -  (reaction to bombing)"
+    ],
+    "PlayerToTheRescueGambler": [
+      "Relax, Relax I'm coming!",
+      "I'm on my way!",
+      "Hold on, coming!",
+      "I'm on the way!"
+    ],
+    "PlayerToTheRescueRosGambler": [
+      "Relax, Relax I'm coming!",
+      "I'm on my way!",
+      "Hold on, coming!",
+      "I'm on the way!"
+    ],
+    "SurvivorTauntResponseGambler": [
+      "Suck on that",
+      "Stick that where the sun don't shine!",
+      "Take that you mealy-mouthed bastards.",
+      "Stick it up your ass!",
+      "Stick that up your ass!",
+      "We are wiping the floor with you.",
+      "You don't stand a chance.",
+      "Give up now!",
+      "Candyasses!"
+    ],
+    "ShotMannequinGambler2": [
+      "<Short laugh>"
+    ],
+    "C4M1IdleComment01Gambler": [
+      "Look for landmarks. It might be dark on our way back."
+    ],
+    "C4M2IdleCommentCane01Gambler": [
+      "KEEP MOVING! JUST HEAD FOR THE SIGN!",
+      "HEAD FOR THE SIGN!"
+    ],
+    "PlayerChokeResponseGambler": [
+      "Smoker 's got me!",
+      "[Choking]",
+      "Smoker's GOT ME!!!",
+      "Shoot the tongue! Shoot the tongue!"
+    ],
+    "PlayerReloadingC502RunGambler": [
+      "To the tower.",
+      "Somebody's got to turn off the alarm!"
+    ],
+    "PlayerReloadingTankGambler": [
+      "Kill the tank!",
+      "Shoot the tank!",
+      "Shoot the damn tank!",
+      "Shoot it! Shoot it!",
+      "Everyone shoot the tank!",
+      "You, SHOOT THE TANK!",
+      "KEEP SHOOTING!"
+    ],
+    "PlayerReloadingTankC1Gambler": [
+      "I hope that's not bullet proof.",
+      "We are screwed.",
+      "Maybe if we don't move it won't see us.",
+      "Okay, that's reason to panic.",
+      "What in the hell sign of the apocalypse is that?"
+    ],
+    "PlayerTonguePullStartResponseGambler": [
+      "no, No, No, NO, NOOOOOOO!!!!!!!!!",
+      "No, No!",
+      "NOOOOOOO!!!!!!!!!",
+      "SMOKER'S GOT ME!!",
+      "...GOT ME!!",
+      "no, No,  No, NO, NO!!!!!!!!",
+      "NO, NO, NO!!",
+      "no, No,  No, NO!!!!!!!!",
+      "NO!",
+      "NO, NO!",
+      "NO!!!!!!!!"
+    ],
+    "PlayerTonguePullStartResponseC1Gambler": [
+      "What the hell?",
+      "Something's got me?!?!",
+      "What's this shit?",
+      "What the? Ahh gross shit.",
+      "Freaking tongue!?!?"
+    ],
+    "PlayerWitchChasingGambler": [
+      "AhhhI pissed the witch off!",
+      "This bitch is chasing me!",
+      "Witch coming! Witch coming!",
+      "Shoot the witch! Shoot the witch! Shoot the witch!",
+      "Shoot the witch! Shoot the witch! Shoot the witch! What are you doing? Shoot her!"
+    ],
+    "PlayerWitchStartAttackGambler": [
+      "Ahhh SHIT!",
+      "NO!!!!!!!!",
+      "Shit!",
+      "God damn it.",
+      "Holy Shit!",
+      "Bitch."
+    ],
+    "SurvivorCriticalHurtGambler": [
+      "[pain noise - loud major pain]"
+    ],
+    "SurvivorIncapacitatedHurtGambler": [
+      "AHHHHH [terrified yell]"
+    ],
+    "SurvivorJockeyHurtMajorGambler": [
+      "Jockey's got me. (disgusted)",
+      "Shoot this thing on my back!",
+      "Kill this jockey on me!",
+      "Jockey on me!",
+      "Jockey! Jockey!",
+      "Shoot this thing off my back!",
+      "[pain noise - loud major pain]",
+      "[pain noise - oy]",
+      "[pain noise - ugh]",
+      "GET IT OFF!",
+      "GET IT OFF ME!"
+    ],
+    "SurvivorJockeyHurtMajorC1Gambler": [
+      "Shoot this thing on my back!",
+      "Shoot this thing off my back!"
+    ],
+    "SurvivorJockeyHurtMinorGambler": [
+      "Jockey's got me. (disgusted)",
+      "Shoot this thing on my back!",
+      "Kill this jockey on me!",
+      "Jockey on me!",
+      "Jockey! Jockey!",
+      "Shoot this thing off my back!",
+      "[pain noise - loud major pain]",
+      "[pain noise - oy]",
+      "[pain noise - ugh]",
+      "GET IT OFF!",
+      "GET IT OFF ME!"
+    ],
+    "SurvivorJockeyHurtMinorC1Gambler": [
+      "Shoot this thing on my back!",
+      "Shoot this thing off my back!"
+    ],
+    "SurvivorMajorHurtGambler": [
+      "[pain noise - huh]",
+      "[pain noise - ahh]",
+      "[pain noise - oy]",
+      "[pain noise - ugh]"
+    ],
+    "SurvivorMinorHurtGambler": [
+      "[pain noise - short minor pain]"
+    ],
+    "SurvivorReloadingGambler": [
+      "Reloading!"
+    ],
+    "SurvivorReloadingIntenseGambler": [
+      "Reloading!",
+      "Reloading here!",
+      "Gotta reload!"
+    ],
+    "PlayerHelpIncappedGambler": [
+      "I need some help.",
+      "I can't do this on my own, gimme some help!",
+      "Somebody want to lend me a hand, here?",
+      "Help!",
+      "Hey, over here!"
+    ],
+    "HelpResponseGamblerGambler": [
+      "Blank"
+    ],
+    "C2M1DoneFallingGambler": [
+      "[pain noise - short minor pain]",
+      "[pissed, to self] Christ."
+    ],
+    "C2M1FallingGambler": [
+      "Woah shit."
+    ],
+    "C2M2CarouselOffGambler": [
+      "Okay, it's off!"
+    ],
+    "C2M2CarouselOnGambler": [
+      "What hell, I'm hitting it.",
+      "I'm hitting it.",
+      "Get ready to run, I'm hitting it."
+    ],
+    "C3M3BridgeButtonGambler": [
+      "I'm lowering the bridge.",
+      "Get ready! Lowering the bridge!"
+    ],
+    "PlayerChainSawUsedGambler": [
+      "YEEEAAAAH!",
+      "DIE! DIE!",
+      "SUCK ON THIS!",
+      "YEAH! DIE!"
+    ],
+    "PlayerRemarkC1M1AroundFireGambler": [
+      "Shit! This place is burnin' up FAST."
+    ],
+    "PlayerRemarkC1M1OverTableGambler": [
+      "Over here.",
+      "Come on, this way!",
+      "Okay this way!",
+      "C'mon, this way!"
+    ],
+    "PlayerRemarkC1M1SearchRoomsGambler": [
+      "Search these rooms. Might be something we can use."
+    ],
+    "PlayerRemarkC1M1ThroughThisDoorGambler": [
+      "Through this door!"
+    ],
+    "PlayerRemarkC1M3AlarmDoorsGambler": [
+      "I got a sinking feeling this alarm's gonna get us some attention...",
+      "I got a sick feeling this alarm's gonna get us some attention..."
+    ],
+    "PlayerRemarkC1M3CarefulWindowsGambler": [
+      "Let's be careful.",
+      "I got a sinking feeling this alarm's gonna get us some attention..."
+    ],
+    "PlayerRemarkC1M3CEDAGone1Gambler": [
+      "Jesus. I knew it. There's nothing here!",
+      "No one's alive in here."
+    ],
+    "PlayerRemarkC1M3CEDAGone2Gambler": [
+      "Okay, so the evac station's abandoned, annnnd we're at the center of a zombie-filled building. But on the bright side? We're all probably gonna die.",
+      "CEDA leaving me twice in one day, lesson learned."
+    ],
+    "PlayerRemarkC1M3DiscoPantsGambler": [
+      "Disco Pants and Haircuts? Man, lots of space in this mall."
+    ],
+    "PlayerRemarkC1M3DownHereGambler": [
+      "Down here!",
+      "We can get down here!",
+      "Down here."
+    ],
+    "PlayerRemarkC1M3DownHere2Gambler": [
+      "Down here!",
+      "We can get down here!",
+      "Down here."
+    ],
+    "PlayerRemarkC1M3DownTheEscalator1Gambler": [
+      "Down that escalator!"
+    ],
+    "PlayerRemarkC1M3OverHereGambler": [
+      "Through this door!",
+      "Over this door!",
+      "Through the door!"
+    ],
+    "PlayerRemarkC1M3SearchRoomsGambler": [
+      "Search these rooms. Might be something we can use."
+    ],
+    "PlayerRemarkC1M3ThisWayGambler": [
+      "Come on, this way!",
+      "This way!",
+      "Evac's this way!",
+      "Looks like people headed this way!"
+    ],
+    "PlayerRemarkC1M3ThroughHereGambler": [
+      "Through here!",
+      "Through this gate!",
+      "Through here."
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm1Gambler": [
+      "Keep going up!",
+      "Up! Up! Keep moving!",
+      "Is there some way to turn off this alarm?"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm1aGambler": [
+      "Keep going up!",
+      "Up! Up! Keep moving!",
+      "Is there some way to turn off this alarm?"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm1bGambler": [
+      "Keep going up!",
+      "Up! Up! Keep moving!",
+      "Is there some way to turn off this alarm?"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm1cGambler": [
+      "Keep going up!",
+      "Up! Up! Keep moving!",
+      "Is there some way to turn off this alarm?"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2Gambler": [
+      "Turn off THAT ALARM!",
+      "We gotta turn off this alarm!",
+      "We need to turn of this alarm!",
+      "Keep running, keep running.",
+      "Go! Run! GO!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2aGambler": [
+      "Turn off THAT ALARM!",
+      "We gotta turn off this alarm!",
+      "We need to turn of this alarm!",
+      "Keep running, keep running.",
+      "Go! Run! GO!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2bGambler": [
+      "Turn off THAT ALARM!",
+      "We gotta turn off this alarm!",
+      "We need to turn of this alarm!",
+      "Keep running, keep running.",
+      "Go! Run! GO!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2cGambler": [
+      "Turn off THAT ALARM!",
+      "We gotta turn off this alarm!",
+      "We need to turn of this alarm!",
+      "Keep running, keep running.",
+      "Go! Run! GO!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2dGambler": [
+      "Turn off THAT ALARM!",
+      "We gotta turn off this alarm!",
+      "We need to turn of this alarm!",
+      "Keep running, keep running.",
+      "Go! Run! GO!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm3Gambler": [
+      "Turn off THAT ALARM!",
+      "We gotta turn off this alarm!",
+      "We need to turn of this alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm3aGambler": [
+      "Keep going up!",
+      "Up! Up! Keep moving!",
+      "Is there some way to turn off this alarm?"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm3bGambler": [
+      "Keep going up!",
+      "Up! Up! Keep moving!",
+      "Is there some way to turn off this alarm?"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm3cGambler": [
+      "Keep going up!",
+      "Up! Up! Keep moving!",
+      "Is there some way to turn off this alarm?"
+    ],
+    "PlayerRemarkC1M3UpEscalator1Gambler": [
+      "Up this escalator!"
+    ],
+    "PlayerRemarkC1M3UpEscalator2Gambler": [
+      "Up this escalator!"
+    ],
+    "PlayerRemarkC1M3UpEscalator3Gambler": [
+      "Up this escalator!"
+    ],
+    "PlayerRemarkc2m1_carwreckage1Gambler": [
+      "This is just a mess."
+    ],
+    "PlayerRemarkc2m1_checkroomsaGambler": [
+      "Search the rooms.",
+      "We better search these rooms."
+    ],
+    "PlayerRemarkc2m1_cliffaGambler": [
+      "Careful heading down there hill.",
+      "Careful, this gully looks pretty steep."
+    ],
+    "PlayerRemarkc2m1_downstairsGambler": [
+      "Down here."
+    ],
+    "PlayerRemarkc2m1_followriverGambler": [
+      "Down the river."
+    ],
+    "PlayerRemarkc2m1_motelsignGambler": [
+      "There's a motel up there."
+    ],
+    "PlayerRemarkc2m1_offrampaGambler": [
+      "Down the off ramp.",
+      "Down this off ramp!"
+    ],
+    "PlayerRemarkc2m1_parkaGambler": [
+      "Whispering Oaks! We made it."
+    ],
+    "PlayerRemarkc2m1_poolGambler": [
+      "[Whistles] those people SUCKED at high diving."
+    ],
+    "PlayerRemarkc2m1_saferoomGambler": [
+      "Safe house in the trailer."
+    ],
+    "PlayerRemarkc2m1_searchlightsaGambler": [
+      "Searchlights over there. Could be a way out."
+    ],
+    "PlayerRemarkc2m1_throughhereGambler": [
+      "In here."
+    ],
+    "PlayerRemarkc2m1_throughmotelaGambler": [
+      "Highway's blocked! Let's cut through this motel!"
+    ],
+    "PlayerRemarkc2m1_throughwindowGambler": [
+      "Through this window!"
+    ],
+    "PlayerRemarkc2m1_uphillGambler": [
+      "We can get up the hill over here."
+    ],
+    "PlayerRemarkc2m1_upstairsaGambler": [
+      "Let's try upstairs."
+    ],
+    "PlayerRemarkc2m2_carouselaGambler": [
+      "Nice fencing. Looks like a federal carousel penitentiary.",
+      "A fenced-in carousel? Is this where they took child prisoners on day trips?"
+    ],
+    "PlayerRemarkc2m2_carouselbuttonGambler": [
+      "We need to turn on the power to open this door."
+    ],
+    "PlayerRemarkc2m2_entrancesignGambler": [
+      "Looks abandoned.",
+      "As far as Evac Centers go, this is not the worst place to hole up."
+    ],
+    "PlayerRemarkc2m2_lilpeanutaGambler": [
+      "I do not like that little peanut man."
+    ],
+    "PlayerRemarkc2m2_thistall2Gambler": [
+      "You gotta be this tall to get in here, Ellis. Sorry, buddy. You'll be missed."
+    ],
+    "PlayerRemarkc2m2_topofslideaGambler": [
+      "Hurry it up."
+    ],
+    "PlayerRemarkc2m2_tunnelofloveGambler": [
+      "Safe house ahead!"
+    ],
+    "PlayerRemarkc2m3_aroundblockaGambler": [
+      "Hmm... okay, we're further down the path.",
+      "That got us around the block."
+    ],
+    "PlayerRemarkc2m3_cementriveraGambler": [
+      "You could almost call this a cement river, Ellis"
+    ],
+    "PlayerRemarkc2m3_coasteroffaGambler": [
+      "Hit the alarm to stop them!",
+      "Shut down the coaster!",
+      "We have to shut down the coaster!",
+      "We gotta get that alarm off!",
+      "Somebody turn off that alarm!"
+    ],
+    "PlayerRemarkc2m3_freshairGambler": [
+      "I can feel a breeze, fresh air!"
+    ],
+    "PlayerRemarkc2m3_holeGambler": [
+      "Down the hole."
+    ],
+    "PlayerRemarkc2m3_longesttunnelaGambler": [
+      "This is the LONGEST tunnel of love I've ever seen."
+    ],
+    "PlayerRemarkc2m3_overfenceGambler": [
+      "Over this fence!"
+    ],
+    "PlayerRemarkc2m3_rubbleaGambler": [
+      "Okay, the only way over is to get on the coaster's track.",
+      "We're gonna have to run the coaster."
+    ],
+    "PlayerRemarkc2m3_saferoomendaGambler": [
+      "We got a safe house!",
+      "There's the safe house!"
+    ],
+    "PlayerRemarkc2m3_swanroomaGambler": [
+      "Let's try the maintenance room.",
+      "Into the swan maintenance room of love!"
+    ],
+    "PlayerRemarkc2m3_tracks01Gambler": [
+      "I hate roller coasters.",
+      "Stay on the track.",
+      "Make sure to call out if you get pulled.",
+      "Stay on the track people!",
+      "Run on the track!",
+      "Thank god this doesn't do a loop.",
+      "We need to keep going down the track!",
+      "You got your wish, Ellis. We're on a ride.",
+      "Just follow the tracks, everybody!",
+      "Everybody, just follow the tracks!",
+      "These infected do NOT respect lines."
+    ],
+    "PlayerRemarkc2m3_ventaGambler": [
+      "This isn't very romantic."
+    ],
+    "PlayerRemarkc2m3_wayblocked1Gambler": [
+      "This way is blocked."
+    ],
+    "PlayerRemarkc2m4_barnentryGambler": [
+      "Through this building."
+    ],
+    "PlayerRemarkc2m4_bumpercarsaGambler": [
+      "Through the bumper cars!",
+      "Keep going through the bumper cars."
+    ],
+    "PlayerRemarkc2m4_onroofaGambler": [
+      "Careful on these roofs."
+    ],
+    "PlayerRemarkc2m4_pendoorGambler": [
+      "Through this door!"
+    ],
+    "PlayerRemarkc2m4_pens1Gambler": [
+      "Ugh. What's that SMELL?",
+      "Looks like the H in 4H stands for hell."
+    ],
+    "PlayerRemarkc2m4_seesaferoomGambler": [
+      "There's a saferoom up ahead!"
+    ],
+    "PlayerRemarkc2m4_upbarnaGambler": [
+      "Across the rooftops."
+    ],
+    "PlayerRemarkc2m5_button2Gambler": [
+      "Sorry to break it to you Coach, but your heroes lip-sync. There's a tape back here labeled finale.",
+      "This looks all setup for the finale.",
+      "When I hit this tape, it's gonna blare some old people's rock music and start the finale. Get ready.",
+      "Coach, when I start this finale, you aren't gonna start dancing are you? Ahh Screw it, I'm hitting it.",
+      "If you have taste, cover your ears. I'm starting the finale.",
+      "Get ready, I'm gonna start the finale.",
+      "Everyone ready, I'm gonna hit this and start the finale."
+    ],
+    "PlayerRemarkC3M2PlaneCrashGambler": [
+      "I guess walking isn't so bad (seeing downed plane)"
+    ],
+    "PlayerRemarkC3M2PlaneDoorNagGambler": [
+      "I think it's a safe bet to say an alarm will sound when we open this door.",
+      "The emergency exit is the only way."
+    ],
+    "PlayerRemarkC3M2PlaneDoorNagaGambler": [
+      "We can get through this door.",
+      "We have to open this door.",
+      "Someone open the door."
+    ],
+    "PlayerRemarkC3M2RoadGambler": [
+      "Dry land up ahead."
+    ],
+    "PlayerRemarkC3M2SickOfSwampGambler": [
+      "This mud is not doing my suit any favors."
+    ],
+    "PlayerRemarkC3M2Village1Gambler": [
+      "Hello!",
+      "Holy shit, maybe the swamp people made it!",
+      "ANYBODY HOME?"
+    ],
+    "PlayerRemarkC3M2Village2Gambler": [
+      "Safe house!",
+      "We got a safe house!",
+      "Safe house ahead!",
+      "There's the safe house!"
+    ],
+    "PlayerRemarkC3M3BodiesGambler": [
+      "That's a shit ton of bodies."
+    ],
+    "PlayerRemarkC3M3LowerGateGambler": [
+      "We need to lower this plank.",
+      "The only way is over this plank."
+    ],
+    "PlayerRemarkC3M3MoreShacksGambler": [
+      "Did people really live in these shacks?"
+    ],
+    "PlayerRemarkC3M3ThisWayGambler": [
+      "Come on, this way!",
+      "C'mon, this way!"
+    ],
+    "PlayerRemarkC3M3ThroughHereGambler": [
+      "Back here.",
+      "Through here.",
+      "Looks like some of them headed to the river.",
+      "Through this house."
+    ],
+    "PlayerRemarkC3M3ThroughThisHouseGambler": [
+      "Through here!",
+      "Let's go through here!",
+      "Through here.",
+      "We gotta to go back through here!"
+    ],
+    "PlayerRemarkC3M3UnsanitaryGambler": [
+      "You know how many germs are on that thing?",
+      "Ugh. It's like rotten eggs here. Does nobody else SMELL that?",
+      "This is just really unsanitary.",
+      "Where did anyone who lived here wash their hands?"
+    ],
+    "PlayerRemarkC3M3UpHereGambler": [
+      "Up here!",
+      "Up here."
+    ],
+    "PlayerRemarkc3m4downroadGambler": [
+      "Let's go down this street."
+    ],
+    "PlayerRemarkc3m4scaffoldGambler": [
+      "We can climb this scaffolding."
+    ],
+    "PlayerRemarkc4m1_boataGambler": [
+      "What, does everybody around here have a boat?",
+      "If this rain keeps up, we can sail this thing right to Virgil."
+    ],
+    "PlayerRemarkc4m1_carcrashGambler": [
+      "Now THAT is a nasty wreck."
+    ],
+    "PlayerRemarkc4m1_garagesaleGambler": [
+      "Let's cut through the garage sale."
+    ],
+    "PlayerRemarkc4m1_nogasGambler": [
+      "Out of gas.",
+      "No gas. Terrific. This is just great."
+    ],
+    "PlayerRemarkc4m1_nogasToldGambler": [
+      "No gas. See? What'd I say?"
+    ],
+    "PlayerRemarkc4m1_playgroundfarGambler": [
+      "Through that playground!"
+    ],
+    "PlayerRemarkc4m1_playgroundnearGambler": [
+      "Through this playground!"
+    ],
+    "PlayerRemarkc4m1_saferoomcloseGambler": [
+      "There's a safe room up there!"
+    ],
+    "PlayerRemarkc4m1_throughhereAGambler": [
+      "Let's go through here!"
+    ],
+    "PlayerRemarkc4m2_gasinsidesignaGambler": [
+      "Looks like the gas is inside."
+    ],
+    "PlayerRemarkc4m2_millentranceGambler": [
+      "In here."
+    ],
+    "PlayerRemarkc4m2_millentranceexitGambler": [
+      "This way!",
+      "C'mon, this way!"
+    ],
+    "PlayerRemarkc4m2_seegasstationaGambler": [
+      "There's the gas station!"
+    ],
+    "PlayerRemarkc4m2_seesaferoomaGambler": [
+      "There's gas in the safe room!"
+    ],
+    "PlayerRemarkc4m2_streetblockedaGambler": [
+      "The road's blocked."
+    ],
+    "PlayerRemarkc4m2_uprampGambler": [
+      "Up that ramp!"
+    ],
+    "PlayerRemarkc4m2_upthestairsGambler": [
+      "Up here."
+    ],
+    "PlayerRemarkc4m2_useelevatoraGambler": [
+      "We can take that elevator down to the field."
+    ],
+    "PlayerRemarkc4m2_waterpoolaGambler": [
+      "The water's starting to pool. Shit.",
+      "Ah shit, this place is already starting to flood.",
+      "It's already starting to flood."
+    ],
+    "PlayerRemarkc4m2_weatheraGambler": [
+      "This rain doesn't look like it's gonna let up.",
+      "Christ, I hope this rain doesn't get any worse.",
+      "The sky looks bad."
+    ],
+    "PlayerRemarkc4m3_caneaGambler": [
+      "Back through the field!",
+      "Back through the canefield."
+    ],
+    "PlayerRemarkc4m3_crosshere1Gambler": [
+      "We can cross here!",
+      "We can get across the water here!"
+    ],
+    "PlayerRemarkc4m3_downhere1Gambler": [
+      "Down here!",
+      "Down here."
+    ],
+    "PlayerRemarkc4m3_downstairsaGambler": [
+      "Everyone back down the stairs!"
+    ],
+    "PlayerRemarkc4m3_ducatelsignGambler": [
+      "There's the Ducatel sign! We're almost outta here!"
+    ],
+    "PlayerRemarkc4m3_elevatoraGambler": [
+      "We can take the elevator back up!"
+    ],
+    "PlayerRemarkc4m3_floodedaGambler": [
+      "It's a lake down there."
+    ],
+    "PlayerRemarkc4m3_overtankaGambler": [
+      "We can cross over that tank!"
+    ],
+    "PlayerRemarkc4m3_rainaGambler": [
+      "Shit, it's really coming down.",
+      "Ohhh shit, the storm has arrived.",
+      "It's pissing down."
+    ],
+    "PlayerRemarkc4m3_safehousedownaGambler": [
+      "There's the safe house!"
+    ],
+    "PlayerRemarkc4m3_startsaferoomaGambler": [
+      "Blank"
+    ],
+    "PlayerRemarkc4m3_uppipesGambler": [
+      "Up this pipe!"
+    ],
+    "PlayerRemarkc4m4_floodedaGambler": [
+      "Goddamn town's flooded."
+    ],
+    "PlayerRemarkc4m4_garagesaleaGambler": [
+      "The yard sale! We're going the right way!"
+    ],
+    "PlayerRemarkc4m4_playgroundaGambler": [
+      "The playground! We're almost there!"
+    ],
+    "PlayerRemarkc4m4_porchlightaGambler": [
+      "I remember that porch light."
+    ],
+    "PlayerRemarkc4m4_safehouseaGambler": [
+      "Safe house ahead!",
+      "There's the safe house!"
+    ],
+    "PlayerRemarkc4m4_useroofsaGambler": [
+      "Get to higher ground!",
+      "We can use the rooftops.",
+      "We can get across the roofs."
+    ],
+    "PlayerRemarkpathc2m1_abandonedcarsGambler": [
+      "These abandoned cars go on for MILES."
+    ],
+    "PlayerRemarkpathc2m1_billboardGambler": [
+      "Check it out."
+    ],
+    "PlayerRemarkremark_caralarmGambler": [
+      "Don't shoot that car!"
+    ],
+    "PlayerRemarkWorldC1M1AlmostThereGambler": [
+      "Almost there!"
+    ],
+    "PlayerRemarkWorldC1M1CedaMapsGambler": [
+      "If that map's right, New Orleans might be the last place in America that can get us out alive.",
+      "According to this map, the only place left standing is New Orleans.",
+      "Jesus, the whole country has fallen.",
+      "This map is not good news.",
+      "According to this map, there aren't a whole lot of options."
+    ],
+    "PlayerRemarkWorldC1M1DownHereGambler": [
+      "Down here!",
+      "Through here."
+    ],
+    "PlayerRemarkWorldC1M1ElevatorBrokenGambler": [
+      "Damn it! Elevator's out."
+    ],
+    "PlayerRemarkWorldC1M1FireRoomGambler": [
+      "Well, this is unexpected."
+    ],
+    "PlayerRemarkWorldC1M1FireSpreadingGambler": [
+      "Alright, I'm not walking through THAT. Let's find another way.",
+      "Let's find another way. This suit's flammable.",
+      "Shit! This place is burnin' up FAST."
+    ],
+    "PlayerRemarkWorldC1M1FirstGambler": [
+      "Holy shit, it's zombies.",
+      "These... don't look like people.",
+      "Jesus Christ! What are these things?",
+      "I don't know about you, but I'm killing these things."
+    ],
+    "PlayerRemarkWorldC1M1LedgeGambler": [
+      "Get out to the ledge!",
+      "Out here! Let's try the ledge!",
+      "We can use this ledge to get around the fire."
+    ],
+    "PlayerRemarkWorldC1M2CloseGambler": [
+      "Mall must be close..."
+    ],
+    "PlayerRemarkWorldC1M2DownStairsGambler": [
+      "Down here."
+    ],
+    "PlayerRemarkWorldC1M2DumpsterGambler": [
+      "Over this dumpster!"
+    ],
+    "PlayerRemarkWorldC1M2InHereGambler": [
+      "In here!",
+      "Through the door!",
+      "In here."
+    ],
+    "PlayerRemarkWorldC1M2JumpTruckGambler": [
+      "Jump onto the truck!"
+    ],
+    "PlayerRemarkWorldC1M2MadeItGambler": [
+      "Well, we made it. Let's hope there's still somebody here.",
+      "Okay we made it. Let's hope there's still somebody here.",
+      "Okay, we made it to the mall. BARELY."
+    ],
+    "PlayerRemarkWorldC1M2UpStairsGambler": [
+      "C'mon, this way!",
+      "Let's try upstairs."
+    ],
+    "PlayerRemarkWorldC3M1FerryNagGambler": [
+      "We gotta get that boat over here.",
+      "We need to call that boat over here."
+    ],
+    "PlayerRemarkWorldC502AlarmButtonGambler": [
+      "Annnd... Let's go! Let's go!",
+      "Annnd... Let's go! Let's go! Let's go!",
+      "Run to the tower.",
+      "Turn off the alarm!"
+    ],
+    "PlayerRemarkWorldC502AlarmStoppedGambler": [
+      "Alarm is off!"
+    ],
+    "PlayerRemarkWorldC502AlleyGambler": [
+      "There's the freeway.",
+      "Down the alley!",
+      "Through here."
+    ],
+    "PlayerRemarkWorldC502BusStory2Gambler": [
+      "Ellis! ELLIS!  We don't have time for that right now! (ellis telling story about riding on buses)"
+    ],
+    "PlayerRemarkWorldC502NotZombies3Gambler": [
+      "Looks like the Military took over."
+    ],
+    "PlayerRemarkWorldC502Run1Gambler": [
+      "To the tower.",
+      "Somebody's got to turn off the alarm!"
+    ],
+    "PlayerRemarkWorldC502SmellGambler": [
+      "From the looks of this park. I'm glad we didn't arrive early."
+    ],
+    "PlayerRemarkWorldC502SmellBathGambler": [
+      "It reeks like piss."
+    ],
+    "PlayerRemarkWorldC502SmellBath3Gambler": [
+      "God damn you are messed up.",
+      "You are messed up."
+    ],
+    "PlayerRemarkWorldC502SpotSafeHouseGambler": [
+      "Safe house!",
+      "We got a safe house!",
+      "Safe house ahead!"
+    ],
+    "PlayerRemarkWorldDoNotShootCarC501Gambler": [
+      "Don't shoot that car!"
+    ],
+    "PlayerRemarkWorldSignRestricted2Gambler": [
+      "Restricted area my ass (restricted area)"
+    ],
+    "PlayerWorldSignC5AlarmWillSoundGambler": [
+      "As soon as that door opens, get ready to run for the tower."
+    ],
+    "PlayerWorldSignC5AlarmWillSound3bGambler": [
+      "We run to the tower and turn off the alarm. (exasperated to Ellis)"
+    ],
+    "PlayerWorldSignC5AlarmWillSound3cGambler": [
+      "Yeah and of course, stay together (Ellis - but we should stick together right?)"
+    ],
+    "RespondAffirmativeGambler": [
+      "Yes.",
+      "Yeppers.",
+      "Yessss."
+    ],
+    "PlayerFollowMeGambler": [
+      "This way!",
+      "Over here.",
+      "Follow me.",
+      "Come on, this way!",
+      "Keep up.",
+      "Okay this way!"
+    ],
+    "PlayerHelpGambler": [
+      "I can't do this on my own, gimme some help!",
+      "Somebody want to lend me a hand, here?",
+      "Help!",
+      "Hey, over here!"
+    ],
+    "PlayerHurryUpGambler": [
+      "Come on I'm in a hurry,",
+      "Hurry it up.",
+      "Lets go, Lets go!",
+      "Move, move, move."
+    ],
+    "PlayerKillThatLightGambler": [
+      "Lights off.",
+      "Everybody, lights off.",
+      "Kill your light."
+    ],
+    "PlayerLeadOnGambler": [
+      "Lead on.",
+      "Lead on, McDuff.",
+      "Lead on, smart guy.",
+      "I'm right behind you.",
+      "Right behind you.",
+      "Yeah, you go first."
+    ],
+    "PlayerMoveOnGambler": [
+      "Look at ya. What are we waiting for?  Let's go.",
+      "Let's roll!",
+      "Time to move.",
+      "What are we waiting for?  Let's go.",
+      "Let's go."
+    ],
+    "PlayerStayTogetherGambler": [
+      "Stay close!",
+      "Stay together people.",
+      "Keep close."
+    ],
+    "PlayerWatchOutBehindGambler": [
+      "They're behind us!",
+      "Behind us!",
+      "Behind!"
+    ],
+    "PlayerAskReadyGambler": [
+      "Okay, we ready?",
+      "We ready?",
+      "Ready?",
+      "Everyone ready?"
+    ],
+    "PlayerAskReadyC1Gambler": [
+      "Are you guys ready?",
+      "Do you think you can handle this?",
+      "If you aren't ready, I don't want to hear it."
+    ],
+    "PlayerImWithYouGambler": [
+      "I'm here.",
+      "Why not? I follow you.",
+      "I'm with you.",
+      "Sure thing, let's go.",
+      "Sure, let's go."
+    ],
+    "PlayerLaughGambler": [
+      "<Hearty Laugh>",
+      "<Short laugh>"
+    ],
+    "PlayerLostCallGambler": [
+      "Helloooo?",
+      "Heyyy ooooo!",
+      "Anybody hear me?",
+      "Can you guys hear me?"
+    ],
+    "PlayerNiceJobResponseGambler": [
+      "Well all right!",
+      "Nice job!",
+      "That was surprisingly good.",
+      "Nice.",
+      "That's what I like to see.",
+      "Wow.  Nice."
+    ],
+    "PlayerNoGambler": [
+      "No.",
+      "Nope.",
+      "No sir-ee Bob.",
+      "Uh uh.",
+      "Yeah, no.",
+      "NO!"
+    ],
+    "PlayerProfanityGambler": [
+      "This is all going to hell!",
+      "Damn...",
+      "Shit!",
+      "God damn it.",
+      "Bullshit!",
+      "Bastards!",
+      "Holy Shit!",
+      "Ah, tits!",
+      "Son of a bitch.",
+      "Oh bullshit!",
+      "My ass.",
+      "Tits!",
+      "Is this some kind of sick joke?",
+      "I call foul.",
+      "Kiss my ass.",
+      "Ass.",
+      "Asshat.",
+      "Bitch.",
+      "Asshole.",
+      "Assclown.",
+      "Dumbshit.",
+      "Screw this.",
+      "What an assclown."
+    ],
+    "PlayerSorryGambler": [
+      "Forgive me, okay?.",
+      "Well sorry.",
+      "I'm sorry, okay?",
+      "Can you forgive me?"
+    ],
+    "PlayerThanksGambler": [
+      "Thanks.",
+      "Thanks!",
+      "I owe you one."
+    ],
+    "PlayerYellRunGambler": [
+      "Run",
+      "Screw it, run!",
+      "Run! Just run!",
+      "Go! Run! GO!"
+    ],
+    "PlayerYesGambler": [
+      "Yes.",
+      "Yep.",
+      "Yeah.",
+      "Yeppers.",
+      "Yessss.",
+      "Yeah, yeah, yeah, yeah."
+    ],
+    "PlayerYouAreWelcomeGambler": [
+      "You're welcome.",
+      "Don't worry about it.",
+      "That's what I'm here for.",
+      "Anytime.",
+      "Sure thing."
+    ],
+    "PlayerYouAreWelcomeC1Gambler": [
+      "Whatever.",
+      "Um yeah.",
+      "Sure."
+    ],
+    "PlayerNegativeGambler": [
+      "This is all going to hell!",
+      "Damn...",
+      "God damn it.",
+      "Ah, tits!",
+      "Screw this."
+    ],
+    "PlayerHeardBoomerGambler": [
+      "Keep a lookout. I hear a boomer.",
+      "I hear a boomer.",
+      "You hear that boomer?",
+      "You hear that boomer? Don't let him spew on you.",
+      "Boomer around.  Don't shoot him if he's near me! OKAY?"
+    ],
+    "PlayerHeardHunterGambler": [
+      "You hear that hunter?",
+      "Pay attention, hunter's around.",
+      "I hear a hunter."
+    ],
+    "PlayerHeardSmokerGambler": [
+      "There's a Smoker around here.",
+      "Smoker's around.",
+      "I hear a smoker."
+    ],
+    "PlayerHeardTankGambler": [
+      "Tank! Tank!",
+      "Tank inbound!",
+      "Man up!  We got a Tank!",
+      "Get ready,  we got a TANK!",
+      "Hold steady, TANK!",
+      "Get ready, TANK!"
+    ],
+    "PlayerHurrahGambler": [
+      "We are walking through the valley of the shadow of death and kicking ass.",
+      "It may not be pretty, but we're doing this.",
+      "You guys aren't so damn bad.",
+      "What do ya know, we're going to make it.",
+      "You guys are pretty good.",
+      "Aces!"
+    ],
+    "PlayerWarnCarefulGambler": [
+      "Everybody be careful.",
+      "Let's be careful.",
+      "Try and be careful."
+    ],
+    "SurvivorSpottedWorldFarGambler": [
+      "Over there!",
+      "Look!"
+    ],
+    "GasPourDoneSCGambler": [
+      "SUCK ON THIS!",
+      "We're makin' it look EASY!",
+      "Suck on that",
+      "Stick that where the sun don't shine!",
+      "Stick that up your ass!",
+      "We are wiping the floor with you."
+    ],
+    "GasPourSCGambler": [
+      "Fill 'er up!",
+      "Come onnnn, come onnnnnn...",
+      "Come on...",
+      "Get in the tank, you stupid goddamn gas, get in the tank.",
+      "Got another can in the tank!",
+      "One more for the gas tank!",
+      "Hurry up, hurrrry upppp...",
+      "Come comeoncomeoncomeoncomeon. Come on!",
+      "Get! In! The! Tank!"
+    ],
+    "GrabbingGasSCGambler": [
+      "Got it!",
+      "I got it!"
+    ],
+    "ScavengeStartGambler": [
+      "Let's get some GAS!"
+    ],
+    "PlayerCommentJockeyGambler": [
+      "Ten bucks says he takes him to the right."
+    ],
+    "C4M2LockTheDoorCheckPointGambler": [
+      "Close the door and let's get this gas."
+    ],
+    "GoingToDieCoachCoachGambler": [
+      "I really screwed the pooch back there.",
+      "I gotta take better care of myself.",
+      "Not dead yet, but not exactly healthy.",
+      "God damn it! God damn it.  God damn it.",
+      "If I go, you guys gonna miss me.",
+      "I have seriously felt better.",
+      "Pull yourself together man, you're falling apart.",
+      "Don't worry about me, I'll be okay.",
+      "This is not how it's going to end.",
+      "I'm not dead yet!",
+      "You're going to have to do better than that to kill me!",
+      "Quit being a baby, you've felt worse after a night of drinking.",
+      "Ain't this a bitch.",
+      "God damn it I can't believe this.",
+      "Well at least I didn't catch the flu.",
+      "This is some crap",
+      "Don't worry.  I'm not done yet.",
+      "I am sick and tired of being sick and tired.",
+      "What was I thinking coming down here?",
+      "Okay, all right, I can do this. I can do this.",
+      "I'm not going to die down here.",
+      "I am not dying in the middle of nowhere."
+    ],
+    "PlayerAlertGiveItemStopGambler": [
+      "Stop, I have something for you.",
+      "Hang on, you need this more than me.",
+      "Hold up, you can have this."
+    ],
+    "PlayerAlertGiveItemStopAnFirstAidGambler": [
+      "Blank"
+    ],
+    "PlayerAlertGiveItemStopQnFirstAidGambler": [
+      "Blank"
+    ],
+    "PlayerCoachPouncedGambler": [
+      "Hunter's got Coach!",
+      "Hunter on  Coach!"
+    ],
+    "PlayerCoachPouncedC1Gambler": [
+      "Zombie's got him!",
+      "Zombie on him!"
+    ],
+    "PlayerEatPillsGambler": [
+      "Okay, that's gonna last for a bit.",
+      "Ah, a little pick me up.",
+      "A little pick me up. That's good.",
+      "Okay, gotta find some real first aid."
+    ],
+    "PlayerGetInsideCheckPointGambler": [
+      "Get inside!",
+      "Everybody INSIDE!",
+      "Inside NOW!",
+      "Quit screwing around, get inside!",
+      "Don't make me come out there for you!"
+    ],
+    "PlayerGrabbedByJockeyGambler": [
+      "Jockey's got me. (disgusted)",
+      "Shoot this thing on my back!",
+      "Kill this jockey on me!",
+      "Jockey on me!",
+      "Jockey! Jockey!",
+      "Shoot this thing off my back!",
+      "[pain noise - loud major pain]",
+      "[pain noise - oy]",
+      "[pain noise - ugh]",
+      "GET IT OFF!",
+      "GET IT OFF ME!"
+    ],
+    "PlayerGrabbedByJockeyC1Gambler": [
+      "Shoot this thing on my back!",
+      "Shoot this thing off my back!"
+    ],
+    "PlayerGrenadeMolotovGambler": [
+      "Throwing a Molotov.",
+      "Fire coming.",
+      "Molotov!"
+    ],
+    "PlayerGrenadePipeBombGambler": [
+      "GRENADE!",
+      "Throwing a pipe bomb.",
+      "Pipe Bomb!",
+      "Chase this you zombie bastards!",
+      "Pipe bomb out!"
+    ],
+    "PlayerGrenadeVomitJarGambler": [
+      "Puke in the hole!",
+      "Incoming!",
+      "Fight amongst yourselves!"
+    ],
+    "PlayerGrenadeVomitJarC1Gambler": [
+      "Puke in the hole!"
+    ],
+    "PlayerIncapacitatedInitialGambler": [
+      "I'm down!",
+      "I'M DOWN!",
+      "DOWN!"
+    ],
+    "PlayerKillConfirmationGambler": [
+      "Got it!",
+      "It's dead!",
+      "Dead.",
+      "Got 'em.",
+      "Done like dinner!",
+      "Bull's-eye.",
+      "That's a hiit.",
+      "Hiit."
+    ],
+    "PlayerMechanicPouncedGambler": [
+      "Hunter's got Ellis!",
+      "Hunter on  Ellis!"
+    ],
+    "PlayerMechanicPouncedC1Gambler": [
+      "Zombie's got him!",
+      "Zombie on him!"
+    ],
+    "PlayerProducerPouncedGambler": [
+      "Hunter's got Rochelle!",
+      "Hunter on Rochelle!"
+    ],
+    "PlayerProducerPouncedC1Gambler": [
+      "Zombie on her!",
+      "Get that zombie on her!"
+    ],
+    "PlayerRevivedByDefibrillatorGambler": [
+      "[gasp for breath]",
+      "[being shocked]"
+    ],
+    "PlayerRevivedByDefibrillator2Gambler": [
+      "Agggh stop shocking me!",
+      "Alright. That was some serious shit.",
+      "Whoa..."
+    ],
+    "PlayerStayTogetherInsideGambler": [
+      "Get inside!",
+      "Everybody INSIDE!",
+      "Inside NOW!",
+      "Quit screwing around, get inside!",
+      "Don't make me come out there for you!"
+    ],
+    "PlayerSuggestHealthCoachGambler": [
+      "Maybe you could heal up now.",
+      "Heal if you need to.",
+      "Coach, you should heal.",
+      "Coach, don't forget about that health kit.",
+      "Hey Coach, heal.",
+      "Coach, you should maybe heal."
+    ],
+    "PlayerSuggestHealthCoachC1Gambler": [
+      "This might be a good time to heal.",
+      "Time for people to heal.",
+      "Don't forget you can heal yourself.",
+      "This is a good time to heal."
+    ],
+    "PlayerSuggestHealthGamblerC1Gambler": [
+      "This might be a good time to heal.",
+      "Time for people to heal.",
+      "Don't forget you can heal yourself.",
+      "This is a good time to heal."
+    ],
+    "PlayerSuggestHealthMechanicGambler": [
+      "Heal up!",
+      "This would be a good time to heal.",
+      "Ellis, heal up.",
+      "Time to heal Ellis.",
+      "Come on Ellis, don't be a hero.  Use your health kit."
+    ],
+    "PlayerSuggestHealthMechanicC1Gambler": [
+      "This might be a good time to heal.",
+      "Time for people to heal.",
+      "Don't forget you can heal yourself.",
+      "This is a good time to heal."
+    ],
+    "PlayerSuggestHealthProducerGambler": [
+      "Heal up!",
+      "Good time to heal.",
+      "Rochelle, you don't look so good.",
+      "Rochelle, we need you, heal up.",
+      "Hey Ro, don't forget that health kit."
+    ],
+    "PlayerSuggestHealthProducerC1Gambler": [
+      "This might be a good time to heal.",
+      "Time for people to heal.",
+      "Don't forget you can heal yourself.",
+      "This is a good time to heal."
+    ],
+    "PlayerTransitionGambler": [
+      "You guys aren't so damn bad.",
+      "I'm starting to like you guys.",
+      "And THAT is how you do it!",
+      "Take that you mealy-mouthed bastards."
+    ],
+    "PlayerTransitionCloseGambler": [
+      "That was WAY too close!",
+      "That was way, WAY too close!",
+      "Man, we got lucky!",
+      "That my friends, is how you do it!",
+      "Happy New Year!",
+      "We got lucky!",
+      "God DAMN, that was close!",
+      "That was a close one.",
+      "At least I made it.",
+      "Well, that was unpleasant.",
+      "We made that by the skin of our teeth.",
+      "That was a little too close."
+    ],
+    "PlayerUsingDefibrillatorGambler": [
+      "Clear!",
+      "Come on!",
+      "Come ON!",
+      "Work, damn it..."
+    ],
+    "PlayerWarnHeardBoomerGambler": [
+      "Keep a lookout. I hear a boomer.",
+      "I hear a boomer.",
+      "You hear that boomer?",
+      "You hear that boomer? Don't let him spew on you.",
+      "Boomer around.  Don't shoot him if he's near me! OKAY?"
+    ],
+    "PlayerWarnHeardBoomerC1Gambler": [
+      "Is someone beating a horse?",
+      "What is that? Is somebody beating a horse or what?",
+      "What in the hell is that noise?",
+      "You hear that? I guess zombies weren't bad enough.",
+      "You hear that?",
+      "Can you hear that?",
+      "What is that noise?",
+      "I have no idea what that noise is.",
+      "Something we're gonna have to kill."
+    ],
+    "PlayerWarnHeardChargerGambler": [
+      "Keep your eyes peeled, I hear a charger.",
+      "I hear a charger.",
+      "Charger around, get ready.",
+      "Do you hear that charger?",
+      "You hear that charger?"
+    ],
+    "PlayerWarnHeardChargerC1Gambler": [
+      "Is someone beating a horse?",
+      "What is that? Is somebody beating a horse or what?",
+      "What in the hell is that noise?",
+      "You hear that? I guess zombies weren't bad enough.",
+      "You hear that?",
+      "Can you hear that?",
+      "What is that noise?",
+      "I have no idea what that noise is.",
+      "Something we're gonna have to kill."
+    ],
+    "PlayerWarnHeardHunterGambler": [
+      "You hear that hunter?",
+      "Pay attention, hunter's around.",
+      "I hear a hunter."
+    ],
+    "PlayerWarnHeardHunterC1Gambler": [
+      "Is someone beating a horse?",
+      "What is that? Is somebody beating a horse or what?",
+      "What in the hell is that noise?",
+      "You hear that? I guess zombies weren't bad enough.",
+      "You hear that?",
+      "Can you hear that?",
+      "What is that noise?",
+      "I have no idea what that noise is.",
+      "Something we're gonna have to kill."
+    ],
+    "PlayerWarnHeardJockeyGambler": [
+      "I can hear a jockey.",
+      "Jockey's around.",
+      "One of those little jockey bastards is around."
+    ],
+    "PlayerWarnHeardSmokerGambler": [
+      "There's a Smoker around here.",
+      "Smoker's around.",
+      "I hear a smoker."
+    ],
+    "PlayerWarnHeardSmokerC1Gambler": [
+      "Is someone beating a horse?",
+      "What is that? Is somebody beating a horse or what?",
+      "What in the hell is that noise?",
+      "You hear that? I guess zombies weren't bad enough.",
+      "You hear that?",
+      "Can you hear that?",
+      "What is that noise?",
+      "I have no idea what that noise is.",
+      "Something we're gonna have to kill."
+    ],
+    "PlayerWarnHeardSpitterGambler": [
+      "Spitter around.",
+      "I hear a spitter.",
+      "There's a spitter around."
+    ],
+    "PlayerWarnHeardSpitterC1Gambler": [
+      "Is someone beating a horse?",
+      "What is that? Is somebody beating a horse or what?",
+      "What in the hell is that noise?",
+      "You hear that? I guess zombies weren't bad enough.",
+      "You hear that?",
+      "Can you hear that?",
+      "What is that noise?",
+      "I have no idea what that noise is.",
+      "Something we're gonna have to kill."
+    ],
+    "PlayerWarnHeardWitchGambler": [
+      "Sounds like a witch.",
+      "I think I hear my ex-wife...",
+      "Everybody hear that witch?",
+      "I hear a witch."
+    ],
+    "PlayerWarnHeardWitchC1Gambler": [
+      "Oh there's a sound that's familiar.",
+      "That sound is familiar.",
+      "I don't like the sound of this crying.",
+      "A crying woman, what do you think she's sad the mall's closed?",
+      "A crying woman, you think she's sad the mall's closed?"
+    ],
+    "PlayerWarnMegaMobGambler": [
+      "This is why we've got guns!",
+      "They're coming!",
+      "God damn, it's gettin' good."
+    ],
+    "PlayerWarnMegaMobC501Gambler": [
+      "This is why we've got guns!",
+      "They're coming!",
+      "God damn, it's gettin' good."
+    ],
+    "PlayerWarnWitchAngryGambler": [
+      "Leave the witch alone.",
+      "Can we leave that witch alone?",
+      "Watch out, that witch is getting angry.",
+      "Stay away from the witch."
+    ],
+    "PlayerWorldInfectedDet2Gambler": [
+      "Really, I haven't seen any.  (Infected detected in this area.)"
+    ],
+    "PlayerWorldIntroC31BlankGambler": [
+      "Blank"
+    ],
+    "PlayerWorldIntroC51Gambler": [
+      "Blank"
+    ],
+    "SurvivorCaughtVomitGambler": [
+      "Ohh god damn it!",
+      "Ahhh this is some nasty shit.",
+      "God damn it! I am covered in vomit again.",
+      "I'm blind."
+    ],
+    "SurvivorchargerpoundGambler": [
+      "Charger's got me!",
+      "Kill the charger!",
+      "Shoot the charger!",
+      "Can someone shoot this goddamn thing?!?",
+      "Shoot the big guy pounding me into the ground!",
+      "Shoot him! Shoot him!",
+      "Kill this goddamn thing!",
+      "This thing is beating my ass!"
+    ],
+    "SurvivorCoughingGambler": [
+      "[Coughing from smoke]"
+    ],
+    "SurvivorCoughingDeathGambler": [
+      "[Coughing from smoke]"
+    ],
+    "SurvivorDeathGambler": [
+      "[Loud painful death scream]",
+      "[Short quick death scream]"
+    ],
+    "SurvivorGooedBySpitterGambler": [
+      "I got hit by the burning goo shit.",
+      "Goddamn it, I'm covered in goo.",
+      "Let's get out of the goo!",
+      "Get out of the goo!",
+      "What is this shit on me?"
+    ],
+    "SurvivorGooedBySpitterC1Gambler": [
+      "Ugh, what in the hell did that thing just do?",
+      "What is this shit on me?",
+      "What am I covered in?"
+    ],
+    "SurvivorGrabbedByTongueGambler": [
+      "no, No, No, NO, NOOOOOOO!!!!!!!!!",
+      "No, No!",
+      "NOOOOOOO!!!!!!!!!",
+      "SMOKER'S GOT ME!!",
+      "...GOT ME!!",
+      "no, No,  No, NO, NO!!!!!!!!",
+      "NO, NO, NO!!",
+      "no, No,  No, NO!!!!!!!!",
+      "NO!",
+      "NO, NO!",
+      "NO!!!!!!!!"
+    ],
+    "SurvivorGrabbedByTongueC1Gambler": [
+      "What the hell?",
+      "Something's got me?!?!",
+      "What's this shit?",
+      "What the? Ahh gross shit.",
+      "Freaking tongue!?!?"
+    ],
+    "SurvivorPouncedByHunterGambler": [
+      "GET IT GET IT GET IT OFF ME!",
+      "GET IT OFF ME!",
+      "GET IT OFF! GET IT OFF!",
+      "GET IT OFF!",
+      "GET IT OFF! GET IT OFF! GET IT OFF!",
+      "GET IT OFF ME! GET IT OFF ME!"
+    ],
+    "SurvivorTankPoundGambler": [
+      "Freaking tank is killing me!",
+      "Do you see this big giant thing on me?!?!",
+      "Mother of Mercy! This thing is killing me!"
+    ],
+    "SurvivorVocalizeBackUpGambler": [
+      "Back it up!",
+      "Back, back, back!",
+      "Come on back."
+    ],
+    "SurvivorVocalizeEmphaticGoGambler": [
+      "Go!",
+      "GO!",
+      "GOOO!",
+      "Go go go!",
+      "Let's go. Let's go.",
+      "Let's go."
+    ],
+    "SurvivorVocalizeFollowMeGambler": [
+      "This way!",
+      "Over here.",
+      "Follow me.",
+      "Come on, this way!",
+      "Keep up.",
+      "Okay this way!"
+    ],
+    "SurvivorVocalizeGoingToDieGambler": [
+      "I really screwed the pooch back there.",
+      "I gotta take better care of myself.",
+      "Not dead yet, but not exactly healthy.",
+      "God damn it! God damn it.  God damn it.",
+      "If I go, you guys gonna miss me.",
+      "I have seriously felt better.",
+      "Pull yourself together man, you're falling apart.",
+      "Don't worry about me, I'll be okay.",
+      "This is not how it's going to end.",
+      "I'm not dead yet!",
+      "You're going to have to do better than that to kill me!",
+      "Quit being a baby, you've felt worse after a night of drinking.",
+      "Ain't this a bitch.",
+      "God damn it I can't believe this.",
+      "Well at least I didn't catch the flu.",
+      "This is some crap",
+      "Don't worry.  I'm not done yet.",
+      "I am sick and tired of being sick and tired.",
+      "What was I thinking coming down here?",
+      "Okay, all right, I can do this. I can do this.",
+      "I'm not going to die down here.",
+      "I am not dying in the middle of nowhere."
+    ],
+    "SurvivorVocalizeGoingToDie3Gambler": [
+      "I am not going to make it much longer my friends, I am seriously screwed up.",
+      "All right, I gotta call uncle here.   I need some help.",
+      "Well boys, this looks like its for me.",
+      "Doesn't this beat all.  I am about to die.",
+      "Man, man... It has been a long time since I have felt this bad."
+    ],
+    "SurvivorVocalizeLookOutGambler": [
+      "Look out!",
+      "Watch out!",
+      "Heads up!"
+    ],
+    "SurvivorVocalizeThisWayGambler": [
+      "This way!",
+      "Over here.",
+      "Follow me.",
+      "Come on, this way!",
+      "Keep up.",
+      "Okay this way!"
+    ],
+    "SurvivorVocalizeWaitHereGambler": [
+      "Wait.",
+      "Don't move from this spot.",
+      "Stay here.",
+      "Just stay here.",
+      "Wait here."
+    ],
+    "SurvivorWarnSpitterIncomingGambler": [
+      "We got goo!!",
+      "Goo incoming!",
+      "Hot stuff coming!",
+      "Fire spit coming!",
+      "We got goo coming!!"
+    ],
+    "PlayerLedgeHangEndGambler": [
+      "Get your asses over here and HELP ME!",
+      "SOMEBODY NEEDS TO HELP ME UP!",
+      "Don't be leaving me here DAMNIT!  HELP!"
+    ],
+    "PlayerLedgeHangMiddleGambler": [
+      "I am hanging over here!",
+      "Don't even think of leaving me here!",
+      "Could use a hand over here.",
+      "Could use some help here ."
+    ],
+    "PlayerLedgeHangStartGambler": [
+      "Guys, I seem to have slipped!",
+      "I'm hanging here.",
+      "Hey! Give me a hand.",
+      "I need a hand."
+    ],
+    "DoubleDeathGambler": [
+      "Ahhh SHIT!",
+      "I think we just became long shots.",
+      "We just screwed our odds."
+    ],
+    "DoubleDeath2Gambler": [
+      "Well shit. We're a twosome from here on out.",
+      "Looks like it's just you and me."
+    ],
+    "DoubleDeath2MechanicGambler": [
+      "Hey Ellis, don't let me down.",
+      "Hey, Ellis, you know all that shit I was saying? I was just joking."
+    ],
+    "SurvivorDiedCoachGambler": [
+      "Coach!"
+    ],
+    "SurvivorDiedMechanicGambler": [
+      "Ellis!"
+    ],
+    "SurvivorDiedProducerGambler": [
+      "Rochelle!"
+    ],
+    "SurvivorDeployUpExplosivesGambler": [
+      "Deploying frag rounds!"
+    ],
+    "SurvivorDeployUpIncendiaryGambler": [
+      "Deploying fire bullets!",
+      "Everybody grab some incendiary ammo!"
+    ],
+    "SurvivorPickupAdrenalineGambler": [
+      "Grabbin' a shot!"
+    ],
+    "SurvivorPickupAdrenalineAlwaysGambler": [
+      "Grabbin' a shot!"
+    ],
+    "SurvivorPickupAutoShotgunGambler": [
+      "I got the shotgun.",
+      "Shotgun for me.",
+      "Taking the shotgun",
+      "Shotgun."
+    ],
+    "SurvivorPickupAutoShotgunAlwaysGambler": [
+      "I got the shotgun.",
+      "Shotgun for me.",
+      "Taking the shotgun",
+      "Shotgun."
+    ],
+    "SurvivorPickupbaseball_batGambler": [
+      "I'm gonna whack the shit outta somethin' with this.",
+      "This brings back some good memories.",
+      "This is nice, I'm gonna crack some heads with it.",
+      "I'm gonna crack some heads with this."
+    ],
+    "SurvivorPickupchainsawGambler": [
+      "Got a chainsaw.",
+      "Hell yeah.",
+      "Yessss."
+    ],
+    "SurvivorPickupcricket_batGambler": [
+      "Gonna whack the shit outta somethin' with this.",
+      "Niiiiice.",
+      "This could be fun.",
+      "That'll come in handy."
+    ],
+    "SurvivorPickupCricketBatGambler": [
+      "Hell yeah.",
+      "This feels good.",
+      "This could be fun.",
+      "Can save some bullets with this one.",
+      "That'll come in handy.",
+      "I am going to beat the shit out of something with this."
+    ],
+    "SurvivorPickupCrowBarGambler": [
+      "Grabbing a crowbar.",
+      "I cannot WAIT to find a crate.",
+      "This feels good.",
+      "That'll come in handy."
+    ],
+    "SurvivorPickupDefibrillatorGambler": [
+      "Got some chest paddles.",
+      "Got a defib unit."
+    ],
+    "SurvivorPickupelectric_guitarGambler": [
+      "Grabbing a guitar."
+    ],
+    "SurvivorPickupFireAxeGambler": [
+      "A Freaking Axe (to self laughing)",
+      "Axe!"
+    ],
+    "SurvivorPickupFirstAidKitGambler": [
+      "I need this.",
+      "Grabbing the first aid.",
+      "I'll hold on to the first aid kit.",
+      "First Aid Kit."
+    ],
+    "SurvivorPickupFirstAidKitAlwaysGambler": [
+      "I need this.",
+      "Grabbing the first aid.",
+      "I'll hold on to the first aid kit.",
+      "First Aid Kit."
+    ],
+    "SurvivorPickupFirstSMGGambler": [
+      "This shit'll even up the score."
+    ],
+    "SurvivorPickupFryingPanGambler": [
+      "Gonna bonk some heads with this!",
+      "Frying pan!",
+      "A skillet!",
+      "This'll work."
+    ],
+    "SurvivorPickupGrenadeLauncherGambler": [
+      "Hell yeah. Grenade launcher.",
+      "[chuckles] Time to make some zombie soup."
+    ],
+    "SurvivorPickupGunC1M2Gambler": [
+      "I'm not legally allowed to own a gun, hope everybody's okay with that."
+    ],
+    "SurvivorPickupHuntingRifleGambler": [
+      "Sniper for me.",
+      "I'll snipe."
+    ],
+    "SurvivorPickupHuntingRifleAlwaysGambler": [
+      "Sniper for me.",
+      "I'll snipe."
+    ],
+    "SurvivorPickupIncendiaryAmmoGambler": [
+      "Let's start some fires, people!",
+      "Well all right!",
+      "Yessss."
+    ],
+    "SurvivorPickupKatanaGambler": [
+      "Ninja sword here.",
+      "Grabbing a sword.",
+      "Hell yeah.",
+      "This could be fun."
+    ],
+    "SurvivorPickupLaserSightsAlwaysGambler": [
+      "Yessss."
+    ],
+    "SurvivorPickupMacheteGambler": [
+      "Got a machete.",
+      "Can save some bullets with this one."
+    ],
+    "SurvivorPickupMagnumGambler": [
+      "Niiiiice.",
+      "Hell yeah."
+    ],
+    "SurvivorPickupMagnumAlwaysGambler": [
+      "Niiiiice.",
+      "Hell yeah."
+    ],
+    "SurvivorPickupMolotovGambler": [
+      "Grabbing a Molotov.",
+      "Molotov!"
+    ],
+    "SurvivorPickupMolotovAlwaysGambler": [
+      "Grabbing a Molotov.",
+      "Molotov!"
+    ],
+    "SurvivorPickupPainPillsGambler": [
+      "Pills.",
+      "I got pills.",
+      "I can always use these.",
+      "I'll hold onto these pills."
+    ],
+    "SurvivorPickupPainPillsAlwaysGambler": [
+      "Pills.",
+      "I got pills.",
+      "I can always use these.",
+      "I'll hold onto these pills."
+    ],
+    "SurvivorPickupPipeBombGambler": [
+      "Grabbing a pipe bomb.",
+      "Pipe bomb!"
+    ],
+    "SurvivorPickupPipeBombAlwaysGambler": [
+      "Grabbing a pipe bomb.",
+      "Pipe bomb!"
+    ],
+    "SurvivorPickupPumpShotgunGambler": [
+      "Going with the shotgun.",
+      "Shotgun.",
+      "Taking the shotgun."
+    ],
+    "SurvivorPickupPumpShotgunAlwaysGambler": [
+      "Going with the shotgun.",
+      "Shotgun.",
+      "Taking the shotgun."
+    ],
+    "SurvivorPickupRifleGambler": [
+      "Taking the rifle.",
+      "Grabbing the assault rifle.",
+      "Assault rifle."
+    ],
+    "SurvivorPickupRifleAlwaysGambler": [
+      "Taking the rifle.",
+      "Grabbing the assault rifle.",
+      "Assault rifle."
+    ],
+    "SurvivorPickupSecondPistolGambler": [
+      "Grabbing the pistol!",
+      "Pistol!",
+      "Second pistol."
+    ],
+    "SurvivorPickupSMGGambler": [
+      "Taking the machinegun.",
+      "Going with the machinegun."
+    ],
+    "SurvivorPickupSMGAlwaysGambler": [
+      "Taking the machinegun.",
+      "Going with the machinegun."
+    ],
+    "SurvivorPickuptonfaGambler": [
+      "Grabbing a nightstick.",
+      "I'm gonna whack the shit outta somethin' with this.",
+      "This feels good."
+    ],
+    "SurvivorPickupUpExplosiveAmmoGambler": [
+      "Yessss."
+    ],
+    "SurvivorPickupUpExplosivesGambler": [
+      "Grabbin' some frag rounds!"
+    ],
+    "SurvivorPickupUpIncendiaryGambler": [
+      "Grabbin' fire bullets!"
+    ],
+    "SurvivorPickupUpIncendiaryAmmoGambler": [
+      "Let's start some fires, people!",
+      "Well all right!",
+      "Yessss."
+    ],
+    "SurvivorPickupVomitJarGambler": [
+      "Grabbin' puke!",
+      "Grabbin' a bile jar!"
+    ],
+    "SurvivorPickupVomitJarAlwaysGambler": [
+      "Grabbin' puke!",
+      "Grabbin' a bile jar!"
+    ],
+    "SurvivorPickupVomitJarAlwaysC1Gambler": [
+      "Grabbin' puke!"
+    ],
+    "SurvivorPickupVomitJarC1Gambler": [
+      "Grabbin' puke!"
+    ],
+    "PlayerGettingRevivedGambler": [
+      "Well, what do I look like?",
+      "I'm fine.",
+      "You tell me.",
+      "Same as always.",
+      "Not exactly great.",
+      "I'm cool, I'm cool.",
+      "I'm good, I'm good. Get me up.",
+      "Don't worry about me.",
+      "Good enough.",
+      "Fine, I'm fine, fine.",
+      "Oh I'm super. (sarcastic)",
+      "I been better.",
+      "Just get me up.",
+      "I'll be fine.",
+      "Oh I'm great, (sarcastic)",
+      "Fan-freaking-tastic, that's how I am. (sarcastic)",
+      "I'll live. Let's go.",
+      "Been better.",
+      "I've been better.",
+      "Don't worry, just get me up."
+    ],
+    "PlayerHealOtherGambler": [
+      "I should probably save this for me, but - what the hell.",
+      "Let doctor Nick fix you up.",
+      "Just hang on, let me heal you.",
+      "You're a mess, stand still.",
+      "Now, don't waste this by getting pounced or something."
+    ],
+    "PlayerHealOtherC1Gambler": [
+      "Hold still, I've done this before.",
+      "Quit moving around.  I've seen worse.",
+      "Man up for a minute. I'm going to fix you up.",
+      "Hold still.  Probably going to regret this, but let me use this on you.",
+      "Alright, don't let the other ones know I am doing this. I'm only doing it for you. (whispered)"
+    ],
+    "PlayerHealOtherCombatGambler": [
+      "Hold on! HOLD. ON.",
+      "We don't have time, stop moving.",
+      "Cover us while I heal you.",
+      "I'm gonna heal you. Keep shooting.",
+      "Keep 'em off us while I heal you."
+    ],
+    "PlayerLedgeSaveGambler": [
+      "Easy there fireball.  Let me get you up.",
+      "Don't worry.  I'll bail your ass out of this mess.",
+      "Did you miss me?  Come on, let's get you up.",
+      "I got you, just relax.  Let's get you up."
+    ],
+    "PlayerReviveFriendGambler": [
+      "We can't afford to lose you, yet.  So let's get you up.",
+      "You have to learn to take care of yourself or you'll keep ending up down here.",
+      "Come on get up. You're not dead yet.",
+      "Come on pull yourself together. We gotta get you up.",
+      "You have to take better care of yourself!  Now let's get you up.",
+      "Look at you laying there. Time to get up.",
+      "Come on get up. Get up, you're not dead yet.",
+      "We, I... need you for a little longer. So let's get you back up on your feet.",
+      "If I get you up, you promise not to shoot me anymore?",
+      "Come on, I've seen worse.  Let's get your butt up.",
+      "It seems like every time I turn around you are down on the ground.  Now let's get you up.",
+      "It's a miracle you lasted this long,  Let's get you on your feet.",
+      "Settle down, Settle down.  Everything is going to be okay.",
+      "This is nothing.  You'll be as good as new once I get you up.",
+      "I'm not going to leave you behind.  Let's get you up.",
+      "You're tougher than you look.  Let's get you back on your feet.",
+      "Relax.  You're going to be okay.  I have seen worse.",
+      "Don't worry.  Don't worry.   I can get you back up.",
+      "Let me look at you..",
+      "You going to be okay?",
+      "Are you going to be okay?",
+      "How you holding up?",
+      "Easy there fireball, easy.",
+      "Easy there fireball.",
+      "You hurt?",
+      "Everything working?",
+      "You in one piece?",
+      "You're not gonna die on me, are ya?",
+      "Are you going to die?"
+    ],
+    "PlayerReviveFriendBGambler": [
+      "Come on,  still lots to be done.",
+      "Rise and shine!",
+      "Let's hit the road.",
+      "Here we go.",
+      "Up and at 'em.",
+      "Let's roll.",
+      "You owe me one.",
+      "Let's have a look at you.",
+      "Time to get some revenge.",
+      "It's time to get some revenge.",
+      "Let's go.",
+      "See - all good.",
+      "Good as new.",
+      "Let's go kill some zombies."
+    ],
+    "PlayerReviveFriendCriticalGambler": [
+      "I can't lie to you.  You are messed up.  If you don't get yourself healed up, that;s it.",
+      "You seriously cannot go down again.  If you do... you aren't going to make it.",
+      "You're starting to worry me.  I can get you up, but you go down again and that's it."
+    ],
+    "PlayerReviveFriendLoudGambler": [
+      "Ah shit, come on, come on. Come on.",
+      "GET UP, GET UP, GET UP!",
+      "TIME TO MOVE, LET'S GO!",
+      "We don't have time for this, GET UP!",
+      "Let's go, ON YOUR FEET! Let's GO!"
+    ],
+    "_C1M1_ElevatorHelloGambler": [
+      "Nick. That's all you need to know.",
+      "Nick.",
+      "Hey, what's your name?",
+      "Okay, let's keep this up.",
+      "Nice work out there.",
+      "There's blood on me, but it ain't mine.",
+      "No, I'm good.",
+      "Nick. Not that it matters, 'cause I think we should split up when this things opens.",
+      "I normally go solo-but under the circumstances, I'm thinkin' we stick together. Call me Nick. You got names?"
+    ],
+    "_C1M1_ElevatorHello01bGambler": [
+      "Anyone get bit? Isn't that how this works?"
+    ],
+    "_C1M1_ElevatorHello04cGambler": [
+      "Name's Nick. But don't worry about learning it, 'cause I ain't sticking around long.",
+      "You did good out there, Rochelle."
+    ],
+    "_C1M1_ElevatorHello04dGambler": [
+      "Well, I'm glad we got that out of the way. Now: did anyone get bit?"
+    ],
+    "_c1m4startelevator4aGambler": [
+      "I think the little guy's onto something. Let's give it a shot.",
+      "I'll agree to the idea, but I'm driving.",
+      "Well, it beats my idea: staying here and dying in the mall.",
+      "Okay. Let's gas up the car and get the hell out of this mall."
+    ],
+    "_c1m4startelevator6a1Gambler": [
+      "What a fun road trip this will be."
+    ],
+    "_C2M1_Fall03Gambler": [
+      "Breaking my neck is not a fun time, Ellis."
+    ],
+    "_C2M1_Fall05Gambler": [
+      "Shit!"
+    ],
+    "_c2m1_searchlights03Gambler": [
+      "We'll head towards the searchlights. If there's an evac, it'll be there.",
+      "Or maybe a corpse fell on the searchlight button. Still, worth checking out."
+    ],
+    "_C2M1abandoned02Gambler": [
+      "That's... one theory."
+    ],
+    "_C2M1Billboard01Gambler": [
+      "Oh good. Now we can die there as adults."
+    ],
+    "_C2M2_Bathroom01Gambler": [
+      "Excuse me.",
+      "Don't look at me like that."
+    ],
+    "_C2M2_CaroButton01Gambler": [
+      "You know what? Somehow I think it will activate everything else around here."
+    ],
+    "_C2M2_Kiddie01Gambler": [
+      "He's like a five year old. With guns. And a comprehensive grasp of every swear word in the English language."
+    ],
+    "_C2M2_Kiddie04Gambler": [
+      "Now *I* want to ride one."
+    ],
+    "_C2M2_Riders01Gambler": [
+      "Never heard of 'em. They any good?"
+    ],
+    "_C2M2_SeeSafehouse01Gambler": [
+      "Tunnel of love?  Jesus Christ."
+    ],
+    "_C2M2_Steak01Gambler": [
+      "Buddy, if you can me out of this alive? I will deep-fry you an entire goddamn cow."
+    ],
+    "_C2M2_ThisTall01Gambler": [
+      "Nope. Just lots and lots of tanks."
+    ],
+    "_c2m3_coaster02Gambler": [
+      "We're gonna have to run the coaster."
+    ],
+    "_c2m3_hole01Gambler": [
+      "Let's all do this together.",
+      "Everyone at the same time."
+    ],
+    "_c2m3_water01Gambler": [
+      "Yeah. Don't drink it."
+    ],
+    "_C4_BigStormHits01Gambler": [
+      "HERE COMES THE RAIN!",
+      "STORM COMING!"
+    ],
+    "_C4_BigStormHits02Gambler": [
+      "STAY CLOSE!"
+    ],
+    "_c4m1_rainresponseGambler": [
+      "Shit. It looks like it's really gonna storm."
+    ],
+    "_c4m1Intro03Gambler": [
+      "What are we supposed to signal him with?"
+    ],
+    "_c4m1Intro05Gambler": [
+      "What gun bag?"
+    ],
+    "_c4m1Intro07Gambler": [
+      "ME? Who died and made me gun monitor?"
+    ],
+    "_c4m1Intro11Gambler": [
+      "You wanna hear a prediction?"
+    ],
+    "_c4m1Intro13Gambler": [
+      "There's not gonna be any gas. Watch."
+    ],
+    "_c4m2_caneyell01Gambler": [
+      "KEEP MOVING!"
+    ],
+    "_c4m2_ElevatorHere01Gambler": [
+      "ELEVATOR'S HERE!",
+      "EVERYBODY IN THE ELEVATOR!"
+    ],
+    "_c4m2_seestation01Gambler": [
+      "Through the cane field.",
+      "Through the wheat farm!"
+    ],
+    "_c4m2_seestation03Gambler": [
+      "Whaatever you say, Farmer Joe."
+    ],
+    "_c4m2_streetblocked01Gambler": [
+      "I think we gotta cut through the sugar mill."
+    ],
+    "_c4m2_streetblocked02Gambler": [
+      "I think we gotta cut through the sugar mill."
+    ],
+    "_c4m2_Witchville04Gambler": [
+      "Everybody keep moving."
+    ],
+    "_c4m3_rain01Gambler": [
+      "Goddamn town is going to be flooded!",
+      "Well, at least this shithole'll get CLEANER...",
+      "If this rain keeps up, the boat can come to US."
+    ],
+    "_c4m3_startsafe02Gambler": [
+      "Yup.",
+      "I got mine."
+    ],
+    "_c4m3_startsafe04Gambler": [
+      "Let's hit it."
+    ],
+    "_C4M5_BoatComing01Gambler": [
+      "YOU SEE THAT? VIRGIL SEES US!",
+      "THERE'S VIRGIL!"
+    ],
+    "_C4M5_FinaleStart01Gambler": [
+      "Come on, Virgil..."
+    ],
+    "_C4M5_Intro02Gambler": [
+      "What are we supposed to signal him with?"
+    ],
+    "_introc1m1Gambler": [
+      "God DAMN it! We just missed it!"
+    ],
+    "_introc1m1a01Gambler": [
+      "Hey! Get back here!"
+    ],
+    "_introc1m1b03Gambler": [
+      "They saw us all right, and they're not coming back."
+    ],
+    "c1m1_elevator_door_open": [
+      "[Coughing from smoke]"
+    ],
+    "c1m1_elevator_ready2Gambler": [
+      "I bet there'll be something waiting for us out there. So let's get ready...",
+      "Alright, we're all friends now. Get ready..."
+    ],
+    "C1M1_ElevatorHello01_02C1Gambler": [
+      "And then there were three."
+    ],
+    "C1M1_ElevatorHello01_02C2Gambler": [
+      "Name's Nick."
+    ],
+    "C1M1_ElevatorHello01_02C3Gambler": [
+      "Hey, what's your name?"
+    ],
+    "C1M1_ElevatorHello01_02C7Gambler": [
+      "I think it was Coach. Don't matter now."
+    ],
+    "C1M1_ElevatorHello01_02M1Gambler": [
+      "Name's Nick."
+    ],
+    "C1M1_ElevatorHello01_02M2Gambler": [
+      "Hey, what's your name?"
+    ],
+    "C1M1_ElevatorHello01_02PC1Gambler": [
+      "Name's Nick."
+    ],
+    "C1M1_ElevatorHello01_02PC2Gambler": [
+      "We're pretty screwed."
+    ],
+    "C1M1_ElevatorHello01_02PC4Gambler": [
+      "I think she just said it was Rochelle."
+    ],
+    "C1M1_ElevatorHello01_03a1Gambler": [
+      "Name's Nick."
+    ],
+    "C1M1_ElevatorHello01_03a2Gambler": [
+      "Hey, what's your name?"
+    ],
+    "C1M1_ElevatorHello01_03a6Gambler": [
+      "I think she just said it was Rochelle."
+    ],
+    "C1M1_ElevatorHello01_03b1Gambler": [
+      "Name's Nick."
+    ],
+    "C1M1_ElevatorHello01_03b2Gambler": [
+      "Hey, what's your name?"
+    ],
+    "C1M1_ElevatorHello01_03b5Gambler": [
+      "I think she just said it was Rochelle."
+    ],
+    "C1M1_ElevatorHello01_03CM2Gambler": [
+      "Hey, what's your name?"
+    ],
+    "C1M1_ElevatorHello01_03CM6Gambler": [
+      "Was it Ellis? Well, doesn't matter now."
+    ],
+    "C1M1CoughGambler": [
+      "[Coughing from smoke]"
+    ],
+    "C1M3AlarmOffaGambler": [
+      "Thanks for turning off that alarm!",
+      "Man, that was driving me crazy.",
+      "You know what? I could take the zombies, but not that goddam noise."
+    ],
+    "C1M3SafeRoom2Gambler": [
+      "Let's go find this evacuation center. I'm already sick of this place."
+    ],
+    "C1M3SafeRoom2aGambler": [
+      "If anyone sees a men's store let me know. I got blood on this suit."
+    ],
+    "C1M3SafeRoom2bGambler": [
+      "Ugh. GOD, I hate malls."
+    ],
+    "C1M4NearFinale02aGambler": [
+      "We're pretty screwed."
+    ],
+    "C1M4NearFinale02cGambler": [
+      "Nope.",
+      "No sir-ee Bob."
+    ],
+    "C1M4NearFinale02eGambler": [
+      "We are going to have to save ourselves, people."
+    ],
+    "c1m4NearFinale1bGambler": [
+      "So much for the rescue. Any ideas?"
+    ],
+    "c1m4NearFinale1dGambler": [
+      "Guys, what are we going to do now?"
+    ],
+    "c1m4NearFinale1eGambler": [
+      "We aren't getting saved."
+    ],
+    "C1M4SafeRoom2Gambler": [
+      "Who the hell is Jimmy Gibbs, Jr.?"
+    ],
+    "C1M4SafeRoom2a2Gambler": [
+      "I'm getting sick of looking at this guy's face."
+    ],
+    "C1M4SafeRoom2a4Gambler": [
+      "Really? 'Cause he looks like an asshole."
+    ],
+    "C1M4SafeRoomEndGambler": [
+      "Let's roll!",
+      "What are we waiting for?  Let's go."
+    ],
+    "C2M1Intro001Gambler": [
+      "I hate to be the bearer of bad news, guys-but unless Ellis knows how to build a monster truck, we AIN'T drivin' through this."
+    ],
+    "C2M1Intro002Gambler": [
+      "Don't sweat it, Ellis. At least you got us out of that mall.",
+      "God DAMN you, Jimmy Gibbs, Jr."
+    ],
+    "C2M3SafeIntro001Gambler": [
+      "This is the most RELAXING safe room I've ever been in."
+    ],
+    "C2M3SafeIntro004Gambler": [
+      "Why couldn't I have been in Vegas when the infection hit? Or even Atlantic city? Instead I am trapped inside some hillbilly tunnel of love."
+    ],
+    "C2M3SafeIntro005Gambler": [
+      "You got your wish, Ellis. We're in an amusement park ride."
+    ],
+    "C2M3SafeIntro007Gambler": [
+      "Did you see the sign out front?  Cousins only day today."
+    ],
+    "C2M3SafeIntro010Gambler": [
+      "Bringing back any memories, Coach? You, a cheeseburger, romance in the air..."
+    ],
+    "C2M3SafeIntro012Gambler": [
+      "Psh! Huh. Several. Easily."
+    ],
+    "C2M3SafeIntro013Gambler": [
+      "I think we should clarify what constitutes \"close\"."
+    ],
+    "C4FinaleStartGambler": [
+      "Come on burger tank, save us!",
+      "Fast food is going to save us.",
+      "Sign's on!"
+    ],
+    "c4m1_nogas01Gambler": [
+      "Looks like our milk run just turned into a marathon."
+    ],
+    "c4m1_nogas02Gambler": [
+      "What makes you think they have gas?"
+    ],
+    "c4m1_nogas04Gambler": [
+      "Let's do this quick and get back on the damn boat.",
+      "Let's just get this done and get back."
+    ],
+    "c4m1_nogas20Gambler": [
+      "[contemplative, to self] Not good."
+    ],
+    "GasPour10MoreTalkGambler": [
+      "We still need ten more!"
+    ],
+    "GasPour1MoreGambler": [
+      "One more can to go!"
+    ],
+    "GasPour2MoreGambler": [
+      "Just two more!"
+    ],
+    "GasPour3MoreGambler": [
+      "Just three more!"
+    ],
+    "GasPour5MoreGambler": [
+      "We still need five more!"
+    ],
+    "Player.SeeMudmen2aGambler": [
+      "I'm with Ellis, I hate these mud people."
+    ],
+    "Player.TakeBatR2Gambler": [
+      "Nope. Bouncer at a club."
+    ],
+    "PlayerShotGasCanGambler": [
+      "Damn...",
+      "Shit!",
+      "Ah, tits!",
+      "Oh bullshit!"
+    ],
+    "WorldIntroC31a1Gambler": [
+      "Well, he wasn't doing a very good job once he became a zombie now was he?"
+    ],
+    "WorldIntroC31a3Gambler": [
+      "I shot a zombie. He was a zombie Ellis. He must have gotten bitten before he picked us up."
+    ],
+    "WorldIntroC31b1Gambler": [
+      "This looks like a friendly place."
+    ],
+    "WorldIntroC31b2Gambler": [
+      "They probably should have added no zombies to that sign."
+    ],
+    "WorldIntroC31c2Gambler": [
+      "I can't believe none of you were going to shoot him."
+    ],
+    "WorldIntroC31c4Gambler": [
+      "Whatever."
+    ],
+    "WorldIntroC31d1Gambler": [
+      "No problem big guy, sorry about the landing."
+    ],
+    "WorldIntroC31e3aGambler": [
+      "Great, we crash land in front of a village that hates everyone."
+    ],
+    "WorldIntroC3f2Gambler": [
+      "I can't believe none of you were going to shoot him."
+    ],
+    "PlayerCoverMeHealGambler": [
+      "Hold up, going to heal.",
+      "Healing.",
+      "I'm gonna heal.",
+      "I gotta heal.",
+      "Healing!",
+      "Gonna heal."
+    ],
+    "PlayerCoverMeHealC1Gambler": [
+      "I'm gonna patch myself up.",
+      "Wait up, gonna fix myself up.",
+      "Wait! Healing!",
+      "Hang on, I'm gonna fix myself up.",
+      "Just wait a sec! Healing!"
+    ],
+    "SurvivorSpottedChainsawGambler": [
+      "Chainsaw here...",
+      "Got a chainsaw."
+    ],
+    "SurvivorSpottedChainsawAutoGambler": [
+      "Chainsaw here...",
+      "Got a chainsaw."
+    ],
+    "SurvivorSpottedcricket_batGambler": [
+      "Cricket bat here.",
+      "Got a cricket bat."
+    ],
+    "SurvivorSpottedcricket_batAutoGambler": [
+      "Cricket bat here.",
+      "Got a cricket bat."
+    ],
+    "SurvivorSpottedcrowbarGambler": [
+      "Crowbar.",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedcrowbarAutoGambler": [
+      "Crowbar.",
+      "Weapons over here!"
+    ],
+    "SurvivorSpottedGuitarGambler": [
+      "Guitar here."
+    ],
+    "SurvivorSpottedGuitarAutoGambler": [
+      "Guitar here."
+    ],
+    "SurvivorSpottedKatanaGambler": [
+      "Ninja sword here."
+    ],
+    "SurvivorSpottedKatanaAutoGambler": [
+      "Ninja sword here."
+    ],
+    "SurvivorSpottedLaserSightsGambler": [
+      "Laser sights here.",
+      "We got some laser sights."
+    ],
+    "SurvivorSpottedLaserSightsAutoGambler": [
+      "Laser sights here.",
+      "We got some laser sights."
+    ],
+    "SurvivorSpottedMacheteGambler": [
+      "Machete here..."
+    ],
+    "SurvivorSpottedMacheteAutoGambler": [
+      "Machete here..."
+    ],
+    "SurvivorSpottedMagnumGambler": [
+      "Look here.",
+      "Niiiiice."
+    ],
+    "SurvivorSpottedMagnumAutoGambler": [
+      "Look here.",
+      "Niiiiice."
+    ],
+    "SurvivorSpottedtonfaGambler": [
+      "nightstick here..."
+    ],
+    "SurvivorSpottedtonfaAutoGambler": [
+      "nightstick here..."
+    ],
+    "SurvivorSpottedWeaponGambler": [
+      "Weapons over here!",
+      "Everyone grab a weapon!",
+      "Guns here!"
+    ],
+    "SurvivorSpottedWeaponPistolAutoGambler": [
+      "Weapons over here!",
+      "Everyone grab a weapon!",
+      "Guns here!"
+    ]
+  },
+  "Producer": {},
+  "TeenGirl": {},
+  "NamVet": {},
+  "Manager": {},
+  "Biker": {}
+}

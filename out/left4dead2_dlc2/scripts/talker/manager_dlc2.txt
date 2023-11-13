@@ -1,0 +1,1626 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc2/scripts/talker/manager_dlc2.txt
+-------------------------------------------------------
+
+RESPONSE PlayerNiceShotManager CHARACTER Manager SUBTITLE "Nice shot!"
+RESPONSE PlayerNiceShotManager CHARACTER Manager SUBTITLE "Oh man, great shot."
+RESPONSE PlayerNiceShotManager CHARACTER Manager SUBTITLE "Wooo, nice baby!"
+RESPONSE PlayerNiceShotManager CHARACTER Manager SUBTITLE "Whoah. Nice shot."
+RESPONSE PlayerNiceShotManager CHARACTER Manager SUBTITLE "Nice one!"
+RESPONSE PlayerNiceShotManager CHARACTER Manager SUBTITLE "Nice shot!"
+RESPONSE PlayerNiceShotManager CHARACTER Manager SUBTITLE "Great shot!"
+RESPONSE PlayerNiceShotManager CHARACTER Manager SUBTITLE "POW!"
+RESPONSE PlayerNiceShotManager CHARACTER Manager SUBTITLE "Oh, HELL yes."
+RULE PlayerNiceShotManager CRITERIA ConceptPlayerNiceShot IsNotCoughing IsManager IssuerClose  IsTalk IsTalkManager ChanceToFire30Percent RESPONSE PlayerNiceShotManager
+RESPONSE ReviveMeINterruptedManager CHARACTER Manager SUBTITLE "AHHHH!"
+RESPONSE ReviveMeINterruptedManager CHARACTER Manager SUBTITLE "Whoah!"
+RESPONSE ReviveMeINterruptedManager CHARACTER Manager SUBTITLE "Ah ah!"
+RESPONSE ReviveMeINterruptedManager CHARACTER Manager SUBTITLE "Dammit."
+RULE ReviveMeINterruptedManager CRITERIA ConceptReviveMeInterrupted IsManager RESPONSE ReviveMeINterruptedManager
+RESPONSE SurvivorMournBillManager CHARACTER Manager SUBTITLE "Bill, no!"
+RESPONSE SurvivorMournBillManager CHARACTER Manager SUBTITLE "Oh no, no, not the old man."
+RESPONSE SurvivorMournBillManager CHARACTER Manager SUBTITLE "Ah Bill. Ah, shit."
+RULE SurvivorMournBillManager CRITERIA ConceptPlayerSeeDeadPlayer IsNotCoughing IsManager IsDeadNamVet IsNotSaidSomeoneDied IsTalk IsTalkManager IsNotIncapacitated RESPONSE SurvivorMournBillManager
+RESPONSE SurvivorMournFrancisManager CHARACTER Manager SUBTITLE "Francis!  NO!"
+RESPONSE SurvivorMournFrancisManager CHARACTER Manager SUBTITLE "Jesus, Francis!"
+RESPONSE SurvivorMournFrancisManager CHARACTER Manager SUBTITLE "Oh shit. Shit. Shit shit shit."
+RULE SurvivorMournFrancisManager CRITERIA ConceptPlayerSeeDeadPlayer IsNotCoughing IsManager IsDeadBiker IsNotSaidSomeoneDied IsTalk IsTalkManager IsNotIncapacitated RESPONSE SurvivorMournFrancisManager
+RESPONSE SurvivorMournZoeyManager CHARACTER Manager SUBTITLE "Oh this is bad - she's dead."
+RESPONSE SurvivorMournZoeyManager CHARACTER Manager SUBTITLE "Goddamn it zoey wakeup"
+RESPONSE SurvivorMournZoeyManager CHARACTER Manager SUBTITLE "Ah! Zoey!"
+RESPONSE SurvivorMournZoeyManager CHARACTER Manager SUBTITLE "Damn Zoey"
+RESPONSE SurvivorMournZoeyManager CHARACTER Manager SUBTITLE "Zoey, Zoey Goddamnit"
+RULE SurvivorMournZoeyManager CRITERIA ConceptPlayerSeeDeadPlayer IsNotCoughing IsManager IsDeadTeenGirl IsNotSaidSomeoneDied IsTalk IsTalkManager IsNotIncapacitated RESPONSE SurvivorMournZoeyManager
+RESPONSE PlayerRemarkFarm01_path09Manager CHARACTER Manager SUBTITLE "Safe house ahead!"
+RESPONSE PlayerRemarkFarm01_path09Manager CHARACTER Manager SUBTITLE "There's the safe house!"
+RESPONSE PlayerRemarkFarm01_path09Manager CHARACTER Manager SUBTITLE "Safe house up ahead!"
+RULE PlayerRemarkFarm01_path09Manager CRITERIA ConceptRemark IsManager IsFarm01_path09 IsNotSaidFarm01_path09 IsNotCoughing IsTalk IsTalkManager IsSubjectNear1500 RESPONSE PlayerRemarkFarm01_path09Manager
+RESPONSE PlayerRemarkSmalltown03_path14Manager CHARACTER Manager SUBTITLE "Safe house up ahead!"
+RULE PlayerRemarkSmalltown03_path14Manager CRITERIA ConceptRemark IsManager IsSmalltown03_path14 IsNotSaidSmalltown03_path14 IsNotCoughing IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkSmalltown03_path14Manager
+RESPONSE ThanksGotItemManager CHARACTER Manager SUBTITLE "Thanks."
+RESPONSE ThanksGotItemManager CHARACTER Manager SUBTITLE "Thanks."
+RESPONSE ThanksGotItemManager CHARACTER Manager SUBTITLE "Thanks Dog"
+RULE ThanksGotItemManager CRITERIA IsAwardConcept IsSharingSubject IsNotCoughing  SubjectIsManager IsTalk IsTalkManager RESPONSE ThanksGotItemManager
+RESPONSE HealThanksManager CHARACTER Manager SUBTITLE "Thanks, I owe you one."
+RESPONSE HealThanksManager CHARACTER Manager SUBTITLE "Thanks, I owe ya a big one."
+RESPONSE HealThanksManager CHARACTER Manager SUBTITLE "Thanks a lot."
+RESPONSE HealThanksManager CHARACTER Manager SUBTITLE "Whoo, thanks."
+RESPONSE HealThanksManager CHARACTER Manager SUBTITLE "Whoo, thanks."
+RESPONSE HealThanksManager CHARACTER Manager SUBTITLE "Thanks Dog"
+RULE HealThanksManager CRITERIA ConceptHealedByFriend IsNotCoughing  IsManager IsTalk IsTalkManager SubjectIsNotManager RESPONSE HealThanksManager
+RESPONSE ReviveThanksManager CHARACTER Manager SUBTITLE "Thanks, I owe you one."
+RESPONSE ReviveThanksManager CHARACTER Manager SUBTITLE "Thanks, I owe ya a big one."
+RESPONSE ReviveThanksManager CHARACTER Manager SUBTITLE "Thanks a lot."
+RESPONSE ReviveThanksManager CHARACTER Manager SUBTITLE "Whoo, thanks."
+RESPONSE ReviveThanksManager CHARACTER Manager SUBTITLE "Whoo, thanks."
+RESPONSE ReviveThanksManager CHARACTER Manager SUBTITLE "Thanks Dog"
+RULE ReviveThanksManager CRITERIA ConceptRevivedByFriend  IsNotCoughing  IsManager RESPONSE ReviveThanksManager
+RESPONSE ReviveThanksBillManager CHARACTER Manager SUBTITLE "Yo, thanks, man."
+RULE ReviveThanksBillManager CRITERIA ConceptRevivedByFriend  IsNotCoughing  IsManager SubjectIsNamVet ChanceToFire30Percent RESPONSE ReviveThanksBillManager
+RESPONSE ReviveThanksFrancisManager CHARACTER Manager SUBTITLE "Thanks, man!"
+RULE ReviveThanksFrancisManager CRITERIA ConceptRevivedByFriend  IsNotCoughing  IsManager SubjectIsBiker  ChanceToFire30Percent RESPONSE ReviveThanksFrancisManager
+RESPONSE ReviveThanksZoeyManager CHARACTER Manager SUBTITLE "Girl, thanks"
+RULE ReviveThanksZoeyManager CRITERIA ConceptRevivedByFriend  IsNotCoughing  IsManager SubjectIsTeenGirl ChanceToFire30Percent RESPONSE ReviveThanksZoeyManager
+RESPONSE AutoYouAreWelcomeManager CHARACTER Manager SUBTITLE "It's fine."
+RESPONSE AutoYouAreWelcomeManager CHARACTER Manager SUBTITLE "Any time."
+RESPONSE AutoYouAreWelcomeManager CHARACTER Manager SUBTITLE "Hey, no problem."
+RESPONSE AutoYouAreWelcomeManager CHARACTER Manager SUBTITLE "Sure."
+RESPONSE AutoYouAreWelcomeManager CHARACTER Manager SUBTITLE "Its all good."
+RESPONSE AutoYouAreWelcomeManager CHARACTER Manager SUBTITLE "Hey, no problem."
+RESPONSE AutoYouAreWelcomeManager CHARACTER Manager SUBTITLE "My pleasure."
+RESPONSE AutoYouAreWelcomeManager CHARACTER Manager SUBTITLE "Hey, man, no problem."
+RESPONSE AutoYouAreWelcomeManager CHARACTER Manager SUBTITLE "Not a problem."
+RESPONSE AutoYouAreWelcomeManager CHARACTER Manager SUBTITLE "You are totally welcome."
+RESPONSE AutoYouAreWelcomeManager CHARACTER Manager SUBTITLE "Sure thing, man."
+RESPONSE AutoYouAreWelcomeManager CHARACTER Manager SUBTITLE "Sure"
+RULE AutoYouAreWelcomeManager CRITERIA ConceptYouWelcome IsNotCoughing  IsManager IsTalk IsTalkManager  TimeSinceGroupInCombat05 IsNotSpeaking RESPONSE AutoYouAreWelcomeManager
+RESPONSE BotAttentionBattleManager CHARACTER Manager SUBTITLE "Ready for this?"
+RESPONSE BotAttentionBattleManager CHARACTER Manager SUBTITLE "Waddya say, we ready?"
+RESPONSE BotAttentionBattleManager CHARACTER Manager SUBTITLE "Okay, let's do it!"
+RULE BotAttentionBattleManager CRITERIA ConceptSurvivorBotNoteHumanAttention IsNotCoughing  IsManager IsNotBotAttention IsTalk IsTalkManager IsNotIncapacitated IsInBattlefield TimeSinceGroupInCombat20 RESPONSE BotAttentionBattleManager
+RESPONSE BotHurrahAlsoManager CHARACTER Manager SUBTITLE "Hell yeah."
+RESPONSE BotHurrahAlsoManager CHARACTER Manager SUBTITLE "YEAH!"
+RESPONSE BotHurrahAlsoManager CHARACTER Manager SUBTITLE "Sweet Baby!"
+RESPONSE BotHurrahAlsoManager CHARACTER Manager SUBTITLE "That's what I'm talkin' about"
+RESPONSE BotHurrahAlsoManager CHARACTER Manager SUBTITLE "Yeah, baby, Yeah!"
+RESPONSE BotHurrahAlsoManager CHARACTER Manager SUBTITLE "Helll yeah, Hell yeah!"
+RULE BotHurrahAlsoManager CRITERIA ConceptHurrahAlso IsNotCoughing  IsManager IsTalk IsTalkManager IsNotSaidHurrahAlso IsBotIsAvailable RESPONSE BotHurrahAlsoManager
+RESPONSE BotPlayer.YourWelcomeManager CHARACTER Manager SUBTITLE "It's fine."
+RESPONSE BotPlayer.YourWelcomeManager CHARACTER Manager SUBTITLE "Any time."
+RESPONSE BotPlayer.YourWelcomeManager CHARACTER Manager SUBTITLE "Hey, no problem."
+RESPONSE BotPlayer.YourWelcomeManager CHARACTER Manager SUBTITLE "Sure."
+RESPONSE BotPlayer.YourWelcomeManager CHARACTER Manager SUBTITLE "Its all good."
+RESPONSE BotPlayer.YourWelcomeManager CHARACTER Manager SUBTITLE "Hey, no problem."
+RESPONSE BotPlayer.YourWelcomeManager CHARACTER Manager SUBTITLE "My pleasure."
+RESPONSE BotPlayer.YourWelcomeManager CHARACTER Manager SUBTITLE "Hey, man, no problem."
+RESPONSE BotPlayer.YourWelcomeManager CHARACTER Manager SUBTITLE "Not a problem."
+RESPONSE BotPlayer.YourWelcomeManager CHARACTER Manager SUBTITLE "You are totally welcome."
+RESPONSE BotPlayer.YourWelcomeManager CHARACTER Manager SUBTITLE "Sure thing, man."
+RESPONSE BotPlayer.YourWelcomeManager CHARACTER Manager SUBTITLE "Sure"
+RULE BotPlayer.YourWelcomeManager CRITERIA ConceptSurvivorBotYouAreWelcome IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE BotPlayer.YourWelcomeManager
+RESPONSE BotReassureComingManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE BotReassureComingManager CHARACTER Manager SUBTITLE "Yeah."
+RESPONSE BotReassureComingManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE BotReassureComingManager CHARACTER Manager SUBTITLE "Yeah, I'm cool with that"
+RESPONSE BotReassureComingManager CHARACTER Manager SUBTITLE "Yes"
+RESPONSE BotReassureComingManager CHARACTER Manager SUBTITLE "Cool"
+RULE BotReassureComingManager CRITERIA ConceptSurvivorBotReassureComing IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE BotReassureComingManager
+RESPONSE BotReassureNearbyManager CHARACTER Manager SUBTITLE "Don't worry, I got your back."
+RESPONSE BotReassureNearbyManager CHARACTER Manager SUBTITLE "Right behind you."
+RESPONSE BotReassureNearbyManager CHARACTER Manager SUBTITLE "I'm with ya."
+RULE BotReassureNearbyManager CRITERIA ConceptSurvivorBotReassureNearby IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE BotReassureNearbyManager
+RESPONSE BotYesReadyManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE BotYesReadyManager CHARACTER Manager SUBTITLE "Yeah."
+RESPONSE BotYesReadyManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE BotYesReadyManager CHARACTER Manager SUBTITLE "Yeah, I'm cool with that"
+RESPONSE BotYesReadyManager CHARACTER Manager SUBTITLE "Yes"
+RESPONSE BotYesReadyManager CHARACTER Manager SUBTITLE "Cool"
+RULE BotYesReadyManager CRITERIA ConceptSurvivorBotYesReady IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE BotYesReadyManager
+RULE PlayerCallForRescueManager CRITERIA ConceptCallForRescue IsManager IsTalk IsTalkManager RESPONSE PlayerCallForRescueManager
+RESPONSE crashHowitzerNagManager CHARACTER Manager SUBTITLE "Someone needs to fire that big ass gun."
+RULE crashHowitzerNagManager CRITERIA ConceptTalkIdle IsManager IsNotCoughing NotInCombat IsTalk IsTalkManager NotHowitzerFired IsHowitzerNag IsHowitzerSeen NotNagCrashManager ChanceToFire80Percent NotSurvivalMode RESPONSE crashHowitzerNagManager
+RESPONSE HowitzerBurnEnd00Manager CHARACTER Manager SUBTITLE "The fire's out! Let's get across that bridge!"
+RULE HowitzerBurnEnd00Manager CRITERIA ConceptHowitzerBurnEnd00 IsManager NotCrash01ThroughBridge NotSurvivalMode RESPONSE HowitzerBurnEnd00Manager
+RESPONSE CrashFinaleGenerator2OnSpkManager CHARACTER Manager SUBTITLE "Sweet Baby!"
+RULE CrashFinaleGenerator2OnSpkManager CRITERIA ConceptCrashFinaleGenerator2OnSpk IsManager RESPONSE CrashFinaleGenerator2OnSpkManager
+RESPONSE CrashFinaleGenerator2SpeakManager CHARACTER Manager SUBTITLE "Come on! Hurry up, hurry up! I'm starting not to like this generator..."
+RESPONSE CrashFinaleGenerator2SpeakManager CHARACTER Manager SUBTITLE "Oh god. Hurry up, hurry up. Goddamit generator, START!"
+RESPONSE CrashFinaleGenerator2SpeakManager CHARACTER Manager SUBTITLE "Start. Start. Damn generator. Start, dammit, start!"
+RULE CrashFinaleGenerator2SpeakManager CRITERIA ConceptCrashFinaleGenerator2Speak IsManager RESPONSE CrashFinaleGenerator2SpeakManager
+RESPONSE CrashFinaleGeneratorBreakSpkManager CHARACTER Manager SUBTITLE "The generator's off!"
+RESPONSE CrashFinaleGeneratorBreakSpkManager CHARACTER Manager SUBTITLE "The damn generator broke again!"
+RULE CrashFinaleGeneratorBreakSpkManager CRITERIA ConceptCrashFinaleGeneratorBreakSpk IsManager NotSurvivalMode RESPONSE CrashFinaleGeneratorBreakSpkManager
+RESPONSE CrashFinaleGeneratorNagManager CHARACTER Manager SUBTITLE "We need to restart the generator!"
+RESPONSE CrashFinaleGeneratorNagManager CHARACTER Manager SUBTITLE "Someone needs to restart the generator!"
+RULE CrashFinaleGeneratorNagManager CRITERIA ConceptTalkIdle IsManager IsNotCoughing NotInCombat IsTalk IsTalkManager ChanceToFire60Percent IsCrashFinaleGeneratorBroken NotCrashFinaleSaidGeneratorBroken NotNagCrashManager NotSurvivalMode RESPONSE CrashFinaleGeneratorNagManager
+RESPONSE CrashFinaleGeneratorSpeakManager CHARACTER Manager SUBTITLE "Allright, allright. Come onnnn. Come on, catch."
+RESPONSE CrashFinaleGeneratorSpeakManager CHARACTER Manager SUBTITLE "Allright, allright. Come on baby, start for me."
+RULE CrashFinaleGeneratorSpeakManager CRITERIA ConceptCrashFinaleGeneratorSpeak IsManager RESPONSE CrashFinaleGeneratorSpeakManager
+RESPONSE CrashFinaleGenUnPressSpeakManager CHARACTER Manager SUBTITLE "Dammit."
+RULE CrashFinaleGenUnPressSpeakManager CRITERIA ConceptCrashFinaleGeneratorUnPressSpeak IsManager RESPONSE CrashFinaleGenUnPressSpeakManager
+RESPONSE CrashFinaleTruckNagManager CHARACTER Manager SUBTITLE "Get to the truck! TO THE TRUCK!"
+RESPONSE CrashFinaleTruckNagManager CHARACTER Manager SUBTITLE "GET TO THE TRUCK!"
+RULE CrashFinaleTruckNagManager CRITERIA ConceptTalkIdle IsManager IsNotCoughing IsCrashFinaleTruckReady NotCrashFinaleTruckNagPaused ChanceToFire60Percent NotNagCrashManager NotSurvivalMode RESPONSE CrashFinaleTruckNagManager
+RESPONSE CrashFinaleTruckReadySpkManager CHARACTER Manager SUBTITLE "It's down! Get in!"
+RULE CrashFinaleTruckReadySpkManager CRITERIA ConceptCrashFinaleTruckReadySpk IsManager IsNotCoughing NotSurvivalMode RESPONSE CrashFinaleTruckReadySpkManager
+RESPONSE CrashFinaleTruckResp01Manager CHARACTER Manager SUBTITLE "If we power up the generator, we can bring down the lift."
+RULE CrashFinaleTruckResp01Manager CRITERIA ConceptCrashFinaleTruckResp01 IsManager RESPONSE CrashFinaleTruckResp01Manager
+RESPONSE IntroCrashWalkingBManager CHARACTER Manager SUBTITLE "I got a baaad feeling about this. Ohp. It passed. I think we're gonna be JUST fine."
+RULE IntroCrashWalkingBManager CRITERIA ConceptIntroCrashWalkingB IsManager RESPONSE IntroCrashWalkingBManager
+RESPONSE PlayerRemarkcrashcourse02_path14Manager CHARACTER Manager SUBTITLE "Cool truck!"
+RESPONSE PlayerRemarkcrashcourse02_path14Manager CHARACTER Manager SUBTITLE "Looks like they were working here for awhile!"
+RULE PlayerRemarkcrashcourse02_path14Manager CRITERIA ConceptRemark IsManager Iscrashcourse02_path14 IsNotSaidcrashcourse02_path14 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 NotCrash02FinaleStarted NotSurvivalMode RESPONSE PlayerRemarkcrashcourse02_path14Manager
+RESPONSE CrashCourseR04Manager CHARACTER Manager SUBTITLE "I'll be damned. Francis, when'd you learn to read?"
+RULE CrashCourseR04Manager CRITERIA ConceptCrashCourseR04 IsManager IsBikerNear500 RESPONSE CrashCourseR04Manager
+RESPONSE CrashCourseR06Manager CHARACTER Manager SUBTITLE "Canada? Francis, we're in Pennsylvania."
+RULE CrashCourseR06Manager CRITERIA ConceptCrashCourseR06 IsManager RESPONSE CrashCourseR06Manager
+RESPONSE PlayerRemarkcrashcourse01_path04Manager CHARACTER Manager SUBTITLE "If we can get on that bridge, I'm sure we can follow the train tracks out of town."
+RULE PlayerRemarkcrashcourse01_path04Manager CRITERIA ConceptRemark IsManager Iscrashcourse01_path04 IsNotSaidcrashcourse01_path04 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear1000 RESPONSE PlayerRemarkcrashcourse01_path04Manager
+RESPONSE PlayerRemarkcrashcourse01_path05Manager CHARACTER Manager SUBTITLE "That truck is blocking the alley."
+RULE PlayerRemarkcrashcourse01_path05Manager CRITERIA ConceptRemark IsManager Iscrashcourse01_path05 IsNotSaidcrashcourse01_path05 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkcrashcourse01_path05Manager
+RESPONSE PlayerRemarkcrashcourse01_path06Manager CHARACTER Manager SUBTITLE "Anything in this warehouse?"
+RULE PlayerRemarkcrashcourse01_path06Manager CRITERIA ConceptRemark IsManager Iscrashcourse01_path06 IsNotSaidcrashcourse01_path06 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkcrashcourse01_path06Manager
+RESPONSE PlayerRemarkcrashcourse01_path13Manager CHARACTER Manager SUBTITLE "We can cross the river on that bridge."
+RULE PlayerRemarkcrashcourse01_path13Manager CRITERIA ConceptRemark IsManager Iscrashcourse01_path13 IsNotSaidcrashcourse01_path13 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 NotSurvivalMode RESPONSE PlayerRemarkcrashcourse01_path13Manager
+RESPONSE PlayerRemarkcrashcourse01_path14Manager CHARACTER Manager SUBTITLE "We can get back up over here!"
+RULE PlayerRemarkcrashcourse01_path14Manager CRITERIA ConceptRemark IsManager Iscrashcourse01_path14 IsNotSaidcrashcourse01_path14 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 NotSurvivalMode RESPONSE PlayerRemarkcrashcourse01_path14Manager
+RESPONSE PlayerRemarkcrashcourse01_path17Manager CHARACTER Manager SUBTITLE "How are we going to get past the barricade?"
+RESPONSE PlayerRemarkcrashcourse01_path17Manager CHARACTER Manager SUBTITLE "We can fire that big ass gun to break the barricade!"
+RULE PlayerRemarkcrashcourse01_path17Manager CRITERIA ConceptRemark IsManager Iscrashcourse01_path17 IsNotSaidcrashcourse01_path17 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 NotHowitzerFired NotSurvivalMode RESPONSE PlayerRemarkcrashcourse01_path17Manager
+RESPONSE PlayerRemarkcrashcourse01_path18Manager CHARACTER Manager SUBTITLE "We can fire that big ass gun to break the barricade!"
+RULE PlayerRemarkcrashcourse01_path18Manager CRITERIA ConceptRemark IsManager Iscrashcourse01_path18 IsNotSaidcrashcourse01_path18 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 NotHowitzerFired NotSurvivalMode RESPONSE PlayerRemarkcrashcourse01_path18Manager
+RESPONSE PlayerRemarkcrashcourse01_path20Manager CHARACTER Manager SUBTITLE "Riverside! We're headed the right way!"
+RESPONSE PlayerRemarkcrashcourse01_path20Manager CHARACTER Manager SUBTITLE "If we can just make it to Riverside, we are HOME FREE, guys..."
+RULE PlayerRemarkcrashcourse01_path20Manager CRITERIA ConceptRemark IsManager Iscrashcourse01_path20 IsNotSaidcrashcourse01_path20 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkcrashcourse01_path20Manager
+RESPONSE PlayerRemarkcrashcourse01_path24Manager CHARACTER Manager SUBTITLE "Safehouse down there!"
+RULE PlayerRemarkcrashcourse01_path24Manager CRITERIA ConceptRemark IsManager Iscrashcourse01_path24 IsNotSaidcrashcourse01_path24 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 NotSaidCrash01SafeHouse RESPONSE PlayerRemarkcrashcourse01_path24Manager
+RESPONSE PlayerRemarkcrashcourse01_path25Manager CHARACTER Manager SUBTITLE "Safe house through here."
+RULE PlayerRemarkcrashcourse01_path25Manager CRITERIA ConceptRemark IsManager Iscrashcourse01_path25 IsNotSaidcrashcourse01_path25 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 NotSaidCrash01SafeHouse RESPONSE PlayerRemarkcrashcourse01_path25Manager
+RESPONSE PlayerRemarkcrashcourse02_path01Manager CHARACTER Manager SUBTITLE "Wall Street Weekly. There's no more Wall Street Weekly. DAMN."
+RULE PlayerRemarkcrashcourse02_path01Manager CRITERIA ConceptRemark IsManager Iscrashcourse02_path01 IsNotSaidcrashcourse02_path01 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear100 ChanceToFire20Percent RESPONSE PlayerRemarkcrashcourse02_path01Manager
+RULE AUTOBLANK_PlayerRemarkcrashcourse02_path01Manager CRITERIA ConceptRemark IsManager Iscrashcourse02_path01 IsNotSaidcrashcourse02_path01 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear100 RESPONSE _PlayerInfoRemarkableBlankManager
+RESPONSE PlayerRemarkcrashcourse02_path04Manager CHARACTER Manager SUBTITLE "Hey, Francis. Wasn't this the alley you were born in?"
+RULE PlayerRemarkcrashcourse02_path04Manager CRITERIA ConceptRemark IsManager Iscrashcourse02_path04 IsNotSaidcrashcourse02_path04 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 IsBikerAlive IsBikerNear400 RESPONSE PlayerRemarkcrashcourse02_path04Manager
+RESPONSE PlayerRemarkcrashcourse02_path05Manager CHARACTER Manager SUBTITLE "Through this container!"
+RULE PlayerRemarkcrashcourse02_path05Manager CRITERIA ConceptRemark IsManager Iscrashcourse02_path05 IsNotSaidcrashcourse02_path05 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkcrashcourse02_path05Manager
+RESPONSE PlayerRemarkcrashcourse02_path07Manager CHARACTER Manager SUBTITLE "'Team building exercise every Tuesday.' Man, they oughtta try this zombie bullshit."
+RULE PlayerRemarkcrashcourse02_path07Manager CRITERIA ConceptRemark IsManager Iscrashcourse02_path07 IsNotSaidcrashcourse02_path07 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear100 RESPONSE PlayerRemarkcrashcourse02_path07Manager
+RESPONSE PlayerRemarkcrashcourse02_path10Manager CHARACTER Manager SUBTITLE "Over that truck!"
+RULE PlayerRemarkcrashcourse02_path10Manager CRITERIA ConceptRemark IsManager Iscrashcourse02_path10 IsNotSaidcrashcourse02_path10 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear500 RESPONSE PlayerRemarkcrashcourse02_path10Manager
+RESPONSE PlayerRemarkcrashcourse02_path11Manager CHARACTER Manager SUBTITLE "We get out of this alive? I can't WAIT to have to recycle shit again."
+RULE PlayerRemarkcrashcourse02_path11Manager CRITERIA ConceptRemark IsManager Iscrashcourse02_path11 IsNotSaidcrashcourse02_path11 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear500 NotSurvivalMode RESPONSE PlayerRemarkcrashcourse02_path11Manager
+RESPONSE PlayerRemarkcrashcourse02_path12Manager CHARACTER Manager SUBTITLE "Through the truck yard!"
+RULE PlayerRemarkcrashcourse02_path12Manager CRITERIA ConceptRemark IsManager Iscrashcourse02_path12 IsNotSaidcrashcourse02_path12 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkcrashcourse02_path12Manager
+RESPONSE IntroCrashR03Manager CHARACTER Manager SUBTITLE "We're walkin' AWAY from it, ain't we?"
+RULE IntroCrashR03Manager CRITERIA ConceptIntroCrashR03 IsManager RESPONSE IntroCrashR03Manager
+RESPONSE IntroCrashR05Manager CHARACTER Manager SUBTITLE "Great. What is it?"
+RULE IntroCrashR05Manager CRITERIA ConceptIntroCrashR05 IsManager RESPONSE IntroCrashR05Manager
+RESPONSE IntroCrashR09Manager CHARACTER Manager SUBTITLE "For once, we're in complete agreement, Francis."
+RULE IntroCrashR09Manager CRITERIA ConceptIntroCrashR09 IsManager RESPONSE IntroCrashR09Manager
+RESPONSE IntroCrashR10Manager CHARACTER Manager SUBTITLE "Well, I guess we're walking."
+RESPONSE IntroCrashR10Manager CHARACTER Manager SUBTITLE "Looks like we're gonna have to walk outta here."
+RULE IntroCrashR10Manager CRITERIA ConceptIntroCrashR10 IsManager RESPONSE IntroCrashR10Manager
+RESPONSE IntroCrashR13Manager CHARACTER Manager SUBTITLE "Have you tried turning it off and on again?"
+RESPONSE IntroCrashR13Manager CHARACTER Manager SUBTITLE "Uh uh."
+RULE IntroCrashR13Manager CRITERIA ConceptIntroCrashR13 IsManager RESPONSE IntroCrashR13Manager
+RESPONSE IntroCrashR15Manager CHARACTER Manager SUBTITLE "Uh uh."
+RULE IntroCrashR15Manager CRITERIA ConceptIntroCrashR15 IsManager RESPONSE IntroCrashR15Manager
+RESPONSE IntroCrashR17Manager CHARACTER Manager SUBTITLE "Francis, why would you BET that we're doomed?"
+RULE IntroCrashR17Manager CRITERIA ConceptIntroCrashR17 IsManager RESPONSE IntroCrashR17Manager
+RESPONSE IntroCrashR22Manager CHARACTER Manager SUBTITLE "Look, five minutes ago you hated flying."
+RULE IntroCrashR22Manager CRITERIA ConceptIntroCrashR22 IsManager RESPONSE IntroCrashR22Manager
+RESPONSE IntroCrashR24Manager CHARACTER Manager SUBTITLE "That's FUNNY, Francis. Why don't you take your moustache, your little vest and your chaps and go find yourself a PARADE."
+RULE IntroCrashR24Manager CRITERIA ConceptIntroCrashR24 IsManager RESPONSE IntroCrashR24Manager
+RESPONSE IntroCrashR30Manager CHARACTER Manager SUBTITLE "Damn. I had a good feeling about that helicopter, too."
+RULE IntroCrashR30Manager CRITERIA ConceptIntroCrashR30 IsManager ChanceToFire20Percent RESPONSE IntroCrashR30Manager
+RESPONSE IntroCrashR31Manager CHARACTER Manager SUBTITLE "On the bright side: look at all the great scenery we'd have missed if we flew over this in a helicopter, huh?"
+RULE IntroCrashR31Manager CRITERIA ConceptIntroCrashR31 IsManager RESPONSE IntroCrashR31Manager
+RESPONSE IntroCrashR36Manager CHARACTER Manager SUBTITLE "Well, I guess we're walking."
+RULE IntroCrashR36Manager CRITERIA ConceptIntroCrashR36 IsManager RESPONSE IntroCrashR36Manager
+RESPONSE IntroCrashR37Manager CHARACTER Manager SUBTITLE "That was my first time in a helicopter, pretty exciting!"
+RESPONSE IntroCrashR37Manager CHARACTER Manager SUBTITLE "You know what? I don't think we're gonna see a witch from NOW ON. Who wants to bet me?"
+RULE IntroCrashR37Manager CRITERIA ConceptIntroCrashR37 IsManager RESPONSE IntroCrashR37Manager
+RESPONSE CrashCourseI01Manager CHARACTER Manager SUBTITLE "Sounds good."
+RESPONSE CrashCourseI01Manager CHARACTER Manager SUBTITLE "Alright, that's a plan."
+RESPONSE CrashCourseI01Manager CHARACTER Manager SUBTITLE "Sounds good to me."
+RULE CrashCourseI01Manager CRITERIA ConceptCrashCourseI01 IsManager RESPONSE CrashCourseI01Manager
+RESPONSE PlayerRemarkcrashcourse02_introManager CHARACTER Manager SUBTITLE "We should try and find this depot."
+RULE PlayerRemarkcrashcourse02_introManager CRITERIA ConceptRemark IsManager Iscrashcourse02_intro IsNotSaidcrashcourse02_intro IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 IsCrash02IntroReady NotCrash02IntroPaused RESPONSE PlayerRemarkcrashcourse02_introManager
+RESPONSE PlayerRemarkcrashcourse02_startaManager CHARACTER Manager SUBTITLE ""
+RULE PlayerRemarkcrashcourse02_startaManager CRITERIA ConceptRemark IsManager Iscrashcourse02_starta NotCrash02IntroReady IsSubjectNear400 RESPONSE PlayerRemarkcrashcourse02_startaManager
+RULE PlayerRemarkcrashcourse02_startbManager CRITERIA ConceptRemark IsManager Iscrashcourse02_startb NotCrash02IntroReady IsSubjectNear400 RESPONSE PlayerRemarkcrashcourse02_startaManager
+RULE PlayerRemarkcrashcourse02_startcManager CRITERIA ConceptRemark IsManager Iscrashcourse02_startc NotCrash02IntroReady IsSubjectNear400 RESPONSE PlayerRemarkcrashcourse02_startaManager
+RULE PlayerRemarkcrashcourse02_startdManager CRITERIA ConceptRemark IsManager Iscrashcourse02_startd NotCrash02IntroReady IsSubjectNear400 RESPONSE PlayerRemarkcrashcourse02_startaManager
+RESPONSE IntroFarm4Manager CHARACTER Manager SUBTITLE "Sounds good to me."
+RULE IntroFarm4Manager CRITERIA ConceptIntroFarm4 IsManager RESPONSE IntroFarm4Manager
+RESPONSE SurvivorBoomerBlunderManager CHARACTER Manager SUBTITLE "Sorry about that!"
+RESPONSE SurvivorBoomerBlunderManager CHARACTER Manager SUBTITLE "Aww, man, sorry."
+RULE SurvivorBoomerBlunderManager CRITERIA IsFaultConcept IsFaultBoomerBlunder IsNotCoughing IsManager IsHealthy IsTalk IsTalkManager RESPONSE SurvivorBoomerBlunderManager
+RESPONSE SurvivorFinaleTriggeredBoatManager CHARACTER Manager SUBTITLE "Okay, we gotta hold out til the rescue boat gets here."
+RULE SurvivorFinaleTriggeredBoatManager CRITERIA ConceptFinaleTriggered IsTriggeredByManager ismap_l4d_smalltown05_houseboat IsNotSaidRadioTriggered IsTalk IsTalkManager IsManager IsNotIncapacitated RESPONSE SurvivorFinaleTriggeredBoatManager
+RESPONSE SurvivorFinaleTriggeredFarmManager CHARACTER Manager SUBTITLE "Our ride out of here's on its way."
+RESPONSE SurvivorFinaleTriggeredFarmManager CHARACTER Manager SUBTITLE "Allright, now we just gotta hold out til the truck gets here."
+RULE SurvivorFinaleTriggeredFarmManager CRITERIA ConceptFinaleTriggered IsTriggeredByManager ismap_l4d_farm05_cornfield IsNotSaidRadioTriggered IsTalk IsTalkManager IsManager IsNotIncapacitated RESPONSE SurvivorFinaleTriggeredFarmManager
+RESPONSE SurvivorFinaleTriggeredRooftopManager CHARACTER Manager SUBTITLE "Okay, the chopper's coming."
+RESPONSE SurvivorFinaleTriggeredRooftopManager CHARACTER Manager SUBTITLE "Help is on the way! I can't believe it, but I think we might actually make it out of here!"
+RULE SurvivorFinaleTriggeredRooftopManager CRITERIA ConceptFinaleTriggered IsTriggeredByManager ismap_l4d_hospital05_rooftop IsNotSaidRadioTriggered IsTalk IsTalkManager IsManager IsNotIncapacitated RESPONSE SurvivorFinaleTriggeredRooftopManager
+RESPONSE SurvivorFinalVehicleBoatManager CHARACTER Manager SUBTITLE "Get to the boat!"
+RESPONSE SurvivorFinalVehicleBoatManager CHARACTER Manager SUBTITLE "Get to the boat!"
+RESPONSE SurvivorFinalVehicleBoatManager CHARACTER Manager SUBTITLE "Run to the boat!"
+RULE SurvivorFinalVehicleBoatManager CRITERIA ConceptGetToVehicle IsManager ismap_l4d_smalltown05_houseboat IsNotSaidFinalVehicleArrived RESPONSE SurvivorFinalVehicleBoatManager
+RESPONSE SurvivorFinalVehicleFarmManager CHARACTER Manager SUBTITLE "Get to the truck! TO THE TRUCK!"
+RESPONSE SurvivorFinalVehicleFarmManager CHARACTER Manager SUBTITLE "GET TO THE TRUCK!"
+RULE SurvivorFinalVehicleFarmManager CRITERIA ConceptGetToVehicle IsManager ismap_l4d_farm05_cornfield IsNotSaidFinalVehicleArrived RESPONSE SurvivorFinalVehicleFarmManager
+RESPONSE SurvivorFinalVehicleFarmSpottedManager CHARACTER Manager SUBTITLE "The truck's here! Let's go!"
+RULE SurvivorFinalVehicleFarmSpottedManager CRITERIA ConceptFinalVehicleSpotted IsManager ismap_l4d_farm05_cornfield IsNotSaidFinalVehicleSpotted RESPONSE SurvivorFinalVehicleFarmSpottedManager
+RESPONSE SurvivorFinalVehicleRooftopManager CHARACTER Manager SUBTITLE "Everyone in the helicopter! Go!"
+RESPONSE SurvivorFinalVehicleRooftopManager CHARACTER Manager SUBTITLE "Get to the helicopter!"
+RULE SurvivorFinalVehicleRooftopManager CRITERIA ConceptGetToVehicle IsManager ismap_l4d_hospital05_rooftop IsNotSaidFinalVehicleArrived RESPONSE SurvivorFinalVehicleRooftopManager
+RESPONSE SurvivorFinalVehicleRunwayManager CHARACTER Manager SUBTITLE "Get to the plane. GO!"
+RESPONSE SurvivorFinalVehicleRunwayManager CHARACTER Manager SUBTITLE "Get to the plane. GO!"
+RESPONSE SurvivorFinalVehicleRunwayManager CHARACTER Manager SUBTITLE "Get to the plane!"
+RESPONSE SurvivorFinalVehicleRunwayManager CHARACTER Manager SUBTITLE "Get to the plane!"
+RULE SurvivorFinalVehicleRunwayManager CRITERIA ConceptGetToVehicle IsManager isrunway IsNotSaidFinalVehicleArrived RESPONSE SurvivorFinalVehicleRunwayManager
+RESPONSE SurvivorFinalVehicleSpottedBoatManager CHARACTER Manager SUBTITLE "The boat's here! Let's go!"
+RESPONSE SurvivorFinalVehicleSpottedBoatManager CHARACTER Manager SUBTITLE "Our boat's here! Let's go!"
+RULE SurvivorFinalVehicleSpottedBoatManager CRITERIA ConceptFinalVehicleSpotted IsManager ismap_l4d_smalltown05_houseboat IsNotSaidFinalVehicleSpotted RESPONSE SurvivorFinalVehicleSpottedBoatManager
+RESPONSE SurvivorFinalVehicleSpottedRooftopManager CHARACTER Manager SUBTITLE "The heli's here. Let's go!"
+RESPONSE SurvivorFinalVehicleSpottedRooftopManager CHARACTER Manager SUBTITLE "The helicopter's here! Let's go!"
+RULE SurvivorFinalVehicleSpottedRooftopManager CRITERIA ConceptFinalVehicleSpotted IsManager ismap_l4d_hospital05_rooftop IsNotSaidFinalVehicleSpotted RESPONSE SurvivorFinalVehicleSpottedRooftopManager
+RESPONSE SurvivorFinalVehicleSpottedRunwayManager CHARACTER Manager SUBTITLE "Get to the plane. GO!"
+RESPONSE SurvivorFinalVehicleSpottedRunwayManager CHARACTER Manager SUBTITLE "Get to the plane!"
+RULE SurvivorFinalVehicleSpottedRunwayManager CRITERIA ConceptFinalVehicleSpotted IsManager ismap_urban05a_finale_runway IsNotSaidFinalVehicleSpotted RESPONSE SurvivorFinalVehicleSpottedRunwayManager
+RESPONSE ResponseLoudDispleasureSwearManager CHARACTER Manager SUBTITLE "Dammit."
+RESPONSE ResponseLoudDispleasureSwearManager CHARACTER Manager SUBTITLE "Aw hell."
+RESPONSE ResponseLoudDispleasureSwearManager CHARACTER Manager SUBTITLE "Shit."
+RESPONSE ResponseLoudDispleasureSwearManager CHARACTER Manager SUBTITLE "Ah shit."
+RESPONSE ResponseLoudDispleasureSwearManager CHARACTER Manager SUBTITLE "Shit shit shit."
+RULE ResponseLoudDispleasureSwearManager CRITERIA ConceptPanicEvent IsManager IsNotCoughing IsTalk IsTalkManager ChanceToFire60Percent RESPONSE ResponseLoudDispleasureSwearManager
+RESPONSE ResponseSoftDispleasureSwearManager CHARACTER Manager SUBTITLE "I have a bad feeling about this"
+RESPONSE ResponseSoftDispleasureSwearManager CHARACTER Manager SUBTITLE "I don't like this one damn bit."
+RESPONSE ResponseSoftDispleasureSwearManager CHARACTER Manager SUBTITLE "Shit."
+RESPONSE ResponseSoftDispleasureSwearManager CHARACTER Manager SUBTITLE "Dammit."
+RESPONSE ResponseSoftDispleasureSwearManager CHARACTER Manager SUBTITLE "Aw hell."
+RESPONSE ResponseSoftDispleasureSwearManager CHARACTER Manager SUBTITLE "Shit."
+RESPONSE ResponseSoftDispleasureSwearManager CHARACTER Manager SUBTITLE "Ah shit."
+RESPONSE ResponseSoftDispleasureSwearManager CHARACTER Manager SUBTITLE "That's some country-ass bullshit."
+RULE ResponseSoftDispleasureSwearManager CRITERIA ConceptResponseSoftDispleasureSwear IsManager IsNotCoughing NotInCombat IsTalk IsTalkManager IssuerMediumClose RESPONSE ResponseSoftDispleasureSwearManager
+RESPONSE SurvivorAskBillForHealthManager CHARACTER Manager SUBTITLE "Bill, Bill... first aid kit?"
+RESPONSE SurvivorAskBillForHealthManager CHARACTER Manager SUBTITLE "Bill, could I get some first aid?"
+RULE SurvivorAskBillForHealthManager CRITERIA ConceptAskForHealth2  IsManager SubjectIsNamVet IsSubjectNear400 RESPONSE SurvivorAskBillForHealthManager
+RESPONSE SurvivorAskForHealthManager CHARACTER Manager SUBTITLE ""
+RULE SurvivorAskForHealthManager CRITERIA ConceptPlayerLookHere IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto  IsSubjectNear400 NoHasPainPills  NoHasFirstAidKit IsNotHealthyHalf NotInCombat IsNotSaidAskForHealth RESPONSE SurvivorAskForHealthManager
+RESPONSE SurvivorAskFrancisForHealthManager CHARACTER Manager SUBTITLE "Francis, can you lend me your med kit?"
+RESPONSE SurvivorAskFrancisForHealthManager CHARACTER Manager SUBTITLE "Francis, mind spottin' me a med kit?"
+RESPONSE SurvivorAskFrancisForHealthManager CHARACTER Manager SUBTITLE "Francis, health kit?"
+RULE SurvivorAskFrancisForHealthManager CRITERIA ConceptAskForHealth2  IsManager SubjectIsBiker IsSubjectNear400 RESPONSE SurvivorAskFrancisForHealthManager
+RESPONSE SurvivorAskZoeyForHealthManager CHARACTER Manager SUBTITLE "Zoey, are you going to use that med kit?"
+RESPONSE SurvivorAskZoeyForHealthManager CHARACTER Manager SUBTITLE "Zoey, any chance I could get some first aid?"
+RULE SurvivorAskZoeyForHealthManager CRITERIA ConceptAskForHealth2  IsManager SubjectIsTeenGirl IsSubjectNear400 RESPONSE SurvivorAskZoeyForHealthManager
+RESPONSE SurvivorFrancisHealthHereManager CHARACTER Manager SUBTITLE ""
+RULE SurvivorFrancisHealthHereManager CRITERIA ConceptAskForHealth IsNotCoughing IsManager IsTalk IsTalkManager YesHasFirstAidKit IsHealthyHalf RESPONSE SurvivorFrancisHealthHereManager
+RESPONSE SurvivorSpottedAmmoManager CHARACTER Manager SUBTITLE "Ammo here!"
+RULE SurvivorSpottedAmmoManager CRITERIA ConceptPlayerSpotAmmo IsNotCoughing  IsManager IsTalk IsTalkManager IsNotSmartLookAuto RESPONSE SurvivorSpottedAmmoManager
+RESPONSE SurvivorSpottedBillCloseManager CHARACTER Manager SUBTITLE "Bill (quiet)"
+RESPONSE SurvivorSpottedBillCloseManager CHARACTER Manager SUBTITLE "Bill (quiet)"
+RULE SurvivorSpottedBillCloseManager CRITERIA ConceptPlayerLookHere IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto  SubjectIsNamVet IsNamVetNear400 RESPONSE SurvivorSpottedBillCloseManager
+RESPONSE SurvivorSpottedBillClose2Manager CHARACTER Manager SUBTITLE "Bill (quiet)"
+RESPONSE SurvivorSpottedBillClose2Manager CHARACTER Manager SUBTITLE "Bill (quiet)"
+RULE SurvivorSpottedBillClose2Manager CRITERIA ConceptPlayerLook IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto  SubjectIsNamVet IsNamVetNear400 RESPONSE SurvivorSpottedBillClose2Manager
+RESPONSE SurvivorSpottedBillFarManager CHARACTER Manager SUBTITLE "Bill! (loud)"
+RESPONSE SurvivorSpottedBillFarManager CHARACTER Manager SUBTITLE "Bill! (calling out)"
+RULE SurvivorSpottedBillFarManager CRITERIA ConceptPlayerLook IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto SubjectIsNamVet IsNamVetFar400 RESPONSE SurvivorSpottedBillFarManager
+RESPONSE SurvivorSpottedFrancisCloseManager CHARACTER Manager SUBTITLE "Francis (quiet)"
+RESPONSE SurvivorSpottedFrancisCloseManager CHARACTER Manager SUBTITLE "Francis (quiet)"
+RULE SurvivorSpottedFrancisCloseManager CRITERIA ConceptPlayerLookHere IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto  SubjectIsBiker IsBikerNear400 RESPONSE SurvivorSpottedFrancisCloseManager
+RESPONSE SurvivorSpottedFrancisClose2Manager CHARACTER Manager SUBTITLE "Francis (quiet)"
+RESPONSE SurvivorSpottedFrancisClose2Manager CHARACTER Manager SUBTITLE "Francis (quiet)"
+RULE SurvivorSpottedFrancisClose2Manager CRITERIA ConceptPlayerLook IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto  SubjectIsBiker IsBikerNear400 RESPONSE SurvivorSpottedFrancisClose2Manager
+RESPONSE SurvivorSpottedFrancisFarManager CHARACTER Manager SUBTITLE "Francis! (loud)"
+RESPONSE SurvivorSpottedFrancisFarManager CHARACTER Manager SUBTITLE "Francis! (calling out)"
+RULE SurvivorSpottedFrancisFarManager CRITERIA ConceptPlayerLook IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto SubjectIsBiker IsBikerFar400 RESPONSE SurvivorSpottedFrancisFarManager
+RESPONSE SurvivorSpottedGrenadeManager CHARACTER Manager SUBTITLE "Pipe bomb here!"
+RESPONSE SurvivorSpottedGrenadeManager CHARACTER Manager SUBTITLE "Pipe bomb!"
+RULE SurvivorSpottedGrenadeManager CRITERIA ConceptPlayerSpotGrenade IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto RESPONSE SurvivorSpottedGrenadeManager
+RESPONSE SurvivorSpottedGrenadeAutoManager CHARACTER Manager SUBTITLE "Pipe bomb here!"
+RESPONSE SurvivorSpottedGrenadeAutoManager CHARACTER Manager SUBTITLE "Pipe bomb!"
+RULE SurvivorSpottedGrenadeAutoManager CRITERIA ConceptPlayerSpotGrenade IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotGrenade IsNotSaidSpot RESPONSE SurvivorSpottedGrenadeAutoManager
+RESPONSE SurvivorSpottedGrenadeAutoManager2 CHARACTER Manager SUBTITLE "Oh cool"
+RESPONSE SurvivorSpottedGrenadeAutoManager2 CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorSpottedGrenadeAutoManager2 CHARACTER Manager SUBTITLE "Yeah."
+RESPONSE SurvivorSpottedGrenadeAutoManager2 CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorSpottedGrenadeAutoManager2 CRITERIA ConceptPlayerSpotGrenade IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot NoHasGrenade IsNotAlone IsSaidSpotGrenade IsNotSaidSpot RESPONSE SurvivorSpottedGrenadeAutoManager2
+RESPONSE SurvivorSpottedHealthManager CHARACTER Manager SUBTITLE "A First Aid Kit here!"
+RESPONSE SurvivorSpottedHealthManager CHARACTER Manager SUBTITLE "First Aid here!"
+RESPONSE SurvivorSpottedHealthManager CHARACTER Manager SUBTITLE "First aid kit over here!"
+RESPONSE SurvivorSpottedHealthManager CHARACTER Manager SUBTITLE "First aid here!"
+RULE SurvivorSpottedHealthManager CRITERIA ConceptPlayerSpotFirstAid IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto RESPONSE SurvivorSpottedHealthManager
+RESPONSE SurvivorSpottedHealthAutoManager CHARACTER Manager SUBTITLE "A First Aid Kit here!"
+RESPONSE SurvivorSpottedHealthAutoManager CHARACTER Manager SUBTITLE "First Aid here!"
+RESPONSE SurvivorSpottedHealthAutoManager CHARACTER Manager SUBTITLE "First aid kit over here!"
+RESPONSE SurvivorSpottedHealthAutoManager CHARACTER Manager SUBTITLE "First aid here!"
+RULE SurvivorSpottedHealthAutoManager CRITERIA ConceptPlayerSpotFirstAid IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotHealth IsNotSaidSpot RESPONSE SurvivorSpottedHealthAutoManager
+RESPONSE SurvivorSpottedHealthAutoManager2 CHARACTER Manager SUBTITLE "Oh cool"
+RESPONSE SurvivorSpottedHealthAutoManager2 CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorSpottedHealthAutoManager2 CHARACTER Manager SUBTITLE "Yeah."
+RESPONSE SurvivorSpottedHealthAutoManager2 CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorSpottedHealthAutoManager2 CRITERIA ConceptPlayerSpotFirstAid IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto  IsNotInSafeSpot NoHasFirstAidKit IsNotAlone IsSaidSpotHealth IsNotSaidSpot RESPONSE SurvivorSpottedHealthAutoManager2
+RESPONSE SurvivorSpottedMolotovManager CHARACTER Manager SUBTITLE "Molotovs over here!"
+RESPONSE SurvivorSpottedMolotovManager CHARACTER Manager SUBTITLE "Molotovs here!"
+RULE SurvivorSpottedMolotovManager CRITERIA ConceptPlayerSpotMolotov IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto RESPONSE SurvivorSpottedMolotovManager
+RESPONSE SurvivorSpottedMolotovAutoManager CHARACTER Manager SUBTITLE "Molotovs over here!"
+RESPONSE SurvivorSpottedMolotovAutoManager CHARACTER Manager SUBTITLE "Molotovs here!"
+RULE SurvivorSpottedMolotovAutoManager CRITERIA ConceptPlayerSpotMolotov IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotMolotov IsNotSaidSpot RESPONSE SurvivorSpottedMolotovAutoManager
+RESPONSE SurvivorSpottedMolotovAutoManager2 CHARACTER Manager SUBTITLE "Oh cool"
+RESPONSE SurvivorSpottedMolotovAutoManager2 CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorSpottedMolotovAutoManager2 CHARACTER Manager SUBTITLE "Yeah."
+RESPONSE SurvivorSpottedMolotovAutoManager2 CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorSpottedMolotovAutoManager2 CRITERIA ConceptPlayerSpotMolotov IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto  IsNotInSafeSpot NoHasMolotov IsNotAlone IsSaidSpotMolotov IsNotSaidSpot RESPONSE SurvivorSpottedMolotovAutoManager2
+RESPONSE SurvivorSpottedPillsManager CHARACTER Manager SUBTITLE "Pills here!"
+RULE SurvivorSpottedPillsManager CRITERIA ConceptPlayerSpotPills IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto RESPONSE SurvivorSpottedPillsManager
+RESPONSE SurvivorSpottedPillsAutoManager CHARACTER Manager SUBTITLE "Pills here!"
+RULE SurvivorSpottedPillsAutoManager CRITERIA ConceptPlayerSpotPills IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotPills IsNotSaidSpot RESPONSE SurvivorSpottedPillsAutoManager
+RESPONSE SurvivorSpottedPillsAutoManager2 CHARACTER Manager SUBTITLE "Oh cool"
+RESPONSE SurvivorSpottedPillsAutoManager2 CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorSpottedPillsAutoManager2 CHARACTER Manager SUBTITLE "Yeah."
+RESPONSE SurvivorSpottedPillsAutoManager2 CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorSpottedPillsAutoManager2 CRITERIA ConceptPlayerSpotPills IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot NoHasPainPills IsNotAlone IsSaidSpotPills IsNotSaidSpot RESPONSE SurvivorSpottedPillsAutoManager2
+RESPONSE SurvivorSpottedWorldCloseManager CHARACTER Manager SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedWorldCloseManager CHARACTER Manager SUBTITLE "Yo, Check this out."
+RESPONSE SurvivorSpottedWorldCloseManager CHARACTER Manager SUBTITLE "Oh man, look at this."
+RESPONSE SurvivorSpottedWorldCloseManager CHARACTER Manager SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedWorldCloseManager CHARACTER Manager SUBTITLE "Oh man, you better look at this."
+RULE SurvivorSpottedWorldCloseManager CRITERIA ConceptPlayerLookHere IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto RESPONSE SurvivorSpottedWorldCloseManager
+RESPONSE SurvivorSpottedZoeyCloseManager CHARACTER Manager SUBTITLE "Zoey (quiet)"
+RULE SurvivorSpottedZoeyCloseManager CRITERIA ConceptPlayerLookHere IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto  SubjectIsTeenGirl IsTeenGirlNear400 RESPONSE SurvivorSpottedZoeyCloseManager
+RESPONSE SurvivorSpottedZoeyClose2Manager CHARACTER Manager SUBTITLE "Zoey (quiet)"
+RULE SurvivorSpottedZoeyClose2Manager CRITERIA ConceptPlayerLook IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto  SubjectIsTeenGirl IsTeenGirlNear400 RESPONSE SurvivorSpottedZoeyClose2Manager
+RESPONSE SurvivorSpottedZoeyFarManager CHARACTER Manager SUBTITLE "Zoey! (loud)"
+RESPONSE SurvivorSpottedZoeyFarManager CHARACTER Manager SUBTITLE "Zoey! (calling out)"
+RULE SurvivorSpottedZoeyFarManager CRITERIA ConceptPlayerLook IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto SubjectIsTeenGirl  IsTeenGirlFar400 RESPONSE SurvivorSpottedZoeyFarManager
+RULE SurvivorSpottedAmmoAutoManager CRITERIA ConceptPlayerSpotAmmo IsNotCoughing  IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotAmmo IsNotSaidSpot RESPONSE SurvivorSpottedAmmoManager
+RESPONSE SurvivorMovingToBattleStationManager CHARACTER Manager SUBTITLE "Ready!"
+RESPONSE SurvivorMovingToBattleStationManager CHARACTER Manager SUBTITLE "Let's do it!"
+RESPONSE SurvivorMovingToBattleStationManager CHARACTER Manager SUBTITLE "Come on, let's do it!"
+RULE SurvivorMovingToBattleStationManager CRITERIA ConceptBotMovingToBattleStation IsNotCoughing IsManager IsTalk IsTalkManager IsSaidCreshendoStartNear IsNotSaidBattleStationsManager RESPONSE SurvivorMovingToBattleStationManager
+RESPONSE SurvivorSpottedBoomerManager CHARACTER Manager SUBTITLE "BOOMER!"
+RESPONSE SurvivorSpottedBoomerManager CHARACTER Manager SUBTITLE "BOOMER!"
+RESPONSE SurvivorSpottedBoomerManager CHARACTER Manager SUBTITLE "BOOMER!"
+RULE SurvivorSpottedBoomerManager CRITERIA ConceptPlayerWarnBoomer IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorSpottedBoomerManager
+RESPONSE SurvivorSpottedHunterManager CHARACTER Manager SUBTITLE "HUNTER!"
+RESPONSE SurvivorSpottedHunterManager CHARACTER Manager SUBTITLE "HUNTER!"
+RESPONSE SurvivorSpottedHunterManager CHARACTER Manager SUBTITLE "HUNTER!"
+RULE SurvivorSpottedHunterManager CRITERIA ConceptPlayerWarnHunter IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorSpottedHunterManager
+RESPONSE SurvivorSpottedInfectedManager CHARACTER Manager SUBTITLE "Here they come!"
+RESPONSE SurvivorSpottedInfectedManager CHARACTER Manager SUBTITLE "They're comin'!"
+RESPONSE SurvivorSpottedInfectedManager CHARACTER Manager SUBTITLE "Incoming!"
+RESPONSE SurvivorSpottedInfectedManager CHARACTER Manager SUBTITLE "Oh shit, here they come!"
+RULE SurvivorSpottedInfectedManager CRITERIA ConceptPlayerIncoming IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorSpottedInfectedManager
+RESPONSE SurvivorSpottedSmokerManager CHARACTER Manager SUBTITLE "SMOKER!"
+RESPONSE SurvivorSpottedSmokerManager CHARACTER Manager SUBTITLE "SMOKER!"
+RESPONSE SurvivorSpottedSmokerManager CHARACTER Manager SUBTITLE "SMOKER!"
+RULE SurvivorSpottedSmokerManager CRITERIA ConceptPlayerWarnSmoker IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorSpottedSmokerManager
+RESPONSE SurvivorSpottedTankManager CHARACTER Manager SUBTITLE "TANK!"
+RESPONSE SurvivorSpottedTankManager CHARACTER Manager SUBTITLE "TANK!"
+RESPONSE SurvivorSpottedTankManager CHARACTER Manager SUBTITLE "TANK!"
+RULE SurvivorSpottedTankManager CRITERIA ConceptPlayerWarnTank IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorSpottedTankManager
+RESPONSE SurvivorSpottedWitchManager CHARACTER Manager SUBTITLE "WITCH!"
+RESPONSE SurvivorSpottedWitchManager CHARACTER Manager SUBTITLE "WITCH!"
+RESPONSE SurvivorSpottedWitchManager CHARACTER Manager SUBTITLE "WITCH!"
+RULE SurvivorSpottedWitchManager CRITERIA ConceptPlayerWarnWitch IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorSpottedWitchManager
+RULE SurvivorAlsoSpottedBoomerManager CRITERIA ConceptPlayerAlsoWarnBoomer IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorSpottedBoomerManager
+RULE SurvivorAlsoSpottedHunterManager CRITERIA ConceptPlayerAlsoWarnHunter IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorSpottedHunterManager
+RULE SurvivorAlsoSpottedSmokerManager CRITERIA ConceptPlayerAlsoWarnSmoker IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorSpottedSmokerManager
+RULE SurvivorAlsoSpottedTankManager CRITERIA ConceptPlayerAlsoWarnTank IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorSpottedTankManager
+RULE SurvivorAlsoSpottedWitchManager CRITERIA ConceptPlayerAlsoWarnWitch IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorSpottedWitchManager
+RESPONSE EmphaticArriveRunManager CHARACTER Manager SUBTITLE "Let's get the hell outta here!"
+RESPONSE EmphaticArriveRunManager CHARACTER Manager SUBTITLE "RUN!"
+RULE EmphaticArriveRunManager CRITERIA ConceptEmphaticArriveRun IsNotCoughing IsManager IsTalkManager RESPONSE EmphaticArriveRunManager
+RESPONSE PlayerAlertGiveItemManager CHARACTER Manager SUBTITLE "Here take this."
+RESPONSE PlayerAlertGiveItemManager CHARACTER Manager SUBTITLE "Here, I got something for you."
+RESPONSE PlayerAlertGiveItemManager CHARACTER Manager SUBTITLE "Take this."
+RESPONSE PlayerAlertGiveItemManager CHARACTER Manager SUBTITLE "Go ahead and take this."
+RESPONSE PlayerAlertGiveItemManager CHARACTER Manager SUBTITLE "Here man, take this."
+RESPONSE PlayerAlertGiveItemManager CHARACTER Manager SUBTITLE "Take it and you can pay me back later"
+RESPONSE PlayerAlertGiveItemManager CHARACTER Manager SUBTITLE "It's not a time to be a hero, just take it"
+RULE PlayerAlertGiveItemManager CRITERIA ConceptPlayerAlertGiveItem IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerAlertGiveItemManager
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "Hey, man, that hurt."
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "AH! Will you knock it off?"
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "Do I look like one of them?"
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "You know I would appreciate it, IF YOU'D STOP SHOOTING ME."
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "Watch where you're shooting!"
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "Hey, man, that's not cool."
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "Man, what the hell, quit shooting me"
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "Whoa, whoa, don't shoot, it's me!"
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "Ow man ow! Why you shooting me!"
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "Look at my face, do I look like them?"
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "Oh what the hell, why you shootin' me"
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "I'm gonna shoot you back next time"
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "Ahhh Mother"
+RESPONSE PlayerFriendlyFireManager CHARACTER Manager SUBTITLE "Whoa, whoa, don't shoot, it's me!"
+RULE PlayerFriendlyFireManager CRITERIA ConceptPlayerFriendlyFire IsNotCoughing IsManager IsNotManagerFriendlyFire IsDamageTypeBullet IsTalk IsTalkManager RESPONSE PlayerFriendlyFireManager
+RESPONSE PlayerFriendlyFire2Manager CHARACTER Manager SUBTITLE "Woah man, you gotta be careful."
+RESPONSE PlayerFriendlyFire2Manager CHARACTER Manager SUBTITLE "Woah man, you gotta be careful."
+RESPONSE PlayerFriendlyFire2Manager CHARACTER Manager SUBTITLE "What the hell man?"
+RESPONSE PlayerFriendlyFire2Manager CHARACTER Manager SUBTITLE "Be careful, what are you doing?"
+RULE PlayerFriendlyFire2Manager CRITERIA ConceptPlayerFriendlyFire IsNotCoughing IsManager IsNotManagerFriendlyFire IsDamageTypeBullet IsManagerFriendlyFire IsTalk IsTalkManager RESPONSE PlayerFriendlyFire2Manager
+RESPONSE PlayerFriendlyFireFromBillManager CHARACTER Manager SUBTITLE "Old man, stop shooting me!"
+RESPONSE PlayerFriendlyFireFromBillManager CHARACTER Manager SUBTITLE "Whoah, whoah whoah! Jesus, Bill, what are you doing?"
+RESPONSE PlayerFriendlyFireFromBillManager CHARACTER Manager SUBTITLE "William! Come on, man!"
+RESPONSE PlayerFriendlyFireFromBillManager CHARACTER Manager SUBTITLE "Watch it, Bill!"
+RESPONSE PlayerFriendlyFireFromBillManager CHARACTER Manager SUBTITLE "[angry] Bill!"
+RESPONSE PlayerFriendlyFireFromBillManager CHARACTER Manager SUBTITLE "I cannot BELIEVE you just shot me AGAIN."
+RESPONSE PlayerFriendlyFireFromBillManager CHARACTER Manager SUBTITLE "[angry] Bill!"
+RESPONSE PlayerFriendlyFireFromBillManager CHARACTER Manager SUBTITLE "[angry] Bill!"
+RULE PlayerFriendlyFireFromBillManager CRITERIA ConceptPlayerFriendlyFire IsNotCoughing IsManager IsNotManagerFriendlyFire IsDamageTypeBullet IsTalk IsTalkManager SubjectIsNamVet ChanceToFire30Percent RESPONSE PlayerFriendlyFireFromBillManager
+RESPONSE PlayerFriendlyFireFromFrancisManager CHARACTER Manager SUBTITLE "Francis, that's MY ass your shootin'."
+RESPONSE PlayerFriendlyFireFromFrancisManager CHARACTER Manager SUBTITLE "Francis, What the HELL is wrong with you?"
+RESPONSE PlayerFriendlyFireFromFrancisManager CHARACTER Manager SUBTITLE "[angry] Francis!"
+RESPONSE PlayerFriendlyFireFromFrancisManager CHARACTER Manager SUBTITLE "Go on do it one more time, fat man."
+RESPONSE PlayerFriendlyFireFromFrancisManager CHARACTER Manager SUBTITLE "[angry] Francis!"
+RESPONSE PlayerFriendlyFireFromFrancisManager CHARACTER Manager SUBTITLE "Francis! (loud)"
+RULE PlayerFriendlyFireFromFrancisManager CRITERIA ConceptPlayerFriendlyFire IsNotCoughing IsManager IsNotManagerFriendlyFire IsDamageTypeBullet IsTalk IsTalkManager SubjectIsBiker ChanceToFire30Percent RESPONSE PlayerFriendlyFireFromFrancisManager
+RESPONSE PlayerFriendlyFireFromZoeyManager CHARACTER Manager SUBTITLE "You gotta stop that shit, Zoey!"
+RESPONSE PlayerFriendlyFireFromZoeyManager CHARACTER Manager SUBTITLE "[angry] Zoey!"
+RESPONSE PlayerFriendlyFireFromZoeyManager CHARACTER Manager SUBTITLE "[angry] Zoey!"
+RULE PlayerFriendlyFireFromZoeyManager CRITERIA ConceptPlayerFriendlyFire IsNotCoughing IsManager IsNotManagerFriendlyFire IsDamageTypeBullet IsTalk IsTalkManager SubjectIsTeenGirl ChanceToFire30Percent RESPONSE PlayerFriendlyFireFromZoeyManager
+RESPONSE PlayerFriendlyFireNoBulletManager CHARACTER Manager SUBTITLE "Hey, man, that hurt."
+RESPONSE PlayerFriendlyFireNoBulletManager CHARACTER Manager SUBTITLE "AH! Will you knock it off?"
+RESPONSE PlayerFriendlyFireNoBulletManager CHARACTER Manager SUBTITLE "Do I look like one of them?"
+RESPONSE PlayerFriendlyFireNoBulletManager CHARACTER Manager SUBTITLE "Hey, man, that's not cool."
+RESPONSE PlayerFriendlyFireNoBulletManager CHARACTER Manager SUBTITLE "Look at my face, do I look like them?"
+RESPONSE PlayerFriendlyFireNoBulletManager CHARACTER Manager SUBTITLE "Ahhh Mother"
+RULE PlayerFriendlyFireNoBulletManager CRITERIA ConceptPlayerFriendlyFire IsNotCoughing IsManager IsNotManagerFriendlyFire IsNotDamageTypeBullet IsTalk IsTalkManager RESPONSE PlayerFriendlyFireNoBulletManager
+RESPONSE PlayerToTheRescueManager CHARACTER Manager SUBTITLE "Hold on, I'm on my way!"
+RESPONSE PlayerToTheRescueManager CHARACTER Manager SUBTITLE "Look, I'm coming!"
+RESPONSE PlayerToTheRescueManager CHARACTER Manager SUBTITLE "Don't worry, I'm on my way!"
+RULE PlayerToTheRescueManager CRITERIA ConceptSurvivorBotMovingToReviveFriend IsNotCoughing IsManager IsTalk IsTalkManager NotInCombat IsNotSaidRescueComing IsDistanceSubjectO600 RESPONSE PlayerToTheRescueManager
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Aw riiiight!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Woo baby, Aw riiiight!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Hell yeah."
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "YEAH!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "YEAH WOO!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "That's right!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Woo Hoo, that's right!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Yeah, baby, Yeah!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Alllright!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Oh yeah, who's your momma, who's your daddy"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Helll yeah, Hell yeah!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "[loud, evil laugh]"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "[loud, evil laugh]"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "[loud, evil laugh]"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "[loud, evil laugh]"
+RULE SurvivorTauntResponseManager CRITERIA ConceptPlayerTaunt IsSurvivor IsNotSpeaking IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorTauntResponseManager
+RULE EmphaticArriveRunFarmManager CRITERIA ConceptEmphaticArriveRunFarm IsNotCoughing IsManager IsTalkManager RESPONSE EmphaticArriveRunManager
+RESPONSE PlayerChokeResponseManager CHARACTER Manager SUBTITLE "[Choking]"
+RESPONSE PlayerChokeResponseManager CHARACTER Manager SUBTITLE "[Choking]"
+RESPONSE PlayerChokeResponseManager CHARACTER Manager SUBTITLE "[Choking]"
+RESPONSE PlayerChokeResponseManager CHARACTER Manager SUBTITLE "[Choking]"
+RESPONSE PlayerChokeResponseManager CHARACTER Manager SUBTITLE "[Choking]"
+RESPONSE PlayerChokeResponseManager CHARACTER Manager SUBTITLE "[Choking]"
+RESPONSE PlayerChokeResponseManager CHARACTER Manager SUBTITLE "[Choking]"
+RESPONSE PlayerChokeResponseManager CHARACTER Manager SUBTITLE "[Choking]"
+RESPONSE PlayerChokeResponseManager CHARACTER Manager SUBTITLE "Help!"
+RESPONSE PlayerChokeResponseManager CHARACTER Manager SUBTITLE "Help!"
+RULE PlayerChokeResponseManager CRITERIA ConceptPlayerChoke IsSurvivor IsManager IsTalk IsTalkManager RESPONSE PlayerChokeResponseManager
+RESPONSE PlayerTonguePullStartResponseManager CHARACTER Manager SUBTITLE "no, No, NO, NO!!!!!"
+RESPONSE PlayerTonguePullStartResponseManager CHARACTER Manager SUBTITLE "no, No, NO, NO!!!!!"
+RESPONSE PlayerTonguePullStartResponseManager CHARACTER Manager SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE PlayerTonguePullStartResponseManager CHARACTER Manager SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE PlayerTonguePullStartResponseManager CHARACTER Manager SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE PlayerTonguePullStartResponseManager CHARACTER Manager SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE PlayerTonguePullStartResponseManager CHARACTER Manager SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RULE PlayerTonguePullStartResponseManager CRITERIA ConceptPlayerTonguePullStart IsSurvivor IsManager IsTalk IsTalkManager RESPONSE PlayerTonguePullStartResponseManager
+RESPONSE SurvivorCriticalHurtManager CHARACTER Manager SUBTITLE "[Pain noise - loud major pain]"
+RESPONSE SurvivorCriticalHurtManager CHARACTER Manager SUBTITLE "[Pain noise - loud major pain]"
+RESPONSE SurvivorCriticalHurtManager CHARACTER Manager SUBTITLE "[Pain noise - loud major pain]"
+RESPONSE SurvivorCriticalHurtManager CHARACTER Manager SUBTITLE "[Pain noise - loud major pain]"
+RESPONSE SurvivorCriticalHurtManager CHARACTER Manager SUBTITLE "[Pain noise - loud major pain]"
+RULE SurvivorCriticalHurtManager CRITERIA IsSurvivor InPain IsCriticalPain IsManager IsTalk IsTalkManager RESPONSE SurvivorCriticalHurtManager
+RESPONSE SurvivorIncapacitatedHurtManager CHARACTER Manager SUBTITLE "[Ahhhh - terrified yell]"
+RESPONSE SurvivorIncapacitatedHurtManager CHARACTER Manager SUBTITLE "[Ahhhh - terrified yell]"
+RESPONSE SurvivorIncapacitatedHurtManager CHARACTER Manager SUBTITLE "[Ahhhh - terrified yell]"
+RULE SurvivorIncapacitatedHurtManager CRITERIA IsSurvivor InPain IsNotSpeaking IsIncapacitatedPain IsManager IsTalk IsTalkManager RESPONSE SurvivorIncapacitatedHurtManager
+RESPONSE SurvivorMajorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - huh]"
+RESPONSE SurvivorMajorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - ahh]"
+RESPONSE SurvivorMajorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - oy]"
+RESPONSE SurvivorMajorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - oy]"
+RESPONSE SurvivorMajorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - ugh]"
+RESPONSE SurvivorMajorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - ugh]"
+RESPONSE SurvivorMajorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - ugh]"
+RESPONSE SurvivorMajorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - ugh]"
+RESPONSE SurvivorMajorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - ugh]"
+RESPONSE SurvivorMajorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - ugh]"
+RULE SurvivorMajorHurtManager CRITERIA IsSurvivor InPain IsMajorPain IsManager IsTalk IsTalkManager RESPONSE SurvivorMajorHurtManager
+RESPONSE SurvivorMinorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtManager CHARACTER Manager SUBTITLE "[Pain noise - short minor pain]"
+RULE SurvivorMinorHurtManager CRITERIA IsSurvivor InPain IsMinorPain IsManager IsTalk IsTalkManager RESPONSE SurvivorMinorHurtManager
+RESPONSE SurvivorReloadingManager CHARACTER Manager SUBTITLE "Reloading!"
+RESPONSE SurvivorReloadingManager CHARACTER Manager SUBTITLE "Reloading!"
+RESPONSE SurvivorReloadingManager CHARACTER Manager SUBTITLE "Reloading!"
+RULE SurvivorReloadingManager CRITERIA ConceptPlayerReloading IsSurvivor IsNotSpeaking IsManager IsNotIncapacitated IsTalk IsTalkManager RecentGroupInCombat10 RESPONSE SurvivorReloadingManager
+RESPONSE PlayerHelpIncappedManager CHARACTER Manager SUBTITLE "Help!"
+RESPONSE PlayerHelpIncappedManager CHARACTER Manager SUBTITLE "I need some help over here!"
+RESPONSE PlayerHelpIncappedManager CHARACTER Manager SUBTITLE "Need a little help over here!"
+RESPONSE PlayerHelpIncappedManager CHARACTER Manager SUBTITLE "Help me!"
+RESPONSE PlayerHelpIncappedManager CHARACTER Manager SUBTITLE "Help!"
+RESPONSE PlayerHelpIncappedManager CHARACTER Manager SUBTITLE "I'm in trouble!"
+RESPONSE PlayerHelpIncappedManager CHARACTER Manager SUBTITLE "I need some help!"
+RESPONSE PlayerHelpIncappedManager CHARACTER Manager SUBTITLE "Somebody help me!"
+RESPONSE PlayerHelpIncappedManager CHARACTER Manager SUBTITLE "Can you hear me? I need some help!"
+RESPONSE PlayerHelpIncappedManager CHARACTER Manager SUBTITLE "What part of help do you not understand?  Help!"
+RULE PlayerHelpIncappedManager CRITERIA ConceptPlayerHelp IsManager IsTalk IsTalkManager IsIncapacitated NotCalledForHelpRecently RESPONSE PlayerHelpIncappedManager
+RESPONSE HelpResponseBillManager CHARACTER Manager SUBTITLE "We cannot leave anyone behind"
+RESPONSE HelpResponseBillManager CHARACTER Manager SUBTITLE "What you waitin' for, let's go help him!"
+RULE HelpResponseBillManager CRITERIA ConceptFriendNeedsHelp IsManager IsTalk IsTalkManager IsNotIncapacitated IsInSafeSpot FromIsNamVet IsNotInStartArea NotAloneInSafeSpot RESPONSE HelpResponseBillManager
+RESPONSE HelpResponseFrancisManager CHARACTER Manager SUBTITLE "I'm no hero, but we can't just leave 'em out there."
+RESPONSE HelpResponseFrancisManager CHARACTER Manager SUBTITLE "Come on, I'd want them to come for me."
+RESPONSE HelpResponseFrancisManager CHARACTER Manager SUBTITLE "We cannot leave anyone behind"
+RESPONSE HelpResponseFrancisManager CHARACTER Manager SUBTITLE "What you waitin' for, let's go help him!"
+RULE HelpResponseFrancisManager CRITERIA ConceptFriendNeedsHelp IsManager IsTalk IsTalkManager IsNotIncapacitated IsInSafeSpot FromIsBiker IsNotInStartArea NotAloneInSafeSpot RESPONSE HelpResponseFrancisManager
+RESPONSE HelpResponseZoeyManager CHARACTER Manager SUBTITLE "I am NOT leaving Zoey behind!"
+RESPONSE HelpResponseZoeyManager CHARACTER Manager SUBTITLE "We cannot leave anyone behind"
+RESPONSE HelpResponseZoeyManager CHARACTER Manager SUBTITLE "What you waitin' for, let's go help her!"
+RULE HelpResponseZoeyManager CRITERIA ConceptFriendNeedsHelp IsManager IsTalk IsTalkManager IsNotIncapacitated IsInSafeSpot FromIsTeenGirl IsNotInStartArea NotAloneInSafeSpot RESPONSE HelpResponseZoeyManager
+RESPONSE hospital02_path03a1 CHARACTER Manager SUBTITLE "Allright, no problem. Now we gotta get out of the subway."
+RULE hospital02_path03a1 CRITERIA Concepthospital02_path03a1 IsManager IsTalk IsTalkManager IsSubjectNear400 NotInCombat RESPONSE hospital02_path03a1
+RESPONSE hospital03_path03a1 CHARACTER Manager SUBTITLE "Hurry!"
+RESPONSE hospital03_path03a1 CHARACTER Manager SUBTITLE "Hurry!"
+RESPONSE hospital03_path03a1 CHARACTER Manager SUBTITLE "Hurry up."
+RULE hospital03_path03a1 CRITERIA Concepthospital03_path03a1 IsManager IsTalk IsTalkManager IsSubjectNear400 NotInCombat RESPONSE hospital03_path03a1
+RESPONSE PlayeGoingToDie3VampireaManager CHARACTER Manager SUBTITLE "They ain't vampires, man, they're zombies."
+RULE PlayeGoingToDie3VampireaManager CRITERIA ConceptVampiresBeata IsManager IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 TimeSinceGroupInCombat10 RESPONSE PlayeGoingToDie3VampireaManager
+RESPONSE PlayerAirport02CraneStartedManager CHARACTER Manager SUBTITLE "Stay positive, guys! I got a good feeling about this."
+RULE PlayerAirport02CraneStartedManager CRITERIA Conceptairport02_creshendoCrane IsManager RESPONSE PlayerAirport02CraneStartedManager
+RESPONSE Playerairport03_barrieraManager CHARACTER Manager SUBTITLE "Let's do it!"
+RESPONSE Playerairport03_barrieraManager CHARACTER Manager SUBTITLE "Good thinking."
+RESPONSE Playerairport03_barrieraManager CHARACTER Manager SUBTITLE "Okay, let's do it!"
+RESPONSE Playerairport03_barrieraManager CHARACTER Manager SUBTITLE "Sounds good to me."
+RULE Playerairport03_barrieraManager CRITERIA Conceptairport03_barriera IsManager IsNotSaidairport03_barriera IsTalk IsTalkManager IsSubjectNear800 IsNotSaidairport03_barrier RESPONSE Playerairport03_barrieraManager
+RESPONSE PlayerAirport03FirePathClearaManager CHARACTER Manager SUBTITLE "Let's go let's go let's go!"
+RULE PlayerAirport03FirePathClearaManager CRITERIA ConceptAirport03FirePathCleara IsManager  IsNotCoughing IsTalk IsTalkManager ChanceToFire10Percent RecentGroupInCombat2 RESPONSE PlayerAirport03FirePathClearaManager
+RESPONSE PlayerAirport03FireStartedXManager CHARACTER Manager SUBTITLE ""
+RULE PlayerAirport03FireStartedXManager CRITERIA ConceptAirport03FireStartedX IsManager  IsNotCoughing  IsTalk IsTalkManager RESPONSE PlayerAirport03FireStartedXManager
+RESPONSE Playerairport04_05aManager CHARACTER Manager SUBTITLE "Oh no. Ain't no damn way..."
+RESPONSE Playerairport04_05aManager CHARACTER Manager SUBTITLE "Not a chance."
+RESPONSE Playerairport04_05aManager CHARACTER Manager SUBTITLE "No way, man."
+RULE Playerairport04_05aManager CRITERIA Conceptairport04_05a IsManager  IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE Playerairport04_05aManager
+RESPONSE Playerairport04_08bManager CHARACTER Manager SUBTITLE "You're joking, right?"
+RESPONSE Playerairport04_08bManager CHARACTER Manager SUBTITLE "Holy shit..."
+RULE Playerairport04_08bManager CRITERIA Conceptairport04_08b IsManager IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 RESPONSE Playerairport04_08bManager
+RESPONSE PlayerFrancisSuggestsCraneManager CHARACTER Manager SUBTITLE "Good thinking."
+RULE PlayerFrancisSuggestsCraneManager CRITERIA ConceptFrancisSuggestsCrane IsManager IsNotSaidFrancisSuggestsCrane IsTalk IsTalkManager IsSubjectNear800 RESPONSE PlayerFrancisSuggestsCraneManager
+RESPONSE PlayerLaughFrancisManager CHARACTER Manager SUBTITLE "<Short laugh>"
+RESPONSE PlayerLaughFrancisManager CHARACTER Manager SUBTITLE "<Short laugh>"
+RULE PlayerLaughFrancisManager CRITERIA ConceptLaughFrancis IsManager IsNotSaidLaughFrancis IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerLaughFrancisManager
+RESPONSE PlayerRemarkairport02_creshendo01aManager CHARACTER Manager SUBTITLE ""
+RULE PlayerRemarkairport02_creshendo01aManager CRITERIA ConceptRemark IsManager Isairport02_creshendo01a IsNotSaidairport02_creshendo01a IsNotCoughing NotInCombat IsTalk IsTalkManager RESPONSE PlayerRemarkairport02_creshendo01aManager
+RESPONSE PlayerRemarkairport03_07Manager CHARACTER Manager SUBTITLE "Safe house!"
+RESPONSE PlayerRemarkairport03_07Manager CHARACTER Manager SUBTITLE "Safe house up ahead!"
+RULE PlayerRemarkairport03_07Manager CRITERIA ConceptRemark IsManager Isairport03_07 IsNotSaidairport03_07 IsNotCoughing NotInCombat IsTalk IsTalkManager IsNotSaidSafeSpotAhead RESPONSE PlayerRemarkairport03_07Manager
+RESPONSE PlayerRemarkairport04_02Manager CHARACTER Manager SUBTITLE "They really trashed this airport"
+RESPONSE PlayerRemarkairport04_02Manager CHARACTER Manager SUBTITLE "Man, they really trashed this place"
+RULE PlayerRemarkairport04_02Manager CRITERIA ConceptRemark IsManager Isairport04_02 IsNotSaidairport04_02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkairport04_02Manager
+RESPONSE PlayerRemarkcrashcourse01_path01Manager CHARACTER Manager SUBTITLE "Poor guy, he tried to help us."
+RULE PlayerRemarkcrashcourse01_path01Manager CRITERIA ConceptRemark IsManager Iscrashcourse01_path01 IsNotSaidcrashcourse01_path01 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkcrashcourse01_path01Manager
+RESPONSE PlayerRemarkFarm01_path01Manager CHARACTER Manager SUBTITLE ""
+RULE PlayerRemarkFarm01_path01Manager CRITERIA ConceptRemark IsManager IsFarm01_path01 IsNotSaidFarm01_path01 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkFarm01_path01Manager
+RESPONSE PlayerRemarkFarm01_path02Manager CHARACTER Manager SUBTITLE "This way."
+RULE PlayerRemarkFarm01_path02Manager CRITERIA ConceptRemark IsManager IsFarm01_path02 IsNotSaidFarm01_path02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkFarm01_path02Manager
+RESPONSE PlayerRemarkFarm01_path03Manager CHARACTER Manager SUBTITLE ""
+RULE PlayerRemarkFarm01_path03Manager CRITERIA ConceptRemark IsManager IsFarm01_path03 IsNotSaidFarm01_path03 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkFarm01_path03Manager
+RESPONSE PlayerRemarkFarm01_path03aManager CHARACTER Manager SUBTITLE "I bet your country ass DOES like this trailer."
+RULE PlayerRemarkFarm01_path03aManager CRITERIA IsManager ConceptFarm01_path03a IsNotCoughing NotInCombat IsTalk IsTalkManager IsBikerNear400 RESPONSE PlayerRemarkFarm01_path03aManager
+RESPONSE PlayerRemarkFarm02_path01Manager CHARACTER Manager SUBTITLE "This way."
+RULE PlayerRemarkFarm02_path01Manager CRITERIA ConceptRemark IsManager IsFarm02_path01 IsNotSaidFarm02_path01 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkFarm02_path01Manager
+RESPONSE PlayerRemarkFarm02_path02Manager CHARACTER Manager SUBTITLE "Down there."
+RULE PlayerRemarkFarm02_path02Manager CRITERIA ConceptRemark IsManager IsFarm02_path02 IsNotSaidFarm02_path02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 NotSaidFarm02_TracksBelow RESPONSE PlayerRemarkFarm02_path02Manager
+RESPONSE PlayerRemarkFarm02_path02aManager CHARACTER Manager SUBTITLE "Down there."
+RULE PlayerRemarkFarm02_path02aManager CRITERIA ConceptRemark IsManager IsFarm02_path02 IsNotSaidFarm02_path02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 IsBikerNear125 NotSaidFarm02_TracksBelow RESPONSE PlayerRemarkFarm02_path02aManager
+RULE PlayerRemarkFarm02_path03Manager CRITERIA ConceptRemark IsManager IsFarm02_path03 IsNotSaidFarm02_path03 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 NotSaidFarm02_TracksBelow RESPONSE PlayerRemarkFarm02_path02Manager
+RULE PlayerRemarkFarm02_path03aManager CRITERIA ConceptRemark IsManager IsFarm02_path03 IsNotSaidFarm02_path03 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 NotSaidFarm02_TracksBelow IsBikerNear125 RESPONSE PlayerRemarkFarm02_path02aManager
+RULE PlayerRemarkFarm02_path04Manager CRITERIA ConceptRemark IsManager IsFarm02_path04 IsNotSaidFarm02_path04 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 NotSaidFarm02_TracksBelow RESPONSE PlayerRemarkFarm02_path02Manager
+RULE PlayerRemarkFarm02_path04aManager CRITERIA ConceptRemark IsManager IsFarm02_path04 IsNotSaidFarm02_path04 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 NotSaidFarm02_TracksBelow  IsBikerNear125 RESPONSE PlayerRemarkFarm02_path02aManager
+RULE PlayerRemarkFarm02_path05Manager CRITERIA ConceptRemark IsManager IsFarm02_path05 IsNotSaidFarm02_path05 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 NotSaidFarm02_TracksBelow RESPONSE PlayerRemarkFarm02_path02Manager
+RULE PlayerRemarkFarm02_path05aManager CRITERIA ConceptRemark IsManager IsFarm02_path05 IsNotSaidFarm02_path05 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 NotSaidFarm02_TracksBelow IsBikerNear125 RESPONSE PlayerRemarkFarm02_path02aManager
+RESPONSE PlayerRemarkFarm02_path06Manager CHARACTER Manager SUBTITLE "Here's a way down!"
+RULE PlayerRemarkFarm02_path06Manager CRITERIA ConceptRemark IsManager IsFarm02_path06 IsNotSaidFarm02_path06 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkFarm02_path06Manager
+RESPONSE PlayerRemarkFarm02_path09Manager CHARACTER Manager SUBTITLE "Let's get up that ladder!"
+RULE PlayerRemarkFarm02_path09Manager CRITERIA ConceptRemark IsManager IsFarm02_path09 IsNotSaidFarm02_path09 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkFarm02_path09Manager
+RULE PlayerRemarkFarm02_path10Manager CRITERIA ConceptRemark IsManager IsFarm02_path10 IsNotSaidFarm02_path10 IsNotCoughing IsTalk IsTalkManager IsSubjectNear400 RESPONSE PlayerRemarkSmalltown03_path14Manager
+RESPONSE PlayerRemarkFarm03_path01aManager CHARACTER Manager SUBTITLE "Stay positive, guys! I got a good feeling about this."
+RULE PlayerRemarkFarm03_path01aManager CRITERIA IsManager ConceptFarm03_path01a IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkFarm03_path01aManager
+RESPONSE PlayerRemarkFarm03_path03Manager CHARACTER Manager SUBTITLE "Through this door!"
+RULE PlayerRemarkFarm03_path03Manager CRITERIA ConceptRemark IsManager IsFarm03_path03 IsNotSaidFarm03_path03 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkFarm03_path03Manager
+RESPONSE PlayerRemarkFarm03_path06Manager CHARACTER Manager SUBTITLE "Tracks are blocked. We gotta find another way"
+RULE PlayerRemarkFarm03_path06Manager CRITERIA ConceptRemark IsManager IsFarm03_path06 IsNotSaidFarm03_path06 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkFarm03_path06Manager
+RESPONSE PlayerRemarkFarm03_path07Manager CHARACTER Manager SUBTITLE "That is some nasty shit."
+RULE PlayerRemarkFarm03_path07Manager CRITERIA ConceptRemark IsManager IsFarm03_path07 IsNotSaidFarm03_path07 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear100 RESPONSE PlayerRemarkFarm03_path07Manager
+RULE PlayerRemarkFarm03_path09Manager CRITERIA ConceptRemark IsManager IsFarm03_path09 IsNotSaidFarm03_path09 IsNotCoughing IsTalk IsTalkManager IsSubjectNear400 RESPONSE PlayerRemarkFarm01_path09Manager
+RESPONSE PlayerRemarkFarm03_path10Manager CHARACTER Manager SUBTITLE "Up there!"
+RULE PlayerRemarkFarm03_path10Manager CRITERIA ConceptRemark IsManager IsFarm03_path10 Farm03BridgeDown IsNotSaidFarm03_path10 IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkFarm03_path10Manager
+RESPONSE PlayerRemarkFarm04_path01aManager CHARACTER Manager SUBTITLE ""
+RULE PlayerRemarkFarm04_path01aManager CRITERIA ConceptRemark IsManager IsFarm04_path01 IsNotSaidFarm04_path01 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkFarm04_path01aManager
+RESPONSE PlayerRemarkFarm04_path04Manager CHARACTER Manager SUBTITLE ""
+RULE PlayerRemarkFarm04_path04Manager CRITERIA ConceptRemark IsManager IsFarm04_path04 IsNotSaidFarm04_path04 IsSubjectNear1000 IsTalkManager RESPONSE PlayerRemarkFarm04_path04Manager
+RULE PlayerRemarkFarm04_path05Manager CRITERIA ConceptRemark IsManager IsFarm04_path05 IsNotSaidFarm04_path05 IsSubjectNear600 IsTalkManager RESPONSE PlayerRemarkFarm04_path04Manager
+RESPONSE PlayerRemarkFarm04_path06Manager CHARACTER Manager SUBTITLE ""
+RULE PlayerRemarkFarm04_path06Manager CRITERIA ConceptRemark IsManager IsFarm04_path06 IsNotSaidFarm04_path06 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear500 RESPONSE PlayerRemarkFarm04_path06Manager
+RESPONSE PlayerRemarkFarm04_path07Manager CHARACTER Manager SUBTITLE "Up the stairs!"
+RULE PlayerRemarkFarm04_path07Manager CRITERIA ConceptRemark IsManager IsFarm04_path07 IsNotSaidFarm04_path07 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkFarm04_path07Manager
+RESPONSE PlayerRemarkFarm04_path08Manager CHARACTER Manager SUBTITLE "Through here!"
+RULE PlayerRemarkFarm04_path08Manager CRITERIA ConceptRemark IsManager IsFarm04_path08 IsNotSaidFarm04_path08 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkFarm04_path08Manager
+RESPONSE PlayerRemarkFarm04_path09Manager CHARACTER Manager SUBTITLE "Safe house up ahead!"
+RULE PlayerRemarkFarm04_path09Manager CRITERIA ConceptRemark IsManager IsFarm04_path09 IsNotSaidFarm04_path09 IsNotCoughing IsTalk IsTalkManager IsSubjectNear1000 RESPONSE PlayerRemarkFarm04_path09Manager
+RESPONSE PlayerRemarkFarm04_path10Manager CHARACTER Manager SUBTITLE "Jee-zus..."
+RULE PlayerRemarkFarm04_path10Manager CRITERIA ConceptRemark IsManager IsFarm04_path10 IsNotSaidFarm04_path10 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear100 RESPONSE PlayerRemarkFarm04_path10Manager
+RULE PlayerRemarkFarm05_path01Manager CRITERIA ConceptRemark IsManager IsFarm05_path01 IsNotSaidFarm05_path01 IsNotSaidFarm05_path02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkFarm03_path06Manager
+RULE PlayerRemarkFarm05_path02Manager CRITERIA ConceptRemark IsManager IsFarm05_path02 IsNotSaidFarm05_path02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 RESPONSE PlayerRemarkFarm02_path09Manager
+RESPONSE PlayerRemarkFarm05_path08Manager CHARACTER Manager SUBTITLE "We're almost out of here!"
+RULE PlayerRemarkFarm05_path08Manager CRITERIA ConceptRemark IsManager IsFarm05_path08 IsNotSaidFarm05_path09 IsNotSaidFarm05_path10 IsNotSaidFarm05_path08 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear500 RESPONSE PlayerRemarkFarm05_path08Manager
+RULE PlayerRemarkFarm05_path09Manager CRITERIA ConceptRemark IsManager IsFarm05_path09 IsNotSaidFarm05_path09 IsNotSaidFarm05_path08 IsNotSaidFarm05_path10 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkFarm05_path08Manager
+RULE PlayerRemarkFarm05_path10Manager CRITERIA ConceptRemark IsManager IsFarm05_path10 IsNotSaidFarm05_path10 IsNotSaidFarm05_path09 IsNotSaidFarm05_path08 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkFarm05_path08Manager
+RESPONSE PlayerRemarkhospital01_path01Manager CHARACTER Manager SUBTITLE "Subway station's just around the corner!"
+RESPONSE PlayerRemarkhospital01_path01Manager CHARACTER Manager SUBTITLE "The Station's just up the street."
+RULE PlayerRemarkhospital01_path01Manager CRITERIA ConceptRemark IsManager Ishospital01_path01 IsNotSaidhospital01_path01 IsNotCoughing NotInCombat IsSubjectAlmostNear IsTalk IsTalkManager RESPONSE PlayerRemarkhospital01_path01Manager
+RESPONSE PlayerRemarkhospital01_path02Manager CHARACTER Manager SUBTITLE "This way!"
+RESPONSE PlayerRemarkhospital01_path02Manager CHARACTER Manager SUBTITLE "Station's up the street!"
+RULE PlayerRemarkhospital01_path02Manager CRITERIA ConceptRemark IsManager Ishospital01_path02 IsNotSaidhospital01_path02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectAlmostNear RESPONSE PlayerRemarkhospital01_path02Manager
+RESPONSE PlayerRemarkhospital01_path03Manager CHARACTER Manager SUBTITLE "There's the station!"
+RESPONSE PlayerRemarkhospital01_path03Manager CHARACTER Manager SUBTITLE "Get to the station!"
+RESPONSE PlayerRemarkhospital01_path03Manager CHARACTER Manager SUBTITLE "There it is!"
+RULE PlayerRemarkhospital01_path03Manager CRITERIA ConceptRemark IsManager Ishospital01_path03 IsNotSaidhospital01_path03 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear RESPONSE PlayerRemarkhospital01_path03Manager
+RESPONSE PlayerRemarkhospital02_path02Manager CHARACTER Manager SUBTITLE "Red Line North is the way."
+RESPONSE PlayerRemarkhospital02_path02Manager CHARACTER Manager SUBTITLE "We gotta take the Red Line North to Mercy Hospital."
+RESPONSE PlayerRemarkhospital02_path02Manager CHARACTER Manager SUBTITLE "The red line will take us to Mercy."
+RULE PlayerRemarkhospital02_path02Manager CRITERIA ConceptRemark IsManager Ishospital02_path02 IsNotSaidhospital02_path02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear500 RESPONSE PlayerRemarkhospital02_path02Manager
+RESPONSE PlayerRemarkhospital02_path03Manager CHARACTER Manager SUBTITLE "Damn, the line's blocked."
+RESPONSE PlayerRemarkhospital02_path03Manager CHARACTER Manager SUBTITLE "Tracks are blocked. We gotta find another way"
+RULE PlayerRemarkhospital02_path03Manager CRITERIA ConceptRemark IsManager Ishospital02_path03 IsNotSaidhospital02_path03 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear900 RESPONSE PlayerRemarkhospital02_path03Manager
+RESPONSE PlayerRemarkhospital02_path04Manager CHARACTER Manager SUBTITLE "Safe house in the pawnshop!"
+RESPONSE PlayerRemarkhospital02_path04Manager CHARACTER Manager SUBTITLE "Get to the pawnshop!"
+RULE PlayerRemarkhospital02_path04Manager CRITERIA ConceptRemark IsManager Ishospital02_path04 IsNotSaidhospital02_path04 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 RESPONSE PlayerRemarkhospital02_path04Manager
+RESPONSE PlayerRemarkhospital02_safehouseManager CHARACTER Manager SUBTITLE "There's the safe house!"
+RESPONSE PlayerRemarkhospital02_safehouseManager CHARACTER Manager SUBTITLE "Safe house!"
+RESPONSE PlayerRemarkhospital02_safehouseManager CHARACTER Manager SUBTITLE "Safe house up ahead!"
+RULE PlayerRemarkhospital02_safehouseManager CRITERIA ConceptRemark IsManager Ishospital02_safehouse IsNotSaidhospital02_safehouse IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear1000 RESPONSE PlayerRemarkhospital02_safehouseManager
+RESPONSE PlayerRemarkhospital03_path01Manager CHARACTER Manager SUBTITLE "Tch. I think it's this way."
+RESPONSE PlayerRemarkhospital03_path01Manager CHARACTER Manager SUBTITLE "Should be around here."
+RESPONSE PlayerRemarkhospital03_path01Manager CHARACTER Manager SUBTITLE "We should be close!"
+RULE PlayerRemarkhospital03_path01Manager CRITERIA ConceptRemark IsManager Ishospital03_path01 IsNotSaidhospital03_path01 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkhospital03_path01Manager
+RESPONSE PlayerRemarkhospital03_path02Manager CHARACTER Manager SUBTITLE "Hospital's just past the water works!"
+RESPONSE PlayerRemarkhospital03_path02Manager CHARACTER Manager SUBTITLE "There's the Hospital!!"
+RULE PlayerRemarkhospital03_path02Manager CRITERIA ConceptRemark IsManager Ishospital03_path02 IsNotSaidhospital03_path02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 ChanceToFire50Percent RESPONSE PlayerRemarkhospital03_path02Manager
+RULE AUTOBLANK_PlayerRemarkhospital03_path02Manager CRITERIA ConceptRemark IsManager Ishospital03_path02 IsNotSaidhospital03_path02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE _PlayerInfoRemarkableBlankManager
+RESPONSE PlayerRemarkhospital03_path03Manager CHARACTER Manager SUBTITLE "Excellent! We can use that lift!"
+RESPONSE PlayerRemarkhospital03_path03Manager CHARACTER Manager SUBTITLE "Get on the lift!"
+RESPONSE PlayerRemarkhospital03_path03Manager CHARACTER Manager SUBTITLE "Get on the lift!"
+RESPONSE PlayerRemarkhospital03_path03Manager CHARACTER Manager SUBTITLE "Get on the lift!"
+RESPONSE PlayerRemarkhospital03_path03Manager CHARACTER Manager SUBTITLE "Everybody, get on the lift!"
+RULE PlayerRemarkhospital03_path03Manager CRITERIA ConceptRemark IsManager Ishospital03_path03 IsNotSaidhospital03_path03 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear800 RESPONSE PlayerRemarkhospital03_path03Manager
+RESPONSE PlayerRemarkhospital03_path04Manager CHARACTER Manager SUBTITLE "This way."
+RESPONSE PlayerRemarkhospital03_path04Manager CHARACTER Manager SUBTITLE "This way!"
+RESPONSE PlayerRemarkhospital03_path04Manager CHARACTER Manager SUBTITLE "Through the warehouse!"
+RULE PlayerRemarkhospital03_path04Manager CRITERIA ConceptRemark IsManager Ishospital03_path04 IsNotSaidhospital03_path04 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkhospital03_path04Manager
+RESPONSE PlayerRemarkhospital03_path05Manager CHARACTER Manager SUBTITLE "Bet it's just a little further"
+RULE PlayerRemarkhospital03_path05Manager CRITERIA ConceptRemark IsManager Ishospital03_path05 IsNotSaidhospital03_path05 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 ChanceToFire20Percent RESPONSE PlayerRemarkhospital03_path05Manager
+RULE AUTOBLANK_PlayerRemarkhospital03_path05Manager CRITERIA ConceptRemark IsManager Ishospital03_path05 IsNotSaidhospital03_path05 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE _PlayerInfoRemarkableBlankManager
+RESPONSE PlayerRemarkhospital03_path06Manager CHARACTER Manager SUBTITLE "Still can't get used to this."
+RULE PlayerRemarkhospital03_path06Manager CRITERIA ConceptRemark IsManager Ishospital03_path06 IsNotSaidhospital03_path06 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 ChanceToFire50Percent RESPONSE PlayerRemarkhospital03_path06Manager
+RULE AUTOBLANK_PlayerRemarkhospital03_path06Manager CRITERIA ConceptRemark IsManager Ishospital03_path06 IsNotSaidhospital03_path06 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE _PlayerInfoRemarkableBlankManager
+RESPONSE PlayerRemarkhospital03_path07Manager CHARACTER Manager SUBTITLE "This is going to be messy."
+RESPONSE PlayerRemarkhospital03_path07Manager CHARACTER Manager SUBTITLE "Well... into the sewers we go!"
+RESPONSE PlayerRemarkhospital03_path07Manager CHARACTER Manager SUBTITLE "This is not going to be sanitary."
+RULE PlayerRemarkhospital03_path07Manager CRITERIA ConceptRemark IsManager Ishospital03_path07 IsNotSaidhospital03_path07 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkhospital03_path07Manager
+RESPONSE PlayerRemarkhospital03_path08Manager CHARACTER Manager SUBTITLE "Gonna be messy."
+RULE PlayerRemarkhospital03_path08Manager CRITERIA ConceptRemark IsManager Ishospital03_path08 IsNotSaidhospital03_path08 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 ChanceToFire50Percent RESPONSE PlayerRemarkhospital03_path08Manager
+RULE AUTOBLANK_PlayerRemarkhospital03_path08Manager CRITERIA ConceptRemark IsManager Ishospital03_path08 IsNotSaidhospital03_path08 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 RESPONSE _PlayerInfoRemarkableBlankManager
+RESPONSE PlayerRemarkhospital03_path08aManager CHARACTER Manager SUBTITLE "Phew... Francis..."
+RULE PlayerRemarkhospital03_path08aManager CRITERIA ConceptRemark IsManager Ishospital03_path08 IsNotSaidhospital03_path08 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 ChanceToFire50Percent IsBikerAlive RESPONSE PlayerRemarkhospital03_path08aManager
+RULE AUTOBLANK_PlayerRemarkhospital03_path08aManager CRITERIA ConceptRemark IsManager Ishospital03_path08 IsNotSaidhospital03_path08 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 IsBikerAlive RESPONSE _PlayerInfoRemarkableBlankManager
+RESPONSE PlayerRemarkhospital03_path10Manager CHARACTER Manager SUBTITLE "Mercy Hospital should be right above us."
+RULE PlayerRemarkhospital03_path10Manager CRITERIA ConceptRemark IsManager Ishospital03_path10 IsNotSaidhospital03_path10 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkhospital03_path10Manager
+RESPONSE PlayerRemarkhospital03_path11Manager CHARACTER Manager SUBTITLE "The HOSPITAL!"
+RESPONSE PlayerRemarkhospital03_path11Manager CHARACTER Manager SUBTITLE "GET TO THE HOSPITAL!"
+RESPONSE PlayerRemarkhospital03_path11Manager CHARACTER Manager SUBTITLE "The Hospital! We made it!"
+RESPONSE PlayerRemarkhospital03_path11Manager CHARACTER Manager SUBTITLE "Hurry eveyrone!"
+RULE PlayerRemarkhospital03_path11Manager CRITERIA ConceptRemark IsManager Ishospital03_path11 IsNotSaidhospital03_path11 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear1000 RESPONSE PlayerRemarkhospital03_path11Manager
+RESPONSE PlayerRemarkhospital04_path01Manager CHARACTER Manager SUBTITLE "This doesn't smell like a hospital..."
+RESPONSE PlayerRemarkhospital04_path01Manager CHARACTER Manager SUBTITLE "Were they saving people or killin' them?"
+RULE PlayerRemarkhospital04_path01Manager CRITERIA ConceptRemark IsManager Ishospital04_path01 IsNotSaidhospital04_path01 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkhospital04_path01Manager
+RESPONSE PlayerRemarkhospital04_path02aManager CHARACTER Manager SUBTITLE "Stairs are a good workout."
+RESPONSE PlayerRemarkhospital04_path02aManager CHARACTER Manager SUBTITLE "It's good for you Bill, cardio!"
+RULE PlayerRemarkhospital04_path02aManager CRITERIA Concepthospital04_path02a IsManager IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkhospital04_path02aManager
+RESPONSE PlayerRemarkhospital04_path04Manager CHARACTER Manager SUBTITLE "Elevator's here!"
+RESPONSE PlayerRemarkhospital04_path04Manager CHARACTER Manager SUBTITLE "To the elevator!"
+RESPONSE PlayerRemarkhospital04_path04Manager CHARACTER Manager SUBTITLE "Into the elevator!"
+RESPONSE PlayerRemarkhospital04_path04Manager CHARACTER Manager SUBTITLE "Get in  the elevator!"
+RULE PlayerRemarkhospital04_path04Manager CRITERIA ConceptRemark IsManager Ishospital04_path04 IsNotSaidhospital04_path04 IsNotCoughing  IsTalk IsTalkManager IsSubjectNear1000 IsSubjectFar100 RESPONSE PlayerRemarkhospital04_path04Manager
+RESPONSE PlayerRemarkhospital04_path04aManager CHARACTER Manager SUBTITLE "Elevator's here!"
+RESPONSE PlayerRemarkhospital04_path04aManager CHARACTER Manager SUBTITLE "To the elevator!"
+RESPONSE PlayerRemarkhospital04_path04aManager CHARACTER Manager SUBTITLE "Into the elevator!"
+RESPONSE PlayerRemarkhospital04_path04aManager CHARACTER Manager SUBTITLE "Get in  the elevator!"
+RULE PlayerRemarkhospital04_path04aManager CRITERIA Concepthospital04_path04a IsManager  IsTalk IsTalkManager RESPONSE PlayerRemarkhospital04_path04aManager
+RESPONSE PlayerRemarkhospital04_path05Manager CHARACTER Manager SUBTITLE "We need to find access to the roof!"
+RESPONSE PlayerRemarkhospital04_path05Manager CHARACTER Manager SUBTITLE "We need to find roof access!"
+RULE PlayerRemarkhospital04_path05Manager CRITERIA ConceptRemark IsManager Ishospital04_path05 IsNotSaidhospital04_path05 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkhospital04_path05Manager
+RESPONSE PlayerRemarkhospital04_path06Manager CHARACTER Manager SUBTITLE "Stay away from the edge."
+RULE PlayerRemarkhospital04_path06Manager CRITERIA ConceptRemark IsManager Ishospital04_path06 IsNotSaidhospital04_path06 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear500 RESPONSE PlayerRemarkhospital04_path06Manager
+RESPONSE PlayerRemarkhospital04_path07Manager CHARACTER Manager SUBTITLE "Safe house through here."
+RESPONSE PlayerRemarkhospital04_path07Manager CHARACTER Manager SUBTITLE "Roof this way!"
+RESPONSE PlayerRemarkhospital04_path07Manager CHARACTER Manager SUBTITLE "Let's go, let's go!"
+RESPONSE PlayerRemarkhospital04_path07Manager CHARACTER Manager SUBTITLE "The roof's this way!"
+RULE PlayerRemarkhospital04_path07Manager CRITERIA ConceptRemark IsManager Ishospital04_path07 IsNotSaidhospital04_path07 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear1000 RESPONSE PlayerRemarkhospital04_path07Manager
+RESPONSE PlayerRemarkhospital05_path01Manager CHARACTER Manager SUBTITLE "Bet the chopper pilot'll be happy to hear from us!"
+RESPONSE PlayerRemarkhospital05_path01Manager CHARACTER Manager SUBTITLE "Let's find that radio!"
+RESPONSE PlayerRemarkhospital05_path01Manager CHARACTER Manager SUBTITLE "Well, this is it."
+RESPONSE PlayerRemarkhospital05_path01Manager CHARACTER Manager SUBTITLE "Well, it can only get better, right?"
+RULE PlayerRemarkhospital05_path01Manager CRITERIA ConceptRemark IsManager Ishospital05_path01 IsNotSaidhospital05_path01 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkhospital05_path01Manager
+RESPONSE PlayerRemarkhospital05_path01bManager CHARACTER Manager SUBTITLE "Works for me."
+RULE PlayerRemarkhospital05_path01bManager CRITERIA Concepthospital05_path01b IsManager IsTalk IsTalkManager RESPONSE PlayerRemarkhospital05_path01bManager
+RESPONSE PlayerRemarkhospital05_path02Manager CHARACTER Manager SUBTITLE "Through here!"
+RULE PlayerRemarkhospital05_path02Manager CRITERIA ConceptRemark IsManager Ishospital05_path02 IsNotSaidhospital05_path02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 RESPONSE PlayerRemarkhospital05_path02Manager
+RESPONSE PlayerRemarkhospital05_path03Manager CHARACTER Manager SUBTITLE "There's the landing pad."
+RULE PlayerRemarkhospital05_path03Manager CRITERIA ConceptRemark IsManager Ishospital05_path03 IsNotSaidhospital05_path03 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkhospital05_path03Manager
+RESPONSE PlayerRemarkhospital05_path04Manager CHARACTER Manager SUBTITLE "Big ass gun up here."
+RESPONSE PlayerRemarkhospital05_path04Manager CHARACTER Manager SUBTITLE "Check out this gun up here!"
+RESPONSE PlayerRemarkhospital05_path04Manager CHARACTER Manager SUBTITLE "Man, I always wanted to fire one of these things."
+RESPONSE PlayerRemarkhospital05_path04Manager CHARACTER Manager SUBTITLE "Man, check this gun out!"
+RULE PlayerRemarkhospital05_path04Manager CRITERIA ConceptRemark IsManager Ishospital05_path04 IsNotSaidhospital05_path04 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkhospital05_path04Manager
+RESPONSE PlayerRemarkPathClearVanManager CHARACTER Manager SUBTITLE "Time to move."
+RESPONSE PlayerRemarkPathClearVanManager CHARACTER Manager SUBTITLE "Whaddya say we get moving?"
+RULE PlayerRemarkPathClearVanManager CRITERIA ConceptPathClearVan IsManager IsNotSaidPathClearVan IsNotCoughing  IsTalk IsTalkManager RESPONSE PlayerRemarkPathClearVanManager
+RESPONSE PlayerRemarkSmalltown01_path01Manager CHARACTER Manager SUBTITLE "Ah, hell. The bridge is out."
+RULE PlayerRemarkSmalltown01_path01Manager CRITERIA ConceptRemark IsManager IsSmalltown01_path01 IsNotSaidSmalltown01_path01 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkSmalltown01_path01Manager
+RESPONSE PlayerRemarkSmalltown01_path02Manager CHARACTER Manager SUBTITLE "Looks like we can get back up the other side."
+RULE PlayerRemarkSmalltown01_path02Manager CRITERIA ConceptRemark IsManager IsSmalltown01_path02 IsNotSaidSmalltown01_path02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 IsNotSaidSmalltown01_path04 IsSaidSmalltown01_path01 RESPONSE PlayerRemarkSmalltown01_path02Manager
+RESPONSE PlayerRemarkSmalltown01_path03Manager CHARACTER Manager SUBTITLE "Let's get up that ladder!"
+RULE PlayerRemarkSmalltown01_path03Manager CRITERIA ConceptRemark IsManager IsSmalltown01_path03 IsNotSaidSmalltown01_path03 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkSmalltown01_path03Manager
+RESPONSE PlayerRemarkSmalltown01_path06Manager CHARACTER Manager SUBTITLE "I don't like this one damn bit."
+RULE PlayerRemarkSmalltown01_path06Manager CRITERIA ConceptRemark IsManager IsSmalltown01_path06 IsNotSaidSmalltown01_path06 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkSmalltown01_path06Manager
+RESPONSE PlayerRemarkSmalltown01_path07Manager CHARACTER Manager SUBTITLE "The tunnel's blocked."
+RULE PlayerRemarkSmalltown01_path07Manager CRITERIA ConceptRemark IsManager IsSmalltown01_path07 IsNotSaidSmalltown01_path07 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear1000 IsNotSaidSmalltown01_path08 RESPONSE PlayerRemarkSmalltown01_path07Manager
+RESPONSE PlayerRemarkSmalltown01_path08Manager CHARACTER Manager SUBTITLE "Through here!"
+RESPONSE PlayerRemarkSmalltown01_path08Manager CHARACTER Manager SUBTITLE "Through this door!"
+RULE PlayerRemarkSmalltown01_path08Manager CRITERIA ConceptRemark IsManager IsSmalltown01_path08 IsNotSaidSmalltown01_path08 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkSmalltown01_path08Manager
+RESPONSE PlayerRemarkSmalltown01_path09Manager CHARACTER Manager SUBTITLE "There's the safe house!"
+RESPONSE PlayerRemarkSmalltown01_path09Manager CHARACTER Manager SUBTITLE "Safe house up ahead!"
+RULE PlayerRemarkSmalltown01_path09Manager CRITERIA ConceptRemark IsManager IsSmalltown01_path09 IsNotSaidSmalltown01_path09 IsNotCoughing IsTalk IsTalkManager IsSubjectNear1500 RESPONSE PlayerRemarkSmalltown01_path09Manager
+RESPONSE PlayerRemarksmalltown02_path01Manager CHARACTER Manager SUBTITLE "These must be overflow pipes for Riverside."
+RULE PlayerRemarksmalltown02_path01Manager CRITERIA ConceptRemark IsManager Issmalltown02_path01 IsNotSaidsmalltown02_path01 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear600 ChanceToFire15Percent RESPONSE PlayerRemarksmalltown02_path01Manager
+RULE AUTOBLANK_PlayerRemarksmalltown02_path01Manager CRITERIA ConceptRemark IsManager Issmalltown02_path01 IsNotSaidsmalltown02_path01 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear600 RESPONSE _PlayerInfoRemarkableBlankManager
+RESPONSE PlayerRemarksmalltown02_path01bManager CHARACTER Manager SUBTITLE "Interesting true story. In 1975, the local township - [gets cut off]"
+RULE PlayerRemarksmalltown02_path01bManager CRITERIA ConceptSmallTown02_path01b IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear600 IsManager RESPONSE PlayerRemarksmalltown02_path01bManager
+RESPONSE PlayerRemarksmalltown02_path02Manager CHARACTER Manager SUBTITLE "Through here!"
+RULE PlayerRemarksmalltown02_path02Manager CRITERIA ConceptRemark IsManager Issmalltown02_path02 IsNotSaidsmalltown02_path02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarksmalltown02_path02Manager
+RESPONSE PlayerRemarksmalltown02_path03Manager CHARACTER Manager SUBTITLE "Through here!"
+RULE PlayerRemarksmalltown02_path03Manager CRITERIA ConceptRemark IsManager Issmalltown02_path03 IsNotSaidsmalltown02_path03 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarksmalltown02_path03Manager
+RESPONSE PlayerRemarksmalltown02_path04Manager CHARACTER Manager SUBTITLE "Through here!"
+RULE PlayerRemarksmalltown02_path04Manager CRITERIA ConceptRemark IsManager Issmalltown02_path04 IsNotSaidsmalltown02_path04 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarksmalltown02_path04Manager
+RESPONSE PlayerRemarksmalltown02_path06Manager CHARACTER Manager SUBTITLE "We have to lower that platform!"
+RULE PlayerRemarksmalltown02_path06Manager CRITERIA ConceptRemark IsManager Issmalltown02_path06 IsNotSaidsmalltown02_path06 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear700 RESPONSE PlayerRemarksmalltown02_path06Manager
+RESPONSE PlayerRemarksmalltown02_path08Manager CHARACTER Manager SUBTITLE "That'll seal the lock."
+RULE PlayerRemarksmalltown02_path08Manager CRITERIA ConceptRemark IsManager Issmalltown02_path08 IsNotSaidsmalltown02_path08 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear100 RESPONSE PlayerRemarksmalltown02_path08Manager
+RESPONSE PlayerRemarksmalltown02_path08aManager CHARACTER Manager SUBTITLE "That'll seal the lock."
+RULE PlayerRemarksmalltown02_path08aManager CRITERIA Conceptsmalltown02_path08a IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 IsManager RESPONSE PlayerRemarksmalltown02_path08aManager
+RESPONSE PlayerRemarkSmalltown02_path09Manager CHARACTER Manager SUBTITLE "Safe house up ahead!"
+RULE PlayerRemarkSmalltown02_path09Manager CRITERIA ConceptRemark IsManager IsSmalltown02_path09 IsNotSaidSmalltown02_path09 IsNotCoughing IsTalk IsTalkManager IsSubjectNear1000 RESPONSE PlayerRemarkSmalltown02_path09Manager
+RESPONSE PlayerRemarkSmalltown03_path03Manager CHARACTER Manager SUBTITLE "We need to get over this fence."
+RULE PlayerRemarkSmalltown03_path03Manager CRITERIA ConceptRemark IsManager IsSmalltown03_path03 IsNotSaidSmalltown03_path03 IsNotSaidSmalltown03_path04 IsNotSaidSmalltown03_path05 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkSmalltown03_path03Manager
+RESPONSE PlayerRemarkSmalltown03_path04Manager CHARACTER Manager SUBTITLE "Up the stairs!"
+RESPONSE PlayerRemarkSmalltown03_path04Manager CHARACTER Manager SUBTITLE "We can cross up here."
+RULE PlayerRemarkSmalltown03_path04Manager CRITERIA ConceptRemark IsManager IsSmalltown03_path04 IsNotSaidSmalltown03_path04 IsNotSaidSmalltown03_path05 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkSmalltown03_path04Manager
+RESPONSE PlayerRemarkSmalltown03_path05Manager CHARACTER Manager SUBTITLE "Up the stairs!"
+RESPONSE PlayerRemarkSmalltown03_path05Manager CHARACTER Manager SUBTITLE "We can cross up here."
+RULE PlayerRemarkSmalltown03_path05Manager CRITERIA ConceptRemark IsManager IsSmalltown03_path05 IsNotSaidSmalltown03_path04 IsNotSaidSmalltown03_path05 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkSmalltown03_path05Manager
+RESPONSE PlayerRemarkSmalltown03_path06Manager CHARACTER Manager SUBTITLE "We can cross up here."
+RULE PlayerRemarkSmalltown03_path06Manager CRITERIA ConceptRemark IsManager IsSmalltown03_path06 IsNotSaidSmalltown03_path06 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 RESPONSE PlayerRemarkSmalltown03_path06Manager
+RESPONSE PlayerRemarkSmalltown03_path08Manager CHARACTER Manager SUBTITLE "[Reading a turnpike sign] Riverside! At least we're going the right way."
+RESPONSE PlayerRemarkSmalltown03_path08Manager CHARACTER Manager SUBTITLE "Almost to Riverside."
+RULE PlayerRemarkSmalltown03_path08Manager CRITERIA ConceptRemark IsManager IsSmalltown03_path08 IsNotSaidSmalltown03_path08 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkSmalltown03_path08Manager
+RESPONSE PlayerRemarkSmalltown03_path11Manager CHARACTER Manager SUBTITLE "Man, It's too quiet, too dman quiet"
+RULE PlayerRemarkSmalltown03_path11Manager CRITERIA ConceptRemark IsManager IsSmalltown03_path11 IsNotSaidSmalltown03_path11 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear100 RESPONSE PlayerRemarkSmalltown03_path11Manager
+RESPONSE PlayerRemarkSmalltown03_path12Manager CHARACTER Manager SUBTITLE "Look, there's lights on in that church!"
+RESPONSE PlayerRemarkSmalltown03_path12Manager CHARACTER Manager SUBTITLE "Church still got its lights on."
+RULE PlayerRemarkSmalltown03_path12Manager CRITERIA ConceptRemark IsManager IsSmalltown03_path12 IsNotSaidSmalltown03_path12 IsNotSaidSmalltown03_path13 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 RESPONSE PlayerRemarkSmalltown03_path12Manager
+RESPONSE PlayerRemarkSmalltown03_path13Manager CHARACTER Manager SUBTITLE "Look, there's lights on in that church!"
+RESPONSE PlayerRemarkSmalltown03_path13Manager CHARACTER Manager SUBTITLE "Church still got its lights on."
+RULE PlayerRemarkSmalltown03_path13Manager CRITERIA ConceptRemark IsManager IsSmalltown03_path13 IsNotSaidSmalltown03_path13 IsNotSaidSmalltown03_path12 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 RESPONSE PlayerRemarkSmalltown03_path13Manager
+RESPONSE PlayerRemarkSmalltown04_path01Manager CHARACTER Manager SUBTITLE ""
+RULE PlayerRemarkSmalltown04_path01Manager CRITERIA ConceptRemark IsManager IsSmalltown04_path01 IsNotSaidSmalltown04_path01 IsNotSaidSmalltown04_path02 IsNotCoughing NotInCombat IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkSmalltown04_path01Manager
+RESPONSE PlayerRemarkSmalltown04_path02Manager CHARACTER Manager SUBTITLE ""
+RULE PlayerRemarkSmalltown04_path02Manager CRITERIA ConceptRemark IsManager IsSmalltown04_path02 IsNotSaidSmalltown04_path02 IsNotSaidSmalltown04_path01 IsNotCoughing NotInCombat IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkSmalltown04_path02Manager
+RESPONSE PlayerRemarkSmalltown04_path03Manager CHARACTER Manager SUBTITLE "Goddamn it, there's gotta be some place that held out."
+RULE PlayerRemarkSmalltown04_path03Manager CRITERIA ConceptRemark IsManager IsSmalltown04_path03 IsNotSaidSmalltown04_path03 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 IsSmalltownBarricadeManager RESPONSE PlayerRemarkSmalltown04_path03Manager
+RESPONSE PlayerRemarkSmalltown04_path04Manager CHARACTER Manager SUBTITLE "Goddamn it, there's gotta be some place that held out."
+RULE PlayerRemarkSmalltown04_path04Manager CRITERIA ConceptRemark IsManager IsSmalltown04_path04 IsNotSaidSmalltown04_path04 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 IsSmalltownBarricadeManager RESPONSE PlayerRemarkSmalltown04_path04Manager
+RESPONSE PlayerRemarkSmalltown04_path05Manager CHARACTER Manager SUBTITLE "This way."
+RULE PlayerRemarkSmalltown04_path05Manager CRITERIA ConceptRemark IsManager IsSmalltown04_path05 IsNotSaidSmalltown04_path05 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkSmalltown04_path05Manager
+RESPONSE PlayerRemarkSmalltown04_path07AManager CHARACTER Manager SUBTITLE "If you ignore the crazy guy and the zombies, nice town"
+RULE PlayerRemarkSmalltown04_path07AManager CRITERIA ConceptSmalltown04_Path07A IsManager IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 ChanceToFire30Percent RESPONSE PlayerRemarkSmalltown04_path07AManager
+RESPONSE PlayerRemarkSmalltown04_path08Manager CHARACTER Manager SUBTITLE "Now *this* is a big ass machine gun."
+RULE PlayerRemarkSmalltown04_path08Manager CRITERIA ConceptRemark IsManager IsSmalltown04_path08 IsNotSaidSmalltown04_path08 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkSmalltown04_path08Manager
+RESPONSE PlayerRemarkSmalltown04_path09Manager CHARACTER Manager SUBTITLE "Goddamn it, there's gotta be some place that held out."
+RULE PlayerRemarkSmalltown04_path09Manager CRITERIA ConceptRemark IsManager IsSmalltown04_path09 IsNotSaidSmalltown04_path09 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 IsSmalltownBarricadeManager RESPONSE PlayerRemarkSmalltown04_path09Manager
+RESPONSE PlayerRemarkSmalltown04_path10Manager CHARACTER Manager SUBTITLE "We can cross up here."
+RULE PlayerRemarkSmalltown04_path10Manager CRITERIA ConceptRemark IsManager IsSmalltown04_path10 IsNotSaidSmalltown04_path10 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkSmalltown04_path10Manager
+RULE PlayerRemarkSmalltown04_path11Manager CRITERIA ConceptRemark IsManager IsSmalltown04_path11 IsNotSaidSmalltown04_path11 IsNotCoughing IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkSmalltown03_path14Manager
+RESPONSE PlayerRemarkSmalltown05_path01Manager CHARACTER Manager SUBTITLE ""
+RULE PlayerRemarkSmalltown05_path01Manager CRITERIA ConceptRemark IsManager IsSmalltown05_path01 IsNotSaidSmalltown05_path01 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear1000 RESPONSE PlayerRemarkSmalltown05_path01Manager
+RESPONSE PlayerRemarkSmalltown05_path02Manager CHARACTER Manager SUBTITLE "Careful, this is wide open."
+RULE PlayerRemarkSmalltown05_path02Manager CRITERIA ConceptRemark IsManager IsSmalltown05_path02 IsNotSaidSmalltown05_path02 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear800 RESPONSE PlayerRemarkSmalltown05_path02Manager
+RESPONSE PlayerRemarkSmalltown05_path03Manager CHARACTER Manager SUBTITLE "We can get to the river through here."
+RULE PlayerRemarkSmalltown05_path03Manager CRITERIA ConceptRemark IsManager IsSmalltown05_path03 IsNotSaidSmalltown05_path03 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear300 RESPONSE PlayerRemarkSmalltown05_path03Manager
+RESPONSE PlayerRemarkSmalltown05_path06Manager CHARACTER Manager SUBTITLE "Through here!"
+RULE PlayerRemarkSmalltown05_path06Manager CRITERIA ConceptRemark IsManager IsSmalltown05_path06 IsNotSaidSmalltown05_path06 IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear200 RESPONSE PlayerRemarkSmalltown05_path06Manager
+RESPONSE PlayerRemarkThroughHereManager CHARACTER Manager SUBTITLE "Through here!"
+RULE PlayerRemarkThroughHereManager CRITERIA ConceptRemark IsManager IsThroughHere IsNotSaidThroughHere IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 RESPONSE PlayerRemarkThroughHereManager
+RESPONSE PlayerRemarkUpThatLadderManager CHARACTER Manager SUBTITLE "Let's get up that ladder!"
+RULE PlayerRemarkUpThatLadderManager CRITERIA ConceptRemark IsManager IsUpThatLadder IsNotSaidUpThatLadder IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 RESPONSE PlayerRemarkUpThatLadderManager
+RESPONSE PlayerZoeySuggestsCraneManager CHARACTER Manager SUBTITLE "Allright, then, let's do it."
+RESPONSE PlayerZoeySuggestsCraneManager CHARACTER Manager SUBTITLE "Good thinking."
+RULE PlayerZoeySuggestsCraneManager CRITERIA ConceptZoeySuggestsCrane IsManager IsNotSaidZoeySuggestsCrane IsTalk IsTalkManager IsSubjectNear800 RESPONSE PlayerZoeySuggestsCraneManager
+RESPONSE RespondAffirmativeManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE RespondAffirmativeManager CHARACTER Manager SUBTITLE "Okay."
+RULE RespondAffirmativeManager CRITERIA ConceptRespondAffirmative IssuerMediumClose IsNotCoughing NotInCombat isManager IsTalkManager RESPONSE RespondAffirmativeManager
+RESPONSE RiversideIsDeadManager CHARACTER Manager SUBTITLE "Riverside's a bust. Let's just get to the river."
+RULE RiversideIsDeadManager CRITERIA ConceptRiversideIsDead IsManager IsNotCoughing IsTalkManager RESPONSE RiversideIsDeadManager
+RESPONSE RiversideIsDeadBManager CHARACTER Manager SUBTITLE "If we get to the river we can find a boat"
+RULE RiversideIsDeadBManager CRITERIA ConceptRiversideIsDeadB IsManager IsNotCoughing IsTalkManager RESPONSE RiversideIsDeadBManager
+RESPONSE RiversideIsDeadPlanManager CHARACTER Manager SUBTITLE "Okay..."
+RESPONSE RiversideIsDeadPlanManager CHARACTER Manager SUBTITLE "Works for me."
+RULE RiversideIsDeadPlanManager CRITERIA ConceptRiversideIsDeadPlan IsManager IsNotCoughing IsTalkManager RESPONSE RiversideIsDeadPlanManager
+RESPONSE RiversideIsDeadSpecial1Manager CHARACTER Manager SUBTITLE "Riverside's a bust. Let's just get to the river."
+RULE RiversideIsDeadSpecial1Manager CRITERIA ConceptRiversideIsDead IsManager IsNotCoughing IsTalkManager ChanceToFire20Percent RESPONSE RiversideIsDeadSpecial1Manager
+RESPONSE SafeSpotAheadResponse CHARACTER Manager SUBTITLE "Finally!"
+RESPONSE SafeSpotAheadResponse CHARACTER Manager SUBTITLE "We made it!"
+RESPONSE SafeSpotAheadResponse CHARACTER Manager SUBTITLE "Knew we'd make it!"
+RESPONSE SafeSpotAheadResponse CHARACTER Manager SUBTITLE "Man, I KNEW we was gonna make it."
+RULE SafeSpotAheadResponse CRITERIA IsManager IsNotCoughing NotInCombat IsTalk IsTalkManager IsSubjectNear400 ConceptSafeSpotAheadResponse ChanceToFire30Percent RESPONSE SafeSpotAheadResponse
+RESPONSE PlayerNearFinaleFarmManager CHARACTER Manager SUBTITLE ""
+RULE PlayerNearFinaleFarmManager CRITERIA ConceptPlayerNearFinale IsNotCoughing IsManager IsNotSaidFinaleAhead NotInCombat IsTalk IsTalkManager IsNotIncapacitated ismap_l4d_farm05_cornfield RESPONSE PlayerNearFinaleFarmManager
+RESPONSE PlayerCoverMeManager CHARACTER Manager SUBTITLE "Cover me!"
+RESPONSE PlayerCoverMeManager CHARACTER Manager SUBTITLE "Cover me!"
+RESPONSE PlayerCoverMeManager CHARACTER Manager SUBTITLE "Cover me!"
+RESPONSE PlayerCoverMeManager CHARACTER Manager SUBTITLE "Watch my back!"
+RESPONSE PlayerCoverMeManager CHARACTER Manager SUBTITLE "Watch my back!"
+RULE PlayerCoverMeManager CRITERIA ConceptPlayerCoverMe IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerCoverMeManager
+RESPONSE PlayerFollowMeManager CHARACTER Manager SUBTITLE "Come on this way."
+RESPONSE PlayerFollowMeManager CHARACTER Manager SUBTITLE "Follow me."
+RESPONSE PlayerFollowMeManager CHARACTER Manager SUBTITLE "Follow me!"
+RESPONSE PlayerFollowMeManager CHARACTER Manager SUBTITLE "This way."
+RESPONSE PlayerFollowMeManager CHARACTER Manager SUBTITLE "Come on man, this way."
+RULE PlayerFollowMeManager CRITERIA ConceptPlayerFollowMe IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerFollowMeManager
+RESPONSE PlayerHelpManager CHARACTER Manager SUBTITLE "Help!"
+RESPONSE PlayerHelpManager CHARACTER Manager SUBTITLE "I need some help over here!"
+RESPONSE PlayerHelpManager CHARACTER Manager SUBTITLE "Need a little help over here!"
+RESPONSE PlayerHelpManager CHARACTER Manager SUBTITLE "Help me!"
+RESPONSE PlayerHelpManager CHARACTER Manager SUBTITLE "Help!"
+RESPONSE PlayerHelpManager CHARACTER Manager SUBTITLE "I'm in trouble!"
+RESPONSE PlayerHelpManager CHARACTER Manager SUBTITLE "I need some help!"
+RESPONSE PlayerHelpManager CHARACTER Manager SUBTITLE "Somebody help me!"
+RESPONSE PlayerHelpManager CHARACTER Manager SUBTITLE "Can you hear me? I need some help!"
+RESPONSE PlayerHelpManager CHARACTER Manager SUBTITLE "What part of help do you not understand?  Help!"
+RULE PlayerHelpManager CRITERIA ConceptPlayerHelp IsManager IsTalk IsTalkManager RESPONSE PlayerHelpManager
+RESPONSE PlayerHurryUpManager CHARACTER Manager SUBTITLE "Hurry up!"
+RESPONSE PlayerHurryUpManager CHARACTER Manager SUBTITLE "Hurry up!"
+RESPONSE PlayerHurryUpManager CHARACTER Manager SUBTITLE "Hurry!"
+RESPONSE PlayerHurryUpManager CHARACTER Manager SUBTITLE "Hurry!"
+RESPONSE PlayerHurryUpManager CHARACTER Manager SUBTITLE "Move!"
+RESPONSE PlayerHurryUpManager CHARACTER Manager SUBTITLE "Come on!"
+RESPONSE PlayerHurryUpManager CHARACTER Manager SUBTITLE "Hurry!"
+RESPONSE PlayerHurryUpManager CHARACTER Manager SUBTITLE "Faster!"
+RESPONSE PlayerHurryUpManager CHARACTER Manager SUBTITLE "Move it"
+RESPONSE PlayerHurryUpManager CHARACTER Manager SUBTITLE "Let's go let's go let's go!"
+RESPONSE PlayerHurryUpManager CHARACTER Manager SUBTITLE "Come on, catch up!"
+RESPONSE PlayerHurryUpManager CHARACTER Manager SUBTITLE "Move it, move it up here!"
+RESPONSE PlayerHurryUpManager CHARACTER Manager SUBTITLE "I'm not waiting on you, get up here!"
+RULE PlayerHurryUpManager CRITERIA ConceptPlayerHurryUp IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerHurryUpManager
+RESPONSE PlayerKillThatLightManager CHARACTER Manager SUBTITLE "Kill that light!"
+RESPONSE PlayerKillThatLightManager CHARACTER Manager SUBTITLE "Flashlights off!"
+RESPONSE PlayerKillThatLightManager CHARACTER Manager SUBTITLE "Turn your light off!"
+RESPONSE PlayerKillThatLightManager CHARACTER Manager SUBTITLE "Kill the light, man."
+RESPONSE PlayerKillThatLightManager CHARACTER Manager SUBTITLE "Lights off!"
+RULE PlayerKillThatLightManager CRITERIA ConceptPlayerKillThatLight IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerKillThatLightManager
+RESPONSE PlayerLeadOnManager CHARACTER Manager SUBTITLE "You all go right ahead."
+RESPONSE PlayerLeadOnManager CHARACTER Manager SUBTITLE "You go ahead, I'll follow you."
+RESPONSE PlayerLeadOnManager CHARACTER Manager SUBTITLE "You take the lead."
+RESPONSE PlayerLeadOnManager CHARACTER Manager SUBTITLE "Go ahead."
+RESPONSE PlayerLeadOnManager CHARACTER Manager SUBTITLE "You first."
+RULE PlayerLeadOnManager CRITERIA ConceptPlayerLeadOn IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerLeadOnManager
+RESPONSE PlayerMoveOnManager CHARACTER Manager SUBTITLE "Allright, let's go."
+RESPONSE PlayerMoveOnManager CHARACTER Manager SUBTITLE "Time to move."
+RESPONSE PlayerMoveOnManager CHARACTER Manager SUBTITLE "Let's go."
+RESPONSE PlayerMoveOnManager CHARACTER Manager SUBTITLE "Let's Move, Let's Move!"
+RESPONSE PlayerMoveOnManager CHARACTER Manager SUBTITLE "I really think we should keep moving."
+RESPONSE PlayerMoveOnManager CHARACTER Manager SUBTITLE "Whaddya say we get moving?"
+RESPONSE PlayerMoveOnManager CHARACTER Manager SUBTITLE "Let's go."
+RESPONSE PlayerMoveOnManager CHARACTER Manager SUBTITLE "Tme to move"
+RULE PlayerMoveOnManager CRITERIA ConceptPlayerMoveOn IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerMoveOnManager
+RESPONSE PlayerStayTogetherManager CHARACTER Manager SUBTITLE "Stay close."
+RESPONSE PlayerStayTogetherManager CHARACTER Manager SUBTITLE "Come on, we got to stay together."
+RESPONSE PlayerStayTogetherManager CHARACTER Manager SUBTITLE "Keep together!"
+RESPONSE PlayerStayTogetherManager CHARACTER Manager SUBTITLE "Stay together!"
+RESPONSE PlayerStayTogetherManager CHARACTER Manager SUBTITLE "We've got to stick together."
+RESPONSE PlayerStayTogetherManager CHARACTER Manager SUBTITLE "Nobody run off."
+RULE PlayerStayTogetherManager CRITERIA ConceptPlayerStayTogether IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerStayTogetherManager
+RESPONSE PlayerWatchOutBehindManager CHARACTER Manager SUBTITLE "Behind us!"
+RESPONSE PlayerWatchOutBehindManager CHARACTER Manager SUBTITLE "They're behind us!"
+RESPONSE PlayerWatchOutBehindManager CHARACTER Manager SUBTITLE "Turn around man!"
+RULE PlayerWatchOutBehindManager CRITERIA ConceptPlayerWatchOutBehind IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerWatchOutBehindManager
+RESPONSE PlayerAskReadyManager CHARACTER Manager SUBTITLE "Ready?"
+RESPONSE PlayerAskReadyManager CHARACTER Manager SUBTITLE "Ready?"
+RESPONSE PlayerAskReadyManager CHARACTER Manager SUBTITLE "Ready for this?"
+RESPONSE PlayerAskReadyManager CHARACTER Manager SUBTITLE "Ready for this?"
+RESPONSE PlayerAskReadyManager CHARACTER Manager SUBTITLE "Waddya say, we ready?"
+RESPONSE PlayerAskReadyManager CHARACTER Manager SUBTITLE "Your ready to bounce?"
+RESPONSE PlayerAskReadyManager CHARACTER Manager SUBTITLE "You Ready?"
+RESPONSE PlayerAskReadyManager CHARACTER Manager SUBTITLE "Yeah, let's get ready"
+RESPONSE PlayerAskReadyManager CHARACTER Manager SUBTITLE "I'm ready, you ready?"
+RULE PlayerAskReadyManager CRITERIA ConceptPlayerAskReady IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerAskReadyManager
+RESPONSE PlayerImWithYouManager CHARACTER Manager SUBTITLE "Don't worry, I got your back."
+RESPONSE PlayerImWithYouManager CHARACTER Manager SUBTITLE "Right behind you."
+RESPONSE PlayerImWithYouManager CHARACTER Manager SUBTITLE "I'm with ya."
+RULE PlayerImWithYouManager CRITERIA ConceptPlayerImWithYou IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerImWithYouManager
+RESPONSE PlayerLaughManager CHARACTER Manager SUBTITLE "<Hearty Laugh>"
+RESPONSE PlayerLaughManager CHARACTER Manager SUBTITLE "<Hearty Laugh>"
+RESPONSE PlayerLaughManager CHARACTER Manager SUBTITLE "<Short laugh>"
+RESPONSE PlayerLaughManager CHARACTER Manager SUBTITLE "<Hearty Laugh>"
+RESPONSE PlayerLaughManager CHARACTER Manager SUBTITLE "<Hearty Laugh>"
+RULE PlayerLaughManager CRITERIA ConceptPlayerLaugh IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerLaughManager
+RESPONSE PlayerLostCallManager CHARACTER Manager SUBTITLE ""
+RULE PlayerLostCallManager CRITERIA ConceptPlayerLostCall IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerLostCallManager
+RESPONSE PlayerNiceJobResponseManager CHARACTER Manager SUBTITLE "Nice."
+RESPONSE PlayerNiceJobResponseManager CHARACTER Manager SUBTITLE "Nice work."
+RESPONSE PlayerNiceJobResponseManager CHARACTER Manager SUBTITLE "Nice job."
+RESPONSE PlayerNiceJobResponseManager CHARACTER Manager SUBTITLE "Dammmn, man, that was nice."
+RESPONSE PlayerNiceJobResponseManager CHARACTER Manager SUBTITLE "That was great."
+RESPONSE PlayerNiceJobResponseManager CHARACTER Manager SUBTITLE "That was cool."
+RESPONSE PlayerNiceJobResponseManager CHARACTER Manager SUBTITLE "Ah, that was off the chain"
+RULE PlayerNiceJobResponseManager CRITERIA ConceptPlayerNiceJob IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerNiceJobResponseManager
+RESPONSE PlayerNoManager CHARACTER Manager SUBTITLE "No way."
+RESPONSE PlayerNoManager CHARACTER Manager SUBTITLE "Uh uh."
+RESPONSE PlayerNoManager CHARACTER Manager SUBTITLE "Nope."
+RESPONSE PlayerNoManager CHARACTER Manager SUBTITLE "Not a chance."
+RESPONSE PlayerNoManager CHARACTER Manager SUBTITLE "No way, man."
+RESPONSE PlayerNoManager CHARACTER Manager SUBTITLE "No."
+RESPONSE PlayerNoManager CHARACTER Manager SUBTITLE "I said No"
+RULE PlayerNoManager CRITERIA ConceptPlayerNo IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerNoManager
+RESPONSE PlayerProfanityManager CHARACTER Manager SUBTITLE "ah, Jesus."
+RESPONSE PlayerProfanityManager CHARACTER Manager SUBTITLE "Dammit."
+RESPONSE PlayerProfanityManager CHARACTER Manager SUBTITLE "Aw hell."
+RESPONSE PlayerProfanityManager CHARACTER Manager SUBTITLE "Dammit."
+RESPONSE PlayerProfanityManager CHARACTER Manager SUBTITLE "[loud, evil laugh]"
+RESPONSE PlayerProfanityManager CHARACTER Manager SUBTITLE "Jee-zus..."
+RULE PlayerProfanityManager CRITERIA ConceptPlayerAnswerLostCall IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerProfanityManager
+RESPONSE PlayerSorryManager CHARACTER Manager SUBTITLE "Sorry!"
+RESPONSE PlayerSorryManager CHARACTER Manager SUBTITLE "Sorry!"
+RESPONSE PlayerSorryManager CHARACTER Manager SUBTITLE "Sorry about that!"
+RESPONSE PlayerSorryManager CHARACTER Manager SUBTITLE "Aww, man, sorry."
+RESPONSE PlayerSorryManager CHARACTER Manager SUBTITLE "My bad."
+RESPONSE PlayerSorryManager CHARACTER Manager SUBTITLE "100% my fault"
+RULE PlayerSorryManager CRITERIA ConceptPlayerSorry IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerSorryManager
+RESPONSE PlayerThanksManager CHARACTER Manager SUBTITLE "Thanks."
+RESPONSE PlayerThanksManager CHARACTER Manager SUBTITLE "Thanks."
+RESPONSE PlayerThanksManager CHARACTER Manager SUBTITLE "Thanks, I owe you one."
+RESPONSE PlayerThanksManager CHARACTER Manager SUBTITLE "Thanks."
+RESPONSE PlayerThanksManager CHARACTER Manager SUBTITLE "Thanks, man."
+RESPONSE PlayerThanksManager CHARACTER Manager SUBTITLE "Thanks, man."
+RESPONSE PlayerThanksManager CHARACTER Manager SUBTITLE "Thank you."
+RESPONSE PlayerThanksManager CHARACTER Manager SUBTITLE "Thanks, I owe ya a big one."
+RESPONSE PlayerThanksManager CHARACTER Manager SUBTITLE "Thanks a lot."
+RESPONSE PlayerThanksManager CHARACTER Manager SUBTITLE "Whoo, thanks."
+RESPONSE PlayerThanksManager CHARACTER Manager SUBTITLE "Hey, thanks."
+RESPONSE PlayerThanksManager CHARACTER Manager SUBTITLE "Thanks Dog"
+RESPONSE PlayerThanksManager CHARACTER Manager SUBTITLE "Thanks, Playa"
+RULE PlayerThanksManager CRITERIA ConceptPlayerThanks IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerThanksManager
+RESPONSE PlayerYesManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE PlayerYesManager CHARACTER Manager SUBTITLE "Yeah."
+RESPONSE PlayerYesManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE PlayerYesManager CHARACTER Manager SUBTITLE "Yeah, I'm cool with that"
+RESPONSE PlayerYesManager CHARACTER Manager SUBTITLE "Yes"
+RESPONSE PlayerYesManager CHARACTER Manager SUBTITLE "Cool"
+RULE PlayerYesManager CRITERIA ConceptPlayerYes IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerYesManager
+RESPONSE PlayerYouAreWelcomeManager CHARACTER Manager SUBTITLE "It's fine."
+RESPONSE PlayerYouAreWelcomeManager CHARACTER Manager SUBTITLE "Any time."
+RESPONSE PlayerYouAreWelcomeManager CHARACTER Manager SUBTITLE "Hey, no problem."
+RESPONSE PlayerYouAreWelcomeManager CHARACTER Manager SUBTITLE "Sure."
+RESPONSE PlayerYouAreWelcomeManager CHARACTER Manager SUBTITLE "Its all good."
+RESPONSE PlayerYouAreWelcomeManager CHARACTER Manager SUBTITLE "Hey, no problem."
+RESPONSE PlayerYouAreWelcomeManager CHARACTER Manager SUBTITLE "My pleasure."
+RESPONSE PlayerYouAreWelcomeManager CHARACTER Manager SUBTITLE "Hey, man, no problem."
+RESPONSE PlayerYouAreWelcomeManager CHARACTER Manager SUBTITLE "Not a problem."
+RESPONSE PlayerYouAreWelcomeManager CHARACTER Manager SUBTITLE "You are totally welcome."
+RESPONSE PlayerYouAreWelcomeManager CHARACTER Manager SUBTITLE "Sure thing, man."
+RESPONSE PlayerYouAreWelcomeManager CHARACTER Manager SUBTITLE "Sure"
+RULE PlayerYouAreWelcomeManager CRITERIA ConceptPlayerYouAreWelcome IsNotCoughing  IsManager IsTalk IsTalkManager IsNotSpeaking RESPONSE PlayerYouAreWelcomeManager
+RULE PlayerFriendlyFireInflictorManager CRITERIA ConceptPlayerFriendlyFireInflictor IsNotCoughing IsNotSpeaking IsManager IsTalk IsTalkManager RESPONSE PlayerSorryManager
+RESPONSE PlayerNegativeManager CHARACTER Manager SUBTITLE "ohhh nooooo"
+RESPONSE PlayerNegativeManager CHARACTER Manager SUBTITLE "[Improv non-verbal displeasure & frustration sounds]"
+RESPONSE PlayerNegativeManager CHARACTER Manager SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RULE PlayerNegativeManager CRITERIA ConceptPlayerNegative IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerNegativeManager
+RESPONSE PlayerAreaClearManager CHARACTER Manager SUBTITLE "Clear!"
+RESPONSE PlayerAreaClearManager CHARACTER Manager SUBTITLE "Nothing in here!"
+RESPONSE PlayerAreaClearManager CHARACTER Manager SUBTITLE "Nothin' here!"
+RESPONSE PlayerAreaClearManager CHARACTER Manager SUBTITLE "All Clean!"
+RULE PlayerAreaClearManager CRITERIA ConceptPlayerAreaClear IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerAreaClearManager
+RESPONSE PlayerHeardBoomerManager CHARACTER Manager SUBTITLE ""
+RULE PlayerHeardBoomerManager CRITERIA ConceptPlayerHeardBoomer IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerHeardBoomerManager
+RESPONSE PlayerHeardHunterManager CHARACTER Manager SUBTITLE ""
+RULE PlayerHeardHunterManager CRITERIA ConceptPlayerHeardHunter IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerHeardHunterManager
+RESPONSE PlayerHeardSmokerManager CHARACTER Manager SUBTITLE ""
+RULE PlayerHeardSmokerManager CRITERIA ConceptPlayerHeardSmoker IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerHeardSmokerManager
+RESPONSE PlayerHeardTankManager CHARACTER Manager SUBTITLE ""
+RULE PlayerHeardTankManager CRITERIA ConceptPlayerHeardTank IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerHeardTankManager
+RESPONSE PlayerHeardWitchManager CHARACTER Manager SUBTITLE ""
+RULE PlayerHeardWitchManager CRITERIA ConceptPlayerHeardWitch IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerHeardWitchManager
+RESPONSE PlayerHurrahManager CHARACTER Manager SUBTITLE "We're going to be okay."
+RESPONSE PlayerHurrahManager CHARACTER Manager SUBTITLE "We're going to be okay."
+RESPONSE PlayerHurrahManager CHARACTER Manager SUBTITLE "Man, I think we're gonna make it."
+RESPONSE PlayerHurrahManager CHARACTER Manager SUBTITLE "They can't stop us now"
+RESPONSE PlayerHurrahManager CHARACTER Manager SUBTITLE "Nothing can stop us."
+RESPONSE PlayerHurrahManager CHARACTER Manager SUBTITLE "Nothing can stop us, do you hear me? Nothing can stop us!"
+RESPONSE PlayerHurrahManager CHARACTER Manager SUBTITLE "We are unstoppable."
+RESPONSE PlayerHurrahManager CHARACTER Manager SUBTITLE "That's right, we should call ourselves the unstoppables"
+RESPONSE PlayerHurrahManager CHARACTER Manager SUBTITLE "We are unstoppable."
+RESPONSE PlayerHurrahManager CHARACTER Manager SUBTITLE "I am bad, yes I am bad, YES I AM! WOO!"
+RULE PlayerHurrahManager CRITERIA ConceptPlayerHurrah IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerHurrahManager
+RESPONSE PlayerWarnCarefulManager CHARACTER Manager SUBTITLE "Caarefullll..."
+RESPONSE PlayerWarnCarefulManager CHARACTER Manager SUBTITLE "Careful..."
+RESPONSE PlayerWarnCarefulManager CHARACTER Manager SUBTITLE "Be careful..."
+RESPONSE PlayerWarnCarefulManager CHARACTER Manager SUBTITLE "Watch yourself now..."
+RESPONSE PlayerWarnCarefulManager CHARACTER Manager SUBTITLE "Take it easy..."
+RESPONSE PlayerWarnCarefulManager CHARACTER Manager SUBTITLE "We gotta be careful..."
+RESPONSE PlayerWarnCarefulManager CHARACTER Manager SUBTITLE "Careful, careful"
+RESPONSE PlayerWarnCarefulManager CHARACTER Manager SUBTITLE "Careful..."
+RESPONSE PlayerWarnCarefulManager CHARACTER Manager SUBTITLE "We've got to be careful..."
+RESPONSE PlayerWarnCarefulManager CHARACTER Manager SUBTITLE "Careful..."
+RULE PlayerWarnCarefulManager CRITERIA ConceptPlayerWarnCareful IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerWarnCarefulManager
+RESPONSE SurvivorSpottedWorldFarManager CHARACTER Manager SUBTITLE "Over there."
+RESPONSE SurvivorSpottedWorldFarManager CHARACTER Manager SUBTITLE "Over there."
+RESPONSE SurvivorSpottedWorldFarManager CHARACTER Manager SUBTITLE "Look."
+RESPONSE SurvivorSpottedWorldFarManager CHARACTER Manager SUBTITLE "Look!"
+RESPONSE SurvivorSpottedWorldFarManager CHARACTER Manager SUBTITLE "Look!"
+RULE SurvivorSpottedWorldFarManager CRITERIA ConceptPlayerLook IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto RESPONSE SurvivorSpottedWorldFarManager
+RESPONSE IntroSmalltownManager CHARACTER Manager SUBTITLE "I heeard the military was evacuating people to Riverside."
+RESPONSE IntroSmalltownManager CHARACTER Manager SUBTITLE "I heard reports that Riverside held out!"
+RULE IntroSmalltownManager CRITERIA ConceptIntroSmalltown IsManager RESPONSE IntroSmalltownManager
+RESPONSE IntroSmalltown3Manager CHARACTER Manager SUBTITLE "Sounds good to me."
+RESPONSE IntroSmalltown3Manager CHARACTER Manager SUBTITLE "We get to Riverside and we'll probably be allright."
+RULE IntroSmalltown3Manager CRITERIA ConceptIntroSmalltown3 IsManager RESPONSE IntroSmalltown3Manager
+RESPONSE SurvivorSpawnManager CHARACTER Manager SUBTITLE "I'm here!"
+RESPONSE SurvivorSpawnManager CHARACTER Manager SUBTITLE "Hello!"
+RESPONSE SurvivorSpawnManager CHARACTER Manager SUBTITLE "Hey, I'm here!"
+RULE SurvivorSpawnManager CRITERIA ConceptPlayerScenarioJoin IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorSpawnManager
+RESPONSE SurvivorSpawnLastMainstreetManager CHARACTER Manager SUBTITLE ""
+RULE SurvivorSpawnLastMainstreetManager CRITERIA ConceptPlayerScenarioJoinLast IsManager IsSmalltown04 RESPONSE SurvivorSpawnLastMainstreetManager
+RESPONSE PlayerBillPouncedManager CHARACTER Manager SUBTITLE "Bill!"
+RESPONSE PlayerBillPouncedManager CHARACTER Manager SUBTITLE "Hunter on Bill!"
+RESPONSE PlayerBillPouncedManager CHARACTER Manager SUBTITLE "Hunter on Bill!"
+RULE PlayerBillPouncedManager CRITERIA ConceptSurvivorWasPounced ChanceToFire30Percent IsNotCoughing SubjectIsNamVet IsNotSaidBillPounced IsManager IsTalk IsTalkManager RESPONSE PlayerBillPouncedManager
+RESPONSE PlayerEatPillsManager CHARACTER Manager SUBTITLE "Ah"
+RESPONSE PlayerEatPillsManager CHARACTER Manager SUBTITLE "Ohh"
+RULE PlayerEatPillsManager CRITERIA ConceptEatPills IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerEatPillsManager
+RESPONSE PlayerFrancisPouncedManager CHARACTER Manager SUBTITLE "Francis!"
+RESPONSE PlayerFrancisPouncedManager CHARACTER Manager SUBTITLE "Hunter on Francis!"
+RESPONSE PlayerFrancisPouncedManager CHARACTER Manager SUBTITLE "Hunter on Francis!"
+RULE PlayerFrancisPouncedManager CRITERIA ConceptSurvivorWasPounced ChanceToFire30Percent IsNotCoughing SubjectIsBiker IsNotSaidFrancisPounced IsManager IsTalk IsTalkManager RESPONSE PlayerFrancisPouncedManager
+RESPONSE PlayerGetInsideCheckPointManager CHARACTER Manager SUBTITLE "C'mon, everyone inside, inside!"
+RESPONSE PlayerGetInsideCheckPointManager CHARACTER Manager SUBTITLE "Let's get inside!"
+RESPONSE PlayerGetInsideCheckPointManager CHARACTER Manager SUBTITLE "We gotta get inside!"
+RULE PlayerGetInsideCheckPointManager CRITERIA ConceptPlayerGetInsideCheckPoint  IsNotCoughing IsManager IsInSafeSpot IsTalk IsTalkManager SomeoneOutsideSafeSpot RESPONSE PlayerGetInsideCheckPointManager
+RESPONSE PlayerGrenadeManager CHARACTER Manager SUBTITLE "GRENADE!"
+RESPONSE PlayerGrenadeManager CHARACTER Manager SUBTITLE "GRENADE!"
+RESPONSE PlayerGrenadeManager CHARACTER Manager SUBTITLE "DUCK AND COVER!"
+RESPONSE PlayerGrenadeManager CHARACTER Manager SUBTITLE "FIRE IN THE HOLE!"
+RESPONSE PlayerGrenadeManager CHARACTER Manager SUBTITLE "FIRE IN THE HOLE!"
+RESPONSE PlayerGrenadeManager CHARACTER Manager SUBTITLE "LOOK OUT, GRENADE!"
+RESPONSE PlayerGrenadeManager CHARACTER Manager SUBTITLE "GRENADE!"
+RULE PlayerGrenadeManager CRITERIA ConceptThrewGrenade IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerGrenadeManager
+RESPONSE PlayerGrenadeCarefulManager CHARACTER Manager SUBTITLE "Be very damn careful...."
+RESPONSE PlayerGrenadeCarefulManager CHARACTER Manager SUBTITLE "Caarefullll..."
+RESPONSE PlayerGrenadeCarefulManager CHARACTER Manager SUBTITLE "Careful..."
+RESPONSE PlayerGrenadeCarefulManager CHARACTER Manager SUBTITLE "Watch yourself now..."
+RESPONSE PlayerGrenadeCarefulManager CHARACTER Manager SUBTITLE "Careful..."
+RULE PlayerGrenadeCarefulManager CRITERIA ConceptGrenadeCareful IsNotCoughing IsManager IsWitchPresent NotInCombat IssuerClose IsTalk IsTalkManager RESPONSE PlayerGrenadeCarefulManager
+RESPONSE PlayerIncapacitatedInitialManager CHARACTER Manager SUBTITLE "Ahhhh, I'm down!"
+RESPONSE PlayerIncapacitatedInitialManager CHARACTER Manager SUBTITLE "Ahhhh, I'm down!"
+RESPONSE PlayerIncapacitatedInitialManager CHARACTER Manager SUBTITLE "Jesus! I'm down!"
+RESPONSE PlayerIncapacitatedInitialManager CHARACTER Manager SUBTITLE "Shit! I'm down!"
+RESPONSE PlayerIncapacitatedInitialManager CHARACTER Manager SUBTITLE "I'm down!"
+RULE PlayerIncapacitatedInitialManager CRITERIA ConceptPlayerIncapacitated IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerIncapacitatedInitialManager
+RESPONSE PlayerKillConfirmationManager CHARACTER Manager SUBTITLE "Got it!"
+RESPONSE PlayerKillConfirmationManager CHARACTER Manager SUBTITLE "Killed it!"
+RESPONSE PlayerKillConfirmationManager CHARACTER Manager SUBTITLE "Dead!"
+RESPONSE PlayerKillConfirmationManager CHARACTER Manager SUBTITLE "Got it!"
+RESPONSE PlayerKillConfirmationManager CHARACTER Manager SUBTITLE "Killed it!"
+RESPONSE PlayerKillConfirmationManager CHARACTER Manager SUBTITLE "Dead!"
+RULE PlayerKillConfirmationManager CRITERIA ConceptKilledZombie IsNotCoughing IsManager  IsTalk IsTalkManager IsSubjectFar300 ChanceToFire40Percent RESPONSE PlayerKillConfirmationManager
+RESPONSE PlayerLockTheDoorCheckPointManager CHARACTER Manager SUBTITLE "Lock that door."
+RESPONSE PlayerLockTheDoorCheckPointManager CHARACTER Manager SUBTITLE "Lock the door."
+RESPONSE PlayerLockTheDoorCheckPointManager CHARACTER Manager SUBTITLE "Lock the door, man!"
+RESPONSE PlayerLockTheDoorCheckPointManager CHARACTER Manager SUBTITLE "Go ahead and lock that door."
+RESPONSE PlayerLockTheDoorCheckPointManager CHARACTER Manager SUBTITLE "Lock the damn door"
+RESPONSE PlayerLockTheDoorCheckPointManager CHARACTER Manager SUBTITLE "Did you lock the door?"
+RESPONSE PlayerLockTheDoorCheckPointManager CHARACTER Manager SUBTITLE "Lock the door, man!"
+RULE PlayerLockTheDoorCheckPointManager CRITERIA ConceptPlayerLockTheDoorCheckPoint IsNotCoughing IsManager IsInSafeSpot IsTalk IsTalkManager RESPONSE PlayerLockTheDoorCheckPointManager
+RESPONSE PlayerRemarkairport01_burningManager CHARACTER Manager SUBTITLE "Man... this is going to take forever to rebuild"
+RESPONSE PlayerRemarkairport01_burningManager CHARACTER Manager SUBTITLE "This is NOT what I expected"
+RULE PlayerRemarkairport01_burningManager CRITERIA ConceptRemark IsManager Isairport01_burning IsNotSaidairport01_burning IsNotCoughing NotInCombat IsSubjectReallyNear ChanceToFire40Percent IsTalk IsTalkManager RESPONSE PlayerRemarkairport01_burningManager
+RULE AUTOBLANK_PlayerRemarkairport01_burningManager CRITERIA ConceptRemark IsManager Isairport01_burning IsNotSaidairport01_burning IsNotCoughing NotInCombat IsSubjectReallyNear IsTalk IsTalkManager RESPONSE _PlayerInfoRemarkableBlankManager
+RESPONSE PlayerStayTogetherInsideManager CHARACTER Manager SUBTITLE "C'mon, everyone inside, inside!"
+RESPONSE PlayerStayTogetherInsideManager CHARACTER Manager SUBTITLE "Let's get inside!"
+RESPONSE PlayerStayTogetherInsideManager CHARACTER Manager SUBTITLE "We gotta get inside!"
+RULE PlayerStayTogetherInsideManager CRITERIA ConceptPlayerStayTogether IsNotCoughing IsManager IsInSafeSpot IsTalk IsTalkManager SomeoneOutsideSafeSpot RESPONSE PlayerStayTogetherInsideManager
+RESPONSE PlayerSuggestHealthBillManager CHARACTER Manager SUBTITLE "Maybe you oughtta heal up."
+RESPONSE PlayerSuggestHealthBillManager CHARACTER Manager SUBTITLE "Bill, you might wanna use your med kit."
+RESPONSE PlayerSuggestHealthBillManager CHARACTER Manager SUBTITLE "Bill, you oughtta heal."
+RESPONSE PlayerSuggestHealthBillManager CHARACTER Manager SUBTITLE "Hey Bill, might be a good time to patch yerself up."
+RULE PlayerSuggestHealthBillManager CRITERIA ConceptPlayerSuggestHealthNamVet IsManager IssuerReallyClose IsNotSuggestedHealth IsNotBeingHealed IsTalk IsTalkManager  NotInCombat RESPONSE PlayerSuggestHealthBillManager
+RESPONSE PlayerSuggestHealthFrancisManager CHARACTER Manager SUBTITLE "Francis, you should use your med kit."
+RESPONSE PlayerSuggestHealthFrancisManager CHARACTER Manager SUBTITLE "Hey tough guy, heal up."
+RESPONSE PlayerSuggestHealthFrancisManager CHARACTER Manager SUBTITLE "Yo Francis, come on buddy, heal up."
+RESPONSE PlayerSuggestHealthFrancisManager CHARACTER Manager SUBTITLE "Francis, patch yerself up."
+RULE PlayerSuggestHealthFrancisManager CRITERIA ConceptPlayerSuggestHealthBiker IsManager IssuerReallyClose IsNotSuggestedHealth IsNotBeingHealed IsTalk IsTalkManager  NotInCombat RESPONSE PlayerSuggestHealthFrancisManager
+RESPONSE PlayerSuggestHealthZoeyManager CHARACTER Manager SUBTITLE "Zoey, you really oughtta heal."
+RESPONSE PlayerSuggestHealthZoeyManager CHARACTER Manager SUBTITLE "Go on and heal up, girl."
+RESPONSE PlayerSuggestHealthZoeyManager CHARACTER Manager SUBTITLE "Might be a good time to heal, Zoey."
+RESPONSE PlayerSuggestHealthZoeyManager CHARACTER Manager SUBTITLE "Come on, girl - time to heal up."
+RESPONSE PlayerSuggestHealthZoeyManager CHARACTER Manager SUBTITLE "Go on and heal up, Zoey."
+RULE PlayerSuggestHealthZoeyManager CRITERIA ConceptPlayerSuggestHealthTeenGirl IsManager IssuerReallyClose IsNotSuggestedHealth IsNotBeingHealed IsTalk IsTalkManager  NotInCombat RESPONSE PlayerSuggestHealthZoeyManager
+RESPONSE PlayerSuggestMeHealthBikerManager CHARACTER Manager SUBTITLE ""
+RULE PlayerSuggestMeHealthBikerManager CRITERIA ConceptTalkIdle IsNotHealthy NotInCombat YesHasFirstAidKit IsBiker IsNotBeingHealed IsTalk IsTalkManager RESPONSE PlayerSuggestMeHealthBikerManager
+RESPONSE PlayerSuggestMeHealthManagerManager CHARACTER Manager SUBTITLE ""
+RULE PlayerSuggestMeHealthManagerManager CRITERIA ConceptTalkIdle IsNotHealthy NotInCombat YesHasFirstAidKit IsManager IsNotBeingHealed IsTalk IsTalkManager RESPONSE PlayerSuggestMeHealthManagerManager
+RESPONSE PlayerSuggestMeHealthNamVetManager CHARACTER Manager SUBTITLE ""
+RULE PlayerSuggestMeHealthNamVetManager CRITERIA ConceptTalkIdle IsNotHealthy NotInCombat YesHasFirstAidKit IsNamVet IsNotBeingHealed IsTalk IsTalkManager RESPONSE PlayerSuggestMeHealthNamVetManager
+RESPONSE PlayerSuggestMeHealthTeenGirlManager CHARACTER Manager SUBTITLE ""
+RULE PlayerSuggestMeHealthTeenGirlManager CRITERIA ConceptTalkIdle IsNotHealthy NotInCombat YesHasFirstAidKit IsTeenGirl IsNotBeingHealed IsTalk IsTalkManager RESPONSE PlayerSuggestMeHealthTeenGirlManager
+RESPONSE PlayerTransitionManager CHARACTER Manager SUBTITLE "Woo baby, Aw riiiight!"
+RESPONSE PlayerTransitionManager CHARACTER Manager SUBTITLE "Nice job."
+RESPONSE PlayerTransitionManager CHARACTER Manager SUBTITLE "BOOM-diah"
+RESPONSE PlayerTransitionManager CHARACTER Manager SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE PlayerTransitionManager CHARACTER Manager SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE PlayerTransitionManager CHARACTER Manager SUBTITLE "Allright!"
+RESPONSE PlayerTransitionManager CHARACTER Manager SUBTITLE "Heh hehhhh."
+RESPONSE PlayerTransitionManager CHARACTER Manager SUBTITLE "Nice!"
+RESPONSE PlayerTransitionManager CHARACTER Manager SUBTITLE "Sweet Baby!"
+RESPONSE PlayerTransitionManager CHARACTER Manager SUBTITLE "That's what I'm talkin' about"
+RULE PlayerTransitionManager CRITERIA ConceptPlayerTransition IsNotCoughing IsManager IsNotSaidPlayerTransition IsTalk IsTalkManager RESPONSE PlayerTransitionManager
+RESPONSE PlayerTransitionCloseManager CHARACTER Manager SUBTITLE "Woah Jesus!"
+RESPONSE PlayerTransitionCloseManager CHARACTER Manager SUBTITLE "Damn!"
+RESPONSE PlayerTransitionCloseManager CHARACTER Manager SUBTITLE "At least we're safe now!"
+RESPONSE PlayerTransitionCloseManager CHARACTER Manager SUBTITLE "The guy's used to laugh when I hit the rifle range at lunch, not so funny now is it? Riflerange_02.wav"
+RULE PlayerTransitionCloseManager CRITERIA ConceptPlayerTransition IsNotCoughing IsManager IsNotSaidPlayerTransition IsTalk IsTalkManager IntensityOver75 RecentGroupInCombat10 IsEveryoneNotAlive RESPONSE PlayerTransitionCloseManager
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Watch your fire, I hear a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "I hear a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Careful, there's a Boomer's around."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "I hear a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Careful, I hear a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Watch it, I hear a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Heads up, man, I hear a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Ah, man, that sounds like a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Look out, we got a Boomer around here."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "I definitely hear a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Watch your fire, I hear a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Careful, there's a Boomer's around."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "I hear a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Careful, I hear a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Watch it, I hear a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Heads up, man, I hear a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Ah, man, that sounds like a Boomer."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "Look out, we got a Boomer around here."
+RESPONSE PlayerWarnHeardBoomerManager CHARACTER Manager SUBTITLE "I definitely hear a Boomer."
+RULE PlayerWarnHeardBoomerManager CRITERIA ConceptPlayerWarnHearZombie IsBoomerClass IsNotCoughing IsManager IsNotWarnHeardBoomer NotInCombat IsNotSaidSpecialWarn IsTalk IsTalkManager RESPONSE PlayerWarnHeardBoomerManager
+RESPONSE PlayerWarnHeardHunterManager CHARACTER Manager SUBTITLE "Watch your back, I hear a Hunter."
+RESPONSE PlayerWarnHeardHunterManager CHARACTER Manager SUBTITLE "Careful, I hear a Hunter."
+RESPONSE PlayerWarnHeardHunterManager CHARACTER Manager SUBTITLE "I hear a Hunter"
+RESPONSE PlayerWarnHeardHunterManager CHARACTER Manager SUBTITLE "There's a Hunter out there."
+RESPONSE PlayerWarnHeardHunterManager CHARACTER Manager SUBTITLE "Careful now,  there's a Hunter around here."
+RESPONSE PlayerWarnHeardHunterManager CHARACTER Manager SUBTITLE "Watch your back, I hear a Hunter."
+RESPONSE PlayerWarnHeardHunterManager CHARACTER Manager SUBTITLE "Careful, I hear a Hunter."
+RESPONSE PlayerWarnHeardHunterManager CHARACTER Manager SUBTITLE "I hear a Hunter"
+RESPONSE PlayerWarnHeardHunterManager CHARACTER Manager SUBTITLE "There's a Hunter out there."
+RESPONSE PlayerWarnHeardHunterManager CHARACTER Manager SUBTITLE "Careful now, there's a hunter around here."
+RULE PlayerWarnHeardHunterManager CRITERIA ConceptPlayerWarnHearZombie IsHunterClass IsNotCoughing IsManager IsNotWarnHeardHunter NotInCombat IsNotSaidSpecialWarn IsTalk IsTalkManager RESPONSE PlayerWarnHeardHunterManager
+RESPONSE PlayerWarnHeardSmokerManager CHARACTER Manager SUBTITLE "There's a Smoker around here."
+RESPONSE PlayerWarnHeardSmokerManager CHARACTER Manager SUBTITLE "Smoker - somewhere around here."
+RESPONSE PlayerWarnHeardSmokerManager CHARACTER Manager SUBTITLE "Careful, I smell a Smoker."
+RESPONSE PlayerWarnHeardSmokerManager CHARACTER Manager SUBTITLE "I hear a Smoker."
+RESPONSE PlayerWarnHeardSmokerManager CHARACTER Manager SUBTITLE "There's a Smoker around here."
+RESPONSE PlayerWarnHeardSmokerManager CHARACTER Manager SUBTITLE "Smoker - somewhere around here."
+RESPONSE PlayerWarnHeardSmokerManager CHARACTER Manager SUBTITLE "Careful, I smell a Smoker."
+RESPONSE PlayerWarnHeardSmokerManager CHARACTER Manager SUBTITLE "I hear a Smoker."
+RULE PlayerWarnHeardSmokerManager CRITERIA ConceptPlayerWarnHearZombie IsSmokerClass IsNotCoughing IsManager IsNotWarnHeardSmoker NotInCombat IsNotSaidSpecialWarn IsTalk IsTalkManager RESPONSE PlayerWarnHeardSmokerManager
+RESPONSE PlayerWarnHeardWitchManager CHARACTER Manager SUBTITLE "Shhh, I hear a Witch."
+RESPONSE PlayerWarnHeardWitchManager CHARACTER Manager SUBTITLE "I hear a Witch."
+RESPONSE PlayerWarnHeardWitchManager CHARACTER Manager SUBTITLE "I hear a damn Witch."
+RESPONSE PlayerWarnHeardWitchManager CHARACTER Manager SUBTITLE "There's a Witch around here."
+RESPONSE PlayerWarnHeardWitchManager CHARACTER Manager SUBTITLE "Hold on, hold on, shhh, that's a witch!"
+RESPONSE PlayerWarnHeardWitchManager CHARACTER Manager SUBTITLE "Ahh damn, a witch is around here."
+RESPONSE PlayerWarnHeardWitchManager CHARACTER Manager SUBTITLE "Stop, Stop, Stop - I hear a witch"
+RULE PlayerWarnHeardWitchManager CRITERIA ConceptPlayerWarnHearZombie IsWitchClass IsNotCoughing IsManager IsNotWarnHeardWitch NotInCombat IsNotSaidSpecialWarn IsTalk IsTalkManager RESPONSE PlayerWarnHeardWitchManager
+RESPONSE PlayerWarnMegaMobManager CHARACTER Manager SUBTITLE "Here they come!"
+RESPONSE PlayerWarnMegaMobManager CHARACTER Manager SUBTITLE "Here they come!"
+RESPONSE PlayerWarnMegaMobManager CHARACTER Manager SUBTITLE "They're comin'!"
+RESPONSE PlayerWarnMegaMobManager CHARACTER Manager SUBTITLE "Incoming!"
+RESPONSE PlayerWarnMegaMobManager CHARACTER Manager SUBTITLE "Uh oh."
+RESPONSE PlayerWarnMegaMobManager CHARACTER Manager SUBTITLE "ah, Jesus."
+RESPONSE PlayerWarnMegaMobManager CHARACTER Manager SUBTITLE "Keep together!"
+RULE PlayerWarnMegaMobManager CRITERIA ConceptPlayerWarnMegaMob IsNotCoughing IsManager IsNotWarnMegaMob IsTalk IsTalkManager IsNotSpeaking RESPONSE PlayerWarnMegaMobManager
+RESPONSE PlayerWarnMegaMobCraneManager CHARACTER Manager SUBTITLE "Uh oh."
+RULE PlayerWarnMegaMobCraneManager CRITERIA ConceptPlayerWarnMegaMob IsNotCoughing IsManager IsNotWarnMegaMob IsTalk IsTalkManager IsAirport02CraneStarted ChanceToFire20Percent IsNotSpeaking RESPONSE PlayerWarnMegaMobCraneManager
+RESPONSE PlayerWarnWitchAngryManager CHARACTER Manager SUBTITLE "Yo, that Witch ain't gonna set still much longer."
+RESPONSE PlayerWarnWitchAngryManager CHARACTER Manager SUBTITLE "Will you stop that shit?  The witch ain't gonna sit still much longer"
+RESPONSE PlayerWarnWitchAngryManager CHARACTER Manager SUBTITLE "Stop freakin' out the damn Witch."
+RESPONSE PlayerWarnWitchAngryManager CHARACTER Manager SUBTITLE "Oh man, do not piss the witch off!"
+RESPONSE PlayerWarnWitchAngryManager CHARACTER Manager SUBTITLE "The Witch is getting up!"
+RULE PlayerWarnWitchAngryManager CRITERIA ConceptWitchGettingAngry IsNotCoughing IsManager IsNotWarnAngryWitch IsTalk IsTalkManager RESPONSE PlayerWarnWitchAngryManager
+RESPONSE PlayerZoeyPouncedManager CHARACTER Manager SUBTITLE "Hunter on Zoey!"
+RESPONSE PlayerZoeyPouncedManager CHARACTER Manager SUBTITLE "Zoey!"
+RESPONSE PlayerZoeyPouncedManager CHARACTER Manager SUBTITLE "Hunter on Zoey!"
+RULE PlayerZoeyPouncedManager CRITERIA ConceptSurvivorWasPounced ChanceToFire30Percent IsNotCoughing SubjectIsTeenGirl IsNotSaidZoeyPounced IsManager IsTalk IsTalkManager RESPONSE PlayerZoeyPouncedManager
+RESPONSE SurvivorCaughtVomitManager CHARACTER Manager SUBTITLE "sptting gross noises"
+RESPONSE SurvivorCaughtVomitManager CHARACTER Manager SUBTITLE "sptting gross noises"
+RESPONSE SurvivorCaughtVomitManager CHARACTER Manager SUBTITLE "sptting gross noises"
+RESPONSE SurvivorCaughtVomitManager CHARACTER Manager SUBTITLE "sptting gross noises"
+RULE SurvivorCaughtVomitManager CRITERIA ConceptPlayerVomitInFace IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorCaughtVomitManager
+RESPONSE SurvivorCoughingManager CHARACTER Manager SUBTITLE "[Coughing from smoke]"
+RESPONSE SurvivorCoughingManager CHARACTER Manager SUBTITLE "[Coughing from smoke]"
+RESPONSE SurvivorCoughingManager CHARACTER Manager SUBTITLE "[Coughing from smoke]"
+RESPONSE SurvivorCoughingManager CHARACTER Manager SUBTITLE "[Coughing from smoke]"
+RESPONSE SurvivorCoughingManager CHARACTER Manager SUBTITLE "[Coughing from smoke]"
+RULE SurvivorCoughingManager CRITERIA ConceptSurvivorCoughing IsCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorCoughingManager
+RESPONSE SurvivorCoughingDeathManager CHARACTER Manager SUBTITLE "[Coughing from smoke]"
+RESPONSE SurvivorCoughingDeathManager CHARACTER Manager SUBTITLE "[Coughing from smoke]"
+RESPONSE SurvivorCoughingDeathManager CHARACTER Manager SUBTITLE "[Coughing from smoke]"
+RESPONSE SurvivorCoughingDeathManager CHARACTER Manager SUBTITLE "[Coughing from smoke]"
+RESPONSE SurvivorCoughingDeathManager CHARACTER Manager SUBTITLE "[Coughing from smoke]"
+RULE SurvivorCoughingDeathManager CRITERIA ConceptPlayerDeath IsCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorCoughingDeathManager
+RESPONSE SurvivorDeathManager CHARACTER Manager SUBTITLE "[Death rattle and final breath]"
+RESPONSE SurvivorDeathManager CHARACTER Manager SUBTITLE "[Loud, painful death scream]"
+RESPONSE SurvivorDeathManager CHARACTER Manager SUBTITLE "[Loud, painful death scream]"
+RESPONSE SurvivorDeathManager CHARACTER Manager SUBTITLE "[Loud, painful death scream]"
+RESPONSE SurvivorDeathManager CHARACTER Manager SUBTITLE "[Loud, painful death scream]"
+RESPONSE SurvivorDeathManager CHARACTER Manager SUBTITLE "[Short quick death scream]"
+RESPONSE SurvivorDeathManager CHARACTER Manager SUBTITLE "[Short quick death scream]"
+RESPONSE SurvivorDeathManager CHARACTER Manager SUBTITLE "[Death rattle and final breath]"
+RESPONSE SurvivorDeathManager CHARACTER Manager SUBTITLE "[Death rattle and final breath]"
+RESPONSE SurvivorDeathManager CHARACTER Manager SUBTITLE "[Death rattle and final breath]"
+RULE SurvivorDeathManager CRITERIA ConceptPlayerDeath IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorDeathManager
+RESPONSE SurvivorFinaleAheadHospitalManager CHARACTER Manager SUBTITLE "I hear the pilot!"
+RESPONSE SurvivorFinaleAheadHospitalManager CHARACTER Manager SUBTITLE "Let's find that radio."
+RULE SurvivorFinaleAheadHospitalManager CRITERIA ConceptPlayerNearFinale IsNotCoughing IsNamVet IsNotSaidFinaleAhead NotInCombat ismap_l4d_hospital05_rooftop IsTalk IsTalkManager IsNotIncapacitated RESPONSE SurvivorFinaleAheadHospitalManager
+RESPONSE SurvivorGrabbedByTongueManager CHARACTER Manager SUBTITLE "no, No, NO, NO!!!!!"
+RESPONSE SurvivorGrabbedByTongueManager CHARACTER Manager SUBTITLE "no, No, NO, NO!!!!!"
+RESPONSE SurvivorGrabbedByTongueManager CHARACTER Manager SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE SurvivorGrabbedByTongueManager CHARACTER Manager SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE SurvivorGrabbedByTongueManager CHARACTER Manager SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE SurvivorGrabbedByTongueManager CHARACTER Manager SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE SurvivorGrabbedByTongueManager CHARACTER Manager SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RULE SurvivorGrabbedByTongueManager CRITERIA ConceptPlayerGrabbedByTongue IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorGrabbedByTongueManager
+RESPONSE SurvivorNearFinaleManager CHARACTER Manager SUBTITLE "We're almost out of here!"
+RESPONSE SurvivorNearFinaleManager CHARACTER Manager SUBTITLE "We're almost out of here!"
+RULE SurvivorNearFinaleManager CRITERIA ConceptPlayerNearFinale IsNotCoughing IsManager IsNotSaidFinaleAhead NotInCombat IsTalk IsTalkManager IsNotIncapacitated RESPONSE SurvivorNearFinaleManager
+RESPONSE SurvivorTankPoundManager CHARACTER Manager SUBTITLE "Get this thing off me!"
+RESPONSE SurvivorTankPoundManager CHARACTER Manager SUBTITLE "Ah shit, ah shit. Stop this thing!"
+RESPONSE SurvivorTankPoundManager CHARACTER Manager SUBTITLE "AAHHHH It's crushing me!"
+RESPONSE SurvivorTankPoundManager CHARACTER Manager SUBTITLE "I can't breath, help me, I can't breath"
+RESPONSE SurvivorTankPoundManager CHARACTER Manager SUBTITLE "Shoot it, I can't breath, shoot it"
+RULE SurvivorTankPoundManager CRITERIA ConceptPlayerGroundPoundedByTank IsManager IsTalk IsTalkManager RESPONSE SurvivorTankPoundManager
+RESPONSE SurvivorVocalizeBackUpManager CHARACTER Manager SUBTITLE "Back up!"
+RESPONSE SurvivorVocalizeBackUpManager CHARACTER Manager SUBTITLE "Backbackback!"
+RESPONSE SurvivorVocalizeBackUpManager CHARACTER Manager SUBTITLE "Back up!"
+RULE SurvivorVocalizeBackUpManager CRITERIA ConceptPlayerBackUp IsManager IsNotInSafeSpot IsNotInCheckpoint IsTalk IsTalkManager RESPONSE SurvivorVocalizeBackUpManager
+RESPONSE SurvivorVocalizeEmphaticGoManager CHARACTER Manager SUBTITLE "Go go go!"
+RESPONSE SurvivorVocalizeEmphaticGoManager CHARACTER Manager SUBTITLE "Go go GO!"
+RESPONSE SurvivorVocalizeEmphaticGoManager CHARACTER Manager SUBTITLE "GO!"
+RESPONSE SurvivorVocalizeEmphaticGoManager CHARACTER Manager SUBTITLE "MOVE!"
+RESPONSE SurvivorVocalizeEmphaticGoManager CHARACTER Manager SUBTITLE "C'mon go!"
+RESPONSE SurvivorVocalizeEmphaticGoManager CHARACTER Manager SUBTITLE "MOVE!"
+RESPONSE SurvivorVocalizeEmphaticGoManager CHARACTER Manager SUBTITLE "MOVE IT!"
+RESPONSE SurvivorVocalizeEmphaticGoManager CHARACTER Manager SUBTITLE "Move it mooove it!"
+RULE SurvivorVocalizeEmphaticGoManager CRITERIA ConceptPlayerEmphaticGo IsManager  IsNotInSafeSpot IsNotInCheckpoint IsTalk IsTalkManager RESPONSE SurvivorVocalizeEmphaticGoManager
+RESPONSE SurvivorVocalizeFollowMeManager CHARACTER Manager SUBTITLE "Come on this way."
+RESPONSE SurvivorVocalizeFollowMeManager CHARACTER Manager SUBTITLE "Follow me."
+RESPONSE SurvivorVocalizeFollowMeManager CHARACTER Manager SUBTITLE "Follow me!"
+RESPONSE SurvivorVocalizeFollowMeManager CHARACTER Manager SUBTITLE "This way."
+RESPONSE SurvivorVocalizeFollowMeManager CHARACTER Manager SUBTITLE "Come on man, this way."
+RULE SurvivorVocalizeFollowMeManager CRITERIA ConceptPlayerFollowMe IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorVocalizeFollowMeManager
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I don't feel so good"
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I don't, I don't know if I'm going to make it"
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I feel awful."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I'm not gonna last much longer."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "Shit, I am really messed up."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I have to heal up."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "Every part of me hurts."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "This sucks."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "At this rate, I'm not gonna make it."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I feel terrible."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "This is bad. This is really bad."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I think I'm hurt bad."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I think I'm dyin'."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I feel terrible."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I feel awful"
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "[gasps and sharp intake of breath]"
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I think something's broken."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I should have stayed in damn the store..."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "[pain sound] Dammit."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "Oh man, I am in sorry ass shape."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I feel kinda woozy."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "I'm not gonna make it man"
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "Every part of me hurts"
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "Man, this hurts."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "[quiet pep talk to self]C'mon Louis: you are NOT dyin' here."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "[pain noise] Oh man, every damn thing hurts."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "[blows air out through pursed lips] This is some real bullshit right here."
+RESPONSE SurvivorVocalizeGoingToDieManager CHARACTER Manager SUBTITLE "Ah. [pain noise] hell, hell."
+RULE SurvivorVocalizeGoingToDieManager CRITERIA ConceptPlayerGoingToDie IsNotSpeaking IsNotCoughing IsManager IsTalk IsTalkManager IsNotComplainBlock RESPONSE SurvivorVocalizeGoingToDieManager
+RESPONSE SurvivorVocalizeGoingToDie3Manager CHARACTER Manager SUBTITLE "I really need to get some First Aid."
+RESPONSE SurvivorVocalizeGoingToDie3Manager CHARACTER Manager SUBTITLE "I don't think I'm gonnna make it."
+RESPONSE SurvivorVocalizeGoingToDie3Manager CHARACTER Manager SUBTITLE "I'm not kidding, we need to find me some First Aid."
+RESPONSE SurvivorVocalizeGoingToDie3Manager CHARACTER Manager SUBTITLE "Ah, I might not make it"
+RULE SurvivorVocalizeGoingToDie3Manager CRITERIA ConceptPlayerGoingToDie IsNotSpeaking IsNotCoughing IsManager IsOnThirdStrike IsTalk IsTalkManager IsNotComplainBlock RESPONSE SurvivorVocalizeGoingToDie3Manager
+RESPONSE SurvivorVocalizeGoingToDieAloneManager CHARACTER Manager SUBTITLE "[Nervous Humming]"
+RESPONSE SurvivorVocalizeGoingToDieAloneManager CHARACTER Manager SUBTITLE "[Nervous Humming]"
+RESPONSE SurvivorVocalizeGoingToDieAloneManager CHARACTER Manager SUBTITLE "[Nervous Whistle]"
+RULE SurvivorVocalizeGoingToDieAloneManager CRITERIA ConceptPlayerGoingToDie IsNotSpeaking IsNotCoughing IsManager IsOnThirdStrike IsAlone NotInCombat IsNotSaidNervous IsTalk IsTalkManager RESPONSE SurvivorVocalizeGoingToDieAloneManager
+RESPONSE SurvivorVocalizeLookOutManager CHARACTER Manager SUBTITLE "Look out!"
+RESPONSE SurvivorVocalizeLookOutManager CHARACTER Manager SUBTITLE "Look out!"
+RESPONSE SurvivorVocalizeLookOutManager CHARACTER Manager SUBTITLE "Watch out!"
+RESPONSE SurvivorVocalizeLookOutManager CHARACTER Manager SUBTITLE "Watch out!"
+RESPONSE SurvivorVocalizeLookOutManager CHARACTER Manager SUBTITLE "Heads up!"
+RESPONSE SurvivorVocalizeLookOutManager CHARACTER Manager SUBTITLE "Heads up!"
+RULE SurvivorVocalizeLookOutManager CRITERIA ConceptPlayerLookOut IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorVocalizeLookOutManager
+RESPONSE SurvivorVocalizeThisWayManager CHARACTER Manager SUBTITLE "Come on this way."
+RESPONSE SurvivorVocalizeThisWayManager CHARACTER Manager SUBTITLE "Follow me."
+RESPONSE SurvivorVocalizeThisWayManager CHARACTER Manager SUBTITLE "Follow me!"
+RESPONSE SurvivorVocalizeThisWayManager CHARACTER Manager SUBTITLE "This way."
+RESPONSE SurvivorVocalizeThisWayManager CHARACTER Manager SUBTITLE "Come on man, this way."
+RULE SurvivorVocalizeThisWayManager CRITERIA ConceptPlayerThisWay IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorVocalizeThisWayManager
+RESPONSE SurvivorVocalizeWaitHereManager CHARACTER Manager SUBTITLE "Let's wait here."
+RESPONSE SurvivorVocalizeWaitHereManager CHARACTER Manager SUBTITLE "Hold up! Let's wait here"
+RESPONSE SurvivorVocalizeWaitHereManager CHARACTER Manager SUBTITLE "Chill, let's wait here."
+RESPONSE SurvivorVocalizeWaitHereManager CHARACTER Manager SUBTITLE "Everybody hold up!"
+RESPONSE SurvivorVocalizeWaitHereManager CHARACTER Manager SUBTITLE "Hold up! Hold Up!"
+RULE SurvivorVocalizeWaitHereManager CRITERIA ConceptPlayerWaitHere IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE SurvivorVocalizeWaitHereManager
+RESPONSE PlayerLedgeHangEndManager CHARACTER Manager SUBTITLE "I'M SLIPPING! PULL ME UP!"
+RESPONSE PlayerLedgeHangEndManager CHARACTER Manager SUBTITLE "I'm about to fall off this thing. HELP! HELLLLLP!!!!"
+RESPONSE PlayerLedgeHangEndManager CHARACTER Manager SUBTITLE "I CAN'T HOLD ON - I CAN'T HOLD ON I'M FALLING!"
+RESPONSE PlayerLedgeHangEndManager CHARACTER Manager SUBTITLE "SOMEBOY, SOMEBODY OH SHIT I'M FALLING! I'M FALLING!"
+RULE PlayerLedgeHangEndManager CRITERIA ConceptPlayerLedgeHangEnd IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerLedgeHangEndManager
+RESPONSE PlayerLedgeHangMiddleManager CHARACTER Manager SUBTITLE "I really do need someone to pull me up!"
+RESPONSE PlayerLedgeHangMiddleManager CHARACTER Manager SUBTITLE "Somebody really needs to get over here a pull me up!"
+RESPONSE PlayerLedgeHangMiddleManager CHARACTER Manager SUBTITLE "Hey, I'm still hanging off a ledge here!"
+RESPONSE PlayerLedgeHangMiddleManager CHARACTER Manager SUBTITLE "It's a long way down here. You gotta pull me up!"
+RESPONSE PlayerLedgeHangMiddleManager CHARACTER Manager SUBTITLE "Come on man, I'm not playin', get over here and pull me up!"
+RESPONSE PlayerLedgeHangMiddleManager CHARACTER Manager SUBTITLE "I'm getting tired of hanging around, pull me up!"
+RULE PlayerLedgeHangMiddleManager CRITERIA ConceptPlayerLedgeHangMiddle IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerLedgeHangMiddleManager
+RESPONSE PlayerLedgeHangStartManager CHARACTER Manager SUBTITLE "Someone pull me up!"
+RESPONSE PlayerLedgeHangStartManager CHARACTER Manager SUBTITLE "Could somebody give me a hand up over here?"
+RESPONSE PlayerLedgeHangStartManager CHARACTER Manager SUBTITLE "Could somebody give me a hand up over here?"
+RESPONSE PlayerLedgeHangStartManager CHARACTER Manager SUBTITLE "I could really use a hand up over here!"
+RESPONSE PlayerLedgeHangStartManager CHARACTER Manager SUBTITLE "Hey! I need somebody to pull me up!"
+RESPONSE PlayerLedgeHangStartManager CHARACTER Manager SUBTITLE "Throw me a hand man, pull me up!"
+RESPONSE PlayerLedgeHangStartManager CHARACTER Manager SUBTITLE "Don't laugh man, just pull me up"
+RULE PlayerLedgeHangStartManager CRITERIA ConceptPlayerLedgeHangStart IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerLedgeHangStartManager
+RESPONSE DoubleDeathManager CHARACTER Manager SUBTITLE "This shit was not in my plans."
+RESPONSE DoubleDeathManager CHARACTER Manager SUBTITLE "We gotta pull ourselves together."
+RESPONSE DoubleDeathManager CHARACTER Manager SUBTITLE "Oh shit. Shit. Shit shit shit."
+RULE DoubleDeathManager CRITERIA ConceptSurvivorDied IsNotCoughing IsManager  IsSaidSomeoneDied IsTalk IsTalkManager IsNotSaidSomeoneDiedDouble RESPONSE DoubleDeathManager
+RESPONSE SurvivorDiedBillManager CHARACTER Manager SUBTITLE "Bill, no!"
+RESPONSE SurvivorDiedBillManager CHARACTER Manager SUBTITLE "Ah Bill. Ah, shit."
+RESPONSE SurvivorDiedBillManager CHARACTER Manager SUBTITLE "Bill, Bill, no!"
+RESPONSE SurvivorDiedBillManager CHARACTER Manager SUBTITLE "Bill! (loud)"
+RESPONSE SurvivorDiedBillManager CHARACTER Manager SUBTITLE "Bill! (loud)"
+RESPONSE SurvivorDiedBillManager CHARACTER Manager SUBTITLE "Bill (quiet)"
+RULE SurvivorDiedBillManager CRITERIA ConceptSurvivorDied IsNotCoughing IsManager IsDeadNamVet IsNotSaidSomeoneDied IsTalk IsTalkManager RESPONSE SurvivorDiedBillManager
+RESPONSE SurvivorDiedFrancisManager CHARACTER Manager SUBTITLE "Francis!  NO!"
+RESPONSE SurvivorDiedFrancisManager CHARACTER Manager SUBTITLE "Jesus Christ, Francis, no, Francis!"
+RESPONSE SurvivorDiedFrancisManager CHARACTER Manager SUBTITLE "Francis! (loud)"
+RESPONSE SurvivorDiedFrancisManager CHARACTER Manager SUBTITLE "Francis! (loud)"
+RESPONSE SurvivorDiedFrancisManager CHARACTER Manager SUBTITLE "Francis (quiet)"
+RULE SurvivorDiedFrancisManager CRITERIA ConceptSurvivorDied IsNotCoughing IsManager IsDeadBiker IsNotSaidSomeoneDied IsTalk IsTalkManager RESPONSE SurvivorDiedFrancisManager
+RESPONSE SurvivorDiedZoeyManager CHARACTER Manager SUBTITLE "Ah! Zoey!"
+RESPONSE SurvivorDiedZoeyManager CHARACTER Manager SUBTITLE "ZOEY! Goddamn it."
+RESPONSE SurvivorDiedZoeyManager CHARACTER Manager SUBTITLE "Noo, oh ho ho, ZOEY!"
+RESPONSE SurvivorDiedZoeyManager CHARACTER Manager SUBTITLE "Zoey!"
+RESPONSE SurvivorDiedZoeyManager CHARACTER Manager SUBTITLE "Zoey! (loud)"
+RESPONSE SurvivorDiedZoeyManager CHARACTER Manager SUBTITLE "Zoey! (loud)"
+RULE SurvivorDiedZoeyManager CRITERIA ConceptSurvivorDied IsNotCoughing IsManager IsDeadTeenGirl IsNotSaidSomeoneDied IsTalk IsTalkManager RESPONSE SurvivorDiedZoeyManager
+RESPONSE SurvivorPickupAutoShotgunManager CHARACTER Manager SUBTITLE "I'll take this shotgun."
+RESPONSE SurvivorPickupAutoShotgunManager CHARACTER Manager SUBTITLE "I'll take the shotgun."
+RESPONSE SurvivorPickupAutoShotgunManager CHARACTER Manager SUBTITLE "I'm grabbing this shotgun."
+RESPONSE SurvivorPickupAutoShotgunManager CHARACTER Manager SUBTITLE "Got the shotgun."
+RESPONSE SurvivorPickupAutoShotgunManager CHARACTER Manager SUBTITLE "Oh, I'm grabbing this shotgun."
+RULE SurvivorPickupAutoShotgunManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpAutoShotgun IsNotSpeaking IsInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsNotInStartArea IsTalk IsTalkManager RESPONSE SurvivorPickupAutoShotgunManager
+RESPONSE SurvivorPickupFirstAidKitManager CHARACTER Manager SUBTITLE "First Aid. [to self]"
+RESPONSE SurvivorPickupFirstAidKitManager CHARACTER Manager SUBTITLE "Grabbing First Aid!"
+RESPONSE SurvivorPickupFirstAidKitManager CHARACTER Manager SUBTITLE "Oh, this first aid is mine!"
+RULE SurvivorPickupFirstAidKitManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpFirstAidKit IsNotSpeaking IsInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsNotInStartArea IsTalk IsTalkManager RESPONSE SurvivorPickupFirstAidKitManager
+RESPONSE SurvivorPickupHuntingRifleManager CHARACTER Manager SUBTITLE "I'm gonna take this rifle."
+RESPONSE SurvivorPickupHuntingRifleManager CHARACTER Manager SUBTITLE "This is a nice rifle."
+RULE SurvivorPickupHuntingRifleManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpHuntingRifle IsNotSpeaking IsInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsNotInStartArea IsTalk IsTalkManager RESPONSE SurvivorPickupHuntingRifleManager
+RESPONSE SurvivorPickupMolotovManager CHARACTER Manager SUBTITLE "Molotovs. [to self]"
+RESPONSE SurvivorPickupMolotovManager CHARACTER Manager SUBTITLE "Grabbing a Molotov."
+RESPONSE SurvivorPickupMolotovManager CHARACTER Manager SUBTITLE "Molotovs, hell yeah!"
+RULE SurvivorPickupMolotovManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpMolotov IsNotSpeaking IsInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsNotInStartArea IsTalk IsTalkManager RESPONSE SurvivorPickupMolotovManager
+RESPONSE SurvivorPickupPainPillsManager CHARACTER Manager SUBTITLE "Better grab everything I can [to self]"
+RESPONSE SurvivorPickupPainPillsManager CHARACTER Manager SUBTITLE "Grabbing Pills."
+RULE SurvivorPickupPainPillsManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpPainPills IsNotSpeaking IsInSafeSpot IsNotInStartArea IsTalk IsTalkManager RESPONSE SurvivorPickupPainPillsManager
+RESPONSE SurvivorPickupPipeBombManager CHARACTER Manager SUBTITLE "Woah, this'll blow something up"
+RESPONSE SurvivorPickupPipeBombManager CHARACTER Manager SUBTITLE "Grabbing a pipe bomb."
+RESPONSE SurvivorPickupPipeBombManager CHARACTER Manager SUBTITLE "Woo hoo hoo hoo, I'm grabbing a pipe bomb."
+RESPONSE SurvivorPickupPipeBombManager CHARACTER Manager SUBTITLE "This shit look real jerry-rigged."
+RULE SurvivorPickupPipeBombManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpPipeBomb IsNotSpeaking IsInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsNotInStartArea IsTalk IsTalkManager RESPONSE SurvivorPickupPipeBombManager
+RESPONSE SurvivorPickupPumpShotgunManager CHARACTER Manager SUBTITLE "Guess I'll try this shotgun."
+RULE SurvivorPickupPumpShotgunManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpPumpShotgun IsNotSpeaking IsInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsNotInStartArea IsTalk IsTalkManager RESPONSE SurvivorPickupPumpShotgunManager
+RESPONSE SurvivorPickupRifleManager CHARACTER Manager SUBTITLE "I'm takin' this rifle."
+RESPONSE SurvivorPickupRifleManager CHARACTER Manager SUBTITLE "This rifle is now mine."
+RESPONSE SurvivorPickupRifleManager CHARACTER Manager SUBTITLE "I'm takin' this rifle."
+RESPONSE SurvivorPickupRifleManager CHARACTER Manager SUBTITLE "This big rifle is now mine."
+RESPONSE SurvivorPickupRifleManager CHARACTER Manager SUBTITLE "Oh, this rifle is mine!"
+RULE SurvivorPickupRifleManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpRifle IsNotSpeaking IsInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsNotInStartArea IsTalk IsTalkManager RESPONSE SurvivorPickupRifleManager
+RESPONSE SurvivorPickupSecondPistolManager CHARACTER Manager SUBTITLE "An extra pistol might come in handy. [to self]"
+RESPONSE SurvivorPickupSecondPistolManager CHARACTER Manager SUBTITLE "I'm taking an extra pistol."
+RULE SurvivorPickupSecondPistolManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpSecondPistol IsNotSpeaking IsInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsNotInStartArea IsTalk IsTalkManager RESPONSE SurvivorPickupSecondPistolManager
+RESPONSE SurvivorPickupSMGManager CHARACTER Manager SUBTITLE "Grabbing a machinegun!"
+RESPONSE SurvivorPickupSMGManager CHARACTER Manager SUBTITLE "A machinegun. [to self]"
+RESPONSE SurvivorPickupSMGManager CHARACTER Manager SUBTITLE "Cool, just like counter-strike"
+RULE SurvivorPickupSMGManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpSMG IsNotSpeaking IsInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsNotInStartArea IsTalk IsTalkManager RESPONSE SurvivorPickupSMGManager
+RESPONSE TakeShotgunGroovyLouis CHARACTER Manager SUBTITLE "<Short laugh>"
+RESPONSE TakeShotgunGroovyLouis CHARACTER Manager SUBTITLE "<Short laugh>"
+RULE TakeShotgunGroovyLouis CRITERIA ConceptTakeShotgunGroovyLouis IsManager IsTalk IsTalkManager NotInCombat RESPONSE TakeShotgunGroovyLouis
+RULE SurvivorPickupAutoShotgunAlwaysManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpAutoShotgun IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsTalk IsTalkManager RESPONSE SurvivorPickupAutoShotgunManager
+RULE SurvivorPickupFirstAidKitAlwaysManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpFirstAidKit IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsTalk IsTalkManager RESPONSE SurvivorPickupFirstAidKitManager
+RULE SurvivorPickupHuntingRifleAlwaysManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpHuntingRifle IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsTalk IsTalkManager RESPONSE SurvivorPickupHuntingRifleManager
+RULE SurvivorPickupMolotovAlwaysManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpMolotov IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsTalk IsTalkManager RESPONSE SurvivorPickupMolotovManager
+RULE SurvivorPickupPainPillsAlwaysManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpPainPills IsNotSpeaking IsTalk IsTalkManager RESPONSE SurvivorPickupPainPillsManager
+RULE SurvivorPickupPipeBombAlwaysManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpPipeBomb IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsTalk IsTalkManager RESPONSE SurvivorPickupPipeBombManager
+RULE SurvivorPickupPumpShotgunAlwaysManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpPumpShotgun IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsTalk IsTalkManager RESPONSE SurvivorPickupPumpShotgunManager
+RULE SurvivorPickupRifleAlwaysManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpRifle IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsTalk IsTalkManager RESPONSE SurvivorPickupRifleManager
+RULE SurvivorPickupSecondPistolManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpSecondPistol IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsTalk IsTalkManager RESPONSE SurvivorPickupSecondPistolManager
+RULE SurvivorPickupSMGAlwaysManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpSMG IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsTalk IsTalkManager RESPONSE SurvivorPickupSMGManager
+RESPONSE PlayerGettingRevivedManager CHARACTER Manager SUBTITLE "I'm okay."
+RESPONSE PlayerGettingRevivedManager CHARACTER Manager SUBTITLE "I'm allright."
+RESPONSE PlayerGettingRevivedManager CHARACTER Manager SUBTITLE "[groan]"
+RESPONSE PlayerGettingRevivedManager CHARACTER Manager SUBTITLE "I don't even know."
+RESPONSE PlayerGettingRevivedManager CHARACTER Manager SUBTITLE "Aw hell, I'm bleedin'."
+RESPONSE PlayerGettingRevivedManager CHARACTER Manager SUBTITLE "[groan2]"
+RESPONSE PlayerGettingRevivedManager CHARACTER Manager SUBTITLE "I'll make it."
+RESPONSE PlayerGettingRevivedManager CHARACTER Manager SUBTITLE "I'll live."
+RESPONSE PlayerGettingRevivedManager CHARACTER Manager SUBTITLE "I can shake it off."
+RESPONSE PlayerGettingRevivedManager CHARACTER Manager SUBTITLE "Just help me up."
+RESPONSE PlayerGettingRevivedManager CHARACTER Manager SUBTITLE "I ain't done yet."
+RULE PlayerGettingRevivedManager CRITERIA ConceptReviveFriendDown IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerGettingRevivedManager
+RESPONSE PlayerHealOtherManager CHARACTER Manager SUBTITLE "Let me heal you up."
+RESPONSE PlayerHealOtherManager CHARACTER Manager SUBTITLE "Hold on, I'm gonna heal you."
+RESPONSE PlayerHealOtherManager CHARACTER Manager SUBTITLE "Hold up, this'll help."
+RESPONSE PlayerHealOtherManager CHARACTER Manager SUBTITLE "Hang on, let me fix you up."
+RESPONSE PlayerHealOtherManager CHARACTER Manager SUBTITLE "This should last you until we're safe."
+RULE PlayerHealOtherManager CRITERIA ConceptPlayerHealingOther IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerHealOtherManager
+RESPONSE PlayerLedgeSaveManager CHARACTER Manager SUBTITLE "Okay, okay, I think I can get you up. Just hang on one more second."
+RESPONSE PlayerLedgeSaveManager CHARACTER Manager SUBTITLE "I'm here. I gotcha, man. Grab my hand and we're gonna get you back on solid ground!"
+RESPONSE PlayerLedgeSaveManager CHARACTER Manager SUBTITLE "Don't worry, I gotcha, man. Hang on, hang on. Almost up..."
+RULE PlayerLedgeSaveManager CRITERIA ConceptPlayerLedgeSave IsNotCoughing IsManager IsTalk IsTalkManager RESPONSE PlayerLedgeSaveManager
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "I didn't think you were gettin' back up."
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "Don't worry, I gotcha. You're gonna be just fine."
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "I never saw nobody take that much abuse and live! Oughtta start callin' you Jason."
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "I never saw nobody take that much abuse and live! Oughtta start callin' you Hercules."
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "I gotcha, I gotcha. Don't worry, I'm not gonna let you die. Come on, up ya go."
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "Come on, man, look at me. Focus. You are going to be okay. Let's get moving."
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "I gotcha, I gotcha. Don't worry, I'm not gonna let you die. Come on, up ya go."
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "Come on, man, look at me. Focus. You are going to be okay. Let's get moving."
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "Okay, okay, I'm here, don't worry. Onnne second. I'll get you back on your feet."
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "Okay, okay, I'm here, don't worry. Onnne second. I'll get you back on your feet."
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "C'mon, okay, break time's over. Let's get you on your feet and back to work."
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "I think... Yeah, I think you're okay. Let's get you up so we can keep moving."
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "I'm no doctor, but you are *definitely* not dead yet. So come on, let's get you up and moving."
+RESPONSE PlayerReviveFriendManager CHARACTER Manager SUBTITLE "Okay, okay, I'm here, don't worry. Onnne second. I'll get you back on your feet."
+RULE PlayerReviveFriendManager CRITERIA ConceptPlayerReviveFriend IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerReviveFriendManager
+RESPONSE PlayerReviveFriendCriticalManager CHARACTER Manager SUBTITLE "Oh man, you don't look so good. If we don't get you some first aid , you're not gonna survive another hit like that."
+RESPONSE PlayerReviveFriendCriticalManager CHARACTER Manager SUBTITLE "Ah, ah jesus, you're bleedin' all over the place. If we don't get you some first aid, you're not gonna survive another hit like that."
+RESPONSE PlayerReviveFriendCriticalManager CHARACTER Manager SUBTITLE "I can get you on your feet, but just barely. If we don't get you some first aid, you're not gonna survive another hit like that."
+RESPONSE PlayerReviveFriendCriticalManager CHARACTER Manager SUBTITLE "Okay, come on, stay with me. I can get you moving again, but if we don't find you some first aid, you're not gonna survive another hit like that."
+RESPONSE PlayerReviveFriendCriticalManager CHARACTER Manager SUBTITLE "I can help you up, but, Jesus, you shouldn't even be alive. If we don't find you some first aid, you're not gonna survive another hit like that."
+RULE PlayerReviveFriendCriticalManager CRITERIA ConceptPlayerReviveFriendCritical IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerReviveFriendCriticalManager
+RESPONSE PlayerReviveFriendLoudManager CHARACTER Manager SUBTITLE "Come on, come on! You're okay!"
+RESPONSE PlayerReviveFriendLoudManager CHARACTER Manager SUBTITLE "Let's get up, let's get up!"
+RESPONSE PlayerReviveFriendLoudManager CHARACTER Manager SUBTITLE "Get up, we gotta go!"
+RESPONSE PlayerReviveFriendLoudManager CHARACTER Manager SUBTITLE "Come on, get up!"
+RESPONSE PlayerReviveFriendLoudManager CHARACTER Manager SUBTITLE "Come on, man, get up!"
+RESPONSE PlayerReviveFriendLoudManager CHARACTER Manager SUBTITLE "Come on, you gotta get up."
+RESPONSE PlayerReviveFriendLoudManager CHARACTER Manager SUBTITLE "Come on now. Get up!"
+RESPONSE PlayerReviveFriendLoudManager CHARACTER Manager SUBTITLE "Get up now, come on!"
+RULE PlayerReviveFriendLoudManager CRITERIA ConceptPlayerReviveFriend IsNotCoughing  IsManager IsZombiePresentTank IsTalk IsTalkManager RESPONSE PlayerReviveFriendLoudManager
+RESPONSE PlayerReviveFriendLoudFrancisManager CHARACTER Manager SUBTITLE "No time for this, bro, let's move!"
+RESPONSE PlayerReviveFriendLoudFrancisManager CHARACTER Manager SUBTITLE "We gotta get your ass up, man."
+RULE PlayerReviveFriendLoudFrancisManager CRITERIA ConceptPlayerReviveFriend IsNotCoughing  IsManager IsZombiePresentTank IsTalk IsTalkManager SubjectIsBiker RESPONSE PlayerReviveFriendLoudFrancisManager
+RESPONSE PlayerReviveFriendLoudZoeyManager CHARACTER Manager SUBTITLE "Come on, girl, get up!"
+RULE PlayerReviveFriendLoudZoeyManager CRITERIA ConceptPlayerReviveFriend IsNotCoughing  IsManager IsZombiePresentTank IsTalk IsTalkManager SubjectIsTeenGirl RESPONSE PlayerReviveFriendLoudZoeyManager
+RESPONSE PlayerReviveFriendShortManager CHARACTER Manager SUBTITLE "Up and at 'em."
+RESPONSE PlayerReviveFriendShortManager CHARACTER Manager SUBTITLE "Come on up!"
+RESPONSE PlayerReviveFriendShortManager CHARACTER Manager SUBTITLE "Up ya go."
+RESPONSE PlayerReviveFriendShortManager CHARACTER Manager SUBTITLE "You'll be okay."
+RESPONSE PlayerReviveFriendShortManager CHARACTER Manager SUBTITLE "I got ya."
+RESPONSE PlayerReviveFriendShortManager CHARACTER Manager SUBTITLE "Up we go."
+RESPONSE PlayerReviveFriendShortManager CHARACTER Manager SUBTITLE "You're fine."
+RESPONSE PlayerReviveFriendShortManager CHARACTER Manager SUBTITLE "It doesn't look bad."
+RESPONSE PlayerReviveFriendShortManager CHARACTER Manager SUBTITLE "Come on up."
+RESPONSE PlayerReviveFriendShortManager CHARACTER Manager SUBTITLE "Let's move!"
+RESPONSE PlayerReviveFriendShortManager CHARACTER Manager SUBTITLE "You'll be fine."
+RULE PlayerReviveFriendShortManager CRITERIA ConceptPlayerReviveFriend IsNotCoughing  IsManager IsTalk IsTalkManager IsReviveTalk RESPONSE PlayerReviveFriendShortManager
+RULE PlayerLedgeSaveCriticalManager CRITERIA ConceptPlayerLedgeSaveCritical IsNotCoughing  IsManager IsTalk IsTalkManager RESPONSE PlayerReviveFriendCriticalManager
+RULE PlayerReviveFriendLoud2Manager CRITERIA ConceptPlayerReviveFriend IsNotCoughing  IsManager IntensityHigh IsTalk IsTalkManager RESPONSE PlayerReviveFriendLoudManager
+RULE PlayerReviveFriendLoudCritManager CRITERIA ConceptPlayerReviveFriendCritical IsNotCoughing  IsManager IntensityHigh IsTalk IsTalkManager IntensityHigh RESPONSE PlayerReviveFriendLoudManager
+RULE PlayerReviveFriendLoudFrancis2Manager CRITERIA ConceptPlayerReviveFriend IsNotCoughing  IsManager IntensityHigh IsTalk IsTalkManager SubjectIsBiker ChanceToFire15Percent RESPONSE PlayerReviveFriendLoudFrancisManager
+RULE PlayerReviveFriendLoudZoey2Manager CRITERIA ConceptPlayerReviveFriend IsNotCoughing  IsManager IntensityHigh IsTalk IsTalkManager SubjectIsTeenGirl ChanceToFire15Percent RESPONSE PlayerReviveFriendLoudZoeyManager
+RESPONSE PlayerHospitalIntroManager CHARACTER Manager SUBTITLE "The Subway can take us straight to Mercy Hospital!"
+RULE PlayerHospitalIntroManager CRITERIA ConceptintroHospital IsManager RESPONSE PlayerHospitalIntroManager
+RESPONSE PlayerHospitalIntro02Manager CHARACTER Manager SUBTITLE "Sounds good."
+RULE PlayerHospitalIntro02Manager CRITERIA ConceptIntroHospital02 IsManager RESPONSE PlayerHospitalIntro02Manager
+RESPONSE PlayerCoverMeHealManager CHARACTER Manager SUBTITLE "Cover me!"
+RESPONSE PlayerCoverMeHealManager CHARACTER Manager SUBTITLE "Cover me!"
+RESPONSE PlayerCoverMeHealManager CHARACTER Manager SUBTITLE "Cover me!"
+RESPONSE PlayerCoverMeHealManager CHARACTER Manager SUBTITLE "Watch my back!"
+RESPONSE PlayerCoverMeHealManager CHARACTER Manager SUBTITLE "Watch my back!"
+RESPONSE PlayerCoverMeHealManager CHARACTER Manager SUBTITLE "Cover me, I'm healing!"
+RESPONSE PlayerCoverMeHealManager CHARACTER Manager SUBTITLE "Everybody stop a sec, I gotta heal."
+RESPONSE PlayerCoverMeHealManager CHARACTER Manager SUBTITLE "Wait up while I heal."
+RESPONSE PlayerCoverMeHealManager CHARACTER Manager SUBTITLE "Hold up, I gotta heal."
+RESPONSE PlayerCoverMeHealManager CHARACTER Manager SUBTITLE "Cover me whille I heal."
+RULE PlayerCoverMeHealManager CRITERIA ConceptPlayerHealing IsNotCoughing IsManager IsNotAskedForCoverManager IsTalk IsTalkManager IsNotAlone RESPONSE PlayerCoverMeHealManager
+RESPONSE SurvivorSpottedRifleAutoManager2 CHARACTER Manager SUBTITLE "Oh cool"
+RESPONSE SurvivorSpottedRifleAutoManager2 CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorSpottedRifleAutoManager2 CHARACTER Manager SUBTITLE "Yeah."
+RESPONSE SurvivorSpottedRifleAutoManager2 CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorSpottedRifleAutoManager2 CRITERIA ConceptPlayerSpotRifle IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedRifleAutoManager2
+RESPONSE SurvivorSpottedShotgunAutoManager2 CHARACTER Manager SUBTITLE "Oh cool"
+RESPONSE SurvivorSpottedShotgunAutoManager2 CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorSpottedShotgunAutoManager2 CHARACTER Manager SUBTITLE "Yeah."
+RESPONSE SurvivorSpottedShotgunAutoManager2 CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorSpottedShotgunAutoManager2 CRITERIA ConceptPlayerSpotShotgun IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedShotgunAutoManager2
+RESPONSE SurvivorSpottedSMGAutoManager2 CHARACTER Manager SUBTITLE "Oh cool"
+RESPONSE SurvivorSpottedSMGAutoManager2 CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorSpottedSMGAutoManager2 CHARACTER Manager SUBTITLE "Yeah."
+RESPONSE SurvivorSpottedSMGAutoManager2 CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorSpottedSMGAutoManager2 CRITERIA ConceptPlayerSpotSMG IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedSMGAutoManager2
+RESPONSE SurvivorSpottedSniperRifleAutoManager2 CHARACTER Manager SUBTITLE "Oh cool"
+RESPONSE SurvivorSpottedSniperRifleAutoManager2 CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorSpottedSniperRifleAutoManager2 CHARACTER Manager SUBTITLE "Yeah."
+RESPONSE SurvivorSpottedSniperRifleAutoManager2 CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorSpottedSniperRifleAutoManager2 CRITERIA ConceptPlayerSpotSniperRifle IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedSniperRifleAutoManager2
+RESPONSE SurvivorSpottedWeaponManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RULE SurvivorSpottedWeaponManager CRITERIA ConceptPlayerSpotPistol IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto RESPONSE SurvivorSpottedWeaponManager
+RESPONSE SurvivorSpottedWeaponAShotgunAutoManager2 CHARACTER Manager SUBTITLE "Oh cool"
+RESPONSE SurvivorSpottedWeaponAShotgunAutoManager2 CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorSpottedWeaponAShotgunAutoManager2 CHARACTER Manager SUBTITLE "Yeah."
+RESPONSE SurvivorSpottedWeaponAShotgunAutoManager2 CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorSpottedWeaponAShotgunAutoManager2 CRITERIA ConceptPlayerSpotAutoShotgun IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponAShotgunAutoManager2
+RESPONSE SurvivorSpottedWeaponPistolAutoManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedWeaponPistolAutoManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedWeaponPistolAutoManager CRITERIA ConceptPlayerSpotPistol IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponPistolAutoManager
+RESPONSE SurvivorSpottedWeaponPistolAutoManager2 CHARACTER Manager SUBTITLE "Oh cool"
+RESPONSE SurvivorSpottedWeaponPistolAutoManager2 CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorSpottedWeaponPistolAutoManager2 CHARACTER Manager SUBTITLE "Yeah."
+RESPONSE SurvivorSpottedWeaponPistolAutoManager2 CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorSpottedWeaponPistolAutoManager2 CRITERIA ConceptPlayerSpotPistol IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponPistolAutoManager2
+RULE SurvivorSpottedRifleManager CRITERIA ConceptPlayerSpotRifle IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedRifleAutoManager CRITERIA ConceptPlayerSpotRifle IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedShotgunManager CRITERIA ConceptPlayerSpotShotgun IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedShotgunAutoManager CRITERIA ConceptPlayerSpotShotgun IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedSMGManager CRITERIA ConceptPlayerSpotSMG IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedSMGAutoManager CRITERIA ConceptPlayerSpotSMG IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedSniperRifleManager CRITERIA ConceptPlayerSpotSniperRifle IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedSniperRifleAutoManager CRITERIA ConceptPlayerSpotSniperRifle IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedWeaponManager CRITERIA ConceptPlayerSpotOtherWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedWeaponAShotgunAutoManager CRITERIA ConceptPlayerSpotAutoShotgun IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponManager
+
+
+

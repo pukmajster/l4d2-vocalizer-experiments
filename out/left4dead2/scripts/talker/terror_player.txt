@@ -1,0 +1,20 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2/scripts/talker/terror_player.txt
+-------------------------------------------------------
+
+RULE PlayerTongueResist CRITERIA ConceptPlayerTongueResist IsSurvivor RESPONSE PlayerTongueResistResponse
+RULE HunterTaunt CRITERIA ConceptPlayerTaunt IsHunter IsNotSpeaking RESPONSE HunterTauntResponse
+RULE TheDumpsterIsDown CRITERIA ConceptAirport02DumpsterDown RESPONSE TheDumpsterIsDown
+RULE HitCraneButtonCoach CRITERIA ConceptAirport02CraneStarted PanicEventCoach RESPONSE HitCraneButtonCoach
+RULE HitCraneButtonProducer CRITERIA ConceptAirport02CraneStarted PanicEventProducer RESPONSE HitCraneButtonProducer
+RULE HitCraneButtonGambler CRITERIA ConceptAirport02CraneStarted PanicEventGambler RESPONSE HitCraneButtonGambler
+RULE HitCraneButtonMechanic CRITERIA ConceptAirport02CraneStarted PanicEventMechanic RESPONSE HitCraneButtonMechanic
+RULE Airport03FireStartedCoach CRITERIA ConceptAirport03FireStarted PanicEventCoach RESPONSE Airport03FireStartedCoach
+RULE Airport03FireStartedProducer CRITERIA ConceptAirport03FireStarted PanicEventProducer RESPONSE Airport03FireStartedProducer
+RULE Airport03FireStartedGambler CRITERIA ConceptAirport03FireStarted PanicEventGambler RESPONSE Airport03FireStartedGambler
+RULE Airport03FireStartedMechanic CRITERIA ConceptAirport03FireStarted PanicEventMechanic RESPONSE Airport03FireStartedMechanic
+RULE Airport03FirePathClear CRITERIA ConceptAirport03FirePathClear RESPONSE Airport03FirePathClear
+RULE Airport04PathClearVan CRITERIA ConceptAirport04VanPathClear RESPONSE Airport04PathClearVan
+
+
+

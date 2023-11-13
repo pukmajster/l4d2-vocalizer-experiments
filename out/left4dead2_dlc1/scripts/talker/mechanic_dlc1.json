@@ -1,0 +1,650 @@
+{
+  "Coach": {},
+  "Mechanic": {
+    "L4D1PlayerNiceShotMechanic": [
+      "Hey good shootin'!"
+    ],
+    "L4D1PlayerNiceShotFrancisMechanic": [
+      "Hey, nice shot Francis.",
+      "Thanks Francis!",
+      "Francis!"
+    ],
+    "L4D1PlayerNiceShotLouisMechanic": [
+      "Louis, you are deadly, man!",
+      "Nice shooting Lou!",
+      "Loooouis!"
+    ],
+    "L4D1PlayerNiceShotZoeyMechanic": [
+      "A girl who can shoot? I am in love.",
+      "Man, you tell me Zoey don't look good with that gun. Mm!",
+      "Hey, nice shot Zoey!",
+      "Zoey! Zoey! Zoey! Man I just love sayin' it.",
+      "Zoey! Zoey! Zoey! I just love sayin' it!"
+    ],
+    "C6M3GasPourMechanic": [
+      "Filling the generator.",
+      "Hey I'm filling the generator.",
+      "Pouring one in.",
+      "One more in the gennie.",
+      "Can't fit much more.",
+      "This thing can't fit much more."
+    ],
+    "C6M1_IntotheparkNoHealthMechanic": [
+      "Grab a health kit.",
+      "Everybody grab a health kit, now."
+    ],
+    "C6M1Intro_01aMechanic": [
+      "Thanks! Yeah, she's purty purty. Any chance you could lower the bridge for us?",
+      "Thanks, thanks! Hey man, any chance you could lower the bridge for us?"
+    ],
+    "C6M1Intro_01Biker02Mechanic": [
+      "Oh man, I know! That's what I've been sayin'!. If there're zombies there's got to be vampires, wolfmen, mummies, aliens and all that shit man. It just makes sense."
+    ],
+    "C6M1Intro_01cMechanic": [
+      "Oh, come on, man!"
+    ],
+    "C6M1Intro_01TeenGirl04Mechanic": [
+      "Can you lower the bridge so we can get our car across?"
+    ],
+    "C6M1Intro_02aMechanic": [
+      "No, sir! Just borrowin' the car! Any chance you could lower that bridge?",
+      "No, sir! Just borrowin' this beauty! Any chance you could lower that bridge for us?"
+    ],
+    "C6M1Intro_11aMechanic": [
+      "Well, thanks. Hey, could y'all lower your bridge so we can get across? We're heading to New Orleans.",
+      "Thanks, thanks, yeah. Hey, could you lower the bridge so we can get across? We're heading over to New Orleans."
+    ],
+    "C6M1Intro_11cMechanic": [
+      "Okay then. Wish us luck.",
+      "(to self) Oh my gosh that is the prettiest girl I have ever seen.",
+      "Okay, thanks. Wish us luck.",
+      "(to self) Whoa, man, that was the prettiest girl I have ever seen.",
+      "(to self) Man oh man. I jumped Jimmy Gibbs car through a plate glass window and I just met the prettiest girl I have ever seen. Nick, shoot me right now, brother, things are never going to get any better than this."
+    ],
+    "C6M1Intro_12bMechanic": [
+      "(to self) She is so beautiful, she is so beautiful."
+    ],
+    "C6M1Intro_13aMechanic": [
+      "Well Hello! Hello... Howdy. Beautiful weather, huh... we're havin' (to group) Oh god, I'm too nervous to talk to her, one of you better do this."
+    ],
+    "C6M1Intro_13cMechanic": [
+      "Nah, I can't. Look at her.",
+      "Nah, I can't. Look at her, she's an angel."
+    ],
+    "C6M1Intro_13fMechanic": [
+      "COACH, come on, man!"
+    ],
+    "C6M1Intro_23bMechanic": [
+      "Oh, do we uh... need to know  some sort of password or something?"
+    ],
+    "C6M1Intro_23dMechanic": [
+      "Well, I guess we'll take it. See ya!"
+    ],
+    "C6M1Intro_24cMechanic": [
+      "So you can go ahead and lower that bridge for us then?"
+    ],
+    "C6M1Intro_24eMechanic": [
+      "Ahh I gotcha and that's what y'all need help with. All right okay, I don't like it. But okay."
+    ],
+    "RemWorldC6M1_WeddingWarn02Mechanic": [
+      "Ain't seen none Coach, but I'll yell if I do."
+    ],
+    "WorldC6M1_WeddingWarn03aMechanic": [
+      "(whispered) Shut up Nick."
+    ],
+    "C6M2_OpenGate1Mechanic": [
+      "I opened it.",
+      "It's open, GO!",
+      "I hit it, man, GO GO GO!",
+      "I hit it.",
+      "Alright, let's boogie."
+    ],
+    "C6M2_OpenGate1bMechanic": [
+      "Hey!"
+    ],
+    "C6M2_OpenGate2Mechanic": [
+      "It's open, GO!",
+      "I hit it, man, GO GO GO!",
+      "I hit it.",
+      "Alright, let's boogie."
+    ],
+    "C6M2LeavingSafeRoomMechanic": [
+      "Let's hurry, man. I miss my car.",
+      "Jimmy Gibb Jr, we're coming for ya, baby.",
+      "Okay we gotta hurry, man! I miss the car."
+    ],
+    "DLC1_C6M2_SafeRoomConvo02aMechanic": [
+      "Nick, for the last time, I am NOT leaving it behind."
+    ],
+    "DLC1_C6M2_SafeRoomConvo03Mechanic": [
+      "We gotta find a way to get that bridge up, no way I'm leaving that car behind.",
+      "Screw this I just can't leave that car behind. I'm going back for her."
+    ],
+    "DLC1_C6M2_SafeRoomConvo03bMechanic": [
+      "JUST A CAR!?!? JUST A CAR!?!?! That's like saying the mona Lisa's just a sculpture or shit, that's like sayin' Jimmy Gibb's just a driver. That's like saying that girl on the bridge is just a little pretty, she's an angel. Shit, that's like, that's like,"
+    ],
+    "DLC1_C6M2_SafeRoomConvo06Mechanic": [
+      "Hey Rochelle; now don't spare my feelings nonr, do you think I got any shot with that Zoey girl?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo08Mechanic": [
+      "Oh, I keep hoping we drive to a place where there aren't any more zombies."
+    ],
+    "DLC1_C6M2_SafeRoomConvo11aMechanic": [
+      "I was just thinkin' of her Nick. Man, she is beautiful.",
+      "Yeah, I was just thinkin' of her too, Nick. Oh, she is beautiful."
+    ],
+    "DLC1_C6M2_SafeRoomConvo14bMechanic": [
+      "Get outta here! Alright!"
+    ],
+    "DLC1_C6M2_SafeRoomConvo15Mechanic": [
+      "You know, we've been gone for a while, you think the car is okay?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo16bMechanic": [
+      "Yeah, yeah, that's not going to happen."
+    ],
+    "DLC1_C6M2_SafeRoomConvo16b1Mechanic": [
+      "Yeah, yeah, that's not going to happen."
+    ],
+    "DLC1_C6M2_SafeRoomConvo16dMechanic": [
+      "(knowing laugh) Okay Ro. Whatever you say."
+    ],
+    "DLC1_C6M2_SafeRoomConvo16fMechanic": [
+      "(knowing laugh) Okay Coach. Whatever you say."
+    ],
+    "DLC1_C6M2_SafeRoomConvo17Mechanic": [
+      "Ah man, that Zoey will never go for a man like me."
+    ],
+    "DLC1_C6M2_SafeRoomConvo17aMechanic": [
+      "Ro, that car's family now. Hell that biker fella's an awesome dude, but we ain't tradin' him for Nick."
+    ],
+    "DLC1_C6M2_SafeRoomConvo18bMechanic": [
+      "Oh, Ro, man, that reminds me of this..."
+    ],
+    "DLC1_C6M2_SafeRoomConvo19aMechanic": [
+      "Yeah. It's been hell, alright."
+    ],
+    "DLC1_C6M2_SafeRoomConvo19cMechanic": [
+      "[happily] Not if we get that bridge down. We'll be drivin' the Jimmy Gibbs Junior all the way to New Orleans!"
+    ],
+    "DLC1_C6M2_SafeRoomConvo19eMechanic": [
+      "Well, maybe if we find a nice open stretch, we slow down, and you can jog right alongside. Like in that boxing movie!"
+    ],
+    "DLC1_C6M2_SafeRoomConvo20Mechanic": [
+      "Man, if you woulda told me a year ago that I'd be driving around in JIMMY GIBBS JUNIOR'S stock car, I wouldn't have BELIEVED you. It is like... just beyond, man."
+    ],
+    "DLC1_C6M2_SafeRoomConvo21bMechanic": [
+      "Yeah, no, I seen my share of horror movies."
+    ],
+    "WorldC6M2_FinalWater01bMechanic": [
+      "Well, I still like you Nick."
+    ],
+    "WorldC6M2_InSewer101aMechanic": [
+      "Don't smell like it."
+    ],
+    "WorldC6M2_OnTourWalk102bMechanic": [
+      "Nick! We all see this tours got some problems no sense picking on Coach."
+    ],
+    "WorldC6M2_Tattoo03b>Mechanic": [
+      "I like mine better."
+    ],
+    "C6M3_BridgeDownMechanic": [
+      "It's open, GO GO GO!",
+      "It's here, lets' go!",
+      "Alright, it's here, lets' go!",
+      "Run to Jimmy Gibbs Jr!",
+      "Let's go! I'm driving! WOOO!",
+      "Everybody get in the damn car!",
+      "Get in the car! We're ready!",
+      "Come on, let's GO!"
+    ],
+    "C6M3_BridgeGettoCarMechanic": [
+      "It's open, GO GO GO!",
+      "It's here, lets' go!",
+      "Alright, it's here, lets' go!",
+      "Run to Jimmy Gibbs Jr!",
+      "Let's go! I'm driving! WOOO!",
+      "Everybody get in the damn car!",
+      "Get in the car! We're ready!",
+      "Come on, let's GO!"
+    ],
+    "C6M3_elevatorMechanic": [
+      "Sooner we get these cans, the sooner we're back with Jimmy Gibbs Jr.",
+      "Hey these cans look pretty spread out. We should stick together.",
+      "Okay, this is the most nervous I've been since this shit started.",
+      "Alright, let's get down there and fill ourselves up a generator.",
+      "Let's get down there and fill ourselves up a generator."
+    ],
+    "C6M3_elevatorZoeyMechanic": [
+      "Man, I'm gonna kill so many zombies she's gonna have to love me.",
+      "I'm gonna kill a tank in her honor and then I'm gonna name it after her.",
+      "I'm gonna kill a tank in her honor. Ooh, and then I'm gonna name it after her."
+    ],
+    "C6M3_GivenItemBikerMechanic": [
+      "Thanks Francis!",
+      "Hey, thanks guys!",
+      "This from you? THANKS!"
+    ],
+    "C6M3_GivenItemTeenGirlMechanic": [
+      "Thanks Zoey!",
+      "Thank you Zoey!",
+      "Hey, thanks Zoey!",
+      "Aw, I wish there was something I could give you back, Zoey.",
+      "Hey, thanks y'all!"
+    ],
+    "DLC1_C6M3_SafeRoomConvo01aMechanic": [
+      "Oh sure! Rochelle and biker dude sitting in a tree, K-I-S-S-I-N-G."
+    ],
+    "DLC1_C6M3_SafeRoomConvo01cMechanic": [
+      "Hey man I saw how you two were looking at each other.",
+      "Mm hm.  I saw y'all  looking at each other."
+    ],
+    "DLC1_C6M3_SafeRoomConvo02eMechanic": [
+      "Nah, he don't live there.",
+      "No man, he don't live there.",
+      "I saw how he was lookin' at Rochelle. He ain't goin nowhere."
+    ],
+    "DLC1_C6M3_SafeRoomConvo03aMechanic": [
+      "How do I look?",
+      "How do I look, man?"
+    ],
+    "DLC1_C6M3_SafeRoomConvo03cMechanic": [
+      "You got a turd on your shoulder, Nick."
+    ],
+    "DLC1_C6M3_SafeRoomConvo04aMechanic": [
+      "Man, I don't know, what do you think? With the hat or without it?"
+    ],
+    "DLC1_C6M3_SafeRoomConvo04dMechanic": [
+      "Nick, I don't need that kinda pressure, man!"
+    ],
+    "DLC1_C6M3_SafeRoomConvo05aMechanic": [
+      "Don't remind me, Nick. I am a nervous wreck here.",
+      "Okay, you know what? Don't need the reminding me, Nick, alright? I am a nervous wreck over here."
+    ],
+    "DLC1_C6M3_SafeRoomConvo06Mechanic": [
+      "Okay Ro, I don't want to get your hopes up, but I think that awesome biker dude has a little crush on you."
+    ],
+    "DLC1_C6M3_SafeRoomConvo06bMechanic": [
+      "Well, I don't doubt it. that is a cool guy."
+    ],
+    "DLC1_C6M3_SafeRoomConvo07aMechanic": [
+      "Nah, she ain't goin' nowhere. That ain't like her."
+    ],
+    "DLC1_C6M3_SafeRoomConvo07cMechanic": [
+      "Yeah, it was like love at first sight. The other four seconds was gravy."
+    ],
+    "DLC1_C6M3_SafeRoomConvo08aMechanic": [
+      "Nah man, he seemed like a good guy."
+    ],
+    "DLC1_C6M3_SafeRoomConvo08cMechanic": [
+      "I will kill him.",
+      "He is a dead man."
+    ],
+    "DLC1_C6M3_SafeRoomConvo08dMechanic": [
+      "I will kill him."
+    ],
+    "DLC1_C6M3_SafeRoomConvo08eMechanic": [
+      "He is a dead man."
+    ],
+    "DLC1_C6M3_SafeRoomConvo08fMechanic": [
+      "Folks, we got a new goal. New Orleans is gonna have to wait. We are going to have to hunt that biker man down."
+    ],
+    "DLC1_C6M3_SafeRoomConvo09aMechanic": [
+      "Ro, it's the zombie apocalypse. First dating days are over.  Nick, By the way, I'm gonna have to borrow your suit, because we're skippin' right to the marriage, brother. Then we're goin' cross country, just her me and the Jimmy Gibbs Jr."
+    ],
+    "C6M3_CansDoneMechanic": [
+      "I'm coming baby!"
+    ],
+    "L4D1AlsoSpottedTankMechanic": [
+      "Oh, this ain't good, TWO TANKS!",
+      "Shiiiiiiittttt!",
+      "Oh, this ain't good, we got TWO TANKS here!",
+      "Oh shiiiiiiittttt!",
+      "Lead 'em back to Louis!",
+      "Louis, get ready! Tanks coming!",
+      "Louis, get yourself ready, baby! we got tanks coming!"
+    ],
+    "L4D1SpottedTankMechanic": [
+      "Oh, this ain't good, TWO TANKS!",
+      "Shiiiiiiittttt!",
+      "Oh, this ain't good, we got TWO TANKS here!",
+      "Oh shiiiiiiittttt!",
+      "Lead 'em back to Louis!",
+      "Louis, get ready! Tanks coming!",
+      "Louis, get yourself ready, baby! we got tanks coming!"
+    ],
+    "SurvivorSpottedFallenMechanic": [
+      "Hey kill that zombie!",
+      "Kill that zombie!",
+      "Hey, stop that zombie!",
+      "Get that zombie!",
+      "Get that zombie, there!",
+      "Do not let that zombie get away."
+    ],
+    "PlayerWitchChasingC6M1Mechanic": [
+      "Runaway bride, runaway bride!",
+      "Help, here! Here comes the bride!",
+      "Here comes the bride!"
+    ],
+    "PlayerRemarkremark_MidnightRidersBusMechanic": [
+      "Oh man, I must be seeing things.",
+      "What?",
+      "What? Wha... who?"
+    ],
+    "PlayerRemarkWorldC6M1_AcrossHereMechanic": [
+      "We can get across here.",
+      "Let's get across here."
+    ],
+    "PlayerRemarkWorldC6M1_AlleyBelowMechanic": [
+      "Down this alley.",
+      "This is like a goddamn maze.",
+      "I think we want to get up there.",
+      "Y'all, how do we get to them walkways?",
+      "Let's go down this alley."
+    ],
+    "PlayerRemarkWorldC6M1_AlleyIntoBuildingMechanic": [
+      "Into these apartments.",
+      "Into the building.",
+      "Hey, into the building."
+    ],
+    "PlayerRemarkWorldC6M1_InAptsMechanic": [
+      "Hey, let's search these rooms here."
+    ],
+    "PlayerRemarkWorldC6M1_IntotheparkMechanic": [
+      "Through this park.",
+      "By Jimmy Gibb Jr, don't worry we're gonna come back for you.",
+      "(calling out) Hey can you all watch the car while we're gone?",
+      "Should I maybe stay here and guard the car?",
+      "Should I stay here and guard the car?",
+      "All right..."
+    ],
+    "PlayerRemarkWorldC6M1_IntoThePark2Mechanic": [
+      "Through this park."
+    ],
+    "PlayerRemarkWorldC6M1_IntoTheStoreMechanic": [
+      "Through this store.",
+      "Guns in the store.",
+      "Hey, we got guns in here!",
+      "Hey there's guns in the store.",
+      "Cut through the store."
+    ],
+    "PlayerRemarkWorldC6M1_PostWeddingMechanic": [
+      "Hey, check the tents.",
+      "Okay, as far as weddings go, that was the most exciting."
+    ],
+    "PlayerRemarkWorldC6M1_PostWeddingZMechanic": [
+      "You know what? This got me thinking... I should totally marry that girl.",
+      "This reminds me, I should totally marry that girl.",
+      "This wedding here? I'm takin' this as a sign."
+    ],
+    "PlayerRemarkWorldC6M1_PostWeddingZCMechanic": [
+      "Hey Coach. Can coaches marry people?"
+    ],
+    "PlayerRemarkWorldC6M1_SafeRoomAlleyMechanic": [
+      "Behind this bus.",
+      "Safe house back here!",
+      "Hey guys, safe house back here!"
+    ],
+    "PlayerRemarkWorldC6M1_ThroughBarMechanic": [
+      "Through here.",
+      "Right through here."
+    ],
+    "PlayerRemarkWorldC6M1_UpHereMechanic": [
+      "Back up here.",
+      "We can get up here!"
+    ],
+    "PlayerRemarkWorldC6M1_UpTheStairsMechanic": [
+      "Let's try upstairs."
+    ],
+    "PlayerRemarkWorldC6M1_UpTheStairs2Mechanic": [
+      "Go upstairs.",
+      "Let's go upstairs.",
+      "Upstairs, everybody.",
+      "Up the stairs."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarnMechanic": [
+      "A wedding!",
+      "Oh man. You think she's crying cause she got left at the alter?",
+      "I normally really like weddings. This is just weird."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarn1Mechanic": [
+      "A wedding!",
+      "Oh man. You think she's crying cause she got left at the alter?",
+      "I normally really like weddings. This is just weird."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarn2Mechanic": [
+      "A wedding!",
+      "Oh man. You think she's crying cause she got left at the alter?",
+      "I normally really like weddings. This is just weird."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarn3Mechanic": [
+      "A wedding!",
+      "Oh man. You think she's crying cause she got left at the alter?",
+      "I normally really like weddings. This is just weird."
+    ],
+    "PlayerRemarkWorldC6M2_AcrossPlankMechanic": [
+      "Hurry over this plank.",
+      "Okay, just don't look down.",
+      "Bad time for a smoker."
+    ],
+    "PlayerRemarkWorldC6M2_AfterGate1Mechanic": [
+      "Keep moving.",
+      "Let's keep moving!",
+      "Hey, just keep moving. Let's keep moving!",
+      "Alright, let's keep moving!"
+    ],
+    "PlayerRemarkWorldC6M2_AfterGate2Mechanic": [
+      "Hey, Nick, there's a turd right on your shoulder there.",
+      "Nick, you got a little turd on your shoulder.",
+      "Hey, Nick, turd on your shoulder.",
+      "Man, they ain't gonna stop coming.",
+      "We gotta  find a ladder.",
+      "Man even I'm getting' sick of this shit.",
+      "Man, they ain't not gonna stop coming.",
+      "Anybody seen a ladder?",
+      "We need to find a ladder."
+    ],
+    "PlayerRemarkWorldC6M2_DownHereMechanic": [
+      "Down here!",
+      "Down here."
+    ],
+    "PlayerRemarkWorldC6M2_DownIntoBuildingMechanic": [
+      "Everyone in here.",
+      "Hey, everybody in here.",
+      "Through this building.",
+      "Down these stairs."
+    ],
+    "PlayerRemarkWorldC6M2_FinalLadderMechanic": [
+      "Hey, up the ladder.",
+      "Let's head up the ladder.",
+      "Ladder on that wall.",
+      "Hey, get up there!"
+    ],
+    "PlayerRemarkWorldC6M2_FinalWaterMechanic": [
+      "Haha, more water, Nick!",
+      "Watch for turds, Nick!",
+      "Back into the water.",
+      "Hey, Nick, didn't that suit used to be white?",
+      "Man, they got a lotta work to do on this phase two bit."
+    ],
+    "PlayerRemarkWorldC6M2_FinalWaterGoGoMechanic": [
+      "Keep moving.",
+      "Let's keep moving!",
+      "KEEP MOVING!"
+    ],
+    "PlayerRemarkWorldC6M2_InJazzClubMechanic": [
+      "Into the Jazz club!",
+      "Hey, Into the club, guys!",
+      "Tour's in the Jazz club.",
+      "Hey, the tour's in the Jazz club.",
+      "Hey that tunnel's in the club.",
+      "Jimmy Gibb Jr here we come!"
+    ],
+    "PlayerRemarkWorldC6M2_InSewer2Mechanic": [
+      "Oh man, I found a candy bar! [beat] Whup. False alarm."
+    ],
+    "PlayerRemarkWorldC6M2_InSewerLadder1Mechanic": [
+      "Okay if anybody needs a bathroom break, now'd be a good time.",
+      "Let's get out of the water.",
+      "Hey, everybody let's get out of the water.",
+      "Time to dry off.",
+      "Alright, let's get out of this water."
+    ],
+    "PlayerRemarkWorldC6M2_IntoConstructionMechanic": [
+      "Hey let's jump down.",
+      "Into the construction site.",
+      "Street's all tore up."
+    ],
+    "PlayerRemarkWorldC6M2_IntoPoolHallMechanic": [
+      "We can get in through the window.",
+      "Get into the pool hall.",
+      "Hey Let's go into the pool hall."
+    ],
+    "PlayerRemarkWorldC6M2_JukeBoxMechanic": [
+      "All right, baby, the jukebox works!"
+    ],
+    "PlayerRemarkWorldC6M2_JumpDownMechanic": [
+      "Last one is a rotten egg.",
+      "This is gonna be great.",
+      "This is gonna be fun.",
+      "Hey let's jump together.",
+      "Now this is more like it.",
+      "CANNONBALL!"
+    ],
+    "PlayerRemarkWorldC6M2_OnTourWalk2Mechanic": [
+      "I guess this shit's old, huh? I don't know. But..."
+    ],
+    "PlayerRemarkWorldC6M2_OnTourWalk3Mechanic": [
+      "Don't know why, I was thinkin' there'd be rides here.",
+      "Not sure why, I thought there'd be a couple of rides at least."
+    ],
+    "PlayerRemarkWorldC6M2_OpenGate1Mechanic": [
+      "I got a bad feelin' about this.",
+      "Get ready before we open this door, now.",
+      "Y'all ready? Alright, let's open this door.",
+      "Alright, alarm's gonna sound when we open this.",
+      "Let's get ready and then hit it."
+    ],
+    "PlayerRemarkWorldC6M2_OpenGate2Mechanic": [
+      "Hey, let's try this one."
+    ],
+    "PlayerRemarkWorldC6M2_Phase2Mechanic": [
+      "Hope phase two has rides.",
+      "Phase one is over?",
+      "Man, I hope phase two has rides.",
+      "Phase one is over? Jeez...",
+      "Hey,sorry about the lack of history in phase one coach.",
+      "Hope this goes under the river."
+    ],
+    "PlayerRemarkWorldC6M2_Phase2DownMechanic": [
+      "Let's get down these stairs."
+    ],
+    "PlayerRemarkWorldC6M2_Phase2DownIntenseMechanic": [
+      "GET DOWN THE STAIRS!",
+      "Go down. Go down. Go down."
+    ],
+    "PlayerRemarkWorldC6M2_PostGate1xMechanic": [
+      "Back in the water.",
+      "Back in the water, everybody.",
+      "Time for your bath Nick."
+    ],
+    "PlayerRemarkWorldC6M2_SafeRoomMechanic": [
+      "We're getting close, I can feel her. I mean the car of course.",
+      "Oh man, we're getting close, I can just feel her. I mean the car of course.",
+      "Hey there's a dry saferoom up here!",
+      "Dry saferoom up here!",
+      "Oh We are getting close, man, I can feel her. I mean the car."
+    ],
+    "PlayerRemarkWorldC6M2_TattooMechanic": [
+      "TATTOOS!",
+      "TATTOOS! TATTOOS!",
+      "Man, I love tattoos. I only have one, but I was gonna get my truck tattooed on my other arm. Damn zombies.",
+      "I love tattoos. I only have one, but I was gonna get my truck tattooed on my other arm.",
+      "Man, I love tattoos. I only have one, I was gonna get my truck tattooed on the other arm, but maybe now I get Jimmy Gibbs Jr car. Damn zombies."
+    ],
+    "PlayerRemarkWorldC6M2_TattooE&GMechanic": [
+      "Hey Nick, you and me ought to get tattoos that say \"bros\"."
+    ],
+    "PlayerRemarkWorldC6M2_TourEntranceMechanic": [
+      "Should we leave some money?",
+      "Let's go under-the-river!"
+    ],
+    "PlayerRemarkWorldC6M2_UpCatWalkMechanic": [
+      "A ladder!",
+      "Ladder!",
+      "There's a  ladder!",
+      "Oh, finally, a ladder!"
+    ],
+    "PlayerRemarkWorldC6M2_UpStairsMechanic": [
+      "Up the stairs.",
+      "There's a street up there.",
+      "Hey, let's get up to the street."
+    ],
+    "PlayerRemarkWorldC6M2_UpStairs2Mechanic": [
+      "Go upstairs.",
+      "Let's try upstairs.",
+      "Upstairs, everybody."
+    ],
+    "PlayerRemarkWorldC6M3_BridgeRunMechanic": [
+      "I'm coming baby!",
+      "This is the longest run of my life!",
+      "Oh man, this is the longest run of my life!",
+      "I'm coming baby! I'm comin'!",
+      "I'm comin'! I'm sorry I left you!"
+    ],
+    "PlayerRemarkWorldC6M3_ByBridgeMechanic": [
+      "Hey, thanks Zoey, I won't forget you!",
+      "THANK YOU ZOEY!",
+      "Thank you, thank you Zoey.",
+      "Thanks Francis.",
+      "Man, Francis, you are the coolest."
+    ],
+    "PlayerRemarkWorldFootLockerMechanic": [
+      "Hey open up the lockers.",
+      "Hey, let's search the lockers.",
+      "Hey, we should probably check these lockers.",
+      "Open up the locker.",
+      "Search the locker.",
+      "We should probably check this locker."
+    ],
+    "SurvivorPickupGolfCLubMechanic": [
+      "Grabbing a golf club.",
+      "Grabbing the club.",
+      "I'm going with the golf club."
+    ],
+    "SurvivorPickupM60Mechanic": [
+      "Shit, this is heavy.",
+      "This is a big gun.",
+      "Now this is a big gun.",
+      "Grabbing the belt gun."
+    ],
+    "WeddingWitchDead04Mechanic": [
+      "Whole thing makes me uncomfortable."
+    ],
+    "SurvivorSpottedGolfClubMechanic": [
+      "Golf club!",
+      "I got a golf club here.",
+      "Club here."
+    ],
+    "SurvivorSpottedGolfClubAutoMechanic": [
+      "Golf club!",
+      "I got a golf club here.",
+      "Club here."
+    ],
+    "SurvivorSpottedM60Mechanic": [
+      "Hey that's an M60.",
+      "Big gun here.",
+      "Belt gun here."
+    ],
+    "SurvivorSpottedM60AutoMechanic": [
+      "Hey that's an M60.",
+      "Big gun here.",
+      "Belt gun here."
+    ]
+  },
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {},
+  "NamVet": {},
+  "Manager": {},
+  "Biker": {}
+}

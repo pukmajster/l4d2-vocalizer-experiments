@@ -1,0 +1,608 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc3/scripts/talker/namvet_dlc3.txt
+-------------------------------------------------------
+
+RESPONSE C7M1_saferoom01aNamVet CHARACTER NamVet SUBTITLE "Shut up, Francis."
+RULE C7M1_saferoom01aNamVet CRITERIA ConceptC7M1_saferoom01a IsNamVet RESPONSE C7M1_saferoom01aNamVet
+RESPONSE C7M1_saferoom03NamVet CHARACTER NamVet SUBTITLE "Nope. Gotta be a sail boat."
+RULE C7M1_saferoom03NamVet CRITERIA ConceptC7M1_saferoom03 IsNamVet RESPONSE C7M1_saferoom03NamVet
+RESPONSE C7M1_saferoom03bNamVet CHARACTER NamVet SUBTITLE "I ain't stoppin' the boat every 15 minutes to go look for gas."
+RULE C7M1_saferoom03bNamVet CRITERIA ConceptC7M1_saferoom03b IsNamVet RESPONSE C7M1_saferoom03bNamVet
+RESPONSE C7M1_saferoom04aNamVet CHARACTER NamVet SUBTITLE "'Cause we ain't stoppin' for gas."
+RULE C7M1_saferoom04aNamVet CRITERIA ConceptC7M1_saferoom04a IsNamVet RESPONSE C7M1_saferoom04aNamVet
+RESPONSE C7M1_saferoom04bNamVet CHARACTER NamVet SUBTITLE "You know who runs around filling up things with gas? Idiots."
+RULE C7M1_saferoom04bNamVet CRITERIA ConceptC7M1_saferoom04b IsNamVet RESPONSE C7M1_saferoom04bNamVet
+RESPONSE C7M1_saferoom06aNamVet CHARACTER NamVet SUBTITLE "That's not a sailboat."
+RULE C7M1_saferoom06aNamVet CRITERIA ConceptC7M1_saferoom06a IsNamVet RESPONSE C7M1_saferoom06aNamVet
+RESPONSE C7M1_saferoom06bNamVet CHARACTER NamVet SUBTITLE "And it's on fire."
+RULE C7M1_saferoom06bNamVet CRITERIA ConceptC7M1_saferoom06b IsNamVet RESPONSE C7M1_saferoom06bNamVet
+RESPONSE C7M1_saferoom07NamVet CHARACTER NamVet SUBTITLE "We're out of track."
+RULE C7M1_saferoom07NamVet CRITERIA ConceptC7M1_saferoom07 IsNamVet RESPONSE C7M1_saferoom07NamVet
+RESPONSE C7M1_saferoom08NamVet CHARACTER NamVet SUBTITLE "Shut up, Francis."
+RULE C7M1_saferoom08NamVet CRITERIA ConceptC7M1_saferoom08 IsNamVet RESPONSE C7M1_saferoom08NamVet
+RESPONSE C7M1_saferoom08bNamVet CHARACTER NamVet SUBTITLE "Both of you shut up."
+RULE C7M1_saferoom08bNamVet CRITERIA ConceptC7M1_saferoom08b IsNamVet RESPONSE C7M1_saferoom08bNamVet
+RESPONSE C7M1_saferoom09NamVet CHARACTER NamVet SUBTITLE "Zoey, I need you to trust me on this."
+RULE C7M1_saferoom09NamVet CRITERIA ConceptC7M1_saferoom09 IsNamVet RESPONSE C7M1_saferoom09NamVet
+RESPONSE C7M1_saferoom09aNamVet CHARACTER NamVet SUBTITLE "Zoey, we're together and on our own.  That's what's important."
+RESPONSE C7M1_saferoom09aNamVet CHARACTER NamVet SUBTITLE "Zoey, we all made it together.  That was my plan."
+RESPONSE C7M1_saferoom09aNamVet CHARACTER NamVet SUBTITLE "Zoey, we all made this far together.  That was my plan."
+RULE C7M1_saferoom09aNamVet CRITERIA ConceptC7M1_saferoom09a IsNamVet RESPONSE C7M1_saferoom09aNamVet
+RESPONSE C7M1_saferoom10bNamVet CHARACTER NamVet SUBTITLE "Train ride's over, you gotta focus.  This isn't gonna be easy."
+RESPONSE C7M1_saferoom10bNamVet CHARACTER NamVet SUBTITLE "Pull yourself together, if not for me then for them."
+RULE C7M1_saferoom10bNamVet CRITERIA ConceptC7M1_saferoom10b IsNamVet RESPONSE C7M1_saferoom10bNamVet
+RESPONSE C7M1_saferoom11aNamVet CHARACTER NamVet SUBTITLE "Come on, let's move."
+RULE C7M1_saferoom11aNamVet CRITERIA ConceptC7M1_saferoom11a IsNamVet RESPONSE C7M1_saferoom11aNamVet
+RESPONSE C7M1_saferoom12bNamVet CHARACTER NamVet SUBTITLE "Shut your traps, let's move out."
+RULE C7M1_saferoom12bNamVet CRITERIA ConceptC7M1_saferoom12b IsNamVet RESPONSE C7M1_saferoom12bNamVet
+RESPONSE C7M1_saferoom13aNamVet CHARACTER NamVet SUBTITLE "I'll give you something to cry about, Francis."
+RULE C7M1_saferoom13aNamVet CRITERIA ConceptC7M1_saferoom13a IsNamVet RESPONSE C7M1_saferoom13aNamVet
+RESPONSE C7M1_saferoom14>NamVet CHARACTER NamVet SUBTITLE "You ever get tired of being an idiot, Francis?"
+RULE C7M1_saferoom14>NamVet CRITERIA ConceptC7M1_saferoom14> IsNamVet RESPONSE C7M1_saferoom14>NamVet
+RESPONSE C7M1_saferoom15NamVet CHARACTER NamVet SUBTITLE "Zoey... Christ, kid. We come back for our own."
+RESPONSE C7M1_saferoom15NamVet CHARACTER NamVet SUBTITLE "Zoey... No one here is being left behind.."
+RULE C7M1_saferoom15NamVet CRITERIA ConceptC7M1_saferoom15 IsNamVet RESPONSE C7M1_saferoom15NamVet
+RESPONSE C7M1_saferoom16aNamVet CHARACTER NamVet SUBTITLE "I can go find a boat on my own, Francis. Why don't you go back in the train car, shut your little eyes and have a good cry?"
+RESPONSE C7M1_saferoom16aNamVet CHARACTER NamVet SUBTITLE "You gettin' tired, Francis? Tell you what: I'll go find us a boat. Then I'll come back, pick you up and carry you there."
+RULE C7M1_saferoom16aNamVet CRITERIA ConceptC7M1_saferoom16a IsNamVet RESPONSE C7M1_saferoom16aNamVet
+RESPONSE C7M1_saferoom20NamVet CHARACTER NamVet SUBTITLE "If we stayed, no one would have escaped."
+RULE C7M1_saferoom20NamVet CRITERIA ConceptC7M1_saferoom20 IsNamVet RESPONSE C7M1_saferoom20NamVet
+RESPONSE C7M1_saferoom20bNamVet CHARACTER NamVet SUBTITLE "Zoey.  I can't."
+RULE C7M1_saferoom20bNamVet CRITERIA ConceptC7M1_saferoom20b IsNamVet RESPONSE C7M1_saferoom20bNamVet
+RESPONSE C7M1_saferoom21bNamVet CHARACTER NamVet SUBTITLE "Francis, you'd have been walking the plank right now."
+RULE C7M1_saferoom21bNamVet CRITERIA ConceptC7M1_saferoom21b IsNamVet RESPONSE C7M1_saferoom21bNamVet
+RESPONSE C7M1_saferoom22NamVet CHARACTER NamVet SUBTITLE "It'll do you good son."
+RULE C7M1_saferoom22NamVet CRITERIA ConceptC7M1_saferoom22 IsNamVet RESPONSE C7M1_saferoom22NamVet
+RESPONSE C7M1_saferoom23aNamVet CHARACTER NamVet SUBTITLE "Zoey...  I'm not leaving any of you behind."
+RULE C7M1_saferoom23aNamVet CRITERIA ConceptC7M1_saferoom23a IsNamVet RESPONSE C7M1_saferoom23aNamVet
+RESPONSE C7M1_saferoom24aNamVet CHARACTER NamVet SUBTITLE "You're a regular health nut."
+RULE C7M1_saferoom24aNamVet CRITERIA ConceptC7M1_saferoom24a IsNamVet RESPONSE C7M1_saferoom24aNamVet
+RESPONSE C7M1_saferoom25aNamVet CHARACTER NamVet SUBTITLE "Out here, they're immune, dead or zombies."
+RULE C7M1_saferoom25aNamVet CRITERIA ConceptC7M1_saferoom25a IsNamVet RESPONSE C7M1_saferoom25aNamVet
+RESPONSE C7M1OpenTankDoorNamVet CHARACTER NamVet SUBTITLE "When this door opens, light the mother up."
+RESPONSE C7M1OpenTankDoorNamVet CHARACTER NamVet SUBTITLE "Get ready, I'm opening the door."
+RESPONSE C7M1OpenTankDoorNamVet CHARACTER NamVet SUBTITLE "Stand back and get ready."
+RESPONSE C7M1OpenTankDoorNamVet CHARACTER NamVet SUBTITLE "Door's opening up!"
+RULE C7M1OpenTankDoorNamVet CRITERIA Conceptc7m1opentankdoorspeakNamVet IsNamVet _auto_NotsaidC7M1OpenTankDoor RESPONSE C7M1OpenTankDoorNamVet
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "End of the line, people!"
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "Alright, let's move! No stragglers!"
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "Alright, let's move! Everyone stay together!"
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "Alright, everybody, remember: we're lookin' for a sail boat."
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "Alright, everybody, remember: we're lookin' for a sail boat. I aim to get to the Keys, and I ain't stoppin' for gas."
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "We gotta find a sail boat."
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "Zoey. You ready to head for the Keys?"
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "Zoey. You ready to head to the Keys?"
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "Zoey. You still mad?"
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "End of the line. Let's move."
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "Almost there, people! We just gotta find a boat and we'll be in the Keys."
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "That's as far as the train's taking us. If we're gonna get to the Keys, we'll need a boat."
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "Let's find a boat that can make it to the Gulf."
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "End of the line sweeties.  Grab some gear and let's go."
+RESPONSE C7M1SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "The train rides over, time to get back to walking."
+RULE C7M1SafeRoomIdleNamVet CRITERIA ConceptTalkIdle IsNamVet IsMapc7m1_docks IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_IsSafeRoomStart _auto_NotSafeRoomQuiet _auto_NotC7M1SafeRoomConvo IsNotSpeakingWeight0 RESPONSE C7M1SafeRoomIdleNamVet
+RESPONSE C7M1SafeRoomStartNamVet CHARACTER NamVet SUBTITLE "Blank"
+RULE C7M1SafeRoomStartNamVet CRITERIA ConceptTalkIdle IsNamVet IsMapc7m1_docks IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_NotSafeRoomStart IsNotSpeakingWeight0 RESPONSE C7M1SafeRoomStartNamVet
+RESPONSE InfoRemc7m1_harborblocked01NamVet CHARACTER NamVet SUBTITLE "LOUIS, the ocean doesn't flow into the river."
+RULE InfoRemc7m1_harborblocked01NamVet CRITERIA ConceptInfoRemc7m1_harborblocked01 IsNamVet IsManagerNear800 RESPONSE InfoRemc7m1_harborblocked01NamVet
+RESPONSE C7M2_saferoom01aNamVet CHARACTER NamVet SUBTITLE "Zoey. Listen. The four of us are all that matters now."
+RULE C7M2_saferoom01aNamVet CRITERIA ConceptC7M2_saferoom01a IsNamVet RESPONSE C7M2_saferoom01aNamVet
+RESPONSE C7M2_saferoom05NamVet CHARACTER NamVet SUBTITLE "I keep telling you: we're looking for a sail boat."
+RULE C7M2_saferoom05NamVet CRITERIA ConceptC7M2_saferoom05 IsNamVet RESPONSE C7M2_saferoom05NamVet
+RESPONSE C7M2_saferoom05bNamVet CHARACTER NamVet SUBTITLE "Shut up, Franc-- alright, that's not a bad idea."
+RULE C7M2_saferoom05bNamVet CRITERIA ConceptC7M2_saferoom05b IsNamVet RESPONSE C7M2_saferoom05bNamVet
+RESPONSE C7M2_saferoom06NamVet CHARACTER NamVet SUBTITLE "Dammit, Zoey! We trusted CEDA! We trusted the military! And they left us to die! Do you think they'll ever let us back in? We're on our own, kid. It's high time you started actin' like it."
+RULE C7M2_saferoom06NamVet CRITERIA ConceptC7M2_saferoom06 IsNamVet RESPONSE C7M2_saferoom06NamVet
+RESPONSE C7M2_saferoom07NamVet CHARACTER NamVet SUBTITLE "We'll find it, we'll find it."
+RULE C7M2_saferoom07NamVet CRITERIA ConceptC7M2_saferoom07 IsNamVet RESPONSE C7M2_saferoom07NamVet
+RESPONSE C7M2SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "Zoey. I know you're mad at me."
+RULE C7M2SafeRoomIdleNamVet CRITERIA ConceptTalkIdle IsNamVet IsMapc7m2_barge IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_IsSafeRoomStart _auto_NotSafeRoomQuiet _auto_NotC7M2SafeRoomConvo IsNotSpeakingWeight0 RESPONSE C7M2SafeRoomIdleNamVet
+RESPONSE C7M2SafeRoomStartNamVet CHARACTER NamVet SUBTITLE "Blank"
+RULE C7M2SafeRoomStartNamVet CRITERIA ConceptTalkIdle IsNamVet IsMapc7m2_barge IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_NotSafeRoomStart IsNotSpeakingWeight0 RESPONSE C7M2SafeRoomStartNamVet
+RESPONSE InfoRemc7m2_listingtugNamVet CHARACTER NamVet SUBTITLE "No Francis."
+RULE InfoRemc7m2_listingtugNamVet CRITERIA ConceptInfoRemc7m2_listingtug IsNamVet IsNamVetNear800 RESPONSE InfoRemc7m2_listingtugNamVet
+RESPONSE InfoRemc7m2_seebarge01NamVet CHARACTER NamVet SUBTITLE "No Francis, we can't."
+RESPONSE InfoRemc7m2_seebarge01NamVet CHARACTER NamVet SUBTITLE "You know how to pilot this thing, Francis?"
+RULE InfoRemc7m2_seebarge01NamVet CRITERIA ConceptInfoRemc7m2_seebarge01 IsNamVet RESPONSE InfoRemc7m2_seebarge01NamVet
+RESPONSE Player.WarnMegaMobc7m201NamVet CHARACTER NamVet SUBTITLE "Get into that chute!"
+RESPONSE Player.WarnMegaMobc7m201NamVet CHARACTER NamVet SUBTITLE "Everyone into the chute!"
+RULE Player.WarnMegaMobc7m201NamVet CRITERIA ConceptPlayer.WarnMegaMobc7m201 IsNamVet RESPONSE Player.WarnMegaMobc7m201NamVet
+RESPONSE C7M3_saferoom003NamVet CHARACTER NamVet SUBTITLE "Bah. Keep your computers, emails... whatever. Just give me a pen and paper."
+RULE C7M3_saferoom003NamVet CRITERIA ConceptC7M3_saferoom003 IsNamVet RESPONSE C7M3_saferoom003NamVet
+RESPONSE C7M3_saferoom003bNamVet CHARACTER NamVet SUBTITLE "NOOOO!"
+RULE C7M3_saferoom003bNamVet CRITERIA ConceptC7M3_saferoom003b IsNamVet RESPONSE C7M3_saferoom003bNamVet
+RESPONSE C7M3_saferoom003cNamVet CHARACTER NamVet SUBTITLE "They didn't have electricity when I was born."
+RULE C7M3_saferoom003cNamVet CRITERIA ConceptC7M3_saferoom003c IsNamVet RESPONSE C7M3_saferoom003cNamVet
+RESPONSE C7M3_saferoom006NamVet CHARACTER NamVet SUBTITLE "Not far at all. We find an island, make it ours. No more army, no more CEDA, no more horseshit."
+RULE C7M3_saferoom006NamVet CRITERIA ConceptC7M3_saferoom006 IsNamVet RESPONSE C7M3_saferoom006NamVet
+RESPONSE C7M3_saferoom008aNamVet CHARACTER NamVet SUBTITLE "Unless you're gonna stop eating, we're gonna need a damn big boat to hold all the supplies."
+RULE C7M3_saferoom008aNamVet CRITERIA ConceptC7M3_saferoom008a IsNamVet RESPONSE C7M3_saferoom008aNamVet
+RESPONSE C7M3_saferoom009NamVet CHARACTER NamVet SUBTITLE "Yeah. A couple of 'em. We get there in one piece, we're gonna clear the island and spend the rest of our lives relaxing on the beach."
+RULE C7M3_saferoom009NamVet CRITERIA ConceptC7M3_saferoom009 IsNamVet RESPONSE C7M3_saferoom009NamVet
+RESPONSE C7M3_saferoom010NamVet CHARACTER NamVet SUBTITLE "Damn right I know how to fish, kid."
+RULE C7M3_saferoom010NamVet CRITERIA ConceptC7M3_saferoom010 IsNamVet RESPONSE C7M3_saferoom010NamVet
+RESPONSE C7M3_saferoom010bNamVet CHARACTER NamVet SUBTITLE "Tell you what: Once we clear the island and settle in, I'll make you a pro."
+RULE C7M3_saferoom010bNamVet CRITERIA ConceptC7M3_saferoom010b IsNamVet RESPONSE C7M3_saferoom010bNamVet
+RESPONSE C7M3_saferoom012NamVet CHARACTER NamVet SUBTITLE "Cut the horseshit, Francis."
+RULE C7M3_saferoom012NamVet CRITERIA ConceptC7M3_saferoom012 IsNamVet RESPONSE C7M3_saferoom012NamVet
+RESPONSE C7M3_saferoom012bNamVet CHARACTER NamVet SUBTITLE "They're defensible, Francis. Far as we know, zombies can't swim."
+RULE C7M3_saferoom012bNamVet CRITERIA ConceptC7M3_saferoom012b IsNamVet RESPONSE C7M3_saferoom012bNamVet
+RESPONSE C7M3_saferoom012dNamVet CHARACTER NamVet SUBTITLE "Speak up, son."
+RULE C7M3_saferoom012dNamVet CRITERIA ConceptC7M3_saferoom012d IsNamVet RESPONSE C7M3_saferoom012dNamVet
+RESPONSE C7M3_saferoom012fNamVet CHARACTER NamVet SUBTITLE "Noted. Let's go."
+RULE C7M3_saferoom012fNamVet CRITERIA ConceptC7M3_saferoom012f IsNamVet RESPONSE C7M3_saferoom012fNamVet
+RESPONSE C7M3BridgeBreaksNamVet CHARACTER NamVet SUBTITLE "Goddamn it, the bridge stopped!"
+RESPONSE C7M3BridgeBreaksNamVet CHARACTER NamVet SUBTITLE "Son of a bitch, that generator stalled!"
+RESPONSE C7M3BridgeBreaksNamVet CHARACTER NamVet SUBTITLE "Generator's stopped! Someone's gotta go down there!"
+RESPONSE C7M3BridgeBreaksNamVet CHARACTER NamVet SUBTITLE "Someone needs to restart the generator!"
+RESPONSE C7M3BridgeBreaksNamVet CHARACTER NamVet SUBTITLE "Jesus H Christ, the bridge stopped!"
+RESPONSE C7M3BridgeBreaksNamVet CHARACTER NamVet SUBTITLE "We ain't safe here! We gotta restart that generator!"
+RESPONSE C7M3BridgeBreaksNamVet CHARACTER NamVet SUBTITLE "That gennie's stopped! Someone get down there!"
+RULE C7M3BridgeBreaksNamVet CRITERIA conceptC7M3BridgeBreaks IsNamVet _auto_NotSaidC7M3BridgeBreaks RESPONSE C7M3BridgeBreaksNamVet
+RESPONSE C7M3FinalPressBikerNamVet CHARACTER NamVet SUBTITLE "Francis! No! NO!"
+RESPONSE C7M3FinalPressBikerNamVet CHARACTER NamVet SUBTITLE "Francis, you beautiful son of a bitch you did it!"
+RESPONSE C7M3FinalPressBikerNamVet CHARACTER NamVet SUBTITLE "Francis, I will not forget you."
+RESPONSE C7M3FinalPressBikerNamVet CHARACTER NamVet SUBTITLE "Francis, I will not forget this."
+RULE C7M3FinalPressBikerNamVet CRITERIA ConceptC7M3FinalSpeakBiker IsNamVet IsLastGenerator IsNotBiker _auto_NotC7M3FinalPress RESPONSE C7M3FinalPressBikerNamVet
+RESPONSE C7M3FinalPressManagerNamVet CHARACTER NamVet SUBTITLE "LOOOOUUUIISSSS!!!"
+RESPONSE C7M3FinalPressManagerNamVet CHARACTER NamVet SUBTITLE "Louis, you did it, you did it."
+RESPONSE C7M3FinalPressManagerNamVet CHARACTER NamVet SUBTITLE "Louis, Louis, goddamnit Louis!!"
+RESPONSE C7M3FinalPressManagerNamVet CHARACTER NamVet SUBTITLE "Louis, you weren't supposed to die."
+RULE C7M3FinalPressManagerNamVet CRITERIA ConceptC7M3FinalSpeakManager IsNamVet IsLastGenerator IsNotManager _auto_NotC7M3FinalPress RESPONSE C7M3FinalPressManagerNamVet
+RESPONSE C7M3FinalPressTeenGirlNamVet CHARACTER NamVet SUBTITLE "Damn it, kid.  NOOOOOOO!"
+RESPONSE C7M3FinalPressTeenGirlNamVet CHARACTER NamVet SUBTITLE "ZOEY!!! It wasn't supposed to be you!"
+RESPONSE C7M3FinalPressTeenGirlNamVet CHARACTER NamVet SUBTITLE "NO, NO, NOT ZOEY!"
+RESPONSE C7M3FinalPressTeenGirlNamVet CHARACTER NamVet SUBTITLE "ZOOOOOOEEEEEYYYY!!!!"
+RESPONSE C7M3FinalPressTeenGirlNamVet CHARACTER NamVet SUBTITLE "ZOEY! You did it!"
+RESPONSE C7M3FinalPressTeenGirlNamVet CHARACTER NamVet SUBTITLE "Zoey! It wasn't supposed to end like this."
+RULE C7M3FinalPressTeenGirlNamVet CRITERIA ConceptC7M3FinalSpeakTeenGirl IsNamVet IsLastGenerator IsNotTeenGirl _auto_NotC7M3FinalPress RESPONSE C7M3FinalPressTeenGirlNamVet
+RESPONSE C7M3GeneratorPress01NamVet CHARACTER NamVet SUBTITLE "Careful with these generators, they're gonna attract hordes!"
+RESPONSE C7M3GeneratorPress01NamVet CHARACTER NamVet SUBTITLE "We gotta start these generators."
+RESPONSE C7M3GeneratorPress01NamVet CHARACTER NamVet SUBTITLE "If we power these generators we can raise that bridge."
+RESPONSE C7M3GeneratorPress01NamVet CHARACTER NamVet SUBTITLE "These generators must be setup to power the bridge."
+RESPONSE C7M3GeneratorPress01NamVet CHARACTER NamVet SUBTITLE "First one, everyone ready?"
+RESPONSE C7M3GeneratorPress01NamVet CHARACTER NamVet SUBTITLE "Get ready, this things  gonna make a racket."
+RULE C7M3GeneratorPress01NamVet CRITERIA ConceptC7M3GeneratorSpeakNamVet IsNamVet IsFirstGenerator _auto_NotC7M3PressingNamVet RESPONSE C7M3GeneratorPress01NamVet
+RESPONSE C7M3GeneratorPress02NamVet CHARACTER NamVet SUBTITLE "Let's power up this generator."
+RESPONSE C7M3GeneratorPress02NamVet CHARACTER NamVet SUBTITLE "Let's do this better than the last one."
+RESPONSE C7M3GeneratorPress02NamVet CHARACTER NamVet SUBTITLE "Let's get prepared before we start it."
+RESPONSE C7M3GeneratorPress02NamVet CHARACTER NamVet SUBTITLE "If we're ready let's hit it."
+RULE C7M3GeneratorPress02NamVet CRITERIA ConceptC7M3GeneratorSpeakNamVet IsNamVet IsSecondGenerator _auto_NotC7M3PressingNamVet RESPONSE C7M3GeneratorPress02NamVet
+RESPONSE C7M3GeneratorPress03NamVet CHARACTER NamVet SUBTITLE "Get ready, let's do this."
+RESPONSE C7M3GeneratorPress03NamVet CHARACTER NamVet SUBTITLE "Last one, let's be careful."
+RULE C7M3GeneratorPress03NamVet CRITERIA ConceptC7M3GeneratorSpeakNamVet IsNamVet IsThirdGenerator _auto_NotC7M3PressingNamVet RESPONSE C7M3GeneratorPress03NamVet
+RESPONSE C7M3PlayerGetToRescueVehicleNamVet CHARACTER NamVet SUBTITLE "We can get on the bridge!"
+RESPONSE C7M3PlayerGetToRescueVehicleNamVet CHARACTER NamVet SUBTITLE "Get to the bridge!"
+RESPONSE C7M3PlayerGetToRescueVehicleNamVet CHARACTER NamVet SUBTITLE "Run to the bridge!"
+RESPONSE C7M3PlayerGetToRescueVehicleNamVet CHARACTER NamVet SUBTITLE "We gotta raise the bridge!"
+RESPONSE C7M3PlayerGetToRescueVehicleNamVet CHARACTER NamVet SUBTITLE "To the bridge! The bridge!"
+RESPONSE C7M3PlayerGetToRescueVehicleNamVet CHARACTER NamVet SUBTITLE "Stop playing around and get to the bridge."
+RULE C7M3PlayerGetToRescueVehicleNamVet CRITERIA ConceptGetToVehicle IsNamVet ismapc7m3_port IsTalk IsTalkNamVet IsWorldTalkNamVet _auto_NotC7M3ToBridgeNamVet RESPONSE C7M3PlayerGetToRescueVehicleNamVet
+RESPONSE C7M3SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "We have to be getting close.  Once we're on the boat, we're home free."
+RESPONSE C7M3SafeRoomIdleNamVet CHARACTER NamVet SUBTITLE "Allright, people. There's gotta be a sailboat around here somewhere. We're gonna find it, get to the keys, and build ourselves a little piece of paradise."
+RULE C7M3SafeRoomIdleNamVet CRITERIA ConceptTalkIdle IsNamVet IsMapc7m3_port IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_IsSafeRoomStart _auto_NotSafeRoomQuiet _auto_NotC7M3SafeRoomConvo IsNotSpeakingWeight0 RESPONSE C7M3SafeRoomIdleNamVet
+RESPONSE C7M3SafeRoomStartNamVet CHARACTER NamVet SUBTITLE "Blank"
+RULE C7M3SafeRoomStartNamVet CRITERIA ConceptTalkIdle IsNamVet IsMapc7m3_port IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_NotSafeRoomStart IsNotSpeakingWeight0 RESPONSE C7M3SafeRoomStartNamVet
+RESPONSE C7M3WaveOverGen1NamVet CHARACTER NamVet SUBTITLE "Alright, I think that's it!"
+RESPONSE C7M3WaveOverGen1NamVet CHARACTER NamVet SUBTITLE "That's the last of them, to the next generator."
+RESPONSE C7M3WaveOverGen1NamVet CHARACTER NamVet SUBTITLE "To the next generator!"
+RESPONSE C7M3WaveOverGen1NamVet CHARACTER NamVet SUBTITLE "Let's get to the next generator!"
+RESPONSE C7M3WaveOverGen1NamVet CHARACTER NamVet SUBTITLE "We got a break, let's go."
+RESPONSE C7M3WaveOverGen1NamVet CHARACTER NamVet SUBTITLE "Come on, two more to do."
+RESPONSE C7M3WaveOverGen1NamVet CHARACTER NamVet SUBTITLE "It's dying down. Two more."
+RULE C7M3WaveOverGen1NamVet CRITERIA conceptC7M3WaveOverGen1 IsNamVet IsSecondGenerator _auto_NotSaidC7M3WaveOverGen1 RESPONSE C7M3WaveOverGen1NamVet
+RESPONSE C7M3WaveOverGen2NamVet CHARACTER NamVet SUBTITLE "Way to go people, to the last generator."
+RESPONSE C7M3WaveOverGen2NamVet CHARACTER NamVet SUBTITLE "Let's move out!"
+RESPONSE C7M3WaveOverGen2NamVet CHARACTER NamVet SUBTITLE "To the last generator!"
+RESPONSE C7M3WaveOverGen2NamVet CHARACTER NamVet SUBTITLE "To the last gennie."
+RULE C7M3WaveOverGen2NamVet CRITERIA conceptC7M3WaveOverGen2 IsNamVet IsThirdGenerator _auto_NotSaidC7M3WaveOverGen2 RESPONSE C7M3WaveOverGen2NamVet
+RESPONSE SurvivorSpottedAdrenalineNamVet CHARACTER NamVet SUBTITLE "Look!"
+RESPONSE SurvivorSpottedAdrenalineNamVet CHARACTER NamVet SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedAdrenalineNamVet CHARACTER NamVet SUBTITLE "Look over here."
+RESPONSE SurvivorSpottedAdrenalineNamVet CHARACTER NamVet SUBTITLE "You're gonna want to see this."
+RULE SurvivorSpottedAdrenalineNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsAdrenaline IsWorldTalkNamVet RESPONSE SurvivorSpottedAdrenalineNamVet
+RESPONSE SurvivorSpottedAdrenalineAutoNamVet CHARACTER NamVet SUBTITLE "Look!"
+RESPONSE SurvivorSpottedAdrenalineAutoNamVet CHARACTER NamVet SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedAdrenalineAutoNamVet CHARACTER NamVet SUBTITLE "Look over here."
+RESPONSE SurvivorSpottedAdrenalineAutoNamVet CHARACTER NamVet SUBTITLE "You're gonna want to see this."
+RULE SurvivorSpottedAdrenalineAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotAdrenaline IsNotSaidSpot IsAdrenaline IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedAdrenalineAutoNamVet
+RESPONSE SurvivorSpottedGrenadeLauncherNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedGrenadeLauncherNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedGrenadeLauncherNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto Isgrenade_launcher IsWorldTalkNamVet RESPONSE SurvivorSpottedGrenadeLauncherNamVet
+RESPONSE SurvivorSpottedGrenadeLauncherAutoNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherAutoNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedGrenadeLauncherAutoNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedGrenadeLauncherAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotgrenade_launcher IsNotSaidSpot Isgrenade_launcher IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGrenadeLauncherAutoNamVet
+RESPONSE SurvivorSpottedUpPack_ExplosiveNamVet CHARACTER NamVet SUBTITLE "Look!"
+RESPONSE SurvivorSpottedUpPack_ExplosiveNamVet CHARACTER NamVet SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedUpPack_ExplosiveNamVet CHARACTER NamVet SUBTITLE "Look over here."
+RESPONSE SurvivorSpottedUpPack_ExplosiveNamVet CHARACTER NamVet SUBTITLE "You're gonna want to see this."
+RULE SurvivorSpottedUpPack_ExplosiveNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsUpgradePack_Explosive  IsWorldTalkNamVet RESPONSE SurvivorSpottedUpPack_ExplosiveNamVet
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoNamVet CHARACTER NamVet SUBTITLE "Look!"
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoNamVet CHARACTER NamVet SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoNamVet CHARACTER NamVet SUBTITLE "Look over here."
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoNamVet CHARACTER NamVet SUBTITLE "You're gonna want to see this."
+RULE SurvivorSpottedUpPack_ExplosiveAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotAlone IsNotSaidSpotUpgradePack_Explosive IsNotSaidSpot IsUpgradePack_Explosive IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedUpPack_ExplosiveAutoNamVet
+RESPONSE SurvivorSpottedUpPack_IncendiaryNamVet CHARACTER NamVet SUBTITLE "Look!"
+RESPONSE SurvivorSpottedUpPack_IncendiaryNamVet CHARACTER NamVet SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedUpPack_IncendiaryNamVet CHARACTER NamVet SUBTITLE "Look over here."
+RESPONSE SurvivorSpottedUpPack_IncendiaryNamVet CHARACTER NamVet SUBTITLE "You're gonna want to see this."
+RULE SurvivorSpottedUpPack_IncendiaryNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsUpgradePack_Incendiary  IsWorldTalkNamVet RESPONSE SurvivorSpottedUpPack_IncendiaryNamVet
+RESPONSE SurvivorSpottedUpPack_IncendiAutoNamVet CHARACTER NamVet SUBTITLE "Look!"
+RESPONSE SurvivorSpottedUpPack_IncendiAutoNamVet CHARACTER NamVet SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedUpPack_IncendiAutoNamVet CHARACTER NamVet SUBTITLE "Look over here."
+RESPONSE SurvivorSpottedUpPack_IncendiAutoNamVet CHARACTER NamVet SUBTITLE "You're gonna want to see this."
+RULE SurvivorSpottedUpPack_IncendiAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotAlone IsNotSaidSpotUpgradePack_Incendiary IsNotSaidSpot IsUpgradePack_Incendiary IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedUpPack_IncendiAutoNamVet
+RESPONSE SurvivorSpottedVomitJarNamVet CHARACTER NamVet SUBTITLE "Look!"
+RESPONSE SurvivorSpottedVomitJarNamVet CHARACTER NamVet SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedVomitJarNamVet CHARACTER NamVet SUBTITLE "Look over here."
+RESPONSE SurvivorSpottedVomitJarNamVet CHARACTER NamVet SUBTITLE "You're gonna want to see this."
+RULE SurvivorSpottedVomitJarNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsVomitJar IsWorldTalkNamVet RESPONSE SurvivorSpottedVomitJarNamVet
+RESPONSE SurvivorSpottedVomitJarAutoNamVet CHARACTER NamVet SUBTITLE "Look!"
+RESPONSE SurvivorSpottedVomitJarAutoNamVet CHARACTER NamVet SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedVomitJarAutoNamVet CHARACTER NamVet SUBTITLE "Look over here."
+RESPONSE SurvivorSpottedVomitJarAutoNamVet CHARACTER NamVet SUBTITLE "You're gonna want to see this."
+RULE SurvivorSpottedVomitJarAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotVomitJar IsNotSaidSpot IsVomitJar IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedVomitJarAutoNamVet
+RESPONSE SurvivorSpottedChargerNamVet CHARACTER NamVet SUBTITLE "CHARGER!"
+RESPONSE SurvivorSpottedChargerNamVet CHARACTER NamVet SUBTITLE "CHARGER!"
+RESPONSE SurvivorSpottedChargerNamVet CHARACTER NamVet SUBTITLE "CHARGER"
+RULE SurvivorSpottedChargerNamVet CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeCharger  IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotSpeakingWeight0 RESPONSE SurvivorSpottedChargerNamVet
+RESPONSE SurvivorSpottedChargerAlsoNamVet CHARACTER NamVet SUBTITLE "CHARGER!"
+RESPONSE SurvivorSpottedChargerAlsoNamVet CHARACTER NamVet SUBTITLE "CHARGER!"
+RESPONSE SurvivorSpottedChargerAlsoNamVet CHARACTER NamVet SUBTITLE "CHARGER"
+RULE SurvivorSpottedChargerAlsoNamVet CRITERIA ConceptPlayerAlsoWarnSpecial IsSpecialTypeCharger  IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet RESPONSE SurvivorSpottedChargerAlsoNamVet
+RESPONSE SurvivorSpottedJockeyNamVet CHARACTER NamVet SUBTITLE "Jockey!"
+RESPONSE SurvivorSpottedJockeyNamVet CHARACTER NamVet SUBTITLE "Jockey!"
+RESPONSE SurvivorSpottedJockeyNamVet CHARACTER NamVet SUBTITLE "Jockey!"
+RULE SurvivorSpottedJockeyNamVet CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeJockey IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotSpeakingWeight0 RESPONSE SurvivorSpottedJockeyNamVet
+RESPONSE SurvivorSpottedJockeyAlsoNamVet CHARACTER NamVet SUBTITLE "Jockey!"
+RESPONSE SurvivorSpottedJockeyAlsoNamVet CHARACTER NamVet SUBTITLE "Jockey!"
+RESPONSE SurvivorSpottedJockeyAlsoNamVet CHARACTER NamVet SUBTITLE "Jockey!"
+RULE SurvivorSpottedJockeyAlsoNamVet CRITERIA ConceptPlayerAlsoWarnSpecial IsSpecialTypeJockey IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet RESPONSE SurvivorSpottedJockeyAlsoNamVet
+RESPONSE SurvivorSpottedSpitterNamVet CHARACTER NamVet SUBTITLE "Spitter!"
+RESPONSE SurvivorSpottedSpitterNamVet CHARACTER NamVet SUBTITLE "Spitter!"
+RESPONSE SurvivorSpottedSpitterNamVet CHARACTER NamVet SUBTITLE "Spitter!"
+RULE SurvivorSpottedSpitterNamVet CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeSpitter IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotSpeakingWeight0 RESPONSE SurvivorSpottedSpitterNamVet
+RESPONSE SurvivorSpottedSpitterAlsoNamVet CHARACTER NamVet SUBTITLE "Spitter!"
+RESPONSE SurvivorSpottedSpitterAlsoNamVet CHARACTER NamVet SUBTITLE "Spitter!"
+RESPONSE SurvivorSpottedSpitterAlsoNamVet CHARACTER NamVet SUBTITLE "Spitter!"
+RULE SurvivorSpottedSpitterAlsoNamVet CRITERIA ConceptPlayerAlsoWarnSpecial IsSpecialTypeSpitter IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet RESPONSE SurvivorSpottedSpitterAlsoNamVet
+RESPONSE PlayerToTheRescueRosNamVet CHARACTER NamVet SUBTITLE "Hold on I'm on my way!"
+RESPONSE PlayerToTheRescueRosNamVet CHARACTER NamVet SUBTITLE "I'm coming!"
+RESPONSE PlayerToTheRescueRosNamVet CHARACTER NamVet SUBTITLE "Don't get your panties in a bunch, I'm comin'!"
+RULE PlayerToTheRescueRosNamVet CRITERIA ConceptPlayerToTheRescue IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet RESPONSE PlayerToTheRescueRosNamVet
+RESPONSE SurvivorTauntResponseNamVet CHARACTER NamVet SUBTITLE "Heh hehhh"
+RESPONSE SurvivorTauntResponseNamVet CHARACTER NamVet SUBTITLE "[chuckles and giggles]"
+RESPONSE SurvivorTauntResponseNamVet CHARACTER NamVet SUBTITLE "[chuckles and giggles]"
+RESPONSE SurvivorTauntResponseNamVet CHARACTER NamVet SUBTITLE "[chuckles and giggles]"
+RESPONSE SurvivorTauntResponseNamVet CHARACTER NamVet SUBTITLE "[loud, evil laugh]"
+RESPONSE SurvivorTauntResponseNamVet CHARACTER NamVet SUBTITLE "[loud, evil laugh]"
+RULE SurvivorTauntResponseNamVet CRITERIA ConceptPlayerTaunt IsSurvivor IsNotSpeaking IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet RESPONSE SurvivorTauntResponseNamVet
+RESPONSE PlayerRemarkc7m1_bricktopNamVet CHARACTER NamVet SUBTITLE "On top the bricks."
+RULE PlayerRemarkc7m1_bricktopNamVet CRITERIA ConceptRemark IsNamVet Isc7m1_bricktop IsNotSaidc7m1_bricktop IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsWorldTalkNamVet IsSubjectNear100 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_bricktopNamVet
+RESPONSE PlayerRemarkc7m1_harborblockedNamVet CHARACTER NamVet SUBTITLE "Have to find a boat on the other side of this bridge."
+RESPONSE PlayerRemarkc7m1_harborblockedNamVet CHARACTER NamVet SUBTITLE "That bridge is blocking the harbor."
+RESPONSE PlayerRemarkc7m1_harborblockedNamVet CHARACTER NamVet SUBTITLE "Let's head down river to find the boat."
+RESPONSE PlayerRemarkc7m1_harborblockedNamVet CHARACTER NamVet SUBTITLE "Let's follow the river."
+RULE PlayerRemarkc7m1_harborblockedNamVet CRITERIA ConceptRemark IsNamVet Isc7m1_harborblocked IsNotSaidc7m1_harborblocked IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsWorldTalkNamVet IsSubjectNear800 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_harborblockedNamVet
+RESPONSE PlayerRemarkc7m1_pastbricksNamVet CHARACTER NamVet SUBTITLE "Past the bricks."
+RULE PlayerRemarkc7m1_pastbricksNamVet CRITERIA ConceptRemark IsNamVet Isc7m1_pastbricks IsNotSaidc7m1_pastbricks IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsWorldTalkNamVet IsSubjectNear700 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_pastbricksNamVet
+RESPONSE PlayerRemarkc7m1_pretankNamVet CHARACTER NamVet SUBTITLE "Goddamn it.  Only the military would think putting a tank in a train was a good idea."
+RESPONSE PlayerRemarkc7m1_pretankNamVet CHARACTER NamVet SUBTITLE "Careful opening that door, he sounds frisky."
+RESPONSE PlayerRemarkc7m1_pretankNamVet CHARACTER NamVet SUBTITLE "Get ready. Let's set a trap for this son of a bitch."
+RULE PlayerRemarkc7m1_pretankNamVet CRITERIA ConceptRemark IsNamVet Isc7m1_pretank IsNotSaidc7m1_pretank IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsWorldTalkNamVet IsSubjectNear200 IsNotSpeakingWeight0 _auto_NotsaidC7M1OpenTankDoorLong RESPONSE PlayerRemarkc7m1_pretankNamVet
+RESPONSE PlayerRemarkc7m1_tankcarNamVet CHARACTER NamVet SUBTITLE "This is not pretty."
+RESPONSE PlayerRemarkc7m1_tankcarNamVet CHARACTER NamVet SUBTITLE "Can't believe this car held that thing."
+RESPONSE PlayerRemarkc7m1_tankcarNamVet CHARACTER NamVet SUBTITLE "Stinks like shit in here."
+RULE PlayerRemarkc7m1_tankcarNamVet CRITERIA ConceptRemark IsNamVet Isc7m1_tankcar IsNotSaidc7m1_tankcar IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsWorldTalkNamVet IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_tankcarNamVet
+RESPONSE PlayerRemarkc7m2_gravelhillNamVet CHARACTER NamVet SUBTITLE "Goddamn pile of rocks."
+RESPONSE PlayerRemarkc7m2_gravelhillNamVet CHARACTER NamVet SUBTITLE "Don't give up on me, keep going!"
+RESPONSE PlayerRemarkc7m2_gravelhillNamVet CHARACTER NamVet SUBTITLE "Double time up the hill!"
+RULE PlayerRemarkc7m2_gravelhillNamVet CRITERIA ConceptRemark IsNamVet Isc7m2_gravelhill IsNotSaidc7m2_gravelhill IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsWorldTalkNamVet IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_gravelhillNamVet
+RESPONSE PlayerRemarkc7m2_onbargeNamVet CHARACTER NamVet SUBTITLE "Don't get pulled off the port side."
+RESPONSE PlayerRemarkc7m2_onbargeNamVet CHARACTER NamVet SUBTITLE "Run to the bow."
+RULE PlayerRemarkc7m2_onbargeNamVet CRITERIA ConceptRemark IsNamVet Isc7m2_onbarge IsNotSaidc7m2_onbarge IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsWorldTalkNamVet IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_onbargeNamVet
+RESPONSE PlayerRemarkc7m2_overboatNamVet CHARACTER NamVet SUBTITLE "Over the ship!"
+RULE PlayerRemarkc7m2_overboatNamVet CRITERIA ConceptRemark IsNamVet Isc7m2_overboat IsNotSaidc7m2_overboat IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsWorldTalkNamVet IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_overboatNamVet
+RESPONSE PlayerRemarkc7m2_throughhereNamVet CHARACTER NamVet SUBTITLE "Through here!"
+RESPONSE PlayerRemarkc7m2_throughhereNamVet CHARACTER NamVet SUBTITLE "Through here!"
+RESPONSE PlayerRemarkc7m2_throughhereNamVet CHARACTER NamVet SUBTITLE "Through here!"
+RULE PlayerRemarkc7m2_throughhereNamVet CRITERIA ConceptRemark IsNamVet Isc7m2_throughhere IsNotSaidc7m2_throughhere IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsWorldTalkNamVet IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_throughhereNamVet
+RESPONSE PlayerRemarkc7m3_seesailboatNamVet CHARACTER NamVet SUBTITLE "Christ, bridge is in the way. We'll need to raise it."
+RESPONSE PlayerRemarkc7m3_seesailboatNamVet CHARACTER NamVet SUBTITLE "If we wanna take that boat down river, we'll need to raise that bridge."
+RESPONSE PlayerRemarkc7m3_seesailboatNamVet CHARACTER NamVet SUBTITLE "There's a sailboat by the bridge! We can take that."
+RESPONSE PlayerRemarkc7m3_seesailboatNamVet CHARACTER NamVet SUBTITLE "There's a sailboat on the wrong side of the bridge. We can raise the bridge and go!"
+RESPONSE PlayerRemarkc7m3_seesailboatNamVet CHARACTER NamVet SUBTITLE "If we raise that bridge, we can use that sailboat."
+RULE PlayerRemarkc7m3_seesailboatNamVet CRITERIA ConceptRemark IsNamVet Isc7m3_seesailboat IsNotSaidc7m3_seesailboat IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsWorldTalkNamVet IsFirstGenerator IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m3_seesailboatNamVet
+RESPONSE PlayerYellRunNamVet CHARACTER NamVet SUBTITLE "RUN!"
+RESPONSE PlayerYellRunNamVet CHARACTER NamVet SUBTITLE "RUN!"
+RESPONSE PlayerYellRunNamVet CHARACTER NamVet SUBTITLE "BUG OUT!"
+RESPONSE PlayerYellRunNamVet CHARACTER NamVet SUBTITLE "HAUL ASS!"
+RULE PlayerYellRunNamVet CRITERIA ConceptPlayerYellRun IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet RESPONSE PlayerYellRunNamVet
+RESPONSE GrabbingGasSCNamVet CHARACTER NamVet SUBTITLE "Got it"
+RESPONSE GrabbingGasSCNamVet CHARACTER NamVet SUBTITLE "Got it"
+RULE GrabbingGasSCNamVet CRITERIA ConceptPlayerEquippedScavengeItem IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet NamVetNotSaidGrabbingCan RESPONSE GrabbingGasSCNamVet
+RESPONSE PlayerShotGasCanNamVet CHARACTER NamVet SUBTITLE "God dammit"
+RESPONSE PlayerShotGasCanNamVet CHARACTER NamVet SUBTITLE "Son of a bitch"
+RESPONSE PlayerShotGasCanNamVet CHARACTER NamVet SUBTITLE "Dammit"
+RESPONSE PlayerShotGasCanNamVet CHARACTER NamVet SUBTITLE "Bull-frickin-horseshit."
+RESPONSE PlayerShotGasCanNamVet CHARACTER NamVet SUBTITLE "God DAMMIT."
+RESPONSE PlayerShotGasCanNamVet CHARACTER NamVet SUBTITLE "Mother of mercy."
+RESPONSE PlayerShotGasCanNamVet CHARACTER NamVet SUBTITLE "What a crock a' shit..."
+RULE PlayerShotGasCanNamVet CRITERIA ConceptPlayerShotGasCan IsNamVet IsNotSaidPlayerShotGasCan IsScavenge RESPONSE PlayerShotGasCanNamVet
+RESPONSE ScavengeStartNamVet CHARACTER NamVet SUBTITLE "Allright, let's go."
+RESPONSE ScavengeStartNamVet CHARACTER NamVet SUBTITLE "Let's move people."
+RESPONSE ScavengeStartNamVet CHARACTER NamVet SUBTITLE "Alright, let's go."
+RESPONSE ScavengeStartNamVet CHARACTER NamVet SUBTITLE "Come on, let's go."
+RESPONSE ScavengeStartNamVet CHARACTER NamVet SUBTITLE "Let's go, people!"
+RULE ScavengeStartNamVet CRITERIA ConceptSurvivorLeavingCheckpoint IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet IsScavenge IsNotSaidStartScavenge RESPONSE ScavengeStartNamVet
+RESPONSE GasPourSCNamVet CHARACTER NamVet SUBTITLE "Come on, damn ya."
+RESPONSE GasPourSCNamVet CHARACTER NamVet SUBTITLE "Come on come on come on."
+RULE GasPourSCNamVet CRITERIA ConceptPlayerPourStarted IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet IsScavenge ChanceToFire50Percent _auto_NotNoGasPourLine RESPONSE GasPourSCNamVet
+RESPONSE GasPourDoneSCNamVet CHARACTER NamVet SUBTITLE "We're doing pretty goddamn good. Don't let it go to your head."
+RESPONSE GasPourDoneSCNamVet CHARACTER NamVet SUBTITLE "GREAT JOB, PEOPLE!"
+RESPONSE GasPourDoneSCNamVet CHARACTER NamVet SUBTITLE "You people are gettin' good."
+RESPONSE GasPourDoneSCNamVet CHARACTER NamVet SUBTITLE "Trah-mendous."
+RESPONSE GasPourDoneSCNamVet CHARACTER NamVet SUBTITLE "[Loud, evil laugh]"
+RULE GasPourDoneSCNamVet CRITERIA ConceptPlayerPourFinished IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet IsScavenge ScoreDoneSC RESPONSE GasPourDoneSCNamVet
+RESPONSE FinaleAheadc7m3NamVet CHARACTER NamVet SUBTITLE "Alright, everybody, remember: we're lookin' for a sail boat."
+RESPONSE FinaleAheadc7m3NamVet CHARACTER NamVet SUBTITLE "We gotta find a sail boat."
+RESPONSE FinaleAheadc7m3NamVet CHARACTER NamVet SUBTITLE "Almost there, people! We just gotta find a boat and we'll be in the Keys."
+RESPONSE FinaleAheadc7m3NamVet CHARACTER NamVet SUBTITLE "Let's find a boat that can make it to the Gulf."
+RESPONSE FinaleAheadc7m3NamVet CHARACTER NamVet SUBTITLE "Let's move people."
+RESPONSE FinaleAheadc7m3NamVet CHARACTER NamVet SUBTITLE "Let's move it out people"
+RULE FinaleAheadc7m3NamVet CRITERIA ConceptPlayerNearFinale IsNotCoughing IsNamVet IsNotSaidFinaleAhead NotInCombat IsTalk IsTalkNamVet IsNotIncapacitated IsWorldTalkNamVet Ismapc7m3_port RESPONSE FinaleAheadc7m3NamVet
+RESPONSE Player.C7M2CrowsFlyNamVet CHARACTER NamVet SUBTITLE "Goddamn it... crows!"
+RESPONSE Player.C7M2CrowsFlyNamVet CHARACTER NamVet SUBTITLE "Horseshit goddamn birds..."
+RESPONSE Player.C7M2CrowsFlyNamVet CHARACTER NamVet SUBTITLE "Shut-up you goddamn birds!"
+RULE Player.C7M2CrowsFlyNamVet CRITERIA ConceptC7M2CrowsFlySpeakNamVet ismapc7m2_barge IsNamVet _auto_NotC7M2CrowsFlySpeak RESPONSE Player.C7M2CrowsFlyNamVet
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "Stay there, I got it."
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "Don't get off the bridge, I have this."
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "Stay there! I got this!"
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "You take care."
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "Remember: Stay together! No matter what!"
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "Do not follow me!"
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "Nobody try to help me! I'm doing this alone!"
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "I'm not horseshittin' around, don't follow me!"
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "Take care of each other!"
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "Be safe! Get to the Keys!"
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "You guys mean everything to me! Stay there!"
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "You guys are the only family I got! Take care of each other!"
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "Stay on the goddamn bridge, I have this."
+RESPONSE Player.C7M3BridgeLeapNamVet CHARACTER NamVet SUBTITLE "No matter what happens: stay together."
+RULE Player.C7M3BridgeLeapNamVet CRITERIA ConceptC7M3BridgeLeapSpeakNamVet IsNotCoughing IsNamVet  IsTalk IsTalkNamVet IsNotSpeaking  ismapc7m3_port IsWorldTalkNamVet IsNotScavenge _auto_NotSaidC7M3BridgeLeap RESPONSE Player.C7M3BridgeLeapNamVet
+RESPONSE SurvivorPickupAdrenalineNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupAdrenalineNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupAdrenalineNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupAdrenalineNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival IsNotCoughing IsNamVet IsPickedUpAdrenaline IsNotSpeaking IsInSafeSpot IsNotInStartArea IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupAdrenalineNamVet
+RESPONSE SurvivorPickupAdrenalineAlwaysNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupAdrenalineAlwaysNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupAdrenalineAlwaysNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupAdrenalineAlwaysNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpAdrenaline IsNotSpeaking IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupAdrenalineAlwaysNamVet
+RESPONSE SurvivorPickupbaseball_batNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupbaseball_batNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupbaseball_batNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupbaseball_batNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpbaseball_bat IsNotSpeaking  NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupbaseball_batNamVet
+RESPONSE SurvivorPickupchainsawNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupchainsawNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupchainsawNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupchainsawNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpchainsaw IsNotSpeaking  NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupchainsawNamVet
+RESPONSE SurvivorPickupcricket_batNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupcricket_batNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupcricket_batNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupcricket_batNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpcricket_bat IsNotSpeaking  NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupcricket_batNamVet
+RESPONSE SurvivorPickupCricketBatNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupCricketBatNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupCricketBatNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupCricketBatNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpcricket_bat IsNotSpeaking  NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupCricketBatNamVet
+RESPONSE SurvivorPickupCrowBarNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupCrowBarNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupCrowBarNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupCrowBarNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpCrowBar  IsNotSpeaking  NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet  IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupCrowBarNamVet
+RESPONSE SurvivorPickupelectric_guitarNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupelectric_guitarNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupelectric_guitarNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupelectric_guitarNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpelectric_guitar IsNotSpeaking  NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupelectric_guitarNamVet
+RESPONSE SurvivorPickupFireAxeNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupFireAxeNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupFireAxeNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupFireAxeNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpFireAxe  IsNotSpeaking  NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupFireAxeNamVet
+RESPONSE SurvivorPickupFryingPanNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupFryingPanNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupFryingPanNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupFryingPanNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpFryingPan IsNotSpeaking  NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupFryingPanNamVet
+RESPONSE SurvivorPickupGrenadeLauncherNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupGrenadeLauncherNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupGrenadeLauncherNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupGrenadeLauncherNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpGrenadeLauncher IsNotSpeaking IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupGrenadeLauncherNamVet
+RESPONSE SurvivorPickupIncendiaryAmmoNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupIncendiaryAmmoNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupIncendiaryAmmoNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupIncendiaryAmmoNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpIncendiaryAmmo IsNotSpeaking  ChanceToFire40Percent NamVetNotPickedUpItem IsNotInStartArea IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupIncendiaryAmmoNamVet
+RESPONSE SurvivorPickupKatanaNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupKatanaNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupKatanaNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupKatanaNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpKatana IsNotSpeaking  NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupKatanaNamVet
+RESPONSE SurvivorPickupLaserSightsAlwaysNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupLaserSightsAlwaysNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupLaserSightsAlwaysNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupLaserSightsAlwaysNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpLaserSights IsNotSpeaking ChanceToFire50Percent NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupLaserSightsAlwaysNamVet
+RESPONSE SurvivorPickupMacheteNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupMacheteNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupMacheteNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupMacheteNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpMachete IsNotSpeaking  NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupMacheteNamVet
+RESPONSE SurvivorPickupMagnumNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupMagnumNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupMagnumNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupMagnumNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpMagnum IsNotSpeaking IsInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsNotInStartArea IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupMagnumNamVet
+RESPONSE SurvivorPickupMagnumAlwaysNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupMagnumAlwaysNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupMagnumAlwaysNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupMagnumAlwaysNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpMagnum IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupMagnumAlwaysNamVet
+RESPONSE SurvivorPickuptonfaNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickuptonfaNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickuptonfaNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickuptonfaNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUptonfa IsNotSpeaking  NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickuptonfaNamVet
+RESPONSE SurvivorPickupGolfClubNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupGolfClubNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupGolfClubNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupGolfClubNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpGolfClub IsNotSpeaking  NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupGolfClubNamVet
+RESPONSE SurvivorPickupUpExplosiveAmmoNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupUpExplosiveAmmoNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupUpExplosiveAmmoNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupUpExplosiveAmmoNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpExplosiveAmmo IsNotSpeaking  IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupUpExplosiveAmmoNamVet
+RESPONSE SurvivorPickupUpExplosivesNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupUpExplosivesNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupUpExplosivesNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupUpExplosivesNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpUpgradePack_Explosive IsNotSpeaking  IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupUpExplosivesNamVet
+RESPONSE SurvivorPickupUpIncendiaryNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupUpIncendiaryNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupUpIncendiaryNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupUpIncendiaryNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpUpgradePack_Incendiary IsNotSpeaking  IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupUpIncendiaryNamVet
+RESPONSE SurvivorPickupUpIncendiaryAmmoNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupUpIncendiaryAmmoNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupUpIncendiaryAmmoNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupUpIncendiaryAmmoNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpIncendiaryAmmo IsNotSpeaking  IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupUpIncendiaryAmmoNamVet
+RESPONSE SurvivorPickupVomitJarNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupVomitJarNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupVomitJarNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupVomitJarNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpVomitJar IsNotSpeaking IsInSafeSpot IsNotInStartArea IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupVomitJarNamVet
+RESPONSE SurvivorPickupVomitJarAlwaysNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupVomitJarAlwaysNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupVomitJarAlwaysNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupVomitJarAlwaysNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpVomitJar IsNotSpeaking IsTalk IsTalkNamVet IsWorldTalkNamVet ChanceToFire30Percent RESPONSE SurvivorPickupVomitJarAlwaysNamVet
+RESPONSE InfoReminfo_carnotboatNamVet CHARACTER NamVet SUBTITLE "Francis, that's a car."
+RULE InfoReminfo_carnotboatNamVet CRITERIA ConceptInfoReminfo_carnotboat IsNamVet RESPONSE InfoReminfo_carnotboatNamVet
+RESPONSE InfoRemInfo_powerboatNamVet CHARACTER NamVet SUBTITLE "That's not a sailboat."
+RESPONSE InfoRemInfo_powerboatNamVet CHARACTER NamVet SUBTITLE "Sail boat, Francis."
+RESPONSE InfoRemInfo_powerboatNamVet CHARACTER NamVet SUBTITLE "Sailboat Francis. Sailboat."
+RESPONSE InfoRemInfo_powerboatNamVet CHARACTER NamVet SUBTITLE "Francis, does it have a sail?"
+RESPONSE InfoRemInfo_powerboatNamVet CHARACTER NamVet SUBTITLE "Not that boat Francis."
+RULE InfoRemInfo_powerboatNamVet CRITERIA ConceptInfoRemInfo_powerboat IsNamVet RESPONSE InfoRemInfo_powerboatNamVet
+RESPONSE InfoReminfo_sunkboatthere01NamVet CHARACTER NamVet SUBTITLE "Francis, that boat's underwater."
+RULE InfoReminfo_sunkboatthere01NamVet CRITERIA ConceptInfoReminfo_sunkboatthere01 IsNamVet IsBikerNear800 RESPONSE InfoReminfo_sunkboatthere01NamVet
+RESPONSE InfoReminfo_trailerboatNamVet CHARACTER NamVet SUBTITLE "Son, that's a trailer and you're an idiot."
+RULE InfoReminfo_trailerboatNamVet CRITERIA ConceptInfoReminfo_trailerboat IsNamVet IsBikerNear800 RESPONSE InfoReminfo_trailerboatNamVet
+RESPONSE InfoReminfo_trailerboatruckNamVet CHARACTER NamVet SUBTITLE "Cut the horseshit, Francis."
+RULE InfoReminfo_trailerboatruckNamVet CRITERIA ConceptInfoReminfo_trailerboatruck IsNamVet RESPONSE InfoReminfo_trailerboatruckNamVet
+RESPONSE PlayerLostCallNamVet CHARACTER NamVet SUBTITLE "Hello?"
+RESPONSE PlayerLostCallNamVet CHARACTER NamVet SUBTITLE "Where are you?"
+RESPONSE PlayerLostCallNamVet CHARACTER NamVet SUBTITLE "Where is everyone?"
+RESPONSE PlayerLostCallNamVet CHARACTER NamVet SUBTITLE "Is anyone there?"
+RESPONSE PlayerLostCallNamVet CHARACTER NamVet SUBTITLE "Report in, people! Report!"
+RESPONSE PlayerLostCallNamVet CHARACTER NamVet SUBTITLE "Hello?"
+RESPONSE PlayerLostCallNamVet CHARACTER NamVet SUBTITLE "Anybody out there?"
+RESPONSE PlayerLostCallNamVet CHARACTER NamVet SUBTITLE "Is anyone out there?"
+RULE PlayerLostCallNamVet CRITERIA ConceptTalkIdle IsNamVet IsClosestSurvivorFar3000 IsNotSaidPlayerLostCall _auto_NotNoLostCall IsNotSpeakingWeight0 RESPONSE PlayerLostCallNamVet
+RESPONSE SurvivorSpottedChainsawNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedChainsawNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedChainsawNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsChainsaw IsWorldTalkNamVet RESPONSE SurvivorSpottedChainsawNamVet
+RESPONSE SurvivorSpottedChainsawAutoNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawAutoNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedChainsawAutoNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedChainsawAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsChainsaw IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedChainsawAutoNamVet
+RESPONSE SurvivorSpottedcricket_batNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedcricket_batNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedcricket_batNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto Iscricket_bat IsWorldTalkNamVet RESPONSE SurvivorSpottedcricket_batNamVet
+RESPONSE SurvivorSpottedcricket_batAutoNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batAutoNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedcricket_batAutoNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedcricket_batAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot Iscricket_bat IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedcricket_batAutoNamVet
+RESPONSE SurvivorSpottedcrowbarNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedcrowbarNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedcrowbarNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto Iscrowbar IsWorldTalkNamVet RESPONSE SurvivorSpottedcrowbarNamVet
+RESPONSE SurvivorSpottedcrowbarAutoNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarAutoNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedcrowbarAutoNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedcrowbarAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot Iscrowbar IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedcrowbarAutoNamVet
+RESPONSE SurvivorSpottedGuitarNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedGuitarNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedGuitarNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsGuitar IsWorldTalkNamVet RESPONSE SurvivorSpottedGuitarNamVet
+RESPONSE SurvivorSpottedGuitarAutoNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarAutoNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedGuitarAutoNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedGuitarAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsGuitar IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGuitarAutoNamVet
+RESPONSE SurvivorSpottedKatanaNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedKatanaNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedKatanaNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsKatana IsWorldTalkNamVet RESPONSE SurvivorSpottedKatanaNamVet
+RESPONSE SurvivorSpottedKatanaAutoNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaAutoNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedKatanaAutoNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedKatanaAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsKatana IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedKatanaAutoNamVet
+RESPONSE SurvivorSpottedLaserSightsNamVet CHARACTER NamVet SUBTITLE "Look!"
+RESPONSE SurvivorSpottedLaserSightsNamVet CHARACTER NamVet SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedLaserSightsNamVet CHARACTER NamVet SUBTITLE "Look over here."
+RESPONSE SurvivorSpottedLaserSightsNamVet CHARACTER NamVet SUBTITLE "You're gonna want to see this."
+RULE SurvivorSpottedLaserSightsNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsLaserSights IsWorldTalkNamVet RESPONSE SurvivorSpottedLaserSightsNamVet
+RESPONSE SurvivorSpottedLaserSightsAutoNamVet CHARACTER NamVet SUBTITLE "Look!"
+RESPONSE SurvivorSpottedLaserSightsAutoNamVet CHARACTER NamVet SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedLaserSightsAutoNamVet CHARACTER NamVet SUBTITLE "Look over here."
+RESPONSE SurvivorSpottedLaserSightsAutoNamVet CHARACTER NamVet SUBTITLE "You're gonna want to see this."
+RULE SurvivorSpottedLaserSightsAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsLaserSights IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedLaserSightsAutoNamVet
+RESPONSE SurvivorSpottedMacheteNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedMacheteNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedMacheteNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsMachete IsWorldTalkNamVet RESPONSE SurvivorSpottedMacheteNamVet
+RESPONSE SurvivorSpottedMacheteAutoNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteAutoNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedMacheteAutoNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedMacheteAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsMachete IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedMacheteAutoNamVet
+RESPONSE SurvivorSpottedMagnumNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedMagnumNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedMagnumNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsMagnum IsWorldTalkNamVet RESPONSE SurvivorSpottedMagnumNamVet
+RESPONSE SurvivorSpottedMagnumAutoNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumAutoNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedMagnumAutoNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedMagnumAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsMagnum IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedMagnumAutoNamVet
+RESPONSE SurvivorSpottedtonfaNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedtonfaNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedtonfaNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto Istonfa IsWorldTalkNamVet RESPONSE SurvivorSpottedtonfaNamVet
+RESPONSE SurvivorSpottedtonfaAutoNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaAutoNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedtonfaAutoNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedtonfaAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot Istonfa IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedtonfaAutoNamVet
+RESPONSE SurvivorSpottedGolfClubNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGolfClubNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedGolfClubNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedGolfClubNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsGolfClub IsWorldTalkNamVet IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGolfClubNamVet
+RESPONSE SurvivorSpottedGolfClubAutoNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGolfClubAutoNamVet CHARACTER NamVet SUBTITLE "We've got to stick together."
+RESPONSE SurvivorSpottedGolfClubAutoNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RULE SurvivorSpottedGolfClubAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsGolfClub IsWorldTalkNamVet RESPONSE SurvivorSpottedGolfClubAutoNamVet
+RULE SurvivorSpottedAutoShotgunNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsAutoShotgun IsWorldTalkNamVet RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedAutoShotgunAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsAutoShotgun IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedHuntingRifleNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsHuntingRifle IsWorldTalkNamVet RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedHuntingRifleAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsHuntingRifle IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedPumpShotgunNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsPumpShotgun IsWorldTalkNamVet RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedRifleNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsRifle IsWorldTalkNamVet RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedRifle_AK47NamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsRifle_AK47 IsWorldTalkNamVet RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedRifle_AK47AutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsRifle_AK47 IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedRifleAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsRifle IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedSecondPistolNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsSecondPistol IsWorldTalkNamVet RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedShotgun_ChromeNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsShotgun_Chrome IsWorldTalkNamVet RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedSMGNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsSMG IsWorldTalkNamVet RESPONSE SurvivorSpottedWeaponNamVet
+RESPONSE SurvivorSpottedDefibrillatorNamVet CHARACTER NamVet SUBTITLE "Look!"
+RESPONSE SurvivorSpottedDefibrillatorNamVet CHARACTER NamVet SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedDefibrillatorNamVet CHARACTER NamVet SUBTITLE "Look over here."
+RESPONSE SurvivorSpottedDefibrillatorNamVet CHARACTER NamVet SUBTITLE "You're gonna want to see this."
+RULE SurvivorSpottedDefibrillatorNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsDefibrillator IsWorldTalkNamVet RESPONSE SurvivorSpottedDefibrillatorNamVet
+RESPONSE SurvivorSpottedDefibrillatorAutoNamVet CHARACTER NamVet SUBTITLE "Look!"
+RESPONSE SurvivorSpottedDefibrillatorAutoNamVet CHARACTER NamVet SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedDefibrillatorAutoNamVet CHARACTER NamVet SUBTITLE "Look over here."
+RESPONSE SurvivorSpottedDefibrillatorAutoNamVet CHARACTER NamVet SUBTITLE "You're gonna want to see this."
+RULE SurvivorSpottedDefibrillatorAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidDefibrillator IsNotSaidSpot IsDefibrillator IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedDefibrillatorAutoNamVet
+RESPONSE SurvivorPickupDefibrillatorNamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RESPONSE SurvivorPickupDefibrillatorNamVet CHARACTER NamVet SUBTITLE "Someone's gonna need these."
+RESPONSE SurvivorPickupDefibrillatorNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE SurvivorPickupDefibrillatorNamVet CHARACTER NamVet SUBTITLE "Okay."
+RULE SurvivorPickupDefibrillatorNamVet CRITERIA ConceptPlayerPickup IsNotCoughing IsNamVet IsPickedUpDefibrillator IsNotSpeaking IsTalk IsTalkNamVet IsWorldTalkNamVet RESPONSE SurvivorPickupDefibrillatorNamVet
+
+
+

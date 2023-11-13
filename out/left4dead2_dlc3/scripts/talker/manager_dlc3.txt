@@ -1,0 +1,560 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc3/scripts/talker/manager_dlc3.txt
+-------------------------------------------------------
+
+RESPONSE C7M1_saferoom03aManager CHARACTER Manager SUBTITLE "Why's that?"
+RULE C7M1_saferoom03aManager CRITERIA ConceptC7M1_saferoom03a IsManager RESPONSE C7M1_saferoom03aManager
+RESPONSE C7M1_saferoom05aManager CHARACTER Manager SUBTITLE "I think she's mad at Bill."
+RULE C7M1_saferoom05aManager CRITERIA ConceptC7M1_saferoom05a IsManager RESPONSE C7M1_saferoom05aManager
+RESPONSE C7M1_saferoom08aManager CHARACTER Manager SUBTITLE "Actually, I'd like to see that too!"
+RESPONSE C7M1_saferoom08aManager CHARACTER Manager SUBTITLE "Actually, I would have liked to see that too!"
+RULE C7M1_saferoom08aManager CRITERIA ConceptC7M1_saferoom08a IsManager RESPONSE C7M1_saferoom08aManager
+RESPONSE C7M1_saferoom12Manager CHARACTER Manager SUBTITLE "I'm pissed too!"
+RULE C7M1_saferoom12Manager CRITERIA ConceptC7M1_saferoom12 IsManager RESPONSE C7M1_saferoom12Manager
+RESPONSE C7M1_saferoom15cManager CHARACTER Manager SUBTITLE "Well, thanks, man!"
+RULE C7M1_saferoom15cManager CRITERIA ConceptC7M1_saferoom15c IsManager RESPONSE C7M1_saferoom15cManager
+RESPONSE C7M1_saferoom18aManager CHARACTER Manager SUBTITLE "I got a good feeling about this island."
+RULE C7M1_saferoom18aManager CRITERIA ConceptC7M1_saferoom18a IsManager RESPONSE C7M1_saferoom18aManager
+RESPONSE C7M1_saferoom19Manager CHARACTER Manager SUBTITLE "Zoey, come on.  We have to work together."
+RULE C7M1_saferoom19Manager CRITERIA ConceptC7M1_saferoom19 IsManager RESPONSE C7M1_saferoom19Manager
+RESPONSE C7M1_saferoom19bManager CHARACTER Manager SUBTITLE "Come on, we have to keep moving."
+RULE C7M1_saferoom19bManager CRITERIA ConceptC7M1_saferoom19b IsManager RESPONSE C7M1_saferoom19bManager
+RESPONSE C7M1_saferoom21Manager CHARACTER Manager SUBTITLE "Francis am I alone in hating boats?"
+RULE C7M1_saferoom21Manager CRITERIA ConceptC7M1_saferoom21 IsManager RESPONSE C7M1_saferoom21Manager
+RESPONSE C7M1_saferoom22aManager CHARACTER Manager SUBTITLE "I'm trying to keep my head up Bill."
+RESPONSE C7M1_saferoom22aManager CHARACTER Manager SUBTITLE "Look, I'm trying, Bill. I'm trying."
+RULE C7M1_saferoom22aManager CRITERIA ConceptC7M1_saferoom22a IsManager RESPONSE C7M1_saferoom22aManager
+RESPONSE C7M1_saferoom24Manager CHARACTER Manager SUBTITLE "Way to go Francis, some cardio is just what we need!"
+RULE C7M1_saferoom24Manager CRITERIA ConceptC7M1_saferoom24 IsManager RESPONSE C7M1_saferoom24Manager
+RESPONSE C7M1_saferoom25Manager CHARACTER Manager SUBTITLE "What do we do if we meet someone?"
+RULE C7M1_saferoom25Manager CRITERIA ConceptC7M1_saferoom25 IsManager RESPONSE C7M1_saferoom25Manager
+RESPONSE C7M1_saferoom25bManager CHARACTER Manager SUBTITLE "How can we be sure they're immune?"
+RULE C7M1_saferoom25bManager CRITERIA ConceptC7M1_saferoom25b IsManager RESPONSE C7M1_saferoom25bManager
+RESPONSE C7M1OpenTankDoorManager CHARACTER Manager SUBTITLE "You all sure no one else doesn't want to open this door?"
+RESPONSE C7M1OpenTankDoorManager CHARACTER Manager SUBTITLE "Get ready, I'm opening the door."
+RESPONSE C7M1OpenTankDoorManager CHARACTER Manager SUBTITLE "I'll open this, but I'm not going to be happy."
+RESPONSE C7M1OpenTankDoorManager CHARACTER Manager SUBTITLE "Get ready, I don't have a good feeling about this."
+RESPONSE C7M1OpenTankDoorManager CHARACTER Manager SUBTITLE "Stay positive guys, we can handle this."
+RESPONSE C7M1OpenTankDoorManager CHARACTER Manager SUBTITLE "Man, why am I always opening these things?"
+RULE C7M1OpenTankDoorManager CRITERIA Conceptc7m1opentankdoorspeakManager IsManager _auto_NotsaidC7M1OpenTankDoor RESPONSE C7M1OpenTankDoorManager
+RESPONSE C7M1SafeRoomIdleManager CHARACTER Manager SUBTITLE "Hey, Bill! Look, there's a boat! Hell, there's boats everywhere."
+RESPONSE C7M1SafeRoomIdleManager CHARACTER Manager SUBTITLE "We GOTTA be getting close to the Gulf. I can almost smell the salt water."
+RESPONSE C7M1SafeRoomIdleManager CHARACTER Manager SUBTITLE "Military jail, a train ride, and now back to walking?"
+RULE C7M1SafeRoomIdleManager CRITERIA ConceptTalkIdle IsManager IsMapc7m1_docks IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_IsSafeRoomStart _auto_NotSafeRoomQuiet _auto_NotC7M1SafeRoomConvo IsNotSpeakingWeight0 RESPONSE C7M1SafeRoomIdleManager
+RESPONSE C7M1SafeRoomStartManager CHARACTER Manager SUBTITLE "Blank"
+RULE C7M1SafeRoomStartManager CRITERIA ConceptTalkIdle IsManager IsMapc7m1_docks IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_NotSafeRoomStart IsNotSpeakingWeight0 RESPONSE C7M1SafeRoomStartManager
+RESPONSE InfoRemc7m1_pretank02Manager CHARACTER Manager SUBTITLE "Me?"
+RESPONSE InfoRemc7m1_pretank02Manager CHARACTER Manager SUBTITLE "Who? Me?"
+RULE InfoRemc7m1_pretank02Manager CRITERIA ConceptInfoRemc7m1_pretank02 IsManager RESPONSE InfoRemc7m1_pretank02Manager
+RESPONSE InfoRemc7m1_tankcar01aManager CHARACTER Manager SUBTITLE "You're welcome."
+RULE InfoRemc7m1_tankcar01aManager CRITERIA ConceptInfoRemc7m1_tankcar01a IsManager RESPONSE InfoRemc7m1_tankcar01aManager
+RESPONSE C7M2_saferoom02Manager CHARACTER Manager SUBTITLE "Let me see. Uh. "Taki. I love you. Goodbye.""
+RULE C7M2_saferoom02Manager CRITERIA ConceptC7M2_saferoom02 IsManager RESPONSE C7M2_saferoom02Manager
+RESPONSE C7M2_saferoom02bManager CHARACTER Manager SUBTITLE "I interned in Tokyo."
+RULE C7M2_saferoom02bManager CRITERIA ConceptC7M2_saferoom02b IsManager RESPONSE C7M2_saferoom02bManager
+RESPONSE C7M2_saferoom02dManager CHARACTER Manager SUBTITLE ""Bill's an idiot.""
+RULE C7M2_saferoom02dManager CRITERIA ConceptC7M2_saferoom02d IsManager RESPONSE C7M2_saferoom02dManager
+RESPONSE C7M2_saferoom03aManager CHARACTER Manager SUBTITLE "Thinking positive got me where I am, Francis."
+RULE C7M2_saferoom03aManager CRITERIA ConceptC7M2_saferoom03a IsManager RESPONSE C7M2_saferoom03aManager
+RESPONSE C7M2_saferoom04Manager CHARACTER Manager SUBTITLE "Even if it does go back to normal, they're not lettin' us back in. I think this island's the only chance we got."
+RESPONSE C7M2_saferoom04Manager CHARACTER Manager SUBTITLE "Even if it does go back to normal, we won't. I think this island's the only chance we got."
+RULE C7M2_saferoom04Manager CRITERIA ConceptC7M2_saferoom04 IsManager RESPONSE C7M2_saferoom04Manager
+RESPONSE C7M2_saferoom05cManager CHARACTER Manager SUBTITLE "Let's make a note of that for next time, alright?"
+RULE C7M2_saferoom05cManager CRITERIA ConceptC7M2_saferoom05c IsManager RESPONSE C7M2_saferoom05cManager
+RESPONSE C7M2SafeRoomIdleManager CHARACTER Manager SUBTITLE "We're gonna find that sail boat right around the corner. You just watch."
+RULE C7M2SafeRoomIdleManager CRITERIA ConceptTalkIdle IsManager IsMapc7m2_barge IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_IsSafeRoomStart _auto_NotSafeRoomQuiet _auto_NotC7M2SafeRoomConvo IsNotSpeakingWeight0 RESPONSE C7M2SafeRoomIdleManager
+RESPONSE C7M2SafeRoomStartManager CHARACTER Manager SUBTITLE "Blank"
+RULE C7M2SafeRoomStartManager CRITERIA ConceptTalkIdle IsManager IsMapc7m2_barge IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_NotSafeRoomStart IsNotSpeakingWeight0 RESPONSE C7M2SafeRoomStartManager
+RESPONSE Player.WarnMegaMobc7m201Manager CHARACTER Manager SUBTITLE "Get into the chute!"
+RESPONSE Player.WarnMegaMobc7m201Manager CHARACTER Manager SUBTITLE "Everyone, into the chute!"
+RULE Player.WarnMegaMobc7m201Manager CRITERIA ConceptPlayer.WarnMegaMobc7m201 IsManager RESPONSE Player.WarnMegaMobc7m201Manager
+RESPONSE C7M3_saferoom003aManager CHARACTER Manager SUBTITLE "How old are you again Bill?"
+RESPONSE C7M3_saferoom003aManager CHARACTER Manager SUBTITLE "Bill, did they have TV when you were young?"
+RULE C7M3_saferoom003aManager CRITERIA ConceptC7M3_saferoom003a IsManager RESPONSE C7M3_saferoom003aManager
+RESPONSE C7M3_saferoom004Manager CHARACTER Manager SUBTITLE "But you know, as long as I have a Molotov I can make a firewall!"
+RULE C7M3_saferoom004Manager CRITERIA ConceptC7M3_saferoom004 IsManager RESPONSE C7M3_saferoom004Manager
+RESPONSE C7M3_saferoom004aManager CHARACTER Manager SUBTITLE "Get it Francis?  A firewall?"
+RULE C7M3_saferoom004aManager CRITERIA ConceptC7M3_saferoom004a IsManager RESPONSE C7M3_saferoom004aManager
+RESPONSE C7M3_saferoom006bManager CHARACTER Manager SUBTITLE "No more internet, no more xbox, no more nothing..."
+RULE C7M3_saferoom006bManager CRITERIA ConceptC7M3_saferoom006b IsManager RESPONSE C7M3_saferoom006bManager
+RESPONSE C7M3_saferoom007aManager CHARACTER Manager SUBTITLE "Yeah, I read that in books too."
+RULE C7M3_saferoom007aManager CRITERIA ConceptC7M3_saferoom007a IsManager RESPONSE C7M3_saferoom007aManager
+RESPONSE C7M3_saferoom007cManager CHARACTER Manager SUBTITLE "I don't remember what that feels like."
+RULE C7M3_saferoom007cManager CRITERIA ConceptC7M3_saferoom007c IsManager RESPONSE C7M3_saferoom007cManager
+RESPONSE C7M3_saferoom009aManager CHARACTER Manager SUBTITLE "I like the sound of that."
+RULE C7M3_saferoom009aManager CRITERIA ConceptC7M3_saferoom009a IsManager RESPONSE C7M3_saferoom009aManager
+RESPONSE C7M3_saferoom010aManager CHARACTER Manager SUBTITLE "I always wanted to learn how to fish."
+RESPONSE C7M3_saferoom010aManager CHARACTER Manager SUBTITLE "I always wanted to learn how."
+RULE C7M3_saferoom010aManager CRITERIA ConceptC7M3_saferoom010a IsManager RESPONSE C7M3_saferoom010aManager
+RESPONSE C7M3_saferoom011Manager CHARACTER Manager SUBTITLE "Sounds good to me."
+RULE C7M3_saferoom011Manager CRITERIA ConceptC7M3_saferoom011 IsManager RESPONSE C7M3_saferoom011Manager
+RESPONSE C7M3_saferoom013aManager CHARACTER Manager SUBTITLE "You don't hate it already?"
+RULE C7M3_saferoom013aManager CRITERIA ConceptC7M3_saferoom013a IsManager RESPONSE C7M3_saferoom013aManager
+RESPONSE C7M3_saferoom013cManager CHARACTER Manager SUBTITLE "Man, this is gonna be a long rest of our lives."
+RULE C7M3_saferoom013cManager CRITERIA ConceptC7M3_saferoom013c IsManager RESPONSE C7M3_saferoom013cManager
+RESPONSE C7M3_saferoom014aManager CHARACTER Manager SUBTITLE "Well, hater, I guess you don't have to eat any then."
+RULE C7M3_saferoom014aManager CRITERIA ConceptC7M3_saferoom014a IsManager RESPONSE C7M3_saferoom014aManager
+RESPONSE C7M3_saferoom015aManager CHARACTER Manager SUBTITLE "Just a good feeling, I guess."
+RULE C7M3_saferoom015aManager CRITERIA ConceptC7M3_saferoom015a IsManager RESPONSE C7M3_saferoom015aManager
+RESPONSE C7M3_saferoom016bManager CHARACTER Manager SUBTITLE "I'm in too good a mood to get mad at you, Francis."
+RULE C7M3_saferoom016bManager CRITERIA ConceptC7M3_saferoom016b IsManager RESPONSE C7M3_saferoom016bManager
+RESPONSE C7M3_saferoom016dManager CHARACTER Manager SUBTITLE "Hey Francis, I got a good feeling about wearing your skin as a pretty dress."
+RULE C7M3_saferoom016dManager CRITERIA ConceptC7M3_saferoom016d IsManager RESPONSE C7M3_saferoom016dManager
+RESPONSE C7M3_saferoom017Manager CHARACTER Manager SUBTITLE "Come on, Francis. Give it a rest."
+RULE C7M3_saferoom017Manager CRITERIA ConceptC7M3_saferoom017 IsManager RESPONSE C7M3_saferoom017Manager
+RESPONSE C7M3_saferoom017bManager CHARACTER Manager SUBTITLE "Are you joking?"
+RULE C7M3_saferoom017bManager CRITERIA ConceptC7M3_saferoom017b IsManager RESPONSE C7M3_saferoom017bManager
+RESPONSE C7M3_saferoom017dManager CHARACTER Manager SUBTITLE "Shit, Francis. Well, when we get there, I got your back. I'm gonna keep an eye on that island for ya."
+RULE C7M3_saferoom017dManager CRITERIA ConceptC7M3_saferoom017d IsManager RESPONSE C7M3_saferoom017dManager
+RESPONSE C7M3_saferoom017fManager CHARACTER Manager SUBTITLE "Punk island..."
+RULE C7M3_saferoom017fManager CRITERIA ConceptC7M3_saferoom017f IsManager RESPONSE C7M3_saferoom017fManager
+RESPONSE C7M3_saferoom017gManager CHARACTER Manager SUBTITLE "Punk ass island bitch..."
+RESPONSE C7M3_saferoom017gManager CHARACTER Manager SUBTITLE "Punk ass bitch island..."
+RESPONSE C7M3_saferoom017gManager CHARACTER Manager SUBTITLE "Punk ass island bitch ya better watch yourself..."
+RESPONSE C7M3_saferoom017gManager CHARACTER Manager SUBTITLE "Punk ass island bitch better watch yourself once Louis and Francis on the case."
+RULE C7M3_saferoom017gManager CRITERIA ConceptC7M3_saferoom017g IsManager RESPONSE C7M3_saferoom017gManager
+RESPONSE C7M3BridgeBreaksManager CHARACTER Manager SUBTITLE "The generator's off!"
+RESPONSE C7M3BridgeBreaksManager CHARACTER Manager SUBTITLE "We need to restart the generator!"
+RULE C7M3BridgeBreaksManager CRITERIA conceptC7M3BridgeBreaks IsManager _auto_NotSaidC7M3BridgeBreaks RESPONSE C7M3BridgeBreaksManager
+RESPONSE C7M3FinalPressBikerManager CHARACTER Manager SUBTITLE "Thanks Francis!"
+RESPONSE C7M3FinalPressBikerManager CHARACTER Manager SUBTITLE "Fraaaancis!"
+RESPONSE C7M3FinalPressBikerManager CHARACTER Manager SUBTITLE "I'm gonna miss that guy."
+RESPONSE C7M3FinalPressBikerManager CHARACTER Manager SUBTITLE "FRANCIS!"
+RULE C7M3FinalPressBikerManager CRITERIA ConceptC7M3FinalSpeakBiker IsManager IsLastGenerator IsNotBiker _auto_NotC7M3FinalPress RESPONSE C7M3FinalPressBikerManager
+RESPONSE C7M3FinalPressNamVetManager CHARACTER Manager SUBTITLE "Bill ! Bill! You saved us!"
+RESPONSE C7M3FinalPressNamVetManager CHARACTER Manager SUBTITLE "No! We're gonna leave him behind!"
+RESPONSE C7M3FinalPressNamVetManager CHARACTER Manager SUBTITLE "Bill! Goddamnit, I'm going to miss you!"
+RESPONSE C7M3FinalPressNamVetManager CHARACTER Manager SUBTITLE "Bill! Bill! You can't be dead! You can't be."
+RULE C7M3FinalPressNamVetManager CRITERIA ConceptC7M3FinalSpeakNamVet IsManager IsLastGenerator IsNotNamVet _auto_NotC7M3FinalPress RESPONSE C7M3FinalPressNamVetManager
+RESPONSE C7M3FinalPressTeenGirlManager CHARACTER Manager SUBTITLE "Oh my god! Zoey!"
+RESPONSE C7M3FinalPressTeenGirlManager CHARACTER Manager SUBTITLE "Zoey! You saved us!"
+RESPONSE C7M3FinalPressTeenGirlManager CHARACTER Manager SUBTITLE "Ah Damnit, Zoey's dead!"
+RESPONSE C7M3FinalPressTeenGirlManager CHARACTER Manager SUBTITLE "Not Zoey!"
+RULE C7M3FinalPressTeenGirlManager CRITERIA ConceptC7M3FinalSpeakTeenGirl IsManager IsLastGenerator IsNotTeenGirl _auto_NotC7M3FinalPress RESPONSE C7M3FinalPressTeenGirlManager
+RESPONSE C7M3GeneratorPress01Manager CHARACTER Manager SUBTITLE "These generator are going to be noisy, get ready."
+RESPONSE C7M3GeneratorPress01Manager CHARACTER Manager SUBTITLE "Let's start this generator."
+RESPONSE C7M3GeneratorPress01Manager CHARACTER Manager SUBTITLE "We need to power these three generators to raise the bridge!"
+RESPONSE C7M3GeneratorPress01Manager CHARACTER Manager SUBTITLE "These generators must be setup to power the bridge."
+RULE C7M3GeneratorPress01Manager CRITERIA ConceptC7M3GeneratorSpeakManager IsManager IsFirstGenerator _auto_NotC7M3PressingManager RESPONSE C7M3GeneratorPress01Manager
+RESPONSE C7M3GeneratorPress02Manager CHARACTER Manager SUBTITLE "Let's start this generator."
+RESPONSE C7M3GeneratorPress02Manager CHARACTER Manager SUBTITLE "Allright, allright. Come onnnn. Come on, catch."
+RESPONSE C7M3GeneratorPress02Manager CHARACTER Manager SUBTITLE "Allright, allright. Come on baby, start for me."
+RULE C7M3GeneratorPress02Manager CRITERIA ConceptC7M3GeneratorSpeakManager IsManager IsSecondGenerator _auto_NotC7M3PressingManager RESPONSE C7M3GeneratorPress02Manager
+RESPONSE C7M3GeneratorPress03Manager CHARACTER Manager SUBTITLE "Last generator."
+RULE C7M3GeneratorPress03Manager CRITERIA ConceptC7M3GeneratorSpeakManager IsManager IsThirdGenerator _auto_NotC7M3PressingManager RESPONSE C7M3GeneratorPress03Manager
+RESPONSE C7M3PlayerGetToRescueVehicleManager CHARACTER Manager SUBTITLE "We did it!"
+RESPONSE C7M3PlayerGetToRescueVehicleManager CHARACTER Manager SUBTITLE "Get to the bridge!"
+RULE C7M3PlayerGetToRescueVehicleManager CRITERIA ConceptGetToVehicle IsManager ismapc7m3_port IsTalk IsTalkManager IsWorldTalkManager _auto_NotC7M3ToBridgeManager RESPONSE C7M3PlayerGetToRescueVehicleManager
+RESPONSE C7M3SafeRoomIdleManager CHARACTER Manager SUBTITLE "Never thought I'd be happy to be heading to a deserted island."
+RESPONSE C7M3SafeRoomIdleManager CHARACTER Manager SUBTITLE "You know, I didn't like the idea of a deserted island at first. But I'm startin' to get a good feeling about this."
+RESPONSE C7M3SafeRoomIdleManager CHARACTER Manager SUBTITLE "You know what I miss?  Checking email.  Seeing what's new."
+RESPONSE C7M3SafeRoomIdleManager CHARACTER Manager SUBTITLE "One thing I'm not gonna miss about civilization? I.T. I will never have to tell another human being to reboot their damn computer."
+RESPONSE C7M3SafeRoomIdleManager CHARACTER Manager SUBTITLE "Hey, Zoey. We're actually headed to an island. Top ten desert island movies. Go."
+RESPONSE C7M3SafeRoomIdleManager CHARACTER Manager SUBTITLE "So, Bill. Once we find a sailboat, how far is it to the Florida Keys?"
+RESPONSE C7M3SafeRoomIdleManager CHARACTER Manager SUBTITLE "So... once we're on a boat...  can zombies swim?"
+RESPONSE C7M3SafeRoomIdleManager CHARACTER Manager SUBTITLE "Bill, when we get to the keys, you got an island in mind?"
+RESPONSE C7M3SafeRoomIdleManager CHARACTER Manager SUBTITLE "Bill, when we get to the keys, you know how to fish?"
+RESPONSE C7M3SafeRoomIdleManager CHARACTER Manager SUBTITLE "Francis, what's the first thing you're gonna do when we get to the island?"
+RESPONSE C7M3SafeRoomIdleManager CHARACTER Manager SUBTITLE "Francis, you ready to get to the keys and have ourselves a seafood feast?"
+RESPONSE C7M3SafeRoomIdleManager CHARACTER Manager SUBTITLE "Once we get to the keys, I'm gonna teach you how to swim Francis."
+RESPONSE C7M3SafeRoomIdleManager CHARACTER Manager SUBTITLE "Everybody ready to go live on an island in paradise? Man, I cannot wait!"
+RULE C7M3SafeRoomIdleManager CRITERIA ConceptTalkIdle IsManager IsMapc7m3_port IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_IsSafeRoomStart _auto_NotSafeRoomQuiet _auto_NotC7M3SafeRoomConvo IsNotSpeakingWeight0 RESPONSE C7M3SafeRoomIdleManager
+RESPONSE C7M3SafeRoomStartManager CHARACTER Manager SUBTITLE "Blank"
+RULE C7M3SafeRoomStartManager CRITERIA ConceptTalkIdle IsManager IsMapc7m3_port IsInStartArea AutoIsNotScavenge AutoIsNotSurvival _auto_NotSafeRoomStart IsNotSpeakingWeight0 RESPONSE C7M3SafeRoomStartManager
+RESPONSE SurvivorSpottedAdrenalineManager CHARACTER Manager SUBTITLE "Look."
+RESPONSE SurvivorSpottedAdrenalineManager CHARACTER Manager SUBTITLE "Look!"
+RESPONSE SurvivorSpottedAdrenalineManager CHARACTER Manager SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedAdrenalineManager CHARACTER Manager SUBTITLE "Look at this."
+RULE SurvivorSpottedAdrenalineManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsAdrenaline IsWorldTalkManager RESPONSE SurvivorSpottedAdrenalineManager
+RESPONSE SurvivorSpottedAdrenalineAutoManager CHARACTER Manager SUBTITLE "Look."
+RESPONSE SurvivorSpottedAdrenalineAutoManager CHARACTER Manager SUBTITLE "Look!"
+RESPONSE SurvivorSpottedAdrenalineAutoManager CHARACTER Manager SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedAdrenalineAutoManager CHARACTER Manager SUBTITLE "Look at this."
+RULE SurvivorSpottedAdrenalineAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotAdrenaline IsNotSaidSpot IsAdrenaline IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedAdrenalineAutoManager
+RESPONSE SurvivorSpottedGrenadeLauncherManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedGrenadeLauncherManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedGrenadeLauncherManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto Isgrenade_launcher IsWorldTalkManager RESPONSE SurvivorSpottedGrenadeLauncherManager
+RESPONSE SurvivorSpottedGrenadeLauncherAutoManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGrenadeLauncherAutoManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedGrenadeLauncherAutoManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedGrenadeLauncherAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotgrenade_launcher IsNotSaidSpot Isgrenade_launcher IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGrenadeLauncherAutoManager
+RESPONSE SurvivorSpottedUpPack_ExplosiveManager CHARACTER Manager SUBTITLE "Look."
+RESPONSE SurvivorSpottedUpPack_ExplosiveManager CHARACTER Manager SUBTITLE "Look!"
+RESPONSE SurvivorSpottedUpPack_ExplosiveManager CHARACTER Manager SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedUpPack_ExplosiveManager CHARACTER Manager SUBTITLE "Look at this."
+RULE SurvivorSpottedUpPack_ExplosiveManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsUpgradePack_Explosive  IsWorldTalkManager RESPONSE SurvivorSpottedUpPack_ExplosiveManager
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoManager CHARACTER Manager SUBTITLE "Look."
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoManager CHARACTER Manager SUBTITLE "Look!"
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoManager CHARACTER Manager SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedUpPack_ExplosiveAutoManager CHARACTER Manager SUBTITLE "Look at this."
+RULE SurvivorSpottedUpPack_ExplosiveAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotAlone IsNotSaidSpotUpgradePack_Explosive IsNotSaidSpot IsUpgradePack_Explosive IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedUpPack_ExplosiveAutoManager
+RESPONSE SurvivorSpottedUpPack_IncendiaryManager CHARACTER Manager SUBTITLE "Look."
+RESPONSE SurvivorSpottedUpPack_IncendiaryManager CHARACTER Manager SUBTITLE "Look!"
+RESPONSE SurvivorSpottedUpPack_IncendiaryManager CHARACTER Manager SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedUpPack_IncendiaryManager CHARACTER Manager SUBTITLE "Look at this."
+RULE SurvivorSpottedUpPack_IncendiaryManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsUpgradePack_Incendiary  IsWorldTalkManager RESPONSE SurvivorSpottedUpPack_IncendiaryManager
+RESPONSE SurvivorSpottedUpPack_IncendiAutoManager CHARACTER Manager SUBTITLE "Look."
+RESPONSE SurvivorSpottedUpPack_IncendiAutoManager CHARACTER Manager SUBTITLE "Look!"
+RESPONSE SurvivorSpottedUpPack_IncendiAutoManager CHARACTER Manager SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedUpPack_IncendiAutoManager CHARACTER Manager SUBTITLE "Look at this."
+RULE SurvivorSpottedUpPack_IncendiAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotAlone IsNotSaidSpotUpgradePack_Incendiary IsNotSaidSpot IsUpgradePack_Incendiary IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedUpPack_IncendiAutoManager
+RESPONSE SurvivorSpottedVomitJarManager CHARACTER Manager SUBTITLE "Look."
+RESPONSE SurvivorSpottedVomitJarManager CHARACTER Manager SUBTITLE "Look!"
+RESPONSE SurvivorSpottedVomitJarManager CHARACTER Manager SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedVomitJarManager CHARACTER Manager SUBTITLE "Look at this."
+RULE SurvivorSpottedVomitJarManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsVomitJar IsWorldTalkManager RESPONSE SurvivorSpottedVomitJarManager
+RESPONSE SurvivorSpottedVomitJarAutoManager CHARACTER Manager SUBTITLE "Look."
+RESPONSE SurvivorSpottedVomitJarAutoManager CHARACTER Manager SUBTITLE "Look!"
+RESPONSE SurvivorSpottedVomitJarAutoManager CHARACTER Manager SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedVomitJarAutoManager CHARACTER Manager SUBTITLE "Look at this."
+RULE SurvivorSpottedVomitJarAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotVomitJar IsNotSaidSpot IsVomitJar IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedVomitJarAutoManager
+RESPONSE PlayerToTheRescueRosManager CHARACTER Manager SUBTITLE "Hold on, I'm on my way!"
+RESPONSE PlayerToTheRescueRosManager CHARACTER Manager SUBTITLE "Look, I'm coming!"
+RESPONSE PlayerToTheRescueRosManager CHARACTER Manager SUBTITLE "Don't worry, I'm on my way!"
+RULE PlayerToTheRescueRosManager CRITERIA ConceptPlayerToTheRescue IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager RESPONSE PlayerToTheRescueRosManager
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Aw riiiight!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Woo baby, Aw riiiight!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Hell yeah."
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "YEAH!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "YEAH WOO!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "That's right!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Woo Hoo, that's right!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Yeah, baby, Yeah!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Alllright!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Oh yeah, who's your momma, who's your daddy"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "Helll yeah, Hell yeah!"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "[loud, evil laugh]"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "[loud, evil laugh]"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "[loud, evil laugh]"
+RESPONSE SurvivorTauntResponseManager CHARACTER Manager SUBTITLE "[loud, evil laugh]"
+RULE SurvivorTauntResponseManager CRITERIA ConceptPlayerTaunt IsSurvivor IsNotSpeaking IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager RESPONSE SurvivorTauntResponseManager
+RESPONSE PlayerRemarkc7m1_bricktopManager CHARACTER Manager SUBTITLE "On top the bricks."
+RULE PlayerRemarkc7m1_bricktopManager CRITERIA ConceptRemark IsManager Isc7m1_bricktop IsNotSaidc7m1_bricktop IsNotCoughing NotInCombat IsTalk IsTalkManager IsWorldTalkManager IsSubjectNear100 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_bricktopManager
+RESPONSE PlayerRemarkc7m1_harborblockedManager CHARACTER Manager SUBTITLE "This is why the harbor's closed."
+RESPONSE PlayerRemarkc7m1_harborblockedManager CHARACTER Manager SUBTITLE "You sure this is the right way?"
+RULE PlayerRemarkc7m1_harborblockedManager CRITERIA ConceptRemark IsManager Isc7m1_harborblocked IsNotSaidc7m1_harborblocked IsNotCoughing NotInCombat IsTalk IsTalkManager IsWorldTalkManager IsSubjectNear800 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_harborblockedManager
+RESPONSE PlayerRemarkc7m1_pastbricksManager CHARACTER Manager SUBTITLE "Past the bricks."
+RULE PlayerRemarkc7m1_pastbricksManager CRITERIA ConceptRemark IsManager Isc7m1_pastbricks IsNotSaidc7m1_pastbricks IsNotCoughing NotInCombat IsTalk IsTalkManager IsWorldTalkManager IsSubjectNear700 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_pastbricksManager
+RESPONSE PlayerRemarkc7m1_pretankManager CHARACTER Manager SUBTITLE "Only way is through this car."
+RESPONSE PlayerRemarkc7m1_pretankManager CHARACTER Manager SUBTITLE "Man, a tank in a train."
+RULE PlayerRemarkc7m1_pretankManager CRITERIA ConceptRemark IsManager Isc7m1_pretank IsNotSaidc7m1_pretank IsNotCoughing NotInCombat IsTalk IsTalkManager IsWorldTalkManager IsSubjectNear200 IsNotSpeakingWeight0 _auto_NotsaidC7M1OpenTankDoorLong RESPONSE PlayerRemarkc7m1_pretankManager
+RESPONSE PlayerRemarkc7m1_tankcarManager CHARACTER Manager SUBTITLE "Hey Francis what do they make at the tank factory?"
+RESPONSE PlayerRemarkc7m1_tankcarManager CHARACTER Manager SUBTITLE "Tanks on a train."
+RESPONSE PlayerRemarkc7m1_tankcarManager CHARACTER Manager SUBTITLE "This is some gross ass shit."
+RULE PlayerRemarkc7m1_tankcarManager CRITERIA ConceptRemark IsManager Isc7m1_tankcar IsNotSaidc7m1_tankcar IsNotCoughing NotInCombat IsTalk IsTalkManager IsWorldTalkManager IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m1_tankcarManager
+RESPONSE PlayerRemarkc7m2_climbupcrapManager CHARACTER Manager SUBTITLE "We can get back up over here!"
+RESPONSE PlayerRemarkc7m2_climbupcrapManager CHARACTER Manager SUBTITLE "Up that fence!"
+RULE PlayerRemarkc7m2_climbupcrapManager CRITERIA ConceptRemark IsManager Isc7m2_climbupcrap IsNotSaidc7m2_climbupcrap IsNotCoughing NotInCombat IsTalk IsTalkManager IsWorldTalkManager IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_climbupcrapManager
+RESPONSE PlayerRemarkc7m2_gravelhillManager CHARACTER Manager SUBTITLE "I can barely make it up here!"
+RESPONSE PlayerRemarkc7m2_gravelhillManager CHARACTER Manager SUBTITLE "This is like running in place."
+RESPONSE PlayerRemarkc7m2_gravelhillManager CHARACTER Manager SUBTITLE "Gravel here!"
+RULE PlayerRemarkc7m2_gravelhillManager CRITERIA ConceptRemark IsManager Isc7m2_gravelhill IsNotSaidc7m2_gravelhill IsNotCoughing NotInCombat IsTalk IsTalkManager IsWorldTalkManager IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_gravelhillManager
+RESPONSE PlayerRemarkc7m2_overboatManager CHARACTER Manager SUBTITLE "Over the ship!"
+RULE PlayerRemarkc7m2_overboatManager CRITERIA ConceptRemark IsManager Isc7m2_overboat IsNotSaidc7m2_overboat IsNotCoughing NotInCombat IsTalk IsTalkManager IsWorldTalkManager IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_overboatManager
+RESPONSE PlayerRemarkc7m2_throughhereManager CHARACTER Manager SUBTITLE "Through here!"
+RULE PlayerRemarkc7m2_throughhereManager CRITERIA ConceptRemark IsManager Isc7m2_throughhere IsNotSaidc7m2_throughhere IsNotCoughing NotInCombat IsTalk IsTalkManager IsWorldTalkManager IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m2_throughhereManager
+RESPONSE PlayerRemarkc7m3_seesailboatManager CHARACTER Manager SUBTITLE "Look, there's the boat we need. Let's get that bridge up and sail out of here."
+RESPONSE PlayerRemarkc7m3_seesailboatManager CHARACTER Manager SUBTITLE "Hey Francis, see that?  That's what a sail boat looks like!"
+RESPONSE PlayerRemarkc7m3_seesailboatManager CHARACTER Manager SUBTITLE "We need to raise the bridge to get that sail boat!"
+RESPONSE PlayerRemarkc7m3_seesailboatManager CHARACTER Manager SUBTITLE "This looks like the last bridge before open water."
+RULE PlayerRemarkc7m3_seesailboatManager CRITERIA ConceptRemark IsManager Isc7m3_seesailboat IsNotSaidc7m3_seesailboat IsNotCoughing NotInCombat IsTalk IsTalkManager IsWorldTalkManager IsFirstGenerator IsNotSpeakingWeight0 RESPONSE PlayerRemarkc7m3_seesailboatManager
+RESPONSE PlayerYellRunManager CHARACTER Manager SUBTITLE "Let's get the hell outta here!"
+RESPONSE PlayerYellRunManager CHARACTER Manager SUBTITLE "RUN!"
+RULE PlayerYellRunManager CRITERIA ConceptPlayerYellRun IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager RESPONSE PlayerYellRunManager
+RESPONSE GrabbingGasSCManager CHARACTER Manager SUBTITLE "Got it!"
+RESPONSE GrabbingGasSCManager CHARACTER Manager SUBTITLE "Okay."
+RULE GrabbingGasSCManager CRITERIA ConceptPlayerEquippedScavengeItem IsManager IsTalk IsTalkManager IsWorldTalkManager ManagerNotSaidGrabbingCan RESPONSE GrabbingGasSCManager
+RESPONSE PlayerShotGasCanManager CHARACTER Manager SUBTITLE "Shit."
+RESPONSE PlayerShotGasCanManager CHARACTER Manager SUBTITLE "Ah shit."
+RESPONSE PlayerShotGasCanManager CHARACTER Manager SUBTITLE "Shit shit shit."
+RESPONSE PlayerShotGasCanManager CHARACTER Manager SUBTITLE "Shit."
+RESPONSE PlayerShotGasCanManager CHARACTER Manager SUBTITLE "Ah shit."
+RESPONSE PlayerShotGasCanManager CHARACTER Manager SUBTITLE "That's some country-ass bullshit."
+RULE PlayerShotGasCanManager CRITERIA ConceptPlayerShotGasCan IsManager IsNotSaidPlayerShotGasCan IsScavenge RESPONSE PlayerShotGasCanManager
+RESPONSE ScavengeStartManager CHARACTER Manager SUBTITLE "Allright, let's go."
+RESPONSE ScavengeStartManager CHARACTER Manager SUBTITLE "Let's go."
+RESPONSE ScavengeStartManager CHARACTER Manager SUBTITLE "Let's Move, Let's Move!"
+RULE ScavengeStartManager CRITERIA ConceptSurvivorLeavingCheckpoint IsManager IsTalk IsTalkManager IsWorldTalkManager IsScavenge IsNotSaidStartScavenge RESPONSE ScavengeStartManager
+RESPONSE GasPourSCManager CHARACTER Manager SUBTITLE "Cover me."
+RESPONSE GasPourSCManager CHARACTER Manager SUBTITLE "Watch my back."
+RULE GasPourSCManager CRITERIA ConceptPlayerPourStarted IsManager IsTalk IsTalkManager IsWorldTalkManager IsScavenge ChanceToFire50Percent _auto_NotNoGasPourLine RESPONSE GasPourSCManager
+RESPONSE GasPourDoneSCManager CHARACTER Manager SUBTITLE "Woo baby, Aw riiiight!"
+RESPONSE GasPourDoneSCManager CHARACTER Manager SUBTITLE "They can't stop us now."
+RESPONSE GasPourDoneSCManager CHARACTER Manager SUBTITLE "Nothing can stop us, do you hear me? Nothing can stop us!"
+RESPONSE GasPourDoneSCManager CHARACTER Manager SUBTITLE "We are unstoppable."
+RESPONSE GasPourDoneSCManager CHARACTER Manager SUBTITLE "That's right!"
+RESPONSE GasPourDoneSCManager CHARACTER Manager SUBTITLE "Yeah, baby, Yeah!"
+RESPONSE GasPourDoneSCManager CHARACTER Manager SUBTITLE "Alllright!"
+RESPONSE GasPourDoneSCManager CHARACTER Manager SUBTITLE "[Loud, evil laugh]"
+RULE GasPourDoneSCManager CRITERIA ConceptPlayerPourFinished IsManager IsTalk IsTalkManager IsWorldTalkManager IsScavenge ScoreDoneSC RESPONSE GasPourDoneSCManager
+RESPONSE PlayerCommentJockeyDLC3Manager CHARACTER Manager SUBTITLE "<Hearty Laugh>"
+RESPONSE PlayerCommentJockeyDLC3Manager CHARACTER Manager SUBTITLE "[loud, evil laugh]"
+RULE PlayerCommentJockeyDLC3Manager CRITERIA ConceptCommentJockey IsManager IssuerCloseEnough IsNotIncapacitated IntensityUnder50 IsNotSaidCommentJockey  ChanceToFire10Percent RESPONSE PlayerCommentJockeyDLC3Manager
+RESPONSE FinaleAheadc7m3Manager CHARACTER Manager SUBTITLE "Allright, let's go."
+RESPONSE FinaleAheadc7m3Manager CHARACTER Manager SUBTITLE "Let's move!"
+RULE FinaleAheadc7m3Manager CRITERIA ConceptPlayerNearFinale IsNotCoughing IsManager IsNotSaidFinaleAhead NotInCombat IsTalk IsTalkManager IsNotIncapacitated IsWorldTalkManager Ismapc7m3_port RESPONSE FinaleAheadc7m3Manager
+RESPONSE Player.C7M2CrowsFlyManager CHARACTER Manager SUBTITLE "Lookout! Crows!"
+RESPONSE Player.C7M2CrowsFlyManager CHARACTER Manager SUBTITLE "Ahhh... look, the crows alerted the zombies!"
+RESPONSE Player.C7M2CrowsFlyManager CHARACTER Manager SUBTITLE "Ahhh... dammit... the crows are bringin' the zombies!"
+RULE Player.C7M2CrowsFlyManager CRITERIA ConceptC7M2CrowsFlySpeakManager ismapc7m2_barge IsManager _auto_NotC7M2CrowsFlySpeak RESPONSE Player.C7M2CrowsFlyManager
+RESPONSE Player.C7M3BridgeLeapManager CHARACTER Manager SUBTITLE "Stay there, don't worry about me none!"
+RESPONSE Player.C7M3BridgeLeapManager CHARACTER Manager SUBTITLE "I'll handle this! Cover me!"
+RESPONSE Player.C7M3BridgeLeapManager CHARACTER Manager SUBTITLE "I got this! You stay there!"
+RESPONSE Player.C7M3BridgeLeapManager CHARACTER Manager SUBTITLE "Good luck you guys!  I got this."
+RESPONSE Player.C7M3BridgeLeapManager CHARACTER Manager SUBTITLE "I'm gonna miss you guys!"
+RESPONSE Player.C7M3BridgeLeapManager CHARACTER Manager SUBTITLE "Don't get off the bridge!"
+RESPONSE Player.C7M3BridgeLeapManager CHARACTER Manager SUBTITLE "Don't worry, I'll be fine! Stay there!"
+RESPONSE Player.C7M3BridgeLeapManager CHARACTER Manager SUBTITLE "Don't get off the bridge!"
+RESPONSE Player.C7M3BridgeLeapManager CHARACTER Manager SUBTITLE "I swear to god I'm coming back!"
+RESPONSE Player.C7M3BridgeLeapManager CHARACTER Manager SUBTITLE "Stay there! I'll be back in two minutes!"
+RESPONSE Player.C7M3BridgeLeapManager CHARACTER Manager SUBTITLE "Do not follow me!"
+RESPONSE Player.C7M3BridgeLeapManager CHARACTER Manager SUBTITLE "I love you guys!"
+RESPONSE Player.C7M3BridgeLeapManager CHARACTER Manager SUBTITLE "If I go down, don't come after me!"
+RULE Player.C7M3BridgeLeapManager CRITERIA ConceptC7M3BridgeLeapSpeakManager IsNotCoughing IsManager  IsTalk IsTalkManager IsNotSpeaking  ismapc7m3_port IsWorldTalkManager IsNotScavenge _auto_NotSaidC7M3BridgeLeap RESPONSE Player.C7M3BridgeLeapManager
+RESPONSE PlayerIncapC7m3Manager CHARACTER Manager SUBTITLE "Hey guys? Remember when I said don't come after me? Oh god!"
+RESPONSE PlayerIncapC7m3Manager CHARACTER Manager SUBTITLE "Hey guys? Remember when I said don't come after me? I was kidding, can someone come get me?  HELP!!!!"
+RULE PlayerIncapC7m3Manager CRITERIA ConceptPlayerIncapacitated IsNotCoughing  IsManager IsTalk IsTalkManager ismapc7m3_port SaidC7M3BridgeLeap IsNotSaidC7M3ManagerDownFinal RESPONSE PlayerIncapC7m3Manager
+RESPONSE SurvivorPickupAdrenalineManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupAdrenalineManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupAdrenalineManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupAdrenalineManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupAdrenalineManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpAdrenaline IsNotSpeaking IsInSafeSpot IsNotInStartArea IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupAdrenalineManager
+RESPONSE SurvivorPickupAdrenalineAlwaysManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupAdrenalineAlwaysManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupAdrenalineAlwaysManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupAdrenalineAlwaysManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupAdrenalineAlwaysManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpAdrenaline IsNotSpeaking IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupAdrenalineAlwaysManager
+RESPONSE SurvivorPickupbaseball_batManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupbaseball_batManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupbaseball_batManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupbaseball_batManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupbaseball_batManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpbaseball_bat IsNotSpeaking  ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupbaseball_batManager
+RESPONSE SurvivorPickupchainsawManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupchainsawManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupchainsawManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupchainsawManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupchainsawManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpchainsaw IsNotSpeaking  ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupchainsawManager
+RESPONSE SurvivorPickupcricket_batManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupcricket_batManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupcricket_batManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupcricket_batManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupcricket_batManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpcricket_bat IsNotSpeaking  ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupcricket_batManager
+RESPONSE SurvivorPickupCricketBatManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupCricketBatManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupCricketBatManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupCricketBatManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupCricketBatManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpcricket_bat IsNotSpeaking  ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupCricketBatManager
+RESPONSE SurvivorPickupCrowBarManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupCrowBarManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupCrowBarManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupCrowBarManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupCrowBarManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpCrowBar  IsNotSpeaking  ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager  IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupCrowBarManager
+RESPONSE SurvivorPickupelectric_guitarManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupelectric_guitarManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupelectric_guitarManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupelectric_guitarManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupelectric_guitarManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpelectric_guitar IsNotSpeaking  ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupelectric_guitarManager
+RESPONSE SurvivorPickupFireAxeManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupFireAxeManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupFireAxeManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupFireAxeManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupFireAxeManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpFireAxe  IsNotSpeaking  ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupFireAxeManager
+RESPONSE SurvivorPickupFryingPanManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupFryingPanManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupFryingPanManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupFryingPanManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupFryingPanManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpFryingPan IsNotSpeaking  ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupFryingPanManager
+RESPONSE SurvivorPickupGrenadeLauncherManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupGrenadeLauncherManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupGrenadeLauncherManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupGrenadeLauncherManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupGrenadeLauncherManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpGrenadeLauncher IsNotSpeaking IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupGrenadeLauncherManager
+RESPONSE SurvivorPickupIncendiaryAmmoManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupIncendiaryAmmoManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupIncendiaryAmmoManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupIncendiaryAmmoManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupIncendiaryAmmoManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpIncendiaryAmmo IsNotSpeaking  ChanceToFire40Percent ManagerNotPickedUpItem IsNotInStartArea IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupIncendiaryAmmoManager
+RESPONSE SurvivorPickupKatanaManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupKatanaManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupKatanaManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupKatanaManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupKatanaManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpKatana IsNotSpeaking  ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupKatanaManager
+RESPONSE SurvivorPickupLaserSightsAlwaysManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupLaserSightsAlwaysManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupLaserSightsAlwaysManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupLaserSightsAlwaysManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupLaserSightsAlwaysManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpLaserSights IsNotSpeaking ChanceToFire50Percent ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupLaserSightsAlwaysManager
+RESPONSE SurvivorPickupMacheteManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupMacheteManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupMacheteManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupMacheteManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupMacheteManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpMachete IsNotSpeaking  ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupMacheteManager
+RESPONSE SurvivorPickupMagnumManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupMagnumManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupMagnumManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupMagnumManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupMagnumManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpMagnum IsNotSpeaking IsInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsNotInStartArea IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupMagnumManager
+RESPONSE SurvivorPickupMagnumAlwaysManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupMagnumAlwaysManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupMagnumAlwaysManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupMagnumAlwaysManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupMagnumAlwaysManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpMagnum IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupMagnumAlwaysManager
+RESPONSE SurvivorPickuptonfaManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickuptonfaManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickuptonfaManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickuptonfaManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickuptonfaManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUptonfa IsNotSpeaking  ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickuptonfaManager
+RESPONSE SurvivorPickupGolfClubManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupGolfClubManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupGolfClubManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupGolfClubManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupGolfClubManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpGolfClub IsNotSpeaking  ManagerNotPickedUpItem IsTalk IsTalkManager IsWorldTalkManager IsNotInStartArea ChanceToFire30Percent RESPONSE SurvivorPickupGolfClubManager
+RESPONSE SurvivorPickupUpExplosiveAmmoManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupUpExplosiveAmmoManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupUpExplosiveAmmoManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupUpExplosiveAmmoManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupUpExplosiveAmmoManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpExplosiveAmmo IsNotSpeaking  IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupUpExplosiveAmmoManager
+RESPONSE SurvivorPickupUpExplosivesManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupUpExplosivesManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupUpExplosivesManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupUpExplosivesManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupUpExplosivesManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpUpgradePack_Explosive IsNotSpeaking  IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupUpExplosivesManager
+RESPONSE SurvivorPickupUpIncendiaryManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupUpIncendiaryManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupUpIncendiaryManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupUpIncendiaryManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupUpIncendiaryManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpUpgradePack_Incendiary IsNotSpeaking  IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupUpIncendiaryManager
+RESPONSE SurvivorPickupUpIncendiaryAmmoManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupUpIncendiaryAmmoManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupUpIncendiaryAmmoManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupUpIncendiaryAmmoManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupUpIncendiaryAmmoManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpIncendiaryAmmo IsNotSpeaking  IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupUpIncendiaryAmmoManager
+RESPONSE SurvivorPickupVomitJarManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupVomitJarManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupVomitJarManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupVomitJarManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupVomitJarManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpVomitJar IsNotSpeaking IsInSafeSpot IsNotInStartArea IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupVomitJarManager
+RESPONSE SurvivorPickupVomitJarAlwaysManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupVomitJarAlwaysManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupVomitJarAlwaysManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupVomitJarAlwaysManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupVomitJarAlwaysManager CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsManager IsPickedUpVomitJar IsNotSpeaking IsTalk IsTalkManager IsWorldTalkManager ChanceToFire30Percent RESPONSE SurvivorPickupVomitJarAlwaysManager
+RESPONSE PlayerLostCallManager CHARACTER Manager SUBTITLE "Hello?"
+RESPONSE PlayerLostCallManager CHARACTER Manager SUBTITLE "Where is everyone?"
+RESPONSE PlayerLostCallManager CHARACTER Manager SUBTITLE "Is anyone there?"
+RESPONSE PlayerLostCallManager CHARACTER Manager SUBTITLE "Where'd everyone get to?"
+RESPONSE PlayerLostCallManager CHARACTER Manager SUBTITLE "Can anyone hear me?"
+RULE PlayerLostCallManager CRITERIA ConceptTalkIdle IsManager IsClosestSurvivorFar3000 IsNotSaidPlayerLostCall _auto_NotNoLostCall IsNotSpeakingWeight0 RESPONSE PlayerLostCallManager
+RESPONSE SurvivorSpottedChainsawManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedChainsawManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedChainsawManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsChainsaw IsWorldTalkManager RESPONSE SurvivorSpottedChainsawManager
+RESPONSE SurvivorSpottedChainsawAutoManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedChainsawAutoManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedChainsawAutoManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedChainsawAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsChainsaw IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedChainsawAutoManager
+RESPONSE SurvivorSpottedcricket_batManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedcricket_batManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedcricket_batManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto Iscricket_bat IsWorldTalkManager RESPONSE SurvivorSpottedcricket_batManager
+RESPONSE SurvivorSpottedcricket_batAutoManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcricket_batAutoManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedcricket_batAutoManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedcricket_batAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot Iscricket_bat IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedcricket_batAutoManager
+RESPONSE SurvivorSpottedcrowbarManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedcrowbarManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedcrowbarManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto Iscrowbar IsWorldTalkManager RESPONSE SurvivorSpottedcrowbarManager
+RESPONSE SurvivorSpottedcrowbarAutoManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedcrowbarAutoManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedcrowbarAutoManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedcrowbarAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot Iscrowbar IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedcrowbarAutoManager
+RESPONSE SurvivorSpottedGuitarManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedGuitarManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedGuitarManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsGuitar IsWorldTalkManager RESPONSE SurvivorSpottedGuitarManager
+RESPONSE SurvivorSpottedGuitarAutoManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGuitarAutoManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedGuitarAutoManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedGuitarAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsGuitar IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGuitarAutoManager
+RESPONSE SurvivorSpottedKatanaManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedKatanaManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedKatanaManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsKatana IsWorldTalkManager RESPONSE SurvivorSpottedKatanaManager
+RESPONSE SurvivorSpottedKatanaAutoManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedKatanaAutoManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedKatanaAutoManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedKatanaAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsKatana IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedKatanaAutoManager
+RESPONSE SurvivorSpottedLaserSightsManager CHARACTER Manager SUBTITLE "Look."
+RESPONSE SurvivorSpottedLaserSightsManager CHARACTER Manager SUBTITLE "Look!"
+RESPONSE SurvivorSpottedLaserSightsManager CHARACTER Manager SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedLaserSightsManager CHARACTER Manager SUBTITLE "Look at this."
+RULE SurvivorSpottedLaserSightsManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsLaserSights IsWorldTalkManager RESPONSE SurvivorSpottedLaserSightsManager
+RESPONSE SurvivorSpottedLaserSightsAutoManager CHARACTER Manager SUBTITLE "Look."
+RESPONSE SurvivorSpottedLaserSightsAutoManager CHARACTER Manager SUBTITLE "Look!"
+RESPONSE SurvivorSpottedLaserSightsAutoManager CHARACTER Manager SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedLaserSightsAutoManager CHARACTER Manager SUBTITLE "Look at this."
+RULE SurvivorSpottedLaserSightsAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsLaserSights IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedLaserSightsAutoManager
+RESPONSE SurvivorSpottedMacheteManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedMacheteManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedMacheteManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsMachete IsWorldTalkManager RESPONSE SurvivorSpottedMacheteManager
+RESPONSE SurvivorSpottedMacheteAutoManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMacheteAutoManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedMacheteAutoManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedMacheteAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsMachete IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedMacheteAutoManager
+RESPONSE SurvivorSpottedMagnumManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedMagnumManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedMagnumManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsMagnum IsWorldTalkManager RESPONSE SurvivorSpottedMagnumManager
+RESPONSE SurvivorSpottedMagnumAutoManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedMagnumAutoManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedMagnumAutoManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedMagnumAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsMagnum IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedMagnumAutoManager
+RESPONSE SurvivorSpottedtonfaManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedtonfaManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedtonfaManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto Istonfa IsWorldTalkManager RESPONSE SurvivorSpottedtonfaManager
+RESPONSE SurvivorSpottedtonfaAutoManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedtonfaAutoManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedtonfaAutoManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedtonfaAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot Istonfa IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedtonfaAutoManager
+RESPONSE SurvivorSpottedGolfClubManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGolfClubManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedGolfClubManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedGolfClubManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsGolfClub IsWorldTalkManager IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGolfClubManager
+RESPONSE SurvivorSpottedGolfClubAutoManager CHARACTER Manager SUBTITLE "Weapons here!"
+RESPONSE SurvivorSpottedGolfClubAutoManager CHARACTER Manager SUBTITLE "Weapons over here!"
+RESPONSE SurvivorSpottedGolfClubAutoManager CHARACTER Manager SUBTITLE "Weapons!"
+RULE SurvivorSpottedGolfClubAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsGolfClub IsWorldTalkManager RESPONSE SurvivorSpottedGolfClubAutoManager
+RULE SurvivorSpottedAutoShotgunManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsAutoShotgun IsWorldTalkManager RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedAutoShotgunAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsAutoShotgun IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedHuntingRifleManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsHuntingRifle IsWorldTalkManager RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedHuntingRifleAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsHuntingRifle IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedPumpShotgunManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsPumpShotgun IsWorldTalkManager RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedRifleManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsRifle IsWorldTalkManager RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedRifle_AK47Manager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsRifle_AK47 IsWorldTalkManager RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedRifle_AK47AutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsRifle_AK47 IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedRifleAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsRifle IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedSecondPistolManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsSecondPistol IsWorldTalkManager RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedShotgun_ChromeManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsShotgun_Chrome IsWorldTalkManager RESPONSE SurvivorSpottedWeaponManager
+RULE SurvivorSpottedSMGManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsSMG IsWorldTalkManager RESPONSE SurvivorSpottedWeaponManager
+RESPONSE SurvivorSpottedDefibrillatorManager CHARACTER Manager SUBTITLE "Look."
+RESPONSE SurvivorSpottedDefibrillatorManager CHARACTER Manager SUBTITLE "Look!"
+RESPONSE SurvivorSpottedDefibrillatorManager CHARACTER Manager SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedDefibrillatorManager CHARACTER Manager SUBTITLE "Look at this."
+RULE SurvivorSpottedDefibrillatorManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsNotSmartLookAuto IsDefibrillator IsWorldTalkManager RESPONSE SurvivorSpottedDefibrillatorManager
+RESPONSE SurvivorSpottedDefibrillatorAutoManager CHARACTER Manager SUBTITLE "Look."
+RESPONSE SurvivorSpottedDefibrillatorAutoManager CHARACTER Manager SUBTITLE "Look!"
+RESPONSE SurvivorSpottedDefibrillatorAutoManager CHARACTER Manager SUBTITLE "Check this out."
+RESPONSE SurvivorSpottedDefibrillatorAutoManager CHARACTER Manager SUBTITLE "Look at this."
+RULE SurvivorSpottedDefibrillatorAutoManager CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsManager IsTalk IsTalkManager IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidDefibrillator IsNotSaidSpot IsDefibrillator IsWorldTalkManager _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedDefibrillatorAutoManager
+RESPONSE SurvivorPickupDefibrillatorManager CHARACTER Manager SUBTITLE "Oh, Cool"
+RESPONSE SurvivorPickupDefibrillatorManager CHARACTER Manager SUBTITLE "Allright."
+RESPONSE SurvivorPickupDefibrillatorManager CHARACTER Manager SUBTITLE "Okay."
+RESPONSE SurvivorPickupDefibrillatorManager CHARACTER Manager SUBTITLE "Cool"
+RULE SurvivorPickupDefibrillatorManager CRITERIA ConceptPlayerPickup IsNotCoughing IsManager IsPickedUpDefibrillator IsNotSpeaking IsTalk IsTalkManager IsWorldTalkManager RESPONSE SurvivorPickupDefibrillatorManager
+
+
+

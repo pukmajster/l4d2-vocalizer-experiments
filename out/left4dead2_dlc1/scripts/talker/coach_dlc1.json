@@ -1,0 +1,531 @@
+{
+  "Coach": {
+    "L4D1PlayerNiceShotCoach": [
+      "Nice shot..",
+      "Good one!"
+    ],
+    "L4D1PlayerNiceShotFrancisCoach": [
+      "Thanks Francis!",
+      "Nice shot Francis!"
+    ],
+    "L4D1PlayerNiceShotLouisCoach": [
+      "Louis in the house!"
+    ],
+    "L4D1PlayerNiceShotZoeyCoach": [
+      "Go Zoey!",
+      "Keep it up Zoey!",
+      "All right girl."
+    ],
+    "C6M3GasPourCoach": [
+      "Filling the generator.",
+      "Pouring a can.",
+      "Got a can.",
+      "I got this can."
+    ],
+    "C6M1_IntotheparkNoHealthCoach": [
+      "Don't run off without a health kit.",
+      "Grab a health kit.",
+      "Everyone grab a health kit.",
+      "Health kits everyone!"
+    ],
+    "C6M1Intro_01TeenGirl04Coach": [
+      "Hey, hello there! You wanna let the bridge down for us?"
+    ],
+    "C6M1Intro_04bCoach": [
+      "Y'all can't climb down there and save us a trip?"
+    ],
+    "C6M1Intro_08aCoach": [
+      "Got it. We'll holla back at you when we get there."
+    ],
+    "C6M1Intro_13bCoach": [
+      "You been killin' zombies for the better part of 2 days boy you can talk to a girl."
+    ],
+    "C6M1Intro_13eCoach": [
+      "Okay, the boy says thank you."
+    ],
+    "C6M1Intro_21aCoach": [
+      "(to group) Tell me this boy ain't for real."
+    ],
+    "C6M1Intro_21bCoach": [
+      "No. Can you lower the bridge?"
+    ],
+    "C6M1Intro_21dCoach": [
+      "Shit, okay. Yes, we are vampires? All of us are vampires?"
+    ],
+    "C6M1Intro_21gCoach": [
+      "Dear lord, why'd I ever leave Savannah."
+    ],
+    "C6M1TakeSubMachineGun01Coach": [
+      "Nick, you gotta pull yourself together."
+    ],
+    "WorldC6M1_HistoricTourCoach": [
+      "Historic Under-the-River Tour! This could be pretty interesting!",
+      "Let's all try this under-the-river tour to get across.",
+      "Sign says there's an under-the-river tour, that'll get us across."
+    ],
+    "WorldC6M1_PostWedding01aCoach": [
+      "No Ellis.",
+      "Got to keep your head on killin' zombies, Ellis."
+    ],
+    "WorldC6M1_WeddingWarn03aCoach": [
+      "Come on, Nick, not the time."
+    ],
+    "WorldC6M1_WeddingWarn04aCoach": [
+      "Man, I hope we don't see a tank in a tuxedo."
+    ],
+    "C6M2_OpenGate1Coach": [
+      "I opened it.",
+      "Open, let's go!",
+      "I hit it!",
+      "Come on people, don't stand around, let's go!"
+    ],
+    "C6M2_OpenGate2Coach": [
+      "Open, let's go!",
+      "That is some slow ass shit."
+    ],
+    "DLC1_C6M2_SafeRoomConvo01aCoach": [
+      "Nick. Son. I think we got bigger problems."
+    ],
+    "DLC1_C6M2_SafeRoomConvo05Coach": [
+      "City of Rayford! They used to have a boiled peanut festival here. Good memories."
+    ],
+    "DLC1_C6M2_SafeRoomConvo09aCoach": [
+      "Oh, come on, you aren't afraid of a little dirt are you?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo11Coach": [
+      "I heard all about this under-the-river tour, supposed to be pretty damn good. Real educational."
+    ],
+    "DLC1_C6M2_SafeRoomConvo12Coach": [
+      "Nick, tell me you ain't looking forward to this under-the-river tour."
+    ],
+    "DLC1_C6M2_SafeRoomConvo12bCoach": [
+      "You damn right. Under a river."
+    ],
+    "DLC1_C6M2_SafeRoomConvo12dCoach": [
+      "Uh, historical shit. Man, how am I supposed to know? I ain't been there yet."
+    ],
+    "DLC1_C6M2_SafeRoomConvo13bCoach": [
+      "Man, Nick you got a find a way to cheer your ass up. We ain't got much to look forward to."
+    ],
+    "DLC1_C6M2_SafeRoomConvo13dCoach": [
+      "There you go Nick. Stay positive.",
+      "There you go Nick. Stay positive. Maybe you'll knock all his teeth out."
+    ],
+    "DLC1_C6M2_SafeRoomConvo14dCoach": [
+      "Oh. In my heart, I'm there already."
+    ],
+    "DLC1_C6M2_SafeRoomConvo15bCoach": [
+      "Man, I keep hoping we find an open burger tank."
+    ],
+    "DLC1_C6M2_SafeRoomConvo16a1Coach": [
+      "Ellis, you do know that eventually we're gonna have to leave that car behind. Right?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo16eCoach": [
+      "Boy, the Military ain't exactly going to strap it to the bottom of a helicopter."
+    ],
+    "DLC1_C6M2_SafeRoomConvo18cCoach": [
+      "Girl! What are you doing?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo18eCoach": [
+      "Listen, if you let your guard down for one minute\u0085 we all pay the price."
+    ],
+    "DLC1_C6M2_SafeRoomConvo19Coach": [
+      "Man, I just realized with all this runnin', climbin' and fightin', I ain't even had time to eat.",
+      "All this runnin' we been doing? I bet I lost, what, five pounds."
+    ],
+    "DLC1_C6M2_SafeRoomConvo19bCoach": [
+      "[happily] I bet I'm losin' some serious weight! [laughs proudly] Two more days, I'll be takin' my BELT in a notch."
+    ],
+    "DLC1_C6M2_SafeRoomConvo19dCoach": [
+      "Man, I forgot about that."
+    ],
+    "WorldC6M2_InSewer101aCoach": [
+      "Nick my man, face it. We are walkin' through shit."
+    ],
+    "WorldC6M2_InSewer102aCoach": [
+      "Hey Nick, try and keep your head above water.",
+      "Don't trip, Nick. [laughs]",
+      "Gotta keep your head above water, man.[laughs]",
+      "Nick, if I give you a piggy back ride, will you shut up about the sewer?"
+    ],
+    "WorldC6M2_InSewer202aCoach": [
+      "Oh, Jesus! Ellis!"
+    ],
+    "WorldC6M2_InSewerLadder101aCoach": [
+      "Oh, come on! Jesus! Ellis!"
+    ],
+    "WorldC6M2_OnTourWalk101cCoach": [
+      "Yeah. It's a shithole."
+    ],
+    "WorldC6M2_OnTourWalk103aCoach": [
+      "Aw, shut up, Nick"
+    ],
+    "WorldC6M2_Tattoo02b>Coach": [
+      "Shit, it's allll south of the border.",
+      "Coach's got a lot of real estate.",
+      "Hey, Coach keeps his secrets."
+    ],
+    "C6M3_BridgeDownCoach": [
+      "Bridge here, let's go!",
+      "Get to the car!",
+      "Bridge is down, let's go!",
+      "GET TO THE CAR!",
+      "GET TO THE CAR, PEOPLE!"
+    ],
+    "C6M3_BridgeGettoCarCoach": [
+      "Bridge here, let's go!",
+      "Get to the car!",
+      "Bridge is down, let's go!",
+      "GET TO THE CAR!",
+      "GET TO THE CAR, PEOPLE!"
+    ],
+    "C6M3_elevatorCoach": [
+      "No messin' around let's get these cans.",
+      "We do this and get back to the car.",
+      "Let's fill that generator and then get back to the car.",
+      "Alright, look, no messin' around let's get these cans."
+    ],
+    "C6M3_elevatorZoeyCoach": [
+      "Ellis. Keep your mind on the cans not the girl."
+    ],
+    "C6M3_GivenItemBikerCoach": [
+      "Thanks for sharing!",
+      "Thanks my man.",
+      "Man, you guys are all right.",
+      "We owe you one."
+    ],
+    "C6M3_GivenItemTeenGirlCoach": [
+      "Hey, thanks for the supplies.",
+      "We owe you one.",
+      "Thanks for sharing!",
+      "You guys are all right.",
+      "Thanks for the supplies."
+    ],
+    "DLC1_C6M3_SafeRoomConvo02eCoach": [
+      "Sometimes you just gotta have faith, Nick."
+    ],
+    "DLC1_C6M3_SafeRoomConvo03Coach": [
+      "Ellis. It's showtime, buddy."
+    ],
+    "DLC1_C6M3_SafeRoomConvo04Coach": [
+      "Ellis, you ready to meet that Zoey girl again?",
+      "Hey, Ellis, you ready to meet that Zoey girl again? [laughs]"
+    ],
+    "DLC1_C6M3_SafeRoomConvo08Coach": [
+      "I don't trust that biker. He's probably long gone by now."
+    ],
+    "DLC1_C6M3_SafeRoomConvo08bCoach": [
+      "Minute we left, bet ya he stole the Jimmy Gibbs Jr."
+    ],
+    "C6M3_CansDoneCoach": [
+      "Let's get to the car!"
+    ],
+    "L4D1AlsoSpottedTankCoach": [
+      "Lead 'em back to the bridge!",
+      "Lead the tanks back to the bridge!",
+      "Two tanks!",
+      "Shit! Two tanks!"
+    ],
+    "L4D1SpottedTankCoach": [
+      "Lead 'em back to the bridge!",
+      "Lead the tanks back to the bridge!",
+      "Two tanks!",
+      "Shit! Two tanks!"
+    ],
+    "SurvivorSpottedFallenCoach": [
+      "Get that zombie!",
+      "Kill that zombie, it's got something.",
+      "Take that zombie out!"
+    ],
+    "PlayerWitchChasingC6M1Coach": [
+      "Bride's chasing me!",
+      "Ugly brides chasing me! Brides chasing me!",
+      "Kill the bride! Kill the bride!"
+    ],
+    "PlayerRemarkremark_MidnightRidersBusCoach": [
+      "Man, I think I just saw... nah.",
+      "I must be dreaming.",
+      "I think I just saw... nah."
+    ],
+    "PlayerRemarkWorldC6M1_AcrossHereCoach": [
+      "Get your ass across the walk-way."
+    ],
+    "PlayerRemarkWorldC6M1_AlleyBelowCoach": [
+      "Down this alley.",
+      "We need to get up there.",
+      "We have to get into this building.",
+      "Let's all get up there.",
+      "Down here."
+    ],
+    "PlayerRemarkWorldC6M1_AlleyIntoBuildingCoach": [
+      "Into these apartments.",
+      "Across the walk-way.",
+      "Y'all get in there."
+    ],
+    "PlayerRemarkWorldC6M1_InAptsCoach": [
+      "In here.",
+      "Get in there.",
+      "Search these rooms for supplies.",
+      "We're goin' this way.."
+    ],
+    "PlayerRemarkWorldC6M1_IntoTheStoreCoach": [
+      "Through this store.",
+      "Guns in the store.",
+      "Let's get in the store."
+    ],
+    "PlayerRemarkWorldC6M1_PostWeddingCoach": [
+      "Check those tents."
+    ],
+    "PlayerRemarkWorldC6M1_SafeRoomAlleyCoach": [
+      "Behind this bus.",
+      "Safe room back here!"
+    ],
+    "PlayerRemarkWorldC6M1_ThroughBarCoach": [
+      "Through here!",
+      "Through here.",
+      "Let's go through here."
+    ],
+    "PlayerRemarkWorldC6M1_UpHereCoach": [
+      "Back this way.",
+      "Up here."
+    ],
+    "PlayerRemarkWorldC6M1_UpTheStairsCoach": [
+      "Go upstairs.",
+      "Let's try upstairs."
+    ],
+    "PlayerRemarkWorldC6M1_UpTheStairs2Coach": [
+      "Up the stairs."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarnCoach": [
+      "Damn. This here wedding didn't end well.",
+      "Look, uh, anyone see the wedding cake?",
+      "Anyone see the wedding cake?",
+      "Bride. Wedding. Gotta be cake around here somewhere.",
+      "Shhh.. does anyone see the wedding cake."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarn1Coach": [
+      "Damn. This here wedding didn't end well.",
+      "Look, uh, anyone see the wedding cake?",
+      "Anyone see the wedding cake?",
+      "Bride. Wedding. Gotta be cake around here somewhere.",
+      "Shhh.. does anyone see the wedding cake."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarn2Coach": [
+      "Damn. This here wedding didn't end well.",
+      "Look, uh, anyone see the wedding cake?",
+      "Anyone see the wedding cake?",
+      "Bride. Wedding. Gotta be cake around here somewhere.",
+      "Shhh.. does anyone see the wedding cake."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarn3Coach": [
+      "Damn. This here wedding didn't end well.",
+      "Look, uh, anyone see the wedding cake?",
+      "Anyone see the wedding cake?",
+      "Bride. Wedding. Gotta be cake around here somewhere.",
+      "Shhh.. does anyone see the wedding cake."
+    ],
+    "PlayerRemarkWorldC6M2_AcrossPlankCoach": [
+      "Over this plank.",
+      "Hurry up and get your asses over this plank.",
+      "Oh shit, do not look down.",
+      "Easy now, don't be playin' on this board."
+    ],
+    "PlayerRemarkWorldC6M2_AfterGate1Coach": [
+      "Don't stop people!",
+      "Alright, let's keep moving. Unless Nick wants to stop and take a bath"
+    ],
+    "PlayerRemarkWorldC6M2_AfterGate2Coach": [
+      "There's gotta be a ladder here somewhere.",
+      "Let's find ourselves a ladder.",
+      "Holla if you see a ladder.",
+      "We need to get on the catwalks.",
+      "We need to get out of this shit.",
+      "Keep running, that alarm ain't goin' off.",
+      "That alarm is gonna keep goin'!"
+    ],
+    "PlayerRemarkWorldC6M2_DownHereCoach": [
+      "Down here.",
+      "We can get down here!"
+    ],
+    "PlayerRemarkWorldC6M2_DownIntoBuildingCoach": [
+      "Through this building.",
+      "In here.",
+      "Down these stairs.",
+      "Get in there.",
+      "Everyone get in there."
+    ],
+    "PlayerRemarkWorldC6M2_FinalLadderCoach": [
+      "Come on, let's get out of this sewer!",
+      "A ladder!",
+      "Up that ladder!"
+    ],
+    "PlayerRemarkWorldC6M2_FinalWaterCoach": [
+      "Back in the water.",
+      "Back in the water!",
+      "Ah hell, more water.",
+      "Ah hell, back in the water!"
+    ],
+    "PlayerRemarkWorldC6M2_FinalWaterGoGoCoach": [
+      "Don't stop people!",
+      "KEEP MOVING!"
+    ],
+    "PlayerRemarkWorldC6M2_InJazzClubCoach": [
+      "Into the Jazz Club.",
+      "Tour's in the Jazz Club."
+    ],
+    "PlayerRemarkWorldC6M2_InSewer1Coach": [
+      "Come on now, let's just get through this shit."
+    ],
+    "PlayerRemarkWorldC6M2_InSewerLadder1Coach": [
+      "Let's get out of the water.",
+      "Everybody up there!",
+      "All right, out of the water.",
+      "Everyone up there!"
+    ],
+    "PlayerRemarkWorldC6M2_IntoConstructionCoach": [
+      "Let's get down there.",
+      "Down by the pipe."
+    ],
+    "PlayerRemarkWorldC6M2_IntoPoolHallCoach": [
+      "Into the pool hall.",
+      "Get into the pool hall.",
+      "Go through these windows."
+    ],
+    "PlayerRemarkWorldC6M2_JukeBoxCoach": [
+      "This jukebox is all right.",
+      "Oh shit, this thing is still on!"
+    ],
+    "PlayerRemarkWorldC6M2_JumpDownCoach": [
+      "Together people.",
+      "Don't get left behind."
+    ],
+    "PlayerRemarkWorldC6M2_OnTourWalk1Coach": [
+      "Man, this is a real...",
+      "Man, LOOK at all this, uh... uh... Aw, this tour is bullshit.",
+      "Man, LOOK at all this, uh... uh... Aw, man, this tour is bullshit.",
+      "Shit, they must have locked up all the history to keep it safe."
+    ],
+    "PlayerRemarkWorldC6M2_OnTourWalk2Coach": [
+      "Keep to the walkway.",
+      "Follow the walkway."
+    ],
+    "PlayerRemarkWorldC6M2_OpenGate1Coach": [
+      "This here door is going to sound when we open it.",
+      "You know this shit's going to get loud.",
+      "Let's get ready before we open that door.",
+      "Shit, we gotta hit that button.",
+      "This looks like the only way."
+    ],
+    "PlayerRemarkWorldC6M2_OpenGate2Coach": [
+      "Second time better be the charm.",
+      "Oh damn, another one of these things?",
+      "Ellis, don't break it this time."
+    ],
+    "PlayerRemarkWorldC6M2_Phase2Coach": [
+      "Tour's over? Shit.",
+      "Tour's over? Bullshit.",
+      "Phase two my ass.",
+      "Phase two coming in 2010? Shit phase one ain't done."
+    ],
+    "PlayerRemarkWorldC6M2_Phase2DownCoach": [
+      "Down the stairs."
+    ],
+    "PlayerRemarkWorldC6M2_Phase2DownIntenseCoach": [
+      "Get your asses down the stairs!",
+      "Come on, y'all, haul ass down the stairs!",
+      "Haul ass down the stairs!",
+      "DOWN DOWN DOWN!"
+    ],
+    "PlayerRemarkWorldC6M2_PostGate1xCoach": [
+      "Damn, back in water people.",
+      "Let's just get this over with.",
+      "Can't stay up here all day y'all.",
+      "One more time!"
+    ],
+    "PlayerRemarkWorldC6M2_SafeRoomCoach": [
+      "Saferoom and it's dry!",
+      "Man, that bridge's gotta be close!"
+    ],
+    "PlayerRemarkWorldC6M2_SuitcaseCoach": [
+      "[singing] \"...a suitcase full of pistols and MON-NAY!\""
+    ],
+    "PlayerRemarkWorldC6M2_TattooC&RCoach": [
+      "I got that one, that one-hell, I got most of these."
+    ],
+    "PlayerRemarkWorldC6M2_TourEntranceCoach": [
+      "Here we go, under the river."
+    ],
+    "PlayerRemarkWorldC6M2_UpCatWalkCoach": [
+      "A ladder!",
+      "Ladder!",
+      "Thank you Jesus, a ladder!"
+    ],
+    "PlayerRemarkWorldC6M2_UpStairsCoach": [
+      "Up the stairs.",
+      "Let's get up to that street."
+    ],
+    "PlayerRemarkWorldC6M2_UpStairs2Coach": [
+      "Go upstairs.",
+      "Let's try upstairs."
+    ],
+    "PlayerRemarkWorldC6M3_BridgeRunCoach": [
+      "Come on people, GET TO THE CAR! GET TO THE CAR!",
+      "We gotta run, GO!"
+    ],
+    "PlayerRemarkWorldC6M3_ByBridgeCoach": [
+      "You three keep safe.",
+      "We owe you.",
+      "You good? See y'all!",
+      "Well alright.  We're gonna remember y'all."
+    ],
+    "PlayerRemarkWorldFootLockerCoach": [
+      "Open up the locker.",
+      "Open the bitch up.",
+      "Search the lockers."
+    ],
+    "SurvivorPickupGolfCLubCoach": [
+      "Grabbing a club.",
+      "Grabbing a driver."
+    ],
+    "SurvivorPickupM60Coach": [
+      "Grabbing the big gun.",
+      "Grabbing the machine gun.",
+      "Shit, this is heavy.",
+      "This some goddamn firepower.",
+      "Grabbing the gun."
+    ],
+    "HistoricTour02aCoach": [
+      "Yeah, it's historic.",
+      "I don't know, goes under the river."
+    ],
+    "WeddingWitchDead01Coach": [
+      "You got problems boy. Deep down problems."
+    ],
+    "WeddingWitchDead02Coach": [
+      "Yeah, that shit was creeping me out."
+    ],
+    "SurvivorSpottedGolfClubCoach": [
+      "Driver here.",
+      "Golf club!"
+    ],
+    "SurvivorSpottedGolfClubAutoCoach": [
+      "Driver here.",
+      "Golf club!"
+    ],
+    "SurvivorSpottedM60Coach": [
+      "Big gun!",
+      "Here's a big gun!"
+    ],
+    "SurvivorSpottedM60AutoCoach": [
+      "Big gun!",
+      "Here's a big gun!"
+    ]
+  },
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {},
+  "NamVet": {},
+  "Manager": {},
+  "Biker": {}
+}

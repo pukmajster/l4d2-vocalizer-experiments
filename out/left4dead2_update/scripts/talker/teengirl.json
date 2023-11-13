@@ -1,0 +1,2726 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {
+    "C6M3PlayerNiceShotTeenGirl": [
+      "Good one!",
+      "Killer shot!",
+      "Boom! Nice.",
+      "Great shot!",
+      "Nice shot!",
+      "Nice!",
+      "Sweet shot!"
+    ],
+    "PlayerNiceShotNamVetTeenGirl": [
+      "Nice shot, old man."
+    ],
+    "L4D1ReviveMeInterruptedMinorTeenGirl": [
+      "[pain noise - short minor pain]"
+    ],
+    "L4D1ReviveMeInterruptedMajorTeenGirl": [
+      "[pain noise - ahh]",
+      "[pain noise - huh]",
+      "[pain noise - oy]",
+      "[pain noise - ugh]"
+    ],
+    "L4D1ReviveMeInterruptedCriticalTeenGirl": [
+      "[pain noise - loud major pain]"
+    ],
+    "L4D1SurvivorMournBillTeenGirl": [
+      "I ah oh Bill!!!!",
+      "Oh god.  Not Bill!",
+      "Ahh Bill!!!!",
+      "Bill!!!!",
+      "Oh god.  Bill!",
+      "Bill!! No!!"
+    ],
+    "L4D1SurvivorMournFrancisTeenGirl": [
+      "Francis!",
+      "Francis!  NOOOO!",
+      "God, not Francis",
+      "oh god, not Francis"
+    ],
+    "L4D1SurvivorMournLouisTeenGirl": [
+      "Louis!",
+      "Oh no, not Louis!",
+      "Louis, oh god I'm going to miss you.",
+      "Oh Louis, oh god I can't believe it."
+    ],
+    "PlayerRelaxedSighTeenGirl": [
+      "Ahhh"
+    ],
+    "PlayerUseAdrenalineTeenGirl": [
+      "Ahhh"
+    ],
+    "L4D1ThanksGotItemTeenGirl": [
+      "You are a charming beautiful man.",
+      "You are beautiful, sexy and charming. Thank you.",
+      "Thanks",
+      "Thanks!",
+      "Hey, thanks!",
+      "Thanks, man"
+    ],
+    "L4D1RescuedSurvivorTeenGirl": [
+      "Hello!",
+      "Hey, I'm here.",
+      "I'm here!"
+    ],
+    "PlayerGivenItemTeenGirl": [
+      "Thanks, I owe you.",
+      "Thanks!",
+      "Thanks, thanks a lot",
+      "Really, thanks"
+    ],
+    "ItemDonorProducerTeenGirl": [
+      "Thanks, I owe you.",
+      "Thanks!",
+      "Thanks, thanks a lot",
+      "Really, thanks"
+    ],
+    "ItemDonorCoachTeenGirl": [
+      "Thanks, I owe you.",
+      "Thanks!",
+      "Thanks, thanks a lot",
+      "Really, thanks"
+    ],
+    "ItemDonorGamblerTeenGirl": [
+      "Thanks, I owe you.",
+      "Thanks!",
+      "Thanks, thanks a lot",
+      "Really, thanks"
+    ],
+    "ItemDonorMechanicTeenGirl": [
+      "Thanks, I owe you.",
+      "Thanks!",
+      "Thanks, thanks a lot",
+      "Really, thanks"
+    ],
+    "ItemDonorBikerTeenGirl": [
+      "Thanks, I owe you.",
+      "Thanks!",
+      "Thanks, thanks a lot",
+      "Really, thanks"
+    ],
+    "ItemDonorManagerTeenGirl": [
+      "Thanks, I owe you.",
+      "Thanks!",
+      "Thanks, thanks a lot",
+      "Really, thanks"
+    ],
+    "ItemDonorNamVetTeenGirl": [
+      "Thanks, I owe you.",
+      "Thanks!",
+      "Thanks, thanks a lot",
+      "Really, thanks"
+    ],
+    "L4D1HealThanksTeenGirl": [
+      "Thanks, I owe you.",
+      "Thanks!",
+      "Thanks, thanks a lot",
+      "Really, thanks",
+      "Like, thanks",
+      "Phew, thanks!"
+    ],
+    "L4D1ReviveThanksBillTeenGirl": [
+      "Thanks, Bill."
+    ],
+    "L4D1ReviveThanksFrancisTeenGirl": [
+      "Thanks, Francis.",
+      "Thanks for coming back for me"
+    ],
+    "L4D1ReviveThanksLouisTeenGirl": [
+      "Thank you.",
+      "Thanks Louis.",
+      "Thanks, Louis. It's about time you were some help.",
+      "Thanks, Louis.",
+      "Thanks, Louis. I owe you one",
+      "I knew you wouldn't leave me"
+    ],
+    "BotHurrahAlsoTeenGirl": [
+      "Oh hell yeah!",
+      "Hell yeah!",
+      "YEAHHHH!"
+    ],
+    "L4D1AutoYouAreWelcomeTeenGirl": [
+      "You are welcome, sir.",
+      "That's okay.",
+      "Hey, no problem.",
+      "No problem.",
+      "Sure thing.",
+      "ah, whatever.",
+      "We're cool.",
+      "It was my pleasure.",
+      "My pleasure.",
+      "Anytime.",
+      "Yeah, cool.",
+      "Cool",
+      "Don't worry about it.",
+      "You're welcome.",
+      "Sure.",
+      "No worries."
+    ],
+    "L4D1AutoYouAreWelcomeBillTeenGirl": [
+      "Glad to be of help, old man."
+    ],
+    "L4D1AutoYouAreWelcomeLouisTeenGirl": [
+      "Anytihing for you, Louis."
+    ],
+    "L4D1BotAttentionBattleTeenGirl": [
+      "I'm here.",
+      "Let's go.",
+      "I'm with you.",
+      "I got your back.",
+      "I'm right behind you!",
+      "Right behind you!",
+      "Can we get going?",
+      "Let's go",
+      "We should go",
+      "Let's get moving",
+      "We need  to get moving",
+      "I think we should go",
+      "Come on, lets go!",
+      "Come on, come on, lets go!",
+      "We need  to get going guys",
+      "We should probably go",
+      "Let's go, let's go",
+      "You go ahead, I'll follow",
+      "Lead on",
+      "Go ahead I'll follow",
+      "I'll follow behind you",
+      "I'm right behind you.",
+      "You take the lead",
+      "Go ahead",
+      "I'll follow",
+      "I guess I'll follow you"
+    ],
+    "L4D1BotNoteHumanAttentionTeenGirl": [
+      "Ready guys?",
+      "Ready?",
+      "Let's go, you guys ready?",
+      "You ready guys?",
+      "Are you ready for this?",
+      "You guys ready?",
+      "Are you guys ready?",
+      "Everyone ready?",
+      "Are you ready?"
+    ],
+    "L4D1BotPlayer.YourWelcomeTeenGirl": [
+      "You are welcome, sir.",
+      "That's okay.",
+      "Hey, no problem.",
+      "No problem.",
+      "Sure thing.",
+      "ah, whatever.",
+      "We're cool.",
+      "It was my pleasure.",
+      "My pleasure.",
+      "Anytime.",
+      "Yeah, cool.",
+      "Cool",
+      "Don't worry about it.",
+      "You're welcome.",
+      "Sure.",
+      "No worries."
+    ],
+    "L4D1BotReassureComingTeenGirl": [
+      "Yeah.",
+      "Yes.",
+      "Okay.",
+      "Y'allright.",
+      "Yeah, okay",
+      "Yep",
+      "Yeah sure."
+    ],
+    "L4D1BotReassureNearbyTeenGirl": [
+      "I'm here.",
+      "Let's go.",
+      "I'm coming!",
+      "I'm with you.",
+      "I got your back.",
+      "I'm right behind you!",
+      "Coming",
+      "I'll be there.",
+      "I'm there.",
+      "Right behind you!"
+    ],
+    "L4D1BotYesReadyTeenGirl": [
+      "Yeah.",
+      "Yes.",
+      "Okay.",
+      "Y'allright.",
+      "Yeah, okay",
+      "Yep",
+      "Yeah sure."
+    ],
+    "C6M1Intro_01TeenGirl01TeenGirl": [
+      "You need to get to the other side to lower this bridge. Road's clear past that."
+    ],
+    "C6M1Intro_01TeenGirl01GamblerProducerTeenGirl": [
+      "Sorry, I can't lower the bridge."
+    ],
+    "C6M1Intro_01TeenGirl01ProducerTeenGirl": [
+      "Hello down there!"
+    ],
+    "C6M1Intro_01TeenGirl01MechanicProducerTeenGirl": [
+      "and then once you get over here, we can fill up the generator. The generator will make a lot of noise but don't worry Ellis we can cover you from up here. You got all that?"
+    ],
+    "C6M1Intro_01TeenGirl01MechanicTeenGirl": [
+      "Nice car!",
+      "Nice car, dude!"
+    ],
+    "C6M1Intro_01TeenGirl01MechanicCoachTeenGirl": [
+      "Hello down there! Sorry but we can't lower the bridge."
+    ],
+    "C6M1Intro_03aTeenGirl": [
+      "Sorry, can't! We got wounded up here. If you can get to the other side of the bridge, we can help you can get it down."
+    ],
+    "C6M1Intro_04aTeenGirl": [
+      "Generator's out on the other side!"
+    ],
+    "C6M1Intro_04cTeenGirl": [
+      "Sorry, can't! We got wounded up here. If you can get to the other side of the bridge, we can help you can get it down."
+    ],
+    "C6M1Intro_11bTeenGirl": [
+      "Sorry man, no can do. Generators out. Get to the other side of the river and we can help you get it down."
+    ],
+    "C6M1Intro_13dTeenGirl": [
+      "You are going to need to get to the other side of the bridge. We can help you there."
+    ],
+    "C6M1Intro_15bTeenGirl": [
+      "Boohoo hoo, I don't know what to do\u0085 Go to hell Colonel Sanders"
+    ],
+    "C6M1Intro_15dTeenGirl": [
+      "I could shoot you where you stand."
+    ],
+    "C6M1Intro_17aTeenGirl": [
+      "I'm sorry, there really isn't. If you can get to the other side of the river we can help you lower it. But we lost a man and another's hurt, we really can't do it by ourselves."
+    ],
+    "C6M1Intro_17cTeenGirl": [
+      "Sorry, good luck?"
+    ],
+    "C6M1Intro_22bTeenGirl": [
+      "Yeah, I know that feeling."
+    ],
+    "C6M1Intro_22dTeenGirl": [
+      "Sorry can't. We lost a guy and another's injured. If you can find another way over, we can help you get the bridge down."
+    ],
+    "C6M1Intro_22gTeenGirl": [
+      "Good luck."
+    ],
+    "C6M1Intro_23aTeenGirl": [
+      "Not exactly.",
+      "Well... no.",
+      "Umm, no, I can't.",
+      "Umm, no."
+    ],
+    "C6M1Intro_23cTeenGirl": [
+      "Uh, no... Generator is out of gas. If you get over to the other side and fill it up, we can cover you. Best I can offer."
+    ],
+    "C6M3_BridgeDownTeenGirl": [
+      "GO! THE BRIDGE IS DOWN!"
+    ],
+    "c6m3_outroL4D1TeenGirl": [
+      "(10 commandments) Go - proclaim liberty throughout all the lands, and to all the inhabitants thereof!",
+      "(Planet of the apes) You finally really did it. You maniacs! You blew it up! God damn you! God damn you all to hell!",
+      "Remember soylent green is people!",
+      "Y'all come back now!"
+    ],
+    "c6m3_outroL4D101aTeenGirl": [
+      "Yeah, but... it's us three now."
+    ],
+    "c6m3_outroL4D102bTeenGirl": [
+      "Don't worry, they won't be the last."
+    ],
+    "c6m3_outroL4D103aTeenGirl": [
+      "No. It's hard enough out there."
+    ],
+    "c6m3_outroL4D104aTeenGirl": [
+      "Francis, it's nice to see you still have that in you."
+    ],
+    "c6m3_outroL4D105aTeenGirl": [
+      "Where? At the mall?"
+    ],
+    "c6m3_outroL4D107aTeenGirl": [
+      "Yeah, for about 10 minutes."
+    ],
+    "c6m3_outroL4D109aTeenGirl": [
+      "Sure you are Francis, sure you are."
+    ],
+    "c6m3_outroL4D1AllTeenGirl": [
+      "Bye Ellis! Bye Rochelle! Bye Coach! Bye Nick!"
+    ],
+    "c6m3_outroL4D1MechanicTeenGirl": [
+      "I ever tell you about the time my buddy Ellis stole a race car from the mall and drove it over some zombies?"
+    ],
+    "c6m3_outroL4D1MechanicZoeyTeenGirl": [
+      "Ellis! ELLIS!!! Maybe we should have gone with him?",
+      "Ellis! ELLIS!!! Maybe he should have come with us?",
+      "I'm going to miss Ellis.",
+      "Hm. I'm going to miss Ellis."
+    ],
+    "IncapBounce2TeenGirl": [
+      "Stick together!",
+      "Stay together!",
+      "Stay, together! C'mon, guys, let's make an effort",
+      "Can you stay together, guys?"
+    ],
+    "L4D1_NiceJobPourTeenGirl": [
+      "Well done!",
+      "Nice job.",
+      "Nice.",
+      "Good work.",
+      "Nice work."
+    ],
+    "L4D1_AttractPlayerForThrowTeenGirl": [
+      "Here you go!",
+      "Take this!",
+      "Heads up!"
+    ],
+    "L4D1_SurvivorBotTakeThisItemTeenGirl": [
+      "Here, be safe.",
+      "Here, then get your asses to your car.",
+      "Take this, good luck.",
+      "Good luck."
+    ],
+    "WorldC6M3_ByBridge01TeenGirl": [
+      "We got your backs, go!",
+      "Go, go, go! We'll hold them off.",
+      "Go! We'll hold them off."
+    ],
+    "WorldC6M3_ByBridge01EllisTeenGirl": [
+      "Get to your car Ellis!",
+      "Ellis, the car's calling!"
+    ],
+    "C7M1_saferoom02TeenGirl": [
+      "Yeah, or Bill'll leave you behind."
+    ],
+    "C7M1_saferoom09bTeenGirl": [
+      "Whatever.",
+      "Let's just go."
+    ],
+    "C7M1_saferoom10aTeenGirl": [
+      "Whatever, I don't care.",
+      "Sure. Whatever."
+    ],
+    "C7M1_saferoom11TeenGirl": [
+      "Those people still dead?"
+    ],
+    "C7M1_saferoom15aTeenGirl": [
+      "Sure. It's the rest of the world we can just let die."
+    ],
+    "C7M1_saferoom18TeenGirl": [
+      "I'd like to put it to a vote that maybe we shouldn't go rot on an island in the middle of nowhere, and actually, you know, help everybody else fight the zombies?"
+    ],
+    "C7M1_saferoom19aTeenGirl": [
+      "Louis, you of all people should understand."
+    ],
+    "C7M1_saferoom20aTeenGirl": [
+      "How can you be sure?",
+      "Really? How can you be sure?"
+    ],
+    "C7M1_saferoom23TeenGirl": [
+      "Great maybe we can meet some new people and leave them behind."
+    ],
+    "C7M1OpenTankDoorTeenGirl": [
+      "Get ready to fight this tank.",
+      "Door's opening, get ready...",
+      "Cmon, people. Tank's coming!",
+      "I am so dead.",
+      "I cannot believe I am doing this.",
+      "Unbelievable. You guys are the biggest chickenshits."
+    ],
+    "C7M1IntroTeenGirl": [
+      "Francis: Tell Bill I'm ready to go.",
+      "This was your plan, Bill? A train to the Keys? This isn't the keys, Bill. We're nowhere.",
+      "Well--better get moving. Remember, if you fall behind, Bill thinks it's okay to let you die.",
+      "Are you kidding me? This is the middle of nowhere. We left all those people behind for THIS?",
+      "Good thing we left all those people behind so WE could escape, Bill."
+    ],
+    "C7M2_saferoom01TeenGirl": [
+      "I really don't want to hear it."
+    ],
+    "C7M2_saferoom01bTeenGirl": [
+      "Bill, I'm not ready to give up on everything yet."
+    ],
+    "C7M2_saferoom05bTeenGirl": [
+      "Because, Francis... hey, yeah, what the hell, Bill?"
+    ],
+    "C7M2SafeRoomTeenGirl": [
+      "So this is really it? We're gonna run away to some island? \"So long world good luck with all the zombies\"?"
+    ],
+    "Player.WarnMegaMobc7m201TeenGirl": [
+      "Into the chute.",
+      "We need to get into the chute."
+    ],
+    "C7M3_saferoom004bTeenGirl": [
+      "Ohhhh. Boo."
+    ],
+    "C7M3_saferoom005TeenGirl": [
+      "You asked me that last year? It would have been ten zombie movies. Now? Probably a documentary on how to make toilet paper.",
+      "A month ago? I would have picked ten zombie movies. Now? Like, ten documentaries on how to build shelter, catch food and make toilet paper."
+    ],
+    "C7M3_saferoom006cTeenGirl": [
+      "No more human race..."
+    ],
+    "C7M3_saferoom007TeenGirl": [
+      "In most movies they sink."
+    ],
+    "C7M3_saferoom007bTeenGirl": [
+      "I think that means we're safe."
+    ],
+    "C7M3_saferoom016TeenGirl": [
+      "That's the spirit, Louis!"
+    ],
+    "C7M3_saferoom016cTeenGirl": [
+      "I hate putting the lotion in the basket."
+    ],
+    "C7M3BridgeBreaksTeenGirl": [
+      "Crap! That generator stalled!",
+      "Damnit to hell, that generator's out.",
+      "You're kidding me, that generator's out."
+    ],
+    "C7M3FinalPressBikerTeenGirl": [
+      "FRANCIS!",
+      "Francis! You did it!",
+      "Francis! We're safe!"
+    ],
+    "C7M3FinalPressManagerTeenGirl": [
+      "Thanks Louis!",
+      "LOUIS! YOU DID IT! YOU DID IT!",
+      "LOUIS! YOU DID IT!!! YOU DID IT, LOUIS!",
+      "LOOOOOOUUUUIIIIIISSSSS!",
+      "Oh damnit Louis!"
+    ],
+    "C7M3FinalPressNamVetTeenGirl": [
+      "Bill! No!!",
+      "BIIILLLLL!!!",
+      "Ah shit Bill, you didn't have to do that.",
+      "Bill, you did it! We're safe!",
+      "Bill you saved us!",
+      "We won't forget you Bill!",
+      "I'm sorry Bill.  I love you!",
+      "Ahh Bill, I love you old man.",
+      "Bill, bill, bill, bill.",
+      "Bill, you did it! You did it!",
+      "Bill, you did it! We're safe! We're... safe."
+    ],
+    "C7M3GeneratorPress01TeenGirl": [
+      "These generators must be setup to power the bridge.",
+      "We need to power these three generators to raise the bridge!",
+      "Starting these generators is going to alert the horde.",
+      "I just know starting these generators isn't going to be quiet."
+    ],
+    "C7M3GeneratorPress02TeenGirl": [
+      "Let's get ready before we hit it."
+    ],
+    "C7M3GeneratorPress03TeenGirl": [
+      "Last generator.",
+      "This is it, get ready."
+    ],
+    "C7M3PlayerGetToRescueVehicleTeenGirl": [
+      "The bridge is ready, let's go!",
+      "We did it! Get to the bridge!"
+    ],
+    "C7M3PlayerGetToRescueVehicleLouisTeenGirl": [
+      "Way to start that generator Louis?",
+      "How did starting that generator feel Louis?"
+    ],
+    "C7M3PlayerIsOnRescueVehicleNagTeenGirl": [
+      "Get to the bridge!"
+    ],
+    "C7M3PlayerRaiseBridgeNagTeenGirl": [
+      "Let's raise the bridge!",
+      "We gotta hit at button and raise the bridge.",
+      "Once this bridge is up, we're safe!"
+    ],
+    "C7M3BridgeButtonSpeakTeenGirl": [
+      "Got it!",
+      "Thank god, we're almost outta here!",
+      "This is all going to be over soon.",
+      "Almost there. Almost there.",
+      "Come on, come on, come ON! Come on, god dammit, come ON!"
+    ],
+    "C7M3WaveOverGen1TeenGirl": [
+      "Done! To the next generator.",
+      "Let's go, we have more generators."
+    ],
+    "C7M3WaveOverGen2TeenGirl": [
+      "This one is done, let's go!",
+      "One more!",
+      "We're almost out here! One more generator!"
+    ],
+    "HowitzerBurnEnd00TeenGirl": [
+      "The fire's out!",
+      "Barricade's down!"
+    ],
+    "HowitzerBurnEnd01TeenGirl": [
+      "Everybody across the bridge!"
+    ],
+    "L4D1CrashCourseR14TeenGirl": [
+      "Zombie, Francis! He. Was. A. ZOMBIE!"
+    ],
+    "L4D1crashHowitzerNagTeenGirl": [
+      "Is somebody gonna fire that gun?"
+    ],
+    "L4D1HowitzerFiredTeenGirl": [
+      "YEAH!",
+      "OH YEAH!",
+      "YEAHHHH!"
+    ],
+    "CrashFinaleGenerator2OnSpkTeenGirl": [
+      "That's right! Come to mama!"
+    ],
+    "CrashFinaleGenerator2SpeakTeenGirl": [
+      "Alright, guys. Real brave. I guess... I'll do it... By myself.",
+      "Come on, come on, come ON! Come on, god dammit, come ON!",
+      "Come on, stupid generator for jerks.",
+      "Damn it damn it damn it damn it! Stinking generator, why are you TAKING so LONG?!",
+      "Damn it damn it damn it damn it... Generator, come on, dammit!"
+    ],
+    "CrashFinaleGeneratorBreakSpkTeenGirl": [
+      "POWER'S OUT!",
+      "The damn generator broke again!"
+    ],
+    "CrashFinaleGeneratorSpeakTeenGirl": [
+      "Powering it up. This'll just take a second. Come on, generator. Come on..."
+    ],
+    "CrashFinaleGenerator1NagTeenGirl": [
+      "Someone power up the generator.",
+      "We need to activate the lift.",
+      "Power's on. Hit the button!"
+    ],
+    "CrashFinaleTruckNagTeenGirl": [
+      "Everyone in the truck!"
+    ],
+    "CrashFinaleInsideTruckNagTeenGirl": [
+      "Get to the truck!"
+    ],
+    "CrashFinaleTruckResp01TeenGirl": [
+      "That lift's not going anywhere until we power up the generator."
+    ],
+    "CrashFinaleTruckResp02TeenGirl": [
+      "I want that truck."
+    ],
+    "CrashFinaleTruckRespZombie2TeenGirl": [
+      "The pilot was a zombie, Francis!"
+    ],
+    "L4D1CrashFinaleGeneratorNagTeenGirl": [
+      "We gotta restart the generator!",
+      "Somebody needs to restart the generator!"
+    ],
+    "L4D1CrashFinaleGenUnPressSpeakTeenGirl": [
+      "Shit."
+    ],
+    "L4D1CrashFinaleGen2UnPressSpeakTeenGirl": [
+      "Shit.",
+      "Mother.",
+      "Oh, bullshit."
+    ],
+    "L4D1CrashFinaleTruckReadySpkTeenGirl": [
+      "The truck's down! Get in!"
+    ],
+    "L4D1CrashFinaleTruckReadyRespTeenGirl": [
+      "Riverside, here we come!"
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path14TeenGirl": [
+      "Now THAT is a bad-ass truck.",
+      "That truck looks zombie-proof to me. Let's take it.",
+      "I want that truck."
+    ],
+    "CrashCourseR01TeenGirl": [
+      "Yeah. Birds are dicks."
+    ],
+    "CrashCourseR03TeenGirl": [
+      "Okay, you know what? He was a zombie. ZOMBIE, ZOMBIE, ZOMBIE. Not a pilot. He was a ZOMBIE, Francis!",
+      "Francis, he was a zombie.",
+      "The chopper pilot was a ZOMBIE, Francis!"
+    ],
+    "CrashCourseR10TeenGirl": [
+      "Hahaha. Farting.",
+      "Hahaha. Nice."
+    ],
+    "CrashCourseR11TeenGirl": [
+      "Unless it's Lasagna Mondays. I love lasagna."
+    ],
+    "CrashCourseR12TeenGirl": [
+      "Man, I love steam."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path05TeenGirl": [
+      "Stupid truck's blocking the way.",
+      "Dammit, the truck's blocking the way."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path06TeenGirl": [
+      "Might be something in this warehouse."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path10TeenGirl": [
+      "Hey, Francis. They've got the latest issue of Hating Everything Magazine here."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path13TeenGirl": [
+      "Let's get to that bridge. Maybe there's some train tracks out of town.",
+      "We can take the bridge across the river."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path14TeenGirl": [
+      "We can get back up over here!"
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path17TeenGirl": [
+      "We need to get this barricade down.",
+      "Shit, the bridge is blocked."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path18TeenGirl": [
+      "Barricade. Bigass gun. Anybody got any ideas?"
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path24TeenGirl": [
+      "The safehouse is down there!"
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path02TeenGirl": [
+      "Metal Supply! Oh thank God. I was running low on metal.",
+      "Metal Supply! Oh thank God. I was running low on iron.",
+      "Metal Supply! Oh thank God. I was running low on tungsten."
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path05TeenGirl": [
+      "Through this container!"
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path06TeenGirl": [
+      "Hey, Francis, look! We're 'passing gas'... [chuckles]"
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path26TeenGirl": [
+      "'Funny, sexy brunette zombie killer wanted to lead three helpless men to safety.' Huh."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path27TeenGirl": [
+      "Free copy paper? Sweet! The apocalypse was totally worth it."
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path10TeenGirl": [
+      "Over that truck!"
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path12TeenGirl": [
+      "Let's go through the truck yard!"
+    ],
+    "IntroCrashR01TeenGirl": [
+      "*sigh* Do you HATE them?"
+    ],
+    "IntroCrashR04TeenGirl": [
+      "Well, at least we got out of the city. And... into... a different city..."
+    ],
+    "IntroCrashR07TeenGirl": [
+      "You what? [real concern] Francis, are you alright?"
+    ],
+    "IntroCrashR09TeenGirl": [
+      "Seconded. What the hell?"
+    ],
+    "IntroCrashR10TeenGirl": [
+      "I knew it was too good to last."
+    ],
+    "IntroCrashR11TeenGirl": [
+      "The shitty pilot store?"
+    ],
+    "IntroCrashR19TeenGirl": [
+      "He turned into a zombie, Francis! He wasn't gonna LAND the thing!"
+    ],
+    "IntroCrashR28TeenGirl": [
+      "He was a ZOMBIE, Francis!",
+      "No. ZOMBIE, he was a zombie, francis"
+    ],
+    "L4D1PlayerCrashCourseIntroTeenGirl": [
+      "Well, boys, I guess we're walking.",
+      "A zombie chopper pilot? UGH! You have GOT to be kidding me! We were almost home free, damn it!",
+      "OK, important safety tip: don't get in a helicopter with a zombie pilot."
+    ],
+    "CrashCourseI01TeenGirl": [
+      "Could be a way out of here.",
+      "It's worth a shot."
+    ],
+    "CrashCourseB01TeenGirl": [
+      "Canada? Francis, we're in Pennsylvania.",
+      "Riverside's not in Canada, Francis.",
+      "Yeah, Canadians are DICKS!"
+    ],
+    "L4D1C9M2SafeRoomTeenGirl": [
+      "Let's head to that truck depot.",
+      "We should check out  that truck depot.",
+      "Good! Riverside must be up ahead.",
+      "Riverside. That's where the army's holding out!"
+    ],
+    "L4D1IntroFarm4TeenGirl": [
+      "Yeah, let's do it."
+    ],
+    "L4D1SurvivorBoomerBlunderTeenGirl": [
+      "Ohh, sorry!",
+      "Oops, sorry"
+    ],
+    "L4D1SurvivorFinaleTriggeredBoatTeenGirl": [
+      "Allright guys, a boat's on its way."
+    ],
+    "L4D1SurvivorFinaleTriggeredFarmTeenGirl": [
+      "Help is coming guys, we just need to last a little longer.",
+      "Okay guys, I called for the truck."
+    ],
+    "L4D1SurvivorFinaleTriggeredRooftopTeenGirl": [
+      "Okay, the helicopter's coming!",
+      "Okay, guys, help is on the way!"
+    ],
+    "L4D1SurvivorFinalVehicleBoatTeenGirl": [
+      "Come on! Come on! To the boat!",
+      "Run to the boat!",
+      "We have to make it to the boat!",
+      "We have to make it to the boat! Come on!"
+    ],
+    "L4D1SurvivorFinalVehicleInsideBoatTeenGirl": [
+      "Get to the boat!"
+    ],
+    "L4D1SurvivorFinalVehicleFarmTeenGirl": [
+      "Everyone in the truck!"
+    ],
+    "L4D1SurvivorFinalVehicleInsideFarmTeenGirl": [
+      "Get to the truck!"
+    ],
+    "L4D1SurvivorFinalVehicleFarmSpottedTeenGirl": [
+      "The truck's here! Let's go!"
+    ],
+    "L4D1SurvivorFinalVehicleRooftopTeenGirl": [
+      "Come on, get to the helicopter!"
+    ],
+    "L4D1SurvivorFinalVehicleInsideRooftopTeenGirl": [
+      "Everyone in the helicopter!"
+    ],
+    "L4D1SurvivorFinalVehicleRunwayTeenGirl": [
+      "The plane's fueled: Let's go!",
+      "The plane's ready!",
+      "We can get on the plane! Let's go! Let's go!",
+      "Get to the plane!"
+    ],
+    "L4D1SurvivorFinalVehicleInsideRunwayTeenGirl": [
+      "Everyone on the plane!"
+    ],
+    "L4D1SurvivorFinalVehicleSpottedBoatTeenGirl": [
+      "Boat's here, let's go",
+      "The boat's here! Come on, let's go!"
+    ],
+    "L4D1SurvivorFinalVehicleSpottedRooftopTeenGirl": [
+      "Guys, the helicopter's here. Let's go!",
+      "The helicopter's here! Come on, let's go!"
+    ],
+    "L4D1PlayerShotCarNotTeenGirl": [
+      "Mother.",
+      "Ah bullshit."
+    ],
+    "L4D1PlayerShotCarTeenGirl": [
+      "Shit.",
+      "Dammit."
+    ],
+    "L4D1ResponseSoftDispleasureSwearTeenGirl": [
+      "I have a bad feeling about this",
+      "Shit  (matter of factly)",
+      "Shit.",
+      "Goddammit.",
+      "Dammit."
+    ],
+    "L4D1SurvivorAskBillForHealthTeenGirl": [
+      "Bill, if you aren't gonna use that first aid kit, can I have it?"
+    ],
+    "L4D1SurvivorAskFrancisForHealthTeenGirl": [
+      "Francis, if you aren't gonna use that first aid kit, can I have it?"
+    ],
+    "L4D1SurvivorAskLouisForHealthTeenGirl": [
+      "Louis, if you aren't gonna use that first aid kit, can I have it, please?"
+    ],
+    "L4D1SurvivorSpottedBillCloseTeenGirl": [
+      "Bill (quiet)"
+    ],
+    "L4D1SurvivorSpottedBillFarTeenGirl": [
+      "Bill! (loud)",
+      "William! (loud)",
+      "Old man! (loud)",
+      "Hey, old man! (loud)"
+    ],
+    "L4D1SurvivorSpottedFrancisCloseTeenGirl": [
+      "Francis (quiet)"
+    ],
+    "L4D1SurvivorSpottedFrancisFarTeenGirl": [
+      "Francis! (loud)",
+      "Hey, biker dude! (loud)"
+    ],
+    "L4D1SurvivorSpottedLouisCloseTeenGirl": [
+      "Louis (quiet)"
+    ],
+    "L4D1SurvivorSpottedLouisFarTeenGirl": [
+      "Louis! (loud)"
+    ],
+    "L4D1SurvivorSpottedWorldCloseTeenGirl": [
+      "Would you look at this?",
+      "Huh, check this out.",
+      "Look over here!",
+      "Look here."
+    ],
+    "SurvivorSpottedAmmoTeenGirl": [
+      "Ammo here!"
+    ],
+    "SurvivorSpottedGrenadeTeenGirl": [
+      "There's a pipebomb here.",
+      "I got a pipebomb over here."
+    ],
+    "SurvivorSpottedGrenadeAutoTeenGirl2": [
+      "Cool.",
+      "Yeah."
+    ],
+    "SurvivorSpottedHealthTeenGirl": [
+      "First Aid Kit here!",
+      "First Aid here!",
+      "Grab some first aid",
+      "First aid kits over here.",
+      "There's a first aid kit here."
+    ],
+    "SurvivorSpottedMolotovTeenGirl": [
+      "Molotov's over here.",
+      "Hey boys, molotov's over here."
+    ],
+    "SurvivorSpottedVomitJarTeenGirl": [
+      "Grenades here!"
+    ],
+    "SurvivorSpottedPillsTeenGirl": [
+      "Pills here!"
+    ],
+    "SurvivorSpottedAdrenalineTeenGirl": [
+      "Huh, check this out.",
+      "Look over here!"
+    ],
+    "L4D1SurvivorMovingToBattleStationTeenGirl": [
+      "Let's go.",
+      "Ready",
+      "Yep, I'm ready"
+    ],
+    "L4D1SpottedBoomerTeenGirl": [
+      "BOOMER!"
+    ],
+    "L4D1SpottedHunterTeenGirl": [
+      "HUNTER!"
+    ],
+    "L4D1SpottedSmokerTeenGirl": [
+      "SMOKER!"
+    ],
+    "L4D1SpottedChargerTeenGirl": [
+      "CHARGER!"
+    ],
+    "L4D1SpottedJockeyTeenGirl": [
+      "JOCKEY!"
+    ],
+    "L4D1SpottedSpitterTeenGirl": [
+      "SPITTER!"
+    ],
+    "L4D1SurvivorSpottedInfectedTeenGirl": [
+      "Incoming!",
+      "They're coming!",
+      "Here they come!",
+      "Get ready!",
+      "Oh god, get ready, here they come!",
+      "Ohhh crap, get ready!",
+      "Here they come, boys!",
+      "Get ready, here they come!",
+      "Hold on, here they come!"
+    ],
+    "SurvivorSpottedTankTeenGirl": [
+      "TANK!"
+    ],
+    "L4D1SpottedTankTeenGirl": [
+      "Guys come back!",
+      "Guys let us cover you!",
+      "TWO TANKS!",
+      "Bring the tanks back here!"
+    ],
+    "SurvivorSpottedWitchTeenGirl": [
+      "WITCH!"
+    ],
+    "L4D1EmphaticArriveRunTeenGirl": [
+      "Let's go, let's go",
+      "Just go! GO!",
+      "RUN!",
+      "Keep moving! Come on, keep moving!"
+    ],
+    "L4D1PlayerAlertGiveItemTeenGirl": [
+      "Here, you can have this",
+      "Take this.",
+      "Wait up, I have something for you.",
+      "Hey, take this.",
+      "Here.",
+      "Here you go, you can have this."
+    ],
+    "L4D1PlayerFriendlyFireTeenGirl": [
+      "Hey, that hurt!",
+      "Watch it!",
+      "Watch where you're shooting!",
+      "Stop shooting me!",
+      "ow! HEY!",
+      "Stop it already!",
+      "Hey!",
+      "That's not funny.",
+      "STOP IT!",
+      "Don't shoot me!",
+      "Hey, come on! Stop!",
+      "What the hell?",
+      "What the!",
+      "Why would you do that to me?",
+      "Ow! that hurt!",
+      "Ow!"
+    ],
+    "L4D1PlayerFriendlyFire2TeenGirl": [
+      "You REALLY have to be more careful!",
+      "Be careful!",
+      "Stop Stop!",
+      "Woah.  Careful!"
+    ],
+    "L4D1PlayerFriendlyFireFromBillTeenGirl": [
+      "Bill, come on Bill!",
+      "Ow. Dammit. Bill!"
+    ],
+    "L4D1PlayerFriendlyFireFromFrancisTeenGirl": [
+      "Ow. Knock that shit off, Francis.",
+      "That's not funny.",
+      "What the hell?"
+    ],
+    "L4D1PlayerFriendlyFireFromLouisTeenGirl": [
+      "Louis! (loud)"
+    ],
+    "L4D1PlayerFriendlyFireNoBulletTeenGirl": [
+      "Hey, that hurt!",
+      "Watch it!",
+      "ow! HEY!",
+      "Stop it already!",
+      "Hey!",
+      "That's not funny.",
+      "STOP IT!",
+      "Hey, come on! Stop!",
+      "What the hell?",
+      "Why would you do that to me?",
+      "Ow! that hurt!",
+      "Ow!"
+    ],
+    "L4D1PlayerToTheRescueTeenGirl": [
+      "Hold on, I'm on my way!",
+      "I'm coming!",
+      "Hold on, I'm coming!",
+      "Help is on the way!",
+      "Hang on, hang on, I'm coming!",
+      "Hang in there, I'm coming!",
+      "Coming, coming, coming!"
+    ],
+    "L4D1SurvivorTauntResponseTeenGirl": [
+      "Cool.",
+      "Awesome!",
+      "YESSS!",
+      "YEAH!",
+      "Oh yeah, lovely.",
+      "Oh yeah!",
+      "Impressive.",
+      "Thats right. [grim, determined]",
+      "All right!",
+      "Lookin good.",
+      "OH YEAH!",
+      "YEAHHHH!"
+    ],
+    "PlayerToTheRescueRosTeenGirl": [
+      "Hold on, I'm on my way!",
+      "I'm coming!",
+      "Hold on, I'm coming!",
+      "Help is on the way!",
+      "Hang on, hang on, I'm coming!",
+      "Hang in there, I'm coming!",
+      "Coming, coming, coming!"
+    ],
+    "L4D1PlayerChokeResponseTeenGirl": [
+      "[Choking]"
+    ],
+    "L4D1SurvivorCriticalHurtTeenGirl": [
+      "[pain noise - loud major pain]"
+    ],
+    "L4D1SurvivorIncapacitatedHurtTeenGirl": [
+      "AHHHHH [terrified yell]"
+    ],
+    "L4D1SurvivorMajorHurtTeenGirl": [
+      "[pain noise - ahh]",
+      "[pain noise - huh]",
+      "[pain noise - oy]",
+      "[pain noise - ugh]"
+    ],
+    "L4D1SurvivorMinorHurtTeenGirl": [
+      "[pain noise - short minor pain]"
+    ],
+    "L4D1SurvivorReloadingTeenGirl": [
+      "Reloading!",
+      "I'm Reloading!"
+    ],
+    "SurvivorJockeyHurtMajorTeenGirl": [
+      "[improv quick yelp]",
+      "[pain noise - loud major pain]",
+      "[pain noise - huh]",
+      "[pain noise - ugh]",
+      "[pain noise - short minor pain]",
+      "[Improv non-verbal displeasure sounds]",
+      "scene \"scenes/TeenGirl/ScreamWhilePounced03.vcd\"  then all commentjockey foo:0 -1.101",
+      "GET IT OFF ME!",
+      "GET IT GET IT OFF GET IT OFF!",
+      "[reaction to body hits - uhs ahs]"
+    ],
+    "L4D1PlayerHelpIncappedTeenGirl": [
+      "Help!",
+      "Help please!",
+      "Hey! Help!",
+      "I need some help!",
+      "Help me!"
+    ],
+    "L4D1PlayerHelpIncappedBleedingTeenGirl": [
+      "Someone help!",
+      "Guys, I need some help!",
+      "Come on guys, I need some help!",
+      "Guys, I could use a hand!",
+      "Guys, over here - I could use a hand!",
+      "Hey guys, uh... I really need some help here.",
+      "I could use a hand here please",
+      "Can someone help me please?",
+      "Can someone give me a hand please?",
+      "Hey guys, I could use a hand",
+      "Come on guys, help me out."
+    ],
+    "L4D1PlayerHelpIncappedLethargicTeenGirl": [
+      "Guys! I need help now!",
+      "Oh my god, oh my god, I'm not going to last much longer!",
+      "Help, help, I don't want to die!",
+      "Guys, this is it, I need help now!",
+      "Ohhh shit! HELP ME!",
+      "Oh god, I need help!  Don't let me die like this!",
+      "I... please help! Please!",
+      "I'M OVER HERE!"
+    ],
+    "L4D1HelpResponseBillTeenGirl": [
+      "We can't leave 'em out there",
+      "No one left behind, right?",
+      "We should go help 'em"
+    ],
+    "L4D1HelpResponseBillBTeenGirl": [
+      "Let's go back out there Louis.",
+      "Come on Louis! We can't leave Bill behind."
+    ],
+    "L4D1HelpResponseFrancisTeenGirl": [
+      "We can't leave 'em out there",
+      "We can't leave Francis out there",
+      "No one left behind, right?",
+      "We should go help 'em"
+    ],
+    "L4D1HelpResponseFrancisBTeenGirl": [
+      "Let's go back out there Louis."
+    ],
+    "L4D1HelpResponseLouisTeenGirl": [
+      "We should probably go help 'em",
+      "We can't leave 'em out there",
+      "No one left behind, right?",
+      "We should go help 'em"
+    ],
+    "L4D1crashcourse01_path01zrTeenGirl": [
+      "He was a ZOMBIE, Francis!",
+      "Okay, you know what? He was a zombie. ZOMBIE, ZOMBIE, ZOMBIE. Not a pilot. He was a ZOMBIE, Francis!"
+    ],
+    "L4D1L4D1PlayerRemarkSmalltown04_path03TeenGirl": [
+      "I don't think this barricade held..."
+    ],
+    "L4D1PlayerAirport02CraneStartedTeenGirl": [
+      "Get ready, guys. Here we go."
+    ],
+    "L4D1PlayerAirport02DumpsterDownTeenGirl": [
+      "It's down! Let's go!",
+      "Our dumpster's here! Let's go!"
+    ],
+    "L4D1Playerairport03_barrieraTeenGirl": [
+      "Let's start a fire!",
+      "Boys, let's starts a fire!"
+    ],
+    "L4D1PlayerAirport03FirePathClearaTeenGirl": [
+      "Lets go guys!"
+    ],
+    "L4D1PlayerAirport03FirePathClearXTeenGirl": [
+      "The path is clear!",
+      "We burned a path!"
+    ],
+    "L4D1PlayerAirport03FireStartedXTeenGirl": [
+      "Get ready, guys. Here we go.",
+      "This is it!",
+      "Boom! So much for the easy way.",
+      "Let's start a fire!"
+    ],
+    "L4D1Playerairport04_08bTeenGirl": [
+      "They must have been trying to stop the infection from spreading."
+    ],
+    "L4D1Playerairport04_08cTeenGirl": [
+      "Holy shit...",
+      "They must have been trying to stop the infection from spreading."
+    ],
+    "L4D1Playerairport04_08dTeenGirl": [
+      "Right..."
+    ],
+    "L4D1PlayerFrancisSuggestsCraneTeenGirl": [
+      "Good thinking!",
+      "Good thinking, Francis!"
+    ],
+    "L4D1PlayerLaughFrancisTeenGirl": [
+      "<Nervous laugh>",
+      "<Short laugh>"
+    ],
+    "L4D1PlayerRemarkairport02_creshendo01aTeenGirl": [
+      "The crane will lower that dumpster.",
+      "We can get across on that dumpster.",
+      "Someone needs to lower that dumpster.",
+      "Someone needs to start the crane."
+    ],
+    "L4D1PlayerRemarkairport02_path01TeenGirl": [
+      "We can get back to the rooftops.",
+      "Let's head back up."
+    ],
+    "L4D1PlayerRemarkairport02_path02TeenGirl": [
+      "What do you call 5000 infected lawyers?"
+    ],
+    "L4D1PlayerRemarkairport02_path03TeenGirl": [
+      "Louis did you work in a cube like these?",
+      "Hey Louis: all these cubicles make you homesick?"
+    ],
+    "L4D1PlayerRemarkairport02_path04TeenGirl": [
+      "Down the stairs!",
+      "Hey Bill, it's your favorite: stairs.",
+      "We gotta take the stairs. Sorry Bill."
+    ],
+    "L4D1PlayerRemarkairport02_path06TeenGirl": [
+      "We're getting close the airport!",
+      "Almost at the airport!"
+    ],
+    "L4D1PlayerRemarkairport03_01TeenGirl": [
+      "I hope this isn't the plane we saw."
+    ],
+    "L4D1PlayerRemarkairport03_02TeenGirl": [
+      "THE AIRPORT!",
+      "LOOK, THE AIRPORT!"
+    ],
+    "L4D1PlayerRemarkairport03_03TeenGirl": [
+      "The doors are all blocked!"
+    ],
+    "L4D1PlayerRemarkairport03_04TeenGirl": [
+      "We can get inside over the skybridge.",
+      "The skybridge!"
+    ],
+    "L4D1PlayerRemarkairport03_06TeenGirl": [
+      "Oh no! Not short term parking!",
+      "Let's go through here."
+    ],
+    "L4D1PlayerRemarkairport03_barrierTeenGirl": [
+      "We can burn down this barricade."
+    ],
+    "L4D1PlayerRemarkairport04_01TeenGirl": [
+      "Through the offices!"
+    ],
+    "L4D1PlayerRemarkairport04_03TeenGirl": [
+      "Oh no, the zombies killed god!"
+    ],
+    "L4D1PlayerRemarkairport04_04TeenGirl": [
+      "I wonder if this is more lost luggage than normal."
+    ],
+    "L4D1PlayerRemarkairport04_05TeenGirl": [
+      "Hey Louis, try not to get lost.",
+      "I always wondered what was back here."
+    ],
+    "L4D1PlayerRemarkairport04_06TeenGirl": [
+      "Whatever you do, Francis, please don't take off your shoes."
+    ],
+    "L4D1PlayerRemarkairport04_07TeenGirl": [
+      "Hey, Ayn Rand international airport..."
+    ],
+    "L4D1PlayerRemarkairport04_08TeenGirl": [
+      "Oh my god, Bill was right: They bombed the airport!",
+      "There's the plane we saw!",
+      "We need to get down to that plane!",
+      "How do we get down to the plane?"
+    ],
+    "L4D1PlayerRemarkairport04_vanTeenGirl": [
+      "We can use that van."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path01TeenGirl": [
+      "'Pilot's License...revoked.' Dunh-dunh-DUNNNNH...",
+      "'Pilot's License...revoked.' WAAAAAAAAHH!"
+    ],
+    "L4D1PlayerRemarkFarm01_path02TeenGirl": [
+      "This way!"
+    ],
+    "L4D1PlayerRemarkFarm02_path01TeenGirl": [
+      "Down the stairs!"
+    ],
+    "L4D1PlayerRemarkFarm02_path02TeenGirl": [
+      "Down there."
+    ],
+    "L4D1PlayerRemarkFarm02_path09TeenGirl": [
+      "We need to go up that ladder!"
+    ],
+    "L4D1PlayerRemarkFarm03_path03TeenGirl": [
+      "Let's go through here."
+    ],
+    "L4D1PlayerRemarkFarm03_path06TeenGirl": [
+      "This way is blocked."
+    ],
+    "L4D1PlayerRemarkFarm03_path10TeenGirl": [
+      "Up there!"
+    ],
+    "L4D1PlayerRemarkFarm04_path07TeenGirl": [
+      "Up here guys! Let's go!"
+    ],
+    "L4D1PlayerRemarkFarm04_path08TeenGirl": [
+      "Through here!"
+    ],
+    "L4D1PlayerRemarkFarm04_path10TeenGirl": [
+      "Sweet Jesus!",
+      "Holy crap.",
+      "Holy shit..."
+    ],
+    "L4D1PlayerRemarkFarm05_path06TeenGirl": [
+      "Get to the farm house!",
+      "Hurry! Get to the farm house!"
+    ],
+    "L4D1PlayerRemarkFarm05_path08TeenGirl": [
+      "Hey guys, I think we're almost there."
+    ],
+    "L4D1PlayerRemarkhospital03_path04TeenGirl": [
+      "This way!",
+      "Come on, this way!"
+    ],
+    "L4D1PlayerRemarkhospital03_path08TeenGirl": [
+      "The subway smelled bad, but this..."
+    ],
+    "L4D1PlayerRemarkhospital04_path03TeenGirl": [
+      "Louis, you'd look good in one of those hospital gowns."
+    ],
+    "L4D1PlayerRemarkhospital05_path01TeenGirl": [
+      "Almost there. Almost there.",
+      "That helicopter pilot better be here."
+    ],
+    "L4D1PlayerRemarkhospital05_path02TeenGirl": [
+      "Through here!",
+      "I think we can go through here, guys."
+    ],
+    "L4D1PlayerAirport04VanStartedXTeenGirl": [
+      "Get ready, guys. Here we go."
+    ],
+    "L4D1PlayerRemarkPathClearVanTeenGirl": [
+      "Come on, lets go!",
+      "Come on, come on, lets go!",
+      "Path's clear! Let's go!",
+      "The path is clear!"
+    ],
+    "L4D1PlayerRemarkSmalltown01_path01TeenGirl": [
+      "And of course the bridge is out..."
+    ],
+    "L4D1PlayerRemarkSmalltown01_path02TeenGirl": [
+      "Looks like we can get back up the other side."
+    ],
+    "L4D1PlayerRemarkSmalltown01_path03TeenGirl": [
+      "Up here guys!"
+    ],
+    "L4D1PlayerRemarkSmalltown01_path07TeenGirl": [
+      "This way is blocked."
+    ],
+    "L4D1PlayerRemarkSmalltown01_path08TeenGirl": [
+      "I think we can go through here, guys.",
+      "Through here!"
+    ],
+    "L4D1PlayerRemarksmalltown02_path02TeenGirl": [
+      "Through here!"
+    ],
+    "L4D1PlayerRemarksmalltown02_path05TeenGirl": [
+      "Fresh air!"
+    ],
+    "L4D1PlayerRemarksmalltown02_path06TeenGirl": [
+      "There must be a panel or something to activate that bridge."
+    ],
+    "L4D1PlayerRemarksmalltown02_path08TeenGirl": [
+      "[pleasure & interest sounds]"
+    ],
+    "L4D1PlayerRemarkSmalltown03_path01TeenGirl": [
+      "Not a fan of creepy old train yards."
+    ],
+    "L4D1PlayerRemarkSmalltown03_path03TeenGirl": [
+      "We need to get over this fence."
+    ],
+    "L4D1PlayerRemarkSmalltown03_path04TeenGirl": [
+      "Up here guys!",
+      "We can get on the other side of the fence up here!"
+    ],
+    "L4D1PlayerRemarkSmalltown03_path07TeenGirl": [
+      "Let's stick to the road."
+    ],
+    "L4D1PlayerRemarkSmalltown03_path08TeenGirl": [
+      "Almost to Riverside.",
+      "Looks like we're getting close to Riverside."
+    ],
+    "L4D1PlayerRemarkSmalltown03_path10TeenGirl": [
+      "Oh, nice. A cabin in the middle of nowhere. I know how this movie ends."
+    ],
+    "L4D1PlayerRemarkSmalltown03_path11TeenGirl": [
+      "I can see Riverside!",
+      "The town's pretty quiet. I hope that means they killed all the zombies."
+    ],
+    "L4D1PlayerRemarkSmalltown03_path12TeenGirl": [
+      "There's lights on in that church!"
+    ],
+    "L4D1PlayerRemarkSmalltown04_path01TeenGirl": [
+      "I guess Riverside couldn't hold out."
+    ],
+    "L4D1PlayerRemarkSmalltown04_path04TeenGirl": [
+      "I don't think this barricade held..."
+    ],
+    "L4D1PlayerRemarkSmalltown04_path05TeenGirl": [
+      "This way, guys!",
+      "This way!"
+    ],
+    "L4D1PlayerRemarkSmalltown04_path07TeenGirl": [
+      "I've been here before. I always liked this main street."
+    ],
+    "L4D1PlayerRemarkSmalltown04_path10TeenGirl": [
+      "Let's head back up.",
+      "Up here guys!"
+    ],
+    "L4D1PlayerRemarkSmalltown05_path03TeenGirl": [
+      "We can get to the river through here."
+    ],
+    "L4D1PlayerRemarkSmalltown05_path06TeenGirl": [
+      "Through here!"
+    ],
+    "L4D1PlayerRemarkThroughHereTeenGirl": [
+      "Through here!"
+    ],
+    "L4D1PlayerRemarkUpThatLadderTeenGirl": [
+      "We need to go up that ladder!"
+    ],
+    "L4D1RespondAffirmativeTeenGirl": [
+      "Yeah.",
+      "Okay.",
+      "Y'allright."
+    ],
+    "L4D1RiversideIsDeadPlanTeenGirl": [
+      "Sure, why not?",
+      "Yeah, let's do it."
+    ],
+    "PlayerRemarkc7m1_bricktopTeenGirl": [
+      "On top of the bricks."
+    ],
+    "PlayerRemarkc7m1_pastbricksTeenGirl": [
+      "Past the bricks."
+    ],
+    "PlayerRemarkc7m1_pretankTeenGirl": [
+      "The one thing that survives this train wreck is a tank?",
+      "So... who's gonna open the door?",
+      "So. This whole... door situation? You guys work it out.",
+      "Somebody want to get the door? I'll open the next train car with a tank in it. Promise.",
+      "So, I'm a girl, right? You guys wouldn't make a lady open up a deathtrap, right?"
+    ],
+    "PlayerRemarkc7m1_pretankLouisTeenGirl": [
+      "Hey, Louis. You got a good feeling about opening that door."
+    ],
+    "PlayerRemarkc7m1_pretankFrancisTeenGirl": [
+      "Hey Francis. Guywhoopensthetraindoorsayswhat?",
+      "Hey, Francis. Be a pal and open that door."
+    ],
+    "PlayerRemarkc7m1_tankcarTeenGirl": [
+      "God, this must have been horrible...",
+      "Man. I thought it was bad fighting this thing outside."
+    ],
+    "PlayerRemarkc7m2_climbupcrapTeenGirl": [
+      "We can get back up over here!",
+      "Up that fence!"
+    ],
+    "PlayerRemarkc7m2_gravelhillTeenGirl": [
+      "Climb up this pile of crap!"
+    ],
+    "PlayerRemarkc7m2_overboatTeenGirl": [
+      "Over the ship!"
+    ],
+    "PlayerRemarkc7m2_throughhereTeenGirl": [
+      "Through here!"
+    ],
+    "PlayerRemarkc7m3_seesailboatTeenGirl": [
+      "We'll need to raise that bridge if we want to get that boat out of here.",
+      "We can use that sailboat by the bridge!",
+      "We need to raise the bridge."
+    ],
+    "L4D1SurvivorNearFinaleTeenGirl": [
+      "Hey guys, I think we're almost there.",
+      "Thank god, we're almost outta here!",
+      "Finally. You see that?  We're almost out of here!",
+      "This is all going to be over soon."
+    ],
+    "L4D1PlayerNearFinaleC7M3TeenGirl": [
+      "Let's go.",
+      "Let's get moving",
+      "Come on, lets go!"
+    ],
+    "L4D1SurvivorNearFinaleC11M5TeenGirl": [
+      "Look!"
+    ],
+    "L4D1PlayerNearFinaleC12M5TeenGirl": [
+      "Ah! Dammit! Stupid birds.",
+      "Shut. Up. You. Stupid. Crows."
+    ],
+    "L4D1C11M5NearFinale2TeenGirl": [
+      "Oh shit."
+    ],
+    "SurvivorNearCheckpointTeenGirl": [
+      "Safe house just ahead.",
+      "Safe house ahead!",
+      "There's a safe house ahead.",
+      "We're near a safe house",
+      "Yeah! Safehouse right up ahead, boys! We made it!"
+    ],
+    "SurvivorNearCheckpointC8M3TeenGirl": [
+      "We've go to get to the hospital.",
+      "Into the hospital!",
+      "There's a safe house in the hospital!",
+      "Hurry up! Get to the hospital!",
+      "Go, go! Get to the hospital!",
+      "We just need to get to the hospital."
+    ],
+    "SurvivorNearCheckpointC10M2TeenGirl": [
+      "Into the caboose!"
+    ],
+    "SurvivorNearCheckpointC11M2TeenGirl": [
+      "Safe house in that storage place!"
+    ],
+    "SurvivorNearCheckpointC11M3TeenGirl": [
+      "Safe house across the skybridge!"
+    ],
+    "SurvivorNearCheckpointC11M4LouisTeenGirl": [
+      "Louis, your row isn't boarding yet."
+    ],
+    "SurvivorNearCheckpointC10M4TeenGirl": [
+      "Hurry up!",
+      "We have to hurry guys!",
+      "Lets go guys!",
+      "Hurry!",
+      "Guys, hurry!",
+      "Lets go, Lets go!"
+    ],
+    "SafeSpotAheadResponseTeenGirl": [
+      "Finally!",
+      "Thank God!",
+      "Oh thank god!",
+      "Sweet Jesus."
+    ],
+    "L4D1PlayerCoverMeTeenGirl": [
+      "Cover me!",
+      "Watch my back!",
+      "Would you please cover me!",
+      "Watch my back, please!",
+      "Come on, man, over me!"
+    ],
+    "L4D1PlayerFollowMeTeenGirl": [
+      "Come on, this way!",
+      "This way, guys!",
+      "Follow me!",
+      "This way!",
+      "I think we should go this way.",
+      "I'll go first.",
+      "Over here, this way!",
+      "Okay, I'll go first.",
+      "We need to go this way.",
+      "Follow me! I know where I'm going. Come on!"
+    ],
+    "L4D1PlayerHelpTeenGirl": [
+      "Help!",
+      "Help please!",
+      "Someone help!",
+      "Guys, I need some help!",
+      "Come on guys, I need some help!",
+      "Guys, I could use a hand!",
+      "Guys, over here - I could use a hand!",
+      "Hey! Help!",
+      "I need some help!",
+      "Help me!"
+    ],
+    "L4D1PlayerHurryUpTeenGirl": [
+      "Hurry up!",
+      "We have to hurry guys!",
+      "Lets go guys!",
+      "Hurry!",
+      "Guys, hurry!",
+      "Lets go, Lets go!"
+    ],
+    "L4D1PlayerKillThatLightTeenGirl": [
+      "Turn off that light *quiet*",
+      "Lights off!",
+      "Flashlights off!",
+      "Can you turn off that light?",
+      "Lights out!",
+      "Flashlights out!",
+      "Kill the light",
+      "Shut off your flashlight",
+      "Come on,  shut off your flashlight *quiet*",
+      "Can you kill that light?",
+      "Turn it off.",
+      "Lights off! Shhh."
+    ],
+    "L4D1PlayerLeadOnTeenGirl": [
+      "You go ahead, I'll follow",
+      "Lead on",
+      "Go ahead I'l follow",
+      "I'll follow behind you",
+      "Go on, I'm coming",
+      "I'm right behind you.",
+      "You take the lead",
+      "Go ahead",
+      "I'll follow",
+      "I guess I'll follow you"
+    ],
+    "L4D1PlayerMoveOnTeenGirl": [
+      "Can we get going?",
+      "Let's go",
+      "We should go",
+      "Let's get moving",
+      "We need  to get moving",
+      "I think we should go",
+      "Come on, lets go!",
+      "Come on, come on, lets go!",
+      "We need  to get going guys",
+      "We should probably go",
+      "Let's go, let's go"
+    ],
+    "L4D1PlayerStayTogetherTeenGirl": [
+      "We should stay together",
+      "Let's stick together!",
+      "Come on, we're together.",
+      "Stick together!",
+      "Stay close!",
+      "Let's try to stay together",
+      "Stay together!",
+      "Stay, together! C'mon, guys, let's make an effort",
+      "Can you stay together, guys?",
+      "We need to stick together"
+    ],
+    "L4D1PlayerWatchOutBehindTeenGirl": [
+      "Behind us!",
+      "They're behind us!"
+    ],
+    "L4D1PlayerAskReadyTeenGirl": [
+      "Ready guys?",
+      "Ready?",
+      "Let's go, you guys ready?",
+      "You ready guys?",
+      "Are you ready for this?",
+      "You guys ready?",
+      "Are you guys ready?",
+      "Everyone ready?",
+      "Are you ready?"
+    ],
+    "L4D1PlayerImWithYouTeenGirl": [
+      "I'm here.",
+      "Let's go.",
+      "I'm coming!",
+      "I'm with you.",
+      "I got your back.",
+      "I'm right behind you!",
+      "Coming",
+      "I'll be there.",
+      "I'm there.",
+      "Right behind you!"
+    ],
+    "L4D1PlayerLaughTeenGirl": [
+      "<Short laugh>",
+      "<Hearty Laugh>",
+      "<Snort>"
+    ],
+    "L4D1PlayerLostCallTeenGirl": [
+      "Hello?",
+      "Where are you guys?",
+      "Is anyone there?",
+      "Helloooo?",
+      "Anyone Around?",
+      "Hey guys, where are you?",
+      "Guys?"
+    ],
+    "L4D1PlayerNiceJobResponseTeenGirl": [
+      "Yeah!",
+      "Kick ass!",
+      "Well done!",
+      "Nicely played sir",
+      "Oh hell yeah!",
+      "Nice job.",
+      "That was good",
+      "Okay.",
+      "Lovely.",
+      "Yess!",
+      "Hell yeah!",
+      "Yeah.",
+      "Hot",
+      "Sweet",
+      "Nice.",
+      "Good work.",
+      "Hello!",
+      "Nice work."
+    ],
+    "L4D1PlayerNiceJobLouisTeenGirl": [
+      "Louis!"
+    ],
+    "L4D1PlayerNoTeenGirl": [
+      "Uh, no",
+      "Seriously, no",
+      "NO!",
+      "Yeah... right!",
+      "No!",
+      "No.",
+      "I don't think so.",
+      "Mmmm Mm",
+      "Not gonna happen.",
+      "Uh-uh.",
+      "Nah.",
+      "Not on your life.",
+      "Not a chance.",
+      "Nooo!",
+      "Um no.",
+      "No way.",
+      "Nope.",
+      "No, NO."
+    ],
+    "L4D1PlayerAnswerLostCallTeenGirl": [
+      "Hey, I'm here.",
+      "I'm here!"
+    ],
+    "L4D1PlayerNegativeTeenGirl": [
+      "Uh oh",
+      "This is so messed up",
+      "This sucks",
+      "This sucks big time",
+      "Oh damn",
+      "This isn't working",
+      "What the hell was that?",
+      "Are you kidding me?",
+      "Not again",
+      "This is never going to end",
+      "This is not going well",
+      "Oh man oh man oh man",
+      "Oh no",
+      "Ah crapl",
+      "This is bad",
+      "Crap",
+      "No No No No NO",
+      "Ah crap!"
+    ],
+    "L4D1PlayerSorryTeenGirl": [
+      "Sorry",
+      "I am really sorry",
+      "I am so sorry",
+      "Ohh, sorry!",
+      "Oops, sorry",
+      "I'm really sorry"
+    ],
+    "L4D1PlayerSorryFFTeenGirl": [
+      "Oops, sorry",
+      "Sorry about that",
+      "Oh, my bad",
+      "My bad",
+      "I really am sorry 'bout that"
+    ],
+    "L4D1PlayerThanksTeenGirl": [
+      "Thanks, I owe you.",
+      "Thanks",
+      "Thanks!",
+      "Thanks, thanks a lot",
+      "Thanks a bunch.",
+      "Hey, thanks!",
+      "Thank you",
+      "Thanks, man",
+      "Really, thanks",
+      "I really appreciate it.",
+      "Thank you very much",
+      "Like, thanks",
+      "Phew, thanks!"
+    ],
+    "L4D1PlayerThanksLouisTeenGirl": [
+      "Thank you, Louis. It's about time you helped me.",
+      "Thanks, Louis. It's about time you were some help."
+    ],
+    "L4D1PlayerYesTeenGirl": [
+      "Yeah.",
+      "Yes.",
+      "Okay.",
+      "Y'allright.",
+      "Yeah, okay",
+      "Yep",
+      "Yeah sure."
+    ],
+    "L4D1PlayerYouAreWelcomeTeenGirl": [
+      "You are welcome, sir.",
+      "That's okay.",
+      "Hey, no problem.",
+      "No problem.",
+      "Sure thing.",
+      "ah, whatever.",
+      "We're cool.",
+      "It was my pleasure.",
+      "My pleasure.",
+      "Anytime.",
+      "Yeah, cool.",
+      "Cool",
+      "Don't worry about it.",
+      "You're welcome.",
+      "Sure.",
+      "No worries."
+    ],
+    "PlayerYellRunTeenGirl": [
+      "Let's go, let's go",
+      "Just go! GO!",
+      "RUN!",
+      "Keep moving! Come on, keep moving!"
+    ],
+    "L4D1PlayerAreaClearTeenGirl": [
+      "Clear!",
+      "Looks empty.",
+      "Nothing!",
+      "Clear.",
+      "Nothing here",
+      "Don't see anything.",
+      "I got nothin.",
+      "Nothing to see here.",
+      "It's empty.",
+      "Nothing to see here, folks."
+    ],
+    "L4D1SurvivorSpottedWorldFarTeenGirl": [
+      "Over there!",
+      "Look!"
+    ],
+    "PlayerHurrahTeenGirl": [
+      "I think we're gonna make it",
+      "Looks good",
+      "We're doing all right.",
+      "We're gonna be okay",
+      "Oh yeah!",
+      "No stopping us!",
+      "We are unstoppable",
+      "Oh yeah, oh yeah, oh yeah",
+      "Well, that was refreshing",
+      "Oh god, we're gonna be okay",
+      "Okayyy, okayyy, okay.",
+      "We might actually make it through this",
+      "Oh, thank god!",
+      "Wow, I can't believe we did that.",
+      "Whoo!",
+      "We are awesome together.",
+      "Oh my god, we made that. Can you believe it?",
+      "Wow, oh, thank god!",
+      "Oh man, ha!",
+      "Wow.",
+      "We did it. Can you believe it?"
+    ],
+    "PlayerWarnCarefulTeenGirl": [
+      "Be Careful.",
+      "Everyone be careful.",
+      "Let's be careful.",
+      "Careful.",
+      "Careful now.",
+      "Guys, be careful.",
+      "Careful, guys."
+    ],
+    "GasPourDoneSCTeenGirl": [
+      "Whoo!",
+      "Awesome!",
+      "YEAH!",
+      "Oh yeah, lovely.",
+      "Oh yeah!",
+      "Thats right. [grim, determined]",
+      "All right!",
+      "OH YEAH!",
+      "YEAHHHH!",
+      "No stopping us!",
+      "We are unstoppable",
+      "We are awesome together.",
+      "Oh my god, we made that. Can you believe it?",
+      "We did it. Can you believe it?"
+    ],
+    "GasPourSCTeenGirl": [
+      "Cover me!",
+      "Watch my back!",
+      "Watch my back, please!"
+    ],
+    "GrabbingGasSCTeenGirl": [
+      "Got it!"
+    ],
+    "PlayerShotGasCanTeenGirl": [
+      "Uh oh",
+      "Are you kidding me?",
+      "Crap",
+      "No No No No NO",
+      "Mother.",
+      "Ah bullshit.",
+      "Shit.",
+      "Goddammit."
+    ],
+    "ScavengeStartTeenGirl": [
+      "Let's go",
+      "Come on, lets go!",
+      "We need  to get going guys"
+    ],
+    "L4D1IntroSmalltownTeenGirl": [
+      "I heard the military was holding out Riverside."
+    ],
+    "L4D1IntroSmalltownEasterEggTeenGirl": [
+      "I heard the military was holding out Riverside."
+    ],
+    "L4D1IntroSmalltown2TeenGirl": [
+      "Unless anyone has a better plan, I say we head there."
+    ],
+    "L4D1IntroSmalltown2EasterEggTeenGirl": [
+      "Unless anyone has a better plan, I say we head there."
+    ],
+    "L4D1IntroSmalltown2EasterEgg3TeenGirl": [
+      "<Hearty Laugh>"
+    ],
+    "L4D1SurvivorSpawnTeenGirl": [
+      "Hello!",
+      "Hey, I'm here.",
+      "I'm here!"
+    ],
+    "PlayerCommentJockeyTeenGirl": [
+      "That doesn't look right.",
+      "What is that zombie doing to him.",
+      "Did you see that?"
+    ],
+    "L4D1PlayerBillPouncedTeenGirl": [
+      "Bill!",
+      "Hunter's got Bill!"
+    ],
+    "L4D1PlayerBounceReactionTeenGirl": [
+      "Yeah... yeah, I'm ready to bounce (laughing)"
+    ],
+    "L4D1PlayerEatPillsTeenGirl": [
+      "Ahhh"
+    ],
+    "L4D1PlayerFrancisPouncedTeenGirl": [
+      "Francis!",
+      "Hunter's got Francis!"
+    ],
+    "L4D1PlayerGetInsideCheckPointTeenGirl": [
+      "Everyone inside!",
+      "Get inside!",
+      "Guys, get inside!",
+      "Come on, come on! Everyone in here!",
+      "Everyone, in here!"
+    ],
+    "L4D1PlayerGrenadeTeenGirl": [
+      "GRENADE!",
+      "FIRE IN THE HOLE!"
+    ],
+    "L4D1PlayerIncapacitatedInitialTeenGirl": [
+      "Ahhhh, I'm down!",
+      "Crap, I'm down",
+      "GODdamnit, I'm down!"
+    ],
+    "L4D1PlayerKillConfirmationTeenGirl": [
+      "Got it!",
+      "Nailed it!",
+      "Got 'em"
+    ],
+    "L4D1PlayerKillTankConfirmationTeenGirl": [
+      "Got it!",
+      "Got 'em"
+    ],
+    "L4D1PlayerKillTankNotHealthyTeenGirl": [
+      "Oh my god, we made that. Can you believe it?",
+      "We did it. Can you believe it?",
+      "Thank God!",
+      "Sweet Jesus!",
+      "That was close",
+      "Close one",
+      "Close one."
+    ],
+    "PlayerRemarkremark_caralarmTeenGirl": [
+      "Don't shoot that car!"
+    ],
+    "L4D1C9M2KillTankTeenGirl": [
+      "No rush, lift. Take your time!"
+    ],
+    "L4D1PlayerLockTheDoorCheckPointTeenGirl": [
+      "Lock the door.",
+      "Close the door, please! (angry)",
+      "Lock that door.",
+      "Can you lock that door?!"
+    ],
+    "L4D1PlayerLouisPouncedTeenGirl": [
+      "Louis!",
+      "Hunter's got Louis!"
+    ],
+    "L4D1PlayerRemarkairport01_burningTeenGirl": [
+      "Last time I was here, the city wasn't so much on fire..."
+    ],
+    "C11M1LeavingSafeTeenGirl": [
+      "Through the greenhouse"
+    ],
+    "L4D1PlayerSuggestHealthTeenGirl": [
+      "Might be a good time for a health kit.",
+      "You should heal up",
+      "C'mon man, use your first aid kit",
+      "You might want to heal up.",
+      "Use your first aid kit"
+    ],
+    "L4D1PlayerSuggestHealthBillTeenGirl": [
+      "Might be a good time for a health kit.",
+      "Bill, might be time to heal up.",
+      "You should heal up",
+      "C'mon man, use your first aid kit",
+      "You might want to heal up.",
+      "Use your first aid kit",
+      "Bill, use your first aid kit"
+    ],
+    "L4D1PlayerSuggestHealthFrancisTeenGirl": [
+      "Francis, you might want to heal.",
+      "You should heal up",
+      "C'mon man, use your first aid kit",
+      "You might want to heal up.",
+      "Use your first aid kit",
+      "Francis, use your first aid kit"
+    ],
+    "L4D1PlayerSuggestHealthLouisTeenGirl": [
+      "Louis, come on, patch yourself up.",
+      "Louis, use your first aid kit"
+    ],
+    "L4D1PlayerTransitionTeenGirl": [
+      "YESSS!",
+      "We are kickin' ass",
+      "Whoo!",
+      "That was good",
+      "Nice",
+      "Sweet",
+      "Killer"
+    ],
+    "L4D1PlayerTransitionCloseTeenGirl": [
+      "That was close",
+      "Close one",
+      "Oh my god, we made that. Can you believe it?",
+      "We did it. Can you believe it?"
+    ],
+    "L4D1PlayerWarnHeardBoomerTeenGirl": [
+      "I think one of those vomit bags is around here",
+      "Sounds like a boomer's around",
+      "Ahh a Boomer. Hear it?",
+      "Ugh, I can hear a boomer sloshing around",
+      "ah no... I think I hear a boomer",
+      "I hear a Boomer",
+      "Oh god, there's a boomer around",
+      "Hear that boomer?",
+      "I think I hear a boomer",
+      "Wait up, I hear a boomer",
+      "Boomer, hear it?",
+      "Ugh, yuck. Another Boomer. You hear that?",
+      "Hear that? Boomer.",
+      "Boomer, don't let it puke on you."
+    ],
+    "L4D1PlayerWarnHeardHunterTeenGirl": [
+      "There's a Hunter around",
+      "There's a Hunter out there.",
+      "Hunter around, don't get pounced",
+      "Careful, a Hunter's around.",
+      "Crap, hunter.",
+      "I think I hear a Hunter.",
+      "Pretty sure I can hear a hunter [calm]",
+      "Hear that hunter? [calm]",
+      "I know that noise, Hunter",
+      "Hunter, hear it?",
+      "Hunter and it's close."
+    ],
+    "L4D1PlayerWarnHeardSmokerTeenGirl": [
+      "There's a Smoker around here.",
+      "Smoker... don't get hung.",
+      "Watch the roof tops, there's a smoker around.",
+      "I hear a Smoker.",
+      "Careful, Smoker.",
+      "I know that sound - a Smoker!",
+      "Smoker... don't let him hang you."
+    ],
+    "L4D1PlayerWarnHeardWitchTeenGirl": [
+      "I think I hear a Witch",
+      "Sounds like a Witch",
+      "Shhh.... witch",
+      "Quiet, listen.",
+      "Quiiii-et, I hear a Witch.",
+      "That sounds like a Witch",
+      "It's a Witch. Don't disturb her and we'll be okay."
+    ],
+    "PlayerHeardWitchTeenGirl": [
+      "I think I hear a Witch",
+      "Sounds like a Witch",
+      "Shhh.... witch",
+      "Quiet, listen.",
+      "Quiiii-et, I hear a Witch.",
+      "That sounds like a Witch",
+      "It's a Witch. Don't disturb her and we'll be okay."
+    ],
+    "L4D1PlayerWarnMegaMobTeenGirl": [
+      "Incoming!",
+      "They're coming!",
+      "Here they come!",
+      "Get ready!",
+      "Oh god, get ready, here they come!",
+      "Ohhh crap, get ready!",
+      "Here they come, boys!",
+      "Get ready, here they come!",
+      "Hold on, here they come!",
+      "Uh oh. Get ready!",
+      "Uh oh. Here they come!",
+      "They're coming, boys!"
+    ],
+    "L4D1PlayerWarnWitchAngryTeenGirl": [
+      "The witch's getting mad!",
+      "Ohhh... that witch is not happy",
+      "Don't piss off the witch!",
+      "Don't make the witch angry!"
+    ],
+    "L4D1SurvivorCaughtVomitTeenGirl": [
+      "[Yecch!]",
+      "Oh god!",
+      "Ahhh ugh! Oh god!",
+      "Oh yuck, not again!",
+      "It slimed me!",
+      "sptting gross noises",
+      "Achhh...",
+      "Ewwww...",
+      "Ahhchh!",
+      "Oh my god.",
+      "Ohhhhh!",
+      "Gross!"
+    ],
+    "L4D1SurvivorCoughingTeenGirl": [
+      "[Coughing from smoke]"
+    ],
+    "L4D1SurvivorDeathTeenGirl": [
+      "[Death rattle]",
+      "[Short quick death scream]",
+      "[Loud painful death scream]"
+    ],
+    "L4D1SurvivorGrabbedByTongueTeenGirl": [
+      "no, No, No, NO, NOOOOOOO!!!!!!!!!",
+      "no, No, No, NO, NO, NOOOOOOO!!!!!!!!!",
+      "no, No,  No, NO, NO!!!!!!!!",
+      "no, No,  No, NO!!!!!!!!"
+    ],
+    "L4D1PlayerWitchChasingTeenGirl": [
+      "Come on guys, I need some help!",
+      "Hey! Help!",
+      "no, No,  No, NO, NO!!!!!!!!"
+    ],
+    "L4D1PlayerWitchStartAttackTeenGirl": [
+      "Ohhh nooooo!",
+      "Dammit.",
+      "Crap!",
+      "Shit."
+    ],
+    "L4D1SurvivorTankPoundTeenGirl": [
+      "Get him the hell off me!",
+      "He's crushing me! He's crushing me!",
+      "Oh God! He's crushing me!",
+      "Kill him! KILL HIM!",
+      "Get him off me! Get him off me!"
+    ],
+    "L4D1SurvivorVocalizeBackUpTeenGirl": [
+      "Back back back!",
+      "Back back!",
+      "Move back",
+      "Back it up!",
+      "Back up!",
+      "Get Back"
+    ],
+    "L4D1SurvivorVocalizeEmphaticGoTeenGirl": [
+      "Go go go!",
+      "Move move move!",
+      "Move move!",
+      "GO!",
+      "Go!",
+      "MOVE!",
+      "Come on, move",
+      "Let's go, Let's go"
+    ],
+    "L4D1SurvivorVocalizeGoingToDieTeenGirl": [
+      "I don't feel so hot",
+      "I'm not doing so good, guys",
+      "This is really bad",
+      "Guys, I'm really torn up",
+      "I think I hurt something bad, real bad",
+      "This is not going well",
+      "Man, I feel like crap",
+      "Guys? I'm pretty hurt",
+      "Ohh... this is really starting to hurt",
+      "I'm really hurt, guys",
+      "I think I really hurt something",
+      "I'm not feeling real hot",
+      "I feel terrible",
+      "I feel awful",
+      "God.  This really hurts",
+      "Ohhhh God, I'm really hurt",
+      "I feel like crap.",
+      "Goddammit, this hurts.",
+      "Oh, jesus, I've got tooth marks on me.",
+      "I hope I'm immune to tetanus too.",
+      "Ow. ow ow ow."
+    ],
+    "L4D1SurvivorVocalizeGoingToDie3TeenGirl": [
+      "I don't know if I am going to make it",
+      "Guys, I don't think I'm going to make it without any help",
+      "I need some help or I'm going to die",
+      "I go down again and I'm dead",
+      "Oh god, I'm going to die"
+    ],
+    "L4D1SurvivorVocalizeGoingToDieAloneTeenGirl": [
+      "[Nervous Humming]",
+      "[Nervous Whistle]"
+    ],
+    "L4D1SurvivorVocalizeLookOutTeenGirl": [
+      "Look out!",
+      "Watch out!",
+      "Behind you!!"
+    ],
+    "SurvivorVocalizeLookOutCoachTeenGirl": [
+      "Watch out Coach!"
+    ],
+    "SurvivorVocalizeLookOutNickTeenGirl": [
+      "Watch out Nick!"
+    ],
+    "SurvivorVocalizeLookOutEllisTeenGirl": [
+      "Watch out Ellis.",
+      "Ellis be careful!"
+    ],
+    "SurvivorVocalizeLookOutRochelleTeenGirl": [
+      "Watch out Rochelle!"
+    ],
+    "L4D1SurvivorVocalizeThisWayTeenGirl": [
+      "Come on, this way!",
+      "This way, guys!",
+      "Follow me!",
+      "This way!",
+      "I think we should go this way.",
+      "I'll go first.",
+      "Over here, this way!",
+      "Okay, I'll go first.",
+      "We need to go this way.",
+      "Follow me! I know where I'm going. Come on!"
+    ],
+    "L4D1SurvivorVocalizeWaitHereTeenGirl": [
+      "Can we wait here?",
+      "Hold up a sec",
+      "Wait a sec",
+      "Wait up!",
+      "Hold up!",
+      "Everybody stop!"
+    ],
+    "Player.C7M2CrowsFlyTeenGirl": [
+      "Great, crows.",
+      "Ah! Dammit! Stupid birds.",
+      "Shut. Up. You. Stupid. Crows."
+    ],
+    "Player.C7M3BridgeLeapTeenGirl": [
+      "Stay put! I'll be right back! I hope.",
+      "Stay up there! I got this!",
+      "What am I doing what am I doing what am I doing...",
+      "This is the last time you're gonna see these! Guns!",
+      "I've got this! Not a big deal.  Oh... shit.",
+      "I've got a plan! Stay there!",
+      "Don't get off the bridge!",
+      "I'll miss you guys! Stay there!",
+      "I'll be back! Oh god, no I won't..."
+    ],
+    "Player.C7M3BridgeLeapLouisTeenGirl": [
+      "Louis! I will always be your friend!",
+      "Louis, you sure you can't get up?  Can you try?"
+    ],
+    "SacrificeSuccessfulTeenGirl": [
+      "[Short quick death scream]",
+      "[Loud painful death scream]"
+    ],
+    "SacrificeFailedTeenGirl": [
+      "Oh god, I am so screwed."
+    ],
+    "PlayerGrabbedByJockeyTeenGirl": [
+      "[improv quick yelp]",
+      "[pain noise - loud major pain]",
+      "[pain noise - huh]",
+      "[pain noise - ugh]",
+      "[pain noise - short minor pain]",
+      "[Improv non-verbal displeasure sounds]",
+      "scene \"scenes/TeenGirl/ScreamWhilePounced03.vcd\"",
+      "GET IT OFF ME!",
+      "GET IT GET IT OFF GET IT OFF!",
+      "[reaction to body hits - uhs ahs]"
+    ],
+    "PlayerRevivedByDefibrillatorTeenGirl": [
+      "DAAAH!",
+      "(gasp)"
+    ],
+    "PlayerRevivedByDefibrillator2TeenGirl": [
+      "YESSS!",
+      "Yeah!",
+      "Oh hell yeah!",
+      "That was good",
+      "Hello!",
+      "Really, thanks",
+      "Like, thanks",
+      "That was close",
+      "Holy shit..."
+    ],
+    "PlayerUsingDefibrillatorTeenGirl": [
+      "Clear!",
+      "Clear.",
+      "Come on get up."
+    ],
+    "SurvivorchargerpoundTeenGirl": [
+      "Get him the hell off me!",
+      "He's crushing me! He's crushing me!",
+      "Oh God! He's crushing me!",
+      "Kill him! KILL HIM!",
+      "Get him off me! Get him off me!"
+    ],
+    "SurvivorGooedBySpitterTeenGirl": [
+      "Go!",
+      "Ewwww...",
+      "Gross!",
+      "Shit.",
+      "Mother.",
+      "Ah bullshit.",
+      "Goddammit."
+    ],
+    "SurvivorWarnSpitterIncomingTeenGirl": [
+      "Heads up!",
+      "Incoming!",
+      "Look out!",
+      "Watch out!"
+    ],
+    "SurvivorPouncedByHunterTeenGirl": [
+      "GET IT OFF ME!",
+      "GET IT OFF GET IT OFF!",
+      "scene \"scenes/TeenGirl/ScreamWhilePounced03.vcd\"",
+      "GET IT GET IT OFF GET IT OFF!"
+    ],
+    "L4D1PlayerLedgeHangEndTeenGirl": [
+      "I'M SLIPPING OFF! PULL ME UP!",
+      "Ohhh shit! HELP ME!",
+      "Oh god oh god oh god. I'M GONNA FALL! HELP MEEE!",
+      "I CAN'T HOLD ON - I'M GONNA FALL!",
+      "Oh god, I need help!  Don't let me die like this!",
+      "Help me! I can't hold on any longer!",
+      "I... please help! Please!",
+      "I'M OVER HERE!"
+    ],
+    "L4D1PlayerLedgeHangMiddleTeenGirl": [
+      "I can't hang on, please help me!",
+      "I can't hang on much longer.",
+      "Hey guys, uh... I really need some help here.",
+      "Can one of you guys help me up?"
+    ],
+    "L4D1PlayerLedgeHangStartTeenGirl": [
+      "Can someone help me up?",
+      "I could use a hand here please",
+      "Can someone help me please?",
+      "Can someone give me a hand please?",
+      "Hey guys, I could use a hand",
+      "Come on guys, help me out."
+    ],
+    "L4D1SurvivorFirstDeathTeenGirl": [
+      "This is going to hell real fast!",
+      "It's not going to get any better you know."
+    ],
+    "L4D1DoubleDeathTeenGirl": [
+      "It's just you and me left!"
+    ],
+    "L4D1DeathOneTeenGirl": [
+      "Oh, shit man, no. No. NO!"
+    ],
+    "L4D1TeamKillTeenGirl": [
+      "Oh, shit man, no. No. NO!",
+      "Be careful!",
+      "Stop Stop!",
+      "Woah.  Careful!"
+    ],
+    "L4D1SurvivorPickupAutoShotgunTeenGirl": [
+      "This shotgun is sweet",
+      "I'm grabbing this shotgun",
+      "I'll take the shotgun.",
+      "I call shotgun (smiling)",
+      "I'll give the shotgun a try",
+      "I think I'll ltake the shotgun"
+    ],
+    "L4D1SurvivorPickupFirstAidKitTeenGirl": [
+      "This first aid'll help",
+      "Grabbing First Aid!",
+      "We might need these."
+    ],
+    "L4D1SurvivorPickupHuntingRifleTeenGirl": [
+      "I'm gonna grab this hunting rifle",
+      "I'm grabbing a hunting rifle",
+      "I'm gonna try this sniper rifle"
+    ],
+    "L4D1SurvivorPickupMilitarySniperTeenGirl": [
+      "I'm gonna try this sniper rifle"
+    ],
+    "L4D1SurvivorPickupLaserSightsTeenGirl": [
+      "YESSS!",
+      "Looks good",
+      "Yeah!",
+      "Nice.",
+      "Nice!",
+      "[pleasure & interest sounds]",
+      "Great.",
+      "Cool"
+    ],
+    "L4D1SurvivorPickupMolotovTeenGirl": [
+      "I'm grabbing a Molotov",
+      "Time to start some fires",
+      "Molotov!"
+    ],
+    "L4D1SurvivorPickupPainPillsTeenGirl": [
+      "Yoink!",
+      "Grabbing some pills",
+      "We might need these (inward)",
+      "I might need these pills",
+      "We might need these (outward)"
+    ],
+    "L4D1SurvivorPickupAdrenalineTeenGirl": [
+      "We might need these (inward)",
+      "We might need these (outward)"
+    ],
+    "L4D1SurvivorPickupPipeBombTeenGirl": [
+      "Grabbing a pipe bomb",
+      "Well, this looks dangerous"
+    ],
+    "L4D1SurvivorPickupVomitJarTeenGirl": [
+      "Well, this looks dangerous"
+    ],
+    "L4D1SurvivorPickupPumpShotgunTeenGirl": [
+      "Grabbing a shotgun",
+      "Yeah, shotgun",
+      "I'll try this shotgun"
+    ],
+    "L4D1SurvivorPickupRifleTeenGirl": [
+      "I'm gonna grab this rifle",
+      "Guess I'll try this rifle",
+      "This rifle looks good.",
+      "Ookaay, big rifle",
+      "Gonna grab the rifle",
+      "I'll try this rifle",
+      "I'm going with the rifle"
+    ],
+    "L4D1SurvivorPickupSMGTeenGirl": [
+      "I can handle this",
+      "Grabbing a machinegun",
+      "A machinegun"
+    ],
+    "L4D1TakeShotgunGroovyZoey": [
+      "Groovy"
+    ],
+    "L4D1TakeShotgunGroovyZoeyLaugh": [
+      "<Short laugh>",
+      "<Nervous laugh>"
+    ],
+    "SurvivorDeployUpExplosivesTeenGirl": [
+      "Hold up a sec",
+      "Hold up!",
+      "Everybody stop!",
+      "Ammo here!"
+    ],
+    "SurvivorDeployUpIncendiaryTeenGirl": [
+      "Boys, let's starts a fire!"
+    ],
+    "SurvivorPickupSecondPistolTeenGirl": [
+      "Two pistols, cool.",
+      "I'm taking an extra pistol.",
+      "Grabbing a pistol",
+      "Grabbing an extra pistol",
+      "Another pistol, yeah, this'll work"
+    ],
+    "L4D1SurvivorPickupMeleeTeenGirl": [
+      "YESSS!",
+      "Looks good",
+      "YEAH!",
+      "Yeah!",
+      "Okay.",
+      "Nice.",
+      "Nice!",
+      "[pleasure & interest sounds]",
+      "Great.",
+      "Cool"
+    ],
+    "SurvivorPickupChainSawGroovyTeenGirl": [
+      "Oh yeah, lovely."
+    ],
+    "SurvivorPickupM60TeenGirl": [
+      "I can handle this"
+    ],
+    "L4D1PlayerChainSawUsedTeenGirl": [
+      "Thats right. [grim, determined]",
+      "YEAH!",
+      "Oh yeah!",
+      "Oh yeah, lovely.",
+      "OH YEAH!",
+      "YEAHHHH!"
+    ],
+    "L4D1SurvivorPickupUpExplosivesTeenGirl": [
+      "Well, this looks dangerous"
+    ],
+    "L4D1PlayerGettingRevivedTeenGirl": [
+      "I'm okay.",
+      "I'm fine.",
+      "Oh shit.",
+      "I don't know.",
+      "I'm bleeding.",
+      "Ughhh.",
+      "I'll make it.",
+      "How do I look?",
+      "Is it bad?",
+      "How bad is it?",
+      "Did they get my face?"
+    ],
+    "L4D1PlayerHealOtherTeenGirl": [
+      "Let me patch you up.",
+      "Hold on, let me patch you up.",
+      "Stay still, I can help you.",
+      "Wait up, this will only take a second.",
+      "I know we gotta move, but I gotta heal you."
+    ],
+    "L4D1PlayerHealOtherCombatTeenGirl": [
+      "Hold on!",
+      "Keep firing while I heal you.",
+      "Keep shooting while I heal you.",
+      "That's it, keep firing I'm gonna patch you up.",
+      "Hold on! Hold on!",
+      "Hold on! I'm gonna patch ya up!",
+      "Hold still! Lemme help!",
+      "Hold still! I got ya!",
+      "Lemme heal you!",
+      "Hang on. I got ya!",
+      "Stand still, I'm healin' you!",
+      "Stop with the hero bullshit, I gotta heal you!"
+    ],
+    "L4D1PlayerLedgeSaveLouisTeenGirl": [
+      "Louis, You are going to get yourself killed. Let me help you up."
+    ],
+    "L4D1PlayerReviveFriendTeenGirl": [
+      "Hang on. It's all right. I gotcha. Now get up - we gotta move.",
+      "This isn't it for you yet.  C'mon, up and at 'em. We gotta keep moving.",
+      "I have you. Lie still and let me help.  We gotta get you back on your feet. Okay, up we go.",
+      "I gotcha - I was worried there.  Now get up, come on. We gotta keep moving.",
+      "This looks bad, but I can get your back up.  Get you moving again.",
+      "Here, let me help you up. I gotcha. I'm gonna help you. We're gonna get you fixed up.",
+      "Allright, Tiger, up and at 'em. Nobody's leaving anyone behind. You're gonna be fine, but we gotta keep moving.",
+      "Okay, okay, you're okay.  I was worried there.  Let's get you up on your feet.",
+      "I have you, you're gonna be allright. Just let me fix this up, okay? Allright... Good as new.",
+      "Come on, we have to get you up.  We need to keep moving.",
+      "Don't worry, I can help you up..  I can help.",
+      "I can get your back up.  Get you moving again.",
+      "You okay?",
+      "How do you feel?",
+      "Can you make it?",
+      "You gonna make it?",
+      "How bad are you?",
+      "How ya doin'?"
+    ],
+    "L4D1PlayerReviveFriendCriticalTeenGirl": [
+      "It's all right - I gotcha. Boy we need to find you some first aid. If you go down like this again, that's it for you.",
+      "You're going to be okay, I can get you back up,  but we need to find you some first aid. If you go down like this again, that's it for you.",
+      "Don't worry, don't worry, I can help.  But we need to find you some first aid. If you go down like this again, that's it for you.",
+      "I' m here. I'll help you. We need to find you some first aid. If you go down like this again, that's it for you.",
+      "Let me help you up. We really need to find you some first aid. If you go down like this again, that's it for you.",
+      "Okay, I think I can get you back on your feet, but we need to find you some first aid. If you go down like this again, that's it for you.",
+      "Let me help you.  You should be okay for a little bit, but we need to find you some first aid. If you go down like this again, that's it for you."
+    ],
+    "L4D1PlayerReviveFriendLoudTeenGirl": [
+      "Come on, come on! I got you, you're going to be okay.",
+      "Oh god, oh god, let's get you back up on your feet",
+      "It's all right, you are going to be okay  easy, easy",
+      "Hold on. I'm gonna get you up!",
+      "Dude, I'm half your size. Come on, get up!"
+    ],
+    "L4D1PlayerReviveFriendLoudBillTeenGirl": [
+      "Get the hell up, Bill!",
+      "William! Get your ass up! We gotta go!",
+      "I can't carry you, Bill. Get up!",
+      "Bill, I'm not gonna carry you. Get up!"
+    ],
+    "L4D1PlayerReviveFriendLoudFrancisTeenGirl": [
+      "Francis, let's go, get up!",
+      "Francis, we don't have time for this, come on!"
+    ],
+    "L4D1PlayerReviveFriendLoudLouisTeenGirl": [
+      "Don't make me leave your ass behind, Louis. Get up!",
+      "Louis, come on, get up!"
+    ],
+    "L4D1ReviveFriendDownFinalTeenGirl": [
+      "Up and at 'em.",
+      "Come on get up.",
+      "Up ya go.",
+      "You'll be okay.",
+      "I got ya.",
+      "Up we go.",
+      "You're fine.",
+      "It doesn't look bad.",
+      "Come on up!",
+      "Let's move!",
+      "Come on, I'm the girl here.",
+      "Stop whining. Let's go."
+    ],
+    "L4D1ReviveFriendDownFinalManagerTeenGirl": [
+      "You're okay, Louis."
+    ],
+    "L4D1ReviveFriendDownFinalNamVetTeenGirl": [
+      "It's okay, Bill."
+    ],
+    "PlayerLedgeSaveTeenGirl": [
+      "Hang on. I got you. Don't worry, I can help you. Let me help you up.",
+      "I can help you, hang on, hang on. I got you. Let's get you up.",
+      "I got you, you're not gonna fall. Here, let me help you up.",
+      "Don't worry, you won't fall.  I have you.  Let's get you up on your feet."
+    ],
+    "L4D1PlayerAirportIntroTeenGirl": [
+      "Looks like the airport's still operating.  Let's try to get there.",
+      "That plane's headed right for the airport. Maybe they're still evacuating.",
+      "Flying out of this place would be a lot easier than walking."
+    ],
+    "L4D1PlayerAirportIntrozbTeenGirl": [
+      "It's worth a try.",
+      "We can't stay up here forever."
+    ],
+    "L4D1PlayerHospitalIntro02TeenGirl": [
+      "Good thinking!",
+      "Well, I guess we're going to the hospital."
+    ],
+    "InfoReminfo_powerboat4TeenGirl": [
+      "Francis, you do know what a sailboat looks like right?",
+      "Francis, do you even know what a sail boat looks like?",
+      "Francis, do you even know what a sailboat looks like?"
+    ],
+    "L4D1PlayerCoverMeHealTeenGirl": [
+      "Hold up, gotta heal",
+      "Cover me!",
+      "Watch my back!",
+      "Would you please cover me!",
+      "Healing! Cover me!",
+      "Watch my back, please!",
+      "Come on, man, over me!"
+    ],
+    "AutoPlayerLostCallTeenGirl": [
+      "Hello?",
+      "Where are you guys?",
+      "Is anyone there?",
+      "Helloooo?",
+      "Anyone Around?",
+      "Hey guys, where are you?",
+      "Guys?"
+    ],
+    "SurvivorSpottedM60TeenGirl": [
+      "Guys, big, badass, nasty weapons over here!"
+    ],
+    "SurvivorSpottedWeaponsTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Hey, there's weapon' over here!",
+      "Guys, better weapons!"
+    ],
+    "SurvivorSpottedMeleeWeaponTeenGirl": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Hey, there's weapon' over here!"
+    ],
+    "SurvivorSpottedRifleAutoTeenGirl2": [
+      "Cool.",
+      "Yeah."
+    ],
+    "L4D1PlayerLighthouseIntroTeenGirl": [
+      "Think anyone is still alive?",
+      "Well, boys, I guess we're walking."
+    ],
+    "L4D1PlayerLighthouseIntro01aTeenGirl": [
+      "You're an optimist, I'll give you that Louis."
+    ],
+    "L4D1RemarkC14M1HumveeTeenGirl": [
+      "This way!"
+    ],
+    "L4D1C14M1PlaneFlyByTeenGirl": [
+      "Look",
+      "Look!"
+    ],
+    "L4D1C14M1EngineBrokeTeenGirl": [
+      "Shit.",
+      "Oh, bullshit."
+    ],
+    "L4D1RemarkC14M1CabinUpstairsTeenGirl": [
+      "Up here guys! Let's go!",
+      "Up here guys!"
+    ],
+    "L4D1RemarkC14M1JunkyardEntranceTeenGirl": [
+      "I think we can go through here, guys.",
+      "Let's go through here."
+    ],
+    "L4D1RemarkC14M1TraincarTeenGirl": [
+      "Through here!"
+    ],
+    "L4D1RemarkC14M1PrePanicTeenGirl": [
+      "Let's get ready before we hit it."
+    ],
+    "L4D1C14M1PanicSpeakQuickReadyTeenGirl": [
+      "Got it!"
+    ],
+    "L4D1C14M1PanicSpeakTeenGirl": [
+      "Let's go."
+    ],
+    "L4D1C14M1PowerOutTeenGirl": [
+      "POWER'S OUT!",
+      "Crap! That generator stalled!",
+      "Damnit to hell, that generator's out.",
+      "You're kidding me, that generator's out."
+    ],
+    "L4D1C14M1GeneratorActivatedSpeakTeenGirl": [
+      "Done! To the next generator.",
+      "Let's go, we have more generators.",
+      "This one is done, let's go!"
+    ],
+    "L4D1C14M1ThirdGeneratorActivatedSpeakTeenGirl": [
+      "Last generator.",
+      "One more!",
+      "We're almost out here! One more generator!"
+    ],
+    "L4D1C14M1LastGeneratorActivatedSpeakTeenGirl": [
+      "Whoo!"
+    ],
+    "L4D1C14M1PathClearTeenGirl": [
+      "Let's go, let's go"
+    ],
+    "L4D1RemarkC14M1DownCliffTeenGirl": [
+      "Come on, this way!"
+    ],
+    "L4D1RemarkC14M2GateTeenGirl": [
+      "We need to get over this fence.",
+      "We can get on the other side of the fence up here!"
+    ],
+    "L4D1C14M2RadioSpeakTeenGirl": [
+      "Hello?",
+      "Is anyone there?"
+    ],
+    "L4D1C14M2RadioDestroyedTeenGirl": [
+      "Shit.",
+      "Dammit."
+    ],
+    "L4D1RemarkC14M2DropTeenGirl": [
+      "Let's go, you guys ready?"
+    ],
+    "L4D1RemarkC14M2NoteLighthouseTeenGirl": [
+      "Look over here!",
+      "Look here."
+    ],
+    "L4D1C14M2NoteLighthouse2TeenGirl": [
+      "I have a bad feeling about this"
+    ],
+    "L4D1C14M2PowerOutAgainTeenGirl": [
+      "Not again"
+    ],
+    "L4D1SurvivorFinalVehicleSpottedBoatC14M2TeenGirl": [
+      "Boat's here, let's go",
+      "The boat's here! Come on, let's go!"
+    ]
+  },
+  "NamVet": {},
+  "Manager": {},
+  "Biker": {}
+}

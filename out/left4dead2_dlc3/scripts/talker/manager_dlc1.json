@@ -1,0 +1,113 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {},
+  "NamVet": {},
+  "Manager": {
+    "L4D1PlayerNiceShotManager": [
+      "Nice job.",
+      "That was great.",
+      "Nice shot!",
+      "Oh man, great shot.",
+      "Wooo, nice baby!",
+      "Nice one!",
+      "Great shot!"
+    ],
+    "c6m3_outroL4D1Manager": [
+      "Bye! Be safe! We're gonna miss you!"
+    ],
+    "c6m3_outroL4D102aManager": [
+      "It was nice see normal people again.",
+      "It was nice see normal people again. Except for that Nick guy..."
+    ],
+    "c6m3_outroL4D106aManager": [
+      "Go Ellis! GO!"
+    ],
+    "c6m3_outroL4D1AllManager": [
+      "I'm gonna miss them.",
+      "Should we have told them?",
+      "BYE RO! BYE COACH! BYE ELLIS! BYE WHATEVER YOUR NAME IS!",
+      "I've got a good feeling about them. I think they're gonna be okay."
+    ],
+    "c6m3_outroL4D1CoachManager": [
+      "Bye Coach! Keep it positive!",
+      "I think we're gonna be seeing more of that guy!"
+    ],
+    "c6m3_outroL4D1GamblerManager": [
+      "I think we're gonna be seeing more of that guy!"
+    ],
+    "c6m3_outroL4D1MechanicManager": [
+      "Bye Ellis! You're gonna make it to New Orleans! I know you will!"
+    ],
+    "C6M3VocalizeLookOutManager": [
+      "Look out!",
+      "Watch out!",
+      "Heads up!"
+    ],
+    "L4D1_NiceJobPourManager": [
+      "Nice work.",
+      "Nice job."
+    ],
+    "WorldC6M3_ByBridge01Manager": [
+      "Get to your car, we got 'em.",
+      "Get going! Get going!"
+    ],
+    "L4D1AlsoSpottedBoomerManager": [
+      "BOOMER!"
+    ],
+    "L4D1AlsoSpottedHunterManager": [
+      "HUNTER!"
+    ],
+    "L4D1AlsoSpottedSmokerManager": [
+      "SMOKER!"
+    ],
+    "L4D1AlsoSpottedTankManager": [
+      "Lead those puppies this way!",
+      "I am going to rip those tanks up!",
+      "This is just why we put this up here!",
+      "This is why we put this baby up here!",
+      "TWO TANKS!"
+    ],
+    "L4D1SpottedBoomerManager": [
+      "BOOMER!"
+    ],
+    "L4D1SpottedChargerManager": [
+      "CHARGER!"
+    ],
+    "L4D1SpottedHunterManager": [
+      "HUNTER!"
+    ],
+    "L4D1SpottedJockeyManager": [
+      "JOCKEY!"
+    ],
+    "L4D1SpottedSmokerManager": [
+      "SMOKER!"
+    ],
+    "L4D1SpottedSpitterManager": [
+      "SPITTER!"
+    ],
+    "L4D1SpottedTankManager": [
+      "Lead those puppies this way!",
+      "I am going to rip those tanks up!",
+      "This is just why we put this up here!",
+      "This is why we put this baby up here!",
+      "TWO TANKS!"
+    ],
+    "L4D1PlayerKillConfirmationManager": [
+      "Got it!",
+      "Killed it!",
+      "Dead!"
+    ],
+    "L4D1PlayerKillConfirmationTankManager": [
+      "That is for Bill!"
+    ],
+    "L4D1PlayerWarnMegaMobManager": [
+      "Here they come!",
+      "They're comin'!",
+      "Incoming!"
+    ]
+  },
+  "Biker": {}
+}

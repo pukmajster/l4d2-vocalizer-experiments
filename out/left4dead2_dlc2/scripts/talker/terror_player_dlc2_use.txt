@@ -1,0 +1,15 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc2/scripts/talker/terror_player_dlc2_use.txt
+-------------------------------------------------------
+
+RULE HitCraneButtonBiker CRITERIA ConceptAirport02CraneStarted PanicEventBiker RESPONSE HitCraneButtonBiker
+RULE HitCraneButtonTeenGirl CRITERIA ConceptAirport02CraneStarted PanicEventTeenGirl RESPONSE HitCraneButtonTeenGirl
+RULE HitCraneButtonNamVet CRITERIA ConceptAirport02CraneStarted PanicEventNamVet RESPONSE HitCraneButtonNamVet
+RULE HitCraneButtonManager CRITERIA ConceptAirport02CraneStarted PanicEventManager RESPONSE HitCraneButtonManager
+RULE Airport03FireStartedBiker CRITERIA ConceptAirport03FireStarted PanicEventBiker RESPONSE Airport03FireStartedBiker
+RULE Airport03FireStartedTeenGirl CRITERIA ConceptAirport03FireStarted PanicEventTeenGirl RESPONSE Airport03FireStartedTeenGirl
+RULE Airport03FireStartedNamVet CRITERIA ConceptAirport03FireStarted PanicEventNamVet RESPONSE Airport03FireStartedNamVet
+RULE Airport03FireStartedManager CRITERIA ConceptAirport03FireStarted PanicEventManager RESPONSE Airport03FireStartedManager
+
+
+

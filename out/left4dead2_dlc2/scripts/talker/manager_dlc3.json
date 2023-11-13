@@ -1,0 +1,637 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {},
+  "NamVet": {},
+  "Manager": {
+    "C7M1_saferoom03aManager": [
+      "Why's that?"
+    ],
+    "C7M1_saferoom05aManager": [
+      "I think she's mad at Bill."
+    ],
+    "C7M1_saferoom08aManager": [
+      "Actually, I'd like to see that too!",
+      "Actually, I would have liked to see that too!"
+    ],
+    "C7M1_saferoom12Manager": [
+      "I'm pissed too!"
+    ],
+    "C7M1_saferoom15cManager": [
+      "Well, thanks, man!"
+    ],
+    "C7M1_saferoom18aManager": [
+      "I got a good feeling about this island."
+    ],
+    "C7M1_saferoom19Manager": [
+      "Zoey, come on.  We have to work together."
+    ],
+    "C7M1_saferoom19bManager": [
+      "Come on, we have to keep moving."
+    ],
+    "C7M1_saferoom21Manager": [
+      "Francis am I alone in hating boats?"
+    ],
+    "C7M1_saferoom22aManager": [
+      "I'm trying to keep my head up Bill.",
+      "Look, I'm trying, Bill. I'm trying."
+    ],
+    "C7M1_saferoom24Manager": [
+      "Way to go Francis, some cardio is just what we need!"
+    ],
+    "C7M1_saferoom25Manager": [
+      "What do we do if we meet someone?"
+    ],
+    "C7M1_saferoom25bManager": [
+      "How can we be sure they're immune?"
+    ],
+    "C7M1OpenTankDoorManager": [
+      "You all sure no one else doesn't want to open this door?",
+      "Get ready, I'm opening the door.",
+      "I'll open this, but I'm not going to be happy.",
+      "Get ready, I don't have a good feeling about this.",
+      "Stay positive guys, we can handle this.",
+      "Man, why am I always opening these things?"
+    ],
+    "C7M1SafeRoomIdleManager": [
+      "Hey, Bill! Look, there's a boat! Hell, there's boats everywhere.",
+      "We GOTTA be getting close to the Gulf. I can almost smell the salt water.",
+      "Military jail, a train ride, and now\u0085 back to walking?"
+    ],
+    "C7M1SafeRoomStartManager": [
+      "Blank"
+    ],
+    "InfoRemc7m1_pretank02Manager": [
+      "Me?",
+      "Who? Me?"
+    ],
+    "InfoRemc7m1_tankcar01aManager": [
+      "You're welcome."
+    ],
+    "C7M2_saferoom02Manager": [
+      "Let me see. Uh. \"Taki. I love you. Goodbye.\""
+    ],
+    "C7M2_saferoom02bManager": [
+      "I interned in Tokyo."
+    ],
+    "C7M2_saferoom02dManager": [
+      "\"Bill's an idiot.\""
+    ],
+    "C7M2_saferoom03aManager": [
+      "Thinking positive got me where I am, Francis."
+    ],
+    "C7M2_saferoom04Manager": [
+      "Even if it does go back to normal, they're not lettin' us back in. I think this island's the only chance we got.",
+      "Even if it does go back to normal, we won't. I think this island's the only chance we got."
+    ],
+    "C7M2_saferoom05cManager": [
+      "Let's make a note of that for next time, alright?"
+    ],
+    "C7M2SafeRoomIdleManager": [
+      "We're gonna find that sail boat right around the corner. You just watch."
+    ],
+    "C7M2SafeRoomStartManager": [
+      "Blank"
+    ],
+    "Player.WarnMegaMobc7m201Manager": [
+      "Get into the chute!",
+      "Everyone, into the chute!"
+    ],
+    "C7M3_saferoom003aManager": [
+      "How old are you again Bill?",
+      "Bill, did they have TV when you were young?"
+    ],
+    "C7M3_saferoom004Manager": [
+      "But you know, as long as I have a Molotov I can make a firewall!"
+    ],
+    "C7M3_saferoom004aManager": [
+      "Get it Francis?  A firewall?"
+    ],
+    "C7M3_saferoom006bManager": [
+      "No more internet, no more xbox, no more nothing..."
+    ],
+    "C7M3_saferoom007aManager": [
+      "Yeah, I read that in books too."
+    ],
+    "C7M3_saferoom007cManager": [
+      "I don't remember what that feels like."
+    ],
+    "C7M3_saferoom009aManager": [
+      "I like the sound of that."
+    ],
+    "C7M3_saferoom010aManager": [
+      "I always wanted to learn how to fish.",
+      "I always wanted to learn how."
+    ],
+    "C7M3_saferoom011Manager": [
+      "Sounds good to me."
+    ],
+    "C7M3_saferoom013aManager": [
+      "You don't hate it already?"
+    ],
+    "C7M3_saferoom013cManager": [
+      "Man, this is gonna be a long rest of our lives."
+    ],
+    "C7M3_saferoom014aManager": [
+      "Well, hater, I guess you don't have to eat any then."
+    ],
+    "C7M3_saferoom015aManager": [
+      "Just a good feeling, I guess."
+    ],
+    "C7M3_saferoom016bManager": [
+      "I'm in too good a mood to get mad at you, Francis."
+    ],
+    "C7M3_saferoom016dManager": [
+      "Hey Francis, I got a good feeling about wearing your skin as a pretty dress."
+    ],
+    "C7M3_saferoom017Manager": [
+      "Come on, Francis. Give it a rest."
+    ],
+    "C7M3_saferoom017bManager": [
+      "Are you joking?"
+    ],
+    "C7M3_saferoom017dManager": [
+      "Shit, Francis. Well, when we get there, I got your back. I'm gonna keep an eye on that island for ya."
+    ],
+    "C7M3_saferoom017fManager": [
+      "Punk island..."
+    ],
+    "C7M3_saferoom017gManager": [
+      "Punk ass island bitch...",
+      "Punk ass bitch island...",
+      "Punk ass island bitch ya better watch yourself...",
+      "Punk ass island bitch better watch yourself once Louis and Francis on the case."
+    ],
+    "C7M3BridgeBreaksManager": [
+      "The generator's off!",
+      "We need to restart the generator!"
+    ],
+    "C7M3FinalPressBikerManager": [
+      "Thanks Francis!",
+      "Fraaaancis!",
+      "I'm gonna miss that guy.",
+      "FRANCIS!"
+    ],
+    "C7M3FinalPressNamVetManager": [
+      "Bill ! Bill! You saved us!",
+      "No! We're gonna leave him behind!",
+      "Bill! Goddamnit, I'm going to miss you!",
+      "Bill! Bill! You can't be dead! You can't be."
+    ],
+    "C7M3FinalPressTeenGirlManager": [
+      "Oh my god! Zoey!",
+      "Zoey! You saved us!",
+      "Ah Damnit, Zoey's dead!",
+      "Not Zoey!"
+    ],
+    "C7M3GeneratorPress01Manager": [
+      "These generator are going to be noisy, get ready.",
+      "Let's start this generator.",
+      "We need to power these three generators to raise the bridge!",
+      "These generators must be setup to power the bridge."
+    ],
+    "C7M3GeneratorPress02Manager": [
+      "Let's start this generator.",
+      "Allright, allright. Come onnnn. Come on, catch.",
+      "Allright, allright. Come on baby, start for me."
+    ],
+    "C7M3GeneratorPress03Manager": [
+      "Last generator."
+    ],
+    "C7M3PlayerGetToRescueVehicleManager": [
+      "We did it!",
+      "Get to the bridge!"
+    ],
+    "C7M3SafeRoomIdleManager": [
+      "Never thought I'd be happy to be heading to a deserted island.",
+      "You know, I didn't like the idea of a deserted island at first. But I'm startin' to get a good feeling about this.",
+      "You know what I miss?  Checking email.  Seeing what's new.",
+      "One thing I'm not gonna miss about civilization? I.T. I will never have to tell another human being to reboot their damn computer.",
+      "Hey, Zoey. We're actually headed to an island. Top ten desert island movies. Go.",
+      "So, Bill. Once we find a sailboat, how far is it to the Florida Keys?",
+      "So... once we're on a boat...  can zombies swim?",
+      "Bill, when we get to the keys, you got an island in mind?",
+      "Bill, when we get to the keys, you know how to fish?",
+      "Francis, what's the first thing you're gonna do when we get to the island?",
+      "Francis, you ready to get to the keys and have ourselves a seafood feast?",
+      "Once we get to the keys, I'm gonna teach you how to swim Francis.",
+      "Everybody ready to go live on an island in paradise? Man, I cannot wait!"
+    ],
+    "C7M3SafeRoomStartManager": [
+      "Blank"
+    ],
+    "SurvivorSpottedAdrenalineManager": [
+      "Look.",
+      "Look!",
+      "Check this out.",
+      "Look at this."
+    ],
+    "SurvivorSpottedAdrenalineAutoManager": [
+      "Look.",
+      "Look!",
+      "Check this out.",
+      "Look at this."
+    ],
+    "SurvivorSpottedGrenadeLauncherManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedGrenadeLauncherAutoManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedUpPack_ExplosiveManager": [
+      "Look.",
+      "Look!",
+      "Check this out.",
+      "Look at this."
+    ],
+    "SurvivorSpottedUpPack_ExplosiveAutoManager": [
+      "Look.",
+      "Look!",
+      "Check this out.",
+      "Look at this."
+    ],
+    "SurvivorSpottedUpPack_IncendiaryManager": [
+      "Look.",
+      "Look!",
+      "Check this out.",
+      "Look at this."
+    ],
+    "SurvivorSpottedUpPack_IncendiAutoManager": [
+      "Look.",
+      "Look!",
+      "Check this out.",
+      "Look at this."
+    ],
+    "SurvivorSpottedVomitJarManager": [
+      "Look.",
+      "Look!",
+      "Check this out.",
+      "Look at this."
+    ],
+    "SurvivorSpottedVomitJarAutoManager": [
+      "Look.",
+      "Look!",
+      "Check this out.",
+      "Look at this."
+    ],
+    "PlayerToTheRescueRosManager": [
+      "Hold on, I'm on my way!",
+      "Look, I'm coming!",
+      "Don't worry, I'm on my way!"
+    ],
+    "SurvivorTauntResponseManager": [
+      "Aw riiiight!",
+      "Woo baby, Aw riiiight!",
+      "Hell yeah.",
+      "YEAH!",
+      "YEAH WOO!",
+      "That's right!",
+      "Woo Hoo, that's right!",
+      "Yeah, baby, Yeah!",
+      "Alllright!",
+      "Oh yeah, who's your momma, who's your daddy",
+      "Helll yeah, Hell yeah!",
+      "[loud, evil laugh]"
+    ],
+    "PlayerRemarkc7m1_bricktopManager": [
+      "On top the bricks."
+    ],
+    "PlayerRemarkc7m1_harborblockedManager": [
+      "This is why the harbor's closed.",
+      "You sure this is the right way?"
+    ],
+    "PlayerRemarkc7m1_pastbricksManager": [
+      "Past the bricks."
+    ],
+    "PlayerRemarkc7m1_pretankManager": [
+      "Only way is through this car.",
+      "Man, a tank in a train."
+    ],
+    "PlayerRemarkc7m1_tankcarManager": [
+      "Hey Francis what do they make at the tank factory?",
+      "Tanks on a train.",
+      "This is some gross ass shit."
+    ],
+    "PlayerRemarkc7m2_climbupcrapManager": [
+      "We can get back up over here!",
+      "Up that fence!"
+    ],
+    "PlayerRemarkc7m2_gravelhillManager": [
+      "I can barely make it up here!",
+      "This is like running in place.",
+      "Gravel here!"
+    ],
+    "PlayerRemarkc7m2_overboatManager": [
+      "Over the ship!"
+    ],
+    "PlayerRemarkc7m2_throughhereManager": [
+      "Through here!"
+    ],
+    "PlayerRemarkc7m3_seesailboatManager": [
+      "Look, there's the boat we need. Let's get that bridge up and sail out of here.",
+      "Hey Francis, see that?  That's what a sail boat looks like!",
+      "We need to raise the bridge to get that sail boat!",
+      "This looks like the last bridge before open water."
+    ],
+    "PlayerYellRunManager": [
+      "Let's get the hell outta here!",
+      "RUN!"
+    ],
+    "GrabbingGasSCManager": [
+      "Got it!",
+      "Okay."
+    ],
+    "PlayerShotGasCanManager": [
+      "Shit.",
+      "Ah shit.",
+      "Shit shit shit.",
+      "That's some country-ass bullshit."
+    ],
+    "ScavengeStartManager": [
+      "Allright, let's go.",
+      "Let's go.",
+      "Let's Move, Let's Move!"
+    ],
+    "PlayerCommentJockeyDLC3Manager": [
+      "<Hearty Laugh>",
+      "[loud, evil laugh]"
+    ],
+    "FinaleAheadc7m3Manager": [
+      "Allright, let's go.",
+      "Let's move!"
+    ],
+    "Player.C7M2CrowsFlyManager": [
+      "Lookout! Crows!",
+      "Ahhh... look, the crows alerted the zombies!",
+      "Ahhh... dammit... the crows are bringin' the zombies!"
+    ],
+    "Player.C7M3BridgeLeapManager": [
+      "Stay there, don't worry about me none!",
+      "I'll handle this! Cover me!",
+      "I got this! You stay there!",
+      "Good luck you guys!  I got this.",
+      "I'm gonna miss you guys!",
+      "Don't get off the bridge!",
+      "Don't worry, I'll be fine! Stay there!",
+      "I swear to god I'm coming back!",
+      "Stay there! I'll be back in two minutes!",
+      "Do not follow me!",
+      "I love you guys!",
+      "If I go down, don't come after me!"
+    ],
+    "PlayerIncapC7m3Manager": [
+      "Hey guys? Remember when I said don't come after me? Oh god!",
+      "Hey guys? Remember when I said don't come after me? I was kidding, can someone come get me?  HELP!!!!"
+    ],
+    "SurvivorPickupAdrenalineManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupAdrenalineAlwaysManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupbaseball_batManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupchainsawManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupcricket_batManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupCricketBatManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupCrowBarManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupelectric_guitarManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupFireAxeManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupFryingPanManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupGrenadeLauncherManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupIncendiaryAmmoManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupKatanaManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupLaserSightsAlwaysManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupMacheteManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupMagnumManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupMagnumAlwaysManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickuptonfaManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupUpExplosiveAmmoManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupUpExplosivesManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupUpIncendiaryManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupUpIncendiaryAmmoManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupVomitJarManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "SurvivorPickupVomitJarAlwaysManager": [
+      "Oh, Cool",
+      "Allright.",
+      "Okay.",
+      "Cool"
+    ],
+    "PlayerLostCallManager": [
+      "Hello?",
+      "Where is everyone?",
+      "Is anyone there?",
+      "Where'd everyone get to?",
+      "Can anyone hear me?"
+    ],
+    "SurvivorSpottedChainsawManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedChainsawAutoManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedcricket_batManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedcricket_batAutoManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedcrowbarManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedcrowbarAutoManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedGuitarManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedGuitarAutoManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedKatanaManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedKatanaAutoManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedLaserSightsManager": [
+      "Look.",
+      "Look!",
+      "Check this out.",
+      "Look at this."
+    ],
+    "SurvivorSpottedLaserSightsAutoManager": [
+      "Look.",
+      "Look!",
+      "Check this out.",
+      "Look at this."
+    ],
+    "SurvivorSpottedMacheteManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedMacheteAutoManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedMagnumManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedMagnumAutoManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedtonfaManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ],
+    "SurvivorSpottedtonfaAutoManager": [
+      "Weapons here!",
+      "Weapons over here!",
+      "Weapons!"
+    ]
+  },
+  "Biker": {}
+}

@@ -1,0 +1,21 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2/scripts/talker/virgil.txt
+-------------------------------------------------------
+
+RULE C3M4Button101Virgil CRITERIA ConceptC3M4Button101 AutoIsNotScavenge AutoIsNotSurvival _auto_NotButton2 RESPONSE C3M4Button101Virgil
+RULE C3M4Button102Virgil CRITERIA ConceptC3M4Button102 AutoIsNotScavenge AutoIsNotSurvival _auto_NotButton2 RESPONSE C3M4Button102Virgil
+RULE C3M4Button102EllisVirgil CRITERIA ConceptC3M4Button102 ChanceToFire20Percent AutoIsNotScavenge AutoIsNotSurvival _auto_NotButton2 _auto_IsButton1Mechanic RESPONSE C3M4Button102EllisVirgil
+RULE C3M4Button104Virgil CRITERIA ConceptC3M4Button104 AutoIsNotScavenge AutoIsNotSurvival _auto_NotButton2 RESPONSE C3M4Button104Virgil
+RULE C3M4Button202Virgil CRITERIA ConceptC3M4Button202 AutoIsNotScavenge AutoIsNotSurvival RESPONSE C3M4Button202Virgil
+RULE C3M4GateBlow02Virgil CRITERIA ConceptC3M4GateBlow02 AutoIsNotScavenge AutoIsNotSurvival _auto_IsGateExploded RESPONSE C3M4GateBlow02Virgil
+RULE C5M1_intro001Virgil CRITERIA ConceptC5M1_intro001 AutoIsNotScavenge AutoIsNotSurvival RESPONSE C5M1_intro001Virgil
+RULE C5M1_intro003Virgil CRITERIA ConceptC5M1_intro003 AutoIsNotScavenge AutoIsNotSurvival RESPONSE C5M1_intro003Virgil
+RULE C5M1_intro004Virgil CRITERIA ConceptC5M1_intro004 IsVirgil AutoIsNotScavenge AutoIsNotSurvival RESPONSE C5M1_intro004Virgil
+RULE _c4m1Intro01Virgil CRITERIA Concept_c4m1Intro01 IsVirgil AutoIsNotScavenge AutoIsNotSurvival RESPONSE _c4m1Intro01Virgil
+RULE _c4m1Intro02Virgil CRITERIA Concept_c4m1Intro02 IsVirgil AutoIsNotScavenge AutoIsNotSurvival RESPONSE _c4m1Intro02Virgil
+RULE C4BoatArrivedVirgil CRITERIA ConceptC4BoatArrived IsVirgil RESPONSE C4BoatArrivedVirgil
+RULE C4BoatComingVirgil CRITERIA ConceptC4BoatComing IsVirgil RESPONSE C4BoatComingVirgil
+RULE C4M5BoatNagsVirgilVirgil CRITERIA ConceptTalkIdle IsVirgil ChanceToFire50Percent Isc4m5 AutoIsNotScavenge AutoIsNotSurvival _auto_IsBoatArrived _auto_NotBoatSurvivorNagGate _auto_NotBoatVirgilNagGate IsNotSpeakingWeight0 RESPONSE C4BoatArrivedVirgil
+
+
+

@@ -1,0 +1,1650 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc3/scripts/talker/namvet_dlc2.txt
+-------------------------------------------------------
+
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "Nice shot!"
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "damn, kid, that was a good shot."
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "godDAMN that was a nice shot."
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "Nice shot!"
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "damn, kid, that was a good shot."
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "godDAMN that was a nice shot."
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "Good shot, kid."
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "Good shot, kid."
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "Good shot!"
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "Good shot!"
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "Damn, now that was a shot!"
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "Damn, now that was a shot!"
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "Nice shooting"
+RESPONSE PlayerNiceShotNamVet CHARACTER NamVet SUBTITLE "Nice"
+RULE PlayerNiceShotNamVet CRITERIA ConceptPlayerNiceShot IsNotCoughing IsNamVet IssuerClose  IsTalk IsTalkNamVet ChanceToFire30Percent RESPONSE PlayerNiceShotNamVet
+RESPONSE PlayerRemarkFarm05_path09BNamVet CHARACTER NamVet SUBTITLE "The honest to God military!"
+RESPONSE PlayerRemarkFarm05_path09BNamVet CHARACTER NamVet SUBTITLE ""
+RESPONSE PlayerRemarkFarm05_path09BNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerRemarkFarm05_path09BNamVet CRITERIA ConceptRemark IsNamVet IsFarm05_path09 IsNotSaidFarm05_Path09 IsSaidFarm05_path08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkFarm05_path09BNamVet
+RESPONSE PlayerRemarkFarm05_path09CNamVet CHARACTER NamVet SUBTITLE "The honest to God military!"
+RULE PlayerRemarkFarm05_path09CNamVet CRITERIA ConceptFarm05_Path09C IsNamVet IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkFarm05_path09CNamVet
+RESPONSE ReviveMeINterruptedNamVet CHARACTER NamVet SUBTITLE "Whoah!"
+RESPONSE ReviveMeINterruptedNamVet CHARACTER NamVet SUBTITLE "Dammit."
+RULE ReviveMeINterruptedNamVet CRITERIA ConceptReviveMeInterrupted IsNamVet RESPONSE ReviveMeINterruptedNamVet
+RESPONSE SurvivorMournFrancisNamVet CHARACTER NamVet SUBTITLE "Ah, not Francis"
+RESPONSE SurvivorMournFrancisNamVet CHARACTER NamVet SUBTITLE "Christ, I'm gonna miss that son of a bitch."
+RESPONSE SurvivorMournFrancisNamVet CHARACTER NamVet SUBTITLE "I am going to miss that man and his gun"
+RULE SurvivorMournFrancisNamVet CRITERIA ConceptPlayerSeeDeadPlayer IsNotCoughing IsNamVet IsDeadBiker IsNotSaidSomeoneDied IsTalk IsTalkNamVet IsNotIncapacitated RESPONSE SurvivorMournFrancisNamVet
+RESPONSE SurvivorMournLouisNamVet CHARACTER NamVet SUBTITLE "Ah, Louis."
+RESPONSE SurvivorMournLouisNamVet CHARACTER NamVet SUBTITLE "Louis didn't make it. Ah, Christ."
+RULE SurvivorMournLouisNamVet CRITERIA ConceptPlayerSeeDeadPlayer IsNotCoughing IsNamVet IsDeadManager IsNotSaidSomeoneDied IsTalk IsTalkNamVet IsNotIncapacitated RESPONSE SurvivorMournLouisNamVet
+RESPONSE SurvivorMournZoeyNamVet CHARACTER NamVet SUBTITLE "She's dead!"
+RESPONSE SurvivorMournZoeyNamVet CHARACTER NamVet SUBTITLE "Ah Christ, she's dead!"
+RESPONSE SurvivorMournZoeyNamVet CHARACTER NamVet SUBTITLE "Goddamit, she didn't make it."
+RESPONSE SurvivorMournZoeyNamVet CHARACTER NamVet SUBTITLE "Ah not Zoey"
+RESPONSE SurvivorMournZoeyNamVet CHARACTER NamVet SUBTITLE "Ah jesus. What a waste."
+RESPONSE SurvivorMournZoeyNamVet CHARACTER NamVet SUBTITLE "One of those sick sons of bitches just sealed all a' their death warrants."
+RULE SurvivorMournZoeyNamVet CRITERIA ConceptPlayerSeeDeadPlayer IsNotCoughing IsNamVet IsDeadTeenGirl IsNotSaidSomeoneDied IsTalk IsTalkNamVet IsNotIncapacitated RESPONSE SurvivorMournZoeyNamVet
+RESPONSE PlayerRemarkFarm01_path09NamVet CHARACTER NamVet SUBTITLE "Safe house ahead!"
+RESPONSE PlayerRemarkFarm01_path09NamVet CHARACTER NamVet SUBTITLE "Safe house!"
+RULE PlayerRemarkFarm01_path09NamVet CRITERIA ConceptRemark IsNamVet IsFarm01_path09 IsNotSaidFarm01_path09 IsNotCoughing IsTalk IsTalkNamVet IsSubjectNear1500 RESPONSE PlayerRemarkFarm01_path09NamVet
+RESPONSE PlayerRemarkSmalltown03_path14NamVet CHARACTER NamVet SUBTITLE "Safe house ahead!"
+RULE PlayerRemarkSmalltown03_path14NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown03_path14 IsNotSaidSmalltown03_path14 IsNotCoughing IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkSmalltown03_path14NamVet
+RESPONSE ThanksGotItemNamVet CHARACTER NamVet SUBTITLE "appreciate that."
+RESPONSE ThanksGotItemNamVet CHARACTER NamVet SUBTITLE "Eh, you're a good kid."
+RESPONSE ThanksGotItemNamVet CHARACTER NamVet SUBTITLE "Thanks."
+RESPONSE ThanksGotItemNamVet CHARACTER NamVet SUBTITLE "'ppreciate it."
+RULE ThanksGotItemNamVet CRITERIA IsAwardConcept IsSharingSubject IsNotCoughing  SubjectIsNamVet IsTalk IsTalkNamVet RESPONSE ThanksGotItemNamVet
+RESPONSE HealThanksNamVet CHARACTER NamVet SUBTITLE "Thanks."
+RESPONSE HealThanksNamVet CHARACTER NamVet SUBTITLE "Thank you."
+RESPONSE HealThanksNamVet CHARACTER NamVet SUBTITLE "Thanks a lot."
+RESPONSE HealThanksNamVet CHARACTER NamVet SUBTITLE "I owe ya one."
+RESPONSE HealThanksNamVet CHARACTER NamVet SUBTITLE "That's one I owe you."
+RESPONSE HealThanksNamVet CHARACTER NamVet SUBTITLE "That wasn't necessary, but thanks."
+RULE HealThanksNamVet CRITERIA ConceptHealedByFriend IsNotCoughing  IsNamVet IsTalk IsTalkNamVet SubjectIsNotNamVet RESPONSE HealThanksNamVet
+RESPONSE ReviveThanksNamVet CHARACTER NamVet SUBTITLE "Thanks."
+RESPONSE ReviveThanksNamVet CHARACTER NamVet SUBTITLE "Thank you."
+RESPONSE ReviveThanksNamVet CHARACTER NamVet SUBTITLE "Thanks a lot."
+RESPONSE ReviveThanksNamVet CHARACTER NamVet SUBTITLE "I owe ya one."
+RESPONSE ReviveThanksNamVet CHARACTER NamVet SUBTITLE "That's one I owe you."
+RESPONSE ReviveThanksNamVet CHARACTER NamVet SUBTITLE "That wasn't necessary, but thanks."
+RULE ReviveThanksNamVet CRITERIA ConceptRevivedByFriend  IsNotCoughing  IsNamVet RESPONSE ReviveThanksNamVet
+RESPONSE ReviveThanksLouisNamVet CHARACTER NamVet SUBTITLE "Thanks for that."
+RULE ReviveThanksLouisNamVet CRITERIA ConceptRevivedByFriend  IsNotCoughing  IsNamVet SubjectIsManager ChanceToFire30Percent RESPONSE ReviveThanksLouisNamVet
+RESPONSE AutoYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Sure thing."
+RESPONSE AutoYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Well, you're welcome."
+RESPONSE AutoYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Hey, no problem"
+RESPONSE AutoYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "No problem."
+RESPONSE AutoYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Sure thing, kid."
+RESPONSE AutoYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Yeah, yeah, yeah."
+RESPONSE AutoYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Don't get too used to it."
+RESPONSE AutoYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Don't mention it."
+RESPONSE AutoYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Yeah, okay, it don't mean we're married now"
+RESPONSE AutoYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Don't expect a hug"
+RULE AutoYouAreWelcomeNamVet CRITERIA ConceptYouWelcome IsNotCoughing  IsNamVet IsTalk IsTalkNamVet  TimeSinceGroupInCombat05 IsNotSpeaking RESPONSE AutoYouAreWelcomeNamVet
+RESPONSE BotAttentionBattleNamVet CHARACTER NamVet SUBTITLE "Ready?"
+RESPONSE BotAttentionBattleNamVet CHARACTER NamVet SUBTITLE "Ready for this?"
+RULE BotAttentionBattleNamVet CRITERIA ConceptSurvivorBotNoteHumanAttention IsNotCoughing  IsNamVet IsNotBotAttention IsTalk IsTalkNamVet IsNotIncapacitated IsInBattlefield TimeSinceGroupInCombat20 RESPONSE BotAttentionBattleNamVet
+RESPONSE BotHurrahAlsoNamVet CHARACTER NamVet SUBTITLE "You people are gettin' good."
+RESPONSE BotHurrahAlsoNamVet CHARACTER NamVet SUBTITLE "[chuckles and giggles]"
+RESPONSE BotHurrahAlsoNamVet CHARACTER NamVet SUBTITLE "Out standing"
+RULE BotHurrahAlsoNamVet CRITERIA ConceptHurrahAlso IsNotCoughing  IsNamVet IsTalk IsTalkNamVet IsNotSaidHurrahAlso IsBotIsAvailable RESPONSE BotHurrahAlsoNamVet
+RESPONSE BotPlayer.YourWelcomeNamVet CHARACTER NamVet SUBTITLE "Sure thing."
+RESPONSE BotPlayer.YourWelcomeNamVet CHARACTER NamVet SUBTITLE "Well, you're welcome."
+RESPONSE BotPlayer.YourWelcomeNamVet CHARACTER NamVet SUBTITLE "Hey, no problem"
+RESPONSE BotPlayer.YourWelcomeNamVet CHARACTER NamVet SUBTITLE "No problem."
+RESPONSE BotPlayer.YourWelcomeNamVet CHARACTER NamVet SUBTITLE "Sure thing, kid."
+RESPONSE BotPlayer.YourWelcomeNamVet CHARACTER NamVet SUBTITLE "Yeah, yeah, yeah."
+RESPONSE BotPlayer.YourWelcomeNamVet CHARACTER NamVet SUBTITLE "Don't get too used to it."
+RESPONSE BotPlayer.YourWelcomeNamVet CHARACTER NamVet SUBTITLE "Don't mention it."
+RESPONSE BotPlayer.YourWelcomeNamVet CHARACTER NamVet SUBTITLE "Yeah, okay, it don't mean we're married now"
+RESPONSE BotPlayer.YourWelcomeNamVet CHARACTER NamVet SUBTITLE "Don't expect a hug"
+RULE BotPlayer.YourWelcomeNamVet CRITERIA ConceptSurvivorBotYouAreWelcome IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE BotPlayer.YourWelcomeNamVet
+RESPONSE BotReassureComingNamVet CHARACTER NamVet SUBTITLE "Roger that."
+RESPONSE BotReassureComingNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE BotReassureComingNamVet CHARACTER NamVet SUBTITLE "Okay."
+RESPONSE BotReassureComingNamVet CHARACTER NamVet SUBTITLE "Yes."
+RESPONSE BotReassureComingNamVet CHARACTER NamVet SUBTITLE "Affirmative."
+RULE BotReassureComingNamVet CRITERIA ConceptSurvivorBotReassureComing IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE BotReassureComingNamVet
+RESPONSE BotReassureNearbyNamVet CHARACTER NamVet SUBTITLE "I got your six."
+RESPONSE BotReassureNearbyNamVet CHARACTER NamVet SUBTITLE "Right behind you."
+RESPONSE BotReassureNearbyNamVet CHARACTER NamVet SUBTITLE "I'm with ya."
+RESPONSE BotReassureNearbyNamVet CHARACTER NamVet SUBTITLE "I got your back."
+RESPONSE BotReassureNearbyNamVet CHARACTER NamVet SUBTITLE "I'm right behind you."
+RESPONSE BotReassureNearbyNamVet CHARACTER NamVet SUBTITLE "Right behind you."
+RULE BotReassureNearbyNamVet CRITERIA ConceptSurvivorBotReassureNearby IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE BotReassureNearbyNamVet
+RESPONSE BotYesReadyNamVet CHARACTER NamVet SUBTITLE "Roger that."
+RESPONSE BotYesReadyNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE BotYesReadyNamVet CHARACTER NamVet SUBTITLE "Okay."
+RESPONSE BotYesReadyNamVet CHARACTER NamVet SUBTITLE "Yes."
+RESPONSE BotYesReadyNamVet CHARACTER NamVet SUBTITLE "Affirmative."
+RULE BotYesReadyNamVet CRITERIA ConceptSurvivorBotYesReady IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE BotYesReadyNamVet
+RULE PlayerCallForRescueNamVet CRITERIA ConceptCallForRescue IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerCallForRescueNamVet
+RESPONSE CrashFinaleGenerator2OnSpkNamVet CHARACTER NamVet SUBTITLE "Out standing"
+RULE CrashFinaleGenerator2OnSpkNamVet CRITERIA ConceptCrashFinaleGenerator2OnSpk IsNamVet RESPONSE CrashFinaleGenerator2OnSpkNamVet
+RESPONSE CrashFinaleGenerator2SpeakNamVet CHARACTER NamVet SUBTITLE "Watch my back."
+RULE CrashFinaleGenerator2SpeakNamVet CRITERIA ConceptCrashFinaleGenerator2Speak IsNamVet RESPONSE CrashFinaleGenerator2SpeakNamVet
+RESPONSE CrashFinaleGeneratorSpeakNamVet CHARACTER NamVet SUBTITLE "Watch my back."
+RULE CrashFinaleGeneratorSpeakNamVet CRITERIA ConceptCrashFinaleGeneratorSpeak IsNamVet RESPONSE CrashFinaleGeneratorSpeakNamVet
+RESPONSE CrashFinaleGeneratorSpeakNNamVet CHARACTER NamVet SUBTITLE "I'm gettin' too old for this horseshit."
+RESPONSE CrashFinaleGeneratorSpeakNNamVet CHARACTER NamVet SUBTITLE "Ah, hell, I'm gettin too old for this shit"
+RULE CrashFinaleGeneratorSpeakNNamVet CRITERIA ConceptCrashFinaleGeneratorSpeakN IsNamVet RESPONSE CrashFinaleGeneratorSpeakNNamVet
+RESPONSE CrashFinaleGenUnPressSpeakNamVet CHARACTER NamVet SUBTITLE "Ah shit."
+RULE CrashFinaleGenUnPressSpeakNamVet CRITERIA ConceptCrashFinaleGeneratorUnPressSpeak IsNamVet RESPONSE CrashFinaleGenUnPressSpeakNamVet
+RESPONSE CrashFinaleTruckNagNamVet CHARACTER NamVet SUBTITLE "Get to the truck! MOVE!"
+RESPONSE CrashFinaleTruckNagNamVet CHARACTER NamVet SUBTITLE "Get to the truck!"
+RULE CrashFinaleTruckNagNamVet CRITERIA ConceptTalkIdle IsNamVet IsNotCoughing IsCrashFinaleTruckReady NotCrashFinaleTruckNagPaused ChanceToFire60Percent NotNagCrashNamVet NotSurvivalMode RESPONSE CrashFinaleTruckNagNamVet
+RESPONSE CrashCourseR05NamVet CHARACTER NamVet SUBTITLE "You know who's gonna survive this mess, Francis? It ain't the fella makin' jokes."
+RESPONSE CrashCourseR05NamVet CHARACTER NamVet SUBTITLE "Speak up, Francis. Your voice got all muffled from yer head being so far up yer ass."
+RULE CrashCourseR05NamVet CRITERIA ConceptCrashCourseR05 IsNamVet RESPONSE CrashCourseR05NamVet
+RESPONSE PlayerRemarkcrashcourse01_path25NamVet CHARACTER NamVet SUBTITLE "Safe house in here!"
+RULE PlayerRemarkcrashcourse01_path25NamVet CRITERIA ConceptRemark IsNamVet Iscrashcourse01_path25 IsNotSaidcrashcourse01_path25 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 NotSaidCrash01SafeHouse RESPONSE PlayerRemarkcrashcourse01_path25NamVet
+RESPONSE IntroCrashR25NamVet CHARACTER NamVet SUBTITLE "<Short laugh>"
+RULE IntroCrashR25NamVet CRITERIA ConceptIntroCrashR25 IsNamVet RESPONSE IntroCrashR25NamVet
+RESPONSE PlayerRemarkcrashcourse02_startaNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerRemarkcrashcourse02_startaNamVet CRITERIA ConceptRemark IsNamVet Iscrashcourse02_starta NotCrash02IntroReady IsSubjectNear400 RESPONSE PlayerRemarkcrashcourse02_startaNamVet
+RULE PlayerRemarkcrashcourse02_startbNamVet CRITERIA ConceptRemark IsNamVet Iscrashcourse02_startb NotCrash02IntroReady IsSubjectNear400 RESPONSE PlayerRemarkcrashcourse02_startaNamVet
+RULE PlayerRemarkcrashcourse02_startcNamVet CRITERIA ConceptRemark IsNamVet Iscrashcourse02_startc NotCrash02IntroReady IsSubjectNear400 RESPONSE PlayerRemarkcrashcourse02_startaNamVet
+RULE PlayerRemarkcrashcourse02_startdNamVet CRITERIA ConceptRemark IsNamVet Iscrashcourse02_startd NotCrash02IntroReady IsSubjectNear400 RESPONSE PlayerRemarkcrashcourse02_startaNamVet
+RESPONSE IntroFarm3NamVet CHARACTER NamVet SUBTITLE "We just need to find the train tracks and then follow 'em."
+RULE IntroFarm3NamVet CRITERIA ConceptIntroFarm3 IsNamVet RESPONSE IntroFarm3NamVet
+RESPONSE IntroFarm4NamVet CHARACTER NamVet SUBTITLE "Allright, then, let's do it."
+RULE IntroFarm4NamVet CRITERIA ConceptIntroFarm4 IsNamVet RESPONSE IntroFarm4NamVet
+RESPONSE SurvivorBoomerBlunderNamVet CHARACTER NamVet SUBTITLE "I am sorry."
+RESPONSE SurvivorBoomerBlunderNamVet CHARACTER NamVet SUBTITLE "Sorry about that."
+RULE SurvivorBoomerBlunderNamVet CRITERIA IsFaultConcept IsFaultBoomerBlunder IsNotCoughing IsNamVet IsHealthy IsTalk IsTalkNamVet RESPONSE SurvivorBoomerBlunderNamVet
+RESPONSE SurvivorFinaleTriggeredBoatNamVet CHARACTER NamVet SUBTITLE "Rescue boat's on its way. Now we gotta hold out."
+RESPONSE SurvivorFinaleTriggeredBoatNamVet CHARACTER NamVet SUBTITLE "Listen up: rescue's on the way. We gotta hold out til they get here."
+RULE SurvivorFinaleTriggeredBoatNamVet CRITERIA ConceptFinaleTriggered IsTriggeredByNamVet ismap_l4d_smalltown05_houseboat IsNotSaidRadioTriggered IsTalk IsTalkNamVet IsNamVet IsNotIncapacitated RESPONSE SurvivorFinaleTriggeredBoatNamVet
+RESPONSE SurvivorFinaleTriggeredFarmNamVet CHARACTER NamVet SUBTITLE "Allright, people, help is on the way. Let's dig in."
+RESPONSE SurvivorFinaleTriggeredFarmNamVet CHARACTER NamVet SUBTITLE "Okay, people, listen up: Help is on its way. We're almost out of this."
+RESPONSE SurvivorFinaleTriggeredFarmNamVet CHARACTER NamVet SUBTITLE "Listen up, there's a truck coming for us, so let's make sure we're alive to meet it."
+RULE SurvivorFinaleTriggeredFarmNamVet CRITERIA ConceptFinaleTriggered IsTriggeredByNamVet ismap_l4d_farm05_cornfield IsNotSaidRadioTriggered IsTalk IsTalkNamVet IsNamVet IsNotIncapacitated RESPONSE SurvivorFinaleTriggeredFarmNamVet
+RESPONSE SurvivorFinaleTriggeredRooftopNamVet CHARACTER NamVet SUBTITLE "I called the chopper"
+RULE SurvivorFinaleTriggeredRooftopNamVet CRITERIA ConceptFinaleTriggered IsTriggeredByNamVet ismap_l4d_hospital05_rooftop IsNotSaidRadioTriggered IsTalk IsTalkNamVet IsNamVet IsNotIncapacitated RESPONSE SurvivorFinaleTriggeredRooftopNamVet
+RESPONSE SurvivorFinalVehicleBoatNamVet CHARACTER NamVet SUBTITLE "Run to the boat!"
+RESPONSE SurvivorFinalVehicleBoatNamVet CHARACTER NamVet SUBTITLE "Get to the Boat!"
+RESPONSE SurvivorFinalVehicleBoatNamVet CHARACTER NamVet SUBTITLE "To the boat! MOVE!"
+RESPONSE SurvivorFinalVehicleBoatNamVet CHARACTER NamVet SUBTITLE "Haul ass to that boat! RUN!"
+RULE SurvivorFinalVehicleBoatNamVet CRITERIA ConceptGetToVehicle IsNamVet ismap_l4d_smalltown05_houseboat IsNotSaidFinalVehicleArrived RESPONSE SurvivorFinalVehicleBoatNamVet
+RESPONSE SurvivorFinalVehicleFarmNamVet CHARACTER NamVet SUBTITLE "Get to the truck! MOVE!"
+RESPONSE SurvivorFinalVehicleFarmNamVet CHARACTER NamVet SUBTITLE "Get to the truck!"
+RESPONSE SurvivorFinalVehicleFarmNamVet CHARACTER NamVet SUBTITLE "Get to that truck on the double! GO! GO! GO!"
+RESPONSE SurvivorFinalVehicleFarmNamVet CHARACTER NamVet SUBTITLE "The truck's waitin'. RUN!"
+RULE SurvivorFinalVehicleFarmNamVet CRITERIA ConceptGetToVehicle IsNamVet ismap_l4d_farm05_cornfield IsNotSaidFinalVehicleArrived RESPONSE SurvivorFinalVehicleFarmNamVet
+RESPONSE SurvivorFinalVehicleFarmSpottedNamVet CHARACTER NamVet SUBTITLE "The truck's here! Let's go!"
+RESPONSE SurvivorFinalVehicleFarmSpottedNamVet CHARACTER NamVet SUBTITLE "The truck has arrived! Let's move out, people!"
+RULE SurvivorFinalVehicleFarmSpottedNamVet CRITERIA ConceptFinalVehicleSpotted IsNamVet ismap_l4d_farm05_cornfield IsNotSaidFinalVehicleSpotted RESPONSE SurvivorFinalVehicleFarmSpottedNamVet
+RESPONSE SurvivorFinalVehicleRooftopNamVet CHARACTER NamVet SUBTITLE "Get to the chopper! GO!"
+RESPONSE SurvivorFinalVehicleRooftopNamVet CHARACTER NamVet SUBTITLE "Get to the chopper!"
+RESPONSE SurvivorFinalVehicleRooftopNamVet CHARACTER NamVet SUBTITLE "To the chopper. Come on, MOVE IT, MOVE IT, MOVE IT!"
+RESPONSE SurvivorFinalVehicleRooftopNamVet CHARACTER NamVet SUBTITLE "Get to the LZ!"
+RULE SurvivorFinalVehicleRooftopNamVet CRITERIA ConceptGetToVehicle IsNamVet ismap_l4d_hospital05_rooftop IsNotSaidFinalVehicleArrived RESPONSE SurvivorFinalVehicleRooftopNamVet
+RESPONSE SurvivorFinalVehicleRunwayNamVet CHARACTER NamVet SUBTITLE "Everyone on the plane! PRONTO!"
+RESPONSE SurvivorFinalVehicleRunwayNamVet CHARACTER NamVet SUBTITLE "Get to the plane!"
+RESPONSE SurvivorFinalVehicleRunwayNamVet CHARACTER NamVet SUBTITLE "Get to the plane!"
+RESPONSE SurvivorFinalVehicleRunwayNamVet CHARACTER NamVet SUBTITLE "Into the plane. Hustle it, people!"
+RESPONSE SurvivorFinalVehicleRunwayNamVet CHARACTER NamVet SUBTITLE "Into the plane. Hustle it, people!"
+RULE SurvivorFinalVehicleRunwayNamVet CRITERIA ConceptGetToVehicle IsNamVet isrunway IsNotSaidFinalVehicleArrived RESPONSE SurvivorFinalVehicleRunwayNamVet
+RESPONSE SurvivorFinalVehicleSpottedBoatNamVet CHARACTER NamVet SUBTITLE "That's the boat! Time to bug out!"
+RESPONSE SurvivorFinalVehicleSpottedBoatNamVet CHARACTER NamVet SUBTITLE "Allright, the boat's here! Let's go!"
+RULE SurvivorFinalVehicleSpottedBoatNamVet CRITERIA ConceptFinalVehicleSpotted IsNamVet ismap_l4d_smalltown05_houseboat IsNotSaidFinalVehicleSpotted RESPONSE SurvivorFinalVehicleSpottedBoatNamVet
+RESPONSE SurvivorFinalVehicleSpottedRooftopNamVet CHARACTER NamVet SUBTITLE "Our chopper's here! Let's get the hell out of dodge."
+RESPONSE SurvivorFinalVehicleSpottedRooftopNamVet CHARACTER NamVet SUBTITLE "The bird's here! Let's go!"
+RULE SurvivorFinalVehicleSpottedRooftopNamVet CRITERIA ConceptFinalVehicleSpotted IsNamVet ismap_l4d_hospital05_rooftop IsNotSaidFinalVehicleSpotted RESPONSE SurvivorFinalVehicleSpottedRooftopNamVet
+RESPONSE SurvivorFinalVehicleSpottedRunwayNamVet CHARACTER NamVet SUBTITLE "Get to the plane!"
+RESPONSE SurvivorFinalVehicleSpottedRunwayNamVet CHARACTER NamVet SUBTITLE "Into the plane. Hustle it, people!"
+RULE SurvivorFinalVehicleSpottedRunwayNamVet CRITERIA ConceptFinalVehicleSpotted IsNamVet ismap_urban05a_finale_runway IsNotSaidFinalVehicleSpotted RESPONSE SurvivorFinalVehicleSpottedRunwayNamVet
+RESPONSE ResponseLoudDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "Son of a bitch."
+RESPONSE ResponseLoudDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "Bull-frickin-horseshit."
+RESPONSE ResponseLoudDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "God DAMMIT."
+RESPONSE ResponseLoudDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "Ah shit."
+RULE ResponseLoudDispleasureSwearNamVet CRITERIA ConceptPanicEvent IsNamVet IsNotCoughing IsTalk IsTalkNamVet ChanceToFire60Percent RESPONSE ResponseLoudDispleasureSwearNamVet
+RESPONSE ResponseSoftDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "I have a bad feeling about this"
+RESPONSE ResponseSoftDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "I do not like this one bit."
+RESPONSE ResponseSoftDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "Uh oh"
+RESPONSE ResponseSoftDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "Christ"
+RESPONSE ResponseSoftDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "Gee-zus"
+RESPONSE ResponseSoftDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "Son of a bitch."
+RESPONSE ResponseSoftDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "Ah hell."
+RESPONSE ResponseSoftDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "Dammit."
+RESPONSE ResponseSoftDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "Ah shit."
+RESPONSE ResponseSoftDispleasureSwearNamVet CHARACTER NamVet SUBTITLE "What a crock a' shit..."
+RULE ResponseSoftDispleasureSwearNamVet CRITERIA ConceptResponseSoftDispleasureSwear IsNamVet IsNotCoughing NotInCombat IsTalk IsTalkNamVet IssuerMediumClose RESPONSE ResponseSoftDispleasureSwearNamVet
+RESPONSE SurvivorAskForHealthNamVet CHARACTER NamVet SUBTITLE ""
+RULE SurvivorAskForHealthNamVet CRITERIA ConceptPlayerLookHere IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto  IsSubjectNear400 NoHasPainPills  NoHasFirstAidKit IsNotHealthyHalf NotInCombat IsNotSaidAskForHealth RESPONSE SurvivorAskForHealthNamVet
+RESPONSE SurvivorAskFrancisForHealthNamVet CHARACTER NamVet SUBTITLE "Francis, buddy, you gonna use that health kit?"
+RULE SurvivorAskFrancisForHealthNamVet CRITERIA ConceptAskForHealth2  IsNamVet SubjectIsBiker IsSubjectNear400 RESPONSE SurvivorAskFrancisForHealthNamVet
+RESPONSE SurvivorAskLouisForHealthNamVet CHARACTER NamVet SUBTITLE "Louis, mind givin' an old man your health kit?"
+RULE SurvivorAskLouisForHealthNamVet CRITERIA ConceptAskForHealth2  IsNamVet SubjectIsManager IsSubjectNear400 RESPONSE SurvivorAskLouisForHealthNamVet
+RESPONSE SurvivorAskZoeyForHealthNamVet CHARACTER NamVet SUBTITLE "Zoey, can you spare me a health kit?"
+RULE SurvivorAskZoeyForHealthNamVet CRITERIA ConceptAskForHealth2  IsNamVet SubjectIsTeenGirl IsSubjectNear400 RESPONSE SurvivorAskZoeyForHealthNamVet
+RESPONSE SurvivorFrancisHealthHereNamVet CHARACTER NamVet SUBTITLE ""
+RULE SurvivorFrancisHealthHereNamVet CRITERIA ConceptAskForHealth IsNotCoughing IsNamVet IsTalk IsTalkNamVet YesHasFirstAidKit IsHealthyHalf RESPONSE SurvivorFrancisHealthHereNamVet
+RESPONSE SurvivorSpottedAmmoNamVet CHARACTER NamVet SUBTITLE "Ammo here!"
+RULE SurvivorSpottedAmmoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing  IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsWorldTalkNamVet IsAmmo RESPONSE SurvivorSpottedAmmoNamVet
+RESPONSE SurvivorSpottedFrancisCloseNamVet CHARACTER NamVet SUBTITLE "Francis (quiet)"
+RULE SurvivorSpottedFrancisCloseNamVet CRITERIA ConceptPlayerLookHere IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto  SubjectIsBiker IsBikerNear400 RESPONSE SurvivorSpottedFrancisCloseNamVet
+RESPONSE SurvivorSpottedFrancisClose2NamVet CHARACTER NamVet SUBTITLE "Francis (quiet)"
+RULE SurvivorSpottedFrancisClose2NamVet CRITERIA ConceptPlayerLook IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto  SubjectIsBiker IsBikerNear400 RESPONSE SurvivorSpottedFrancisClose2NamVet
+RESPONSE SurvivorSpottedFrancisFarNamVet CHARACTER NamVet SUBTITLE "Francis! (loud)"
+RULE SurvivorSpottedFrancisFarNamVet CRITERIA ConceptPlayerLook IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto SubjectIsBiker IsBikerFar400 RESPONSE SurvivorSpottedFrancisFarNamVet
+RESPONSE SurvivorSpottedGrenadeNamVet CHARACTER NamVet SUBTITLE "Pipebomb over here!"
+RESPONSE SurvivorSpottedGrenadeNamVet CHARACTER NamVet SUBTITLE "Pipebomb!"
+RULE SurvivorSpottedGrenadeNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsPipeBomb RESPONSE SurvivorSpottedGrenadeNamVet
+RESPONSE SurvivorSpottedGrenadeAutoNamVet CHARACTER NamVet SUBTITLE "Pipebomb over here!"
+RESPONSE SurvivorSpottedGrenadeAutoNamVet CHARACTER NamVet SUBTITLE "Pipebomb!"
+RULE SurvivorSpottedGrenadeAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsPipeBomb IsNotInSafeSpot IsNotAlone IsNotSaidSpotGrenade IsNotSaidSpot RESPONSE SurvivorSpottedGrenadeAutoNamVet
+RESPONSE SurvivorSpottedGrenadeAutoNamVet2 CHARACTER NamVet SUBTITLE "Roger that."
+RULE SurvivorSpottedGrenadeAutoNamVet2 CRITERIA ConceptPlayerSpotGrenade IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot NoHasGrenade IsNotAlone IsSaidSpotGrenade IsNotSaidSpot RESPONSE SurvivorSpottedGrenadeAutoNamVet2
+RESPONSE SurvivorSpottedHealthNamVet CHARACTER NamVet SUBTITLE "First Aid Kit here!"
+RESPONSE SurvivorSpottedHealthNamVet CHARACTER NamVet SUBTITLE "First Aid here!"
+RESPONSE SurvivorSpottedHealthNamVet CHARACTER NamVet SUBTITLE "First aid kit!"
+RESPONSE SurvivorSpottedHealthNamVet CHARACTER NamVet SUBTITLE "First aid kit over here!"
+RESPONSE SurvivorSpottedHealthNamVet CHARACTER NamVet SUBTITLE "Health pack here!"
+RULE SurvivorSpottedHealthNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsFirstAidKit RESPONSE SurvivorSpottedHealthNamVet
+RESPONSE SurvivorSpottedHealthAutoNamVet CHARACTER NamVet SUBTITLE "First Aid Kit here!"
+RESPONSE SurvivorSpottedHealthAutoNamVet CHARACTER NamVet SUBTITLE "First Aid here!"
+RESPONSE SurvivorSpottedHealthAutoNamVet CHARACTER NamVet SUBTITLE "First aid kit!"
+RESPONSE SurvivorSpottedHealthAutoNamVet CHARACTER NamVet SUBTITLE "First aid kit over here!"
+RESPONSE SurvivorSpottedHealthAutoNamVet CHARACTER NamVet SUBTITLE "Health pack here!"
+RULE SurvivorSpottedHealthAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsFirstAidKit IsNotInSafeSpot IsNotAlone IsNotSaidSpotHealth IsNotSaidSpot RESPONSE SurvivorSpottedHealthAutoNamVet
+RESPONSE SurvivorSpottedHealthAutoNamVet2 CHARACTER NamVet SUBTITLE "Roger that."
+RULE SurvivorSpottedHealthAutoNamVet2 CRITERIA ConceptPlayerSpotFirstAid IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto  IsNotInSafeSpot NoHasFirstAidKit IsNotAlone IsSaidSpotHealth IsNotSaidSpot RESPONSE SurvivorSpottedHealthAutoNamVet2
+RESPONSE SurvivorSpottedLouisCloseNamVet CHARACTER NamVet SUBTITLE "Louis (quiet)"
+RULE SurvivorSpottedLouisCloseNamVet CRITERIA ConceptPlayerLookHere IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto  SubjectIsManager IsManagerNear400 RESPONSE SurvivorSpottedLouisCloseNamVet
+RESPONSE SurvivorSpottedLouisClose2NamVet CHARACTER NamVet SUBTITLE "Louis (quiet)"
+RULE SurvivorSpottedLouisClose2NamVet CRITERIA ConceptPlayerLook IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto  SubjectIsManager IsManagerNear400 RESPONSE SurvivorSpottedLouisClose2NamVet
+RESPONSE SurvivorSpottedLouisFarNamVet CHARACTER NamVet SUBTITLE "Louis! (loud)"
+RULE SurvivorSpottedLouisFarNamVet CRITERIA ConceptPlayerLook IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto SubjectIsManager IsManagerFar400 RESPONSE SurvivorSpottedLouisFarNamVet
+RESPONSE SurvivorSpottedMolotovNamVet CHARACTER NamVet SUBTITLE "Molotov over here!"
+RESPONSE SurvivorSpottedMolotovNamVet CHARACTER NamVet SUBTITLE "Molotov!"
+RULE SurvivorSpottedMolotovNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsMolotov RESPONSE SurvivorSpottedMolotovNamVet
+RESPONSE SurvivorSpottedMolotovAutoNamVet CHARACTER NamVet SUBTITLE "Molotov over here!"
+RESPONSE SurvivorSpottedMolotovAutoNamVet CHARACTER NamVet SUBTITLE "Molotov!"
+RULE SurvivorSpottedMolotovAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsMolotov IsNotInSafeSpot IsNotAlone IsNotSaidSpotMolotov IsNotSaidSpot RESPONSE SurvivorSpottedMolotovAutoNamVet
+RESPONSE SurvivorSpottedMolotovAutoNamVet2 CHARACTER NamVet SUBTITLE "Roger that."
+RULE SurvivorSpottedMolotovAutoNamVet2 CRITERIA ConceptPlayerSpotMolotov IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto  IsNotInSafeSpot NoHasMolotov IsNotAlone IsSaidSpotMolotov IsNotSaidSpot RESPONSE SurvivorSpottedMolotovAutoNamVet2
+RESPONSE SurvivorSpottedPillsNamVet CHARACTER NamVet SUBTITLE "Pills here!"
+RULE SurvivorSpottedPillsNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsPainPills RESPONSE SurvivorSpottedPillsNamVet
+RESPONSE SurvivorSpottedPillsAutoNamVet CHARACTER NamVet SUBTITLE "Pills here!"
+RULE SurvivorSpottedPillsAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsPainPills IsNotInSafeSpot IsNotAlone IsNotSaidSpotPills IsNotSaidSpot RESPONSE SurvivorSpottedPillsAutoNamVet
+RESPONSE SurvivorSpottedPillsAutoNamVet2 CHARACTER NamVet SUBTITLE "Roger that."
+RULE SurvivorSpottedPillsAutoNamVet2 CRITERIA ConceptPlayerSpotPills IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot NoHasPainPills IsNotAlone IsSaidSpotPills IsNotSaidSpot RESPONSE SurvivorSpottedPillsAutoNamVet2
+RESPONSE SurvivorSpottedWorldCloseNamVet CHARACTER NamVet SUBTITLE "Look at this."
+RESPONSE SurvivorSpottedWorldCloseNamVet CHARACTER NamVet SUBTITLE "Look over here."
+RESPONSE SurvivorSpottedWorldCloseNamVet CHARACTER NamVet SUBTITLE "You're gonna want to see this."
+RULE SurvivorSpottedWorldCloseNamVet CRITERIA ConceptPlayerLookHere IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto RESPONSE SurvivorSpottedWorldCloseNamVet
+RESPONSE SurvivorSpottedZoeyCloseNamVet CHARACTER NamVet SUBTITLE "Zoey (quiet)"
+RULE SurvivorSpottedZoeyCloseNamVet CRITERIA ConceptPlayerLookHere IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto  SubjectIsTeenGirl IsTeenGirlNear400 RESPONSE SurvivorSpottedZoeyCloseNamVet
+RESPONSE SurvivorSpottedZoeyClose2NamVet CHARACTER NamVet SUBTITLE "Zoey (quiet)"
+RULE SurvivorSpottedZoeyClose2NamVet CRITERIA ConceptPlayerLook IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto  SubjectIsTeenGirl IsTeenGirlNear400 RESPONSE SurvivorSpottedZoeyClose2NamVet
+RESPONSE SurvivorSpottedZoeyFarNamVet CHARACTER NamVet SUBTITLE "Zoey! (loud)"
+RULE SurvivorSpottedZoeyFarNamVet CRITERIA ConceptPlayerLook IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto SubjectIsTeenGirl  IsTeenGirlFar400 RESPONSE SurvivorSpottedZoeyFarNamVet
+RULE SurvivorSpottedAmmoAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing  IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsAmmo IsNotInSafeSpot IsWorldTalkNamVet IsNotAlone IsNotSaidSpotAmmo IsNotSaidSpot RESPONSE SurvivorSpottedAmmoNamVet
+RESPONSE SurvivorMovingToBattleStationNamVet CHARACTER NamVet SUBTITLE "Ready."
+RESPONSE SurvivorMovingToBattleStationNamVet CHARACTER NamVet SUBTITLE "Good to go."
+RESPONSE SurvivorMovingToBattleStationNamVet CHARACTER NamVet SUBTITLE "I'm ready."
+RESPONSE SurvivorMovingToBattleStationNamVet CHARACTER NamVet SUBTITLE "I said I'm ready!"
+RULE SurvivorMovingToBattleStationNamVet CRITERIA ConceptBotMovingToBattleStation IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSaidCreshendoStartNear IsNotSaidBattleStationsNamVet RESPONSE SurvivorMovingToBattleStationNamVet
+RESPONSE SurvivorSpottedBoomerNamVet CHARACTER NamVet SUBTITLE "BOOMER!"
+RESPONSE SurvivorSpottedBoomerNamVet CHARACTER NamVet SUBTITLE "BOOMER!"
+RESPONSE SurvivorSpottedBoomerNamVet CHARACTER NamVet SUBTITLE "BOOMER!"
+RULE SurvivorSpottedBoomerNamVet CRITERIA ConceptPlayerWarnBoomer IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorSpottedBoomerNamVet
+RESPONSE SurvivorSpottedHunterNamVet CHARACTER NamVet SUBTITLE "HUNTER!"
+RESPONSE SurvivorSpottedHunterNamVet CHARACTER NamVet SUBTITLE "HUNTER!"
+RESPONSE SurvivorSpottedHunterNamVet CHARACTER NamVet SUBTITLE "HUNTER!"
+RULE SurvivorSpottedHunterNamVet CRITERIA ConceptPlayerWarnHunter IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorSpottedHunterNamVet
+RESPONSE SurvivorSpottedInfectedNamVet CHARACTER NamVet SUBTITLE "Here they come!"
+RESPONSE SurvivorSpottedInfectedNamVet CHARACTER NamVet SUBTITLE "INCOMING!"
+RESPONSE SurvivorSpottedInfectedNamVet CHARACTER NamVet SUBTITLE "Bookoo crazies inbound!"
+RESPONSE SurvivorSpottedInfectedNamVet CHARACTER NamVet SUBTITLE "HERE THEY COME!"
+RESPONSE SurvivorSpottedInfectedNamVet CHARACTER NamVet SUBTITLE "INCOMING!"
+RULE SurvivorSpottedInfectedNamVet CRITERIA ConceptPlayerIncoming IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorSpottedInfectedNamVet
+RESPONSE SurvivorSpottedSmokerNamVet CHARACTER NamVet SUBTITLE "SMOKER!"
+RESPONSE SurvivorSpottedSmokerNamVet CHARACTER NamVet SUBTITLE "SMOKER!"
+RESPONSE SurvivorSpottedSmokerNamVet CHARACTER NamVet SUBTITLE "SMOKER!"
+RESPONSE SurvivorSpottedSmokerNamVet CHARACTER NamVet SUBTITLE "SMOKER!"
+RULE SurvivorSpottedSmokerNamVet CRITERIA ConceptPlayerWarnSmoker IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorSpottedSmokerNamVet
+RESPONSE SurvivorSpottedTankNamVet CHARACTER NamVet SUBTITLE "TANK!"
+RESPONSE SurvivorSpottedTankNamVet CHARACTER NamVet SUBTITLE "TANK!"
+RESPONSE SurvivorSpottedTankNamVet CHARACTER NamVet SUBTITLE "TANK!"
+RULE SurvivorSpottedTankNamVet CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeTank IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotSpeakingWeight0 RESPONSE SurvivorSpottedTankNamVet
+RESPONSE SurvivorSpottedWitchNamVet CHARACTER NamVet SUBTITLE "WITCH!"
+RESPONSE SurvivorSpottedWitchNamVet CHARACTER NamVet SUBTITLE "WITCH!"
+RESPONSE SurvivorSpottedWitchNamVet CHARACTER NamVet SUBTITLE "WITCH!"
+RESPONSE SurvivorSpottedWitchNamVet CHARACTER NamVet SUBTITLE "WITCH!"
+RULE SurvivorSpottedWitchNamVet CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeWitch IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWitchNamVet
+RULE SurvivorAlsoSpottedBoomerNamVet CRITERIA ConceptPlayerAlsoWarnBoomer IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorSpottedBoomerNamVet
+RULE SurvivorAlsoSpottedHunterNamVet CRITERIA ConceptPlayerAlsoWarnHunter IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorSpottedHunterNamVet
+RULE SurvivorAlsoSpottedSmokerNamVet CRITERIA ConceptPlayerAlsoWarnSmoker IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorSpottedSmokerNamVet
+RULE SurvivorAlsoSpottedTankNamVet CRITERIA ConceptPlayerAlsoWarnTank IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet RESPONSE SurvivorSpottedTankNamVet
+RULE SurvivorAlsoSpottedWitchNamVet CRITERIA ConceptPlayerAlsoWarnWitch IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorSpottedWitchNamVet
+RESPONSE EmphaticArriveRunNamVet CHARACTER NamVet SUBTITLE "RUN!"
+RESPONSE EmphaticArriveRunNamVet CHARACTER NamVet SUBTITLE "RUN!"
+RESPONSE EmphaticArriveRunNamVet CHARACTER NamVet SUBTITLE "BUG OUT!"
+RESPONSE EmphaticArriveRunNamVet CHARACTER NamVet SUBTITLE "HAUL ASS!"
+RULE EmphaticArriveRunNamVet CRITERIA ConceptEmphaticArriveRun IsNotCoughing IsNamVet IsTalkNamVet RESPONSE EmphaticArriveRunNamVet
+RESPONSE FriendlyFireFrancisNamVet CHARACTER NamVet SUBTITLE "Francis, check your fire!"
+RESPONSE FriendlyFireFrancisNamVet CHARACTER NamVet SUBTITLE "What the hell are you doin' Francis?"
+RESPONSE FriendlyFireFrancisNamVet CHARACTER NamVet SUBTITLE "Francis! [through gritted teeth]"
+RULE FriendlyFireFrancisNamVet CRITERIA IsFaultConcept IsFaultFriendlyFire IsNotCoughing IsBiker SubjectIsNamVet IsNotNamVetFriendlyFire IsNotNamVetFriendlyFireFrancis IsTalk IsTalkNamVet RESPONSE FriendlyFireFrancisNamVet
+RESPONSE PlayerAlertGiveItemNamVet CHARACTER NamVet SUBTITLE "Here, take this"
+RESPONSE PlayerAlertGiveItemNamVet CHARACTER NamVet SUBTITLE "Here, I've got something for you"
+RESPONSE PlayerAlertGiveItemNamVet CHARACTER NamVet SUBTITLE "Take this."
+RESPONSE PlayerAlertGiveItemNamVet CHARACTER NamVet SUBTITLE "Hold up, I got something for you."
+RESPONSE PlayerAlertGiveItemNamVet CHARACTER NamVet SUBTITLE "You're gonna need this."
+RESPONSE PlayerAlertGiveItemNamVet CHARACTER NamVet SUBTITLE "Here, I saved this for you."
+RESPONSE PlayerAlertGiveItemNamVet CHARACTER NamVet SUBTITLE "Here."
+RULE PlayerAlertGiveItemNamVet CRITERIA ConceptPlayerAlertGiveItem IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerAlertGiveItemNamVet
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Ahh! That hurt!"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Ah! Knock it off!"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Do I look like a target?"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "You know, I would appreciate it IF YOU'D STOP SHOOTING ME!"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Watch where you're shooting!"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Goddamn it, watch your fire!"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Jesus H Christ, I'm on your side."
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Watch where you're shooting!"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Watch where you point that thing!"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Watch where you're shooting!"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Do not shoot me!"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Goddamit, watch where you're shooting!"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Check your fire!"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Secure that weapon!"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Hold your fire!"
+RESPONSE PlayerFriendlyFireNamVet CHARACTER NamVet SUBTITLE "Who's side are you on, kid?"
+RULE PlayerFriendlyFireNamVet CRITERIA ConceptPlayerFriendlyFire IsNotCoughing IsNamVet IsNotNamVetFriendlyFire IsDamageTypeBullet IsTalk IsTalkNamVet RESPONSE PlayerFriendlyFireNamVet
+RESPONSE PlayerFriendlyFire2NamVet CHARACTER NamVet SUBTITLE "Be careful!"
+RESPONSE PlayerFriendlyFire2NamVet CHARACTER NamVet SUBTITLE "Have you lost your mind?"
+RESPONSE PlayerFriendlyFire2NamVet CHARACTER NamVet SUBTITLE "What did you do you just do?"
+RESPONSE PlayerFriendlyFire2NamVet CHARACTER NamVet SUBTITLE "Watch it, Watch it!"
+RULE PlayerFriendlyFire2NamVet CRITERIA ConceptPlayerFriendlyFire IsNotCoughing IsNamVet IsNotNamVetFriendlyFire IsDamageTypeBullet IsNamVetFriendlyFire IsTalk IsTalkNamVet RESPONSE PlayerFriendlyFire2NamVet
+RESPONSE PlayerFriendlyFireFromFrancisNamVet CHARACTER NamVet SUBTITLE "Jesus H Christ, Francis!"
+RESPONSE PlayerFriendlyFireFromFrancisNamVet CHARACTER NamVet SUBTITLE "Francis, check your fire!"
+RESPONSE PlayerFriendlyFireFromFrancisNamVet CHARACTER NamVet SUBTITLE "What the hell are you doin' Francis?"
+RESPONSE PlayerFriendlyFireFromFrancisNamVet CHARACTER NamVet SUBTITLE "Francis! [through gritted teeth]"
+RESPONSE PlayerFriendlyFireFromFrancisNamVet CHARACTER NamVet SUBTITLE "Fraaaaancis! (loud)"
+RULE PlayerFriendlyFireFromFrancisNamVet CRITERIA ConceptPlayerFriendlyFire IsNotCoughing IsNamVet IsNotNamVetFriendlyFire IsDamageTypeBullet IsTalk IsTalkNamVet SubjectIsBiker ChanceToFire30Percent RESPONSE PlayerFriendlyFireFromFrancisNamVet
+RESPONSE PlayerFriendlyFireFromLouisNamVet CHARACTER NamVet SUBTITLE "Goddamnit Louis, stop shooting me!"
+RESPONSE PlayerFriendlyFireFromLouisNamVet CHARACTER NamVet SUBTITLE "Knock it off, Louis!"
+RESPONSE PlayerFriendlyFireFromLouisNamVet CHARACTER NamVet SUBTITLE "Louis! [through gritted teeth]"
+RULE PlayerFriendlyFireFromLouisNamVet CRITERIA ConceptPlayerFriendlyFire IsNotCoughing IsNamVet IsNotNamVetFriendlyFire IsDamageTypeBullet IsTalk IsTalkNamVet SubjectIsManager ChanceToFire30Percent RESPONSE PlayerFriendlyFireFromLouisNamVet
+RESPONSE PlayerFriendlyFireFromZoeyNamVet CHARACTER NamVet SUBTITLE "Zoey! [through gritted teeth]"
+RESPONSE PlayerFriendlyFireFromZoeyNamVet CHARACTER NamVet SUBTITLE "Zoey! (loud)"
+RESPONSE PlayerFriendlyFireFromZoeyNamVet CHARACTER NamVet SUBTITLE "Zooooooey! (loud)"
+RULE PlayerFriendlyFireFromZoeyNamVet CRITERIA ConceptPlayerFriendlyFire IsNotCoughing IsNamVet IsNotNamVetFriendlyFire IsDamageTypeBullet IsTalk IsTalkNamVet SubjectIsTeenGirl ChanceToFire30Percent RESPONSE PlayerFriendlyFireFromZoeyNamVet
+RESPONSE PlayerFriendlyFireNoBulletNamVet CHARACTER NamVet SUBTITLE "Ahh! That hurt!"
+RESPONSE PlayerFriendlyFireNoBulletNamVet CHARACTER NamVet SUBTITLE "Ah! Knock it off!"
+RESPONSE PlayerFriendlyFireNoBulletNamVet CHARACTER NamVet SUBTITLE "Jesus H Christ, I'm on your side."
+RESPONSE PlayerFriendlyFireNoBulletNamVet CHARACTER NamVet SUBTITLE "Who's side are you on, kid?"
+RULE PlayerFriendlyFireNoBulletNamVet CRITERIA ConceptPlayerFriendlyFire IsNotCoughing IsNamVet IsNotNamVetFriendlyFire IsNotDamageTypeBullet IsTalk IsTalkNamVet RESPONSE PlayerFriendlyFireNoBulletNamVet
+RESPONSE PlayerToTheRescueNamVet CHARACTER NamVet SUBTITLE "Hold on I'm on my way!"
+RESPONSE PlayerToTheRescueNamVet CHARACTER NamVet SUBTITLE "I'm coming!"
+RESPONSE PlayerToTheRescueNamVet CHARACTER NamVet SUBTITLE "Don't get your panties in a bunch, I'm comin'!"
+RULE PlayerToTheRescueNamVet CRITERIA ConceptSurvivorBotMovingToReviveFriend IsNotCoughing IsNamVet IsTalk IsTalkNamVet NotInCombat IsNotSaidRescueComing IsDistanceSubjectO600 RESPONSE PlayerToTheRescueNamVet
+RESPONSE SurvivorTauntResponseNamVet CHARACTER NamVet SUBTITLE "Heh hehhh"
+RESPONSE SurvivorTauntResponseNamVet CHARACTER NamVet SUBTITLE "[chuckles and giggles]"
+RESPONSE SurvivorTauntResponseNamVet CHARACTER NamVet SUBTITLE "[chuckles and giggles]"
+RESPONSE SurvivorTauntResponseNamVet CHARACTER NamVet SUBTITLE "[chuckles and giggles]"
+RESPONSE SurvivorTauntResponseNamVet CHARACTER NamVet SUBTITLE "[loud, evil laugh]"
+RESPONSE SurvivorTauntResponseNamVet CHARACTER NamVet SUBTITLE "[loud, evil laugh]"
+RULE SurvivorTauntResponseNamVet CRITERIA ConceptPlayerTaunt IsSurvivor IsNotSpeaking IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorTauntResponseNamVet
+RULE EmphaticArriveRunFarmNamVet CRITERIA ConceptEmphaticArriveRunFarm IsNotCoughing IsNamVet IsTalkNamVet RESPONSE EmphaticArriveRunNamVet
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "Choking"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "Choking"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "Choking"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "Choking"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "Choking"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "Choking"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "Choking"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "Choking"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "Choking"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "[Choking]"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "[Choking]"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "[Choking]"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "Help!"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "Help!"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "Help!"
+RESPONSE PlayerChokeResponseNamVet CHARACTER NamVet SUBTITLE "Help."
+RULE PlayerChokeResponseNamVet CRITERIA ConceptPlayerChoke IsSurvivor IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerChokeResponseNamVet
+RESPONSE PlayerTonguePullStartResponseNamVet CHARACTER NamVet SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE PlayerTonguePullStartResponseNamVet CHARACTER NamVet SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE PlayerTonguePullStartResponseNamVet CHARACTER NamVet SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE PlayerTonguePullStartResponseNamVet CHARACTER NamVet SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE PlayerTonguePullStartResponseNamVet CHARACTER NamVet SUBTITLE "no, NO!"
+RULE PlayerTonguePullStartResponseNamVet CRITERIA ConceptPlayerTonguePullStart IsSurvivor IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerTonguePullStartResponseNamVet
+RESPONSE SurvivorCriticalHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - loud major pain]"
+RESPONSE SurvivorCriticalHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - loud major pain]"
+RESPONSE SurvivorCriticalHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - loud major pain]"
+RESPONSE SurvivorCriticalHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - loud major pain]"
+RESPONSE SurvivorCriticalHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - loud major pain]"
+RESPONSE SurvivorCriticalHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - loud major pain]"
+RESPONSE SurvivorCriticalHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - loud major pain]"
+RESPONSE SurvivorCriticalHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - loud major pain]"
+RESPONSE SurvivorCriticalHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - loud major pain]"
+RULE SurvivorCriticalHurtNamVet CRITERIA IsSurvivor InPain IsCriticalPain IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorCriticalHurtNamVet
+RESPONSE SurvivorIncapacitatedHurtNamVet CHARACTER NamVet SUBTITLE "[AHHHHH - terrified yell]"
+RESPONSE SurvivorIncapacitatedHurtNamVet CHARACTER NamVet SUBTITLE "[AHHHHH - terrified yell]"
+RESPONSE SurvivorIncapacitatedHurtNamVet CHARACTER NamVet SUBTITLE "[AHHHHH - terrified yell]"
+RESPONSE SurvivorIncapacitatedHurtNamVet CHARACTER NamVet SUBTITLE "[AHHHHH - terrified yell]"
+RESPONSE SurvivorIncapacitatedHurtNamVet CHARACTER NamVet SUBTITLE "[AHHHHH - terrified yell]"
+RULE SurvivorIncapacitatedHurtNamVet CRITERIA IsSurvivor InPain IsNotSpeaking IsIncapacitatedPain IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorIncapacitatedHurtNamVet
+RESPONSE SurvivorMajorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - ahh]"
+RESPONSE SurvivorMajorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - huh]"
+RESPONSE SurvivorMajorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - oy]"
+RESPONSE SurvivorMajorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - ugh]"
+RESPONSE SurvivorMajorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - ugh]"
+RESPONSE SurvivorMajorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - ugh]"
+RESPONSE SurvivorMajorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - ugh]"
+RESPONSE SurvivorMajorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - oy]"
+RESPONSE SurvivorMajorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - ugh]"
+RULE SurvivorMajorHurtNamVet CRITERIA IsSurvivor InPain IsMajorPain IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorMajorHurtNamVet
+RESPONSE SurvivorMinorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - short minor pain]"
+RESPONSE SurvivorMinorHurtNamVet CHARACTER NamVet SUBTITLE "[pain noise - short minor pain]"
+RULE SurvivorMinorHurtNamVet CRITERIA IsSurvivor InPain IsMinorPain IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorMinorHurtNamVet
+RESPONSE SurvivorReloadingNamVet CHARACTER NamVet SUBTITLE "Reloading"
+RESPONSE SurvivorReloadingNamVet CHARACTER NamVet SUBTITLE "Reloading"
+RESPONSE SurvivorReloadingNamVet CHARACTER NamVet SUBTITLE "Reloading"
+RULE SurvivorReloadingNamVet CRITERIA ConceptPlayerReloading IsSurvivor IsNotSpeaking IsNamVet IsNotIncapacitated IsTalk IsTalkNamVet RecentGroupInCombat10 RESPONSE SurvivorReloadingNamVet
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "People, I need some help!"
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "I need some help over here."
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "Help!"
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "A little help, people."
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "Help!"
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "Help me!"
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "Little help!"
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "Help me!"
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "Help!"
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "Need some help over here!"
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "Help."
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "A little help please."
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "I'm in trouble!"
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "Little help!"
+RESPONSE PlayerHelpIncappedNamVet CHARACTER NamVet SUBTITLE "I need a hand, people!"
+RULE PlayerHelpIncappedNamVet CRITERIA ConceptPlayerHelp IsNamVet IsTalk IsTalkNamVet IsIncapacitated NotCalledForHelpRecently RESPONSE PlayerHelpIncappedNamVet
+RESPONSE HelpResponseFrancisNamVet CHARACTER NamVet SUBTITLE "We will NOT leave a man behind. Let's get back out there."
+RESPONSE HelpResponseFrancisNamVet CHARACTER NamVet SUBTITLE "We do not leave men behind."
+RULE HelpResponseFrancisNamVet CRITERIA ConceptFriendNeedsHelp IsNamVet IsTalk IsTalkNamVet IsNotIncapacitated IsInSafeSpot FromIsBiker IsNotInStartArea NotAloneInSafeSpot RESPONSE HelpResponseFrancisNamVet
+RESPONSE HelpResponseLouisNamVet CHARACTER NamVet SUBTITLE "No sense dying of old age. Let's go help 'em."
+RESPONSE HelpResponseLouisNamVet CHARACTER NamVet SUBTITLE "We will NOT leave a man behind. Let's get back out there."
+RESPONSE HelpResponseLouisNamVet CHARACTER NamVet SUBTITLE "We do not leave men behind."
+RULE HelpResponseLouisNamVet CRITERIA ConceptFriendNeedsHelp IsNamVet IsTalk IsTalkNamVet IsNotIncapacitated IsInSafeSpot FromIsManager IsNotInStartArea NotAloneInSafeSpot RESPONSE HelpResponseLouisNamVet
+RESPONSE HelpResponseLouisCNamVet CHARACTER NamVet SUBTITLE "How well do you really know Louis?"
+RULE HelpResponseLouisCNamVet CRITERIA ConceptFriendNeedsHelp IsNamVet IsTalk IsTalkNamVet IsNotIncapacitated IsInSafeSpot FromIsManager IsNotInStartArea NotAloneInSafeSpot ChanceToFire10Percent RESPONSE HelpResponseLouisCNamVet
+RESPONSE HelpResponseLouisC2NamVet CHARACTER NamVet SUBTITLE "I'm kidding. Let's go get him."
+RULE HelpResponseLouisC2NamVet CRITERIA ConceptNeedsHelpResponseLouisC2 IsNamVet IsTalk IsTalkNamVet RESPONSE HelpResponseLouisC2NamVet
+RESPONSE HelpResponseZoeyNamVet CHARACTER NamVet SUBTITLE "I can't leave Zoey our there."
+RESPONSE HelpResponseZoeyNamVet CHARACTER NamVet SUBTITLE "We will NOT leave a man behind. Let's get back out there."
+RESPONSE HelpResponseZoeyNamVet CHARACTER NamVet SUBTITLE "We do not leave men behind."
+RULE HelpResponseZoeyNamVet CRITERIA ConceptFriendNeedsHelp IsNamVet IsTalk IsTalkNamVet IsNotIncapacitated IsInSafeSpot FromIsTeenGirl IsNotInStartArea NotAloneInSafeSpot RESPONSE HelpResponseZoeyNamVet
+RESPONSE hospital02_path03b1 CHARACTER NamVet SUBTITLE "Gotta find another way."
+RESPONSE hospital02_path03b1 CHARACTER NamVet SUBTITLE "This seemed too easy."
+RULE hospital02_path03b1 CRITERIA Concepthospital02_path03b1 IsNamVet IsTalk IsTalkNamVet IsSubjectNear400 NotInCombat RESPONSE hospital02_path03b1
+RESPONSE hospital02_path03c1 CHARACTER NamVet SUBTITLE "Going to have to go top side."
+RULE hospital02_path03c1 CRITERIA Concepthospital02_path03c1 IsNamVet IsTalk IsTalkNamVet IsSubjectNear400 NotInCombat RESPONSE hospital02_path03c1
+RESPONSE PlayerAirport02CraneStartedNamVet CHARACTER NamVet SUBTITLE "I have a bad feeling about this"
+RESPONSE PlayerAirport02CraneStartedNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerAirport02CraneStartedNamVet CRITERIA Conceptairport02_creshendoCrane IsNamVet RESPONSE PlayerAirport02CraneStartedNamVet
+RESPONSE Playerairport03_barrieraNamVet CHARACTER NamVet SUBTITLE "Sounds good to me. Let's do it."
+RULE Playerairport03_barrieraNamVet CRITERIA Conceptairport03_barriera IsNamVet IsNotSaidairport03_barriera IsTalk IsTalkNamVet IsSubjectNear800 IsNotSaidairport03_barrier RESPONSE Playerairport03_barrieraNamVet
+RESPONSE PlayerAirport03FireStartedXNamVet CHARACTER NamVet SUBTITLE "Ready?"
+RESPONSE PlayerAirport03FireStartedXNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerAirport03FireStartedXNamVet CRITERIA ConceptAirport03FireStartedX IsNamVet  IsNotCoughing  IsTalk IsTalkNamVet RESPONSE PlayerAirport03FireStartedXNamVet
+RESPONSE Playerairport04_08aNamVet CHARACTER NamVet SUBTITLE "What'd I tell ya?  They tried to stop people from leaving."
+RULE Playerairport04_08aNamVet CRITERIA Conceptairport04_08a IsNamVet IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE Playerairport04_08aNamVet
+RESPONSE Playerairport04_08cNamVet CHARACTER NamVet SUBTITLE "Christ almighty..."
+RULE Playerairport04_08cNamVet CRITERIA Conceptairport04_08c IsNamVet IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE Playerairport04_08cNamVet
+RESPONSE PlayerFrancisSuggestsCraneNamVet CHARACTER NamVet SUBTITLE "Good thinking."
+RULE PlayerFrancisSuggestsCraneNamVet CRITERIA ConceptFrancisSuggestsCrane IsNamVet IsNotSaidFrancisSuggestsCrane IsTalk IsTalkNamVet IsSubjectNear800 RESPONSE PlayerFrancisSuggestsCraneNamVet
+RESPONSE PlayerLaughFrancisNamVet CHARACTER NamVet SUBTITLE "<Short laugh>"
+RESPONSE PlayerLaughFrancisNamVet CHARACTER NamVet SUBTITLE "<Short laugh>"
+RESPONSE PlayerLaughFrancisNamVet CHARACTER NamVet SUBTITLE "<Short laugh>"
+RULE PlayerLaughFrancisNamVet CRITERIA ConceptLaughFrancis IsNamVet IsNotSaidLaughFrancis IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerLaughFrancisNamVet
+RESPONSE PlayerRemarkairport02_creshendo01aNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerRemarkairport02_creshendo01aNamVet CRITERIA ConceptRemark IsNamVet Isairport02_creshendo01a IsNotSaidairport02_creshendo01a IsNotCoughing NotInCombat IsTalk IsTalkNamVet RESPONSE PlayerRemarkairport02_creshendo01aNamVet
+RESPONSE PlayerRemarkairport03_07NamVet CHARACTER NamVet SUBTITLE "There's a safe spot just ahead."
+RESPONSE PlayerRemarkairport03_07NamVet CHARACTER NamVet SUBTITLE "There's a safe place up aheaad."
+RULE PlayerRemarkairport03_07NamVet CRITERIA ConceptRemark IsNamVet Isairport03_07 IsNotSaidairport03_07 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsNotSaidSafeSpotAhead RESPONSE PlayerRemarkairport03_07NamVet
+RESPONSE PlayerRemarkairport04_08aNamVet CHARACTER NamVet SUBTITLE "Just like I said, they bombed the airport"
+RESPONSE PlayerRemarkairport04_08aNamVet CHARACTER NamVet SUBTITLE "Bombed!"
+RULE PlayerRemarkairport04_08aNamVet CRITERIA ConceptRemark IsNamVet Isairport04_08a IsNotSaidairport04_08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkairport04_08aNamVet
+RESPONSE PlayerRemarkairport04_08bNamVet CHARACTER NamVet SUBTITLE "Just like I said, they bombed the airport"
+RESPONSE PlayerRemarkairport04_08bNamVet CHARACTER NamVet SUBTITLE "Bombed!"
+RULE PlayerRemarkairport04_08bNamVet CRITERIA ConceptRemark IsNamVet Isairport04_08b IsNotSaidairport04_08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkairport04_08bNamVet
+RESPONSE PlayerRemarkairport04_08cNamVet CHARACTER NamVet SUBTITLE "Just like I said, they bombed the airport"
+RESPONSE PlayerRemarkairport04_08cNamVet CHARACTER NamVet SUBTITLE "Bombed!"
+RULE PlayerRemarkairport04_08cNamVet CRITERIA ConceptRemark IsNamVet Isairport04_08c IsNotSaidairport04_08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkairport04_08cNamVet
+RESPONSE PlayerRemarkairport04_08dNamVet CHARACTER NamVet SUBTITLE "Just like I said, they bombed the airport"
+RESPONSE PlayerRemarkairport04_08dNamVet CHARACTER NamVet SUBTITLE "Bombed!"
+RULE PlayerRemarkairport04_08dNamVet CRITERIA ConceptRemark IsNamVet Isairport04_08d IsNotSaidairport04_08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkairport04_08dNamVet
+RESPONSE PlayerRemarkairport04_08eNamVet CHARACTER NamVet SUBTITLE "Just like I said, they bombed the airport"
+RESPONSE PlayerRemarkairport04_08eNamVet CHARACTER NamVet SUBTITLE "Bombed!"
+RULE PlayerRemarkairport04_08eNamVet CRITERIA ConceptRemark IsNamVet Isairport04_08e IsNotSaidairport04_08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkairport04_08eNamVet
+RESPONSE PlayerRemarkairport04_08fNamVet CHARACTER NamVet SUBTITLE "Just like I said, they bombed the airport"
+RESPONSE PlayerRemarkairport04_08fNamVet CHARACTER NamVet SUBTITLE "Bombed!"
+RULE PlayerRemarkairport04_08fNamVet CRITERIA ConceptRemark IsNamVet Isairport04_08f IsNotSaidairport04_08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkairport04_08fNamVet
+RESPONSE PlayerRemarkFarm01_path01NamVet CHARACTER NamVet SUBTITLE "These woods look thicker 'n boomer shit. Nobody wander off."
+RULE PlayerRemarkFarm01_path01NamVet CRITERIA ConceptRemark IsNamVet IsFarm01_path01 IsNotSaidFarm01_path01 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkFarm01_path01NamVet
+RESPONSE PlayerRemarkFarm01_path02NamVet CHARACTER NamVet SUBTITLE "This way."
+RULE PlayerRemarkFarm01_path02NamVet CRITERIA ConceptRemark IsNamVet IsFarm01_path02 IsNotSaidFarm01_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkFarm01_path02NamVet
+RESPONSE PlayerRemarkFarm01_path03NamVet CHARACTER NamVet SUBTITLE "Francis, this look like home to you?"
+RULE PlayerRemarkFarm01_path03NamVet CRITERIA ConceptRemark IsNamVet IsFarm01_path03 IsNotSaidFarm01_path03 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkFarm01_path03NamVet
+RESPONSE PlayerRemarkFarm01_path04NamVet CHARACTER NamVet SUBTITLE "The tracks are down there!"
+RULE PlayerRemarkFarm01_path04NamVet CRITERIA ConceptRemark IsNamVet IsFarm01_path04 IsNotSaidFarm01_path04 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear800 NotSaidFarm01_TracksBelow RESPONSE PlayerRemarkFarm01_path04NamVet
+RULE PlayerRemarkFarm01_path05NamVet CRITERIA ConceptRemark IsNamVet IsFarm01_path05 IsNotSaidFarm01_path05 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear800 NotSaidFarm01_TracksBelow RESPONSE PlayerRemarkFarm01_path04NamVet
+RULE PlayerRemarkFarm01_path06NamVet CRITERIA ConceptRemark IsNamVet IsFarm01_path06 IsNotSaidFarm01_path06 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear800 NotSaidFarm01_TracksBelow RESPONSE PlayerRemarkFarm01_path04NamVet
+RULE PlayerRemarkFarm01_path07NamVet CRITERIA ConceptRemark IsNamVet IsFarm01_path07 IsNotSaidFarm01_path07 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear800 NotSaidFarm01_TracksBelow RESPONSE PlayerRemarkFarm01_path04NamVet
+RULE PlayerRemarkFarm01_path08NamVet CRITERIA ConceptRemark IsNamVet IsFarm01_path08 IsNotSaidFarm01_path08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear800 NotSaidFarm01_TracksBelow RESPONSE PlayerRemarkFarm01_path04NamVet
+RESPONSE PlayerRemarkFarm02_path01NamVet CHARACTER NamVet SUBTITLE "Down the stairs!"
+RULE PlayerRemarkFarm02_path01NamVet CRITERIA ConceptRemark IsNamVet IsFarm02_path01 IsNotSaidFarm02_path01 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkFarm02_path01NamVet
+RESPONSE PlayerRemarkFarm02_path01aNamVet CHARACTER NamVet SUBTITLE "Damn straight."
+RULE PlayerRemarkFarm02_path01aNamVet CRITERIA IsNamVet ConceptFarm02_path01a IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkFarm02_path01aNamVet
+RESPONSE PlayerRemarkFarm02_path02NamVet CHARACTER NamVet SUBTITLE "There's the tracks."
+RULE PlayerRemarkFarm02_path02NamVet CRITERIA ConceptRemark IsNamVet IsFarm02_path02 IsNotSaidFarm02_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 NotSaidFarm02_TracksBelow RESPONSE PlayerRemarkFarm02_path02NamVet
+RULE PlayerRemarkFarm02_path03NamVet CRITERIA ConceptRemark IsNamVet IsFarm02_path03 IsNotSaidFarm02_path03 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 NotSaidFarm02_TracksBelow RESPONSE PlayerRemarkFarm02_path02NamVet
+RULE PlayerRemarkFarm02_path04NamVet CRITERIA ConceptRemark IsNamVet IsFarm02_path04 IsNotSaidFarm02_path04 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 NotSaidFarm02_TracksBelow RESPONSE PlayerRemarkFarm02_path02NamVet
+RULE PlayerRemarkFarm02_path05NamVet CRITERIA ConceptRemark IsNamVet IsFarm02_path05 IsNotSaidFarm02_path05 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 NotSaidFarm02_TracksBelow RESPONSE PlayerRemarkFarm02_path02NamVet
+RESPONSE PlayerRemarkFarm02_path06NamVet CHARACTER NamVet SUBTITLE "Down there!"
+RULE PlayerRemarkFarm02_path06NamVet CRITERIA ConceptRemark IsNamVet IsFarm02_path06 IsNotSaidFarm02_path06 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkFarm02_path06NamVet
+RESPONSE PlayerRemarkFarm02_path08NamVet CHARACTER NamVet SUBTITLE "It's through this tunnel."
+RULE PlayerRemarkFarm02_path08NamVet CRITERIA ConceptRemark IsNamVet IsFarm02_path08 IsNotSaidFarm02_path08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE PlayerRemarkFarm02_path08NamVet
+RESPONSE PlayerRemarkFarm02_path09NamVet CHARACTER NamVet SUBTITLE "Let's get up that ladder!"
+RULE PlayerRemarkFarm02_path09NamVet CRITERIA ConceptRemark IsNamVet IsFarm02_path09 IsNotSaidFarm02_path09 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkFarm02_path09NamVet
+RULE PlayerRemarkFarm02_path10NamVet CRITERIA ConceptRemark IsNamVet IsFarm02_path10 IsNotSaidFarm02_path10 IsNotCoughing IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE PlayerRemarkSmalltown03_path14NamVet
+RESPONSE PlayerRemarkFarm03_path01NamVet CHARACTER NamVet SUBTITLE "This side passage better lead somewhere."
+RULE PlayerRemarkFarm03_path01NamVet CRITERIA ConceptRemark IsNamVet IsFarm03_path01 IsNotSaidFarm03_path01 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkFarm03_path01NamVet
+RESPONSE PlayerRemarkFarm03_path02NamVet CHARACTER NamVet SUBTITLE "Keep moving. The tracks gotta be up ahead"
+RULE PlayerRemarkFarm03_path02NamVet CRITERIA ConceptRemark IsNamVet IsFarm03_path02 IsNotSaidFarm03_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 ChanceToFire30Percent RESPONSE PlayerRemarkFarm03_path02NamVet
+RULE AUTOBLANK_PlayerRemarkFarm03_path02NamVet CRITERIA ConceptRemark IsNamVet IsFarm03_path02 IsNotSaidFarm03_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE _PlayerInfoRemarkableBlankNamVet
+RESPONSE PlayerRemarkFarm03_path03NamVet CHARACTER NamVet SUBTITLE "Through here!"
+RULE PlayerRemarkFarm03_path03NamVet CRITERIA ConceptRemark IsNamVet IsFarm03_path03 IsNotSaidFarm03_path03 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkFarm03_path03NamVet
+RESPONSE PlayerRemarkFarm03_path04NamVet CHARACTER NamVet SUBTITLE "There's our train tracks!"
+RULE PlayerRemarkFarm03_path04NamVet CRITERIA ConceptRemark IsNamVet IsFarm03_path04 IsNotSaidFarm03_path04 IsNotSaidFarm03_path05 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear600 RESPONSE PlayerRemarkFarm03_path04NamVet
+RULE PlayerRemarkFarm03_path05NamVet CRITERIA ConceptRemark IsNamVet IsFarm03_path05 IsNotSaidFarm03_path04 IsNotSaidFarm03_path05 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkFarm03_path04NamVet
+RESPONSE PlayerRemarkFarm03_path06NamVet CHARACTER NamVet SUBTITLE "Goddamnit, the tracks are blocked."
+RULE PlayerRemarkFarm03_path06NamVet CRITERIA ConceptRemark IsNamVet IsFarm03_path06 IsNotSaidFarm03_path06 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkFarm03_path06NamVet
+RESPONSE PlayerRemarkFarm03_path07NamVet CHARACTER NamVet SUBTITLE "echh"
+RULE PlayerRemarkFarm03_path07NamVet CRITERIA ConceptRemark IsNamVet IsFarm03_path07 IsNotSaidFarm03_path07 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear100 RESPONSE PlayerRemarkFarm03_path07NamVet
+RULE PlayerRemarkFarm03_path09NamVet CRITERIA ConceptRemark IsNamVet IsFarm03_path09 IsNotSaidFarm03_path09 IsNotCoughing IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE PlayerRemarkFarm01_path09NamVet
+RESPONSE PlayerRemarkFarm03_path10NamVet CHARACTER NamVet SUBTITLE "Up there!"
+RULE PlayerRemarkFarm03_path10NamVet CRITERIA ConceptRemark IsNamVet IsFarm03_path10 Farm03BridgeDown IsNotSaidFarm03_path10 IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkFarm03_path10NamVet
+RESPONSE PlayerRemarkFarm04_path01NamVet CHARACTER NamVet SUBTITLE "Check the barn for supplies."
+RULE PlayerRemarkFarm04_path01NamVet CRITERIA ConceptRemark IsNamVet IsFarm04_path01 IsNotSaidFarm04_path01 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear800 RESPONSE PlayerRemarkFarm04_path01NamVet
+RESPONSE PlayerRemarkFarm04_path01aNamVet CHARACTER NamVet SUBTITLE "Check the barn for supplies."
+RULE PlayerRemarkFarm04_path01aNamVet CRITERIA ConceptRemark IsNamVet IsFarm04_path01 IsNotSaidFarm04_path01 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkFarm04_path01aNamVet
+RESPONSE PlayerRemarkFarm04_path02NamVet CHARACTER NamVet SUBTITLE "The tracks are down there!"
+RULE PlayerRemarkFarm04_path02NamVet CRITERIA ConceptRemark IsNamVet IsFarm04_path02 IsNotSaidFarm04_path02 IsNotSaidFarm04_path03 IsNotCoughing IsTalk IsTalkNamVet IsSubjectNear800 RESPONSE PlayerRemarkFarm04_path02NamVet
+RULE PlayerRemarkFarm04_path03NamVet CRITERIA ConceptRemark IsNamVet IsFarm04_path03 IsNotSaidFarm04_path02 IsNotSaidFarm04_path03 IsNotCoughing IsTalk IsTalkNamVet IsSubjectNear1000 RESPONSE PlayerRemarkFarm04_path02NamVet
+RESPONSE PlayerRemarkFarm04_path04NamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerRemarkFarm04_path04NamVet CRITERIA ConceptRemark IsNamVet IsFarm04_path04 IsNotSaidFarm04_path04 IsSubjectNear1000 IsTalkNamVet RESPONSE PlayerRemarkFarm04_path04NamVet
+RULE PlayerRemarkFarm04_path05NamVet CRITERIA ConceptRemark IsNamVet IsFarm04_path05 IsNotSaidFarm04_path05 IsSubjectNear600 IsTalkNamVet RESPONSE PlayerRemarkFarm04_path04NamVet
+RESPONSE PlayerRemarkFarm04_path06NamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerRemarkFarm04_path06NamVet CRITERIA ConceptRemark IsNamVet IsFarm04_path06 IsNotSaidFarm04_path06 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear500 RESPONSE PlayerRemarkFarm04_path06NamVet
+RESPONSE PlayerRemarkFarm04_path07NamVet CHARACTER NamVet SUBTITLE "Up the stairs!"
+RULE PlayerRemarkFarm04_path07NamVet CRITERIA ConceptRemark IsNamVet IsFarm04_path07 IsNotSaidFarm04_path07 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkFarm04_path07NamVet
+RESPONSE PlayerRemarkFarm04_path08NamVet CHARACTER NamVet SUBTITLE "Through here!"
+RULE PlayerRemarkFarm04_path08NamVet CRITERIA ConceptRemark IsNamVet IsFarm04_path08 IsNotSaidFarm04_path08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkFarm04_path08NamVet
+RESPONSE PlayerRemarkFarm04_path09NamVet CHARACTER NamVet SUBTITLE "Get to the train!"
+RULE PlayerRemarkFarm04_path09NamVet CRITERIA ConceptRemark IsNamVet IsFarm04_path09 IsNotSaidFarm04_path09 IsNotCoughing IsTalk IsTalkNamVet IsSubjectNear1000 RESPONSE PlayerRemarkFarm04_path09NamVet
+RESPONSE PlayerRemarkFarm04_path10NamVet CHARACTER NamVet SUBTITLE "<laugh>Whoa-ho-ho."
+RESPONSE PlayerRemarkFarm04_path10NamVet CHARACTER NamVet SUBTITLE "Holy Mother of God..."
+RULE PlayerRemarkFarm04_path10NamVet CRITERIA ConceptRemark IsNamVet IsFarm04_path10 IsNotSaidFarm04_path10 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear100 RESPONSE PlayerRemarkFarm04_path10NamVet
+RULE PlayerRemarkFarm05_path01NamVet CRITERIA ConceptRemark IsNamVet IsFarm05_path01 IsNotSaidFarm05_path01 IsNotSaidFarm05_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkFarm03_path06NamVet
+RULE PlayerRemarkFarm05_path02NamVet CRITERIA ConceptRemark IsNamVet IsFarm05_path02 IsNotSaidFarm05_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE PlayerRemarkFarm02_path09NamVet
+RESPONSE PlayerRemarkFarm05_path03NamVet CHARACTER NamVet SUBTITLE "Hello?"
+RESPONSE PlayerRemarkFarm05_path03NamVet CHARACTER NamVet SUBTITLE "Where are you?"
+RESPONSE PlayerRemarkFarm05_path03NamVet CHARACTER NamVet SUBTITLE "Where is everyone?"
+RESPONSE PlayerRemarkFarm05_path03NamVet CHARACTER NamVet SUBTITLE "Is anyone there?"
+RESPONSE PlayerRemarkFarm05_path03NamVet CHARACTER NamVet SUBTITLE "Report in, people! Report!"
+RULE PlayerRemarkFarm05_path03NamVet CRITERIA ConceptRemark IsNamVet IsFarm05_path03 IsNotSaidFarm05_path03 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear100 IsNotAlone IsBikerFar1000 IsTeenGirlFar1000 IsManagerFar1000 RESPONSE PlayerRemarkFarm05_path03NamVet
+RESPONSE PlayerRemarkFarm05_path07bNamVet CHARACTER NamVet SUBTITLE "Settle down Francis. Just use that radio. They'll come."
+RULE PlayerRemarkFarm05_path07bNamVet CRITERIA ConceptFarm05_path07b IsNamVet IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 FarmPhase1 RESPONSE PlayerRemarkFarm05_path07bNamVet
+RESPONSE PlayerRemarkFarm05_path07VampiresbNamVet CHARACTER NamVet SUBTITLE "They're zombies, Francis."
+RULE PlayerRemarkFarm05_path07VampiresbNamVet CRITERIA ConceptFarmVampiresb IsNamVet RESPONSE PlayerRemarkFarm05_path07VampiresbNamVet
+RESPONSE PlayerRemarkFarm05_path08NamVet CHARACTER NamVet SUBTITLE "Finally, an outpost!"
+RULE PlayerRemarkFarm05_path08NamVet CRITERIA ConceptRemark IsNamVet IsFarm05_path08 IsNotSaidFarm05_path09 IsNotSaidFarm05_path10 IsNotSaidFarm05_path08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear500 RESPONSE PlayerRemarkFarm05_path08NamVet
+RULE PlayerRemarkFarm05_path09NamVet CRITERIA ConceptRemark IsNamVet IsFarm05_path09 IsNotSaidFarm05_path09 IsNotSaidFarm05_path08 IsNotSaidFarm05_path10 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkFarm05_path08NamVet
+RULE PlayerRemarkFarm05_path10NamVet CRITERIA ConceptRemark IsNamVet IsFarm05_path10 IsNotSaidFarm05_path10 IsNotSaidFarm05_path09 IsNotSaidFarm05_path08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkFarm05_path08NamVet
+RESPONSE PlayerRemarkhospital01_path01NamVet CHARACTER NamVet SUBTITLE "Station's just up the street."
+RESPONSE PlayerRemarkhospital01_path01NamVet CHARACTER NamVet SUBTITLE "There's a subway station just around the corner."
+RULE PlayerRemarkhospital01_path01NamVet CRITERIA ConceptRemark IsNamVet Ishospital01_path01 IsNotSaidhospital01_path01 IsNotCoughing NotInCombat IsSubjectAlmostNear IsTalk IsTalkNamVet RESPONSE PlayerRemarkhospital01_path01NamVet
+RESPONSE PlayerRemarkhospital01_path02NamVet CHARACTER NamVet SUBTITLE "This way people."
+RESPONSE PlayerRemarkhospital01_path02NamVet CHARACTER NamVet SUBTITLE "This way!"
+RULE PlayerRemarkhospital01_path02NamVet CRITERIA ConceptRemark IsNamVet Ishospital01_path02 IsNotSaidhospital01_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectAlmostNear RESPONSE PlayerRemarkhospital01_path02NamVet
+RESPONSE PlayerRemarkhospital01_path03NamVet CHARACTER NamVet SUBTITLE "There's the station!"
+RESPONSE PlayerRemarkhospital01_path03NamVet CHARACTER NamVet SUBTITLE "Everyone to the station!"
+RULE PlayerRemarkhospital01_path03NamVet CRITERIA ConceptRemark IsNamVet Ishospital01_path03 IsNotSaidhospital01_path03 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear RESPONSE PlayerRemarkhospital01_path03NamVet
+RESPONSE PlayerRemarkhospital02_path01NamVet CHARACTER NamVet SUBTITLE "Ahh shit, subway looks full of zombies."
+RESPONSE PlayerRemarkhospital02_path01NamVet CHARACTER NamVet SUBTITLE "Was hoping there would be less zombies down here."
+RULE PlayerRemarkhospital02_path01NamVet CRITERIA ConceptRemark IsNamVet Ishospital02_path01 IsNotSaidhospital02_path01 NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 TimeSinceGroupInCombatNot0 TimeSinceGroupInCombat20  ChanceToFire30Percent RESPONSE PlayerRemarkhospital02_path01NamVet
+RULE AUTOBLANK_PlayerRemarkhospital02_path01NamVet CRITERIA ConceptRemark IsNamVet Ishospital02_path01 IsNotSaidhospital02_path01 NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 TimeSinceGroupInCombatNot0 TimeSinceGroupInCombat20 RESPONSE _PlayerInfoRemarkableBlankNamVet
+RESPONSE PlayerRemarkhospital02_path02NamVet CHARACTER NamVet SUBTITLE "Red line North will take us straight there."
+RESPONSE PlayerRemarkhospital02_path02NamVet CHARACTER NamVet SUBTITLE "The red line North will take us to Mercy."
+RESPONSE PlayerRemarkhospital02_path02NamVet CHARACTER NamVet SUBTITLE "The red line North will take us to the hospital."
+RULE PlayerRemarkhospital02_path02NamVet CRITERIA ConceptRemark IsNamVet Ishospital02_path02 IsNotSaidhospital02_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear500 RESPONSE PlayerRemarkhospital02_path02NamVet
+RESPONSE PlayerRemarkhospital02_path03NamVet CHARACTER NamVet SUBTITLE "Goddamnit, the line's blocked."
+RULE PlayerRemarkhospital02_path03NamVet CRITERIA ConceptRemark IsNamVet Ishospital02_path03 IsNotSaidhospital02_path03 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear900 RESPONSE PlayerRemarkhospital02_path03NamVet
+RESPONSE PlayerRemarkhospital02_path04NamVet CHARACTER NamVet SUBTITLE "We have to keep moving down the street."
+RESPONSE PlayerRemarkhospital02_path04NamVet CHARACTER NamVet SUBTITLE "Safehouse up in the pawnshop."
+RESPONSE PlayerRemarkhospital02_path04NamVet CHARACTER NamVet SUBTITLE "Get to the pawnshop people!"
+RESPONSE PlayerRemarkhospital02_path04NamVet CHARACTER NamVet SUBTITLE "Keep moving, safehouse ahead!"
+RULE PlayerRemarkhospital02_path04NamVet CRITERIA ConceptRemark IsNamVet Ishospital02_path04 IsNotSaidhospital02_path04 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE PlayerRemarkhospital02_path04NamVet
+RESPONSE PlayerRemarkhospital02_safehouseNamVet CHARACTER NamVet SUBTITLE "Safe house ahead!"
+RESPONSE PlayerRemarkhospital02_safehouseNamVet CHARACTER NamVet SUBTITLE "Safe house!"
+RULE PlayerRemarkhospital02_safehouseNamVet CRITERIA ConceptRemark IsNamVet Ishospital02_safehouse IsNotSaidhospital02_safehouse IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear1000 RESPONSE PlayerRemarkhospital02_safehouseNamVet
+RESPONSE PlayerRemarkhospital03_path01NamVet CHARACTER NamVet SUBTITLE "I don't know which way.  Through here I think."
+RESPONSE PlayerRemarkhospital03_path01NamVet CHARACTER NamVet SUBTITLE "Should be a way up ahead."
+RULE PlayerRemarkhospital03_path01NamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path01 IsNotSaidhospital03_path01 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkhospital03_path01NamVet
+RESPONSE PlayerRemarkhospital03_path02NamVet CHARACTER NamVet SUBTITLE "Hospital's just on the other side of the water works."
+RESPONSE PlayerRemarkhospital03_path02NamVet CHARACTER NamVet SUBTITLE "There's the Hospital!"
+RULE PlayerRemarkhospital03_path02NamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path02 IsNotSaidhospital03_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 ChanceToFire50Percent RESPONSE PlayerRemarkhospital03_path02NamVet
+RULE AUTOBLANK_PlayerRemarkhospital03_path02NamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path02 IsNotSaidhospital03_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE _PlayerInfoRemarkableBlankNamVet
+RESPONSE PlayerRemarkhospital03_path03NamVet CHARACTER NamVet SUBTITLE "To the lift."
+RESPONSE PlayerRemarkhospital03_path03NamVet CHARACTER NamVet SUBTITLE "Get on the lift!"
+RESPONSE PlayerRemarkhospital03_path03NamVet CHARACTER NamVet SUBTITLE "Get on the lift!"
+RULE PlayerRemarkhospital03_path03NamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path03 IsNotSaidhospital03_path03 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear800 RESPONSE PlayerRemarkhospital03_path03NamVet
+RESPONSE PlayerRemarkhospital03_path04NamVet CHARACTER NamVet SUBTITLE "This way!"
+RESPONSE PlayerRemarkhospital03_path04NamVet CHARACTER NamVet SUBTITLE "Through the warehouse."
+RULE PlayerRemarkhospital03_path04NamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path04 IsNotSaidhospital03_path04 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkhospital03_path04NamVet
+RESPONSE PlayerRemarkhospital03_path05NamVet CHARACTER NamVet SUBTITLE "At least this is the right direction."
+RESPONSE PlayerRemarkhospital03_path05NamVet CHARACTER NamVet SUBTITLE "Almost there!"
+RULE PlayerRemarkhospital03_path05NamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path05 IsNotSaidhospital03_path05 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 ChanceToFire20Percent RESPONSE PlayerRemarkhospital03_path05NamVet
+RULE AUTOBLANK_PlayerRemarkhospital03_path05NamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path05 IsNotSaidhospital03_path05 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE _PlayerInfoRemarkableBlankNamVet
+RESPONSE PlayerRemarkhospital03_path06NamVet CHARACTER NamVet SUBTITLE "Looks like people went this way."
+RESPONSE PlayerRemarkhospital03_path06NamVet CHARACTER NamVet SUBTITLE "I think they tried to escape."
+RULE PlayerRemarkhospital03_path06NamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path06 IsNotSaidhospital03_path06 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 ChanceToFire50Percent RESPONSE PlayerRemarkhospital03_path06NamVet
+RULE AUTOBLANK_PlayerRemarkhospital03_path06NamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path06 IsNotSaidhospital03_path06 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE _PlayerInfoRemarkableBlankNamVet
+RESPONSE PlayerRemarkhospital03_path07NamVet CHARACTER NamVet SUBTITLE "Into the sewers we go."
+RESPONSE PlayerRemarkhospital03_path07NamVet CHARACTER NamVet SUBTITLE "Well hell, let's try the sewers."
+RESPONSE PlayerRemarkhospital03_path07NamVet CHARACTER NamVet SUBTITLE "Maybe there's no stinkin' zombies in the sewers? (laughing)"
+RESPONSE PlayerRemarkhospital03_path07NamVet CHARACTER NamVet SUBTITLE "Already smell pretty bad."
+RULE PlayerRemarkhospital03_path07NamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path07 IsNotSaidhospital03_path07 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkhospital03_path07NamVet
+RESPONSE PlayerRemarkhospital03_path08aNamVet CHARACTER NamVet SUBTITLE "Francis, is that you or the sewer?"
+RULE PlayerRemarkhospital03_path08aNamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path08 IsNotSaidhospital03_path08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 ChanceToFire50Percent IsBikerAlive RESPONSE PlayerRemarkhospital03_path08aNamVet
+RULE AUTOBLANK_PlayerRemarkhospital03_path08aNamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path08 IsNotSaidhospital03_path08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 IsBikerAlive RESPONSE _PlayerInfoRemarkableBlankNamVet
+RESPONSE PlayerRemarkhospital03_path09NamVet CHARACTER NamVet SUBTITLE "What a crock a' shit..."
+RESPONSE PlayerRemarkhospital03_path09NamVet CHARACTER NamVet SUBTITLE "That's a crock of shit."
+RULE PlayerRemarkhospital03_path09NamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path09 IsNotSaidhospital03_path09 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear100 RESPONSE PlayerRemarkhospital03_path09NamVet
+RESPONSE PlayerRemarkhospital03_path10NamVet CHARACTER NamVet SUBTITLE "Need to find manhole, the hospital is above us."
+RESPONSE PlayerRemarkhospital03_path10NamVet CHARACTER NamVet SUBTITLE "Need to find manhole."
+RULE PlayerRemarkhospital03_path10NamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path10 IsNotSaidhospital03_path10 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkhospital03_path10NamVet
+RESPONSE PlayerRemarkhospital03_path11NamVet CHARACTER NamVet SUBTITLE "The HOSPITAL!"
+RESPONSE PlayerRemarkhospital03_path11NamVet CHARACTER NamVet SUBTITLE "TO THE HOSPITAL!"
+RESPONSE PlayerRemarkhospital03_path11NamVet CHARACTER NamVet SUBTITLE "Into the emergency room people!"
+RESPONSE PlayerRemarkhospital03_path11NamVet CHARACTER NamVet SUBTITLE "Let's go, let's go."
+RULE PlayerRemarkhospital03_path11NamVet CRITERIA ConceptRemark IsNamVet Ishospital03_path11 IsNotSaidhospital03_path11 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear1000 RESPONSE PlayerRemarkhospital03_path11NamVet
+RESPONSE PlayerRemarkhospital04_path01NamVet CHARACTER NamVet SUBTITLE "At least the power's on."
+RULE PlayerRemarkhospital04_path01NamVet CRITERIA ConceptRemark IsNamVet Ishospital04_path01 IsNotSaidhospital04_path01 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkhospital04_path01NamVet
+RESPONSE PlayerRemarkhospital04_path01aNamVet CHARACTER NamVet SUBTITLE "I've smelled worse."
+RULE PlayerRemarkhospital04_path01aNamVet CRITERIA Concepthospital04_path01a IsNamVet IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkhospital04_path01aNamVet
+RESPONSE PlayerRemarkhospital04_path02NamVet CHARACTER NamVet SUBTITLE "Let's find an elevator."
+RESPONSE PlayerRemarkhospital04_path02NamVet CHARACTER NamVet SUBTITLE "I ain't walking to the roof."
+RESPONSE PlayerRemarkhospital04_path02NamVet CHARACTER NamVet SUBTITLE "Ahh.. more stairs."
+RULE PlayerRemarkhospital04_path02NamVet CRITERIA ConceptRemark IsNamVet Ishospital04_path02 IsNotSaidhospital04_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkhospital04_path02NamVet
+RESPONSE PlayerRemarkhospital04_path04NamVet CHARACTER NamVet SUBTITLE "Elevator's here!"
+RESPONSE PlayerRemarkhospital04_path04NamVet CHARACTER NamVet SUBTITLE "Get to the elevator!"
+RESPONSE PlayerRemarkhospital04_path04NamVet CHARACTER NamVet SUBTITLE "Into the elevator!"
+RULE PlayerRemarkhospital04_path04NamVet CRITERIA ConceptRemark IsNamVet Ishospital04_path04 IsNotSaidhospital04_path04 IsNotCoughing  IsTalk IsTalkNamVet IsSubjectNear1000 IsSubjectFar100 RESPONSE PlayerRemarkhospital04_path04NamVet
+RESPONSE PlayerRemarkhospital04_path04aNamVet CHARACTER NamVet SUBTITLE "Elevator's here!"
+RESPONSE PlayerRemarkhospital04_path04aNamVet CHARACTER NamVet SUBTITLE "Get to the elevator!"
+RESPONSE PlayerRemarkhospital04_path04aNamVet CHARACTER NamVet SUBTITLE "Into the elevator!"
+RULE PlayerRemarkhospital04_path04aNamVet CRITERIA Concepthospital04_path04a IsNamVet  IsTalk IsTalkNamVet RESPONSE PlayerRemarkhospital04_path04aNamVet
+RESPONSE PlayerRemarkhospital04_path05NamVet CHARACTER NamVet SUBTITLE "Now to the roof!"
+RULE PlayerRemarkhospital04_path05NamVet CRITERIA ConceptRemark IsNamVet Ishospital04_path05 IsNotSaidhospital04_path05 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkhospital04_path05NamVet
+RESPONSE PlayerRemarkhospital04_path06NamVet CHARACTER NamVet SUBTITLE "That first step'll kill ya."
+RESPONSE PlayerRemarkhospital04_path06NamVet CHARACTER NamVet SUBTITLE "Watch out that first step'll kill ya."
+RULE PlayerRemarkhospital04_path06NamVet CRITERIA ConceptRemark IsNamVet Ishospital04_path06 IsNotSaidhospital04_path06 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear500 RESPONSE PlayerRemarkhospital04_path06NamVet
+RESPONSE PlayerRemarkhospital04_path07NamVet CHARACTER NamVet SUBTITLE "Saferoom up here!"
+RESPONSE PlayerRemarkhospital04_path07NamVet CHARACTER NamVet SUBTITLE "We can get to the the roof through here."
+RULE PlayerRemarkhospital04_path07NamVet CRITERIA ConceptRemark IsNamVet Ishospital04_path07 IsNotSaidhospital04_path07 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear1000 RESPONSE PlayerRemarkhospital04_path07NamVet
+RESPONSE PlayerRemarkhospital05_path01NamVet CHARACTER NamVet SUBTITLE "Let's get the hell out of here!"
+RULE PlayerRemarkhospital05_path01NamVet CRITERIA ConceptRemark IsNamVet Ishospital05_path01 IsNotSaidhospital05_path01 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkhospital05_path01NamVet
+RESPONSE PlayerRemarkhospital05_path02NamVet CHARACTER NamVet SUBTITLE "Through here!"
+RESPONSE PlayerRemarkhospital05_path02NamVet CHARACTER NamVet SUBTITLE "Through here!"
+RESPONSE PlayerRemarkhospital05_path02NamVet CHARACTER NamVet SUBTITLE "We can get to the the roof through here."
+RULE PlayerRemarkhospital05_path02NamVet CRITERIA ConceptRemark IsNamVet Ishospital05_path02 IsNotSaidhospital05_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE PlayerRemarkhospital05_path02NamVet
+RESPONSE PlayerRemarkhospital05_path03NamVet CHARACTER NamVet SUBTITLE "There's the landing pad."
+RULE PlayerRemarkhospital05_path03NamVet CRITERIA ConceptRemark IsNamVet Ishospital05_path03 IsNotSaidhospital05_path03 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkhospital05_path03NamVet
+RESPONSE PlayerRemarkPathClearVanNamVet CHARACTER NamVet SUBTITLE "Come on, let's go."
+RESPONSE PlayerRemarkPathClearVanNamVet CHARACTER NamVet SUBTITLE "Let's move it out!"
+RESPONSE PlayerRemarkPathClearVanNamVet CHARACTER NamVet SUBTITLE "Let's go, people!"
+RULE PlayerRemarkPathClearVanNamVet CRITERIA ConceptPathClearVan IsNamVet IsNotSaidPathClearVan IsNotCoughing  IsTalk IsTalkNamVet RESPONSE PlayerRemarkPathClearVanNamVet
+RESPONSE PlayerRemarkSmalltown01_path03NamVet CHARACTER NamVet SUBTITLE "Let's get up that ladder!"
+RULE PlayerRemarkSmalltown01_path03NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown01_path03 IsNotSaidSmalltown01_path03 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkSmalltown01_path03NamVet
+RESPONSE PlayerRemarkSmalltown01_path05NamVet CHARACTER NamVet SUBTITLE "It's through this tunnel."
+RESPONSE PlayerRemarkSmalltown01_path05NamVet CHARACTER NamVet SUBTITLE "Ah hell. I think we gotta go through this tunnel."
+RULE PlayerRemarkSmalltown01_path05NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown01_path05 IsNotSaidSmalltown01_path05 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE PlayerRemarkSmalltown01_path05NamVet
+RESPONSE PlayerRemarkSmalltown01_path06NamVet CHARACTER NamVet SUBTITLE "This tunnel was a deathtrap."
+RULE PlayerRemarkSmalltown01_path06NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown01_path06 IsNotSaidSmalltown01_path06 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkSmalltown01_path06NamVet
+RESPONSE PlayerRemarkSmalltown01_path08NamVet CHARACTER NamVet SUBTITLE "Through here!"
+RESPONSE PlayerRemarkSmalltown01_path08NamVet CHARACTER NamVet SUBTITLE "Through here!"
+RULE PlayerRemarkSmalltown01_path08NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown01_path08 IsNotSaidSmalltown01_path08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkSmalltown01_path08NamVet
+RESPONSE PlayerRemarkSmalltown01_path09NamVet CHARACTER NamVet SUBTITLE "Safe house ahead!"
+RESPONSE PlayerRemarkSmalltown01_path09NamVet CHARACTER NamVet SUBTITLE "Safe house!"
+RESPONSE PlayerRemarkSmalltown01_path09NamVet CHARACTER NamVet SUBTITLE "Safe house up there."
+RULE PlayerRemarkSmalltown01_path09NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown01_path09 IsNotSaidSmalltown01_path09 IsNotCoughing IsTalk IsTalkNamVet IsSubjectNear1500 RESPONSE PlayerRemarkSmalltown01_path09NamVet
+RESPONSE PlayerRemarksmalltown02_path02NamVet CHARACTER NamVet SUBTITLE "Through here!"
+RULE PlayerRemarksmalltown02_path02NamVet CRITERIA ConceptRemark IsNamVet Issmalltown02_path02 IsNotSaidsmalltown02_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarksmalltown02_path02NamVet
+RESPONSE PlayerRemarksmalltown02_path03NamVet CHARACTER NamVet SUBTITLE "Through here!"
+RULE PlayerRemarksmalltown02_path03NamVet CRITERIA ConceptRemark IsNamVet Issmalltown02_path03 IsNotSaidsmalltown02_path03 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarksmalltown02_path03NamVet
+RESPONSE PlayerRemarksmalltown02_path04NamVet CHARACTER NamVet SUBTITLE "Through here!"
+RULE PlayerRemarksmalltown02_path04NamVet CRITERIA ConceptRemark IsNamVet Issmalltown02_path04 IsNotSaidsmalltown02_path04 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarksmalltown02_path04NamVet
+RESPONSE PlayerRemarksmalltown02_path08NamVet CHARACTER NamVet SUBTITLE "[Improv non-verbal pleasure & interest sounds]"
+RULE PlayerRemarksmalltown02_path08NamVet CRITERIA ConceptRemark IsNamVet Issmalltown02_path08 IsNotSaidsmalltown02_path08 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear100 RESPONSE PlayerRemarksmalltown02_path08NamVet
+RESPONSE PlayerRemarkSmalltown02_path09NamVet CHARACTER NamVet SUBTITLE "Safe house ahead!"
+RULE PlayerRemarkSmalltown02_path09NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown02_path09 IsNotSaidSmalltown02_path09 IsNotCoughing IsTalk IsTalkNamVet IsSubjectNear1000 RESPONSE PlayerRemarkSmalltown02_path09NamVet
+RESPONSE PlayerRemarkSmalltown03_path01NamVet CHARACTER NamVet SUBTITLE "I have a bad feeling about this"
+RESPONSE PlayerRemarkSmalltown03_path01NamVet CHARACTER NamVet SUBTITLE "I do not like this one bit."
+RULE PlayerRemarkSmalltown03_path01NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown03_path01 IsNotSaidSmalltown03_path01 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkSmalltown03_path01NamVet
+RESPONSE PlayerRemarkSmalltown03_path02NamVet CHARACTER NamVet SUBTITLE "I have a bad feeling about this"
+RESPONSE PlayerRemarkSmalltown03_path02NamVet CHARACTER NamVet SUBTITLE "I do not like this one bit."
+RULE PlayerRemarkSmalltown03_path02NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown03_path02 IsNotSaidSmalltown03_path01 IsNotSaidSmalltown03_path02 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkSmalltown03_path02NamVet
+RESPONSE PlayerRemarkSmalltown03_path04NamVet CHARACTER NamVet SUBTITLE "Up the stairs!"
+RULE PlayerRemarkSmalltown03_path04NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown03_path04 IsNotSaidSmalltown03_path04 IsNotSaidSmalltown03_path05 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkSmalltown03_path04NamVet
+RESPONSE PlayerRemarkSmalltown03_path05NamVet CHARACTER NamVet SUBTITLE "Up the stairs!"
+RULE PlayerRemarkSmalltown03_path05NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown03_path05 IsNotSaidSmalltown03_path04 IsNotSaidSmalltown03_path05 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkSmalltown03_path05NamVet
+RESPONSE PlayerRemarkSmalltown03_path06NamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerRemarkSmalltown03_path06NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown03_path06 IsNotSaidSmalltown03_path06 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE PlayerRemarkSmalltown03_path06NamVet
+RESPONSE PlayerRemarkSmalltown03_path10NamVet CHARACTER NamVet SUBTITLE "Check that house for supplies."
+RULE PlayerRemarkSmalltown03_path10NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown03_path10 IsNotSaidSmalltown03_path10 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear800 RESPONSE PlayerRemarkSmalltown03_path10NamVet
+RESPONSE PlayerRemarkSmalltown03_path11NamVet CHARACTER NamVet SUBTITLE "I have a bad feeling about this"
+RULE PlayerRemarkSmalltown03_path11NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown03_path11 IsNotSaidSmalltown03_path11 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear100 RESPONSE PlayerRemarkSmalltown03_path11NamVet
+RESPONSE PlayerRemarkSmalltown03_path12NamVet CHARACTER NamVet SUBTITLE "There's lights on in that church!"
+RULE PlayerRemarkSmalltown03_path12NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown03_path12 IsNotSaidSmalltown03_path12 IsNotSaidSmalltown03_path13 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE PlayerRemarkSmalltown03_path12NamVet
+RESPONSE PlayerRemarkSmalltown03_path13NamVet CHARACTER NamVet SUBTITLE "There's lights on in that church!"
+RULE PlayerRemarkSmalltown03_path13NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown03_path13 IsNotSaidSmalltown03_path13 IsNotSaidSmalltown03_path12 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE PlayerRemarkSmalltown03_path13NamVet
+RESPONSE PlayerRemarkSmalltown04_path01NamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerRemarkSmalltown04_path01NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown04_path01 IsNotSaidSmalltown04_path01 IsNotSaidSmalltown04_path02 IsNotCoughing NotInCombat IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkSmalltown04_path01NamVet
+RESPONSE PlayerRemarkSmalltown04_path02NamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerRemarkSmalltown04_path02NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown04_path02 IsNotSaidSmalltown04_path02 IsNotSaidSmalltown04_path01 IsNotCoughing NotInCombat IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkSmalltown04_path02NamVet
+RESPONSE PlayerRemarkSmalltown04_path03NamVet CHARACTER NamVet SUBTITLE "Poor bastards barricaded themselves inside the city. All it musta took was one infected..."
+RESPONSE PlayerRemarkSmalltown04_path03NamVet CHARACTER NamVet SUBTITLE "They didn't have a chance."
+RULE PlayerRemarkSmalltown04_path03NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown04_path03 IsNotSaidSmalltown04_path03 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 IsSmalltownBarricadeNamVet RESPONSE PlayerRemarkSmalltown04_path03NamVet
+RESPONSE PlayerRemarkSmalltown04_path04NamVet CHARACTER NamVet SUBTITLE "Poor bastards barricaded themselves inside the city. All it musta took was one infected..."
+RESPONSE PlayerRemarkSmalltown04_path04NamVet CHARACTER NamVet SUBTITLE "They didn't have a chance."
+RULE PlayerRemarkSmalltown04_path04NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown04_path04 IsNotSaidSmalltown04_path04 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 IsSmalltownBarricadeNamVet RESPONSE PlayerRemarkSmalltown04_path04NamVet
+RESPONSE PlayerRemarkSmalltown04_path05NamVet CHARACTER NamVet SUBTITLE "Come on, this way."
+RESPONSE PlayerRemarkSmalltown04_path05NamVet CHARACTER NamVet SUBTITLE "This way, people!"
+RESPONSE PlayerRemarkSmalltown04_path05NamVet CHARACTER NamVet SUBTITLE "This way."
+RULE PlayerRemarkSmalltown04_path05NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown04_path05 IsNotSaidSmalltown04_path05 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkSmalltown04_path05NamVet
+RESPONSE PlayerRemarkSmalltown04_path09NamVet CHARACTER NamVet SUBTITLE "Poor bastards barricaded themselves inside the city. All it musta took was one infected..."
+RESPONSE PlayerRemarkSmalltown04_path09NamVet CHARACTER NamVet SUBTITLE "They didn't have a chance."
+RULE PlayerRemarkSmalltown04_path09NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown04_path09 IsNotSaidSmalltown04_path09 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 IsSmalltownBarricadeNamVet RESPONSE PlayerRemarkSmalltown04_path09NamVet
+RESPONSE PlayerRemarkSmalltown04_path10NamVet CHARACTER NamVet SUBTITLE "Up there."
+RESPONSE PlayerRemarkSmalltown04_path10NamVet CHARACTER NamVet SUBTITLE "Up the stairs!"
+RULE PlayerRemarkSmalltown04_path10NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown04_path10 IsNotSaidSmalltown04_path10 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkSmalltown04_path10NamVet
+RULE PlayerRemarkSmalltown04_path11NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown04_path11 IsNotSaidSmalltown04_path11 IsNotCoughing IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkSmalltown03_path14NamVet
+RESPONSE PlayerRemarkSmalltown05_path01NamVet CHARACTER NamVet SUBTITLE "Check that house for supplies."
+RULE PlayerRemarkSmalltown05_path01NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown05_path01 IsNotSaidSmalltown05_path01 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear1000 RESPONSE PlayerRemarkSmalltown05_path01NamVet
+RESPONSE PlayerRemarkSmalltown05_path03NamVet CHARACTER NamVet SUBTITLE "This way, people!"
+RESPONSE PlayerRemarkSmalltown05_path03NamVet CHARACTER NamVet SUBTITLE "This way."
+RULE PlayerRemarkSmalltown05_path03NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown05_path03 IsNotSaidSmalltown05_path03 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear300 RESPONSE PlayerRemarkSmalltown05_path03NamVet
+RESPONSE PlayerRemarkSmalltown05_path06NamVet CHARACTER NamVet SUBTITLE "Through here!"
+RULE PlayerRemarkSmalltown05_path06NamVet CRITERIA ConceptRemark IsNamVet IsSmalltown05_path06 IsNotSaidSmalltown05_path06 IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE PlayerRemarkSmalltown05_path06NamVet
+RESPONSE PlayerRemarkThroughHereNamVet CHARACTER NamVet SUBTITLE "Through here!"
+RESPONSE PlayerRemarkThroughHereNamVet CHARACTER NamVet SUBTITLE "Through here!"
+RESPONSE PlayerRemarkThroughHereNamVet CHARACTER NamVet SUBTITLE "Through here!"
+RULE PlayerRemarkThroughHereNamVet CRITERIA ConceptRemark IsNamVet IsThroughHere IsNotSaidThroughHere IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE PlayerRemarkThroughHereNamVet
+RESPONSE PlayerRemarkUpThatLadderNamVet CHARACTER NamVet SUBTITLE "Let's get up that ladder!"
+RULE PlayerRemarkUpThatLadderNamVet CRITERIA ConceptRemark IsNamVet IsUpThatLadder IsNotSaidUpThatLadder IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 RESPONSE PlayerRemarkUpThatLadderNamVet
+RESPONSE PlayerZoeySuggestsCraneNamVet CHARACTER NamVet SUBTITLE "Allright, then, let's do it."
+RESPONSE PlayerZoeySuggestsCraneNamVet CHARACTER NamVet SUBTITLE "Good thinking."
+RESPONSE PlayerZoeySuggestsCraneNamVet CHARACTER NamVet SUBTITLE "Sounds good to me. Let's do it."
+RULE PlayerZoeySuggestsCraneNamVet CRITERIA ConceptZoeySuggestsCrane IsNamVet IsNotSaidZoeySuggestsCrane IsTalk IsTalkNamVet IsSubjectNear800 RESPONSE PlayerZoeySuggestsCraneNamVet
+RESPONSE RespondAffirmativeNamVet CHARACTER NamVet SUBTITLE "Roger that."
+RESPONSE RespondAffirmativeNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE RespondAffirmativeNamVet CHARACTER NamVet SUBTITLE "Okay."
+RESPONSE RespondAffirmativeNamVet CHARACTER NamVet SUBTITLE "Affirmative."
+RULE RespondAffirmativeNamVet CRITERIA ConceptRespondAffirmative IssuerMediumClose IsNotCoughing NotInCombat isNamVet IsTalkNamVet RESPONSE RespondAffirmativeNamVet
+RESPONSE RiversideIsDeadANamVet CHARACTER NamVet SUBTITLE "Christ"
+RESPONSE RiversideIsDeadANamVet CHARACTER NamVet SUBTITLE "Gee-zus"
+RULE RiversideIsDeadANamVet CRITERIA ConceptRiversideIsDeadA IsNamVet IsNotCoughing IsTalkNamVet RESPONSE RiversideIsDeadANamVet
+RESPONSE RiversideIsDeadPlanNamVet CHARACTER NamVet SUBTITLE "Allright, then, let's do it."
+RESPONSE RiversideIsDeadPlanNamVet CHARACTER NamVet SUBTITLE "Sounds good to me. Let's do it."
+RULE RiversideIsDeadPlanNamVet CRITERIA ConceptRiversideIsDeadPlan IsNamVet IsNotCoughing IsTalkNamVet RESPONSE RiversideIsDeadPlanNamVet
+RESPONSE RiversideIsDeadSpecial1BNamVet CHARACTER NamVet SUBTITLE "What was that?"
+RULE RiversideIsDeadSpecial1BNamVet CRITERIA ConceptRiversideIsDeadSpecial1B IsNamVet IsNotCoughing IsTalkNamVet RESPONSE RiversideIsDeadSpecial1BNamVet
+RESPONSE SafeSpotAheadResponse CHARACTER NamVet SUBTITLE "Finally!"
+RESPONSE SafeSpotAheadResponse CHARACTER NamVet SUBTITLE "Thank God."
+RESPONSE SafeSpotAheadResponse CHARACTER NamVet SUBTITLE "'Bout time!"
+RESPONSE SafeSpotAheadResponse CHARACTER NamVet SUBTITLE "Hallelujah!"
+RESPONSE SafeSpotAheadResponse CHARACTER NamVet SUBTITLE "Well it's about damn time."
+RESPONSE SafeSpotAheadResponse CHARACTER NamVet SUBTITLE "I could use a damn break."
+RULE SafeSpotAheadResponse CRITERIA IsNamVet IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear400 ConceptSafeSpotAheadResponse ChanceToFire30Percent RESPONSE SafeSpotAheadResponse
+RESPONSE PlayerNearFinaleFarmNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerNearFinaleFarmNamVet CRITERIA ConceptPlayerNearFinale IsNotCoughing IsNamVet IsNotSaidFinaleAhead NotInCombat IsTalk IsTalkNamVet IsNotIncapacitated ismap_l4d_farm05_cornfield RESPONSE PlayerNearFinaleFarmNamVet
+RESPONSE ResponseDontBeAnAssNamVet CHARACTER NamVet SUBTITLE "Don't be an ass, Francis."
+RULE ResponseDontBeAnAssNamVet CRITERIA ConceptDontBeAnAss IsNamVet IsNotCoughing NotInCombat IsTalk IsTalkNamVet IsSubjectNear200 RESPONSE ResponseDontBeAnAssNamVet
+RESPONSE PlayerCoverMeNamVet CHARACTER NamVet SUBTITLE "Cover me!"
+RESPONSE PlayerCoverMeNamVet CHARACTER NamVet SUBTITLE "Cover me."
+RESPONSE PlayerCoverMeNamVet CHARACTER NamVet SUBTITLE "Watch my back"
+RESPONSE PlayerCoverMeNamVet CHARACTER NamVet SUBTITLE "Watch my back."
+RESPONSE PlayerCoverMeNamVet CHARACTER NamVet SUBTITLE "Cover me."
+RULE PlayerCoverMeNamVet CRITERIA ConceptPlayerCoverMe IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerCoverMeNamVet
+RESPONSE PlayerFollowMeNamVet CHARACTER NamVet SUBTITLE "Come on, this way."
+RESPONSE PlayerFollowMeNamVet CHARACTER NamVet SUBTITLE "I'll take the lead."
+RESPONSE PlayerFollowMeNamVet CHARACTER NamVet SUBTITLE "Follow me!"
+RESPONSE PlayerFollowMeNamVet CHARACTER NamVet SUBTITLE "This way, people!"
+RESPONSE PlayerFollowMeNamVet CHARACTER NamVet SUBTITLE "This way."
+RESPONSE PlayerFollowMeNamVet CHARACTER NamVet SUBTITLE "I'm on point."
+RESPONSE PlayerFollowMeNamVet CHARACTER NamVet SUBTITLE "This way!"
+RESPONSE PlayerFollowMeNamVet CHARACTER NamVet SUBTITLE "Fall in behind me."
+RESPONSE PlayerFollowMeNamVet CHARACTER NamVet SUBTITLE "Follow me."
+RULE PlayerFollowMeNamVet CRITERIA ConceptPlayerFollowMe IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerFollowMeNamVet
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "People, I need some help!"
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "I need some help over here."
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "Help!"
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "A little help, people."
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "Help!"
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "Help me!"
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "Little help!"
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "Help me!"
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "Help!"
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "Need some help over here!"
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "Help."
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "A little help please."
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "Need some help over here!"
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "I'm in trouble!"
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "Little help!"
+RESPONSE PlayerHelpNamVet CHARACTER NamVet SUBTITLE "I need a hand, people!"
+RULE PlayerHelpNamVet CRITERIA ConceptPlayerHelp IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerHelpNamVet
+RESPONSE PlayerHurryUpNamVet CHARACTER NamVet SUBTITLE "Hurry up!"
+RESPONSE PlayerHurryUpNamVet CHARACTER NamVet SUBTITLE "Hurry up!"
+RESPONSE PlayerHurryUpNamVet CHARACTER NamVet SUBTITLE "Hurry!"
+RESPONSE PlayerHurryUpNamVet CHARACTER NamVet SUBTITLE "MOVE!"
+RESPONSE PlayerHurryUpNamVet CHARACTER NamVet SUBTITLE "Get the lead out, people!"
+RESPONSE PlayerHurryUpNamVet CHARACTER NamVet SUBTITLE "Hurry!"
+RESPONSE PlayerHurryUpNamVet CHARACTER NamVet SUBTITLE "Hustle!"
+RESPONSE PlayerHurryUpNamVet CHARACTER NamVet SUBTITLE "Hurry it up"
+RESPONSE PlayerHurryUpNamVet CHARACTER NamVet SUBTITLE "Faster! Move it, people."
+RULE PlayerHurryUpNamVet CRITERIA ConceptPlayerHurryUp IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerHurryUpNamVet
+RESPONSE PlayerKillThatLightNamVet CHARACTER NamVet SUBTITLE "Turn those flashlights off!"
+RESPONSE PlayerKillThatLightNamVet CHARACTER NamVet SUBTITLE "Kill that light."
+RESPONSE PlayerKillThatLightNamVet CHARACTER NamVet SUBTITLE "Turn your light off."
+RESPONSE PlayerKillThatLightNamVet CHARACTER NamVet SUBTITLE "Lights off!"
+RESPONSE PlayerKillThatLightNamVet CHARACTER NamVet SUBTITLE "Turn those flashlights off!"
+RULE PlayerKillThatLightNamVet CRITERIA ConceptPlayerKillThatLight IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerKillThatLightNamVet
+RESPONSE PlayerLeadOnNamVet CHARACTER NamVet SUBTITLE "You go ahead, I'll follow you"
+RESPONSE PlayerLeadOnNamVet CHARACTER NamVet SUBTITLE "You take the lead"
+RESPONSE PlayerLeadOnNamVet CHARACTER NamVet SUBTITLE "Go ahead"
+RESPONSE PlayerLeadOnNamVet CHARACTER NamVet SUBTITLE "You're on point"
+RESPONSE PlayerLeadOnNamVet CHARACTER NamVet SUBTITLE "I'll follow you"
+RESPONSE PlayerLeadOnNamVet CHARACTER NamVet SUBTITLE "Lead on."
+RESPONSE PlayerLeadOnNamVet CHARACTER NamVet SUBTITLE "You go ahead, I'll cover you."
+RESPONSE PlayerLeadOnNamVet CHARACTER NamVet SUBTITLE "Take the point."
+RULE PlayerLeadOnNamVet CRITERIA ConceptPlayerLeadOn IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerLeadOnNamVet
+RESPONSE PlayerMoveOnNamVet CHARACTER NamVet SUBTITLE "Allright, let's go."
+RESPONSE PlayerMoveOnNamVet CHARACTER NamVet SUBTITLE "Let's move people."
+RESPONSE PlayerMoveOnNamVet CHARACTER NamVet SUBTITLE "Move it out!"
+RESPONSE PlayerMoveOnNamVet CHARACTER NamVet SUBTITLE "Let's go."
+RESPONSE PlayerMoveOnNamVet CHARACTER NamVet SUBTITLE "Lets move people"
+RESPONSE PlayerMoveOnNamVet CHARACTER NamVet SUBTITLE "Time to move out!"
+RESPONSE PlayerMoveOnNamVet CHARACTER NamVet SUBTITLE "Let's move it out people"
+RESPONSE PlayerMoveOnNamVet CHARACTER NamVet SUBTITLE "Alright, let's go."
+RESPONSE PlayerMoveOnNamVet CHARACTER NamVet SUBTITLE "Come on, let's go."
+RESPONSE PlayerMoveOnNamVet CHARACTER NamVet SUBTITLE "Come on, let's go."
+RESPONSE PlayerMoveOnNamVet CHARACTER NamVet SUBTITLE "Let's move it out!"
+RESPONSE PlayerMoveOnNamVet CHARACTER NamVet SUBTITLE "Let's go, people!"
+RULE PlayerMoveOnNamVet CRITERIA ConceptPlayerMoveOn IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerMoveOnNamVet
+RESPONSE PlayerStayTogetherNamVet CHARACTER NamVet SUBTITLE "Stay close!"
+RESPONSE PlayerStayTogetherNamVet CHARACTER NamVet SUBTITLE "Come on - we got to stay together."
+RESPONSE PlayerStayTogetherNamVet CHARACTER NamVet SUBTITLE "Keep together, people."
+RESPONSE PlayerStayTogetherNamVet CHARACTER NamVet SUBTITLE "Stay together."
+RESPONSE PlayerStayTogetherNamVet CHARACTER NamVet SUBTITLE "Form up!"
+RESPONSE PlayerStayTogetherNamVet CHARACTER NamVet SUBTITLE "Stay close."
+RESPONSE PlayerStayTogetherNamVet CHARACTER NamVet SUBTITLE "Don't get split up."
+RESPONSE PlayerStayTogetherNamVet CHARACTER NamVet SUBTITLE "Stay together."
+RESPONSE PlayerStayTogetherNamVet CHARACTER NamVet SUBTITLE "Stick together, people."
+RULE PlayerStayTogetherNamVet CRITERIA ConceptPlayerStayTogether IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerStayTogetherNamVet
+RESPONSE PlayerWatchOutBehindNamVet CHARACTER NamVet SUBTITLE "Behind us!"
+RESPONSE PlayerWatchOutBehindNamVet CHARACTER NamVet SUBTITLE "They're behind us!"
+RESPONSE PlayerWatchOutBehindNamVet CHARACTER NamVet SUBTITLE "Behind us!"
+RESPONSE PlayerWatchOutBehindNamVet CHARACTER NamVet SUBTITLE "They're behind us!"
+RULE PlayerWatchOutBehindNamVet CRITERIA ConceptPlayerWatchOutBehind IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerWatchOutBehindNamVet
+RESPONSE PostMournGoNamVet CHARACTER NamVet SUBTITLE "C'mon people, if we make it, he didn't die for nothin'."
+RULE PostMournGoNamVet CRITERIA ConceptPlayerMoveOn IsNotCoughing IsNamVet IsSaidSomeoneDied IsTalk IsTalkNamVet RESPONSE PostMournGoNamVet
+RESPONSE PlayerAskReadyNamVet CHARACTER NamVet SUBTITLE "Ready?"
+RESPONSE PlayerAskReadyNamVet CHARACTER NamVet SUBTITLE "Ready?"
+RESPONSE PlayerAskReadyNamVet CHARACTER NamVet SUBTITLE "Ready for this?"
+RESPONSE PlayerAskReadyNamVet CHARACTER NamVet SUBTITLE "Everyone locked and loaded?"
+RESPONSE PlayerAskReadyNamVet CHARACTER NamVet SUBTITLE "Ready for this?"
+RESPONSE PlayerAskReadyNamVet CHARACTER NamVet SUBTITLE "You people ready?"
+RULE PlayerAskReadyNamVet CRITERIA ConceptPlayerAskReady IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerAskReadyNamVet
+RESPONSE PlayerImWithYouNamVet CHARACTER NamVet SUBTITLE "I got your six."
+RESPONSE PlayerImWithYouNamVet CHARACTER NamVet SUBTITLE "Right behind you."
+RESPONSE PlayerImWithYouNamVet CHARACTER NamVet SUBTITLE "I'm with ya."
+RESPONSE PlayerImWithYouNamVet CHARACTER NamVet SUBTITLE "I got your back."
+RESPONSE PlayerImWithYouNamVet CHARACTER NamVet SUBTITLE "I'm right behind you."
+RESPONSE PlayerImWithYouNamVet CHARACTER NamVet SUBTITLE "Right behind you."
+RULE PlayerImWithYouNamVet CRITERIA ConceptPlayerImWithYou IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerImWithYouNamVet
+RESPONSE PlayerLaughNamVet CHARACTER NamVet SUBTITLE "<Hearty Laugh>"
+RESPONSE PlayerLaughNamVet CHARACTER NamVet SUBTITLE "<Short laugh>"
+RULE PlayerLaughNamVet CRITERIA ConceptPlayerLaugh IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerLaughNamVet
+RESPONSE PlayerLostCallNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerLostCallNamVet CRITERIA ConceptPlayerLostCall IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerLostCallNamVet
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "Nice work!"
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "Nice job."
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "You're doing this unit proud, kid."
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "Nice job."
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "Good work!"
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "Hey, nice!"
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "Nice!"
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "Nice work!"
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "Nice job."
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "You're doing this unit proud, kid."
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "Nice job."
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "Good work!"
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "You did good."
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "Nice job."
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "You make me proud"
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "Good. Very Good."
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "You're a credit to the squad, kid."
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "That was some piece of work."
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "Pretty damn good."
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "That was a good piece of work."
+RESPONSE PlayerNiceJobResponseNamVet CHARACTER NamVet SUBTITLE "You did good, kid."
+RULE PlayerNiceJobResponseNamVet CRITERIA ConceptPlayerNiceJob IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerNiceJobResponseNamVet
+RESPONSE PlayerNoNamVet CHARACTER NamVet SUBTITLE "Ain't gonna happen."
+RESPONSE PlayerNoNamVet CHARACTER NamVet SUBTITLE "No can do."
+RESPONSE PlayerNoNamVet CHARACTER NamVet SUBTITLE "Negatory."
+RESPONSE PlayerNoNamVet CHARACTER NamVet SUBTITLE "No way."
+RESPONSE PlayerNoNamVet CHARACTER NamVet SUBTITLE "Nah."
+RESPONSE PlayerNoNamVet CHARACTER NamVet SUBTITLE "Negative."
+RESPONSE PlayerNoNamVet CHARACTER NamVet SUBTITLE "Not a chance."
+RESPONSE PlayerNoNamVet CHARACTER NamVet SUBTITLE "No."
+RESPONSE PlayerNoNamVet CHARACTER NamVet SUBTITLE "No."
+RESPONSE PlayerNoNamVet CHARACTER NamVet SUBTITLE "No."
+RESPONSE PlayerNoNamVet CHARACTER NamVet SUBTITLE "No possible way."
+RESPONSE PlayerNoNamVet CHARACTER NamVet SUBTITLE "I don't think so."
+RESPONSE PlayerNoNamVet CHARACTER NamVet SUBTITLE "Absolutely not."
+RULE PlayerNoNamVet CRITERIA ConceptPlayerNo IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerNoNamVet
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "[indignant] Hey!"
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "That was a little closer than I'da liked."
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "Gee-zus"
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "Dammit"
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "Dammit"
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "Go to hell."
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "Mother. Humper."
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "Ah hell."
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "Dammit."
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "Mother of mercy."
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "Jee-zus..."
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "Holy crap."
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "Whoa."
+RESPONSE PlayerProfanityNamVet CHARACTER NamVet SUBTITLE "Holy Mother of God..."
+RULE PlayerProfanityNamVet CRITERIA ConceptPlayerAnswerLostCall IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerProfanityNamVet
+RESPONSE PlayerSorryNamVet CHARACTER NamVet SUBTITLE "Sorry."
+RESPONSE PlayerSorryNamVet CHARACTER NamVet SUBTITLE "I am sorry."
+RESPONSE PlayerSorryNamVet CHARACTER NamVet SUBTITLE "Sorry about that."
+RESPONSE PlayerSorryNamVet CHARACTER NamVet SUBTITLE "My fault!"
+RESPONSE PlayerSorryNamVet CHARACTER NamVet SUBTITLE "I shouldn't have done that."
+RESPONSE PlayerSorryNamVet CHARACTER NamVet SUBTITLE "Sorry about that."
+RESPONSE PlayerSorryNamVet CHARACTER NamVet SUBTITLE "My fault!"
+RESPONSE PlayerSorryNamVet CHARACTER NamVet SUBTITLE "Won't happen again."
+RESPONSE PlayerSorryNamVet CHARACTER NamVet SUBTITLE "I regret that mistake."
+RESPONSE PlayerSorryNamVet CHARACTER NamVet SUBTITLE "Ah, hell, I'm gettin too old for this shit"
+RESPONSE PlayerSorryNamVet CHARACTER NamVet SUBTITLE "That was careless of me."
+RULE PlayerSorryNamVet CRITERIA ConceptPlayerSorry IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerSorryNamVet
+RESPONSE PlayerThanksNamVet CHARACTER NamVet SUBTITLE "Thanks, I owe you one."
+RESPONSE PlayerThanksNamVet CHARACTER NamVet SUBTITLE "appreciate that."
+RESPONSE PlayerThanksNamVet CHARACTER NamVet SUBTITLE "Eh, you're a good kid."
+RESPONSE PlayerThanksNamVet CHARACTER NamVet SUBTITLE "Thanks."
+RESPONSE PlayerThanksNamVet CHARACTER NamVet SUBTITLE "Thank you."
+RESPONSE PlayerThanksNamVet CHARACTER NamVet SUBTITLE "Thanks a lot."
+RESPONSE PlayerThanksNamVet CHARACTER NamVet SUBTITLE "I owe ya one."
+RESPONSE PlayerThanksNamVet CHARACTER NamVet SUBTITLE "That's one I owe you."
+RESPONSE PlayerThanksNamVet CHARACTER NamVet SUBTITLE "'ppreciate it."
+RESPONSE PlayerThanksNamVet CHARACTER NamVet SUBTITLE "You didn't have to do that"
+RESPONSE PlayerThanksNamVet CHARACTER NamVet SUBTITLE "That wasn't necessary, but thanks."
+RULE PlayerThanksNamVet CRITERIA ConceptPlayerThanks IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerThanksNamVet
+RESPONSE PlayerYesNamVet CHARACTER NamVet SUBTITLE "Roger that."
+RESPONSE PlayerYesNamVet CHARACTER NamVet SUBTITLE "Yeah."
+RESPONSE PlayerYesNamVet CHARACTER NamVet SUBTITLE "Okay."
+RESPONSE PlayerYesNamVet CHARACTER NamVet SUBTITLE "Yes."
+RESPONSE PlayerYesNamVet CHARACTER NamVet SUBTITLE "Affirmative."
+RULE PlayerYesNamVet CRITERIA ConceptPlayerYes IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerYesNamVet
+RESPONSE PlayerYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Sure thing."
+RESPONSE PlayerYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Well, you're welcome."
+RESPONSE PlayerYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Hey, no problem"
+RESPONSE PlayerYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "No problem."
+RESPONSE PlayerYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Sure thing, kid."
+RESPONSE PlayerYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Yeah, yeah, yeah."
+RESPONSE PlayerYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Don't get too used to it."
+RESPONSE PlayerYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Don't mention it."
+RESPONSE PlayerYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Yeah, okay, it don't mean we're married now"
+RESPONSE PlayerYouAreWelcomeNamVet CHARACTER NamVet SUBTITLE "Don't expect a hug"
+RULE PlayerYouAreWelcomeNamVet CRITERIA ConceptPlayerYouAreWelcome IsNotCoughing  IsNamVet IsTalk IsTalkNamVet IsNotSpeaking RESPONSE PlayerYouAreWelcomeNamVet
+RULE PlayerFriendlyFireInflictorNamVet CRITERIA ConceptPlayerFriendlyFireInflictor IsNotCoughing IsNotSpeaking IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerSorryNamVet
+RESPONSE PlayerNegativeNamVet CHARACTER NamVet SUBTITLE "ohhh nooooo"
+RESPONSE PlayerNegativeNamVet CHARACTER NamVet SUBTITLE "[Frustration sound]"
+RESPONSE PlayerNegativeNamVet CHARACTER NamVet SUBTITLE "Mother of mercy."
+RULE PlayerNegativeNamVet CRITERIA ConceptPlayerNegative IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerNegativeNamVet
+RESPONSE PlayerAreaClearNamVet CHARACTER NamVet SUBTITLE "Clear"
+RESPONSE PlayerAreaClearNamVet CHARACTER NamVet SUBTITLE "Clear"
+RULE PlayerAreaClearNamVet CRITERIA ConceptPlayerAreaClear IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerAreaClearNamVet
+RESPONSE PlayerHeardBoomerNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerHeardBoomerNamVet CRITERIA ConceptPlayerHeardBoomer IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerHeardBoomerNamVet
+RESPONSE PlayerHeardHunterNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerHeardHunterNamVet CRITERIA ConceptPlayerHeardHunter IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerHeardHunterNamVet
+RESPONSE PlayerHeardSmokerNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerHeardSmokerNamVet CRITERIA ConceptPlayerHeardSmoker IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerHeardSmokerNamVet
+RESPONSE PlayerHeardTankNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerHeardTankNamVet CRITERIA ConceptPlayerHeardTank IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerHeardTankNamVet
+RESPONSE PlayerHeardWitchNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerHeardWitchNamVet CRITERIA ConceptPlayerHeardWitch IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerHeardWitchNamVet
+RESPONSE PlayerHurrahNamVet CHARACTER NamVet SUBTITLE "GREAT JOB, PEOPLE!"
+RESPONSE PlayerHurrahNamVet CHARACTER NamVet SUBTITLE "We're going to be okay."
+RESPONSE PlayerHurrahNamVet CHARACTER NamVet SUBTITLE "You people are gettin' good."
+RULE PlayerHurrahNamVet CRITERIA ConceptPlayerHurrah IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerHurrahNamVet
+RESPONSE PlayerWarnCarefulNamVet CHARACTER NamVet SUBTITLE "Careful."
+RESPONSE PlayerWarnCarefulNamVet CHARACTER NamVet SUBTITLE "Watch yourself."
+RESPONSE PlayerWarnCarefulNamVet CHARACTER NamVet SUBTITLE "Careful."
+RESPONSE PlayerWarnCarefulNamVet CHARACTER NamVet SUBTITLE "Careful."
+RESPONSE PlayerWarnCarefulNamVet CHARACTER NamVet SUBTITLE "Be careful."
+RESPONSE PlayerWarnCarefulNamVet CHARACTER NamVet SUBTITLE "Watch yourself now."
+RESPONSE PlayerWarnCarefulNamVet CHARACTER NamVet SUBTITLE "Eyes and ears, people, eyes and ears."
+RESPONSE PlayerWarnCarefulNamVet CHARACTER NamVet SUBTITLE "Be careful."
+RESPONSE PlayerWarnCarefulNamVet CHARACTER NamVet SUBTITLE "Stay sharp."
+RULE PlayerWarnCarefulNamVet CRITERIA ConceptPlayerWarnCareful IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerWarnCarefulNamVet
+RESPONSE SurvivorSpottedWorldFarNamVet CHARACTER NamVet SUBTITLE "Over there."
+RESPONSE SurvivorSpottedWorldFarNamVet CHARACTER NamVet SUBTITLE "Over there."
+RESPONSE SurvivorSpottedWorldFarNamVet CHARACTER NamVet SUBTITLE "Look"
+RESPONSE SurvivorSpottedWorldFarNamVet CHARACTER NamVet SUBTITLE "Look!"
+RESPONSE SurvivorSpottedWorldFarNamVet CHARACTER NamVet SUBTITLE "Look!"
+RULE SurvivorSpottedWorldFarNamVet CRITERIA ConceptPlayerLook IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto RESPONSE SurvivorSpottedWorldFarNamVet
+RESPONSE IntroSmalltown3NamVet CHARACTER NamVet SUBTITLE "Allright, then, let's do it."
+RULE IntroSmalltown3NamVet CRITERIA ConceptIntroSmalltown3 IsNamVet RESPONSE IntroSmalltown3NamVet
+RESPONSE SurvivorSpawnNamVet CHARACTER NamVet SUBTITLE "I'm here."
+RESPONSE SurvivorSpawnNamVet CHARACTER NamVet SUBTITLE "Hello!"
+RESPONSE SurvivorSpawnNamVet CHARACTER NamVet SUBTITLE "Hey, I'm here."
+RULE SurvivorSpawnNamVet CRITERIA ConceptPlayerScenarioJoin IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorSpawnNamVet
+RESPONSE SurvivorSpawnLastMainstreetNamVet CHARACTER NamVet SUBTITLE ""
+RULE SurvivorSpawnLastMainstreetNamVet CRITERIA ConceptPlayerScenarioJoinLast IsNamVet IsSmalltown04 RESPONSE SurvivorSpawnLastMainstreetNamVet
+RESPONSE PlayerEatPillsNamVet CHARACTER NamVet SUBTITLE "ah"
+RESPONSE PlayerEatPillsNamVet CHARACTER NamVet SUBTITLE "ah"
+RULE PlayerEatPillsNamVet CRITERIA ConceptEatPills IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerEatPillsNamVet
+RESPONSE PlayerFrancisPouncedNamVet CHARACTER NamVet SUBTITLE "Hunter's got Francis!"
+RESPONSE PlayerFrancisPouncedNamVet CHARACTER NamVet SUBTITLE "Hunter pounced Francis!"
+RESPONSE PlayerFrancisPouncedNamVet CHARACTER NamVet SUBTITLE "A Hunter's on Francis!"
+RULE PlayerFrancisPouncedNamVet CRITERIA ConceptSurvivorWasPounced ChanceToFire30Percent IsNotCoughing SubjectIsBiker IsNotSaidFrancisPounced IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerFrancisPouncedNamVet
+RESPONSE PlayerGetInsideCheckPointNamVet CHARACTER NamVet SUBTITLE "For chrissake people, get in here!"
+RESPONSE PlayerGetInsideCheckPointNamVet CHARACTER NamVet SUBTITLE "Into the safe room, people!"
+RESPONSE PlayerGetInsideCheckPointNamVet CHARACTER NamVet SUBTITLE "Double time it into the safe room, people!"
+RESPONSE PlayerGetInsideCheckPointNamVet CHARACTER NamVet SUBTITLE "Assemble in the safe room!"
+RULE PlayerGetInsideCheckPointNamVet CRITERIA ConceptPlayerGetInsideCheckPoint  IsNotCoughing IsNamVet IsInSafeSpot IsTalk IsTalkNamVet SomeoneOutsideSafeSpot RESPONSE PlayerGetInsideCheckPointNamVet
+RESPONSE PlayerGrenadeNamVet CHARACTER NamVet SUBTITLE "GRENADE!!"
+RESPONSE PlayerGrenadeNamVet CHARACTER NamVet SUBTITLE "GRENADE!!"
+RESPONSE PlayerGrenadeNamVet CHARACTER NamVet SUBTITLE "FIRE IN THE HOLE!!"
+RESPONSE PlayerGrenadeNamVet CHARACTER NamVet SUBTITLE "FIRE IN THE HOLE!!"
+RESPONSE PlayerGrenadeNamVet CHARACTER NamVet SUBTITLE "FIRE IN THE HOLE!"
+RESPONSE PlayerGrenadeNamVet CHARACTER NamVet SUBTITLE "GRENADE!!"
+RULE PlayerGrenadeNamVet CRITERIA ConceptThrewGrenade IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerGrenadeNamVet
+RESPONSE PlayerGrenadeCarefulNamVet CHARACTER NamVet SUBTITLE "Careful."
+RESPONSE PlayerGrenadeCarefulNamVet CHARACTER NamVet SUBTITLE "Be careful."
+RULE PlayerGrenadeCarefulNamVet CRITERIA ConceptGrenadeCareful IsNotCoughing IsNamVet IsWitchPresent NotInCombat IssuerClose IsTalk IsTalkNamVet RESPONSE PlayerGrenadeCarefulNamVet
+RESPONSE PlayerIncapacitatedInitialNamVet CHARACTER NamVet SUBTITLE "Ahhhh, I'm down!"
+RESPONSE PlayerIncapacitatedInitialNamVet CHARACTER NamVet SUBTITLE "Damnit! I'm down!"
+RESPONSE PlayerIncapacitatedInitialNamVet CHARACTER NamVet SUBTITLE "Ah shit, help!"
+RESPONSE PlayerIncapacitatedInitialNamVet CHARACTER NamVet SUBTITLE "I'm down!"
+RULE PlayerIncapacitatedInitialNamVet CRITERIA ConceptPlayerIncapacitated IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerIncapacitatedInitialNamVet
+RESPONSE PlayerKillConfirmationNamVet CHARACTER NamVet SUBTITLE "Got 'em"
+RESPONSE PlayerKillConfirmationNamVet CHARACTER NamVet SUBTITLE "Got it"
+RESPONSE PlayerKillConfirmationNamVet CHARACTER NamVet SUBTITLE "He's dead"
+RESPONSE PlayerKillConfirmationNamVet CHARACTER NamVet SUBTITLE "Got 'em"
+RESPONSE PlayerKillConfirmationNamVet CHARACTER NamVet SUBTITLE "Got 'em"
+RESPONSE PlayerKillConfirmationNamVet CHARACTER NamVet SUBTITLE "Got 'em"
+RESPONSE PlayerKillConfirmationNamVet CHARACTER NamVet SUBTITLE "Got it"
+RULE PlayerKillConfirmationNamVet CRITERIA ConceptKilledZombie IsNotCoughing IsNamVet  IsTalk IsTalkNamVet IsSubjectFar300 ChanceToFire40Percent RESPONSE PlayerKillConfirmationNamVet
+RESPONSE PlayerLockTheDoorCheckPointNamVet CHARACTER NamVet SUBTITLE "That door ain't gonna lock itself, people."
+RESPONSE PlayerLockTheDoorCheckPointNamVet CHARACTER NamVet SUBTITLE "Lock the door. Do it!"
+RESPONSE PlayerLockTheDoorCheckPointNamVet CHARACTER NamVet SUBTITLE "Lock that door."
+RESPONSE PlayerLockTheDoorCheckPointNamVet CHARACTER NamVet SUBTITLE "Lock the door."
+RESPONSE PlayerLockTheDoorCheckPointNamVet CHARACTER NamVet SUBTITLE "Lock that door!"
+RESPONSE PlayerLockTheDoorCheckPointNamVet CHARACTER NamVet SUBTITLE "Lock the door."
+RESPONSE PlayerLockTheDoorCheckPointNamVet CHARACTER NamVet SUBTITLE "Lock that door"
+RESPONSE PlayerLockTheDoorCheckPointNamVet CHARACTER NamVet SUBTITLE "Lock that door"
+RESPONSE PlayerLockTheDoorCheckPointNamVet CHARACTER NamVet SUBTITLE "Lock the door."
+RESPONSE PlayerLockTheDoorCheckPointNamVet CHARACTER NamVet SUBTITLE "That door ain't gonna lock itself, people."
+RESPONSE PlayerLockTheDoorCheckPointNamVet CHARACTER NamVet SUBTITLE "Secure that door!"
+RESPONSE PlayerLockTheDoorCheckPointNamVet CHARACTER NamVet SUBTITLE "Secure the door!"
+RESPONSE PlayerLockTheDoorCheckPointNamVet CHARACTER NamVet SUBTITLE "Lock the door."
+RULE PlayerLockTheDoorCheckPointNamVet CRITERIA ConceptPlayerLockTheDoorCheckPoint IsNotCoughing IsNamVet IsInSafeSpot IsTalk IsTalkNamVet RESPONSE PlayerLockTheDoorCheckPointNamVet
+RESPONSE PlayerLouisPouncedNamVet CHARACTER NamVet SUBTITLE "Hunter's got Louis!"
+RESPONSE PlayerLouisPouncedNamVet CHARACTER NamVet SUBTITLE "Hunter pounced Louis!"
+RESPONSE PlayerLouisPouncedNamVet CHARACTER NamVet SUBTITLE "A Hunter's on Louis!"
+RULE PlayerLouisPouncedNamVet CRITERIA ConceptSurvivorWasPounced ChanceToFire30Percent IsNotCoughing SubjectIsManager IsNotSaidLouisPounced IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerLouisPouncedNamVet
+RESPONSE PlayerStayTogetherInsideNamVet CHARACTER NamVet SUBTITLE "For chrissake people, get in here!"
+RESPONSE PlayerStayTogetherInsideNamVet CHARACTER NamVet SUBTITLE "Into the safe room, people!"
+RESPONSE PlayerStayTogetherInsideNamVet CHARACTER NamVet SUBTITLE "Double time it into the safe room, people!"
+RESPONSE PlayerStayTogetherInsideNamVet CHARACTER NamVet SUBTITLE "Assemble in the safe room!"
+RULE PlayerStayTogetherInsideNamVet CRITERIA ConceptPlayerStayTogether IsNotCoughing IsNamVet IsInSafeSpot IsTalk IsTalkNamVet SomeoneOutsideSafeSpot RESPONSE PlayerStayTogetherInsideNamVet
+RESPONSE PlayerSuggestHealthFrancisNamVet CHARACTER NamVet SUBTITLE "Francis, use your first aid kit."
+RESPONSE PlayerSuggestHealthFrancisNamVet CHARACTER NamVet SUBTITLE "Francis, you should heal up."
+RESPONSE PlayerSuggestHealthFrancisNamVet CHARACTER NamVet SUBTITLE "Heal up, Francis."
+RESPONSE PlayerSuggestHealthFrancisNamVet CHARACTER NamVet SUBTITLE "Francis, heal up."
+RULE PlayerSuggestHealthFrancisNamVet CRITERIA ConceptPlayerSuggestHealthBiker IsNamVet IssuerReallyClose IsNotSuggestedHealth IsNotBeingHealed IsTalk IsTalkNamVet  NotInCombat RESPONSE PlayerSuggestHealthFrancisNamVet
+RESPONSE PlayerSuggestHealthLouisNamVet CHARACTER NamVet SUBTITLE "You should heal up."
+RESPONSE PlayerSuggestHealthLouisNamVet CHARACTER NamVet SUBTITLE "Louis, use your first aid kit"
+RESPONSE PlayerSuggestHealthLouisNamVet CHARACTER NamVet SUBTITLE "Heal up, Louis."
+RULE PlayerSuggestHealthLouisNamVet CRITERIA ConceptPlayerSuggestHealthManager IsNamVet IssuerReallyClose IsNotSuggestedHealth IsNotBeingHealed IsTalk IsTalkNamVet  NotInCombat RESPONSE PlayerSuggestHealthLouisNamVet
+RESPONSE PlayerSuggestHealthZoeyNamVet CHARACTER NamVet SUBTITLE "Zoey, maybe you should heal."
+RESPONSE PlayerSuggestHealthZoeyNamVet CHARACTER NamVet SUBTITLE "Zoey, maybe heal up?"
+RESPONSE PlayerSuggestHealthZoeyNamVet CHARACTER NamVet SUBTITLE "Might want to heal up, Zoey."
+RULE PlayerSuggestHealthZoeyNamVet CRITERIA ConceptPlayerSuggestHealthTeenGirl IsNamVet IssuerReallyClose IsNotSuggestedHealth IsNotBeingHealed IsTalk IsTalkNamVet  NotInCombat RESPONSE PlayerSuggestHealthZoeyNamVet
+RESPONSE PlayerSuggestMeHealthBikerNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerSuggestMeHealthBikerNamVet CRITERIA ConceptTalkIdle IsNotHealthy NotInCombat YesHasFirstAidKit IsBiker IsNotBeingHealed IsTalk IsTalkNamVet RESPONSE PlayerSuggestMeHealthBikerNamVet
+RESPONSE PlayerSuggestMeHealthManagerNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerSuggestMeHealthManagerNamVet CRITERIA ConceptTalkIdle IsNotHealthy NotInCombat YesHasFirstAidKit IsManager IsNotBeingHealed IsTalk IsTalkNamVet RESPONSE PlayerSuggestMeHealthManagerNamVet
+RESPONSE PlayerSuggestMeHealthNamVetNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerSuggestMeHealthNamVetNamVet CRITERIA ConceptTalkIdle IsNotHealthy NotInCombat YesHasFirstAidKit IsNamVet IsNotBeingHealed IsTalk IsTalkNamVet RESPONSE PlayerSuggestMeHealthNamVetNamVet
+RESPONSE PlayerSuggestMeHealthTeenGirlNamVet CHARACTER NamVet SUBTITLE ""
+RULE PlayerSuggestMeHealthTeenGirlNamVet CRITERIA ConceptTalkIdle IsNotHealthy NotInCombat YesHasFirstAidKit IsTeenGirl IsNotBeingHealed IsTalk IsTalkNamVet RESPONSE PlayerSuggestMeHealthTeenGirlNamVet
+RESPONSE PlayerTransitionNamVet CHARACTER NamVet SUBTITLE "You did good."
+RESPONSE PlayerTransitionNamVet CHARACTER NamVet SUBTITLE "Trah-mendous"
+RESPONSE PlayerTransitionNamVet CHARACTER NamVet SUBTITLE "[chuckles and giggles]"
+RESPONSE PlayerTransitionNamVet CHARACTER NamVet SUBTITLE "[chuckles and giggles]"
+RESPONSE PlayerTransitionNamVet CHARACTER NamVet SUBTITLE "Out standing"
+RULE PlayerTransitionNamVet CRITERIA ConceptPlayerTransition IsNotCoughing IsNamVet IsNotSaidPlayerTransition IsTalk IsTalkNamVet RESPONSE PlayerTransitionNamVet
+RESPONSE PlayerTransitionCloseNamVet CHARACTER NamVet SUBTITLE "Jesus H Christ that was close."
+RESPONSE PlayerTransitionCloseNamVet CHARACTER NamVet SUBTITLE "This shit's gettin' old."
+RESPONSE PlayerTransitionCloseNamVet CHARACTER NamVet SUBTITLE "I've had about enough of this."
+RESPONSE PlayerTransitionCloseNamVet CHARACTER NamVet SUBTITLE "That was a little closer than I'da liked."
+RESPONSE PlayerTransitionCloseNamVet CHARACTER NamVet SUBTITLE "Well that didn't go so well"
+RESPONSE PlayerTransitionCloseNamVet CHARACTER NamVet SUBTITLE "We've done better"
+RESPONSE PlayerTransitionCloseNamVet CHARACTER NamVet SUBTITLE "Thank god that's over"
+RESPONSE PlayerTransitionCloseNamVet CHARACTER NamVet SUBTITLE "Thank god that's over"
+RESPONSE PlayerTransitionCloseNamVet CHARACTER NamVet SUBTITLE "I'll see peace back on earth if I gotta murder everyone of these animals with my own bare hands. Ownbare_09.wav"
+RULE PlayerTransitionCloseNamVet CRITERIA ConceptPlayerTransition IsNotCoughing IsNamVet IsNotSaidPlayerTransition IsTalk IsTalkNamVet IntensityOver75 RecentGroupInCombat10 IsEveryoneNotAlive RESPONSE PlayerTransitionCloseNamVet
+RESPONSE PlayerWarnHeardBoomerNamVet CHARACTER NamVet SUBTITLE "I hear a boomer out there."
+RESPONSE PlayerWarnHeardBoomerNamVet CHARACTER NamVet SUBTITLE "There's a Boomer around here."
+RESPONSE PlayerWarnHeardBoomerNamVet CHARACTER NamVet SUBTITLE "Careful, Boomer."
+RESPONSE PlayerWarnHeardBoomerNamVet CHARACTER NamVet SUBTITLE "Watch it, Boomer in the vacinity."
+RESPONSE PlayerWarnHeardBoomerNamVet CHARACTER NamVet SUBTITLE "Boomer around here."
+RESPONSE PlayerWarnHeardBoomerNamVet CHARACTER NamVet SUBTITLE "Boomer nearby."
+RESPONSE PlayerWarnHeardBoomerNamVet CHARACTER NamVet SUBTITLE "There's a Boomer trackin' us."
+RESPONSE PlayerWarnHeardBoomerNamVet CHARACTER NamVet SUBTITLE "Boomer closeby."
+RESPONSE PlayerWarnHeardBoomerNamVet CHARACTER NamVet SUBTITLE "Boomer nearby."
+RESPONSE PlayerWarnHeardBoomerNamVet CHARACTER NamVet SUBTITLE "Christ, there's a Boomer around here."
+RESPONSE PlayerWarnHeardBoomerNamVet CHARACTER NamVet SUBTITLE "Dammit, Boomer nearby."
+RULE PlayerWarnHeardBoomerNamVet CRITERIA ConceptPlayerWarnHearZombie IsBoomerClass IsNotCoughing IsNamVet IsNotWarnHeardBoomer NotInCombat IsNotSaidSpecialWarn IsTalk IsTalkNamVet RESPONSE PlayerWarnHeardBoomerNamVet
+RESPONSE PlayerWarnHeardHunterNamVet CHARACTER NamVet SUBTITLE "There's a Hunter around here."
+RESPONSE PlayerWarnHeardHunterNamVet CHARACTER NamVet SUBTITLE "Careful, people, there's a Hunter nearby."
+RESPONSE PlayerWarnHeardHunterNamVet CHARACTER NamVet SUBTITLE "There's a hunter spookin' around out there"
+RESPONSE PlayerWarnHeardHunterNamVet CHARACTER NamVet SUBTITLE "There's a hunter out there"
+RESPONSE PlayerWarnHeardHunterNamVet CHARACTER NamVet SUBTITLE "Careful, Hunter around here."
+RESPONSE PlayerWarnHeardHunterNamVet CHARACTER NamVet SUBTITLE "Hunter out there."
+RESPONSE PlayerWarnHeardHunterNamVet CHARACTER NamVet SUBTITLE "Watch your back - Hunter."
+RESPONSE PlayerWarnHeardHunterNamVet CHARACTER NamVet SUBTITLE "Watch your back, there's a hunter out there."
+RESPONSE PlayerWarnHeardHunterNamVet CHARACTER NamVet SUBTITLE "I think I saw a goddamn Hunter"
+RULE PlayerWarnHeardHunterNamVet CRITERIA ConceptPlayerWarnHearZombie IsHunterClass IsNotCoughing IsNamVet IsNotWarnHeardHunter NotInCombat IsNotSaidSpecialWarn IsTalk IsTalkNamVet RESPONSE PlayerWarnHeardHunterNamVet
+RESPONSE PlayerWarnHeardSmokerNamVet CHARACTER NamVet SUBTITLE "Smoker, right around here."
+RESPONSE PlayerWarnHeardSmokerNamVet CHARACTER NamVet SUBTITLE "There's a Smoker nearby."
+RESPONSE PlayerWarnHeardSmokerNamVet CHARACTER NamVet SUBTITLE "We got a Smoker around here."
+RESPONSE PlayerWarnHeardSmokerNamVet CHARACTER NamVet SUBTITLE "Heads up, Smoker somewhere around here."
+RESPONSE PlayerWarnHeardSmokerNamVet CHARACTER NamVet SUBTITLE "Smoker right around here someplace."
+RESPONSE PlayerWarnHeardSmokerNamVet CHARACTER NamVet SUBTITLE "Smoker. And it's close."
+RESPONSE PlayerWarnHeardSmokerNamVet CHARACTER NamVet SUBTITLE "There's a Smoker"
+RULE PlayerWarnHeardSmokerNamVet CRITERIA ConceptPlayerWarnHearZombie IsSmokerClass IsNotCoughing IsNamVet IsNotWarnHeardSmoker NotInCombat IsNotSaidSpecialWarn IsTalk IsTalkNamVet RESPONSE PlayerWarnHeardSmokerNamVet
+RESPONSE PlayerWarnHeardWitchNamVet CHARACTER NamVet SUBTITLE "Hear that, that's a witch"
+RESPONSE PlayerWarnHeardWitchNamVet CHARACTER NamVet SUBTITLE "Witch around here."
+RESPONSE PlayerWarnHeardWitchNamVet CHARACTER NamVet SUBTITLE "Shit, Witch"
+RESPONSE PlayerWarnHeardWitchNamVet CHARACTER NamVet SUBTITLE "Quiet, there's a Witch around here."
+RESPONSE PlayerWarnHeardWitchNamVet CHARACTER NamVet SUBTITLE "Shhh, Witch near here."
+RULE PlayerWarnHeardWitchNamVet CRITERIA ConceptPlayerWarnHearZombie IsWitchClass IsNotCoughing IsNamVet IsNotWarnHeardWitch NotInCombat IsNotSaidSpecialWarn IsTalk IsTalkNamVet RESPONSE PlayerWarnHeardWitchNamVet
+RESPONSE PlayerWarnMegaMobNamVet CHARACTER NamVet SUBTITLE "Those bastards are in for a big surprise."
+RESPONSE PlayerWarnMegaMobNamVet CHARACTER NamVet SUBTITLE "INCOMING!"
+RESPONSE PlayerWarnMegaMobNamVet CHARACTER NamVet SUBTITLE "Bookoo crazies inbound!"
+RESPONSE PlayerWarnMegaMobNamVet CHARACTER NamVet SUBTITLE "HERE THEY COME!"
+RESPONSE PlayerWarnMegaMobNamVet CHARACTER NamVet SUBTITLE "INCOMING!"
+RESPONSE PlayerWarnMegaMobNamVet CHARACTER NamVet SUBTITLE "God dammit"
+RESPONSE PlayerWarnMegaMobNamVet CHARACTER NamVet SUBTITLE "Son of a bitch"
+RESPONSE PlayerWarnMegaMobNamVet CHARACTER NamVet SUBTITLE "We've got to stay together."
+RESPONSE PlayerWarnMegaMobNamVet CHARACTER NamVet SUBTITLE "Watch it, Watch it!"
+RULE PlayerWarnMegaMobNamVet CRITERIA ConceptPlayerWarnMegaMob IsNotCoughing IsNamVet IsNotWarnMegaMob IsTalk IsTalkNamVet IsNotSpeaking RESPONSE PlayerWarnMegaMobNamVet
+RESPONSE PlayerWarnWitchAngryNamVet CHARACTER NamVet SUBTITLE "There's gonna be hell to pay, you keep aggravatin that witch."
+RESPONSE PlayerWarnWitchAngryNamVet CHARACTER NamVet SUBTITLE "STOP! That witch is mad as hell."
+RESPONSE PlayerWarnWitchAngryNamVet CHARACTER NamVet SUBTITLE "Hold up, that witch is getting ready to pounce!"
+RESPONSE PlayerWarnWitchAngryNamVet CHARACTER NamVet SUBTITLE "Hold on, that witch is about to blow."
+RESPONSE PlayerWarnWitchAngryNamVet CHARACTER NamVet SUBTITLE "STOP! That witch is mad as hell."
+RULE PlayerWarnWitchAngryNamVet CRITERIA ConceptWitchGettingAngry IsNotCoughing IsNamVet IsNotWarnAngryWitch IsTalk IsTalkNamVet RESPONSE PlayerWarnWitchAngryNamVet
+RESPONSE PlayerZoeyPouncedNamVet CHARACTER NamVet SUBTITLE "Hunter's got Zoey!"
+RESPONSE PlayerZoeyPouncedNamVet CHARACTER NamVet SUBTITLE "Hunter pounced Zoey!"
+RESPONSE PlayerZoeyPouncedNamVet CHARACTER NamVet SUBTITLE "A Hunter's on Zoey!"
+RULE PlayerZoeyPouncedNamVet CRITERIA ConceptSurvivorWasPounced ChanceToFire30Percent IsNotCoughing SubjectIsTeenGirl IsNotSaidZoeyPounced IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerZoeyPouncedNamVet
+RESPONSE SurvivorCaughtVomitNamVet CHARACTER NamVet SUBTITLE ""
+RESPONSE SurvivorCaughtVomitNamVet CHARACTER NamVet SUBTITLE ""
+RESPONSE SurvivorCaughtVomitNamVet CHARACTER NamVet SUBTITLE ""
+RULE SurvivorCaughtVomitNamVet CRITERIA ConceptPlayerVomitInFace IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorCaughtVomitNamVet
+RESPONSE SurvivorCoughingNamVet CHARACTER NamVet SUBTITLE "(Coughing from smoke)"
+RESPONSE SurvivorCoughingNamVet CHARACTER NamVet SUBTITLE "(Coughing from smoke)"
+RESPONSE SurvivorCoughingNamVet CHARACTER NamVet SUBTITLE "(Coughing from smoke)"
+RESPONSE SurvivorCoughingNamVet CHARACTER NamVet SUBTITLE "(Coughing from smoke)"
+RESPONSE SurvivorCoughingNamVet CHARACTER NamVet SUBTITLE "(Coughing from smoke)"
+RESPONSE SurvivorCoughingNamVet CHARACTER NamVet SUBTITLE "(Coughing from smoke)"
+RULE SurvivorCoughingNamVet CRITERIA ConceptSurvivorCoughing IsCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorCoughingNamVet
+RESPONSE SurvivorCoughingDeathNamVet CHARACTER NamVet SUBTITLE "(Coughing from smoke)"
+RESPONSE SurvivorCoughingDeathNamVet CHARACTER NamVet SUBTITLE "(Coughing from smoke)"
+RESPONSE SurvivorCoughingDeathNamVet CHARACTER NamVet SUBTITLE "(Coughing from smoke)"
+RESPONSE SurvivorCoughingDeathNamVet CHARACTER NamVet SUBTITLE "(Coughing from smoke)"
+RESPONSE SurvivorCoughingDeathNamVet CHARACTER NamVet SUBTITLE "(Coughing from smoke)"
+RESPONSE SurvivorCoughingDeathNamVet CHARACTER NamVet SUBTITLE "(Coughing from smoke)"
+RULE SurvivorCoughingDeathNamVet CRITERIA ConceptPlayerDeath IsCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorCoughingDeathNamVet
+RESPONSE SurvivorDeathNamVet CHARACTER NamVet SUBTITLE "[Loud painful death scream]"
+RESPONSE SurvivorDeathNamVet CHARACTER NamVet SUBTITLE "[Death rattle]"
+RESPONSE SurvivorDeathNamVet CHARACTER NamVet SUBTITLE "[Loud painful death scream]"
+RESPONSE SurvivorDeathNamVet CHARACTER NamVet SUBTITLE "[Loud painful death scream]"
+RESPONSE SurvivorDeathNamVet CHARACTER NamVet SUBTITLE "[Short quick death scream]"
+RESPONSE SurvivorDeathNamVet CHARACTER NamVet SUBTITLE "[Short quick death scream]"
+RESPONSE SurvivorDeathNamVet CHARACTER NamVet SUBTITLE "[Death rattle]"
+RESPONSE SurvivorDeathNamVet CHARACTER NamVet SUBTITLE "[Death rattle]"
+RULE SurvivorDeathNamVet CRITERIA ConceptPlayerDeath IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorDeathNamVet
+RESPONSE SurvivorFinaleAheadHospitalNamVet CHARACTER NamVet SUBTITLE "Let's find that radio."
+RESPONSE SurvivorFinaleAheadHospitalNamVet CHARACTER NamVet SUBTITLE "Let's find the radio and get a hold of that pilot."
+RESPONSE SurvivorFinaleAheadHospitalNamVet CHARACTER NamVet SUBTITLE "Let's find that radio."
+RULE SurvivorFinaleAheadHospitalNamVet CRITERIA ConceptPlayerNearFinale IsNotCoughing IsNamVet IsNotSaidFinaleAhead NotInCombat ismap_l4d_hospital05_rooftop IsTalk IsTalkNamVet IsNotIncapacitated RESPONSE SurvivorFinaleAheadHospitalNamVet
+RESPONSE SurvivorGrabbedByTongueNamVet CHARACTER NamVet SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE SurvivorGrabbedByTongueNamVet CHARACTER NamVet SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE SurvivorGrabbedByTongueNamVet CHARACTER NamVet SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE SurvivorGrabbedByTongueNamVet CHARACTER NamVet SUBTITLE "no, No, NO, NOOOOOOO!!!!!!!!!"
+RESPONSE SurvivorGrabbedByTongueNamVet CHARACTER NamVet SUBTITLE "no, NO!"
+RULE SurvivorGrabbedByTongueNamVet CRITERIA ConceptPlayerGrabbedByTongue IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorGrabbedByTongueNamVet
+RESPONSE SurvivorNearFinaleNamVet CHARACTER NamVet SUBTITLE "This looks like it - we're almost out of here."
+RESPONSE SurvivorNearFinaleNamVet CHARACTER NamVet SUBTITLE "We're almost out of here!"
+RESPONSE SurvivorNearFinaleNamVet CHARACTER NamVet SUBTITLE "Okay, people, we're almost there. Let's keep moving!"
+RESPONSE SurvivorNearFinaleNamVet CHARACTER NamVet SUBTITLE "Keep it together people. We're almost home free."
+RULE SurvivorNearFinaleNamVet CRITERIA ConceptPlayerNearFinale IsNotCoughing IsNamVet IsNotSaidFinaleAhead NotInCombat IsTalk IsTalkNamVet IsNotIncapacitated RESPONSE SurvivorNearFinaleNamVet
+RESPONSE SurvivorTankPoundNamVet CHARACTER NamVet SUBTITLE "It's killin' me"
+RESPONSE SurvivorTankPoundNamVet CHARACTER NamVet SUBTITLE "Get this thing offa me!"
+RESPONSE SurvivorTankPoundNamVet CHARACTER NamVet SUBTITLE "AAHHHH He's crushing me!"
+RULE SurvivorTankPoundNamVet CRITERIA ConceptPlayerGroundPoundedByTank IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorTankPoundNamVet
+RESPONSE SurvivorVocalizeBackUpNamVet CHARACTER NamVet SUBTITLE "Back up!"
+RESPONSE SurvivorVocalizeBackUpNamVet CHARACTER NamVet SUBTITLE "Back up!"
+RESPONSE SurvivorVocalizeBackUpNamVet CHARACTER NamVet SUBTITLE "Back back back back back back!"
+RESPONSE SurvivorVocalizeBackUpNamVet CHARACTER NamVet SUBTITLE "Back back back!"
+RESPONSE SurvivorVocalizeBackUpNamVet CHARACTER NamVet SUBTITLE "Back up!"
+RESPONSE SurvivorVocalizeBackUpNamVet CHARACTER NamVet SUBTITLE "Move back!"
+RESPONSE SurvivorVocalizeBackUpNamVet CHARACTER NamVet SUBTITLE "Back it up!"
+RULE SurvivorVocalizeBackUpNamVet CRITERIA ConceptPlayerBackUp IsNamVet IsNotInSafeSpot IsNotInCheckpoint IsTalk IsTalkNamVet RESPONSE SurvivorVocalizeBackUpNamVet
+RESPONSE SurvivorVocalizeEmphaticGoNamVet CHARACTER NamVet SUBTITLE "go go go"
+RESPONSE SurvivorVocalizeEmphaticGoNamVet CHARACTER NamVet SUBTITLE "MOVE!"
+RESPONSE SurvivorVocalizeEmphaticGoNamVet CHARACTER NamVet SUBTITLE "MOVE!"
+RESPONSE SurvivorVocalizeEmphaticGoNamVet CHARACTER NamVet SUBTITLE "MOVE MOVE MOVE!"
+RESPONSE SurvivorVocalizeEmphaticGoNamVet CHARACTER NamVet SUBTITLE "MOVE OUT!"
+RESPONSE SurvivorVocalizeEmphaticGoNamVet CHARACTER NamVet SUBTITLE "go go go"
+RULE SurvivorVocalizeEmphaticGoNamVet CRITERIA ConceptPlayerEmphaticGo IsNamVet  IsNotInSafeSpot IsNotInCheckpoint IsTalk IsTalkNamVet RESPONSE SurvivorVocalizeEmphaticGoNamVet
+RESPONSE SurvivorVocalizeFollowMeNamVet CHARACTER NamVet SUBTITLE "Come on, this way."
+RESPONSE SurvivorVocalizeFollowMeNamVet CHARACTER NamVet SUBTITLE "I'll take the lead."
+RESPONSE SurvivorVocalizeFollowMeNamVet CHARACTER NamVet SUBTITLE "Follow me!"
+RESPONSE SurvivorVocalizeFollowMeNamVet CHARACTER NamVet SUBTITLE "This way, people!"
+RESPONSE SurvivorVocalizeFollowMeNamVet CHARACTER NamVet SUBTITLE "This way."
+RESPONSE SurvivorVocalizeFollowMeNamVet CHARACTER NamVet SUBTITLE "I'm on point."
+RESPONSE SurvivorVocalizeFollowMeNamVet CHARACTER NamVet SUBTITLE "This way!"
+RESPONSE SurvivorVocalizeFollowMeNamVet CHARACTER NamVet SUBTITLE "Fall in behind me."
+RESPONSE SurvivorVocalizeFollowMeNamVet CHARACTER NamVet SUBTITLE "Follow me."
+RULE SurvivorVocalizeFollowMeNamVet CRITERIA ConceptPlayerFollowMe IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorVocalizeFollowMeNamVet
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "I don't feel so good."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "I feel awful."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "I am in bad shape, people."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "I'm gettin' too old for this horseshit."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "I feel terrible."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "[to self] goddamn horseshit."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "It's not lookin' good for me."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "I'm not feelin' too hot."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "Ah shit, I'm not doin' too good here."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "I'm really hurt, people"
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "Christ, I'm messed up."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "[sharp intake of breath followed by grunt]"
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "I feel awful."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "God damn it, I am seriously fubar."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "[pain sound followed by two grunts]"
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "I'm just barely hangin' on here"
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "[pain sound] I think I'm goin' home in a box"
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "I feel like hell."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "If I go down, don't let those bastards eat me."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "Dammit, I'm bleeding out."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "This old body ain't gonna make it."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "Ah shit, I ain't feelin' right."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "Something ain't workin' right."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "This just ain't my day..."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "Ah. <breath> Dammit."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "<wincing pain noise> Hell with this."
+RESPONSE SurvivorVocalizeGoingToDieNamVet CHARACTER NamVet SUBTITLE "Hell, I was too old for this shit fifteen years ago."
+RULE SurvivorVocalizeGoingToDieNamVet CRITERIA ConceptPlayerGoingToDie IsNotSpeaking IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotComplainBlock RESPONSE SurvivorVocalizeGoingToDieNamVet
+RESPONSE SurvivorVocalizeGoingToDie3NamVet CHARACTER NamVet SUBTITLE "I don't know if I am going to make it."
+RESPONSE SurvivorVocalizeGoingToDie3NamVet CHARACTER NamVet SUBTITLE "You people might have to go on without me."
+RESPONSE SurvivorVocalizeGoingToDie3NamVet CHARACTER NamVet SUBTITLE "We gotta find me a medic."
+RESPONSE SurvivorVocalizeGoingToDie3NamVet CHARACTER NamVet SUBTITLE "I'm about to buy the farm."
+RESPONSE SurvivorVocalizeGoingToDie3NamVet CHARACTER NamVet SUBTITLE "I'm not gonna hold out much longer."
+RULE SurvivorVocalizeGoingToDie3NamVet CRITERIA ConceptPlayerGoingToDie IsNotSpeaking IsNotCoughing IsNamVet IsOnThirdStrike IsTalk IsTalkNamVet IsNotComplainBlock RESPONSE SurvivorVocalizeGoingToDie3NamVet
+RESPONSE SurvivorVocalizeGoingToDieAloneNamVet CHARACTER NamVet SUBTITLE "[Nervous Humming]"
+RESPONSE SurvivorVocalizeGoingToDieAloneNamVet CHARACTER NamVet SUBTITLE "[Nervous Whislte]"
+RULE SurvivorVocalizeGoingToDieAloneNamVet CRITERIA ConceptPlayerGoingToDie IsNotSpeaking IsNotCoughing IsNamVet IsOnThirdStrike IsAlone NotInCombat IsNotSaidNervous IsTalk IsTalkNamVet RESPONSE SurvivorVocalizeGoingToDieAloneNamVet
+RESPONSE SurvivorVocalizeLookOutNamVet CHARACTER NamVet SUBTITLE "Look out!"
+RESPONSE SurvivorVocalizeLookOutNamVet CHARACTER NamVet SUBTITLE "Watch out!"
+RESPONSE SurvivorVocalizeLookOutNamVet CHARACTER NamVet SUBTITLE "Watch out!"
+RESPONSE SurvivorVocalizeLookOutNamVet CHARACTER NamVet SUBTITLE "Watch your ass!"
+RESPONSE SurvivorVocalizeLookOutNamVet CHARACTER NamVet SUBTITLE "Heads up!"
+RESPONSE SurvivorVocalizeLookOutNamVet CHARACTER NamVet SUBTITLE "Behind you!!"
+RULE SurvivorVocalizeLookOutNamVet CRITERIA ConceptPlayerLookOut IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorVocalizeLookOutNamVet
+RESPONSE SurvivorVocalizeThisWayNamVet CHARACTER NamVet SUBTITLE "Come on, this way."
+RESPONSE SurvivorVocalizeThisWayNamVet CHARACTER NamVet SUBTITLE "I'll take the lead."
+RESPONSE SurvivorVocalizeThisWayNamVet CHARACTER NamVet SUBTITLE "Follow me!"
+RESPONSE SurvivorVocalizeThisWayNamVet CHARACTER NamVet SUBTITLE "This way, people!"
+RESPONSE SurvivorVocalizeThisWayNamVet CHARACTER NamVet SUBTITLE "This way."
+RESPONSE SurvivorVocalizeThisWayNamVet CHARACTER NamVet SUBTITLE "I'm on point."
+RESPONSE SurvivorVocalizeThisWayNamVet CHARACTER NamVet SUBTITLE "This way!"
+RESPONSE SurvivorVocalizeThisWayNamVet CHARACTER NamVet SUBTITLE "Fall in behind me."
+RESPONSE SurvivorVocalizeThisWayNamVet CHARACTER NamVet SUBTITLE "Follow me."
+RULE SurvivorVocalizeThisWayNamVet CRITERIA ConceptPlayerThisWay IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorVocalizeThisWayNamVet
+RESPONSE SurvivorVocalizeWaitHereNamVet CHARACTER NamVet SUBTITLE "Let's wait here."
+RESPONSE SurvivorVocalizeWaitHereNamVet CHARACTER NamVet SUBTITLE "Let's wait for a minute."
+RESPONSE SurvivorVocalizeWaitHereNamVet CHARACTER NamVet SUBTITLE "Wait here just a minute."
+RESPONSE SurvivorVocalizeWaitHereNamVet CHARACTER NamVet SUBTITLE "Hold up!"
+RULE SurvivorVocalizeWaitHereNamVet CRITERIA ConceptPlayerWaitHere IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE SurvivorVocalizeWaitHereNamVet
+RESPONSE PlayerLedgeHangEndNamVet CHARACTER NamVet SUBTITLE "I'M SLIPPING! PULL ME UP!"
+RESPONSE PlayerLedgeHangEndNamVet CHARACTER NamVet SUBTITLE "I'M LOSING MY GRIP! GET OVER HERE!"
+RESPONSE PlayerLedgeHangEndNamVet CHARACTER NamVet SUBTITLE "I CAN'T HOLD ON - I'M GONNA FALL!"
+RESPONSE PlayerLedgeHangEndNamVet CHARACTER NamVet SUBTITLE "HELP ME! I'm about to take a redball into the ground!"
+RESPONSE PlayerLedgeHangEndNamVet CHARACTER NamVet SUBTITLE "I'M GONNA FALL!"
+RULE PlayerLedgeHangEndNamVet CRITERIA ConceptPlayerLedgeHangEnd IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerLedgeHangEndNamVet
+RESPONSE PlayerLedgeHangMiddleNamVet CHARACTER NamVet SUBTITLE "Ah christ, somebody pull me up!"
+RESPONSE PlayerLedgeHangMiddleNamVet CHARACTER NamVet SUBTITLE "I need some help, here."
+RESPONSE PlayerLedgeHangMiddleNamVet CHARACTER NamVet SUBTITLE "Dammit, I need a hand here!"
+RESPONSE PlayerLedgeHangMiddleNamVet CHARACTER NamVet SUBTITLE "Pull me up, people."
+RESPONSE PlayerLedgeHangMiddleNamVet CHARACTER NamVet SUBTITLE "I need a hand up!"
+RULE PlayerLedgeHangMiddleNamVet CRITERIA ConceptPlayerLedgeHangMiddle IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerLedgeHangMiddleNamVet
+RESPONSE PlayerLedgeHangStartNamVet CHARACTER NamVet SUBTITLE "I need a hand up!"
+RESPONSE PlayerLedgeHangStartNamVet CHARACTER NamVet SUBTITLE "Somembody pull me up!"
+RESPONSE PlayerLedgeHangStartNamVet CHARACTER NamVet SUBTITLE "Godammit, I'm hangin' off a ledge over here."
+RESPONSE PlayerLedgeHangStartNamVet CHARACTER NamVet SUBTITLE "Somebody needs to get over here and pull me up!"
+RESPONSE PlayerLedgeHangStartNamVet CHARACTER NamVet SUBTITLE "Hey, people, I'm hangin' off a ledge over here!"
+RESPONSE PlayerLedgeHangStartNamVet CHARACTER NamVet SUBTITLE "Somebody come pull me up!"
+RESPONSE PlayerLedgeHangStartNamVet CHARACTER NamVet SUBTITLE "I'm gettin' too old for this hangin' shit."
+RESPONSE PlayerLedgeHangStartNamVet CHARACTER NamVet SUBTITLE "Somebody come help me up!"
+RESPONSE PlayerLedgeHangStartNamVet CHARACTER NamVet SUBTITLE "Somebody come grab me up off this ledge."
+RULE PlayerLedgeHangStartNamVet CRITERIA ConceptPlayerLedgeHangStart IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerLedgeHangStartNamVet
+RESPONSE DoubleDeathNamVet CHARACTER NamVet SUBTITLE "This is goin' to hell in a handbasket real fast!"
+RESPONSE DoubleDeathNamVet CHARACTER NamVet SUBTITLE "I didn't sign up for this shit!"
+RULE DoubleDeathNamVet CRITERIA ConceptSurvivorDied IsNotCoughing IsNamVet  IsSaidSomeoneDied IsTalk IsTalkNamVet IsNotSaidSomeoneDiedDouble RESPONSE DoubleDeathNamVet
+RESPONSE DoubleDeath2NamVet CHARACTER NamVet SUBTITLE "It's just the two of us now, kid."
+RULE DoubleDeath2NamVet CRITERIA ConceptDeath2Left IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSaidSomeoneDiedDouble2 IsWithTwo IsNotIncapacitated ChanceToFire30Percent RESPONSE DoubleDeath2NamVet
+RESPONSE SurvivorDiedFrancisNamVet CHARACTER NamVet SUBTITLE "Francis! (loud)"
+RESPONSE SurvivorDiedFrancisNamVet CHARACTER NamVet SUBTITLE "Fraaaaancis! (loud)"
+RULE SurvivorDiedFrancisNamVet CRITERIA ConceptSurvivorDied IsNotCoughing IsNamVet IsDeadBiker IsNotSaidSomeoneDied IsTalk IsTalkNamVet RESPONSE SurvivorDiedFrancisNamVet
+RESPONSE SurvivorDiedLouisNamVet CHARACTER NamVet SUBTITLE "Louis! (loud)"
+RESPONSE SurvivorDiedLouisNamVet CHARACTER NamVet SUBTITLE "Looooouis! (loud)"
+RESPONSE SurvivorDiedLouisNamVet CHARACTER NamVet SUBTITLE "Louis (quiet)"
+RULE SurvivorDiedLouisNamVet CRITERIA ConceptSurvivorDied IsNotCoughing IsNamVet IsDeadManager IsNotSaidSomeoneDied IsTalk IsTalkNamVet RESPONSE SurvivorDiedLouisNamVet
+RESPONSE SurvivorDiedZoeyNamVet CHARACTER NamVet SUBTITLE "Zoey! (loud)"
+RESPONSE SurvivorDiedZoeyNamVet CHARACTER NamVet SUBTITLE "Zooooooey! (loud)"
+RULE SurvivorDiedZoeyNamVet CRITERIA ConceptSurvivorDied IsNotCoughing IsNamVet IsDeadTeenGirl IsNotSaidSomeoneDied IsTalk IsTalkNamVet RESPONSE SurvivorDiedZoeyNamVet
+RESPONSE SurvivorPickupAutoShotgunNamVet CHARACTER NamVet SUBTITLE "Full auto shotgun"
+RESPONSE SurvivorPickupAutoShotgunNamVet CHARACTER NamVet SUBTITLE "Auto shottie!"
+RESPONSE SurvivorPickupAutoShotgunNamVet CHARACTER NamVet SUBTITLE "I'm grabbing this shotgun."
+RESPONSE SurvivorPickupAutoShotgunNamVet CHARACTER NamVet SUBTITLE "I'm taking this shotgun"
+RESPONSE SurvivorPickupAutoShotgunNamVet CHARACTER NamVet SUBTITLE "Shotgun!"
+RULE SurvivorPickupAutoShotgunNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpAutoShotgun IsNotSpeaking IsInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsNotInStartArea IsTalk IsTalkNamVet RESPONSE SurvivorPickupAutoShotgunNamVet
+RESPONSE SurvivorPickupFirstAidKitNamVet CHARACTER NamVet SUBTITLE "First to aid, last to die"
+RESPONSE SurvivorPickupFirstAidKitNamVet CHARACTER NamVet SUBTITLE "Grabbing First Aid"
+RESPONSE SurvivorPickupFirstAidKitNamVet CHARACTER NamVet SUBTITLE "I'm gonna need these"
+RULE SurvivorPickupFirstAidKitNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpFirstAidKit IsNotSpeaking IsInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsNotInStartArea IsTalk IsTalkNamVet RESPONSE SurvivorPickupFirstAidKitNamVet
+RESPONSE SurvivorPickupHuntingRifleNamVet CHARACTER NamVet SUBTITLE "I'm gonna grab this range rifle"
+RESPONSE SurvivorPickupHuntingRifleNamVet CHARACTER NamVet SUBTITLE "I'm grabbing a hunting rifle."
+RULE SurvivorPickupHuntingRifleNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpHuntingRifle IsNotSpeaking IsInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsNotInStartArea IsTalk IsTalkNamVet RESPONSE SurvivorPickupHuntingRifleNamVet
+RESPONSE SurvivorPickupMolotovNamVet CHARACTER NamVet SUBTITLE "Molotov."
+RESPONSE SurvivorPickupMolotovNamVet CHARACTER NamVet SUBTITLE "Grabbing a Molotov."
+RESPONSE SurvivorPickupMolotovNamVet CHARACTER NamVet SUBTITLE "Might want to save this for later."
+RULE SurvivorPickupMolotovNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpMolotov IsNotSpeaking IsInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsNotInStartArea IsTalk IsTalkNamVet RESPONSE SurvivorPickupMolotovNamVet
+RESPONSE SurvivorPickupPainPillsNamVet CHARACTER NamVet SUBTITLE "I'm gonna need these"
+RESPONSE SurvivorPickupPainPillsNamVet CHARACTER NamVet SUBTITLE "Grabbing pills"
+RESPONSE SurvivorPickupPainPillsNamVet CHARACTER NamVet SUBTITLE "Someone's gonna need these"
+RULE SurvivorPickupPainPillsNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpPainPills IsNotSpeaking IsInSafeSpot IsNotInStartArea IsTalk IsTalkNamVet RESPONSE SurvivorPickupPainPillsNamVet
+RESPONSE SurvivorPickupPipeBombNamVet CHARACTER NamVet SUBTITLE "A black powder bomb."
+RESPONSE SurvivorPickupPipeBombNamVet CHARACTER NamVet SUBTITLE "Grabbing a pipe bomb"
+RESPONSE SurvivorPickupPipeBombNamVet CHARACTER NamVet SUBTITLE "Grabbing a pipe bomb"
+RESPONSE SurvivorPickupPipeBombNamVet CHARACTER NamVet SUBTITLE "I'd rather have a grenade, but this'll do."
+RULE SurvivorPickupPipeBombNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpPipeBomb IsNotSpeaking IsInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsNotInStartArea IsTalk IsTalkNamVet RESPONSE SurvivorPickupPipeBombNamVet
+RESPONSE SurvivorPickupPumpShotgunNamVet CHARACTER NamVet SUBTITLE "Grabbing a shotgun"
+RESPONSE SurvivorPickupPumpShotgunNamVet CHARACTER NamVet SUBTITLE "I'm grabbing this shotgun."
+RESPONSE SurvivorPickupPumpShotgunNamVet CHARACTER NamVet SUBTITLE "Shotgun"
+RULE SurvivorPickupPumpShotgunNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpPumpShotgun IsNotSpeaking IsInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsNotInStartArea IsTalk IsTalkNamVet RESPONSE SurvivorPickupPumpShotgunNamVet
+RESPONSE SurvivorPickupRifleNamVet CHARACTER NamVet SUBTITLE "Ahhh. A gun's a gun."
+RESPONSE SurvivorPickupRifleNamVet CHARACTER NamVet SUBTITLE "If it shoots bullets, I'll take it."
+RESPONSE SurvivorPickupRifleNamVet CHARACTER NamVet SUBTITLE "*This'll* do some damage."
+RESPONSE SurvivorPickupRifleNamVet CHARACTER NamVet SUBTITLE "An assault rifle. This shit's gettin more like 'nam every second."
+RESPONSE SurvivorPickupRifleNamVet CHARACTER NamVet SUBTITLE "An assault rifle. Come to papa."
+RESPONSE SurvivorPickupRifleNamVet CHARACTER NamVet SUBTITLE "I'm grabbing this rifle"
+RESPONSE SurvivorPickupRifleNamVet CHARACTER NamVet SUBTITLE "An assault rifle! Man, this takes me back."
+RESPONSE SurvivorPickupRifleNamVet CHARACTER NamVet SUBTITLE "I'm grabbin' an assault rifle."
+RULE SurvivorPickupRifleNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpRifle IsNotSpeaking IsInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsNotInStartArea IsTalk IsTalkNamVet RESPONSE SurvivorPickupRifleNamVet
+RESPONSE SurvivorPickupSecondPistolNamVet CHARACTER NamVet SUBTITLE "I'm taking an extra pistol"
+RESPONSE SurvivorPickupSecondPistolNamVet CHARACTER NamVet SUBTITLE "I'm taking an extra pistol."
+RESPONSE SurvivorPickupSecondPistolNamVet CHARACTER NamVet SUBTITLE "Extra Pistol!"
+RESPONSE SurvivorPickupSecondPistolNamVet CHARACTER NamVet SUBTITLE "Extra Sidearm!"
+RULE SurvivorPickupSecondPistolNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpSecondPistol IsNotSpeaking IsInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsNotInStartArea IsTalk IsTalkNamVet RESPONSE SurvivorPickupSecondPistolNamVet
+RESPONSE SurvivorPickupSMGNamVet CHARACTER NamVet SUBTITLE "SMG"
+RESPONSE SurvivorPickupSMGNamVet CHARACTER NamVet SUBTITLE "Grabbing an SMG"
+RESPONSE SurvivorPickupSMGNamVet CHARACTER NamVet SUBTITLE "Full auto - beautiful."
+RULE SurvivorPickupSMGNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpSMG IsNotSpeaking IsInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsNotInStartArea IsTalk IsTalkNamVet RESPONSE SurvivorPickupSMGNamVet
+RULE SurvivorPickupAutoShotgunAlwaysNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpAutoShotgun IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsTalk IsTalkNamVet RESPONSE SurvivorPickupAutoShotgunNamVet
+RULE SurvivorPickupFirstAidKitAlwaysNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpFirstAidKit IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsTalk IsTalkNamVet RESPONSE SurvivorPickupFirstAidKitNamVet
+RULE SurvivorPickupHuntingRifleAlwaysNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpHuntingRifle IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsTalk IsTalkNamVet RESPONSE SurvivorPickupHuntingRifleNamVet
+RULE SurvivorPickupMolotovAlwaysNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpMolotov IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsTalk IsTalkNamVet RESPONSE SurvivorPickupMolotovNamVet
+RULE SurvivorPickupPainPillsAlwaysNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpPainPills IsNotSpeaking IsTalk IsTalkNamVet RESPONSE SurvivorPickupPainPillsNamVet
+RULE SurvivorPickupPipeBombAlwaysNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpPipeBomb IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsTalk IsTalkNamVet RESPONSE SurvivorPickupPipeBombNamVet
+RULE SurvivorPickupPumpShotgunAlwaysNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpPumpShotgun IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsTalk IsTalkNamVet RESPONSE SurvivorPickupPumpShotgunNamVet
+RULE SurvivorPickupRifleAlwaysNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpRifle IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsTalk IsTalkNamVet RESPONSE SurvivorPickupRifleNamVet
+RULE SurvivorPickupSecondPistolNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpSecondPistol IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsTalk IsTalkNamVet RESPONSE SurvivorPickupSecondPistolNamVet
+RULE SurvivorPickupSMGAlwaysNamVet CRITERIA ConceptPlayerPickup AutoIsNotScavenge AutoIsNotSurvival  IsNotCoughing IsNamVet IsPickedUpSMG IsNotSpeaking IsNotInSafeSpot ChanceToFire30Percent NamVetNotPickedUpItem IsTalk IsTalkNamVet RESPONSE SurvivorPickupSMGNamVet
+RESPONSE PlayerGettingRevivedNamVet CHARACTER NamVet SUBTITLE "I'm okay."
+RESPONSE PlayerGettingRevivedNamVet CHARACTER NamVet SUBTITLE "I'm allright."
+RESPONSE PlayerGettingRevivedNamVet CHARACTER NamVet SUBTITLE "[groan]"
+RESPONSE PlayerGettingRevivedNamVet CHARACTER NamVet SUBTITLE "Hell if I know."
+RESPONSE PlayerGettingRevivedNamVet CHARACTER NamVet SUBTITLE "Most of this blood ain't mine."
+RESPONSE PlayerGettingRevivedNamVet CHARACTER NamVet SUBTITLE "[groan2]"
+RESPONSE PlayerGettingRevivedNamVet CHARACTER NamVet SUBTITLE "I'll make it."
+RESPONSE PlayerGettingRevivedNamVet CHARACTER NamVet SUBTITLE "I'll live."
+RESPONSE PlayerGettingRevivedNamVet CHARACTER NamVet SUBTITLE "Hell, I'll live."
+RESPONSE PlayerGettingRevivedNamVet CHARACTER NamVet SUBTITLE "I've had worse."
+RESPONSE PlayerGettingRevivedNamVet CHARACTER NamVet SUBTITLE "[confused from hit on head] Who are you?"
+RESPONSE PlayerGettingRevivedNamVet CHARACTER NamVet SUBTITLE "[confused from hit on head] Mother?"
+RESPONSE PlayerGettingRevivedNamVet CHARACTER NamVet SUBTITLE "Well, I ain't *good*."
+RULE PlayerGettingRevivedNamVet CRITERIA ConceptReviveFriendDown IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerGettingRevivedNamVet
+RESPONSE PlayerHealOtherNamVet CHARACTER NamVet SUBTITLE "Let me heal you up"
+RESPONSE PlayerHealOtherNamVet CHARACTER NamVet SUBTITLE "Let me heal you up"
+RESPONSE PlayerHealOtherNamVet CHARACTER NamVet SUBTITLE "Hold still, I can heal you"
+RESPONSE PlayerHealOtherNamVet CHARACTER NamVet SUBTITLE "Hold still, I can heal you"
+RESPONSE PlayerHealOtherNamVet CHARACTER NamVet SUBTITLE "Hold on, let me patch you up"
+RESPONSE PlayerHealOtherNamVet CHARACTER NamVet SUBTITLE "Hold on, let me patch you up"
+RESPONSE PlayerHealOtherNamVet CHARACTER NamVet SUBTITLE "Lemme heal ya up."
+RESPONSE PlayerHealOtherNamVet CHARACTER NamVet SUBTITLE "Hold up, I'll heal ya."
+RESPONSE PlayerHealOtherNamVet CHARACTER NamVet SUBTITLE "Quit moving, I'll heal ya."
+RESPONSE PlayerHealOtherNamVet CHARACTER NamVet SUBTITLE "Stop squirmin', I'm gonna heal ya."
+RESPONSE PlayerHealOtherNamVet CHARACTER NamVet SUBTITLE "Hold still, I'm gonna heal ya."
+RULE PlayerHealOtherNamVet CRITERIA ConceptPlayerHealingOther IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerHealOtherNamVet
+RESPONSE PlayerHealOtherCombatNamVet CHARACTER NamVet SUBTITLE "Let me heal you up"
+RESPONSE PlayerHealOtherCombatNamVet CHARACTER NamVet SUBTITLE "Hold still, I can heal you"
+RESPONSE PlayerHealOtherCombatNamVet CHARACTER NamVet SUBTITLE "Hold on, let me patch you up"
+RULE PlayerHealOtherCombatNamVet CRITERIA ConceptPlayerHealingOther IsNotCoughing  IsNamVet IsTalk IsTalkNamVet InCombat RESPONSE PlayerHealOtherCombatNamVet
+RESPONSE PlayerLedgeSaveNamVet CHARACTER NamVet SUBTITLE "Okay, quit squirming, I gotcha. Come on, up ya go!"
+RESPONSE PlayerLedgeSaveNamVet CHARACTER NamVet SUBTITLE "Let's go, take my hand. I'm gonna get you up. Here we go."
+RESPONSE PlayerLedgeSaveNamVet CHARACTER NamVet SUBTITLE "How the hell did this happen? Never mind, come on and grab my hand."
+RULE PlayerLedgeSaveNamVet CRITERIA ConceptPlayerLedgeSave IsNotCoughing IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerLedgeSaveNamVet
+RESPONSE PlayerReviveFriendNamVet CHARACTER NamVet SUBTITLE "Hold still, hold still. I'm gonna get you back on your feet and then we gotta move."
+RESPONSE PlayerReviveFriendNamVet CHARACTER NamVet SUBTITLE "Okay. Allright, now. Come on kid, shake it off and let's get moving."
+RESPONSE PlayerReviveFriendNamVet CHARACTER NamVet SUBTITLE "Ah hell, it looks a lot worse than it is. C'mon - you gotta get up and walk it off."
+RESPONSE PlayerReviveFriendNamVet CHARACTER NamVet SUBTITLE "Probably stings like hell, but it ain't gonna kill ya. Up and at'em, soldier! Time to move."
+RESPONSE PlayerReviveFriendNamVet CHARACTER NamVet SUBTITLE "There's a lot of blood, but you're not missin' anything important. Come on, get up, let's get moving!"
+RESPONSE PlayerReviveFriendNamVet CHARACTER NamVet SUBTITLE "Hold still, hold still. I'm gonna get you back on your feet and then we gotta move."
+RESPONSE PlayerReviveFriendNamVet CHARACTER NamVet SUBTITLE "Okay. Allright, now. Come on kid, shake it off, let's get moving."
+RESPONSE PlayerReviveFriendNamVet CHARACTER NamVet SUBTITLE "Take it easy, kid. I'm gonna get you back on your feet and fighting."
+RESPONSE PlayerReviveFriendNamVet CHARACTER NamVet SUBTITLE "Hell, kid, they just winged ya. Come on, back on your feet and let's get moving."
+RESPONSE PlayerReviveFriendNamVet CHARACTER NamVet SUBTITLE "Here we go - back on your feet, soldier. You're not gettin' out of this fight that easy."
+RESPONSE PlayerReviveFriendNamVet CHARACTER NamVet SUBTITLE "Lie still, lemme look. Ah hell, I've seen worse. You'll be allright in a second."
+RESPONSE PlayerReviveFriendNamVet CHARACTER NamVet SUBTITLE "You're not through yet, kid. Get up and let's go. These shitheads ain't gonna kill themselves."
+RESPONSE PlayerReviveFriendNamVet CHARACTER NamVet SUBTITLE "Ahh quit snivelling. I've seen worse."
+RULE PlayerReviveFriendNamVet CRITERIA ConceptPlayerReviveFriend IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerReviveFriendNamVet
+RESPONSE PlayerReviveFriendCriticalNamVet CHARACTER NamVet SUBTITLE "I can help you up, but I'm not gonna lie to ya - you're in bad shape. If we don't find you some first aid, you're not gonna survive another hit."
+RESPONSE PlayerReviveFriendCriticalNamVet CHARACTER NamVet SUBTITLE "Holy hell, you are messed up. If we don't find you some first aid, you're not gonna survive another hit."
+RESPONSE PlayerReviveFriendCriticalNamVet CHARACTER NamVet SUBTITLE "That really tore the hell outta you. If we don't find you some first aid, you're not gonna survive another hit."
+RESPONSE PlayerReviveFriendCriticalNamVet CHARACTER NamVet SUBTITLE "Holy shit, they took a big piece outta you, kid. If we don't find you some first aid, you're not gonna survive another hit."
+RESPONSE PlayerReviveFriendCriticalNamVet CHARACTER NamVet SUBTITLE "I can help you back on your feet, but it's temporary. If we don't find you some first aid, you're not gonna survive another hit."
+RESPONSE PlayerReviveFriendCriticalNamVet CHARACTER NamVet SUBTITLE "You're in real bad shape, kid. If we don't find you some first aid, you're not gonna survive another hit."
+RESPONSE PlayerReviveFriendCriticalNamVet CHARACTER NamVet SUBTITLE "No shame, kid. I woulda pissed myself, too. But if we don't find you some first aid, you're not gonna survive another hit."
+RULE PlayerReviveFriendCriticalNamVet CRITERIA ConceptPlayerReviveFriendCritical IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerReviveFriendCriticalNamVet
+RESPONSE PlayerReviveFriendLoudNamVet CHARACTER NamVet SUBTITLE "I gotcha. You're gonna make it!"
+RESPONSE PlayerReviveFriendLoudNamVet CHARACTER NamVet SUBTITLE "Get up, get up! We ain't got time for this!"
+RESPONSE PlayerReviveFriendLoudNamVet CHARACTER NamVet SUBTITLE "Get up, get up!"
+RESPONSE PlayerReviveFriendLoudNamVet CHARACTER NamVet SUBTITLE "Come on, get up!"
+RESPONSE PlayerReviveFriendLoudNamVet CHARACTER NamVet SUBTITLE "Hang on, I gotcha!"
+RESPONSE PlayerReviveFriendLoudNamVet CHARACTER NamVet SUBTITLE "Come on! You gotta get up!"
+RESPONSE PlayerReviveFriendLoudNamVet CHARACTER NamVet SUBTITLE "You're not done yet. Come on!"
+RESPONSE PlayerReviveFriendLoudNamVet CHARACTER NamVet SUBTITLE "Let's go! Get up! Let's go!"
+RESPONSE PlayerReviveFriendLoudNamVet CHARACTER NamVet SUBTITLE "Come on! This fight ain't over!"
+RESPONSE PlayerReviveFriendLoudNamVet CHARACTER NamVet SUBTITLE "Come on!"
+RULE PlayerReviveFriendLoudNamVet CRITERIA ConceptPlayerReviveFriend IsNotCoughing  IsNamVet IsZombiePresentTank IsTalk IsTalkNamVet RESPONSE PlayerReviveFriendLoudNamVet
+RESPONSE PlayerReviveFriendShortNamVet CHARACTER NamVet SUBTITLE "Up and at 'em."
+RESPONSE PlayerReviveFriendShortNamVet CHARACTER NamVet SUBTITLE "Come on up!"
+RESPONSE PlayerReviveFriendShortNamVet CHARACTER NamVet SUBTITLE "Up ya go, son."
+RESPONSE PlayerReviveFriendShortNamVet CHARACTER NamVet SUBTITLE "You'll be okay."
+RESPONSE PlayerReviveFriendShortNamVet CHARACTER NamVet SUBTITLE "I got ya."
+RESPONSE PlayerReviveFriendShortNamVet CHARACTER NamVet SUBTITLE "Up we go."
+RESPONSE PlayerReviveFriendShortNamVet CHARACTER NamVet SUBTITLE "Hell, you're fine."
+RESPONSE PlayerReviveFriendShortNamVet CHARACTER NamVet SUBTITLE "It don't look bad."
+RESPONSE PlayerReviveFriendShortNamVet CHARACTER NamVet SUBTITLE "Come on up."
+RESPONSE PlayerReviveFriendShortNamVet CHARACTER NamVet SUBTITLE "Let's move!"
+RESPONSE PlayerReviveFriendShortNamVet CHARACTER NamVet SUBTITLE "You're fine."
+RESPONSE PlayerReviveFriendShortNamVet CHARACTER NamVet SUBTITLE "You'll be fine."
+RULE PlayerReviveFriendShortNamVet CRITERIA ConceptPlayerReviveFriend IsNotCoughing  IsNamVet IsTalk IsTalkNamVet IsReviveTalk RESPONSE PlayerReviveFriendShortNamVet
+RULE PlayerLedgeSaveCriticalNamVet CRITERIA ConceptPlayerLedgeSaveCritical IsNotCoughing  IsNamVet IsTalk IsTalkNamVet RESPONSE PlayerReviveFriendCriticalNamVet
+RULE PlayerReviveFriendLoud2NamVet CRITERIA ConceptPlayerReviveFriend IsNotCoughing  IsNamVet IntensityHigh IsTalk IsTalkNamVet RESPONSE PlayerReviveFriendLoudNamVet
+RULE PlayerReviveFriendLoudCritNamVet CRITERIA ConceptPlayerReviveFriendCritical IsNotCoughing  IsNamVet IntensityHigh IsTalk IsTalkNamVet IntensityHigh RESPONSE PlayerReviveFriendLoudNamVet
+RESPONSE PlayerAirportIntrobbNamVet CHARACTER NamVet SUBTITLE "A C-130 is nice flying."
+RULE PlayerAirportIntrobbNamVet CRITERIA ConceptIntroAirport01bb IsNamVet RESPONSE PlayerAirportIntrobbNamVet
+RESPONSE PlayerFarmHouseIntroNamVet CHARACTER NamVet SUBTITLE "Emergency band was talking about a military outpost just North a' here."
+RESPONSE PlayerFarmHouseIntroNamVet CHARACTER NamVet SUBTITLE "Last thing I heard, there's some kind of military outpost not far from here along the train tracks."
+RULE PlayerFarmHouseIntroNamVet CRITERIA ConceptIntroFarm IsNamVet RESPONSE PlayerFarmHouseIntroNamVet
+RESPONSE PlayerHospitalIntroNamVet CHARACTER NamVet SUBTITLE "We can take the subway tunnels to the hospital.  There's a redline station not far from here."
+RULE PlayerHospitalIntroNamVet CRITERIA ConceptintroHospital IsNamVet RESPONSE PlayerHospitalIntroNamVet
+RESPONSE PlayerHospitalIntro03NamVet CHARACTER NamVet SUBTITLE "Good thinking."
+RESPONSE PlayerHospitalIntro03NamVet CHARACTER NamVet SUBTITLE "Might not be a bad idea to get off the street."
+RULE PlayerHospitalIntro03NamVet CRITERIA ConceptIntroHospital03 IsNamVet RESPONSE PlayerHospitalIntro03NamVet
+RESPONSE PlayerCoverMeHealNamVet CHARACTER NamVet SUBTITLE "Cover me!"
+RESPONSE PlayerCoverMeHealNamVet CHARACTER NamVet SUBTITLE "Cover me."
+RESPONSE PlayerCoverMeHealNamVet CHARACTER NamVet SUBTITLE "Watch my back"
+RESPONSE PlayerCoverMeHealNamVet CHARACTER NamVet SUBTITLE "Watch my back."
+RESPONSE PlayerCoverMeHealNamVet CHARACTER NamVet SUBTITLE "Cover me."
+RESPONSE PlayerCoverMeHealNamVet CHARACTER NamVet SUBTITLE "Healin', cover me"
+RESPONSE PlayerCoverMeHealNamVet CHARACTER NamVet SUBTITLE "Cover me, gonna heal."
+RESPONSE PlayerCoverMeHealNamVet CHARACTER NamVet SUBTITLE "Wait up, I'm healing."
+RULE PlayerCoverMeHealNamVet CRITERIA ConceptPlayerHealing IsNotCoughing IsNamVet IsNotAskedForCoverNamVet IsTalk IsTalkNamVet IsNotAlone RESPONSE PlayerCoverMeHealNamVet
+RESPONSE SurvivorSpottedRifleAutoNamVet2 CHARACTER NamVet SUBTITLE "Roger that."
+RULE SurvivorSpottedRifleAutoNamVet2 CRITERIA ConceptPlayerSpotRifle IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedRifleAutoNamVet2
+RESPONSE SurvivorSpottedShotgunAutoNamVet2 CHARACTER NamVet SUBTITLE "Roger that."
+RULE SurvivorSpottedShotgunAutoNamVet2 CRITERIA ConceptPlayerSpotShotgun IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedShotgunAutoNamVet2
+RESPONSE SurvivorSpottedSMGAutoNamVet2 CHARACTER NamVet SUBTITLE "Roger that."
+RULE SurvivorSpottedSMGAutoNamVet2 CRITERIA ConceptPlayerSpotSMG IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedSMGAutoNamVet2
+RESPONSE SurvivorSpottedSniperRifleAutoNamVet2 CHARACTER NamVet SUBTITLE "Roger that."
+RULE SurvivorSpottedSniperRifleAutoNamVet2 CRITERIA ConceptPlayerSpotSniperRifle IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedSniperRifleAutoNamVet2
+RESPONSE SurvivorSpottedWeaponNamVet CHARACTER NamVet SUBTITLE "Weapons here!"
+RULE SurvivorSpottedWeaponNamVet CRITERIA ConceptPlayerSpotPistol IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto RESPONSE SurvivorSpottedWeaponNamVet
+RESPONSE SurvivorSpottedWeaponAShotgunAutoNamVet2 CHARACTER NamVet SUBTITLE "Roger that."
+RULE SurvivorSpottedWeaponAShotgunAutoNamVet2 CRITERIA ConceptPlayerSpotAutoShotgun IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponAShotgunAutoNamVet2
+RESPONSE SurvivorSpottedWeaponPistolAutoNamVet CHARACTER NamVet SUBTITLE "Weapon over here!"
+RESPONSE SurvivorSpottedWeaponPistolAutoNamVet CHARACTER NamVet SUBTITLE "Got a Weapon here!"
+RULE SurvivorSpottedWeaponPistolAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsSecondPistol IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponPistolAutoNamVet
+RESPONSE SurvivorSpottedWeaponPistolAutoNamVet2 CHARACTER NamVet SUBTITLE "Roger that."
+RULE SurvivorSpottedWeaponPistolAutoNamVet2 CRITERIA ConceptPlayerSpotPistol IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponPistolAutoNamVet2
+RULE SurvivorSpottedRifleNamVet CRITERIA ConceptPlayerSpotRifle IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedRifleAutoNamVet CRITERIA ConceptPlayerSpotRifle IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedShotgunNamVet CRITERIA ConceptPlayerSpotShotgun IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedShotgunAutoNamVet CRITERIA ConceptPlayerSpotShotgun IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedSMGNamVet CRITERIA ConceptPlayerSpotSMG IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedSMGAutoNamVet CRITERIA ConceptPlayerSpotSMG IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedSniperRifleNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsSniper_military RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedSniperRifleAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsSniper_military IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedWeaponNamVet CRITERIA ConceptPlayerSpotOtherWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedWeaponAShotgunAutoNamVet CRITERIA ConceptPlayerSpotAutoShotgun IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedShotgun_spasNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsShotgun_spas IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedShotgun_spasAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsShotgun_spas IsWorldTalkNamVet RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedRifle_desertNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsRifle_desert IsWorldTalkNamVet RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedRifle_desertAutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsRifle_desert IsWorldTalkNamVet _auto_NotNoSpotting IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponNamVet
+RESPONSE PlayerRelaxedSighNamVet CHARACTER NamVet SUBTITLE "Ahhh"
+RESPONSE PlayerRelaxedSighNamVet CHARACTER NamVet SUBTITLE "Ohh"
+RULE PlayerRelaxedSighNamVet CRITERIA ConceptRelaxedSigh IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet RESPONSE PlayerRelaxedSighNamVet
+RESPONSE PlayerUseAdrenalineNamVet CHARACTER NamVet SUBTITLE "ah"
+RESPONSE PlayerUseAdrenalineNamVet CHARACTER NamVet SUBTITLE "eh hehhh!"
+RESPONSE PlayerUseAdrenalineNamVet CHARACTER NamVet SUBTITLE "surprised laughter"
+RULE PlayerUseAdrenalineNamVet CRITERIA ConceptUseAdrenaline IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet RESPONSE PlayerUseAdrenalineNamVet
+RESPONSE PlayerUsingDefibrillatorNamVet CHARACTER NamVet SUBTITLE "Clear!"
+RESPONSE PlayerUsingDefibrillatorNamVet CHARACTER NamVet SUBTITLE "I gotcha. You're gonna make it!"
+RESPONSE PlayerUsingDefibrillatorNamVet CHARACTER NamVet SUBTITLE "Come on! This fight ain't over!"
+RULE PlayerUsingDefibrillatorNamVet CRITERIA ConceptPlayerUsingDefibrillator IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet RESPONSE PlayerUsingDefibrillatorNamVet
+RESPONSE PlayerRevivedByDefibrillatorNamVet CHARACTER NamVet SUBTITLE "[pain noise - ugh]"
+RESPONSE PlayerRevivedByDefibrillatorNamVet CHARACTER NamVet SUBTITLE "[pain noise - ugh]"
+RESPONSE PlayerRevivedByDefibrillatorNamVet CHARACTER NamVet SUBTITLE "Mother of Mercy!"
+RULE PlayerRevivedByDefibrillatorNamVet CRITERIA ConceptRevivedByDefibrillator IsNotCoughing IsNamVet RESPONSE PlayerRevivedByDefibrillatorNamVet
+RESPONSE PlayerRevivedByDefibrillator2NamVet CHARACTER NamVet SUBTITLE "Whoa!"
+RESPONSE PlayerRevivedByDefibrillator2NamVet CHARACTER NamVet SUBTITLE "Holy shit!"
+RESPONSE PlayerRevivedByDefibrillator2NamVet CHARACTER NamVet SUBTITLE "Thanks for that..."
+RULE PlayerRevivedByDefibrillator2NamVet CRITERIA ConceptRevivedByDefibrillatorDelayed  IsNamVet RESPONSE PlayerRevivedByDefibrillator2NamVet
+RESPONSE SurvivorPouncedByHunterNamVet CHARACTER NamVet SUBTITLE "GET IT OFF!"
+RESPONSE SurvivorPouncedByHunterNamVet CHARACTER NamVet SUBTITLE "GET IT OFF GET IT OFF!"
+RESPONSE SurvivorPouncedByHunterNamVet CHARACTER NamVet SUBTITLE "GET IT OFF!"
+RULE SurvivorPouncedByHunterNamVet CRITERIA ConceptScreamWhilePounced IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsWorldTalkNamVet RESPONSE SurvivorPouncedByHunterNamVet
+RESPONSE PlayerGrabbedByJockeyNamVet CHARACTER NamVet SUBTITLE "GET IT OFF!"
+RESPONSE PlayerGrabbedByJockeyNamVet CHARACTER NamVet SUBTITLE "GET IT OFF!"
+RESPONSE PlayerGrabbedByJockeyNamVet CHARACTER NamVet SUBTITLE "Ohhhh NOOOO!"
+RESPONSE PlayerGrabbedByJockeyNamVet CHARACTER NamVet SUBTITLE "Ahhh!"
+RESPONSE PlayerGrabbedByJockeyNamVet CHARACTER NamVet SUBTITLE "MOTHER HUMPER!"
+RESPONSE PlayerGrabbedByJockeyNamVet CHARACTER NamVet SUBTITLE "God damn it!"
+RULE PlayerGrabbedByJockeyNamVet CRITERIA ConceptSurvivorJockeyed IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSaidBeenJockeyedNamVet IsWorldTalkNamVet RESPONSE PlayerGrabbedByJockeyNamVet
+RESPONSE SurvivorJockeyHurtMajorNamVet CHARACTER NamVet SUBTITLE "GET IT OFF!"
+RESPONSE SurvivorJockeyHurtMajorNamVet CHARACTER NamVet SUBTITLE "GET IT OFF!"
+RESPONSE SurvivorJockeyHurtMajorNamVet CHARACTER NamVet SUBTITLE "[pain noise - ahh]"
+RESPONSE SurvivorJockeyHurtMajorNamVet CHARACTER NamVet SUBTITLE "[pain noise - ugh]"
+RESPONSE SurvivorJockeyHurtMajorNamVet CHARACTER NamVet SUBTITLE "[pain noise - short minor pain]"
+RULE SurvivorJockeyHurtMajorNamVet CRITERIA IsSurvivor InPain IsMajorPain IsNamVet IsTalk IsTalkNamVet SubjectIsJockey IsNotSaidBeenJockeyedNamVet IsWorldTalkNamVet IsBeingJockeyed RESPONSE SurvivorJockeyHurtMajorNamVet
+RESPONSE SurvivorJockeyHurtMinorNamVet CHARACTER NamVet SUBTITLE "GET IT OFF!"
+RESPONSE SurvivorJockeyHurtMinorNamVet CHARACTER NamVet SUBTITLE "GET IT OFF!"
+RESPONSE SurvivorJockeyHurtMinorNamVet CHARACTER NamVet SUBTITLE "[pain noise - ahh]"
+RESPONSE SurvivorJockeyHurtMinorNamVet CHARACTER NamVet SUBTITLE "[pain noise - ugh]"
+RESPONSE SurvivorJockeyHurtMinorNamVet CHARACTER NamVet SUBTITLE "[pain noise - short minor pain]"
+RULE SurvivorJockeyHurtMinorNamVet CRITERIA IsSurvivor InPain IsMinorPain IsNamVet IsTalk IsTalkNamVet SubjectIsJockey IsNotSaidBeenJockeyedNamVet IsWorldTalkNamVet IsBeingJockeyed RESPONSE SurvivorJockeyHurtMinorNamVet
+RESPONSE PlayerCommentJockeyNamVet CHARACTER NamVet SUBTITLE "Christ."
+RESPONSE PlayerCommentJockeyNamVet CHARACTER NamVet SUBTITLE "Ahh hell!"
+RESPONSE PlayerCommentJockeyNamVet CHARACTER NamVet SUBTITLE "That's what you get for not wearing a hat."
+RULE PlayerCommentJockeyNamVet CRITERIA ConceptCommentJockey IsNamVet IssuerCloseEnough IsNotIncapacitated IntensityUnder50 IsNotSaidCommentJockey RESPONSE PlayerCommentJockeyNamVet
+RESPONSE SurvivorchargerpoundNamVet CHARACTER NamVet SUBTITLE "Get this thing offa me!"
+RESPONSE SurvivorchargerpoundNamVet CHARACTER NamVet SUBTITLE "AAHHHH He's crushing me!"
+RULE SurvivorchargerpoundNamVet CRITERIA Conceptchargerpound IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSaidchargerpound IsWorldTalkNamVet RESPONSE SurvivorchargerpoundNamVet
+RESPONSE SurvivorGooedBySpitterNamVet CHARACTER NamVet SUBTITLE "AAAAAHHH!"
+RESPONSE SurvivorGooedBySpitterNamVet CHARACTER NamVet SUBTITLE "AAAAAHHHHHH!"
+RESPONSE SurvivorGooedBySpitterNamVet CHARACTER NamVet SUBTITLE "GO GO GO!"
+RESPONSE SurvivorGooedBySpitterNamVet CHARACTER NamVet SUBTITLE "MOOOVE!"
+RESPONSE SurvivorGooedBySpitterNamVet CHARACTER NamVet SUBTITLE "MOVE MOVE MOVE!"
+RESPONSE SurvivorGooedBySpitterNamVet CHARACTER NamVet SUBTITLE "MOVE BACK!"
+RESPONSE SurvivorGooedBySpitterNamVet CHARACTER NamVet SUBTITLE "BACK IT UP!"
+RULE SurvivorGooedBySpitterNamVet CRITERIA ConceptGooedBySpitter IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSaidGooedBySpitter IsWorldTalkNamVet RESPONSE SurvivorGooedBySpitterNamVet
+RESPONSE SurvivorWarnSpitterIncomingNamVet CHARACTER NamVet SUBTITLE "INCOMING!"
+RESPONSE SurvivorWarnSpitterIncomingNamVet CHARACTER NamVet SUBTITLE "Incoming!"
+RESPONSE SurvivorWarnSpitterIncomingNamVet CHARACTER NamVet SUBTITLE "Duck!"
+RULE SurvivorWarnSpitterIncomingNamVet CRITERIA ConceptWarnSpitterIncoming IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSaidWarnSpitterIncoming IsWorldTalkNamVet RESPONSE SurvivorWarnSpitterIncomingNamVet
+RESPONSE SurvivorDeployUpExplosivesNamVet CHARACTER NamVet SUBTITLE "Wait here just a minute."
+RESPONSE SurvivorDeployUpExplosivesNamVet CHARACTER NamVet SUBTITLE "Hold up!"
+RULE SurvivorDeployUpExplosivesNamVet CRITERIA ConceptPlayerDeployingUpgradeAmmo  IsNotCoughing IsNamVet  IsNotSpeaking  IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotSaidDeployUpgradePack_Explosive HasUpgradePack_Explosive RESPONSE SurvivorDeployUpExplosivesNamVet
+RESPONSE SurvivorDeployUpIncendiaryNamVet CHARACTER NamVet SUBTITLE "Wait here just a minute."
+RESPONSE SurvivorDeployUpIncendiaryNamVet CHARACTER NamVet SUBTITLE "Hold up!"
+RULE SurvivorDeployUpIncendiaryNamVet CRITERIA ConceptPlayerDeployingUpgradeAmmo  IsNotCoughing IsNamVet  IsNotSpeaking  IsTalk IsTalkNamVet IsWorldTalkNamVet IsNotSaidDeployUpgradePack_Incendiary HasUpgradePack_Incendiary RESPONSE SurvivorDeployUpIncendiaryNamVet
+RULE SurvivorSpottedM60NamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsM60 IsWorldTalkNamVet IsNotSpeakingWeight0 RESPONSE SurvivorSpottedWeaponNamVet
+RULE SurvivorSpottedM60AutoNamVet CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsNamVet IsTalk IsTalkNamVet IsNotSmartLookAuto IsM60 IsWorldTalkNamVet RESPONSE SurvivorSpottedWeaponNamVet
+RESPONSE SurvivorPickupM60NamVet CHARACTER NamVet SUBTITLE "Those bastards are in for a big surprise."
+RESPONSE SurvivorPickupM60NamVet CHARACTER NamVet SUBTITLE "[chuckles and giggles]"
+RULE SurvivorPickupM60NamVet CRITERIA ConceptPlayerPickup IsNotCoughing IsNamVet IsPickedUpM60  IsNotSpeaking  NamVetNotPickedUpItem IsTalk IsTalkNamVet IsWorldTalkNamVet RESPONSE SurvivorPickupM60NamVet
+
+
+

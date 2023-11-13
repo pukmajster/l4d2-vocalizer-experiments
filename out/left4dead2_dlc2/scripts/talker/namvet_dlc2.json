@@ -1,0 +1,1620 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {},
+  "NamVet": {
+    "PlayerNiceShotNamVet": [
+      "Nice shot!",
+      "damn, kid, that was a good shot.",
+      "godDAMN that was a nice shot.",
+      "Good shot, kid.",
+      "Good shot!",
+      "Damn, now that was a shot!",
+      "Nice shooting",
+      "Nice"
+    ],
+    "PlayerRemarkFarm05_path09BNamVet": [
+      "The honest to God military!"
+    ],
+    "PlayerRemarkFarm05_path09CNamVet": [
+      "The honest to God military!"
+    ],
+    "ReviveMeINterruptedNamVet": [
+      "Whoah!",
+      "Dammit."
+    ],
+    "SurvivorMournFrancisNamVet": [
+      "Ah, not Francis",
+      "Christ, I'm gonna miss that son of a bitch.",
+      "I am going to miss that man and his gun"
+    ],
+    "SurvivorMournLouisNamVet": [
+      "Ah, Louis.",
+      "Louis didn't make it. Ah, Christ."
+    ],
+    "SurvivorMournZoeyNamVet": [
+      "She's dead!",
+      "Ah Christ, she's dead!",
+      "Goddamit, she didn't make it.",
+      "Ah not Zoey",
+      "Ah jesus. What a waste.",
+      "One of those sick sons of bitches just sealed all a' their death warrants."
+    ],
+    "PlayerRemarkFarm01_path09NamVet": [
+      "Safe house ahead!",
+      "Safe house!"
+    ],
+    "PlayerRemarkSmalltown03_path14NamVet": [
+      "Safe house ahead!"
+    ],
+    "ThanksGotItemNamVet": [
+      "appreciate that.",
+      "Eh, you're a good kid.",
+      "Thanks.",
+      "'ppreciate it."
+    ],
+    "HealThanksNamVet": [
+      "Thanks.",
+      "Thank you.",
+      "Thanks a lot.",
+      "I owe ya one.",
+      "That's one I owe you.",
+      "That wasn't necessary, but thanks."
+    ],
+    "ReviveThanksNamVet": [
+      "Thanks.",
+      "Thank you.",
+      "Thanks a lot.",
+      "I owe ya one.",
+      "That's one I owe you.",
+      "That wasn't necessary, but thanks."
+    ],
+    "ReviveThanksLouisNamVet": [
+      "Thanks for that."
+    ],
+    "AutoYouAreWelcomeNamVet": [
+      "Sure thing.",
+      "Well, you're welcome.",
+      "Hey, no problem",
+      "No problem.",
+      "Sure thing, kid.",
+      "Yeah, yeah, yeah.",
+      "Don't get too used to it.",
+      "Don't mention it.",
+      "Yeah, okay, it don't mean we're married now",
+      "Don't expect a hug"
+    ],
+    "BotAttentionBattleNamVet": [
+      "Ready?",
+      "Ready for this?"
+    ],
+    "BotHurrahAlsoNamVet": [
+      "You people are gettin' good.",
+      "[chuckles and giggles]",
+      "Out standing"
+    ],
+    "BotPlayer.YourWelcomeNamVet": [
+      "Sure thing.",
+      "Well, you're welcome.",
+      "Hey, no problem",
+      "No problem.",
+      "Sure thing, kid.",
+      "Yeah, yeah, yeah.",
+      "Don't get too used to it.",
+      "Don't mention it.",
+      "Yeah, okay, it don't mean we're married now",
+      "Don't expect a hug"
+    ],
+    "BotReassureComingNamVet": [
+      "Roger that.",
+      "Yeah.",
+      "Okay.",
+      "Yes.",
+      "Affirmative."
+    ],
+    "BotReassureNearbyNamVet": [
+      "I got your six.",
+      "Right behind you.",
+      "I'm with ya.",
+      "I got your back.",
+      "I'm right behind you."
+    ],
+    "BotYesReadyNamVet": [
+      "Roger that.",
+      "Yeah.",
+      "Okay.",
+      "Yes.",
+      "Affirmative."
+    ],
+    "CrashFinaleGenerator2OnSpkNamVet": [
+      "Out standing"
+    ],
+    "CrashFinaleGenerator2SpeakNamVet": [
+      "Watch my back."
+    ],
+    "CrashFinaleGeneratorSpeakNamVet": [
+      "Watch my back."
+    ],
+    "CrashFinaleGeneratorSpeakNNamVet": [
+      "I'm gettin' too old for this horseshit.",
+      "Ah, hell, I'm gettin too old for this shit"
+    ],
+    "CrashFinaleGenUnPressSpeakNamVet": [
+      "Ah shit."
+    ],
+    "CrashFinaleTruckNagNamVet": [
+      "Get to the truck! MOVE!",
+      "Get to the truck!"
+    ],
+    "CrashCourseR05NamVet": [
+      "You know who's gonna survive this mess, Francis? It ain't the fella makin' jokes.",
+      "Speak up, Francis. Your voice got all muffled from yer head being so far up yer ass."
+    ],
+    "PlayerRemarkcrashcourse01_path25NamVet": [
+      "Safe house in here!"
+    ],
+    "IntroCrashR25NamVet": [
+      "<Short laugh>"
+    ],
+    "IntroFarm3NamVet": [
+      "We just need to find the train tracks and then follow 'em."
+    ],
+    "IntroFarm4NamVet": [
+      "Allright, then, let's do it."
+    ],
+    "SurvivorBoomerBlunderNamVet": [
+      "I am sorry.",
+      "Sorry about that."
+    ],
+    "SurvivorFinaleTriggeredBoatNamVet": [
+      "Rescue boat's on its way. Now we gotta hold out.",
+      "Listen up: rescue's on the way. We gotta hold out til they get here."
+    ],
+    "SurvivorFinaleTriggeredFarmNamVet": [
+      "Allright, people, help is on the way. Let's dig in.",
+      "Okay, people, listen up: Help is on its way. We're almost out of this.",
+      "Listen up, there's a truck coming for us, so let's make sure we're alive to meet it."
+    ],
+    "SurvivorFinaleTriggeredRooftopNamVet": [
+      "I called the chopper"
+    ],
+    "SurvivorFinalVehicleBoatNamVet": [
+      "Run to the boat!",
+      "Get to the Boat!",
+      "To the boat! MOVE!",
+      "Haul ass to that boat! RUN!"
+    ],
+    "SurvivorFinalVehicleFarmNamVet": [
+      "Get to the truck! MOVE!",
+      "Get to the truck!",
+      "Get to that truck on the double! GO! GO! GO!",
+      "The truck's waitin'. RUN!"
+    ],
+    "SurvivorFinalVehicleFarmSpottedNamVet": [
+      "The truck's here! Let's go!",
+      "The truck has arrived! Let's move out, people!"
+    ],
+    "SurvivorFinalVehicleRooftopNamVet": [
+      "Get to the chopper! GO!",
+      "Get to the chopper!",
+      "To the chopper. Come on, MOVE IT, MOVE IT, MOVE IT!",
+      "Get to the LZ!"
+    ],
+    "SurvivorFinalVehicleRunwayNamVet": [
+      "Everyone on the plane! PRONTO!",
+      "Get to the plane!",
+      "Into the plane. Hustle it, people!"
+    ],
+    "SurvivorFinalVehicleSpottedBoatNamVet": [
+      "That's the boat! Time to bug out!",
+      "Allright, the boat's here! Let's go!"
+    ],
+    "SurvivorFinalVehicleSpottedRooftopNamVet": [
+      "Our chopper's here! Let's get the hell out of dodge.",
+      "The bird's here! Let's go!"
+    ],
+    "SurvivorFinalVehicleSpottedRunwayNamVet": [
+      "Get to the plane!",
+      "Into the plane. Hustle it, people!"
+    ],
+    "ResponseLoudDispleasureSwearNamVet": [
+      "Son of a bitch.",
+      "Bull-frickin-horseshit.",
+      "God DAMMIT.",
+      "Ah shit."
+    ],
+    "ResponseSoftDispleasureSwearNamVet": [
+      "I have a bad feeling about this",
+      "I do not like this one bit.",
+      "Uh oh",
+      "Christ",
+      "Gee-zus",
+      "Son of a bitch.",
+      "Ah hell.",
+      "Dammit.",
+      "Ah shit.",
+      "What a crock a' shit..."
+    ],
+    "SurvivorAskFrancisForHealthNamVet": [
+      "Francis, buddy, you gonna use that health kit?"
+    ],
+    "SurvivorAskLouisForHealthNamVet": [
+      "Louis, mind givin' an old man your health kit?"
+    ],
+    "SurvivorAskZoeyForHealthNamVet": [
+      "Zoey, can you spare me a health kit?"
+    ],
+    "SurvivorSpottedAmmoNamVet": [
+      "Ammo here!"
+    ],
+    "SurvivorSpottedFrancisCloseNamVet": [
+      "Francis (quiet)"
+    ],
+    "SurvivorSpottedFrancisClose2NamVet": [
+      "Francis (quiet)"
+    ],
+    "SurvivorSpottedFrancisFarNamVet": [
+      "Francis! (loud)"
+    ],
+    "SurvivorSpottedGrenadeNamVet": [
+      "Pipebomb over here!",
+      "Pipebomb!"
+    ],
+    "SurvivorSpottedGrenadeAutoNamVet": [
+      "Pipebomb over here!",
+      "Pipebomb!"
+    ],
+    "SurvivorSpottedGrenadeAutoNamVet2": [
+      "Roger that."
+    ],
+    "SurvivorSpottedHealthNamVet": [
+      "First Aid Kit here!",
+      "First Aid here!",
+      "First aid kit!",
+      "First aid kit over here!",
+      "Health pack here!"
+    ],
+    "SurvivorSpottedHealthAutoNamVet": [
+      "First Aid Kit here!",
+      "First Aid here!",
+      "First aid kit!",
+      "First aid kit over here!",
+      "Health pack here!"
+    ],
+    "SurvivorSpottedHealthAutoNamVet2": [
+      "Roger that."
+    ],
+    "SurvivorSpottedLouisCloseNamVet": [
+      "Louis (quiet)"
+    ],
+    "SurvivorSpottedLouisClose2NamVet": [
+      "Louis (quiet)"
+    ],
+    "SurvivorSpottedLouisFarNamVet": [
+      "Louis! (loud)"
+    ],
+    "SurvivorSpottedMolotovNamVet": [
+      "Molotov over here!",
+      "Molotov!"
+    ],
+    "SurvivorSpottedMolotovAutoNamVet": [
+      "Molotov over here!",
+      "Molotov!"
+    ],
+    "SurvivorSpottedMolotovAutoNamVet2": [
+      "Roger that."
+    ],
+    "SurvivorSpottedPillsNamVet": [
+      "Pills here!"
+    ],
+    "SurvivorSpottedPillsAutoNamVet": [
+      "Pills here!"
+    ],
+    "SurvivorSpottedPillsAutoNamVet2": [
+      "Roger that."
+    ],
+    "SurvivorSpottedWorldCloseNamVet": [
+      "Look at this.",
+      "Look over here.",
+      "You're gonna want to see this."
+    ],
+    "SurvivorSpottedZoeyCloseNamVet": [
+      "Zoey (quiet)"
+    ],
+    "SurvivorSpottedZoeyClose2NamVet": [
+      "Zoey (quiet)"
+    ],
+    "SurvivorSpottedZoeyFarNamVet": [
+      "Zoey! (loud)"
+    ],
+    "SurvivorMovingToBattleStationNamVet": [
+      "Ready.",
+      "Good to go.",
+      "I'm ready.",
+      "I said I'm ready!"
+    ],
+    "SurvivorSpottedBoomerNamVet": [
+      "BOOMER!"
+    ],
+    "SurvivorSpottedHunterNamVet": [
+      "HUNTER!"
+    ],
+    "SurvivorSpottedInfectedNamVet": [
+      "Here they come!",
+      "INCOMING!",
+      "Bookoo crazies inbound!",
+      "HERE THEY COME!"
+    ],
+    "SurvivorSpottedSmokerNamVet": [
+      "SMOKER!"
+    ],
+    "SurvivorSpottedTankNamVet": [
+      "TANK!"
+    ],
+    "SurvivorSpottedWitchNamVet": [
+      "WITCH!"
+    ],
+    "EmphaticArriveRunNamVet": [
+      "RUN!",
+      "BUG OUT!",
+      "HAUL ASS!"
+    ],
+    "FriendlyFireFrancisNamVet": [
+      "Francis, check your fire!",
+      "What the hell are you doin' Francis?",
+      "Francis! [through gritted teeth]"
+    ],
+    "PlayerAlertGiveItemNamVet": [
+      "Here, take this",
+      "Here, I've got something for you",
+      "Take this.",
+      "Hold up, I got something for you.",
+      "You're gonna need this.",
+      "Here, I saved this for you.",
+      "Here."
+    ],
+    "PlayerFriendlyFireNamVet": [
+      "Ahh! That hurt!",
+      "Ah! Knock it off!",
+      "Do I look like a target?",
+      "You know, I would appreciate it IF YOU'D STOP SHOOTING ME!",
+      "Watch where you're shooting!",
+      "Goddamn it, watch your fire!",
+      "Jesus H Christ, I'm on your side.",
+      "Watch where you point that thing!",
+      "Do not shoot me!",
+      "Goddamit, watch where you're shooting!",
+      "Check your fire!",
+      "Secure that weapon!",
+      "Hold your fire!",
+      "Who's side are you on, kid?"
+    ],
+    "PlayerFriendlyFire2NamVet": [
+      "Be careful!",
+      "Have you lost your mind?",
+      "What did you do you just do?",
+      "Watch it, Watch it!"
+    ],
+    "PlayerFriendlyFireFromFrancisNamVet": [
+      "Jesus H Christ, Francis!",
+      "Francis, check your fire!",
+      "What the hell are you doin' Francis?",
+      "Francis! [through gritted teeth]",
+      "Fraaaaancis! (loud)"
+    ],
+    "PlayerFriendlyFireFromLouisNamVet": [
+      "Goddamnit Louis, stop shooting me!",
+      "Knock it off, Louis!",
+      "Louis! [through gritted teeth]"
+    ],
+    "PlayerFriendlyFireFromZoeyNamVet": [
+      "Zoey! [through gritted teeth]",
+      "Zoey! (loud)",
+      "Zooooooey! (loud)"
+    ],
+    "PlayerFriendlyFireNoBulletNamVet": [
+      "Ahh! That hurt!",
+      "Ah! Knock it off!",
+      "Jesus H Christ, I'm on your side.",
+      "Who's side are you on, kid?"
+    ],
+    "PlayerToTheRescueNamVet": [
+      "Hold on I'm on my way!",
+      "I'm coming!",
+      "Don't get your panties in a bunch, I'm comin'!"
+    ],
+    "SurvivorTauntResponseNamVet": [
+      "Heh hehhh",
+      "[chuckles and giggles]",
+      "[loud, evil laugh]"
+    ],
+    "PlayerChokeResponseNamVet": [
+      "Choking",
+      "[Choking]",
+      "Help!",
+      "Help."
+    ],
+    "PlayerTonguePullStartResponseNamVet": [
+      "no, No, NO, NOOOOOOO!!!!!!!!!",
+      "no, NO!"
+    ],
+    "SurvivorCriticalHurtNamVet": [
+      "[pain noise - loud major pain]"
+    ],
+    "SurvivorIncapacitatedHurtNamVet": [
+      "[AHHHHH - terrified yell]"
+    ],
+    "SurvivorMajorHurtNamVet": [
+      "[pain noise - ahh]",
+      "[pain noise - huh]",
+      "[pain noise - oy]",
+      "[pain noise - ugh]"
+    ],
+    "SurvivorMinorHurtNamVet": [
+      "[pain noise - short minor pain]"
+    ],
+    "SurvivorReloadingNamVet": [
+      "Reloading"
+    ],
+    "PlayerHelpIncappedNamVet": [
+      "People, I need some help!",
+      "I need some help over here.",
+      "Help!",
+      "A little help, people.",
+      "Help me!",
+      "Little help!",
+      "Need some help over here!",
+      "Help.",
+      "A little help please.",
+      "I'm in trouble!",
+      "I need a hand, people!"
+    ],
+    "HelpResponseFrancisNamVet": [
+      "We will NOT leave a man behind. Let's get back out there.",
+      "We do not leave men behind."
+    ],
+    "HelpResponseLouisNamVet": [
+      "No sense dying of old age. Let's go help 'em.",
+      "We will NOT leave a man behind. Let's get back out there.",
+      "We do not leave men behind."
+    ],
+    "HelpResponseLouisCNamVet": [
+      "How well do you really know Louis?"
+    ],
+    "HelpResponseLouisC2NamVet": [
+      "I'm kidding. Let's go get him."
+    ],
+    "HelpResponseZoeyNamVet": [
+      "I can't leave Zoey our there.",
+      "We will NOT leave a man behind. Let's get back out there.",
+      "We do not leave men behind."
+    ],
+    "hospital02_path03b1": [
+      "Gotta find another way.",
+      "This seemed too easy."
+    ],
+    "hospital02_path03c1": [
+      "Going to have to go top side."
+    ],
+    "PlayerAirport02CraneStartedNamVet": [
+      "I have a bad feeling about this"
+    ],
+    "Playerairport03_barrieraNamVet": [
+      "Sounds good to me. Let's do it."
+    ],
+    "PlayerAirport03FireStartedXNamVet": [
+      "Ready?"
+    ],
+    "Playerairport04_08aNamVet": [
+      "What'd I tell ya?  They tried to stop people from leaving."
+    ],
+    "Playerairport04_08cNamVet": [
+      "Christ almighty..."
+    ],
+    "PlayerFrancisSuggestsCraneNamVet": [
+      "Good thinking."
+    ],
+    "PlayerLaughFrancisNamVet": [
+      "<Short laugh>"
+    ],
+    "PlayerRemarkairport03_07NamVet": [
+      "There's a safe spot just ahead.",
+      "There's a safe place up aheaad."
+    ],
+    "PlayerRemarkairport04_08aNamVet": [
+      "Just like I said, they bombed the airport",
+      "Bombed!"
+    ],
+    "PlayerRemarkairport04_08bNamVet": [
+      "Just like I said, they bombed the airport",
+      "Bombed!"
+    ],
+    "PlayerRemarkairport04_08cNamVet": [
+      "Just like I said, they bombed the airport",
+      "Bombed!"
+    ],
+    "PlayerRemarkairport04_08dNamVet": [
+      "Just like I said, they bombed the airport",
+      "Bombed!"
+    ],
+    "PlayerRemarkairport04_08eNamVet": [
+      "Just like I said, they bombed the airport",
+      "Bombed!"
+    ],
+    "PlayerRemarkairport04_08fNamVet": [
+      "Just like I said, they bombed the airport",
+      "Bombed!"
+    ],
+    "PlayerRemarkFarm01_path01NamVet": [
+      "These woods look thicker 'n boomer shit. Nobody wander off."
+    ],
+    "PlayerRemarkFarm01_path02NamVet": [
+      "This way."
+    ],
+    "PlayerRemarkFarm01_path03NamVet": [
+      "Francis, this look like home to you?"
+    ],
+    "PlayerRemarkFarm01_path04NamVet": [
+      "The tracks are down there!"
+    ],
+    "PlayerRemarkFarm02_path01NamVet": [
+      "Down the stairs!"
+    ],
+    "PlayerRemarkFarm02_path01aNamVet": [
+      "Damn straight."
+    ],
+    "PlayerRemarkFarm02_path02NamVet": [
+      "There's the tracks."
+    ],
+    "PlayerRemarkFarm02_path06NamVet": [
+      "Down there!"
+    ],
+    "PlayerRemarkFarm02_path08NamVet": [
+      "It's through this tunnel."
+    ],
+    "PlayerRemarkFarm02_path09NamVet": [
+      "Let's get up that ladder!"
+    ],
+    "PlayerRemarkFarm03_path01NamVet": [
+      "This side passage better lead somewhere."
+    ],
+    "PlayerRemarkFarm03_path02NamVet": [
+      "Keep moving. The tracks gotta be up ahead"
+    ],
+    "PlayerRemarkFarm03_path03NamVet": [
+      "Through here!"
+    ],
+    "PlayerRemarkFarm03_path04NamVet": [
+      "There's our train tracks!"
+    ],
+    "PlayerRemarkFarm03_path06NamVet": [
+      "Goddamnit, the tracks are blocked."
+    ],
+    "PlayerRemarkFarm03_path07NamVet": [
+      "echh"
+    ],
+    "PlayerRemarkFarm03_path10NamVet": [
+      "Up there!"
+    ],
+    "PlayerRemarkFarm04_path01NamVet": [
+      "Check the barn for supplies."
+    ],
+    "PlayerRemarkFarm04_path01aNamVet": [
+      "Check the barn for supplies."
+    ],
+    "PlayerRemarkFarm04_path02NamVet": [
+      "The tracks are down there!"
+    ],
+    "PlayerRemarkFarm04_path07NamVet": [
+      "Up the stairs!"
+    ],
+    "PlayerRemarkFarm04_path08NamVet": [
+      "Through here!"
+    ],
+    "PlayerRemarkFarm04_path09NamVet": [
+      "Get to the train!"
+    ],
+    "PlayerRemarkFarm04_path10NamVet": [
+      "<laugh>Whoa-ho-ho.",
+      "Holy Mother of God..."
+    ],
+    "PlayerRemarkFarm05_path03NamVet": [
+      "Hello?",
+      "Where are you?",
+      "Where is everyone?",
+      "Is anyone there?",
+      "Report in, people! Report!"
+    ],
+    "PlayerRemarkFarm05_path07bNamVet": [
+      "Settle down Francis. Just use that radio. They'll come."
+    ],
+    "PlayerRemarkFarm05_path07VampiresbNamVet": [
+      "They're zombies, Francis."
+    ],
+    "PlayerRemarkFarm05_path08NamVet": [
+      "Finally, an outpost!"
+    ],
+    "PlayerRemarkhospital01_path01NamVet": [
+      "Station's just up the street.",
+      "There's a subway station just around the corner."
+    ],
+    "PlayerRemarkhospital01_path02NamVet": [
+      "This way people.",
+      "This way!"
+    ],
+    "PlayerRemarkhospital01_path03NamVet": [
+      "There's the station!",
+      "Everyone to the station!"
+    ],
+    "PlayerRemarkhospital02_path01NamVet": [
+      "Ahh shit, subway looks full of zombies.",
+      "Was hoping there would be less zombies down here."
+    ],
+    "PlayerRemarkhospital02_path02NamVet": [
+      "Red line North will take us straight there.",
+      "The red line North will take us to Mercy.",
+      "The red line North will take us to the hospital."
+    ],
+    "PlayerRemarkhospital02_path03NamVet": [
+      "Goddamnit, the line's blocked."
+    ],
+    "PlayerRemarkhospital02_path04NamVet": [
+      "We have to keep moving down the street.",
+      "Safehouse up in the pawnshop.",
+      "Get to the pawnshop people!",
+      "Keep moving, safehouse ahead!"
+    ],
+    "PlayerRemarkhospital02_safehouseNamVet": [
+      "Safe house ahead!",
+      "Safe house!"
+    ],
+    "PlayerRemarkhospital03_path01NamVet": [
+      "I don't know which way.  Through here I think.",
+      "Should be a way up ahead."
+    ],
+    "PlayerRemarkhospital03_path02NamVet": [
+      "Hospital's just on the other side of the water works.",
+      "There's the Hospital!"
+    ],
+    "PlayerRemarkhospital03_path03NamVet": [
+      "To the lift.",
+      "Get on the lift!"
+    ],
+    "PlayerRemarkhospital03_path04NamVet": [
+      "This way!",
+      "Through the warehouse."
+    ],
+    "PlayerRemarkhospital03_path05NamVet": [
+      "At least this is the right direction.",
+      "Almost there!"
+    ],
+    "PlayerRemarkhospital03_path06NamVet": [
+      "Looks like people went this way.",
+      "I think they tried to escape."
+    ],
+    "PlayerRemarkhospital03_path07NamVet": [
+      "Into the sewers we go.",
+      "Well hell, let's try the sewers.",
+      "Maybe there's no stinkin' zombies in the sewers? (laughing)",
+      "Already smell pretty bad."
+    ],
+    "PlayerRemarkhospital03_path08aNamVet": [
+      "Francis, is that you or the sewer?"
+    ],
+    "PlayerRemarkhospital03_path09NamVet": [
+      "What a crock a' shit...",
+      "That's a crock of shit."
+    ],
+    "PlayerRemarkhospital03_path10NamVet": [
+      "Need to find manhole, the hospital is above us.",
+      "Need to find manhole."
+    ],
+    "PlayerRemarkhospital03_path11NamVet": [
+      "The HOSPITAL!",
+      "TO THE HOSPITAL!",
+      "Into the emergency room people!",
+      "Let's go, let's go."
+    ],
+    "PlayerRemarkhospital04_path01NamVet": [
+      "At least the power's on."
+    ],
+    "PlayerRemarkhospital04_path01aNamVet": [
+      "I've smelled worse."
+    ],
+    "PlayerRemarkhospital04_path02NamVet": [
+      "Let's find an elevator.",
+      "I ain't walking to the roof.",
+      "Ahh.. more stairs."
+    ],
+    "PlayerRemarkhospital04_path04NamVet": [
+      "Elevator's here!",
+      "Get to the elevator!",
+      "Into the elevator!"
+    ],
+    "PlayerRemarkhospital04_path04aNamVet": [
+      "Elevator's here!",
+      "Get to the elevator!",
+      "Into the elevator!"
+    ],
+    "PlayerRemarkhospital04_path05NamVet": [
+      "Now to the roof!"
+    ],
+    "PlayerRemarkhospital04_path06NamVet": [
+      "That first step'll kill ya.",
+      "Watch out that first step'll kill ya."
+    ],
+    "PlayerRemarkhospital04_path07NamVet": [
+      "Saferoom up here!",
+      "We can get to the the roof through here."
+    ],
+    "PlayerRemarkhospital05_path01NamVet": [
+      "Let's get the hell out of here!"
+    ],
+    "PlayerRemarkhospital05_path02NamVet": [
+      "Through here!",
+      "We can get to the the roof through here."
+    ],
+    "PlayerRemarkhospital05_path03NamVet": [
+      "There's the landing pad."
+    ],
+    "PlayerRemarkPathClearVanNamVet": [
+      "Come on, let's go.",
+      "Let's move it out!",
+      "Let's go, people!"
+    ],
+    "PlayerRemarkSmalltown01_path03NamVet": [
+      "Let's get up that ladder!"
+    ],
+    "PlayerRemarkSmalltown01_path05NamVet": [
+      "It's through this tunnel.",
+      "Ah hell. I think we gotta go through this tunnel."
+    ],
+    "PlayerRemarkSmalltown01_path06NamVet": [
+      "This tunnel was a deathtrap."
+    ],
+    "PlayerRemarkSmalltown01_path08NamVet": [
+      "Through here!"
+    ],
+    "PlayerRemarkSmalltown01_path09NamVet": [
+      "Safe house ahead!",
+      "Safe house!",
+      "Safe house up there."
+    ],
+    "PlayerRemarksmalltown02_path02NamVet": [
+      "Through here!"
+    ],
+    "PlayerRemarksmalltown02_path03NamVet": [
+      "Through here!"
+    ],
+    "PlayerRemarksmalltown02_path04NamVet": [
+      "Through here!"
+    ],
+    "PlayerRemarksmalltown02_path08NamVet": [
+      "[Improv non-verbal pleasure & interest sounds]"
+    ],
+    "PlayerRemarkSmalltown02_path09NamVet": [
+      "Safe house ahead!"
+    ],
+    "PlayerRemarkSmalltown03_path01NamVet": [
+      "I have a bad feeling about this",
+      "I do not like this one bit."
+    ],
+    "PlayerRemarkSmalltown03_path02NamVet": [
+      "I have a bad feeling about this",
+      "I do not like this one bit."
+    ],
+    "PlayerRemarkSmalltown03_path04NamVet": [
+      "Up the stairs!"
+    ],
+    "PlayerRemarkSmalltown03_path05NamVet": [
+      "Up the stairs!"
+    ],
+    "PlayerRemarkSmalltown03_path10NamVet": [
+      "Check that house for supplies."
+    ],
+    "PlayerRemarkSmalltown03_path11NamVet": [
+      "I have a bad feeling about this"
+    ],
+    "PlayerRemarkSmalltown03_path12NamVet": [
+      "There's lights on in that church!"
+    ],
+    "PlayerRemarkSmalltown03_path13NamVet": [
+      "There's lights on in that church!"
+    ],
+    "PlayerRemarkSmalltown04_path03NamVet": [
+      "Poor bastards barricaded themselves inside the city. All it musta took was one infected...",
+      "They didn't have a chance."
+    ],
+    "PlayerRemarkSmalltown04_path04NamVet": [
+      "Poor bastards barricaded themselves inside the city. All it musta took was one infected...",
+      "They didn't have a chance."
+    ],
+    "PlayerRemarkSmalltown04_path05NamVet": [
+      "Come on, this way.",
+      "This way, people!",
+      "This way."
+    ],
+    "PlayerRemarkSmalltown04_path09NamVet": [
+      "Poor bastards barricaded themselves inside the city. All it musta took was one infected...",
+      "They didn't have a chance."
+    ],
+    "PlayerRemarkSmalltown04_path10NamVet": [
+      "Up there.",
+      "Up the stairs!"
+    ],
+    "PlayerRemarkSmalltown05_path01NamVet": [
+      "Check that house for supplies."
+    ],
+    "PlayerRemarkSmalltown05_path03NamVet": [
+      "This way, people!",
+      "This way."
+    ],
+    "PlayerRemarkSmalltown05_path06NamVet": [
+      "Through here!"
+    ],
+    "PlayerRemarkThroughHereNamVet": [
+      "Through here!"
+    ],
+    "PlayerRemarkUpThatLadderNamVet": [
+      "Let's get up that ladder!"
+    ],
+    "PlayerZoeySuggestsCraneNamVet": [
+      "Allright, then, let's do it.",
+      "Good thinking.",
+      "Sounds good to me. Let's do it."
+    ],
+    "RespondAffirmativeNamVet": [
+      "Roger that.",
+      "Yeah.",
+      "Okay.",
+      "Affirmative."
+    ],
+    "RiversideIsDeadANamVet": [
+      "Christ",
+      "Gee-zus"
+    ],
+    "RiversideIsDeadPlanNamVet": [
+      "Allright, then, let's do it.",
+      "Sounds good to me. Let's do it."
+    ],
+    "RiversideIsDeadSpecial1BNamVet": [
+      "What was that?"
+    ],
+    "SafeSpotAheadResponse": [
+      "Finally!",
+      "Thank God.",
+      "'Bout time!",
+      "Hallelujah!",
+      "Well it's about damn time.",
+      "I could use a damn break."
+    ],
+    "ResponseDontBeAnAssNamVet": [
+      "Don't be an ass, Francis."
+    ],
+    "PlayerCoverMeNamVet": [
+      "Cover me!",
+      "Cover me.",
+      "Watch my back",
+      "Watch my back."
+    ],
+    "PlayerFollowMeNamVet": [
+      "Come on, this way.",
+      "I'll take the lead.",
+      "Follow me!",
+      "This way, people!",
+      "This way.",
+      "I'm on point.",
+      "This way!",
+      "Fall in behind me.",
+      "Follow me."
+    ],
+    "PlayerHelpNamVet": [
+      "People, I need some help!",
+      "I need some help over here.",
+      "Help!",
+      "A little help, people.",
+      "Help me!",
+      "Little help!",
+      "Need some help over here!",
+      "Help.",
+      "A little help please.",
+      "I'm in trouble!",
+      "I need a hand, people!"
+    ],
+    "PlayerHurryUpNamVet": [
+      "Hurry up!",
+      "Hurry!",
+      "MOVE!",
+      "Get the lead out, people!",
+      "Hustle!",
+      "Hurry it up",
+      "Faster! Move it, people."
+    ],
+    "PlayerKillThatLightNamVet": [
+      "Turn those flashlights off!",
+      "Kill that light.",
+      "Turn your light off.",
+      "Lights off!"
+    ],
+    "PlayerLeadOnNamVet": [
+      "You go ahead, I'll follow you",
+      "You take the lead",
+      "Go ahead",
+      "You're on point",
+      "I'll follow you",
+      "Lead on.",
+      "You go ahead, I'll cover you.",
+      "Take the point."
+    ],
+    "PlayerMoveOnNamVet": [
+      "Allright, let's go.",
+      "Let's move people.",
+      "Move it out!",
+      "Let's go.",
+      "Lets move people",
+      "Time to move out!",
+      "Let's move it out people",
+      "Alright, let's go.",
+      "Come on, let's go.",
+      "Let's move it out!",
+      "Let's go, people!"
+    ],
+    "PlayerStayTogetherNamVet": [
+      "Stay close!",
+      "Come on - we got to stay together.",
+      "Keep together, people.",
+      "Stay together.",
+      "Form up!",
+      "Stay close.",
+      "Don't get split up.",
+      "Stick together, people."
+    ],
+    "PlayerWatchOutBehindNamVet": [
+      "Behind us!",
+      "They're behind us!"
+    ],
+    "PostMournGoNamVet": [
+      "C'mon people, if we make it, he didn't die for nothin'."
+    ],
+    "PlayerAskReadyNamVet": [
+      "Ready?",
+      "Ready for this?",
+      "Everyone locked and loaded?",
+      "You people ready?"
+    ],
+    "PlayerImWithYouNamVet": [
+      "I got your six.",
+      "Right behind you.",
+      "I'm with ya.",
+      "I got your back.",
+      "I'm right behind you."
+    ],
+    "PlayerLaughNamVet": [
+      "<Hearty Laugh>",
+      "<Short laugh>"
+    ],
+    "PlayerNiceJobResponseNamVet": [
+      "Nice work!",
+      "Nice job.",
+      "You're doing this unit proud, kid.",
+      "Good work!",
+      "Hey, nice!",
+      "Nice!",
+      "You did good.",
+      "You make me proud",
+      "Good. Very Good.",
+      "You're a credit to the squad, kid.",
+      "That was some piece of work.",
+      "Pretty damn good.",
+      "That was a good piece of work.",
+      "You did good, kid."
+    ],
+    "PlayerNoNamVet": [
+      "Ain't gonna happen.",
+      "No can do.",
+      "Negatory.",
+      "No way.",
+      "Nah.",
+      "Negative.",
+      "Not a chance.",
+      "No.",
+      "No possible way.",
+      "I don't think so.",
+      "Absolutely not."
+    ],
+    "PlayerProfanityNamVet": [
+      "[indignant] Hey!",
+      "That was a little closer than I'da liked.",
+      "Gee-zus",
+      "Dammit",
+      "Go to hell.",
+      "Mother. Humper.",
+      "Ah hell.",
+      "Dammit.",
+      "Mother of mercy.",
+      "Jee-zus...",
+      "Holy crap.",
+      "Whoa.",
+      "Holy Mother of God..."
+    ],
+    "PlayerSorryNamVet": [
+      "Sorry.",
+      "I am sorry.",
+      "Sorry about that.",
+      "My fault!",
+      "I shouldn't have done that.",
+      "Won't happen again.",
+      "I regret that mistake.",
+      "Ah, hell, I'm gettin too old for this shit",
+      "That was careless of me."
+    ],
+    "PlayerThanksNamVet": [
+      "Thanks, I owe you one.",
+      "appreciate that.",
+      "Eh, you're a good kid.",
+      "Thanks.",
+      "Thank you.",
+      "Thanks a lot.",
+      "I owe ya one.",
+      "That's one I owe you.",
+      "'ppreciate it.",
+      "You didn't have to do that",
+      "That wasn't necessary, but thanks."
+    ],
+    "PlayerYesNamVet": [
+      "Roger that.",
+      "Yeah.",
+      "Okay.",
+      "Yes.",
+      "Affirmative."
+    ],
+    "PlayerYouAreWelcomeNamVet": [
+      "Sure thing.",
+      "Well, you're welcome.",
+      "Hey, no problem",
+      "No problem.",
+      "Sure thing, kid.",
+      "Yeah, yeah, yeah.",
+      "Don't get too used to it.",
+      "Don't mention it.",
+      "Yeah, okay, it don't mean we're married now",
+      "Don't expect a hug"
+    ],
+    "PlayerNegativeNamVet": [
+      "ohhh nooooo",
+      "[Frustration sound]",
+      "Mother of mercy."
+    ],
+    "PlayerAreaClearNamVet": [
+      "Clear"
+    ],
+    "PlayerHurrahNamVet": [
+      "GREAT JOB, PEOPLE!",
+      "We're going to be okay.",
+      "You people are gettin' good."
+    ],
+    "PlayerWarnCarefulNamVet": [
+      "Careful.",
+      "Watch yourself.",
+      "Be careful.",
+      "Watch yourself now.",
+      "Eyes and ears, people, eyes and ears.",
+      "Stay sharp."
+    ],
+    "SurvivorSpottedWorldFarNamVet": [
+      "Over there.",
+      "Look",
+      "Look!"
+    ],
+    "IntroSmalltown3NamVet": [
+      "Allright, then, let's do it."
+    ],
+    "SurvivorSpawnNamVet": [
+      "I'm here.",
+      "Hello!",
+      "Hey, I'm here."
+    ],
+    "PlayerEatPillsNamVet": [
+      "ah"
+    ],
+    "PlayerFrancisPouncedNamVet": [
+      "Hunter's got Francis!",
+      "Hunter pounced Francis!",
+      "A Hunter's on Francis!"
+    ],
+    "PlayerGetInsideCheckPointNamVet": [
+      "For chrissake people, get in here!",
+      "Into the safe room, people!",
+      "Double time it into the safe room, people!",
+      "Assemble in the safe room!"
+    ],
+    "PlayerGrenadeNamVet": [
+      "GRENADE!!",
+      "FIRE IN THE HOLE!!",
+      "FIRE IN THE HOLE!"
+    ],
+    "PlayerGrenadeCarefulNamVet": [
+      "Careful.",
+      "Be careful."
+    ],
+    "PlayerIncapacitatedInitialNamVet": [
+      "Ahhhh, I'm down!",
+      "Damnit! I'm down!",
+      "Ah shit, help!",
+      "I'm down!"
+    ],
+    "PlayerKillConfirmationNamVet": [
+      "Got 'em",
+      "Got it",
+      "He's dead"
+    ],
+    "PlayerLockTheDoorCheckPointNamVet": [
+      "That door ain't gonna lock itself, people.",
+      "Lock the door. Do it!",
+      "Lock that door.",
+      "Lock the door.",
+      "Lock that door!",
+      "Lock that door",
+      "Secure that door!",
+      "Secure the door!"
+    ],
+    "PlayerLouisPouncedNamVet": [
+      "Hunter's got Louis!",
+      "Hunter pounced Louis!",
+      "A Hunter's on Louis!"
+    ],
+    "PlayerStayTogetherInsideNamVet": [
+      "For chrissake people, get in here!",
+      "Into the safe room, people!",
+      "Double time it into the safe room, people!",
+      "Assemble in the safe room!"
+    ],
+    "PlayerSuggestHealthFrancisNamVet": [
+      "Francis, use your first aid kit.",
+      "Francis, you should heal up.",
+      "Heal up, Francis.",
+      "Francis, heal up."
+    ],
+    "PlayerSuggestHealthLouisNamVet": [
+      "You should heal up.",
+      "Louis, use your first aid kit",
+      "Heal up, Louis."
+    ],
+    "PlayerSuggestHealthZoeyNamVet": [
+      "Zoey, maybe you should heal.",
+      "Zoey, maybe heal up?",
+      "Might want to heal up, Zoey."
+    ],
+    "PlayerTransitionNamVet": [
+      "You did good.",
+      "Trah-mendous",
+      "[chuckles and giggles]",
+      "Out standing"
+    ],
+    "PlayerTransitionCloseNamVet": [
+      "Jesus H Christ that was close.",
+      "This shit's gettin' old.",
+      "I've had about enough of this.",
+      "That was a little closer than I'da liked.",
+      "Well that didn't go so well",
+      "We've done better",
+      "Thank god that's over",
+      "I'll see peace back on earth if I gotta murder everyone of these animals with my own bare hands. Ownbare_09.wav"
+    ],
+    "PlayerWarnHeardBoomerNamVet": [
+      "I hear a boomer out there.",
+      "There's a Boomer around here.",
+      "Careful, Boomer.",
+      "Watch it, Boomer in the vacinity.",
+      "Boomer around here.",
+      "Boomer nearby.",
+      "There's a Boomer trackin' us.",
+      "Boomer closeby.",
+      "Christ, there's a Boomer around here.",
+      "Dammit, Boomer nearby."
+    ],
+    "PlayerWarnHeardHunterNamVet": [
+      "There's a Hunter around here.",
+      "Careful, people, there's a Hunter nearby.",
+      "There's a hunter spookin' around out there",
+      "There's a hunter out there",
+      "Careful, Hunter around here.",
+      "Hunter out there.",
+      "Watch your back - Hunter.",
+      "Watch your back, there's a hunter out there.",
+      "I think I saw a goddamn Hunter"
+    ],
+    "PlayerWarnHeardSmokerNamVet": [
+      "Smoker, right around here.",
+      "There's a Smoker nearby.",
+      "We got a Smoker around here.",
+      "Heads up, Smoker somewhere around here.",
+      "Smoker right around here someplace.",
+      "Smoker. And it's close.",
+      "There's a Smoker"
+    ],
+    "PlayerWarnHeardWitchNamVet": [
+      "Hear that, that's a witch",
+      "Witch around here.",
+      "Shit, Witch",
+      "Quiet, there's a Witch around here.",
+      "Shhh, Witch near here."
+    ],
+    "PlayerWarnMegaMobNamVet": [
+      "Those bastards are in for a big surprise.",
+      "INCOMING!",
+      "Bookoo crazies inbound!",
+      "HERE THEY COME!",
+      "God dammit",
+      "Son of a bitch",
+      "We've got to stay together.",
+      "Watch it, Watch it!"
+    ],
+    "PlayerWarnWitchAngryNamVet": [
+      "There's gonna be hell to pay, you keep aggravatin that witch.",
+      "STOP! That witch is mad as hell.",
+      "Hold up, that witch is getting ready to pounce!",
+      "Hold on, that witch is about to blow."
+    ],
+    "PlayerZoeyPouncedNamVet": [
+      "Hunter's got Zoey!",
+      "Hunter pounced Zoey!",
+      "A Hunter's on Zoey!"
+    ],
+    "SurvivorCoughingNamVet": [
+      "(Coughing from smoke)"
+    ],
+    "SurvivorCoughingDeathNamVet": [
+      "(Coughing from smoke)"
+    ],
+    "SurvivorDeathNamVet": [
+      "[Loud painful death scream]",
+      "[Death rattle]",
+      "[Short quick death scream]"
+    ],
+    "SurvivorFinaleAheadHospitalNamVet": [
+      "Let's find that radio.",
+      "Let's find the radio and get a hold of that pilot."
+    ],
+    "SurvivorGrabbedByTongueNamVet": [
+      "no, No, NO, NOOOOOOO!!!!!!!!!",
+      "no, NO!"
+    ],
+    "SurvivorNearFinaleNamVet": [
+      "This looks like it - we're almost out of here.",
+      "We're almost out of here!",
+      "Okay, people, we're almost there. Let's keep moving!",
+      "Keep it together people. We're almost home free."
+    ],
+    "SurvivorTankPoundNamVet": [
+      "It's killin' me",
+      "Get this thing offa me!",
+      "AAHHHH He's crushing me!"
+    ],
+    "SurvivorVocalizeBackUpNamVet": [
+      "Back up!",
+      "Back back back back back back!",
+      "Back back back!",
+      "Move back!",
+      "Back it up!"
+    ],
+    "SurvivorVocalizeEmphaticGoNamVet": [
+      "go go go",
+      "MOVE!",
+      "MOVE MOVE MOVE!",
+      "MOVE OUT!"
+    ],
+    "SurvivorVocalizeFollowMeNamVet": [
+      "Come on, this way.",
+      "I'll take the lead.",
+      "Follow me!",
+      "This way, people!",
+      "This way.",
+      "I'm on point.",
+      "This way!",
+      "Fall in behind me.",
+      "Follow me."
+    ],
+    "SurvivorVocalizeGoingToDieNamVet": [
+      "I don't feel so good.",
+      "I feel awful.",
+      "I am in bad shape, people.",
+      "I'm gettin' too old for this horseshit.",
+      "I feel terrible.",
+      "[to self] goddamn horseshit.",
+      "It's not lookin' good for me.",
+      "I'm not feelin' too hot.",
+      "Ah shit, I'm not doin' too good here.",
+      "I'm really hurt, people",
+      "Christ, I'm messed up.",
+      "[sharp intake of breath followed by grunt]",
+      "God damn it, I am seriously fubar.",
+      "[pain sound followed by two grunts]",
+      "I'm just barely hangin' on here",
+      "[pain sound] I think I'm goin' home in a box",
+      "I feel like hell.",
+      "If I go down, don't let those bastards eat me.",
+      "Dammit, I'm bleeding out.",
+      "This old body ain't gonna make it.",
+      "Ah shit, I ain't feelin' right.",
+      "Something ain't workin' right.",
+      "This just ain't my day...",
+      "Ah. <breath> Dammit.",
+      "<wincing pain noise> Hell with this.",
+      "Hell, I was too old for this shit fifteen years ago."
+    ],
+    "SurvivorVocalizeGoingToDie3NamVet": [
+      "I don't know if I am going to make it.",
+      "You people might have to go on without me.",
+      "We gotta find me a medic.",
+      "I'm about to buy the farm.",
+      "I'm not gonna hold out much longer."
+    ],
+    "SurvivorVocalizeGoingToDieAloneNamVet": [
+      "[Nervous Humming]",
+      "[Nervous Whislte]"
+    ],
+    "SurvivorVocalizeLookOutNamVet": [
+      "Look out!",
+      "Watch out!",
+      "Watch your ass!",
+      "Heads up!",
+      "Behind you!!"
+    ],
+    "SurvivorVocalizeThisWayNamVet": [
+      "Come on, this way.",
+      "I'll take the lead.",
+      "Follow me!",
+      "This way, people!",
+      "This way.",
+      "I'm on point.",
+      "This way!",
+      "Fall in behind me.",
+      "Follow me."
+    ],
+    "SurvivorVocalizeWaitHereNamVet": [
+      "Let's wait here.",
+      "Let's wait for a minute.",
+      "Wait here just a minute.",
+      "Hold up!"
+    ],
+    "PlayerLedgeHangEndNamVet": [
+      "I'M SLIPPING! PULL ME UP!",
+      "I'M LOSING MY GRIP! GET OVER HERE!",
+      "I CAN'T HOLD ON - I'M GONNA FALL!",
+      "HELP ME! I'm about to take a redball into the ground!",
+      "I'M GONNA FALL!"
+    ],
+    "PlayerLedgeHangMiddleNamVet": [
+      "Ah christ, somebody pull me up!",
+      "I need some help, here.",
+      "Dammit, I need a hand here!",
+      "Pull me up, people.",
+      "I need a hand up!"
+    ],
+    "PlayerLedgeHangStartNamVet": [
+      "I need a hand up!",
+      "Somembody pull me up!",
+      "Godammit, I'm hangin' off a ledge over here.",
+      "Somebody needs to get over here and pull me up!",
+      "Hey, people, I'm hangin' off a ledge over here!",
+      "Somebody come pull me up!",
+      "I'm gettin' too old for this hangin' shit.",
+      "Somebody come help me up!",
+      "Somebody come grab me up off this ledge."
+    ],
+    "DoubleDeathNamVet": [
+      "This is goin' to hell in a handbasket real fast!",
+      "I didn't sign up for this shit!"
+    ],
+    "DoubleDeath2NamVet": [
+      "It's just the two of us now, kid."
+    ],
+    "SurvivorDiedFrancisNamVet": [
+      "Francis! (loud)",
+      "Fraaaaancis! (loud)"
+    ],
+    "SurvivorDiedLouisNamVet": [
+      "Louis! (loud)",
+      "Looooouis! (loud)",
+      "Louis (quiet)"
+    ],
+    "SurvivorDiedZoeyNamVet": [
+      "Zoey! (loud)",
+      "Zooooooey! (loud)"
+    ],
+    "SurvivorPickupAutoShotgunNamVet": [
+      "Full auto shotgun",
+      "Auto shottie!",
+      "I'm grabbing this shotgun.",
+      "I'm taking this shotgun",
+      "Shotgun!"
+    ],
+    "SurvivorPickupFirstAidKitNamVet": [
+      "First to aid, last to die",
+      "Grabbing First Aid",
+      "I'm gonna need these"
+    ],
+    "SurvivorPickupHuntingRifleNamVet": [
+      "I'm gonna grab this range rifle",
+      "I'm grabbing a hunting rifle."
+    ],
+    "SurvivorPickupMolotovNamVet": [
+      "Molotov.",
+      "Grabbing a Molotov.",
+      "Might want to save this for later."
+    ],
+    "SurvivorPickupPainPillsNamVet": [
+      "I'm gonna need these",
+      "Grabbing pills",
+      "Someone's gonna need these"
+    ],
+    "SurvivorPickupPipeBombNamVet": [
+      "A black powder bomb.",
+      "Grabbing a pipe bomb",
+      "I'd rather have a grenade, but this'll do."
+    ],
+    "SurvivorPickupPumpShotgunNamVet": [
+      "Grabbing a shotgun",
+      "I'm grabbing this shotgun.",
+      "Shotgun"
+    ],
+    "SurvivorPickupRifleNamVet": [
+      "Ahhh. A gun's a gun.",
+      "If it shoots bullets, I'll take it.",
+      "*This'll* do some damage.",
+      "An assault rifle. This shit's gettin more like 'nam every second.",
+      "An assault rifle. Come to papa.",
+      "I'm grabbing this rifle",
+      "An assault rifle! Man, this takes me back.",
+      "I'm grabbin' an assault rifle."
+    ],
+    "SurvivorPickupSecondPistolNamVet": [
+      "I'm taking an extra pistol",
+      "I'm taking an extra pistol.",
+      "Extra Pistol!",
+      "Extra Sidearm!"
+    ],
+    "SurvivorPickupSMGNamVet": [
+      "SMG",
+      "Grabbing an SMG",
+      "Full auto - beautiful."
+    ],
+    "PlayerGettingRevivedNamVet": [
+      "I'm okay.",
+      "I'm allright.",
+      "[groan]",
+      "Hell if I know.",
+      "Most of this blood ain't mine.",
+      "[groan2]",
+      "I'll make it.",
+      "I'll live.",
+      "Hell, I'll live.",
+      "I've had worse.",
+      "[confused from hit on head] Who are you?",
+      "[confused from hit on head] Mother?",
+      "Well, I ain't *good*."
+    ],
+    "PlayerHealOtherNamVet": [
+      "Let me heal you up",
+      "Hold still, I can heal you",
+      "Hold on, let me patch you up",
+      "Lemme heal ya up.",
+      "Hold up, I'll heal ya.",
+      "Quit moving, I'll heal ya.",
+      "Stop squirmin', I'm gonna heal ya.",
+      "Hold still, I'm gonna heal ya."
+    ],
+    "PlayerHealOtherCombatNamVet": [
+      "Let me heal you up",
+      "Hold still, I can heal you",
+      "Hold on, let me patch you up"
+    ],
+    "PlayerLedgeSaveNamVet": [
+      "Okay, quit squirming, I gotcha. Come on, up ya go!",
+      "Let's go, take my hand. I'm gonna get you up. Here we go.",
+      "How the hell did this happen? Never mind, come on and grab my hand."
+    ],
+    "PlayerReviveFriendNamVet": [
+      "Hold still, hold still. I'm gonna get you back on your feet and then we gotta move.",
+      "Okay. Allright, now. Come on kid, shake it off and let's get moving.",
+      "Ah hell, it looks a lot worse than it is. C'mon - you gotta get up and walk it off.",
+      "Probably stings like hell, but it ain't gonna kill ya. Up and at'em, soldier! Time to move.",
+      "There's a lot of blood, but you're not missin' anything important. Come on, get up, let's get moving!",
+      "Okay. Allright, now. Come on kid, shake it off, let's get moving.",
+      "Take it easy, kid. I'm gonna get you back on your feet and fighting.",
+      "Hell, kid, they just winged ya. Come on, back on your feet and let's get moving.",
+      "Here we go - back on your feet, soldier. You're not gettin' out of this fight that easy.",
+      "Lie still, lemme look. Ah hell, I've seen worse. You'll be allright in a second.",
+      "You're not through yet, kid. Get up and let's go. These shitheads ain't gonna kill themselves.",
+      "Ahh quit snivelling. I've seen worse."
+    ],
+    "PlayerReviveFriendCriticalNamVet": [
+      "I can help you up, but I'm not gonna lie to ya - you're in bad shape. If we don't find you some first aid, you're not gonna survive another hit.",
+      "Holy hell, you are messed up. If we don't find you some first aid, you're not gonna survive another hit.",
+      "That really tore the hell outta you. If we don't find you some first aid, you're not gonna survive another hit.",
+      "Holy shit, they took a big piece outta you, kid. If we don't find you some first aid, you're not gonna survive another hit.",
+      "I can help you back on your feet, but it's temporary. If we don't find you some first aid, you're not gonna survive another hit.",
+      "You're in real bad shape, kid. If we don't find you some first aid, you're not gonna survive another hit.",
+      "No shame, kid. I woulda pissed myself, too. But if we don't find you some first aid, you're not gonna survive another hit."
+    ],
+    "PlayerReviveFriendLoudNamVet": [
+      "I gotcha. You're gonna make it!",
+      "Get up, get up! We ain't got time for this!",
+      "Get up, get up!",
+      "Come on, get up!",
+      "Hang on, I gotcha!",
+      "Come on! You gotta get up!",
+      "You're not done yet. Come on!",
+      "Let's go! Get up! Let's go!",
+      "Come on! This fight ain't over!",
+      "Come on!"
+    ],
+    "PlayerReviveFriendShortNamVet": [
+      "Up and at 'em.",
+      "Come on up!",
+      "Up ya go, son.",
+      "You'll be okay.",
+      "I got ya.",
+      "Up we go.",
+      "Hell, you're fine.",
+      "It don't look bad.",
+      "Come on up.",
+      "Let's move!",
+      "You're fine.",
+      "You'll be fine."
+    ],
+    "PlayerAirportIntrobbNamVet": [
+      "A C-130 is nice flying."
+    ],
+    "PlayerFarmHouseIntroNamVet": [
+      "Emergency band was talking about a military outpost just North a' here.",
+      "Last thing I heard, there's some kind of military outpost not far from here along the train tracks."
+    ],
+    "PlayerHospitalIntroNamVet": [
+      "We can take the subway tunnels to the hospital.  There's a redline station not far from here."
+    ],
+    "PlayerHospitalIntro03NamVet": [
+      "Good thinking.",
+      "Might not be a bad idea to get off the street."
+    ],
+    "PlayerCoverMeHealNamVet": [
+      "Cover me!",
+      "Cover me.",
+      "Watch my back",
+      "Watch my back.",
+      "Healin', cover me",
+      "Cover me, gonna heal.",
+      "Wait up, I'm healing."
+    ],
+    "SurvivorSpottedRifleAutoNamVet2": [
+      "Roger that."
+    ],
+    "SurvivorSpottedShotgunAutoNamVet2": [
+      "Roger that."
+    ],
+    "SurvivorSpottedSMGAutoNamVet2": [
+      "Roger that."
+    ],
+    "SurvivorSpottedSniperRifleAutoNamVet2": [
+      "Roger that."
+    ],
+    "SurvivorSpottedWeaponNamVet": [
+      "Weapons here!"
+    ],
+    "SurvivorSpottedWeaponAShotgunAutoNamVet2": [
+      "Roger that."
+    ],
+    "SurvivorSpottedWeaponPistolAutoNamVet": [
+      "Weapon over here!",
+      "Got a Weapon here!"
+    ],
+    "SurvivorSpottedWeaponPistolAutoNamVet2": [
+      "Roger that."
+    ]
+  },
+  "Manager": {},
+  "Biker": {}
+}

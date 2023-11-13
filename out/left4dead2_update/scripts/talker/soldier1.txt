@@ -1,0 +1,20 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_update/scripts/talker/soldier1.txt
+-------------------------------------------------------
+
+RULE C5M5_Soldier1Soldier1 CRITERIA ConceptC5M5_Soldier1 AutoIsNotScavenge AutoIsNotSurvival _auto_IsSoldierChatter _auto_NotBetaSoldiersV2 _auto_NotButton1 RESPONSE C5M5_Soldier1Soldier1
+RULE C5M5_Soldier1Conv01Soldier1 CRITERIA ConceptC5M5_Soldier1Conv01 AutoIsNotScavenge AutoIsNotSurvival _auto_NotBetaSoldiersV2 _auto_NotButton2 RESPONSE C5M5_Soldier1Conv01Soldier1
+RULE C5M5_Soldier1Conv02Soldier1 CRITERIA ConceptC5M5_Soldier1Conv02 AutoIsNotScavenge AutoIsNotSurvival _auto_NotBetaSoldiersV2 _auto_NotButton2 RESPONSE C5M5_Soldier1Conv02Soldier1
+RULE C5M5_Soldier1Conv03Soldier1 CRITERIA ConceptC5M5_Soldier1Conv03 AutoIsNotScavenge AutoIsNotSurvival _auto_NotBetaSoldiersV2 _auto_NotButton2 RESPONSE C5M5_Soldier1Conv03Soldier1
+RULE C5M5_Soldier1Conv04Soldier1 CRITERIA ConceptC5M5_Soldier1Conv04 AutoIsNotScavenge AutoIsNotSurvival _auto_NotBetaSoldiersV2 _auto_NotButton2 RESPONSE C5M5_Soldier1Conv04Soldier1
+RULE C5M5_Soldier1Conv05Soldier1 CRITERIA ConceptC5M5_Soldier1Conv05 AutoIsNotScavenge AutoIsNotSurvival _auto_NotBetaSoldiersV2 _auto_NotButton2 RESPONSE C5M5_Soldier1Conv05Soldier1
+RULE C5M5_Soldier1Conv06Soldier1 CRITERIA ConceptC5M5_Soldier1Conv06 AutoIsNotScavenge AutoIsNotSurvival _auto_NotBetaSoldiersV2 _auto_NotButton2 RESPONSE C5M5_Soldier1Conv06Soldier1
+RULE C5M5_Soldier1Conv07Soldier1 CRITERIA ConceptC5M5_Soldier1Conv07 AutoIsNotScavenge AutoIsNotSurvival _auto_NotBetaSoldiersV2 _auto_NotButton2 RESPONSE C5M5_Soldier1Conv07Soldier1
+RULE C5M5_Soldier1Conv08Soldier1 CRITERIA ConceptC5M5_Soldier1Conv08 AutoIsNotScavenge AutoIsNotSurvival _auto_NotBetaSoldiersV2 _auto_NotButton2 RESPONSE C5M5_Soldier1Conv08Soldier1
+RULE C5M5StartHeliNagSoldier1 CRITERIA ConceptC5M5SoldierHeliNag AutoIsNotScavenge AutoIsNotSurvival _auto_NotBetaSoldiersV2 _auto_IsEscapeReady NotSaidOutro RESPONSE C5M5StartHeliNagSoldier1
+RULE C5M5OutroSoldier1 CRITERIA ConceptC5M5Outro AutoIsNotScavenge AutoIsNotSurvival _auto_NotBetaSoldiersV2 RESPONSE C5M5OutroSoldier1
+RULE C5M5Outro3Soldier1 CRITERIA ConceptC5M5Outro3 AutoIsNotScavenge AutoIsNotSurvival RESPONSE C5M5Outro3Soldier1
+RULE C5M5OutroBuzzardStrike2Soldier1 CRITERIA ConceptC5M5Outro5 AutoIsNotScavenge AutoIsNotSurvival RESPONSE C5M5OutroBuzzardStrike2Soldier1
+
+
+

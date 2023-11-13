@@ -1,0 +1,678 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {
+    "L4D1PlayerNiceShotProducer": [
+      "Nice shot."
+    ],
+    "L4D1PlayerNiceShotFrancisProducer": [
+      "Francis!",
+      "Nice shot Francis!",
+      "Thanks Francis!"
+    ],
+    "L4D1PlayerNiceShotLouisProducer": [
+      "Nice Louis!",
+      "Nice shooting Louis!",
+      "All right Louis!"
+    ],
+    "L4D1PlayerNiceShotZoeyProducer": [
+      "Thanks Zoey!",
+      "Nice shot Zoey!"
+    ],
+    "C6M3GasPourProducer": [
+      "I got this one.",
+      "Pouring!",
+      "Pouring this one in.",
+      "Cover me, filling the generator.",
+      "Cover me, pouring!"
+    ],
+    "C6M1_IntotheparkNoHealthProducer": [
+      "Make sure to grab a health kit.",
+      "Everyone grab a health kit."
+    ],
+    "C6M1Intro_01Biker03Producer": [
+      "Hey there, can you lower the bridge."
+    ],
+    "C6M1Intro_01Biker04Producer": [
+      "If you lower the bridge I'll tell you how old I am.",
+      "Okay, if you lower the bridge (to group) ugh\u0085. I will give you a kiss."
+    ],
+    "C6M1Intro_01TeenGirl03Producer": [
+      "Hey up there! You wanna let the bridge down?",
+      "(exasperated) Really? Isn't there some way you can just lower it?"
+    ],
+    "C6M1Intro_05aProducer": [
+      "Uh, do you know how we can get to the other side?"
+    ],
+    "C6M1Intro_05cProducer": [
+      "You aren't from around these parts are you?"
+    ],
+    "C6M1Intro_05eProducer": [
+      "Great. All right.",
+      "Great. Can't help us with directions, probably can't shoot a gun."
+    ],
+    "C6M1Intro_06bProducer": [
+      "Is the road even clear on the other side?"
+    ],
+    "C6M1Intro_06dProducer": [
+      "Then it's a date."
+    ],
+    "C6M1Intro_07cProducer": [
+      "(to group) Maybe, but at least he's no zombie. OKAY!",
+      "(to group) Maybe, but at least he's no zombie."
+    ],
+    "C6M1Intro_09eProducer": [
+      "Uh, Nick. He's talking to me."
+    ],
+    "C6M1Intro_09fProducer": [
+      "Hey! Can you lower the bridge."
+    ],
+    "C6M1Intro_10bProducer": [
+      "Hey, hey boys. Okay, if we get to the other side can you help us lower it?"
+    ],
+    "C6M1Intro_10dProducer": [
+      "See Nick, you should try being nice sometime."
+    ],
+    "C6M1Intro_10eProducer": [
+      "THANK YOU!",
+      "THANK YOU, VERY MUCH!"
+    ],
+    "C6M1Intro_12aProducer": [
+      "Ellis you going to answer her?"
+    ],
+    "C6M1Intro_12cProducer": [
+      "He's got it. We'll see you on the other side."
+    ],
+    "C6M1Intro_14dProducer": [
+      "Let's go, real charming Nick.",
+      "And you were a con man?",
+      "Huh? And you were a con man?",
+      "I- I can't believe you were a con man.",
+      "I can't believe you were a con man."
+    ],
+    "C6M1Intro_15cProducer": [
+      "I can't believe you used to be a con artist."
+    ],
+    "C6M1Intro_17bProducer": [
+      "Can you try? I don't think its going to be easy to get to the other side of the river."
+    ],
+    "C6M1Intro_17dProducer": [
+      "Well shit."
+    ],
+    "C6M1Intro_18bProducer": [
+      "I want to call you an asshole... I do.",
+      "Ah ha. Really?"
+    ],
+    "C6M1Intro_18dProducer": [
+      "So it isn't worth getting to the other side?",
+      "Really, it's not worth getting to the other side?",
+      "Bulllshit! So, it's not worth getting to the other side?"
+    ],
+    "C6M1Intro_19bProducer": [
+      "Yeah, that sounds simple."
+    ],
+    "C6M1Intro_20aProducer": [
+      "What the?",
+      "(to group) Is he being serious?"
+    ],
+    "C6M1Intro_20bProducer": [
+      "No. Can you lower the bridge?"
+    ],
+    "C6M1Intro_20dProducer": [
+      "Okay, then, yes, we are vampires? All of us are vampires?"
+    ],
+    "C6M1Intro_20gProducer": [
+      "Dear lord, why'd I ever leave Cleveland."
+    ],
+    "C6M1Intro_22aProducer": [
+      "Oh thank god! I thought I was the last woman on earth."
+    ],
+    "C6M1Intro_22cProducer": [
+      "Can you lower the bridge? We need to get across the river."
+    ],
+    "C6M1Intro_22fProducer": [
+      "If that's what we gotta do, that we gotta do."
+    ],
+    "C6M1Intro_22hProducer": [
+      "Take care.",
+      "You too."
+    ],
+    "RemWorldC6M1_WeddingWarn01Producer": [
+      "Do they ever?"
+    ],
+    "WorldC6M1_HistoricTourProducer": [
+      "Uh, Coach, you know anything about this under the river tour?",
+      "Coach, you know anything about this under the river tour?",
+      "Hey, we can try this under-the-river tour to get across.",
+      "We can try this under-the-river tour to get across.",
+      "If we can't go over the river, we can always try under."
+    ],
+    "WorldC6M1_PostWedding02aProducer": [
+      "Is that really how your brain works?"
+    ],
+    "WorldC6M1_WeddingWarn03bProducer": [
+      "Both of you. Shut up.",
+      "(Whispered) WOULD YOU GUYS SHUT UP!"
+    ],
+    "C6M2_OpenGate1Producer": [
+      "I opened it!",
+      "I opened it, let's go!",
+      "I hit it."
+    ],
+    "C6M2_OpenGate2Producer": [
+      "I opened it, let's go!"
+    ],
+    "DLC1_C6M2_SafeRoomConvo01aProducer": [
+      "Compared to you Nick, he was down right nice."
+    ],
+    "DLC1_C6M2_SafeRoomConvo03aProducer": [
+      "Sweety, it's just a car."
+    ],
+    "DLC1_C6M2_SafeRoomConvo03cProducer": [
+      "Calm down Ellis.",
+      "Feel better now?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo04aProducer": [
+      "You'll be back with her soon enough. Also she's a car. And this is creepy."
+    ],
+    "DLC1_C6M2_SafeRoomConvo06aProducer": [
+      "I have a bunch of good memories, too... of never once going to a boiled peanut festival."
+    ],
+    "DLC1_C6M2_SafeRoomConvo07Producer": [
+      "Do you think we can trust that guy?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo07aProducer": [
+      "Sweety, she'd be crazy not to.",
+      "Out of all the men left? Sure."
+    ],
+    "DLC1_C6M2_SafeRoomConvo08bProducer": [
+      "What!?!"
+    ],
+    "DLC1_C6M2_SafeRoomConvo08dProducer": [
+      "I don't believe this."
+    ],
+    "DLC1_C6M2_SafeRoomConvo08fProducer": [
+      "He is better looking than you."
+    ],
+    "DLC1_C6M2_SafeRoomConvo10aProducer": [
+      "(laughter) You're kidding right?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo10cProducer": [
+      "Oh, you are going to love the under-the-river tour."
+    ],
+    "DLC1_C6M2_SafeRoomConvo13Producer": [
+      "(to self)We need to get motivated.",
+      "(to self)We need to get motivated. How we gonna get motivated..."
+    ],
+    "DLC1_C6M2_SafeRoomConvo14aProducer": [
+      "Hey, Ellis? I hear there's a Stock Car museum in New Orleans."
+    ],
+    "DLC1_C6M2_SafeRoomConvo14cProducer": [
+      "Coach. We make it to New Orleans, there's a Cheeseburger museum."
+    ],
+    "DLC1_C6M2_SafeRoomConvo14eProducer": [
+      "Nick, there's a-"
+    ],
+    "DLC1_C6M2_SafeRoomConvo15aProducer": [
+      "Oh, I just keep hoping I wake up every day."
+    ],
+    "DLC1_C6M2_SafeRoomConvo16Producer": [
+      "Ellis honey, I've been thinking. Somewhere down the road, do you think we can trade up for a car with, let's say,  working doors and a backseat?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo16aProducer": [
+      "Ellis honey, you do know that eventually we'll have to leave that car behind. Right?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo16cProducer": [
+      "Ya know, I just don't think the military is going to air lift the car to safety."
+    ],
+    "DLC1_C6M2_SafeRoomConvo17bProducer": [
+      "Oh! Actually, does anyone want to put that to a vote?",
+      "Uhh! Actually, does anyone want to put that to a vote?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo18aProducer": [
+      "Ellis, ask yourself, what would Keith do?"
+    ],
+    "DLC1_C6M2_SafeRoomConvo18dProducer": [
+      "AH! I wasn't thinking."
+    ],
+    "DLC1_C6M2_SafeRoomConvo19aProducer": [
+      "You're looking good coach."
+    ],
+    "DLC1_C6M2_SafeRoomConvo20aProducer": [
+      "Well anybody who survives this shit is gonna be in GREAT shape."
+    ],
+    "DLC1_C6M2_SafeRoomConvo21aProducer": [
+      "Right... and the zombie apocalypse?",
+      "And the... zombie apocalypse?"
+    ],
+    "WorldC6M2_InSewer101aProducer": [
+      "Nick, I'm pretty sure this is sewage."
+    ],
+    "WorldC6M2_InSewer102bProducer": [
+      "Yeah, it's sewage."
+    ],
+    "WorldC6M2_InSewer202aProducer": [
+      "Ugh-gh-gh-gh-gh.",
+      "[laughing] Ellis! I'm not laughing, I'm not! I'm not laughing.",
+      "Okay, Carl."
+    ],
+    "WorldC6M2_OnTourWalk101aProducer": [
+      "Shithole?"
+    ],
+    "WorldC6M2_OnTourWalk101bProducer": [
+      "Sorry Coach."
+    ],
+    "WorldC6M2_OnTourWalk102bProducer": [
+      "Shut up, Nick."
+    ],
+    "WorldC6M2_Phase201aProducer": [
+      "It better."
+    ],
+    "WorldC6M2_Tattoo01a>Producer": [
+      "Hm. Sorry, I didn't get his name.",
+      "Damn. Sorry. I didn't get his name.",
+      "Sorry. I forgot his name."
+    ],
+    "WorldC6M2_Tattoo02a>Producer": [
+      "Where?"
+    ],
+    "WorldC6M2_Tattoo02c>Producer": [
+      "Please be the ankle, please be the ankle."
+    ],
+    "WorldC6M2_Tattoo02d>Producer": [
+      "Burgh-gh-gh-gh-gh.",
+      "Ughhh."
+    ],
+    "WorldC6M2_TourEntrance01aProducer": [
+      "Who am I kidding?"
+    ],
+    "C6M3_BridgeDownProducer": [
+      "It's here, let's go!",
+      "Come on, let's get to the car!",
+      "Bridge's down, let's go!"
+    ],
+    "C6M3_BridgeGettoCarProducer": [
+      "It's here, let's go!",
+      "Come on, let's get to the car!",
+      "Bridge's down, let's go!"
+    ],
+    "C6M3_elevatorProducer": [
+      "Even the elevators are slow in the south.",
+      "Let's fill the generator as fast as we can.",
+      "Something bad happened here. I don't have a good feeling about this.",
+      "You know its going to be bad if they wouldn't risk it.",
+      "I wish they would come with us, safety in numbers.",
+      "After a few hours in the car with you guys, it's nice to hear some new voices.",
+      "There names are Zoey, Louis and Francis right?"
+    ],
+    "C6M3_GivenItemBikerProducer": [
+      "Thanks guys!",
+      "Thank you guys!",
+      "Thanks Francis.",
+      "Thanks sexy guy in the vest."
+    ],
+    "C6M3_GivenItemTeenGirlProducer": [
+      "Thanks Zoey!",
+      "Thank for the help Zoey!",
+      "Thanks for the stuff!"
+    ],
+    "DLC1_C6M3_SafeRoomConvo01Producer": [
+      "Do you think he's waiting for us?"
+    ],
+    "DLC1_C6M3_SafeRoomConvo01bProducer": [
+      "Ellis!"
+    ],
+    "DLC1_C6M3_SafeRoomConvo02a1Producer": [
+      "He'll be there."
+    ],
+    "DLC1_C6M3_SafeRoomConvo02cProducer": [
+      "I just have a good feeling.",
+      "It's a woman thing; I just have a good feeling."
+    ],
+    "DLC1_C6M3_SafeRoomConvo04bProducer": [
+      "Just be your own sweet self, Ellis."
+    ],
+    "DLC1_C6M3_SafeRoomConvo04dProducer": [
+      "I just think Nick is jealous.",
+      "Nick is just jealous."
+    ],
+    "DLC1_C6M3_SafeRoomConvo05cProducer": [
+      "Nick. Leave him alone.",
+      "Leave him alone.",
+      "Ellis, you'll be fine.",
+      "Nick, you need to find a woman who hates herself, she'll love you.",
+      "Nick, I don't think she's deaf, so she isn't going to like you.",
+      "Nick, being one of the last two women in the world alive. I can safely safe, at least half of the women in this world hate you."
+    ],
+    "DLC1_C6M3_SafeRoomConvo06aProducer": [
+      "I think someone has a crush on that \"awesome\" biker dude."
+    ],
+    "DLC1_C6M3_SafeRoomConvo07Producer": [
+      "I hope that girl is still waiting for us."
+    ],
+    "DLC1_C6M3_SafeRoomConvo07bProducer": [
+      "Ellis, she shouted at you for five seconds from a bridge."
+    ],
+    "DLC1_C6M3_SafeRoomConvo08gProducer": [
+      "Great. Thanks, Coach.",
+      "Thanks, Coach."
+    ],
+    "DLC1_C6M3_SafeRoomConvo09Producer": [
+      "Ellis, so uh, where are you going to take that Zoey girl on your first date?",
+      "Ellis, so uh, where are you going to take Zoey on your first date?"
+    ],
+    "DLC1_C6M3_SafeRoomConvo09bProducer": [
+      "Oh, yeah, um... What woman wouldn't love that.",
+      "Uh... Lucky girl.",
+      "Lucky girl."
+    ],
+    "C6M3_CansDoneProducer": [
+      "Everyone to the car!"
+    ],
+    "L4D1AlsoSpottedTankProducer": [
+      "Holy shit!",
+      "Holy shit! Holy shit! Holy shit! Holy SHIT!",
+      "Two tanks!",
+      "Boys we got tanks!",
+      "Lead the tanks back to Louis.",
+      "We got two too many tanks.",
+      "TANKS!",
+      "Whoa. We got two too many tanks."
+    ],
+    "L4D1SpottedTankProducer": [
+      "Holy shit!",
+      "Holy shit! Holy shit! Holy shit! Holy SHIT!",
+      "Two tanks!",
+      "Boys we got tanks!",
+      "Lead the tanks back to Louis.",
+      "We got two too many tanks.",
+      "TANKS!",
+      "Whoa. We got two too many tanks."
+    ],
+    "SurvivorSpottedFallenProducer": [
+      "Get that zombie!",
+      "Stop that zombie!",
+      "That zombie's carrying something!"
+    ],
+    "PlayerWitchChasingC6M1Producer": [
+      "Ahh I pissed off another bride!",
+      "Kill the bride! Kill the bride!",
+      "Kill the bride!"
+    ],
+    "PlayerRemarkremark_MidnightRidersBusProducer": [
+      "Was that a bus?",
+      "Was that a tour bus?"
+    ],
+    "PlayerRemarkWorldC6M1_AcrossHereProducer": [
+      "We can cross-over up there."
+    ],
+    "PlayerRemarkWorldC6M1_AlleyBelowProducer": [
+      "Down this alley."
+    ],
+    "PlayerRemarkWorldC6M1_AlleyIntoBuildingProducer": [
+      "We need to get into the building.",
+      "We can cross-over up there."
+    ],
+    "PlayerRemarkWorldC6M1_InAptsProducer": [
+      "Let's search these rooms."
+    ],
+    "PlayerRemarkWorldC6M1_IntotheparkProducer": [
+      "Through this park.",
+      "Down into the park.",
+      "Ellis, I really think the car will be okay on its own."
+    ],
+    "PlayerRemarkWorldC6M1_IntoThePark2Producer": [
+      "Through this park."
+    ],
+    "PlayerRemarkWorldC6M1_IntoTheStoreProducer": [
+      "Through this store.",
+      "Through the store.",
+      "Guns in the store."
+    ],
+    "PlayerRemarkWorldC6M1_PostWeddingProducer": [
+      "Check the tents.",
+      "Well, this isn't the worst wedding I've ever been to."
+    ],
+    "PlayerRemarkWorldC6M1_SafeRoomAlleyProducer": [
+      "Behind this bus.",
+      "Safe house!"
+    ],
+    "PlayerRemarkWorldC6M1_ThroughBarProducer": [
+      "Through here!",
+      "Let's go through here!"
+    ],
+    "PlayerRemarkWorldC6M1_UpHereProducer": [
+      "We can get up here!",
+      "We can get through up here."
+    ],
+    "PlayerRemarkWorldC6M1_UpTheStairsProducer": [
+      "Let's go upstairs."
+    ],
+    "PlayerRemarkWorldC6M1_UpTheStairs2Producer": [
+      "Go upstairs.",
+      "Up the stairs!"
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarnProducer": [
+      "I don't know what she's crying about, at least she got married.",
+      "You see? This is why I hate weddings.",
+      "This is one time I don't mind being the bridesmaid.",
+      "Something old, something new, something about to rip your guts out."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarn1Producer": [
+      "I don't know what she's crying about, at least she got married.",
+      "You see? This is why I hate weddings.",
+      "This is one time I don't mind being the bridesmaid.",
+      "Something old, something new, something about to rip your guts out."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarn2Producer": [
+      "I don't know what she's crying about, at least she got married.",
+      "You see? This is why I hate weddings.",
+      "This is one time I don't mind being the bridesmaid.",
+      "Something old, something new, something about to rip your guts out."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarn3Producer": [
+      "I don't know what she's crying about, at least she got married.",
+      "You see? This is why I hate weddings.",
+      "This is one time I don't mind being the bridesmaid.",
+      "Something old, something new, something about to rip your guts out."
+    ],
+    "PlayerRemarkWorldC6M1_WeddingWarnAngelProducer": [
+      "Hey Ellis look, it's another angel."
+    ],
+    "PlayerRemarkWorldC6M2_AcrossPlankProducer": [
+      "Quick over this plank.",
+      "Hurry up over this plank.",
+      "I am not looking down."
+    ],
+    "PlayerRemarkWorldC6M2_AfterGate1Producer": [
+      "Don't stop, let's go!",
+      "Keep moving!"
+    ],
+    "PlayerRemarkWorldC6M2_AfterGate2Producer": [
+      "Nick, you've got a turd on your shoulder.",
+      "Nick, there's something on your shoulder.",
+      "There goes my boots.",
+      "That alarm is not turning off.",
+      "We need to keep running."
+    ],
+    "PlayerRemarkWorldC6M2_DownHereProducer": [
+      "Down here!",
+      "Down here."
+    ],
+    "PlayerRemarkWorldC6M2_DownIntoBuildingProducer": [
+      "Through here.",
+      "In here.",
+      "Through this building."
+    ],
+    "PlayerRemarkWorldC6M2_FinalLadderProducer": [
+      "Another ladder.",
+      "We can get up here."
+    ],
+    "PlayerRemarkWorldC6M2_FinalWaterProducer": [
+      "Back in the water!",
+      "Yay, back in the water!",
+      "Yay, great, back in the water!",
+      "(Sarcastically) Yay! More water!"
+    ],
+    "PlayerRemarkWorldC6M2_FinalWaterGoGoProducer": [
+      "Don't stop, let's go!",
+      "Keep moving!",
+      "KEEP MOVING!"
+    ],
+    "PlayerRemarkWorldC6M2_InJazzClubProducer": [
+      "Into the club.",
+      "The tour is in the club."
+    ],
+    "PlayerRemarkWorldC6M2_InSewer1Producer": [
+      "Nick, I'm pretty sure this is sewage.",
+      "This is more interesting than phase one."
+    ],
+    "PlayerRemarkWorldC6M2_InSewer2Producer": [
+      "Hey, Nick! Splash fight!"
+    ],
+    "PlayerRemarkWorldC6M2_InSewerLadder1Producer": [
+      "Out of the water!",
+      "Let's get out!"
+    ],
+    "PlayerRemarkWorldC6M2_IntoConstructionProducer": [
+      "Let's jump down.",
+      "Down into the construction site."
+    ],
+    "PlayerRemarkWorldC6M2_IntoPoolHallProducer": [
+      "Get into the pool hall.",
+      "We can climb in through the window."
+    ],
+    "PlayerRemarkWorldC6M2_JukeBoxProducer": [
+      "Ugh. This jukebox sucks."
+    ],
+    "PlayerRemarkWorldC6M2_JumpDownProducer": [
+      "Let's jump together.",
+      "Why is it always water?"
+    ],
+    "PlayerRemarkWorldC6M2_OnTourWalk1Producer": [
+      "Follow the walkway.",
+      "Keep to the walkway.",
+      "Stay off the dirt, it's historical."
+    ],
+    "PlayerRemarkWorldC6M2_OnTourWalk2Producer": [
+      "Only in the South would this pass for a museum."
+    ],
+    "PlayerRemarkWorldC6M2_OnTourWalk3Producer": [
+      "Five dollars well spent."
+    ],
+    "PlayerRemarkWorldC6M2_OpenGate1Producer": [
+      "Get ready an alarm is going to sound when we open this.",
+      "Get ready to go once we hit this button."
+    ],
+    "PlayerRemarkWorldC6M2_Phase2Producer": [
+      "Another phase? I'm still not done thinking about phase one.",
+      "Phase two? Phase one was finished?",
+      "I hope phase two is as good as phase one.",
+      "I've never had so much fun learning.",
+      "That was almost as bad as the Seattle underground tour."
+    ],
+    "PlayerRemarkWorldC6M2_Phase2DownProducer": [
+      "Down the stairs!"
+    ],
+    "PlayerRemarkWorldC6M2_Phase2DownIntenseProducer": [
+      "Down, go down!"
+    ],
+    "PlayerRemarkWorldC6M2_PostGate1xProducer": [
+      "Back in the water."
+    ],
+    "PlayerRemarkWorldC6M2_SafeRoomProducer": [
+      "Saferoom!"
+    ],
+    "PlayerRemarkWorldC6M2_SuitcaseProducer": [
+      "Is this your suitcase Nick?",
+      "Heh. Is this your suitcase Nick?"
+    ],
+    "PlayerRemarkWorldC6M2_TourEntranceProducer": [
+      "Maybe there's no zombies down here."
+    ],
+    "PlayerRemarkWorldC6M2_UpCatWalkProducer": [
+      "A ladder!",
+      "Thank god, a ladder!"
+    ],
+    "PlayerRemarkWorldC6M2_UpStairsProducer": [
+      "Up the stairs!",
+      "The street's up there!"
+    ],
+    "PlayerRemarkWorldC6M2_UpStairs2Producer": [
+      "Go upstairs.",
+      "Let's go upstairs.",
+      "Up the stairs!"
+    ],
+    "PlayerRemarkWorldC6M3_BridgeRunProducer": [
+      "Get to the car!",
+      "Thank you guys! GOOD LUCK!"
+    ],
+    "PlayerRemarkWorldC6M3_ByBridgeProducer": [
+      "Thanks Louis, sure you don't want to come along?",
+      "Thanks Francis, there's room in the car.",
+      "Thanks Zoey, us women gotta work together.",
+      "Thank you guys for all you've done.",
+      "Thanks! Keep safe.",
+      "Thanks! Good luck."
+    ],
+    "PlayerRemarkWorldFootLockerProducer": [
+      "Search the locker.",
+      "Check the locker.",
+      "Check the lockers."
+    ],
+    "SurvivorPickupGolfCLubProducer": [
+      "Grabbing a golf club.",
+      "Grabbing the driver.",
+      "Fore!"
+    ],
+    "SurvivorPickupM60Producer": [
+      "I'm taking the big gun.",
+      "Taking the big gun.",
+      "Oh my god, this gun feels good.",
+      "I have found my new favorite gun."
+    ],
+    "HistoricTour02bProducer": [
+      "(sarcastically) Thanks Coach.",
+      "(sarcastically) Gee, thanks Coach.",
+      "(sarcastically) Uh, gee, glad I asked.",
+      "(sarcastically) Glad I asked.",
+      "Good enough.",
+      "Well, okay... Good enough."
+    ],
+    "WeddingWitchDead01Producer": [
+      "Nick, you scare me."
+    ],
+    "WeddingWitchDead04Producer": [
+      "Yeah, let's just get of here."
+    ],
+    "SurvivorSpottedGolfClubProducer": [
+      "Golf club.",
+      "Golf club here.",
+      "Club here.",
+      "Driver here."
+    ],
+    "SurvivorSpottedGolfClubAutoProducer": [
+      "Golf club.",
+      "Golf club here.",
+      "Club here.",
+      "Driver here."
+    ],
+    "SurvivorSpottedM60Producer": [
+      "There's a big gun.",
+      "Big gun here.",
+      "There's a big gun over here.",
+      "Man, big gun over here."
+    ],
+    "SurvivorSpottedM60AutoProducer": [
+      "There's a big gun.",
+      "Big gun here.",
+      "There's a big gun over here.",
+      "Man, big gun over here."
+    ]
+  },
+  "TeenGirl": {},
+  "NamVet": {},
+  "Manager": {},
+  "Biker": {}
+}

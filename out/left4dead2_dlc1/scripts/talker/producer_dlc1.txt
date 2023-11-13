@@ -1,0 +1,569 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc1/scripts/talker/producer_dlc1.txt
+-------------------------------------------------------
+
+RESPONSE L4D1PlayerNiceShotProducer CHARACTER Producer SUBTITLE "Nice shot."
+RULE L4D1PlayerNiceShotProducer CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsProducer IsSubjectDistNear1500  IsTalk IsTalkProducer IsWorldTalkProducer IsNotSpeaking ChanceToFire70Percent RESPONSE L4D1PlayerNiceShotProducer
+RESPONSE L4D1PlayerNiceShotFrancisProducer CHARACTER Producer SUBTITLE "Francis!"
+RESPONSE L4D1PlayerNiceShotFrancisProducer CHARACTER Producer SUBTITLE "Nice shot Francis!"
+RESPONSE L4D1PlayerNiceShotFrancisProducer CHARACTER Producer SUBTITLE "Thanks Francis!"
+RULE L4D1PlayerNiceShotFrancisProducer CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsProducer IsSubjectDistNear1500  IsTalk IsTalkProducer  IsWorldTalkProducer SubjectIsBiker ChanceToFire70Percent IsNotSpeaking RESPONSE L4D1PlayerNiceShotFrancisProducer
+RESPONSE L4D1PlayerNiceShotLouisProducer CHARACTER Producer SUBTITLE "Nice Louis!"
+RESPONSE L4D1PlayerNiceShotLouisProducer CHARACTER Producer SUBTITLE "Nice shooting Louis!"
+RESPONSE L4D1PlayerNiceShotLouisProducer CHARACTER Producer SUBTITLE "All right Louis!"
+RULE L4D1PlayerNiceShotLouisProducer CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsProducer IsSubjectDistNear1500  IsTalk IsTalkProducer  IsWorldTalkProducer SubjectIsManager ChanceToFire70Percent IsNotSpeaking RESPONSE L4D1PlayerNiceShotLouisProducer
+RESPONSE L4D1PlayerNiceShotZoeyProducer CHARACTER Producer SUBTITLE "Thanks Zoey!"
+RESPONSE L4D1PlayerNiceShotZoeyProducer CHARACTER Producer SUBTITLE "Nice shot Zoey!"
+RULE L4D1PlayerNiceShotZoeyProducer CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsProducer IsSubjectDistNear1500  IsTalk IsTalkProducer  IsWorldTalkProducer SubjectIsTeenGirl ChanceToFire70Percent IsNotSpeaking RESPONSE L4D1PlayerNiceShotZoeyProducer
+RESPONSE C6M3GasPourProducer CHARACTER Producer SUBTITLE "I got this one."
+RESPONSE C6M3GasPourProducer CHARACTER Producer SUBTITLE "Pouring!"
+RESPONSE C6M3GasPourProducer CHARACTER Producer SUBTITLE "Pouring this one in."
+RESPONSE C6M3GasPourProducer CHARACTER Producer SUBTITLE "Cover me, filling the generator."
+RESPONSE C6M3GasPourProducer CHARACTER Producer SUBTITLE "Cover me, pouring!"
+RULE C6M3GasPourProducer CRITERIA ConceptPlayerPourStarted IsProducer IsTalk IsTalkProducer IsWorldTalkProducer IsNotScavenge isC6M3_Port ChanceToFire70Percent RESPONSE C6M3GasPourProducer
+RESPONSE C6M1_IntotheparkNoHealthProducer CHARACTER Producer SUBTITLE "Make sure to grab a health kit."
+RESPONSE C6M1_IntotheparkNoHealthProducer CHARACTER Producer SUBTITLE "Make sure to grab a health kit."
+RESPONSE C6M1_IntotheparkNoHealthProducer CHARACTER Producer SUBTITLE "Everyone grab a health kit."
+RULE C6M1_IntotheparkNoHealthProducer CRITERIA ConceptC6M1_IntotheparkNoHealth IsProducer RESPONSE C6M1_IntotheparkNoHealthProducer
+RESPONSE C6M1Intro_01Biker03Producer CHARACTER Producer SUBTITLE "Hey there, can you lower the bridge."
+RULE C6M1Intro_01Biker03Producer CRITERIA ConceptintroC6M1 IsProducer IsFrancisIntroActor IsNotSaidIntroScene FrancisGroup3 IsNotVersus RESPONSE C6M1Intro_01Biker03Producer
+RESPONSE C6M1Intro_01Biker04Producer CHARACTER Producer SUBTITLE "If you lower the bridge I'll tell you how old I am."
+RESPONSE C6M1Intro_01Biker04Producer CHARACTER Producer SUBTITLE "Okay, if you lower the bridge (to group) ugh. I will give you a kiss."
+RULE C6M1Intro_01Biker04Producer CRITERIA ConceptintroC6M1 IsProducer IsFrancisIntroActor IsNotSaidIntroScene FrancisGroup4 IsNotVersus RESPONSE C6M1Intro_01Biker04Producer
+RESPONSE C6M1Intro_01TeenGirl03Producer CHARACTER Producer SUBTITLE "Hey up there! You wanna let the bridge down?"
+RESPONSE C6M1Intro_01TeenGirl03Producer CHARACTER Producer SUBTITLE "(exasperated) Really? Isn't there some way you can just lower it?"
+RULE C6M1Intro_01TeenGirl03Producer CRITERIA ConceptintroC6M1 IsProducer IsZoeyIntroActor IsNotSaidIntroScene MoreThan40  LessThan60 IsNotVersus RESPONSE C6M1Intro_01TeenGirl03Producer
+RESPONSE C6M1Intro_05aProducer CHARACTER Producer SUBTITLE "Uh, do you know how we can get to the other side?"
+RULE C6M1Intro_05aProducer CRITERIA ConceptC6M1Intro_05a IsProducer RESPONSE C6M1Intro_05aProducer
+RESPONSE C6M1Intro_05cProducer CHARACTER Producer SUBTITLE "You aren't from around these parts are you?"
+RULE C6M1Intro_05cProducer CRITERIA ConceptC6M1Intro_05c IsProducer RESPONSE C6M1Intro_05cProducer
+RESPONSE C6M1Intro_05eProducer CHARACTER Producer SUBTITLE "Great. All right."
+RESPONSE C6M1Intro_05eProducer CHARACTER Producer SUBTITLE "Great. Can't help us with directions, probably can't shoot a gun."
+RULE C6M1Intro_05eProducer CRITERIA ConceptC6M1Intro_05e IsProducer RESPONSE C6M1Intro_05eProducer
+RESPONSE C6M1Intro_06bProducer CHARACTER Producer SUBTITLE "Is the road even clear on the other side?"
+RULE C6M1Intro_06bProducer CRITERIA ConceptC6M1Intro_06b IsProducer RESPONSE C6M1Intro_06bProducer
+RESPONSE C6M1Intro_06dProducer CHARACTER Producer SUBTITLE "Then it's a date."
+RULE C6M1Intro_06dProducer CRITERIA ConceptC6M1Intro_06d IsProducer RESPONSE C6M1Intro_06dProducer
+RESPONSE C6M1Intro_07cProducer CHARACTER Producer SUBTITLE "(to group) Maybe, but at least he's no zombie. OKAY!"
+RESPONSE C6M1Intro_07cProducer CHARACTER Producer SUBTITLE "(to group) Maybe, but at least he's no zombie."
+RULE C6M1Intro_07cProducer CRITERIA ConceptC6M1Intro_07c IsProducer RESPONSE C6M1Intro_07cProducer
+RESPONSE C6M1Intro_09eProducer CHARACTER Producer SUBTITLE "Uh, Nick. He's talking to me."
+RULE C6M1Intro_09eProducer CRITERIA ConceptC6M1Intro_09e IsProducer RESPONSE C6M1Intro_09eProducer
+RESPONSE C6M1Intro_09fProducer CHARACTER Producer SUBTITLE "Hey! Can you lower the bridge."
+RULE C6M1Intro_09fProducer CRITERIA ConceptC6M1Intro_09f IsProducer RESPONSE C6M1Intro_09fProducer
+RESPONSE C6M1Intro_10bProducer CHARACTER Producer SUBTITLE "Hey, hey boys. Okay, if we get to the other side can you help us lower it?"
+RULE C6M1Intro_10bProducer CRITERIA ConceptC6M1Intro_10b IsProducer RESPONSE C6M1Intro_10bProducer
+RESPONSE C6M1Intro_10dProducer CHARACTER Producer SUBTITLE "See Nick, you should try being nice sometime."
+RESPONSE C6M1Intro_10dProducer CHARACTER Producer SUBTITLE "See Nick, you should try being nice sometime."
+RULE C6M1Intro_10dProducer CRITERIA ConceptC6M1Intro_10d IsProducer RESPONSE C6M1Intro_10dProducer
+RESPONSE C6M1Intro_10eProducer CHARACTER Producer SUBTITLE "THANK YOU!"
+RESPONSE C6M1Intro_10eProducer CHARACTER Producer SUBTITLE "THANK YOU, VERY MUCH!"
+RULE C6M1Intro_10eProducer CRITERIA ConceptC6M1Intro_10e IsProducer RESPONSE C6M1Intro_10eProducer
+RESPONSE C6M1Intro_12aProducer CHARACTER Producer SUBTITLE "Ellis you going to answer her?"
+RESPONSE C6M1Intro_12aProducer CHARACTER Producer SUBTITLE "Ellis you going to answer her?"
+RULE C6M1Intro_12aProducer CRITERIA ConceptC6M1Intro_12a IsProducer RESPONSE C6M1Intro_12aProducer
+RESPONSE C6M1Intro_12cProducer CHARACTER Producer SUBTITLE "He's got it. We'll see you on the other side."
+RESPONSE C6M1Intro_12cProducer CHARACTER Producer SUBTITLE "He's got it. We'll see you on the other side."
+RULE C6M1Intro_12cProducer CRITERIA ConceptC6M1Intro_12c IsProducer RESPONSE C6M1Intro_12cProducer
+RESPONSE C6M1Intro_14dProducer CHARACTER Producer SUBTITLE "Let's go, real charming Nick."
+RESPONSE C6M1Intro_14dProducer CHARACTER Producer SUBTITLE "Let's go, real charming Nick."
+RESPONSE C6M1Intro_14dProducer CHARACTER Producer SUBTITLE "And you were a con man?"
+RESPONSE C6M1Intro_14dProducer CHARACTER Producer SUBTITLE "Huh? And you were a con man?"
+RESPONSE C6M1Intro_14dProducer CHARACTER Producer SUBTITLE "I- I can't believe you were a con man."
+RESPONSE C6M1Intro_14dProducer CHARACTER Producer SUBTITLE "I can't believe you were a con man."
+RULE C6M1Intro_14dProducer CRITERIA ConceptC6M1Intro_14d IsProducer RESPONSE C6M1Intro_14dProducer
+RESPONSE C6M1Intro_15cProducer CHARACTER Producer SUBTITLE "I can't believe you used to be a con artist."
+RESPONSE C6M1Intro_15cProducer CHARACTER Producer SUBTITLE "I can't believe you used to be a con artist."
+RULE C6M1Intro_15cProducer CRITERIA ConceptC6M1Intro_15c IsProducer RESPONSE C6M1Intro_15cProducer
+RESPONSE C6M1Intro_17bProducer CHARACTER Producer SUBTITLE "Can you try? I don't think its going to be easy to get to the other side of the river."
+RULE C6M1Intro_17bProducer CRITERIA ConceptC6M1Intro_17b IsProducer RESPONSE C6M1Intro_17bProducer
+RESPONSE C6M1Intro_17dProducer CHARACTER Producer SUBTITLE "Well shit."
+RESPONSE C6M1Intro_17dProducer CHARACTER Producer SUBTITLE "Well shit."
+RESPONSE C6M1Intro_17dProducer CHARACTER Producer SUBTITLE "Well shit."
+RULE C6M1Intro_17dProducer CRITERIA ConceptC6M1Intro_17d IsProducer RESPONSE C6M1Intro_17dProducer
+RESPONSE C6M1Intro_18bProducer CHARACTER Producer SUBTITLE "I want to call you an asshole... I do."
+RESPONSE C6M1Intro_18bProducer CHARACTER Producer SUBTITLE "Ah ha. Really?"
+RULE C6M1Intro_18bProducer CRITERIA ConceptC6M1Intro_18b IsProducer RESPONSE C6M1Intro_18bProducer
+RESPONSE C6M1Intro_18dProducer CHARACTER Producer SUBTITLE "So it isn't worth getting to the other side?"
+RESPONSE C6M1Intro_18dProducer CHARACTER Producer SUBTITLE "Really, it's not worth getting to the other side?"
+RESPONSE C6M1Intro_18dProducer CHARACTER Producer SUBTITLE "Bulllshit! So, it's not worth getting to the other side?"
+RULE C6M1Intro_18dProducer CRITERIA ConceptC6M1Intro_18d IsProducer RESPONSE C6M1Intro_18dProducer
+RESPONSE C6M1Intro_19bProducer CHARACTER Producer SUBTITLE "Yeah, that sounds simple."
+RULE C6M1Intro_19bProducer CRITERIA ConceptC6M1Intro_19b IsProducer RESPONSE C6M1Intro_19bProducer
+RESPONSE C6M1Intro_20aProducer CHARACTER Producer SUBTITLE "What the?"
+RESPONSE C6M1Intro_20aProducer CHARACTER Producer SUBTITLE "(to group) Is he being serious?"
+RESPONSE C6M1Intro_20aProducer CHARACTER Producer SUBTITLE "(to group) Is he being serious?"
+RULE C6M1Intro_20aProducer CRITERIA ConceptC6M1Intro_20a IsProducer RESPONSE C6M1Intro_20aProducer
+RESPONSE C6M1Intro_20bProducer CHARACTER Producer SUBTITLE "No. Can you lower the bridge?"
+RESPONSE C6M1Intro_20bProducer CHARACTER Producer SUBTITLE "No. Can you lower the bridge?"
+RULE C6M1Intro_20bProducer CRITERIA ConceptC6M1Intro_20b IsProducer RESPONSE C6M1Intro_20bProducer
+RESPONSE C6M1Intro_20dProducer CHARACTER Producer SUBTITLE "Okay, then, yes, we are vampires? All of us are vampires?"
+RESPONSE C6M1Intro_20dProducer CHARACTER Producer SUBTITLE "Okay, then, yes, we are vampires? All of us are vampires?"
+RULE C6M1Intro_20dProducer CRITERIA ConceptC6M1Intro_20d IsProducer RESPONSE C6M1Intro_20dProducer
+RESPONSE C6M1Intro_20gProducer CHARACTER Producer SUBTITLE "Dear lord, why'd I ever leave Cleveland."
+RULE C6M1Intro_20gProducer CRITERIA ConceptC6M1Intro_20g IsProducer RESPONSE C6M1Intro_20gProducer
+RESPONSE C6M1Intro_22aProducer CHARACTER Producer SUBTITLE "Oh thank god! I thought I was the last woman on earth."
+RULE C6M1Intro_22aProducer CRITERIA ConceptC6M1Intro_22a IsProducer RESPONSE C6M1Intro_22aProducer
+RESPONSE C6M1Intro_22cProducer CHARACTER Producer SUBTITLE "Can you lower the bridge? We need to get across the river."
+RULE C6M1Intro_22cProducer CRITERIA ConceptC6M1Intro_22c IsProducer RESPONSE C6M1Intro_22cProducer
+RESPONSE C6M1Intro_22fProducer CHARACTER Producer SUBTITLE "If that's what we gotta do, that we gotta do."
+RULE C6M1Intro_22fProducer CRITERIA ConceptC6M1Intro_22f IsProducer RESPONSE C6M1Intro_22fProducer
+RESPONSE C6M1Intro_22hProducer CHARACTER Producer SUBTITLE "Take care."
+RESPONSE C6M1Intro_22hProducer CHARACTER Producer SUBTITLE "You too."
+RULE C6M1Intro_22hProducer CRITERIA ConceptC6M1Intro_22h IsProducer RESPONSE C6M1Intro_22hProducer
+RESPONSE LeavingC6M1StartProducer CHARACTER Producer SUBTITLE ""
+RULE LeavingC6M1StartProducer CRITERIA ConceptSurvivorLeavingCheckpoint IsProducer RESPONSE LeavingC6M1StartProducer
+RESPONSE RemWorldC6M1_WeddingWarn01Producer CHARACTER Producer SUBTITLE "Do they ever?"
+RESPONSE RemWorldC6M1_WeddingWarn01Producer CHARACTER Producer SUBTITLE "Do they ever?"
+RULE RemWorldC6M1_WeddingWarn01Producer CRITERIA ConceptRemWorldC6M1_WeddingWarn01 IsProducer IsSubjectDistNear800 RESPONSE RemWorldC6M1_WeddingWarn01Producer
+RESPONSE WorldC6M1_HistoricTourProducer CHARACTER Producer SUBTITLE "Uh, Coach, you know anything about this under the river tour?"
+RESPONSE WorldC6M1_HistoricTourProducer CHARACTER Producer SUBTITLE "Coach, you know anything about this under the river tour?"
+RESPONSE WorldC6M1_HistoricTourProducer CHARACTER Producer SUBTITLE "Hey, we can try this under-the-river tour to get across."
+RESPONSE WorldC6M1_HistoricTourProducer CHARACTER Producer SUBTITLE "We can try this under-the-river tour to get across."
+RESPONSE WorldC6M1_HistoricTourProducer CHARACTER Producer SUBTITLE "If we can't go over the river, we can always try under."
+RULE WorldC6M1_HistoricTourProducer CRITERIA ConceptWorldC6M1_HistoricTour IsProducer IsNotLeftC6M1Start RESPONSE WorldC6M1_HistoricTourProducer
+RESPONSE WorldC6M1_PostWedding02aProducer CHARACTER Producer SUBTITLE "Is that really how your brain works?"
+RULE WorldC6M1_PostWedding02aProducer CRITERIA ConceptWorldC6M1_PostWedding02a IsProducer IsSubjectDistNear800 RESPONSE WorldC6M1_PostWedding02aProducer
+RESPONSE WorldC6M1_WeddingWarn03bProducer CHARACTER Producer SUBTITLE "Both of you. Shut up."
+RESPONSE WorldC6M1_WeddingWarn03bProducer CHARACTER Producer SUBTITLE "(Whispered) WOULD YOU GUYS SHUT UP!"
+RULE WorldC6M1_WeddingWarn03bProducer CRITERIA ConceptWorldC6M1_WeddingWarn03b IsProducer RESPONSE WorldC6M1_WeddingWarn03bProducer
+RESPONSE C6M2_OpenGate1Producer CHARACTER Producer SUBTITLE "I opened it!"
+RESPONSE C6M2_OpenGate1Producer CHARACTER Producer SUBTITLE "I opened it, let's go!"
+RESPONSE C6M2_OpenGate1Producer CHARACTER Producer SUBTITLE "I hit it."
+RESPONSE C6M2_OpenGate1Producer CHARACTER Producer SUBTITLE "I hit it."
+RULE C6M2_OpenGate1Producer CRITERIA ConceptC6M2_OpenGate1 IsProducer RESPONSE C6M2_OpenGate1Producer
+RESPONSE C6M2_OpenGate2Producer CHARACTER Producer SUBTITLE "I opened it, let's go!"
+RULE C6M2_OpenGate2Producer CRITERIA ConceptC6M2_OpenGate2 IsProducer RESPONSE C6M2_OpenGate2Producer
+RESPONSE C6M2SafeRoomProducer CHARACTER Producer SUBTITLE ""
+RULE C6M2SafeRoomProducer CRITERIA ConceptTalkIdle  Joined3 IsProducer isC6m2_bedlam IsInStartArea AutoIsNotScavenge AutoIsNotSurvival IsNotSaidC6M2SafeRoom IsNotSpeakingWeight0 RESPONSE C6M2SafeRoomProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo01aProducer CHARACTER Producer SUBTITLE "Compared to you Nick, he was down right nice."
+RULE DLC1_C6M2_SafeRoomConvo01aProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo01a IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo01aProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo03aProducer CHARACTER Producer SUBTITLE "Sweety, it's just a car."
+RULE DLC1_C6M2_SafeRoomConvo03aProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo03a IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo03aProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo03cProducer CHARACTER Producer SUBTITLE "Calm down Ellis."
+RESPONSE DLC1_C6M2_SafeRoomConvo03cProducer CHARACTER Producer SUBTITLE "Feel better now?"
+RULE DLC1_C6M2_SafeRoomConvo03cProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo03c IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo03cProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo04aProducer CHARACTER Producer SUBTITLE "You'll be back with her soon enough. Also she's a car. And this is creepy."
+RESPONSE DLC1_C6M2_SafeRoomConvo04aProducer CHARACTER Producer SUBTITLE "You'll be back with her soon enough. Also she's a car. And this is creepy."
+RULE DLC1_C6M2_SafeRoomConvo04aProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo04a IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo04aProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo06aProducer CHARACTER Producer SUBTITLE "I have a bunch of good memories, too... of never once going to a boiled peanut festival."
+RULE DLC1_C6M2_SafeRoomConvo06aProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo06a IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo06aProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo07Producer CHARACTER Producer SUBTITLE "Do you think we can trust that guy?"
+RULE DLC1_C6M2_SafeRoomConvo07Producer CRITERIA ConceptC6M2SafeRoom2 IsProducer IsFrancisIntroActor FrancisGroup3 IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo07Producer
+RESPONSE DLC1_C6M2_SafeRoomConvo07aProducer CHARACTER Producer SUBTITLE "Sweety, she'd be crazy not to."
+RESPONSE DLC1_C6M2_SafeRoomConvo07aProducer CHARACTER Producer SUBTITLE "Out of all the men left? Sure."
+RULE DLC1_C6M2_SafeRoomConvo07aProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo07a IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo07aProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo08bProducer CHARACTER Producer SUBTITLE "What!?!"
+RESPONSE DLC1_C6M2_SafeRoomConvo08bProducer CHARACTER Producer SUBTITLE "What!?!"
+RULE DLC1_C6M2_SafeRoomConvo08bProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo08b IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo08bProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo08dProducer CHARACTER Producer SUBTITLE "I don't believe this."
+RESPONSE DLC1_C6M2_SafeRoomConvo08dProducer CHARACTER Producer SUBTITLE "I don't believe this."
+RULE DLC1_C6M2_SafeRoomConvo08dProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo08d IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo08dProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo08fProducer CHARACTER Producer SUBTITLE "He is better looking than you."
+RULE DLC1_C6M2_SafeRoomConvo08fProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo08f IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo08fProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo10aProducer CHARACTER Producer SUBTITLE "(laughter) You're kidding right?"
+RESPONSE DLC1_C6M2_SafeRoomConvo10aProducer CHARACTER Producer SUBTITLE "(laughter) You're kidding right?"
+RULE DLC1_C6M2_SafeRoomConvo10aProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo10a IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo10aProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo10cProducer CHARACTER Producer SUBTITLE "Oh, you are going to love the under-the-river tour."
+RULE DLC1_C6M2_SafeRoomConvo10cProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo10c IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo10cProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo13Producer CHARACTER Producer SUBTITLE "(to self)We need to get motivated."
+RESPONSE DLC1_C6M2_SafeRoomConvo13Producer CHARACTER Producer SUBTITLE "(to self)We need to get motivated. How we gonna get motivated..."
+RULE DLC1_C6M2_SafeRoomConvo13Producer CRITERIA ConceptC6M2SafeRoom2 IsProducer IsZoeyIntroActor ZoeyGroup3 IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo13Producer
+RESPONSE DLC1_C6M2_SafeRoomConvo14aProducer CHARACTER Producer SUBTITLE "Hey, Ellis? I hear there's a Stock Car museum in New Orleans."
+RULE DLC1_C6M2_SafeRoomConvo14aProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo14a IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo14aProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo14cProducer CHARACTER Producer SUBTITLE "Coach. We make it to New Orleans, there's a Cheeseburger museum."
+RESPONSE DLC1_C6M2_SafeRoomConvo14cProducer CHARACTER Producer SUBTITLE "Coach. We make it to New Orleans, there's a Cheeseburger museum."
+RULE DLC1_C6M2_SafeRoomConvo14cProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo14c IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo14cProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo14eProducer CHARACTER Producer SUBTITLE "Nick, there's a-"
+RULE DLC1_C6M2_SafeRoomConvo14eProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo14e IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo14eProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo15aProducer CHARACTER Producer SUBTITLE "Oh, I just keep hoping I wake up every day."
+RULE DLC1_C6M2_SafeRoomConvo15aProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo15a IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo15aProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo16Producer CHARACTER Producer SUBTITLE "Ellis honey, I've been thinking. Somewhere down the road, do you think we can trade up for a car with, let's say,  working doors and a backseat?"
+RULE DLC1_C6M2_SafeRoomConvo16Producer CRITERIA ConceptC6M2SafeRoom2 IsProducer IsFrancisIntroActor IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo16Producer
+RESPONSE DLC1_C6M2_SafeRoomConvo16aProducer CHARACTER Producer SUBTITLE "Ellis honey, you do know that eventually we'll have to leave that car behind. Right?"
+RESPONSE DLC1_C6M2_SafeRoomConvo16aProducer CHARACTER Producer SUBTITLE "Ellis honey, you do know that eventually we'll have to leave that car behind. Right?"
+RULE DLC1_C6M2_SafeRoomConvo16aProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo16a IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo16aProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo16cProducer CHARACTER Producer SUBTITLE "Ya know, I just don't think the military is going to air lift the car to safety."
+RULE DLC1_C6M2_SafeRoomConvo16cProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo16c IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo16cProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo17bProducer CHARACTER Producer SUBTITLE "Oh! Actually, does anyone want to put that to a vote?"
+RESPONSE DLC1_C6M2_SafeRoomConvo17bProducer CHARACTER Producer SUBTITLE "Uhh! Actually, does anyone want to put that to a vote?"
+RULE DLC1_C6M2_SafeRoomConvo17bProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo17b IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo17bProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo18aProducer CHARACTER Producer SUBTITLE "Ellis, ask yourself, what would Keith do?"
+RULE DLC1_C6M2_SafeRoomConvo18aProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo18a IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo18aProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo18dProducer CHARACTER Producer SUBTITLE "AH! I wasn't thinking."
+RESPONSE DLC1_C6M2_SafeRoomConvo18dProducer CHARACTER Producer SUBTITLE "AH! I wasn't thinking."
+RULE DLC1_C6M2_SafeRoomConvo18dProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo18d IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo18dProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo19aProducer CHARACTER Producer SUBTITLE "You're looking good coach."
+RULE DLC1_C6M2_SafeRoomConvo19aProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo19a IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo19aProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo20aProducer CHARACTER Producer SUBTITLE "Well anybody who survives this shit is gonna be in GREAT shape."
+RULE DLC1_C6M2_SafeRoomConvo20aProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo20a IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo20aProducer
+RESPONSE DLC1_C6M2_SafeRoomConvo21aProducer CHARACTER Producer SUBTITLE "Right... and the zombie apocalypse?"
+RESPONSE DLC1_C6M2_SafeRoomConvo21aProducer CHARACTER Producer SUBTITLE "And the... zombie apocalypse?"
+RULE DLC1_C6M2_SafeRoomConvo21aProducer CRITERIA ConceptDLC1_C6M2_SafeRoomConvo21a IsProducer RESPONSE DLC1_C6M2_SafeRoomConvo21aProducer
+RESPONSE WorldC6M2_InSewer101aProducer CHARACTER Producer SUBTITLE "Nick, I'm pretty sure this is sewage."
+RULE WorldC6M2_InSewer101aProducer CRITERIA ConceptWorldC6M2_InSewer101a IsProducer RESPONSE WorldC6M2_InSewer101aProducer
+RESPONSE WorldC6M2_InSewer102bProducer CHARACTER Producer SUBTITLE "Yeah, it's sewage."
+RULE WorldC6M2_InSewer102bProducer CRITERIA ConceptWorldC6M2_InSewer102b IsProducer RESPONSE WorldC6M2_InSewer102bProducer
+RESPONSE WorldC6M2_InSewer202aProducer CHARACTER Producer SUBTITLE "Ugh-gh-gh-gh-gh."
+RESPONSE WorldC6M2_InSewer202aProducer CHARACTER Producer SUBTITLE "[laughing] Ellis! I'm not laughing, I'm not! I'm not laughing."
+RESPONSE WorldC6M2_InSewer202aProducer CHARACTER Producer SUBTITLE "Okay, Carl."
+RULE WorldC6M2_InSewer202aProducer CRITERIA ConceptWorldC6M2_InSewer202a IsProducer RESPONSE WorldC6M2_InSewer202aProducer
+RESPONSE WorldC6M2_OnTourWalk101aProducer CHARACTER Producer SUBTITLE "Shithole?"
+RULE WorldC6M2_OnTourWalk101aProducer CRITERIA ConceptWorldC6M2_OnTourWalk101a IsProducer RESPONSE WorldC6M2_OnTourWalk101aProducer
+RESPONSE WorldC6M2_OnTourWalk101bProducer CHARACTER Producer SUBTITLE "Sorry Coach."
+RESPONSE WorldC6M2_OnTourWalk101bProducer CHARACTER Producer SUBTITLE "Sorry Coach."
+RULE WorldC6M2_OnTourWalk101bProducer CRITERIA ConceptWorldC6M2_OnTourWalk101b IsProducer RESPONSE WorldC6M2_OnTourWalk101bProducer
+RESPONSE WorldC6M2_OnTourWalk102bProducer CHARACTER Producer SUBTITLE "Shut up, Nick."
+RESPONSE WorldC6M2_OnTourWalk102bProducer CHARACTER Producer SUBTITLE "Shut up, Nick."
+RULE WorldC6M2_OnTourWalk102bProducer CRITERIA ConceptWorldC6M2_OnTourWalk102b IsProducer RESPONSE WorldC6M2_OnTourWalk102bProducer
+RESPONSE WorldC6M2_Phase201aProducer CHARACTER Producer SUBTITLE "It better."
+RESPONSE WorldC6M2_Phase201aProducer CHARACTER Producer SUBTITLE "It better."
+RULE WorldC6M2_Phase201aProducer CRITERIA ConceptWorldC6M2_Phase201a IsProducer RESPONSE WorldC6M2_Phase201aProducer
+RESPONSE WorldC6M2_Tattoo01a>Producer CHARACTER Producer SUBTITLE "Hm. Sorry, I didn't get his name."
+RESPONSE WorldC6M2_Tattoo01a>Producer CHARACTER Producer SUBTITLE "Damn. Sorry. I didn't get his name."
+RESPONSE WorldC6M2_Tattoo01a>Producer CHARACTER Producer SUBTITLE "Sorry. I forgot his name."
+RULE WorldC6M2_Tattoo01a>Producer CRITERIA ConceptWorldC6M2_Tattoo01a> IsProducer RESPONSE WorldC6M2_Tattoo01a>Producer
+RESPONSE WorldC6M2_Tattoo02a>Producer CHARACTER Producer SUBTITLE "Where?"
+RESPONSE WorldC6M2_Tattoo02a>Producer CHARACTER Producer SUBTITLE "Where?"
+RULE WorldC6M2_Tattoo02a>Producer CRITERIA ConceptWorldC6M2_Tattoo02a> IsProducer RESPONSE WorldC6M2_Tattoo02a>Producer
+RESPONSE WorldC6M2_Tattoo02c>Producer CHARACTER Producer SUBTITLE "Please be the ankle, please be the ankle."
+RESPONSE WorldC6M2_Tattoo02c>Producer CHARACTER Producer SUBTITLE "Please be the ankle, please be the ankle."
+RULE WorldC6M2_Tattoo02c>Producer CRITERIA ConceptWorldC6M2_Tattoo02c> IsProducer RESPONSE WorldC6M2_Tattoo02c>Producer
+RESPONSE WorldC6M2_Tattoo02d>Producer CHARACTER Producer SUBTITLE "Burgh-gh-gh-gh-gh."
+RESPONSE WorldC6M2_Tattoo02d>Producer CHARACTER Producer SUBTITLE "Ughhh."
+RULE WorldC6M2_Tattoo02d>Producer CRITERIA ConceptWorldC6M2_Tattoo02d> IsProducer RESPONSE WorldC6M2_Tattoo02d>Producer
+RESPONSE WorldC6M2_TourEntrance01aProducer CHARACTER Producer SUBTITLE "Who am I kidding?"
+RULE WorldC6M2_TourEntrance01aProducer CRITERIA ConceptWorldC6M2_TourEntrance01a IsProducer RESPONSE WorldC6M2_TourEntrance01aProducer
+RESPONSE C6M3_BridgeDownProducer CHARACTER Producer SUBTITLE "It's here, let's go!"
+RESPONSE C6M3_BridgeDownProducer CHARACTER Producer SUBTITLE "Come on, let's get to the car!"
+RESPONSE C6M3_BridgeDownProducer CHARACTER Producer SUBTITLE "Come on, let's get to the car!"
+RESPONSE C6M3_BridgeDownProducer CHARACTER Producer SUBTITLE "Bridge's down, let's go!"
+RESPONSE C6M3_BridgeDownProducer CHARACTER Producer SUBTITLE "Bridge's down, let's go!"
+RULE C6M3_BridgeDownProducer CRITERIA ConceptC6M3_BridgeDown IsProducer RESPONSE C6M3_BridgeDownProducer
+RESPONSE C6M3_BridgeGettoCarProducer CHARACTER Producer SUBTITLE "It's here, let's go!"
+RESPONSE C6M3_BridgeGettoCarProducer CHARACTER Producer SUBTITLE "Come on, let's get to the car!"
+RESPONSE C6M3_BridgeGettoCarProducer CHARACTER Producer SUBTITLE "Come on, let's get to the car!"
+RESPONSE C6M3_BridgeGettoCarProducer CHARACTER Producer SUBTITLE "Bridge's down, let's go!"
+RESPONSE C6M3_BridgeGettoCarProducer CHARACTER Producer SUBTITLE "Bridge's down, let's go!"
+RULE C6M3_BridgeGettoCarProducer CRITERIA ConceptGetToVehicle IsProducer IsNotSaidGetToCar Isc6m3_port RESPONSE C6M3_BridgeGettoCarProducer
+RESPONSE C6M3_elevatorProducer CHARACTER Producer SUBTITLE "Even the elevators are slow in the south."
+RESPONSE C6M3_elevatorProducer CHARACTER Producer SUBTITLE "Let's fill the generator as fast as we can."
+RESPONSE C6M3_elevatorProducer CHARACTER Producer SUBTITLE "Something bad happened here. I don't have a good feeling about this."
+RESPONSE C6M3_elevatorProducer CHARACTER Producer SUBTITLE "You know its going to be bad if they wouldn't risk it."
+RESPONSE C6M3_elevatorProducer CHARACTER Producer SUBTITLE "I wish they would come with us, safety in numbers."
+RESPONSE C6M3_elevatorProducer CHARACTER Producer SUBTITLE "After a few hours in the car with you guys, it's nice to hear some new voices."
+RESPONSE C6M3_elevatorProducer CHARACTER Producer SUBTITLE "There names are Zoey, Louis and Francis right?"
+RULE C6M3_elevatorProducer CRITERIA Conceptc6m3_elevatorCancel IsProducer IsNotSaidC6M3Elevator IsC6M3_port RESPONSE C6M3_elevatorProducer
+RESPONSE C6M3_GivenItemBikerProducer CHARACTER Producer SUBTITLE "Thanks guys!"
+RESPONSE C6M3_GivenItemBikerProducer CHARACTER Producer SUBTITLE "Thank you guys!"
+RESPONSE C6M3_GivenItemBikerProducer CHARACTER Producer SUBTITLE "Thanks Francis."
+RESPONSE C6M3_GivenItemBikerProducer CHARACTER Producer SUBTITLE "Thanks sexy guy in the vest."
+RULE C6M3_GivenItemBikerProducer CRITERIA ConceptPlayerPickup IsProducer IsDonorBiker Isc6m3_portHeavy RESPONSE C6M3_GivenItemBikerProducer
+RESPONSE C6M3_GivenItemTeenGirlProducer CHARACTER Producer SUBTITLE "Thanks Zoey!"
+RESPONSE C6M3_GivenItemTeenGirlProducer CHARACTER Producer SUBTITLE "Thanks Zoey!"
+RESPONSE C6M3_GivenItemTeenGirlProducer CHARACTER Producer SUBTITLE "Thank for the help Zoey!"
+RESPONSE C6M3_GivenItemTeenGirlProducer CHARACTER Producer SUBTITLE "Thanks for the stuff!"
+RULE C6M3_GivenItemTeenGirlProducer CRITERIA ConceptPlayerPickup IsProducer IsDonorTeenGirl Isc6m3_portHeavy RESPONSE C6M3_GivenItemTeenGirlProducer
+RESPONSE C6M3SafeRoomProducer CHARACTER Producer SUBTITLE ""
+RULE C6M3SafeRoomProducer CRITERIA ConceptTalkIdle  Joined3 IsProducer isC6m3_port IsInStartArea AutoIsNotScavenge AutoIsNotSurvival IsNotSaidC6M3SafeRoom IsNotSpeakingWeight0 RESPONSE C6M3SafeRoomProducer
+RESPONSE DLC1_C6M3_SafeRoomConvo01Producer CHARACTER Producer SUBTITLE "Do you think he's waiting for us?"
+RULE DLC1_C6M3_SafeRoomConvo01Producer CRITERIA ConceptC6M3SafeRoom2 IsProducer IsNotSaidC6M3SafeRoom2 IsFrancisIntroActor FrancisGroup3 IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo01Producer
+RESPONSE DLC1_C6M3_SafeRoomConvo01bProducer CHARACTER Producer SUBTITLE "Ellis!"
+RULE DLC1_C6M3_SafeRoomConvo01bProducer CRITERIA ConceptDLC1_C6M3_SafeRoomConvo01b IsProducer  IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo01bProducer
+RESPONSE DLC1_C6M3_SafeRoomConvo02a1Producer CHARACTER Producer SUBTITLE "He'll be there."
+RULE DLC1_C6M3_SafeRoomConvo02a1Producer CRITERIA ConceptDLC1_C6M3_SafeRoomConvo02a1 IsProducer RESPONSE DLC1_C6M3_SafeRoomConvo02a1Producer
+RESPONSE DLC1_C6M3_SafeRoomConvo02cProducer CHARACTER Producer SUBTITLE "I just have a good feeling."
+RESPONSE DLC1_C6M3_SafeRoomConvo02cProducer CHARACTER Producer SUBTITLE "It's a woman thing; I just have a good feeling."
+RULE DLC1_C6M3_SafeRoomConvo02cProducer CRITERIA ConceptDLC1_C6M3_SafeRoomConvo02c IsProducer  IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo02cProducer
+RESPONSE DLC1_C6M3_SafeRoomConvo04bProducer CHARACTER Producer SUBTITLE "Just be your own sweet self, Ellis."
+RULE DLC1_C6M3_SafeRoomConvo04bProducer CRITERIA ConceptDLC1_C6M3_SafeRoomConvo04b IsProducer IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo04bProducer
+RESPONSE DLC1_C6M3_SafeRoomConvo04dProducer CHARACTER Producer SUBTITLE "I just think Nick is jealous."
+RESPONSE DLC1_C6M3_SafeRoomConvo04dProducer CHARACTER Producer SUBTITLE "Nick is just jealous."
+RULE DLC1_C6M3_SafeRoomConvo04dProducer CRITERIA ConceptDLC1_C6M3_SafeRoomConvo04d IsProducer IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo04dProducer
+RESPONSE DLC1_C6M3_SafeRoomConvo05cProducer CHARACTER Producer SUBTITLE "Nick. Leave him alone."
+RESPONSE DLC1_C6M3_SafeRoomConvo05cProducer CHARACTER Producer SUBTITLE "Leave him alone."
+RESPONSE DLC1_C6M3_SafeRoomConvo05cProducer CHARACTER Producer SUBTITLE "Ellis, you'll be fine."
+RESPONSE DLC1_C6M3_SafeRoomConvo05cProducer CHARACTER Producer SUBTITLE "Nick, you need to find a woman who hates herself, she'll love you."
+RESPONSE DLC1_C6M3_SafeRoomConvo05cProducer CHARACTER Producer SUBTITLE "Nick, I don't think she's deaf, so she isn't going to like you."
+RESPONSE DLC1_C6M3_SafeRoomConvo05cProducer CHARACTER Producer SUBTITLE "Nick, being one of the last two women in the world alive. I can safely safe, at least half of the women in this world hate you."
+RULE DLC1_C6M3_SafeRoomConvo05cProducer CRITERIA ConceptDLC1_C6M3_SafeRoomConvo05c IsProducer IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo05cProducer
+RESPONSE DLC1_C6M3_SafeRoomConvo06aProducer CHARACTER Producer SUBTITLE "I think someone has a crush on that "awesome" biker dude."
+RULE DLC1_C6M3_SafeRoomConvo06aProducer CRITERIA ConceptDLC1_C6M3_SafeRoomConvo06a IsProducer IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo06aProducer
+RESPONSE DLC1_C6M3_SafeRoomConvo07Producer CHARACTER Producer SUBTITLE "I hope that girl is still waiting for us."
+RULE DLC1_C6M3_SafeRoomConvo07Producer CRITERIA ConceptC6M3SafeRoom2 IsProducer IsNotSaidC6M3SafeRoom2 IsZoeyIntroActor IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo07Producer
+RESPONSE DLC1_C6M3_SafeRoomConvo07bProducer CHARACTER Producer SUBTITLE "Ellis, she shouted at you for five seconds from a bridge."
+RULE DLC1_C6M3_SafeRoomConvo07bProducer CRITERIA ConceptDLC1_C6M3_SafeRoomConvo07b IsProducer IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo07bProducer
+RESPONSE DLC1_C6M3_SafeRoomConvo08gProducer CHARACTER Producer SUBTITLE "Great. Thanks, Coach."
+RESPONSE DLC1_C6M3_SafeRoomConvo08gProducer CHARACTER Producer SUBTITLE "Thanks, Coach."
+RULE DLC1_C6M3_SafeRoomConvo08gProducer CRITERIA ConceptDLC1_C6M3_SafeRoomConvo08g IsProducer  IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo08gProducer
+RESPONSE DLC1_C6M3_SafeRoomConvo09Producer CHARACTER Producer SUBTITLE "Ellis, so uh, where are you going to take that Zoey girl on your first date?"
+RESPONSE DLC1_C6M3_SafeRoomConvo09Producer CHARACTER Producer SUBTITLE "Ellis, so uh, where are you going to take Zoey on your first date?"
+RULE DLC1_C6M3_SafeRoomConvo09Producer CRITERIA ConceptC6M3SafeRoom2 IsProducer IsNotSaidC6M3SafeRoom2 IsZoeyIntroActor ZoeyGroup1 IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo09Producer
+RESPONSE DLC1_C6M3_SafeRoomConvo09bProducer CHARACTER Producer SUBTITLE "Oh, yeah, um... What woman wouldn't love that."
+RESPONSE DLC1_C6M3_SafeRoomConvo09bProducer CHARACTER Producer SUBTITLE "Uh... Lucky girl."
+RESPONSE DLC1_C6M3_SafeRoomConvo09bProducer CHARACTER Producer SUBTITLE "Lucky girl."
+RULE DLC1_C6M3_SafeRoomConvo09bProducer CRITERIA ConceptDLC1_C6M3_SafeRoomConvo09b IsProducer  IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo09bProducer
+RESPONSE IncapBounceProducer CHARACTER Producer SUBTITLE ""
+RULE IncapBounceProducer CRITERIA ConceptSurvivorIncapacitated IsProducer IsNotSaidInCapBounce isC6m3_port RESPONSE IncapBounceProducer
+RESPONSE C6M3_CansDoneProducer CHARACTER Producer SUBTITLE "Everyone to the car!"
+RULE C6M3_CansDoneProducer CRITERIA Conceptc6m3escapeready IsProducer IsC6M3_Port IsNotSaidc6m3escapeready RESPONSE C6M3_CansDoneProducer
+RESPONSE L4D1AlsoSpottedTankProducer CHARACTER Producer SUBTITLE "Holy shit!"
+RESPONSE L4D1AlsoSpottedTankProducer CHARACTER Producer SUBTITLE "Holy shit! Holy shit! Holy shit! Holy SHIT!"
+RESPONSE L4D1AlsoSpottedTankProducer CHARACTER Producer SUBTITLE "Two tanks!"
+RESPONSE L4D1AlsoSpottedTankProducer CHARACTER Producer SUBTITLE "Boys we got tanks!"
+RESPONSE L4D1AlsoSpottedTankProducer CHARACTER Producer SUBTITLE "Lead the tanks back to Louis."
+RESPONSE L4D1AlsoSpottedTankProducer CHARACTER Producer SUBTITLE "We got two too many tanks."
+RESPONSE L4D1AlsoSpottedTankProducer CHARACTER Producer SUBTITLE "TANKS!"
+RESPONSE L4D1AlsoSpottedTankProducer CHARACTER Producer SUBTITLE "Lead the tanks back to Louis."
+RESPONSE L4D1AlsoSpottedTankProducer CHARACTER Producer SUBTITLE "Whoa. We got two too many tanks."
+RULE L4D1AlsoSpottedTankProducer CRITERIA ConceptPlayerAlsoWarnTank IsNotCoughing IsProducer IsTalk IsTalkProducer IsWorldTalkProducer Isc6m3_port RESPONSE L4D1AlsoSpottedTankProducer
+RESPONSE L4D1SpottedTankProducer CHARACTER Producer SUBTITLE "Holy shit!"
+RESPONSE L4D1SpottedTankProducer CHARACTER Producer SUBTITLE "Holy shit! Holy shit! Holy shit! Holy SHIT!"
+RESPONSE L4D1SpottedTankProducer CHARACTER Producer SUBTITLE "Two tanks!"
+RESPONSE L4D1SpottedTankProducer CHARACTER Producer SUBTITLE "Boys we got tanks!"
+RESPONSE L4D1SpottedTankProducer CHARACTER Producer SUBTITLE "Lead the tanks back to Louis."
+RESPONSE L4D1SpottedTankProducer CHARACTER Producer SUBTITLE "We got two too many tanks."
+RESPONSE L4D1SpottedTankProducer CHARACTER Producer SUBTITLE "TANKS!"
+RESPONSE L4D1SpottedTankProducer CHARACTER Producer SUBTITLE "Lead the tanks back to Louis."
+RESPONSE L4D1SpottedTankProducer CHARACTER Producer SUBTITLE "Whoa. We got two too many tanks."
+RULE L4D1SpottedTankProducer CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeTank IsNotCoughing IsProducer IsTalk IsTalkProducer IsWorldTalkProducer Isc6m3_port IsNotSpeakingWeight0 RESPONSE L4D1SpottedTankProducer
+RESPONSE SurvivorSpottedFallenProducer CHARACTER Producer SUBTITLE "Get that zombie!"
+RESPONSE SurvivorSpottedFallenProducer CHARACTER Producer SUBTITLE "Stop that zombie!"
+RESPONSE SurvivorSpottedFallenProducer CHARACTER Producer SUBTITLE "That zombie's carrying something!"
+RULE SurvivorSpottedFallenProducer CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeFallen IsNotCoughing IsProducer IsTalk IsTalkProducer IsWorldTalkProducer IsNotSaidFallenWarn IsNotSpeakingWeight0 RESPONSE SurvivorSpottedFallenProducer
+RESPONSE PlayerWitchChasingC6M1Producer CHARACTER Producer SUBTITLE "Ahh I pissed off another bride!"
+RESPONSE PlayerWitchChasingC6M1Producer CHARACTER Producer SUBTITLE "Kill the bride! Kill the bride!"
+RESPONSE PlayerWitchChasingC6M1Producer CHARACTER Producer SUBTITLE "Kill the bride!"
+RULE PlayerWitchChasingC6M1Producer CRITERIA ConceptPlayerExertionMinor IsProducer IsWitchPresent SubjectIsNotWitch IsNotSaidProducerWitchChasing IsSaidProducerWitchAttacking isc6m1_riverbank RESPONSE PlayerWitchChasingC6M1Producer
+RESPONSE PlayerRemarkremark_MidnightRidersBusProducer CHARACTER Producer SUBTITLE "Was that a bus?"
+RESPONSE PlayerRemarkremark_MidnightRidersBusProducer CHARACTER Producer SUBTITLE "Was that a tour bus?"
+RULE PlayerRemarkremark_MidnightRidersBusProducer CRITERIA ConceptRemark IsProducer Isremark_MidnightRidersBus IsNotSaidremark_MidnightRidersBus IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear1500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkremark_MidnightRidersBusProducer
+RESPONSE PlayerRemarkWorldC6M1_AcrossHereProducer CHARACTER Producer SUBTITLE "We can cross-over up there."
+RULE PlayerRemarkWorldC6M1_AcrossHereProducer CRITERIA ConceptRemark IsProducer IsWorldC6M1_AcrossHere IsNotSaidWorldC6M1_AcrossHere IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_AcrossHereProducer
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowProducer CHARACTER Producer SUBTITLE "Down this alley."
+RULE PlayerRemarkWorldC6M1_AlleyBelowProducer CRITERIA ConceptRemark IsProducer IsWorldC6M1_AlleyBelow IsNotSaidWorldC6M1_AlleyBelow IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_AlleyBelowProducer
+RESPONSE PlayerRemarkWorldC6M1_AlleyIntoBuildingProducer CHARACTER Producer SUBTITLE "We need to get into the building."
+RESPONSE PlayerRemarkWorldC6M1_AlleyIntoBuildingProducer CHARACTER Producer SUBTITLE "We can cross-over up there."
+RULE PlayerRemarkWorldC6M1_AlleyIntoBuildingProducer CRITERIA ConceptRemark IsProducer IsWorldC6M1_AlleyIntoBuilding IsNotSaidWorldC6M1_AlleyIntoBuilding IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_AlleyIntoBuildingProducer
+RESPONSE PlayerRemarkWorldC6M1_InAptsProducer CHARACTER Producer SUBTITLE "Let's search these rooms."
+RULE PlayerRemarkWorldC6M1_InAptsProducer CRITERIA ConceptRemark IsProducer IsWorldC6M1_InApts IsNotSaidWorldC6M1_InApts IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_InAptsProducer
+RESPONSE PlayerRemarkWorldC6M1_IntotheparkProducer CHARACTER Producer SUBTITLE "Through this park."
+RESPONSE PlayerRemarkWorldC6M1_IntotheparkProducer CHARACTER Producer SUBTITLE "Down into the park."
+RESPONSE PlayerRemarkWorldC6M1_IntotheparkProducer CHARACTER Producer SUBTITLE "Ellis, I really think the car will be okay on its own."
+RULE PlayerRemarkWorldC6M1_IntotheparkProducer CRITERIA ConceptRemark IsProducer IsWorldC6M1_Intothepark IsNotSaidWorldC6M1_Intothepark IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_IntotheparkProducer
+RESPONSE PlayerRemarkWorldC6M1_IntoThePark2Producer CHARACTER Producer SUBTITLE "Through this park."
+RULE PlayerRemarkWorldC6M1_IntoThePark2Producer CRITERIA ConceptRemark IsProducer IsWorldC6M1_IntoThePark2 IsNotSaidWorldC6M1_IntoThePark2 IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_IntoThePark2Producer
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreProducer CHARACTER Producer SUBTITLE "Through this store."
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreProducer CHARACTER Producer SUBTITLE "Through the store."
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreProducer CHARACTER Producer SUBTITLE "Guns in the store."
+RULE PlayerRemarkWorldC6M1_IntoTheStoreProducer CRITERIA ConceptRemark IsProducer IsWorldC6M1_IntoTheStore IsNotSaidWorldC6M1_IntoTheStore IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreProducer
+RESPONSE PlayerRemarkWorldC6M1_PostWeddingProducer CHARACTER Producer SUBTITLE "Check the tents."
+RESPONSE PlayerRemarkWorldC6M1_PostWeddingProducer CHARACTER Producer SUBTITLE "Well, this isn't the worst wedding I've ever been to."
+RESPONSE PlayerRemarkWorldC6M1_PostWeddingProducer CHARACTER Producer SUBTITLE "Check the tents."
+RULE PlayerRemarkWorldC6M1_PostWeddingProducer CRITERIA ConceptRemark IsProducer IsWorldC6M1_PostWedding IsNotSaidWorldC6M1_PostWedding IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear600 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_PostWeddingProducer
+RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyProducer CHARACTER Producer SUBTITLE "Behind this bus."
+RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyProducer CHARACTER Producer SUBTITLE "Safe house!"
+RULE PlayerRemarkWorldC6M1_SafeRoomAlleyProducer CRITERIA ConceptRemark IsProducer IsWorldC6M1_SafeRoomAlley IsNotSaidWorldC6M1_SafeRoomAlley IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear600 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyProducer
+RESPONSE PlayerRemarkWorldC6M1_ThroughBarProducer CHARACTER Producer SUBTITLE "Through here!"
+RESPONSE PlayerRemarkWorldC6M1_ThroughBarProducer CHARACTER Producer SUBTITLE "Let's go through here!"
+RULE PlayerRemarkWorldC6M1_ThroughBarProducer CRITERIA ConceptRemark IsProducer IsWorldC6M1_ThroughBar IsNotSaidWorldC6M1_ThroughBar IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_ThroughBarProducer
+RESPONSE PlayerRemarkWorldC6M1_UpHereProducer CHARACTER Producer SUBTITLE "We can get up here!"
+RESPONSE PlayerRemarkWorldC6M1_UpHereProducer CHARACTER Producer SUBTITLE "We can get through up here."
+RULE PlayerRemarkWorldC6M1_UpHereProducer CRITERIA ConceptRemark IsProducer IsWorldC6M1_UpHere IsNotSaidWorldC6M1_UpHere IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_UpHereProducer
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairsProducer CHARACTER Producer SUBTITLE "Let's go upstairs."
+RULE PlayerRemarkWorldC6M1_UpTheStairsProducer CRITERIA ConceptRemark IsProducer IsWorldC6M1_UpTheStairs IsNotSaidWorldC6M1_UpTheStairs IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_UpTheStairsProducer
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Producer CHARACTER Producer SUBTITLE "Go upstairs."
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Producer CHARACTER Producer SUBTITLE "Go upstairs."
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Producer CHARACTER Producer SUBTITLE "Up the stairs!"
+RULE PlayerRemarkWorldC6M1_UpTheStairs2Producer CRITERIA ConceptRemark IsProducer IsWorldC6M1_UpTheStairs2 IsNotSaidWorldC6M1_UpTheStairs2 IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Producer
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnProducer CHARACTER Producer SUBTITLE "I don't know what she's crying about, at least she got married."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnProducer CHARACTER Producer SUBTITLE "You see? This is why I hate weddings."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnProducer CHARACTER Producer SUBTITLE "This is one time I don't mind being the bridesmaid."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnProducer CHARACTER Producer SUBTITLE "Something old, something new, something about to rip your guts out."
+RULE PlayerRemarkWorldC6M1_WeddingWarnProducer CRITERIA ConceptRemark IsProducer IsWorldC6M1_WeddingWarn IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarnProducer
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Producer CHARACTER Producer SUBTITLE "I don't know what she's crying about, at least she got married."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Producer CHARACTER Producer SUBTITLE "You see? This is why I hate weddings."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Producer CHARACTER Producer SUBTITLE "This is one time I don't mind being the bridesmaid."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Producer CHARACTER Producer SUBTITLE "Something old, something new, something about to rip your guts out."
+RULE PlayerRemarkWorldC6M1_WeddingWarn1Producer CRITERIA ConceptRemark IsProducer IsWorldC6M1_WeddingWarn1 IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Producer
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Producer CHARACTER Producer SUBTITLE "I don't know what she's crying about, at least she got married."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Producer CHARACTER Producer SUBTITLE "You see? This is why I hate weddings."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Producer CHARACTER Producer SUBTITLE "This is one time I don't mind being the bridesmaid."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Producer CHARACTER Producer SUBTITLE "Something old, something new, something about to rip your guts out."
+RULE PlayerRemarkWorldC6M1_WeddingWarn2Producer CRITERIA ConceptRemark IsProducer IsWorldC6M1_WeddingWarn2 IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Producer
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Producer CHARACTER Producer SUBTITLE "I don't know what she's crying about, at least she got married."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Producer CHARACTER Producer SUBTITLE "You see? This is why I hate weddings."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Producer CHARACTER Producer SUBTITLE "This is one time I don't mind being the bridesmaid."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Producer CHARACTER Producer SUBTITLE "Something old, something new, something about to rip your guts out."
+RULE PlayerRemarkWorldC6M1_WeddingWarn3Producer CRITERIA ConceptRemark IsProducer IsWorldC6M1_WeddingWarn3 IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Producer
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnAngelProducer CHARACTER Producer SUBTITLE "Hey Ellis look, it's another angel."
+RULE PlayerRemarkWorldC6M1_WeddingWarnAngelProducer CRITERIA ConceptRemark IsProducer IsWorldC6M1_WeddingWarn IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsMechanicNear800Weight0 IsZoeyIntroActor ZoeyGroup2 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarnAngelProducer
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankProducer CHARACTER Producer SUBTITLE "Quick over this plank."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankProducer CHARACTER Producer SUBTITLE "Hurry up over this plank."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankProducer CHARACTER Producer SUBTITLE "I am not looking down."
+RULE PlayerRemarkWorldC6M2_AcrossPlankProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_AcrossPlank IsNotSaidWorldC6M2_AcrossPlank IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear250 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_AcrossPlankProducer
+RESPONSE PlayerRemarkWorldC6M2_AfterGate1Producer CHARACTER Producer SUBTITLE "Don't stop, let's go!"
+RESPONSE PlayerRemarkWorldC6M2_AfterGate1Producer CHARACTER Producer SUBTITLE "Keep moving!"
+RULE PlayerRemarkWorldC6M2_AfterGate1Producer CRITERIA ConceptRemark IsProducer IsWorldC6M2_AfterGate1 IsNotSaidWorldC6M2_AfterGate1 IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_AfterGate1Producer
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Producer CHARACTER Producer SUBTITLE "Nick, you've got a turd on your shoulder."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Producer CHARACTER Producer SUBTITLE "Nick, you've got a turd on your shoulder."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Producer CHARACTER Producer SUBTITLE "Nick, there's something on your shoulder."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Producer CHARACTER Producer SUBTITLE "There goes my boots."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Producer CHARACTER Producer SUBTITLE "That alarm is not turning off."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Producer CHARACTER Producer SUBTITLE "We need to keep running."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Producer CHARACTER Producer SUBTITLE "We need to keep running."
+RULE PlayerRemarkWorldC6M2_AfterGate2Producer CRITERIA ConceptRemark IsProducer IsWorldC6M2_AfterGate2 IsNotSaidWorldC6M2_AfterGate2 IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_AfterGate2Producer
+RESPONSE PlayerRemarkWorldC6M2_DownHereProducer CHARACTER Producer SUBTITLE "Down here!"
+RESPONSE PlayerRemarkWorldC6M2_DownHereProducer CHARACTER Producer SUBTITLE "Down here."
+RESPONSE PlayerRemarkWorldC6M2_DownHereProducer CHARACTER Producer SUBTITLE "Down here!"
+RULE PlayerRemarkWorldC6M2_DownHereProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_DownHere IsNotSaidWorldC6M2_DownHere IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_DownHereProducer
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingProducer CHARACTER Producer SUBTITLE "Through here."
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingProducer CHARACTER Producer SUBTITLE "In here."
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingProducer CHARACTER Producer SUBTITLE "Through this building."
+RULE PlayerRemarkWorldC6M2_DownIntoBuildingProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_DownIntoBuilding IsNotSaidWorldC6M2_DownIntoBuilding IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingProducer
+RESPONSE PlayerRemarkWorldC6M2_FinalLadderProducer CHARACTER Producer SUBTITLE "Another ladder."
+RESPONSE PlayerRemarkWorldC6M2_FinalLadderProducer CHARACTER Producer SUBTITLE "We can get up here."
+RULE PlayerRemarkWorldC6M2_FinalLadderProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_FinalLadder IsNotSaidWorldC6M2_FinalLadder IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_FinalLadderProducer
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterProducer CHARACTER Producer SUBTITLE "Back in the water!"
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterProducer CHARACTER Producer SUBTITLE "Yay, back in the water!"
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterProducer CHARACTER Producer SUBTITLE "Yay, great, back in the water!"
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterProducer CHARACTER Producer SUBTITLE "(Sarcastically) Yay! More water!"
+RULE PlayerRemarkWorldC6M2_FinalWaterProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_FinalWater IsNotSaidWorldC6M2_FinalWater IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_FinalWaterProducer
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoProducer CHARACTER Producer SUBTITLE "Don't stop, let's go!"
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoProducer CHARACTER Producer SUBTITLE "Keep moving!"
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoProducer CHARACTER Producer SUBTITLE "KEEP MOVING!"
+RULE PlayerRemarkWorldC6M2_FinalWaterGoGoProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_FinalWaterGoGo IsNotSaidWorldC6M2_FinalWaterGoGo IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoProducer
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubProducer CHARACTER Producer SUBTITLE "Into the club."
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubProducer CHARACTER Producer SUBTITLE "The tour is in the club."
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubProducer CHARACTER Producer SUBTITLE "The tour is in the club."
+RULE PlayerRemarkWorldC6M2_InJazzClubProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_InJazzClub IsNotSaidWorldC6M2_InJazzClub IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear1000 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InJazzClubProducer
+RESPONSE PlayerRemarkWorldC6M2_InSewer1Producer CHARACTER Producer SUBTITLE "Nick, I'm pretty sure this is sewage."
+RESPONSE PlayerRemarkWorldC6M2_InSewer1Producer CHARACTER Producer SUBTITLE "This is more interesting than phase one."
+RULE PlayerRemarkWorldC6M2_InSewer1Producer CRITERIA ConceptRemark IsProducer IsWorldC6M2_InSewer1 IsNotSaidWorldC6M2_InSewer1 IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InSewer1Producer
+RESPONSE PlayerRemarkWorldC6M2_InSewer2Producer CHARACTER Producer SUBTITLE "Hey, Nick! Splash fight!"
+RULE PlayerRemarkWorldC6M2_InSewer2Producer CRITERIA ConceptRemark IsProducer IsWorldC6M2_InSewer2 IsNotSaidWorldC6M2_InSewer2 IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsSaidWorldC6M2_InSewer1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InSewer2Producer
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Producer CHARACTER Producer SUBTITLE "Out of the water!"
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Producer CHARACTER Producer SUBTITLE "Out of the water!"
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Producer CHARACTER Producer SUBTITLE "Let's get out!"
+RULE PlayerRemarkWorldC6M2_InSewerLadder1Producer CRITERIA ConceptRemark IsProducer IsWorldC6M2_InSewerLadder1 IsNotSaidWorldC6M2_InSewerLadder1 IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Producer
+RESPONSE PlayerRemarkWorldC6M2_IntoConstructionProducer CHARACTER Producer SUBTITLE "Let's jump down."
+RESPONSE PlayerRemarkWorldC6M2_IntoConstructionProducer CHARACTER Producer SUBTITLE "Down into the construction site."
+RULE PlayerRemarkWorldC6M2_IntoConstructionProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_IntoConstruction IsNotSaidWorldC6M2_IntoConstruction IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear150 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_IntoConstructionProducer
+RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallProducer CHARACTER Producer SUBTITLE "Get into the pool hall."
+RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallProducer CHARACTER Producer SUBTITLE "We can climb in through the window."
+RULE PlayerRemarkWorldC6M2_IntoPoolHallProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_IntoPoolHall IsNotSaidWorldC6M2_IntoPoolHall IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallProducer
+RESPONSE PlayerRemarkWorldC6M2_JukeBoxProducer CHARACTER Producer SUBTITLE "Ugh. This jukebox sucks."
+RESPONSE PlayerRemarkWorldC6M2_JukeBoxProducer CHARACTER Producer SUBTITLE "Ugh. This jukebox sucks."
+RULE PlayerRemarkWorldC6M2_JukeBoxProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_JukeBox IsNotSaidWorldC6M2_JukeBox IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear150 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_JukeBoxProducer
+RESPONSE PlayerRemarkWorldC6M2_JumpDownProducer CHARACTER Producer SUBTITLE "Let's jump together."
+RESPONSE PlayerRemarkWorldC6M2_JumpDownProducer CHARACTER Producer SUBTITLE "Why is it always water?"
+RULE PlayerRemarkWorldC6M2_JumpDownProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_JumpDown IsNotSaidWorldC6M2_JumpDown IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_JumpDownProducer
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Producer CHARACTER Producer SUBTITLE "Follow the walkway."
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Producer CHARACTER Producer SUBTITLE "Keep to the walkway."
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Producer CHARACTER Producer SUBTITLE "Stay off the dirt, it's historical."
+RULE PlayerRemarkWorldC6M2_OnTourWalk1Producer CRITERIA ConceptRemark IsProducer IsWorldC6M2_OnTourWalk1 IsNotSaidWorldC6M2_OnTourWalk1 IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Producer
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk2Producer CHARACTER Producer SUBTITLE "Only in the South would this pass for a museum."
+RULE PlayerRemarkWorldC6M2_OnTourWalk2Producer CRITERIA ConceptRemark IsProducer IsWorldC6M2_OnTourWalk2 IsNotSaidWorldC6M2_OnTourWalk2 IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OnTourWalk2Producer
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk3Producer CHARACTER Producer SUBTITLE "Five dollars well spent."
+RULE PlayerRemarkWorldC6M2_OnTourWalk3Producer CRITERIA ConceptRemark IsProducer IsWorldC6M2_OnTourWalk3 IsNotSaidWorldC6M2_OnTourWalk3 IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OnTourWalk3Producer
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Producer CHARACTER Producer SUBTITLE "Get ready an alarm is going to sound when we open this."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Producer CHARACTER Producer SUBTITLE "Get ready to go once we hit this button."
+RULE PlayerRemarkWorldC6M2_OpenGate1Producer CRITERIA ConceptRemark IsProducer IsWorldC6M2_OpenGate1 IsNotSaidWorldC6M2_OpenGate1 IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSaidOpenedGate1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OpenGate1Producer
+RESPONSE PlayerRemarkWorldC6M2_Phase2Producer CHARACTER Producer SUBTITLE "Another phase? I'm still not done thinking about phase one."
+RESPONSE PlayerRemarkWorldC6M2_Phase2Producer CHARACTER Producer SUBTITLE "Phase two? Phase one was finished?"
+RESPONSE PlayerRemarkWorldC6M2_Phase2Producer CHARACTER Producer SUBTITLE "I hope phase two is as good as phase one."
+RESPONSE PlayerRemarkWorldC6M2_Phase2Producer CHARACTER Producer SUBTITLE "I've never had so much fun learning."
+RESPONSE PlayerRemarkWorldC6M2_Phase2Producer CHARACTER Producer SUBTITLE "That was almost as bad as the Seattle underground tour."
+RULE PlayerRemarkWorldC6M2_Phase2Producer CRITERIA ConceptRemark IsProducer IsWorldC6M2_Phase2 IsNotSaidWorldC6M2_Phase2 IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_Phase2Producer
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownProducer CHARACTER Producer SUBTITLE "Down the stairs!"
+RULE PlayerRemarkWorldC6M2_Phase2DownProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_Phase2Down IsNotSaidWorldC6M2_Phase2Down IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_Phase2DownProducer
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseProducer CHARACTER Producer SUBTITLE "Down, go down!"
+RULE PlayerRemarkWorldC6M2_Phase2DownIntenseProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_Phase2Down IsNotSaidWorldC6M2_Phase2Down IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IntensityOver75 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseProducer
+RESPONSE PlayerRemarkWorldC6M2_PostGate1xProducer CHARACTER Producer SUBTITLE "Back in the water."
+RULE PlayerRemarkWorldC6M2_PostGate1xProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_PostGate1 IsNotSaidWorldC6M2_PostGate1 IsNotCoughing IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsSaidOpenedGate1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_PostGate1xProducer
+RESPONSE PlayerRemarkWorldC6M2_SafeRoomProducer CHARACTER Producer SUBTITLE "Saferoom!"
+RULE PlayerRemarkWorldC6M2_SafeRoomProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_SafeRoom IsNotSaidWorldC6M2_SafeRoom IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear800 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_SafeRoomProducer
+RESPONSE PlayerRemarkWorldC6M2_SuitcaseProducer CHARACTER Producer SUBTITLE "Is this your suitcase Nick?"
+RESPONSE PlayerRemarkWorldC6M2_SuitcaseProducer CHARACTER Producer SUBTITLE "Heh. Is this your suitcase Nick?"
+RULE PlayerRemarkWorldC6M2_SuitcaseProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_Suitcase IsNotSaidWorldC6M2_Suitcase IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear100 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_SuitcaseProducer
+RESPONSE PlayerRemarkWorldC6M2_TourEntranceProducer CHARACTER Producer SUBTITLE "Maybe there's no zombies down here."
+RULE PlayerRemarkWorldC6M2_TourEntranceProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_TourEntrance IsNotSaidWorldC6M2_TourEntrance IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_TourEntranceProducer
+RESPONSE PlayerRemarkWorldC6M2_UpCatWalkProducer CHARACTER Producer SUBTITLE "A ladder!"
+RESPONSE PlayerRemarkWorldC6M2_UpCatWalkProducer CHARACTER Producer SUBTITLE "Thank god, a ladder!"
+RESPONSE PlayerRemarkWorldC6M2_UpCatWalkProducer CHARACTER Producer SUBTITLE "Thank god, a ladder!"
+RULE PlayerRemarkWorldC6M2_UpCatWalkProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_UpCatWalk IsNotSaidWorldC6M2_UpCatWalk IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_UpCatWalkProducer
+RESPONSE PlayerRemarkWorldC6M2_UpStairsProducer CHARACTER Producer SUBTITLE "Up the stairs!"
+RESPONSE PlayerRemarkWorldC6M2_UpStairsProducer CHARACTER Producer SUBTITLE "The street's up there!"
+RESPONSE PlayerRemarkWorldC6M2_UpStairsProducer CHARACTER Producer SUBTITLE "Up the stairs!"
+RULE PlayerRemarkWorldC6M2_UpStairsProducer CRITERIA ConceptRemark IsProducer IsWorldC6M2_UpStairs IsNotSaidWorldC6M2_UpStairs IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_UpStairsProducer
+RESPONSE PlayerRemarkWorldC6M2_UpStairs2Producer CHARACTER Producer SUBTITLE "Go upstairs."
+RESPONSE PlayerRemarkWorldC6M2_UpStairs2Producer CHARACTER Producer SUBTITLE "Let's go upstairs."
+RESPONSE PlayerRemarkWorldC6M2_UpStairs2Producer CHARACTER Producer SUBTITLE "Up the stairs!"
+RULE PlayerRemarkWorldC6M2_UpStairs2Producer CRITERIA ConceptRemark IsProducer IsWorldC6M2_UpStairs2 IsNotSaidWorldC6M2_UpStairs2 IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_UpStairs2Producer
+RESPONSE PlayerRemarkWorldC6M3_BridgeRunProducer CHARACTER Producer SUBTITLE "Get to the car!"
+RESPONSE PlayerRemarkWorldC6M3_BridgeRunProducer CHARACTER Producer SUBTITLE "Thank you guys! GOOD LUCK!"
+RULE PlayerRemarkWorldC6M3_BridgeRunProducer CRITERIA ConceptRemark IsProducer IsWorldC6M3_BridgeRun IsNotSaidWorldC6M3_BridgeRun IsNotCoughing  IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M3_BridgeRunProducer
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeProducer CHARACTER Producer SUBTITLE "Thanks Louis, sure you don't want to come along?"
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeProducer CHARACTER Producer SUBTITLE "Thanks Francis, there's room in the car."
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeProducer CHARACTER Producer SUBTITLE "Thanks Zoey, us women gotta work together."
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeProducer CHARACTER Producer SUBTITLE "Thank you guys for all you've done."
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeProducer CHARACTER Producer SUBTITLE "Thanks! Keep safe."
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeProducer CHARACTER Producer SUBTITLE "Thanks! Good luck."
+RULE PlayerRemarkWorldC6M3_ByBridgeProducer CRITERIA ConceptRemark IsProducer IsWorldC6M3_ByBridge IsNotSaidWorldC6M3_ByBridge IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear300 IsSaidFinalVehicleArrived IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M3_ByBridgeProducer
+RESPONSE PlayerRemarkWorldFootLockerProducer CHARACTER Producer SUBTITLE "Search the locker."
+RESPONSE PlayerRemarkWorldFootLockerProducer CHARACTER Producer SUBTITLE "Check the locker."
+RESPONSE PlayerRemarkWorldFootLockerProducer CHARACTER Producer SUBTITLE "Check the lockers."
+RULE PlayerRemarkWorldFootLockerProducer CRITERIA ConceptRemark IsProducer IsWorldFootLocker IsNotSaidWorldFootLocker IsNotCoughing NotInCombat IsTalk IsTalkProducer IsWorldTalkProducer IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldFootLockerProducer
+RESPONSE C6M3_PourFinishedProducer CHARACTER Producer SUBTITLE ""
+RULE C6M3_PourFinishedProducer CRITERIA ConceptPlayerPourFinished IsProducer IsTalk IsTalkProducer IsWorldTalkProducer  Isc6m3_port ChanceToFire20Percent RESPONSE C6M3_PourFinishedProducer
+RESPONSE SurvivorNearFinaleC6M3Producer CHARACTER Producer SUBTITLE ""
+RULE SurvivorNearFinaleC6M3Producer CRITERIA ConceptPlayerNearFinale IsNotCoughing IsProducer IsNotSaidFinaleAhead NotInCombat IsTalk IsTalkProducer IsNotIncapacitated IsWorldTalkProducer Isc6m3_port RESPONSE SurvivorNearFinaleC6M3Producer
+RESPONSE SurvivorPickupGolfCLubProducer CHARACTER Producer SUBTITLE "Grabbing a golf club."
+RESPONSE SurvivorPickupGolfCLubProducer CHARACTER Producer SUBTITLE "Grabbing the driver."
+RESPONSE SurvivorPickupGolfCLubProducer CHARACTER Producer SUBTITLE "Fore!"
+RULE SurvivorPickupGolfCLubProducer CRITERIA ConceptPlayerPickup IsNotCoughing IsProducer IsPickedUpGolfClub  IsNotSpeaking  ProducerNotPickedUpItem IsTalk IsTalkProducer IsWorldTalkProducer RESPONSE SurvivorPickupGolfCLubProducer
+RESPONSE SurvivorPickupM60Producer CHARACTER Producer SUBTITLE "I'm taking the big gun."
+RESPONSE SurvivorPickupM60Producer CHARACTER Producer SUBTITLE "I'm taking the big gun."
+RESPONSE SurvivorPickupM60Producer CHARACTER Producer SUBTITLE "Taking the big gun."
+RESPONSE SurvivorPickupM60Producer CHARACTER Producer SUBTITLE "Oh my god, this gun feels good."
+RESPONSE SurvivorPickupM60Producer CHARACTER Producer SUBTITLE "I have found my new favorite gun."
+RULE SurvivorPickupM60Producer CRITERIA ConceptPlayerPickup IsNotCoughing IsProducer IsPickedUpM60  IsNotSpeaking  ProducerNotPickedUpItem IsTalk IsTalkProducer IsWorldTalkProducer RESPONSE SurvivorPickupM60Producer
+RESPONSE HistoricTour02bProducer CHARACTER Producer SUBTITLE "(sarcastically) Thanks Coach."
+RESPONSE HistoricTour02bProducer CHARACTER Producer SUBTITLE "(sarcastically) Gee, thanks Coach."
+RESPONSE HistoricTour02bProducer CHARACTER Producer SUBTITLE "(sarcastically) Uh, gee, glad I asked."
+RESPONSE HistoricTour02bProducer CHARACTER Producer SUBTITLE "(sarcastically) Gee, thanks Coach."
+RESPONSE HistoricTour02bProducer CHARACTER Producer SUBTITLE "(sarcastically) Glad I asked."
+RESPONSE HistoricTour02bProducer CHARACTER Producer SUBTITLE "Good enough."
+RESPONSE HistoricTour02bProducer CHARACTER Producer SUBTITLE "Well, okay... Good enough."
+RULE HistoricTour02bProducer CRITERIA ConceptHistoricTour02b IsProducer RESPONSE HistoricTour02bProducer
+RESPONSE WeddingWitchDead01Producer CHARACTER Producer SUBTITLE "Nick, you scare me."
+RULE WeddingWitchDead01Producer CRITERIA ConceptWeddingWitchDead01 IsProducer RESPONSE WeddingWitchDead01Producer
+RESPONSE WeddingWitchDead04Producer CHARACTER Producer SUBTITLE "Yeah, let's just get of here."
+RULE WeddingWitchDead04Producer CRITERIA ConceptWeddingWitchDead04 IsProducer RESPONSE WeddingWitchDead04Producer
+RESPONSE Player.LostCallC6M3Producer CHARACTER Producer SUBTITLE ""
+RULE Player.LostCallC6M3Producer CRITERIA ConceptTalkIdle IsProducer IsClosestSurvivorFar3000 IsNotSaidPlayerLostCall Isc6m3_port  ChanceToFire100Percent IsNotSpeakingWeight0 RESPONSE Player.LostCallC6M3Producer
+RESPONSE SurvivorSpottedGolfClubProducer CHARACTER Producer SUBTITLE "Golf club."
+RESPONSE SurvivorSpottedGolfClubProducer CHARACTER Producer SUBTITLE "Golf club here."
+RESPONSE SurvivorSpottedGolfClubProducer CHARACTER Producer SUBTITLE "Club here."
+RESPONSE SurvivorSpottedGolfClubProducer CHARACTER Producer SUBTITLE "Driver here."
+RULE SurvivorSpottedGolfClubProducer CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsProducer IsTalk IsTalkProducer IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsGolfClub IsWorldTalkProducer IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGolfClubProducer
+RESPONSE SurvivorSpottedGolfClubAutoProducer CHARACTER Producer SUBTITLE "Golf club."
+RESPONSE SurvivorSpottedGolfClubAutoProducer CHARACTER Producer SUBTITLE "Golf club here."
+RESPONSE SurvivorSpottedGolfClubAutoProducer CHARACTER Producer SUBTITLE "Club here."
+RESPONSE SurvivorSpottedGolfClubAutoProducer CHARACTER Producer SUBTITLE "Driver here."
+RULE SurvivorSpottedGolfClubAutoProducer CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsProducer IsTalk IsTalkProducer IsNotSmartLookAuto IsGolfClub IsWorldTalkProducer RESPONSE SurvivorSpottedGolfClubAutoProducer
+RESPONSE SurvivorSpottedM60Producer CHARACTER Producer SUBTITLE "There's a big gun."
+RESPONSE SurvivorSpottedM60Producer CHARACTER Producer SUBTITLE "Big gun here."
+RESPONSE SurvivorSpottedM60Producer CHARACTER Producer SUBTITLE "Big gun here."
+RESPONSE SurvivorSpottedM60Producer CHARACTER Producer SUBTITLE "There's a big gun over here."
+RESPONSE SurvivorSpottedM60Producer CHARACTER Producer SUBTITLE "Man, big gun over here."
+RULE SurvivorSpottedM60Producer CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsProducer IsTalk IsTalkProducer IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsM60 IsWorldTalkProducer IsNotSpeakingWeight0 RESPONSE SurvivorSpottedM60Producer
+RESPONSE SurvivorSpottedM60AutoProducer CHARACTER Producer SUBTITLE "There's a big gun."
+RESPONSE SurvivorSpottedM60AutoProducer CHARACTER Producer SUBTITLE "Big gun here."
+RESPONSE SurvivorSpottedM60AutoProducer CHARACTER Producer SUBTITLE "Big gun here."
+RESPONSE SurvivorSpottedM60AutoProducer CHARACTER Producer SUBTITLE "There's a big gun over here."
+RESPONSE SurvivorSpottedM60AutoProducer CHARACTER Producer SUBTITLE "Man, big gun over here."
+RULE SurvivorSpottedM60AutoProducer CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsProducer IsTalk IsTalkProducer IsNotSmartLookAuto IsM60 IsWorldTalkProducer RESPONSE SurvivorSpottedM60AutoProducer
+
+
+

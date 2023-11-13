@@ -1,0 +1,536 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc1/scripts/talker/mechanic_dlc1.txt
+-------------------------------------------------------
+
+RESPONSE L4D1PlayerNiceShotMechanic CHARACTER Mechanic SUBTITLE "Hey good shootin'!"
+RULE L4D1PlayerNiceShotMechanic CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsMechanic IsSubjectDistNear1500  IsTalk IsTalkMechanic IsWorldTalkMechanic IsNotSpeaking ChanceToFire70Percent RESPONSE L4D1PlayerNiceShotMechanic
+RESPONSE L4D1PlayerNiceShotFrancisMechanic CHARACTER Mechanic SUBTITLE "Hey, nice shot Francis."
+RESPONSE L4D1PlayerNiceShotFrancisMechanic CHARACTER Mechanic SUBTITLE "Thanks Francis!"
+RESPONSE L4D1PlayerNiceShotFrancisMechanic CHARACTER Mechanic SUBTITLE "Francis!"
+RULE L4D1PlayerNiceShotFrancisMechanic CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsMechanic IsSubjectDistNear1500  IsTalk IsTalkMechanic  IsWorldTalkMechanic SubjectIsBiker ChanceToFire70Percent IsNotSpeaking RESPONSE L4D1PlayerNiceShotFrancisMechanic
+RESPONSE L4D1PlayerNiceShotLouisMechanic CHARACTER Mechanic SUBTITLE "Louis, you are deadly, man!"
+RESPONSE L4D1PlayerNiceShotLouisMechanic CHARACTER Mechanic SUBTITLE "Nice shooting Lou!"
+RESPONSE L4D1PlayerNiceShotLouisMechanic CHARACTER Mechanic SUBTITLE "Loooouis!"
+RESPONSE L4D1PlayerNiceShotLouisMechanic CHARACTER Mechanic SUBTITLE "Loooouis!"
+RESPONSE L4D1PlayerNiceShotLouisMechanic CHARACTER Mechanic SUBTITLE "Nice shooting Lou!"
+RULE L4D1PlayerNiceShotLouisMechanic CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsMechanic IsSubjectDistNear1500  IsTalk IsTalkMechanic  IsWorldTalkMechanic SubjectIsManager ChanceToFire70Percent IsNotSpeaking RESPONSE L4D1PlayerNiceShotLouisMechanic
+RESPONSE L4D1PlayerNiceShotZoeyMechanic CHARACTER Mechanic SUBTITLE "A girl who can shoot? I am in love."
+RESPONSE L4D1PlayerNiceShotZoeyMechanic CHARACTER Mechanic SUBTITLE "Man, you tell me Zoey don't look good with that gun. Mm!"
+RESPONSE L4D1PlayerNiceShotZoeyMechanic CHARACTER Mechanic SUBTITLE "Hey, nice shot Zoey!"
+RESPONSE L4D1PlayerNiceShotZoeyMechanic CHARACTER Mechanic SUBTITLE "Zoey! Zoey! Zoey! Man I just love sayin' it."
+RESPONSE L4D1PlayerNiceShotZoeyMechanic CHARACTER Mechanic SUBTITLE "Zoey! Zoey! Zoey! I just love sayin' it!"
+RULE L4D1PlayerNiceShotZoeyMechanic CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsMechanic IsSubjectDistNear1500  IsTalk IsTalkMechanic  IsWorldTalkMechanic SubjectIsTeenGirl ChanceToFire70Percent IsNotSpeaking RESPONSE L4D1PlayerNiceShotZoeyMechanic
+RESPONSE C6M3GasPourMechanic CHARACTER Mechanic SUBTITLE "Filling the generator."
+RESPONSE C6M3GasPourMechanic CHARACTER Mechanic SUBTITLE "Hey I'm filling the generator."
+RESPONSE C6M3GasPourMechanic CHARACTER Mechanic SUBTITLE "Pouring one in."
+RESPONSE C6M3GasPourMechanic CHARACTER Mechanic SUBTITLE "One more in the gennie."
+RESPONSE C6M3GasPourMechanic CHARACTER Mechanic SUBTITLE "One more in the gennie."
+RESPONSE C6M3GasPourMechanic CHARACTER Mechanic SUBTITLE "Can't fit much more."
+RESPONSE C6M3GasPourMechanic CHARACTER Mechanic SUBTITLE "This thing can't fit much more."
+RULE C6M3GasPourMechanic CRITERIA ConceptPlayerPourStarted IsMechanic IsTalk IsTalkMechanic IsWorldTalkMechanic IsNotScavenge isC6M3_Port ChanceToFire70Percent RESPONSE C6M3GasPourMechanic
+RESPONSE C6M1_IntotheparkNoHealthMechanic CHARACTER Mechanic SUBTITLE "Grab a health kit."
+RESPONSE C6M1_IntotheparkNoHealthMechanic CHARACTER Mechanic SUBTITLE "Everybody grab a health kit, now."
+RULE C6M1_IntotheparkNoHealthMechanic CRITERIA ConceptC6M1_IntotheparkNoHealth IsMechanic RESPONSE C6M1_IntotheparkNoHealthMechanic
+RESPONSE C6M1Intro_01aMechanic CHARACTER Mechanic SUBTITLE "Thanks! Yeah, she's purty purty. Any chance you could lower the bridge for us?"
+RESPONSE C6M1Intro_01aMechanic CHARACTER Mechanic SUBTITLE "Thanks, thanks! Hey man, any chance you could lower the bridge for us?"
+RULE C6M1Intro_01aMechanic CRITERIA ConceptC6M1Intro_01a IsMechanic IsNotVersus RESPONSE C6M1Intro_01aMechanic
+RESPONSE C6M1Intro_01Biker02Mechanic CHARACTER Mechanic SUBTITLE "Oh man, I know! That's what I've been sayin'!. If there're zombies there's got to be vampires, wolfmen, mummies, aliens and all that shit man. It just makes sense."
+RULE C6M1Intro_01Biker02Mechanic CRITERIA ConceptintroC6M1 IsMechanic IsFrancisIntroActor IsNotSaidIntroScene FrancisGroup2 IsNotVersus RESPONSE C6M1Intro_01Biker02Mechanic
+RESPONSE C6M1Intro_01cMechanic CHARACTER Mechanic SUBTITLE "Oh, come on, man!"
+RULE C6M1Intro_01cMechanic CRITERIA ConceptC6M1Intro_01c IsMechanic IsNotVersus RESPONSE C6M1Intro_01cMechanic
+RESPONSE C6M1Intro_01TeenGirl04Mechanic CHARACTER Mechanic SUBTITLE "Can you lower the bridge so we can get our car across?"
+RULE C6M1Intro_01TeenGirl04Mechanic CRITERIA ConceptintroC6M1 IsMechanic IsZoeyIntroActor IsNotSaidIntroScene MoreThan60  LessThan100 IsNotVersus RESPONSE C6M1Intro_01TeenGirl04Mechanic
+RESPONSE C6M1Intro_02aMechanic CHARACTER Mechanic SUBTITLE "No, sir! Just borrowin' the car! Any chance you could lower that bridge?"
+RESPONSE C6M1Intro_02aMechanic CHARACTER Mechanic SUBTITLE "No, sir! Just borrowin' this beauty! Any chance you could lower that bridge for us?"
+RULE C6M1Intro_02aMechanic CRITERIA ConceptC6M1Intro_02a IsMechanic RESPONSE C6M1Intro_02aMechanic
+RESPONSE C6M1Intro_11aMechanic CHARACTER Mechanic SUBTITLE "Well, thanks. Hey, could y'all lower your bridge so we can get across? We're heading to New Orleans."
+RESPONSE C6M1Intro_11aMechanic CHARACTER Mechanic SUBTITLE "Thanks, thanks, yeah. Hey, could you lower the bridge so we can get across? We're heading over to New Orleans."
+RULE C6M1Intro_11aMechanic CRITERIA ConceptC6M1Intro_11a IsMechanic RESPONSE C6M1Intro_11aMechanic
+RESPONSE C6M1Intro_11cMechanic CHARACTER Mechanic SUBTITLE "Okay then. Wish us luck."
+RESPONSE C6M1Intro_11cMechanic CHARACTER Mechanic SUBTITLE "(to self) Oh my gosh that is the prettiest girl I have ever seen."
+RESPONSE C6M1Intro_11cMechanic CHARACTER Mechanic SUBTITLE "Okay, thanks. Wish us luck."
+RESPONSE C6M1Intro_11cMechanic CHARACTER Mechanic SUBTITLE "(to self) Whoa, man, that was the prettiest girl I have ever seen."
+RESPONSE C6M1Intro_11cMechanic CHARACTER Mechanic SUBTITLE "(to self) Man oh man. I jumped Jimmy Gibbs car through a plate glass window and I just met the prettiest girl I have ever seen. Nick, shoot me right now, brother, things are never going to get any better than this."
+RULE C6M1Intro_11cMechanic CRITERIA ConceptC6M1Intro_11c IsMechanic RESPONSE C6M1Intro_11cMechanic
+RESPONSE C6M1Intro_12bMechanic CHARACTER Mechanic SUBTITLE "(to self) She is so beautiful, she is so beautiful."
+RULE C6M1Intro_12bMechanic CRITERIA ConceptC6M1Intro_12b IsMechanic RESPONSE C6M1Intro_12bMechanic
+RESPONSE C6M1Intro_13aMechanic CHARACTER Mechanic SUBTITLE "Well Hello! Hello... Howdy. Beautiful weather, huh... we're havin' (to group) Oh god, I'm too nervous to talk to her, one of you better do this."
+RULE C6M1Intro_13aMechanic CRITERIA ConceptC6M1Intro_13a IsMechanic RESPONSE C6M1Intro_13aMechanic
+RESPONSE C6M1Intro_13cMechanic CHARACTER Mechanic SUBTITLE "Nah, I can't. Look at her."
+RESPONSE C6M1Intro_13cMechanic CHARACTER Mechanic SUBTITLE "Nah, I can't. Look at her, she's an angel."
+RULE C6M1Intro_13cMechanic CRITERIA ConceptC6M1Intro_13c IsMechanic RESPONSE C6M1Intro_13cMechanic
+RESPONSE C6M1Intro_13fMechanic CHARACTER Mechanic SUBTITLE "COACH, come on, man!"
+RULE C6M1Intro_13fMechanic CRITERIA ConceptC6M1Intro_13f IsMechanic RESPONSE C6M1Intro_13fMechanic
+RESPONSE C6M1Intro_23bMechanic CHARACTER Mechanic SUBTITLE "Oh, do we uh... need to know  some sort of password or something?"
+RULE C6M1Intro_23bMechanic CRITERIA ConceptC6M1Intro_23b IsMechanic RESPONSE C6M1Intro_23bMechanic
+RESPONSE C6M1Intro_23dMechanic CHARACTER Mechanic SUBTITLE "Well, I guess we'll take it. See ya!"
+RULE C6M1Intro_23dMechanic CRITERIA ConceptC6M1Intro_23d IsMechanic RESPONSE C6M1Intro_23dMechanic
+RESPONSE C6M1Intro_24cMechanic CHARACTER Mechanic SUBTITLE "So you can go ahead and lower that bridge for us then?"
+RULE C6M1Intro_24cMechanic CRITERIA ConceptC6M1Intro_24c IsMechanic RESPONSE C6M1Intro_24cMechanic
+RESPONSE C6M1Intro_24eMechanic CHARACTER Mechanic SUBTITLE "Ahh I gotcha and that's what y'all need help with. All right okay, I don't like it. But okay."
+RULE C6M1Intro_24eMechanic CRITERIA ConceptC6M1Intro_24e IsMechanic RESPONSE C6M1Intro_24eMechanic
+RESPONSE LeavingC6M1StartMechanic CHARACTER Mechanic SUBTITLE ""
+RULE LeavingC6M1StartMechanic CRITERIA ConceptSurvivorLeavingCheckpoint IsMechanic RESPONSE LeavingC6M1StartMechanic
+RESPONSE RemWorldC6M1_WeddingWarn02Mechanic CHARACTER Mechanic SUBTITLE "Ain't seen none Coach, but I'll yell if I do."
+RULE RemWorldC6M1_WeddingWarn02Mechanic CRITERIA ConceptRemWorldC6M1_WeddingWarn02 IsMechanic IsSubjectDistNear800 RESPONSE RemWorldC6M1_WeddingWarn02Mechanic
+RESPONSE WorldC6M1_WeddingWarn03aMechanic CHARACTER Mechanic SUBTITLE "(whispered) Shut up Nick."
+RULE WorldC6M1_WeddingWarn03aMechanic CRITERIA ConceptWorldC6M1_WeddingWarn03a IsMechanic RESPONSE WorldC6M1_WeddingWarn03aMechanic
+RESPONSE C6M2_OpenGate1Mechanic CHARACTER Mechanic SUBTITLE "I opened it."
+RESPONSE C6M2_OpenGate1Mechanic CHARACTER Mechanic SUBTITLE "It's open, GO!"
+RESPONSE C6M2_OpenGate1Mechanic CHARACTER Mechanic SUBTITLE "I hit it, man, GO GO GO!"
+RESPONSE C6M2_OpenGate1Mechanic CHARACTER Mechanic SUBTITLE "I hit it."
+RESPONSE C6M2_OpenGate1Mechanic CHARACTER Mechanic SUBTITLE "Alright, let's boogie."
+RULE C6M2_OpenGate1Mechanic CRITERIA ConceptC6M2_OpenGate1 IsMechanic RESPONSE C6M2_OpenGate1Mechanic
+RESPONSE C6M2_OpenGate1bMechanic CHARACTER Mechanic SUBTITLE "Hey!"
+RULE C6M2_OpenGate1bMechanic CRITERIA ConceptC6M2_OpenGate1b IsMechanic RESPONSE C6M2_OpenGate1bMechanic
+RESPONSE C6M2_OpenGate1BlameMechanic CHARACTER Mechanic SUBTITLE ""
+RULE C6M2_OpenGate1BlameMechanic CRITERIA ConceptC6M2_OpenGate1 IsMechanic IsGamblerNear800Weight0 RESPONSE C6M2_OpenGate1BlameMechanic
+RESPONSE C6M2_OpenGate2Mechanic CHARACTER Mechanic SUBTITLE "It's open, GO!"
+RESPONSE C6M2_OpenGate2Mechanic CHARACTER Mechanic SUBTITLE "I hit it, man, GO GO GO!"
+RESPONSE C6M2_OpenGate2Mechanic CHARACTER Mechanic SUBTITLE "I hit it."
+RESPONSE C6M2_OpenGate2Mechanic CHARACTER Mechanic SUBTITLE "Alright, let's boogie."
+RULE C6M2_OpenGate2Mechanic CRITERIA ConceptC6M2_OpenGate2 IsMechanic RESPONSE C6M2_OpenGate2Mechanic
+RESPONSE C6M2LeavingSafeRoomMechanic CHARACTER Mechanic SUBTITLE "Let's hurry, man. I miss my car."
+RESPONSE C6M2LeavingSafeRoomMechanic CHARACTER Mechanic SUBTITLE "Jimmy Gibb Jr, we're coming for ya, baby."
+RESPONSE C6M2LeavingSafeRoomMechanic CHARACTER Mechanic SUBTITLE "Okay we gotta hurry, man! I miss the car."
+RULE C6M2LeavingSafeRoomMechanic CRITERIA ConceptSurvivorLeavingInitialCheckpoint IsMechanic IsNotSaidC6M2LeavingSafeRoom isc6m2_bedlam ChanceToFire70Percent RESPONSE C6M2LeavingSafeRoomMechanic
+RESPONSE C6M2SafeRoomMechanic CHARACTER Mechanic SUBTITLE ""
+RULE C6M2SafeRoomMechanic CRITERIA ConceptTalkIdle  Joined3 IsMechanic isC6m2_bedlam IsInStartArea AutoIsNotScavenge AutoIsNotSurvival IsNotSaidC6M2SafeRoom IsNotSpeakingWeight0 RESPONSE C6M2SafeRoomMechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo02aMechanic CHARACTER Mechanic SUBTITLE "Nick, for the last time, I am NOT leaving it behind."
+RULE DLC1_C6M2_SafeRoomConvo02aMechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo02a IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo02aMechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo03Mechanic CHARACTER Mechanic SUBTITLE "We gotta find a way to get that bridge up, no way I'm leaving that car behind."
+RESPONSE DLC1_C6M2_SafeRoomConvo03Mechanic CHARACTER Mechanic SUBTITLE "Screw this I just can't leave that car behind. I'm going back for her."
+RULE DLC1_C6M2_SafeRoomConvo03Mechanic CRITERIA ConceptC6M2SafeRoom2 IsMechanic IsFrancisIntroActor FrancisGroup1 IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo03Mechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo03bMechanic CHARACTER Mechanic SUBTITLE "JUST A CAR!?!? JUST A CAR!?!?! That's like saying the mona Lisa's just a sculpture or shit, that's like sayin' Jimmy Gibb's just a driver. That's like saying that girl on the bridge is just a little pretty, she's an angel. Shit, that's like, that's like,"
+RULE DLC1_C6M2_SafeRoomConvo03bMechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo03b IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo03bMechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo06Mechanic CHARACTER Mechanic SUBTITLE "Hey Rochelle; now don't spare my feelings nonr, do you think I got any shot with that Zoey girl?"
+RULE DLC1_C6M2_SafeRoomConvo06Mechanic CRITERIA ConceptC6M2SafeRoom2 IsMechanic IsZoeyIntroActor ZoeyGroup1 IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo06Mechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo08Mechanic CHARACTER Mechanic SUBTITLE "Oh, I keep hoping we drive to a place where there aren't any more zombies."
+RULE DLC1_C6M2_SafeRoomConvo08Mechanic CRITERIA ConceptC6M2SafeRoom2 IsMechanic IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo08Mechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo11aMechanic CHARACTER Mechanic SUBTITLE "I was just thinkin' of her Nick. Man, she is beautiful."
+RESPONSE DLC1_C6M2_SafeRoomConvo11aMechanic CHARACTER Mechanic SUBTITLE "Yeah, I was just thinkin' of her too, Nick. Oh, she is beautiful."
+RULE DLC1_C6M2_SafeRoomConvo11aMechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo11a IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo11aMechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo14bMechanic CHARACTER Mechanic SUBTITLE "Get outta here! Alright!"
+RULE DLC1_C6M2_SafeRoomConvo14bMechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo14b IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo14bMechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo15Mechanic CHARACTER Mechanic SUBTITLE "You know, we've been gone for a while, you think the car is okay?"
+RESPONSE DLC1_C6M2_SafeRoomConvo15Mechanic CHARACTER Mechanic SUBTITLE "You know, we've been gone for a while, you think the car is okay?"
+RULE DLC1_C6M2_SafeRoomConvo15Mechanic CRITERIA ConceptC6M2SafeRoom2 IsMechanic IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo15Mechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo16bMechanic CHARACTER Mechanic SUBTITLE "Yeah, yeah, that's not going to happen."
+RULE DLC1_C6M2_SafeRoomConvo16bMechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo16b IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo16bMechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo16b1Mechanic CHARACTER Mechanic SUBTITLE "Yeah, yeah, that's not going to happen."
+RULE DLC1_C6M2_SafeRoomConvo16b1Mechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo16b1 IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo16b1Mechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo16dMechanic CHARACTER Mechanic SUBTITLE "(knowing laugh) Okay Ro. Whatever you say."
+RULE DLC1_C6M2_SafeRoomConvo16dMechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo16d IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo16dMechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo16fMechanic CHARACTER Mechanic SUBTITLE "(knowing laugh) Okay Coach. Whatever you say."
+RULE DLC1_C6M2_SafeRoomConvo16fMechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo16f IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo16fMechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo17Mechanic CHARACTER Mechanic SUBTITLE "Ah man, that Zoey will never go for a man like me."
+RULE DLC1_C6M2_SafeRoomConvo17Mechanic CRITERIA ConceptC6M2SafeRoom2 IsMechanic IsZoeyIntroActor IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo17Mechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo17aMechanic CHARACTER Mechanic SUBTITLE "Ro, that car's family now. Hell that biker fella's an awesome dude, but we ain't tradin' him for Nick."
+RULE DLC1_C6M2_SafeRoomConvo17aMechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo17a IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo17aMechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo18bMechanic CHARACTER Mechanic SUBTITLE "Oh, Ro, man, that reminds me of this..."
+RULE DLC1_C6M2_SafeRoomConvo18bMechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo18b IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo18bMechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo19aMechanic CHARACTER Mechanic SUBTITLE "Yeah. It's been hell, alright."
+RULE DLC1_C6M2_SafeRoomConvo19aMechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo19a IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo19aMechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo19cMechanic CHARACTER Mechanic SUBTITLE "[happily] Not if we get that bridge down. We'll be drivin' the Jimmy Gibbs Junior all the way to New Orleans!"
+RULE DLC1_C6M2_SafeRoomConvo19cMechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo19c IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo19cMechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo19eMechanic CHARACTER Mechanic SUBTITLE "Well, maybe if we find a nice open stretch, we slow down, and you can jog right alongside. Like in that boxing movie!"
+RULE DLC1_C6M2_SafeRoomConvo19eMechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo19e IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo19eMechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo20Mechanic CHARACTER Mechanic SUBTITLE "Man, if you woulda told me a year ago that I'd be driving around in JIMMY GIBBS JUNIOR'S stock car, I wouldn't have BELIEVED you. It is like... just beyond, man."
+RULE DLC1_C6M2_SafeRoomConvo20Mechanic CRITERIA ConceptC6M2SafeRoom2 IsMechanic IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo20Mechanic
+RESPONSE DLC1_C6M2_SafeRoomConvo21bMechanic CHARACTER Mechanic SUBTITLE "Yeah, no, I seen my share of horror movies."
+RULE DLC1_C6M2_SafeRoomConvo21bMechanic CRITERIA ConceptDLC1_C6M2_SafeRoomConvo21b IsMechanic RESPONSE DLC1_C6M2_SafeRoomConvo21bMechanic
+RESPONSE WorldC6M2_FinalWater01bMechanic CHARACTER Mechanic SUBTITLE "Well, I still like you Nick."
+RULE WorldC6M2_FinalWater01bMechanic CRITERIA ConceptWorldC6M2_FinalWater01b IsMechanic RESPONSE WorldC6M2_FinalWater01bMechanic
+RESPONSE WorldC6M2_InSewer101aMechanic CHARACTER Mechanic SUBTITLE "Don't smell like it."
+RULE WorldC6M2_InSewer101aMechanic CRITERIA ConceptWorldC6M2_InSewer101a IsMechanic RESPONSE WorldC6M2_InSewer101aMechanic
+RESPONSE WorldC6M2_OnTourWalk102bMechanic CHARACTER Mechanic SUBTITLE "Nick! We all see this tours got some problems no sense picking on Coach."
+RULE WorldC6M2_OnTourWalk102bMechanic CRITERIA ConceptWorldC6M2_OnTourWalk102b IsMechanic RESPONSE WorldC6M2_OnTourWalk102bMechanic
+RESPONSE WorldC6M2_Tattoo03b>Mechanic CHARACTER Mechanic SUBTITLE "I like mine better."
+RULE WorldC6M2_Tattoo03b>Mechanic CRITERIA ConceptWorldC6M2_Tattoo03b> IsMechanic RESPONSE WorldC6M2_Tattoo03b>Mechanic
+RESPONSE C6M3_BridgeDownMechanic CHARACTER Mechanic SUBTITLE "It's open, GO GO GO!"
+RESPONSE C6M3_BridgeDownMechanic CHARACTER Mechanic SUBTITLE "It's here, lets' go!"
+RESPONSE C6M3_BridgeDownMechanic CHARACTER Mechanic SUBTITLE "Alright, it's here, lets' go!"
+RESPONSE C6M3_BridgeDownMechanic CHARACTER Mechanic SUBTITLE "Run to Jimmy Gibbs Jr!"
+RESPONSE C6M3_BridgeDownMechanic CHARACTER Mechanic SUBTITLE "Run to Jimmy Gibbs Jr!"
+RESPONSE C6M3_BridgeDownMechanic CHARACTER Mechanic SUBTITLE "Let's go! I'm driving! WOOO!"
+RESPONSE C6M3_BridgeDownMechanic CHARACTER Mechanic SUBTITLE "Everybody get in the damn car!"
+RESPONSE C6M3_BridgeDownMechanic CHARACTER Mechanic SUBTITLE "Get in the car! We're ready!"
+RESPONSE C6M3_BridgeDownMechanic CHARACTER Mechanic SUBTITLE "Come on, let's GO!"
+RULE C6M3_BridgeDownMechanic CRITERIA ConceptC6M3_BridgeDown IsMechanic RESPONSE C6M3_BridgeDownMechanic
+RESPONSE C6M3_BridgeGettoCarMechanic CHARACTER Mechanic SUBTITLE "It's open, GO GO GO!"
+RESPONSE C6M3_BridgeGettoCarMechanic CHARACTER Mechanic SUBTITLE "It's here, lets' go!"
+RESPONSE C6M3_BridgeGettoCarMechanic CHARACTER Mechanic SUBTITLE "Alright, it's here, lets' go!"
+RESPONSE C6M3_BridgeGettoCarMechanic CHARACTER Mechanic SUBTITLE "Run to Jimmy Gibbs Jr!"
+RESPONSE C6M3_BridgeGettoCarMechanic CHARACTER Mechanic SUBTITLE "Run to Jimmy Gibbs Jr!"
+RESPONSE C6M3_BridgeGettoCarMechanic CHARACTER Mechanic SUBTITLE "Let's go! I'm driving! WOOO!"
+RESPONSE C6M3_BridgeGettoCarMechanic CHARACTER Mechanic SUBTITLE "Everybody get in the damn car!"
+RESPONSE C6M3_BridgeGettoCarMechanic CHARACTER Mechanic SUBTITLE "Get in the car! We're ready!"
+RESPONSE C6M3_BridgeGettoCarMechanic CHARACTER Mechanic SUBTITLE "Come on, let's GO!"
+RULE C6M3_BridgeGettoCarMechanic CRITERIA ConceptGetToVehicle IsMechanic IsNotSaidGetToCar Isc6m3_port RESPONSE C6M3_BridgeGettoCarMechanic
+RESPONSE C6M3_elevatorMechanic CHARACTER Mechanic SUBTITLE "Sooner we get these cans, the sooner we're back with Jimmy Gibbs Jr."
+RESPONSE C6M3_elevatorMechanic CHARACTER Mechanic SUBTITLE "Hey these cans look pretty spread out. We should stick together."
+RESPONSE C6M3_elevatorMechanic CHARACTER Mechanic SUBTITLE "Okay, this is the most nervous I've been since this shit started."
+RESPONSE C6M3_elevatorMechanic CHARACTER Mechanic SUBTITLE "Alright, let's get down there and fill ourselves up a generator."
+RESPONSE C6M3_elevatorMechanic CHARACTER Mechanic SUBTITLE "Let's get down there and fill ourselves up a generator."
+RULE C6M3_elevatorMechanic CRITERIA Conceptc6m3_elevatorCancel IsMechanic IsNotSaidC6M3Elevator IsC6M3_port RESPONSE C6M3_elevatorMechanic
+RESPONSE C6M3_elevatorZoeyMechanic CHARACTER Mechanic SUBTITLE "Man, I'm gonna kill so many zombies she's gonna have to love me."
+RESPONSE C6M3_elevatorZoeyMechanic CHARACTER Mechanic SUBTITLE "I'm gonna kill a tank in her honor and then I'm gonna name it after her."
+RESPONSE C6M3_elevatorZoeyMechanic CHARACTER Mechanic SUBTITLE "I'm gonna kill a tank in her honor. Ooh, and then I'm gonna name it after her."
+RULE C6M3_elevatorZoeyMechanic CRITERIA Conceptc6m3_elevatorCancel IsMechanic IsNotSaidC6M3Elevator IsC6M3_port IsZoeyIntroActor IsNotVersus ZoeyGroup1 RESPONSE C6M3_elevatorZoeyMechanic
+RESPONSE C6M3_GivenItemBikerMechanic CHARACTER Mechanic SUBTITLE "Thanks Francis!"
+RESPONSE C6M3_GivenItemBikerMechanic CHARACTER Mechanic SUBTITLE "Hey, thanks guys!"
+RESPONSE C6M3_GivenItemBikerMechanic CHARACTER Mechanic SUBTITLE "This from you? THANKS!"
+RULE C6M3_GivenItemBikerMechanic CRITERIA ConceptPlayerPickup IsMechanic IsDonorBiker Isc6m3_portHeavy RESPONSE C6M3_GivenItemBikerMechanic
+RESPONSE C6M3_GivenItemTeenGirlMechanic CHARACTER Mechanic SUBTITLE "Thanks Zoey!"
+RESPONSE C6M3_GivenItemTeenGirlMechanic CHARACTER Mechanic SUBTITLE "Thank you Zoey!"
+RESPONSE C6M3_GivenItemTeenGirlMechanic CHARACTER Mechanic SUBTITLE "Hey, thanks Zoey!"
+RESPONSE C6M3_GivenItemTeenGirlMechanic CHARACTER Mechanic SUBTITLE "Aw, I wish there was something I could give you back, Zoey."
+RESPONSE C6M3_GivenItemTeenGirlMechanic CHARACTER Mechanic SUBTITLE "Hey, thanks y'all!"
+RULE C6M3_GivenItemTeenGirlMechanic CRITERIA ConceptPlayerPickup IsMechanic IsDonorTeenGirl Isc6m3_portHeavy RESPONSE C6M3_GivenItemTeenGirlMechanic
+RESPONSE C6M3SafeRoomMechanic CHARACTER Mechanic SUBTITLE ""
+RULE C6M3SafeRoomMechanic CRITERIA ConceptTalkIdle  Joined3 IsMechanic isC6m3_port IsInStartArea AutoIsNotScavenge AutoIsNotSurvival IsNotSaidC6M3SafeRoom IsNotSpeakingWeight0 RESPONSE C6M3SafeRoomMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo01aMechanic CHARACTER Mechanic SUBTITLE "Oh sure! Rochelle and biker dude sitting in a tree, K-I-S-S-I-N-G."
+RULE DLC1_C6M3_SafeRoomConvo01aMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo01a IsMechanic  IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo01aMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo01cMechanic CHARACTER Mechanic SUBTITLE "Hey man I saw how you two were looking at each other."
+RESPONSE DLC1_C6M3_SafeRoomConvo01cMechanic CHARACTER Mechanic SUBTITLE "Mm hm.  I saw y'all  looking at each other."
+RULE DLC1_C6M3_SafeRoomConvo01cMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo01c IsMechanic RESPONSE DLC1_C6M3_SafeRoomConvo01cMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo02eMechanic CHARACTER Mechanic SUBTITLE "Nah, he don't live there."
+RESPONSE DLC1_C6M3_SafeRoomConvo02eMechanic CHARACTER Mechanic SUBTITLE "No man, he don't live there."
+RESPONSE DLC1_C6M3_SafeRoomConvo02eMechanic CHARACTER Mechanic SUBTITLE "I saw how he was lookin' at Rochelle. He ain't goin nowhere."
+RULE DLC1_C6M3_SafeRoomConvo02eMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo02e IsMechanic  IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo02eMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo03aMechanic CHARACTER Mechanic SUBTITLE "How do I look?"
+RESPONSE DLC1_C6M3_SafeRoomConvo03aMechanic CHARACTER Mechanic SUBTITLE "How do I look, man?"
+RULE DLC1_C6M3_SafeRoomConvo03aMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo03a IsMechanic  IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo03aMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo03cMechanic CHARACTER Mechanic SUBTITLE "You got a turd on your shoulder, Nick."
+RULE DLC1_C6M3_SafeRoomConvo03cMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo03c IsMechanic  IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo03cMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo04aMechanic CHARACTER Mechanic SUBTITLE "Man, I don't know, what do you think? With the hat or without it?"
+RESPONSE DLC1_C6M3_SafeRoomConvo04aMechanic CHARACTER Mechanic SUBTITLE "Man, I don't know, what do you think? With the hat or without it?"
+RULE DLC1_C6M3_SafeRoomConvo04aMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo04a IsMechanic IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo04aMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo04dMechanic CHARACTER Mechanic SUBTITLE "Nick, I don't need that kinda pressure, man!"
+RULE DLC1_C6M3_SafeRoomConvo04dMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo04d IsMechanic IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo04dMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo05aMechanic CHARACTER Mechanic SUBTITLE "Don't remind me, Nick. I am a nervous wreck here."
+RESPONSE DLC1_C6M3_SafeRoomConvo05aMechanic CHARACTER Mechanic SUBTITLE "Okay, you know what? Don't need the reminding me, Nick, alright? I am a nervous wreck over here."
+RULE DLC1_C6M3_SafeRoomConvo05aMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo05a IsMechanic IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo05aMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo06Mechanic CHARACTER Mechanic SUBTITLE "Okay Ro, I don't want to get your hopes up, but I think that awesome biker dude has a little crush on you."
+RULE DLC1_C6M3_SafeRoomConvo06Mechanic CRITERIA ConceptC6M3SafeRoom2 IsMechanic IsNotSaidC6M3SafeRoom2 IsFrancisIntroActor FrancisGroup4 IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo06Mechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo06bMechanic CHARACTER Mechanic SUBTITLE "Well, I don't doubt it. that is a cool guy."
+RULE DLC1_C6M3_SafeRoomConvo06bMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo06b IsMechanic IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo06bMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo07aMechanic CHARACTER Mechanic SUBTITLE "Nah, she ain't goin' nowhere. That ain't like her."
+RULE DLC1_C6M3_SafeRoomConvo07aMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo07a IsMechanic IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo07aMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo07cMechanic CHARACTER Mechanic SUBTITLE "Yeah, it was like love at first sight. The other four seconds was gravy."
+RULE DLC1_C6M3_SafeRoomConvo07cMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo07c IsMechanic IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo07cMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo08aMechanic CHARACTER Mechanic SUBTITLE "Nah man, he seemed like a good guy."
+RESPONSE DLC1_C6M3_SafeRoomConvo08aMechanic CHARACTER Mechanic SUBTITLE "Nah man, he seemed like a good guy."
+RULE DLC1_C6M3_SafeRoomConvo08aMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo08a IsMechanic IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo08aMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo08cMechanic CHARACTER Mechanic SUBTITLE "I will kill him."
+RESPONSE DLC1_C6M3_SafeRoomConvo08cMechanic CHARACTER Mechanic SUBTITLE "He is a dead man."
+RULE DLC1_C6M3_SafeRoomConvo08cMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo08c IsMechanic IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo08cMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo08dMechanic CHARACTER Mechanic SUBTITLE "I will kill him."
+RULE DLC1_C6M3_SafeRoomConvo08dMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo08d IsMechanic IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo08dMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo08eMechanic CHARACTER Mechanic SUBTITLE "He is a dead man."
+RULE DLC1_C6M3_SafeRoomConvo08eMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo08e IsMechanic IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo08eMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo08fMechanic CHARACTER Mechanic SUBTITLE "Folks, we got a new goal. New Orleans is gonna have to wait. We are going to have to hunt that biker man down."
+RULE DLC1_C6M3_SafeRoomConvo08fMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo08f IsMechanic IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo08fMechanic
+RESPONSE DLC1_C6M3_SafeRoomConvo09aMechanic CHARACTER Mechanic SUBTITLE "Ro, it's the zombie apocalypse. First dating days are over.  Nick, By the way, I'm gonna have to borrow your suit, because we're skippin' right to the marriage, brother. Then we're goin' cross country, just her me and the Jimmy Gibbs Jr."
+RULE DLC1_C6M3_SafeRoomConvo09aMechanic CRITERIA ConceptDLC1_C6M3_SafeRoomConvo09a IsMechanic  IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo09aMechanic
+RESPONSE IncapBounceMechanic CHARACTER Mechanic SUBTITLE ""
+RULE IncapBounceMechanic CRITERIA ConceptSurvivorIncapacitated IsMechanic IsNotSaidInCapBounce isC6m3_port RESPONSE IncapBounceMechanic
+RESPONSE C6M3_CansDoneMechanic CHARACTER Mechanic SUBTITLE "I'm coming baby!"
+RULE C6M3_CansDoneMechanic CRITERIA Conceptc6m3escapeready IsMechanic IsC6M3_Port IsNotSaidc6m3escapeready RESPONSE C6M3_CansDoneMechanic
+RESPONSE L4D1AlsoSpottedTankMechanic CHARACTER Mechanic SUBTITLE "Oh, this ain't good, TWO TANKS!"
+RESPONSE L4D1AlsoSpottedTankMechanic CHARACTER Mechanic SUBTITLE "Shiiiiiiittttt!"
+RESPONSE L4D1AlsoSpottedTankMechanic CHARACTER Mechanic SUBTITLE "Oh, this ain't good, we got TWO TANKS here!"
+RESPONSE L4D1AlsoSpottedTankMechanic CHARACTER Mechanic SUBTITLE "Oh shiiiiiiittttt!"
+RESPONSE L4D1AlsoSpottedTankMechanic CHARACTER Mechanic SUBTITLE "Lead 'em back to Louis!"
+RESPONSE L4D1AlsoSpottedTankMechanic CHARACTER Mechanic SUBTITLE "Louis, get ready! Tanks coming!"
+RESPONSE L4D1AlsoSpottedTankMechanic CHARACTER Mechanic SUBTITLE "Louis, get yourself ready, baby! we got tanks coming!"
+RULE L4D1AlsoSpottedTankMechanic CRITERIA ConceptPlayerAlsoWarnTank IsNotCoughing IsMechanic IsTalk IsTalkMechanic IsWorldTalkMechanic Isc6m3_port RESPONSE L4D1AlsoSpottedTankMechanic
+RESPONSE L4D1SpottedTankMechanic CHARACTER Mechanic SUBTITLE "Oh, this ain't good, TWO TANKS!"
+RESPONSE L4D1SpottedTankMechanic CHARACTER Mechanic SUBTITLE "Shiiiiiiittttt!"
+RESPONSE L4D1SpottedTankMechanic CHARACTER Mechanic SUBTITLE "Oh, this ain't good, we got TWO TANKS here!"
+RESPONSE L4D1SpottedTankMechanic CHARACTER Mechanic SUBTITLE "Oh shiiiiiiittttt!"
+RESPONSE L4D1SpottedTankMechanic CHARACTER Mechanic SUBTITLE "Lead 'em back to Louis!"
+RESPONSE L4D1SpottedTankMechanic CHARACTER Mechanic SUBTITLE "Louis, get ready! Tanks coming!"
+RESPONSE L4D1SpottedTankMechanic CHARACTER Mechanic SUBTITLE "Louis, get yourself ready, baby! we got tanks coming!"
+RULE L4D1SpottedTankMechanic CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeTank IsNotCoughing IsMechanic IsTalk IsTalkMechanic IsWorldTalkMechanic Isc6m3_port IsNotSpeakingWeight0 RESPONSE L4D1SpottedTankMechanic
+RESPONSE SurvivorSpottedFallenMechanic CHARACTER Mechanic SUBTITLE "Hey kill that zombie!"
+RESPONSE SurvivorSpottedFallenMechanic CHARACTER Mechanic SUBTITLE "Kill that zombie!"
+RESPONSE SurvivorSpottedFallenMechanic CHARACTER Mechanic SUBTITLE "Hey, stop that zombie!"
+RESPONSE SurvivorSpottedFallenMechanic CHARACTER Mechanic SUBTITLE "Get that zombie!"
+RESPONSE SurvivorSpottedFallenMechanic CHARACTER Mechanic SUBTITLE "Get that zombie, there!"
+RESPONSE SurvivorSpottedFallenMechanic CHARACTER Mechanic SUBTITLE "Do not let that zombie get away."
+RULE SurvivorSpottedFallenMechanic CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeFallen IsNotCoughing IsMechanic IsTalk IsTalkMechanic IsWorldTalkMechanic IsNotSaidFallenWarn IsNotSpeakingWeight0 RESPONSE SurvivorSpottedFallenMechanic
+RESPONSE PlayerWitchChasingC6M1Mechanic CHARACTER Mechanic SUBTITLE "Runaway bride, runaway bride!"
+RESPONSE PlayerWitchChasingC6M1Mechanic CHARACTER Mechanic SUBTITLE "Help, here! Here comes the bride!"
+RESPONSE PlayerWitchChasingC6M1Mechanic CHARACTER Mechanic SUBTITLE "Here comes the bride!"
+RULE PlayerWitchChasingC6M1Mechanic CRITERIA ConceptPlayerExertionMinor IsMechanic IsWitchPresent SubjectIsNotWitch IsNotSaidMechanicWitchChasing IsSaidMechanicWitchAttacking isc6m1_riverbank RESPONSE PlayerWitchChasingC6M1Mechanic
+RESPONSE PlayerRemarkremark_MidnightRidersBusMechanic CHARACTER Mechanic SUBTITLE "Oh man, I must be seeing things."
+RESPONSE PlayerRemarkremark_MidnightRidersBusMechanic CHARACTER Mechanic SUBTITLE "What?"
+RESPONSE PlayerRemarkremark_MidnightRidersBusMechanic CHARACTER Mechanic SUBTITLE "What? Wha... who?"
+RULE PlayerRemarkremark_MidnightRidersBusMechanic CRITERIA ConceptRemark IsMechanic Isremark_MidnightRidersBus IsNotSaidremark_MidnightRidersBus IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear1500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkremark_MidnightRidersBusMechanic
+RESPONSE PlayerRemarkWorldC6M1_AcrossHereMechanic CHARACTER Mechanic SUBTITLE "We can get across here."
+RESPONSE PlayerRemarkWorldC6M1_AcrossHereMechanic CHARACTER Mechanic SUBTITLE "Let's get across here."
+RULE PlayerRemarkWorldC6M1_AcrossHereMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_AcrossHere IsNotSaidWorldC6M1_AcrossHere IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_AcrossHereMechanic
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowMechanic CHARACTER Mechanic SUBTITLE "Down this alley."
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowMechanic CHARACTER Mechanic SUBTITLE "This is like a goddamn maze."
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowMechanic CHARACTER Mechanic SUBTITLE "I think we want to get up there."
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowMechanic CHARACTER Mechanic SUBTITLE "Y'all, how do we get to them walkways?"
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowMechanic CHARACTER Mechanic SUBTITLE "Let's go down this alley."
+RULE PlayerRemarkWorldC6M1_AlleyBelowMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_AlleyBelow IsNotSaidWorldC6M1_AlleyBelow IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_AlleyBelowMechanic
+RESPONSE PlayerRemarkWorldC6M1_AlleyIntoBuildingMechanic CHARACTER Mechanic SUBTITLE "Into these apartments."
+RESPONSE PlayerRemarkWorldC6M1_AlleyIntoBuildingMechanic CHARACTER Mechanic SUBTITLE "Into the building."
+RESPONSE PlayerRemarkWorldC6M1_AlleyIntoBuildingMechanic CHARACTER Mechanic SUBTITLE "Hey, into the building."
+RULE PlayerRemarkWorldC6M1_AlleyIntoBuildingMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_AlleyIntoBuilding IsNotSaidWorldC6M1_AlleyIntoBuilding IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_AlleyIntoBuildingMechanic
+RESPONSE PlayerRemarkWorldC6M1_InAptsMechanic CHARACTER Mechanic SUBTITLE "Hey, let's search these rooms here."
+RULE PlayerRemarkWorldC6M1_InAptsMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_InApts IsNotSaidWorldC6M1_InApts IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_InAptsMechanic
+RESPONSE PlayerRemarkWorldC6M1_IntotheparkMechanic CHARACTER Mechanic SUBTITLE "Through this park."
+RESPONSE PlayerRemarkWorldC6M1_IntotheparkMechanic CHARACTER Mechanic SUBTITLE "By Jimmy Gibb Jr, don't worry we're gonna come back for you."
+RESPONSE PlayerRemarkWorldC6M1_IntotheparkMechanic CHARACTER Mechanic SUBTITLE "(calling out) Hey can you all watch the car while we're gone?"
+RESPONSE PlayerRemarkWorldC6M1_IntotheparkMechanic CHARACTER Mechanic SUBTITLE "Should I maybe stay here and guard the car?"
+RESPONSE PlayerRemarkWorldC6M1_IntotheparkMechanic CHARACTER Mechanic SUBTITLE "Should I stay here and guard the car?"
+RESPONSE PlayerRemarkWorldC6M1_IntotheparkMechanic CHARACTER Mechanic SUBTITLE "All right..."
+RULE PlayerRemarkWorldC6M1_IntotheparkMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_Intothepark IsNotSaidWorldC6M1_Intothepark IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_IntotheparkMechanic
+RESPONSE PlayerRemarkWorldC6M1_IntoThePark2Mechanic CHARACTER Mechanic SUBTITLE "Through this park."
+RULE PlayerRemarkWorldC6M1_IntoThePark2Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_IntoThePark2 IsNotSaidWorldC6M1_IntoThePark2 IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_IntoThePark2Mechanic
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreMechanic CHARACTER Mechanic SUBTITLE "Through this store."
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreMechanic CHARACTER Mechanic SUBTITLE "Guns in the store."
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreMechanic CHARACTER Mechanic SUBTITLE "Hey, we got guns in here!"
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreMechanic CHARACTER Mechanic SUBTITLE "Hey there's guns in the store."
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreMechanic CHARACTER Mechanic SUBTITLE "Cut through the store."
+RULE PlayerRemarkWorldC6M1_IntoTheStoreMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_IntoTheStore IsNotSaidWorldC6M1_IntoTheStore IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreMechanic
+RESPONSE PlayerRemarkWorldC6M1_PostWeddingMechanic CHARACTER Mechanic SUBTITLE "Hey, check the tents."
+RESPONSE PlayerRemarkWorldC6M1_PostWeddingMechanic CHARACTER Mechanic SUBTITLE "Okay, as far as weddings go, that was the most exciting."
+RULE PlayerRemarkWorldC6M1_PostWeddingMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_PostWedding IsNotSaidWorldC6M1_PostWedding IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear600 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_PostWeddingMechanic
+RESPONSE PlayerRemarkWorldC6M1_PostWeddingZMechanic CHARACTER Mechanic SUBTITLE "You know what? This got me thinking... I should totally marry that girl."
+RESPONSE PlayerRemarkWorldC6M1_PostWeddingZMechanic CHARACTER Mechanic SUBTITLE "This reminds me, I should totally marry that girl."
+RESPONSE PlayerRemarkWorldC6M1_PostWeddingZMechanic CHARACTER Mechanic SUBTITLE "This wedding here? I'm takin' this as a sign."
+RULE PlayerRemarkWorldC6M1_PostWeddingZMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_PostWedding IsNotSaidWorldC6M1_PostWedding IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear600 IsZoeyIntroActor ZoeyGroup1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_PostWeddingZMechanic
+RESPONSE PlayerRemarkWorldC6M1_PostWeddingZCMechanic CHARACTER Mechanic SUBTITLE "Hey Coach. Can coaches marry people?"
+RULE PlayerRemarkWorldC6M1_PostWeddingZCMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_PostWedding IsNotSaidWorldC6M1_PostWedding IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear600 IsZoeyIntroActor ZoeyGroup2 IsCoachNear800Weight0 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_PostWeddingZCMechanic
+RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyMechanic CHARACTER Mechanic SUBTITLE "Behind this bus."
+RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyMechanic CHARACTER Mechanic SUBTITLE "Safe house back here!"
+RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyMechanic CHARACTER Mechanic SUBTITLE "Hey guys, safe house back here!"
+RULE PlayerRemarkWorldC6M1_SafeRoomAlleyMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_SafeRoomAlley IsNotSaidWorldC6M1_SafeRoomAlley IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear600 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyMechanic
+RESPONSE PlayerRemarkWorldC6M1_ThroughBarMechanic CHARACTER Mechanic SUBTITLE "Through here."
+RESPONSE PlayerRemarkWorldC6M1_ThroughBarMechanic CHARACTER Mechanic SUBTITLE "Right through here."
+RULE PlayerRemarkWorldC6M1_ThroughBarMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_ThroughBar IsNotSaidWorldC6M1_ThroughBar IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_ThroughBarMechanic
+RESPONSE PlayerRemarkWorldC6M1_UpHereMechanic CHARACTER Mechanic SUBTITLE "Back up here."
+RESPONSE PlayerRemarkWorldC6M1_UpHereMechanic CHARACTER Mechanic SUBTITLE "We can get up here!"
+RULE PlayerRemarkWorldC6M1_UpHereMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_UpHere IsNotSaidWorldC6M1_UpHere IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_UpHereMechanic
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairsMechanic CHARACTER Mechanic SUBTITLE "Let's try upstairs."
+RULE PlayerRemarkWorldC6M1_UpTheStairsMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_UpTheStairs IsNotSaidWorldC6M1_UpTheStairs IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_UpTheStairsMechanic
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Mechanic CHARACTER Mechanic SUBTITLE "Go upstairs."
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Mechanic CHARACTER Mechanic SUBTITLE "Let's go upstairs."
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Mechanic CHARACTER Mechanic SUBTITLE "Upstairs, everybody."
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Mechanic CHARACTER Mechanic SUBTITLE "Up the stairs."
+RULE PlayerRemarkWorldC6M1_UpTheStairs2Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_UpTheStairs2 IsNotSaidWorldC6M1_UpTheStairs2 IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Mechanic
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnMechanic CHARACTER Mechanic SUBTITLE "A wedding!"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnMechanic CHARACTER Mechanic SUBTITLE "Oh man. You think she's crying cause she got left at the alter?"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnMechanic CHARACTER Mechanic SUBTITLE "I normally really like weddings. This is just weird."
+RULE PlayerRemarkWorldC6M1_WeddingWarnMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_WeddingWarn IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarnMechanic
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Mechanic CHARACTER Mechanic SUBTITLE "A wedding!"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Mechanic CHARACTER Mechanic SUBTITLE "Oh man. You think she's crying cause she got left at the alter?"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Mechanic CHARACTER Mechanic SUBTITLE "I normally really like weddings. This is just weird."
+RULE PlayerRemarkWorldC6M1_WeddingWarn1Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_WeddingWarn1 IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Mechanic
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Mechanic CHARACTER Mechanic SUBTITLE "A wedding!"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Mechanic CHARACTER Mechanic SUBTITLE "Oh man. You think she's crying cause she got left at the alter?"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Mechanic CHARACTER Mechanic SUBTITLE "I normally really like weddings. This is just weird."
+RULE PlayerRemarkWorldC6M1_WeddingWarn2Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_WeddingWarn2 IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Mechanic
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Mechanic CHARACTER Mechanic SUBTITLE "A wedding!"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Mechanic CHARACTER Mechanic SUBTITLE "Oh man. You think she's crying cause she got left at the alter?"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Mechanic CHARACTER Mechanic SUBTITLE "I normally really like weddings. This is just weird."
+RULE PlayerRemarkWorldC6M1_WeddingWarn3Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M1_WeddingWarn3 IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Mechanic
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankMechanic CHARACTER Mechanic SUBTITLE "Hurry over this plank."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankMechanic CHARACTER Mechanic SUBTITLE "Okay, just don't look down."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankMechanic CHARACTER Mechanic SUBTITLE "Bad time for a smoker."
+RULE PlayerRemarkWorldC6M2_AcrossPlankMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_AcrossPlank IsNotSaidWorldC6M2_AcrossPlank IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear250 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_AcrossPlankMechanic
+RESPONSE PlayerRemarkWorldC6M2_AfterGate1Mechanic CHARACTER Mechanic SUBTITLE "Keep moving."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate1Mechanic CHARACTER Mechanic SUBTITLE "Let's keep moving!"
+RESPONSE PlayerRemarkWorldC6M2_AfterGate1Mechanic CHARACTER Mechanic SUBTITLE "Hey, just keep moving. Let's keep moving!"
+RESPONSE PlayerRemarkWorldC6M2_AfterGate1Mechanic CHARACTER Mechanic SUBTITLE "Keep moving."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate1Mechanic CHARACTER Mechanic SUBTITLE "Alright, let's keep moving!"
+RULE PlayerRemarkWorldC6M2_AfterGate1Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_AfterGate1 IsNotSaidWorldC6M2_AfterGate1 IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_AfterGate1Mechanic
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Mechanic CHARACTER Mechanic SUBTITLE "Hey, Nick, there's a turd right on your shoulder there."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Mechanic CHARACTER Mechanic SUBTITLE "Nick, you got a little turd on your shoulder."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Mechanic CHARACTER Mechanic SUBTITLE "Hey, Nick, turd on your shoulder."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Mechanic CHARACTER Mechanic SUBTITLE "Man, they ain't gonna stop coming."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Mechanic CHARACTER Mechanic SUBTITLE "We gotta  find a ladder."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Mechanic CHARACTER Mechanic SUBTITLE "Man even I'm getting' sick of this shit."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Mechanic CHARACTER Mechanic SUBTITLE "Man, they ain't not gonna stop coming."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Mechanic CHARACTER Mechanic SUBTITLE "Anybody seen a ladder?"
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Mechanic CHARACTER Mechanic SUBTITLE "We need to find a ladder."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Mechanic CHARACTER Mechanic SUBTITLE "Man even I'm getting' sick of this shit."
+RULE PlayerRemarkWorldC6M2_AfterGate2Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_AfterGate2 IsNotSaidWorldC6M2_AfterGate2 IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_AfterGate2Mechanic
+RESPONSE PlayerRemarkWorldC6M2_DownHereMechanic CHARACTER Mechanic SUBTITLE "Down here!"
+RESPONSE PlayerRemarkWorldC6M2_DownHereMechanic CHARACTER Mechanic SUBTITLE "Down here."
+RULE PlayerRemarkWorldC6M2_DownHereMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_DownHere IsNotSaidWorldC6M2_DownHere IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_DownHereMechanic
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingMechanic CHARACTER Mechanic SUBTITLE "Everyone in here."
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingMechanic CHARACTER Mechanic SUBTITLE "Hey, everybody in here."
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingMechanic CHARACTER Mechanic SUBTITLE "Through this building."
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingMechanic CHARACTER Mechanic SUBTITLE "Down these stairs."
+RULE PlayerRemarkWorldC6M2_DownIntoBuildingMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_DownIntoBuilding IsNotSaidWorldC6M2_DownIntoBuilding IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingMechanic
+RESPONSE PlayerRemarkWorldC6M2_FinalLadderMechanic CHARACTER Mechanic SUBTITLE "Hey, up the ladder."
+RESPONSE PlayerRemarkWorldC6M2_FinalLadderMechanic CHARACTER Mechanic SUBTITLE "Let's head up the ladder."
+RESPONSE PlayerRemarkWorldC6M2_FinalLadderMechanic CHARACTER Mechanic SUBTITLE "Ladder on that wall."
+RESPONSE PlayerRemarkWorldC6M2_FinalLadderMechanic CHARACTER Mechanic SUBTITLE "Hey, get up there!"
+RULE PlayerRemarkWorldC6M2_FinalLadderMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_FinalLadder IsNotSaidWorldC6M2_FinalLadder IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_FinalLadderMechanic
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterMechanic CHARACTER Mechanic SUBTITLE "Haha, more water, Nick!"
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterMechanic CHARACTER Mechanic SUBTITLE "Watch for turds, Nick!"
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterMechanic CHARACTER Mechanic SUBTITLE "Back into the water."
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterMechanic CHARACTER Mechanic SUBTITLE "Hey, Nick, didn't that suit used to be white?"
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterMechanic CHARACTER Mechanic SUBTITLE "Man, they got a lotta work to do on this phase two bit."
+RULE PlayerRemarkWorldC6M2_FinalWaterMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_FinalWater IsNotSaidWorldC6M2_FinalWater IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_FinalWaterMechanic
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoMechanic CHARACTER Mechanic SUBTITLE "Keep moving."
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoMechanic CHARACTER Mechanic SUBTITLE "Let's keep moving!"
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoMechanic CHARACTER Mechanic SUBTITLE "KEEP MOVING!"
+RULE PlayerRemarkWorldC6M2_FinalWaterGoGoMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_FinalWaterGoGo IsNotSaidWorldC6M2_FinalWaterGoGo IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoMechanic
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubMechanic CHARACTER Mechanic SUBTITLE "Into the Jazz club!"
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubMechanic CHARACTER Mechanic SUBTITLE "Hey, Into the club, guys!"
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubMechanic CHARACTER Mechanic SUBTITLE "Tour's in the Jazz club."
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubMechanic CHARACTER Mechanic SUBTITLE "Hey, the tour's in the Jazz club."
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubMechanic CHARACTER Mechanic SUBTITLE "Hey that tunnel's in the club."
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubMechanic CHARACTER Mechanic SUBTITLE "Jimmy Gibb Jr here we come!"
+RULE PlayerRemarkWorldC6M2_InJazzClubMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_InJazzClub IsNotSaidWorldC6M2_InJazzClub IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear1000 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InJazzClubMechanic
+RESPONSE PlayerRemarkWorldC6M2_InSewer2Mechanic CHARACTER Mechanic SUBTITLE "Oh man, I found a candy bar! [beat] Whup. False alarm."
+RULE PlayerRemarkWorldC6M2_InSewer2Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_InSewer2 IsNotSaidWorldC6M2_InSewer2 IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsSaidWorldC6M2_InSewer1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InSewer2Mechanic
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Mechanic CHARACTER Mechanic SUBTITLE "Okay if anybody needs a bathroom break, now'd be a good time."
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Mechanic CHARACTER Mechanic SUBTITLE "Let's get out of the water."
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Mechanic CHARACTER Mechanic SUBTITLE "Hey, everybody let's get out of the water."
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Mechanic CHARACTER Mechanic SUBTITLE "Time to dry off."
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Mechanic CHARACTER Mechanic SUBTITLE "Alright, let's get out of this water."
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Mechanic CHARACTER Mechanic SUBTITLE "Hey, everybody let's get out of the water."
+RULE PlayerRemarkWorldC6M2_InSewerLadder1Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_InSewerLadder1 IsNotSaidWorldC6M2_InSewerLadder1 IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Mechanic
+RESPONSE PlayerRemarkWorldC6M2_IntoConstructionMechanic CHARACTER Mechanic SUBTITLE "Hey let's jump down."
+RESPONSE PlayerRemarkWorldC6M2_IntoConstructionMechanic CHARACTER Mechanic SUBTITLE "Into the construction site."
+RESPONSE PlayerRemarkWorldC6M2_IntoConstructionMechanic CHARACTER Mechanic SUBTITLE "Street's all tore up."
+RULE PlayerRemarkWorldC6M2_IntoConstructionMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_IntoConstruction IsNotSaidWorldC6M2_IntoConstruction IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear150 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_IntoConstructionMechanic
+RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallMechanic CHARACTER Mechanic SUBTITLE "We can get in through the window."
+RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallMechanic CHARACTER Mechanic SUBTITLE "Get into the pool hall."
+RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallMechanic CHARACTER Mechanic SUBTITLE "Hey Let's go into the pool hall."
+RULE PlayerRemarkWorldC6M2_IntoPoolHallMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_IntoPoolHall IsNotSaidWorldC6M2_IntoPoolHall IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallMechanic
+RESPONSE PlayerRemarkWorldC6M2_JukeBoxMechanic CHARACTER Mechanic SUBTITLE "All right, baby, the jukebox works!"
+RULE PlayerRemarkWorldC6M2_JukeBoxMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_JukeBox IsNotSaidWorldC6M2_JukeBox IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear150 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_JukeBoxMechanic
+RESPONSE PlayerRemarkWorldC6M2_JumpDownMechanic CHARACTER Mechanic SUBTITLE "Last one is a rotten egg."
+RESPONSE PlayerRemarkWorldC6M2_JumpDownMechanic CHARACTER Mechanic SUBTITLE "This is gonna be great."
+RESPONSE PlayerRemarkWorldC6M2_JumpDownMechanic CHARACTER Mechanic SUBTITLE "This is gonna be fun."
+RESPONSE PlayerRemarkWorldC6M2_JumpDownMechanic CHARACTER Mechanic SUBTITLE "Hey let's jump together."
+RESPONSE PlayerRemarkWorldC6M2_JumpDownMechanic CHARACTER Mechanic SUBTITLE "Now this is more like it."
+RESPONSE PlayerRemarkWorldC6M2_JumpDownMechanic CHARACTER Mechanic SUBTITLE "CANNONBALL!"
+RULE PlayerRemarkWorldC6M2_JumpDownMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_JumpDown IsNotSaidWorldC6M2_JumpDown IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_JumpDownMechanic
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk2Mechanic CHARACTER Mechanic SUBTITLE "I guess this shit's old, huh? I don't know. But..."
+RULE PlayerRemarkWorldC6M2_OnTourWalk2Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_OnTourWalk2 IsNotSaidWorldC6M2_OnTourWalk2 IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OnTourWalk2Mechanic
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk3Mechanic CHARACTER Mechanic SUBTITLE "Don't know why, I was thinkin' there'd be rides here."
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk3Mechanic CHARACTER Mechanic SUBTITLE "Not sure why, I thought there'd be a couple of rides at least."
+RULE PlayerRemarkWorldC6M2_OnTourWalk3Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_OnTourWalk3 IsNotSaidWorldC6M2_OnTourWalk3 IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OnTourWalk3Mechanic
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Mechanic CHARACTER Mechanic SUBTITLE "I got a bad feelin' about this."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Mechanic CHARACTER Mechanic SUBTITLE "Get ready before we open this door, now."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Mechanic CHARACTER Mechanic SUBTITLE "Y'all ready? Alright, let's open this door."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Mechanic CHARACTER Mechanic SUBTITLE "Alright, alarm's gonna sound when we open this."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Mechanic CHARACTER Mechanic SUBTITLE "Let's get ready and then hit it."
+RULE PlayerRemarkWorldC6M2_OpenGate1Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_OpenGate1 IsNotSaidWorldC6M2_OpenGate1 IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSaidOpenedGate1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OpenGate1Mechanic
+RESPONSE PlayerRemarkWorldC6M2_OpenGate2Mechanic CHARACTER Mechanic SUBTITLE "Hey, let's try this one."
+RULE PlayerRemarkWorldC6M2_OpenGate2Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_OpenGate2 IsNotSaidWorldC6M2_OpenGate2 IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSaidOpenedGate2 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OpenGate2Mechanic
+RESPONSE PlayerRemarkWorldC6M2_Phase2Mechanic CHARACTER Mechanic SUBTITLE "Hope phase two has rides."
+RESPONSE PlayerRemarkWorldC6M2_Phase2Mechanic CHARACTER Mechanic SUBTITLE "Phase one is over?"
+RESPONSE PlayerRemarkWorldC6M2_Phase2Mechanic CHARACTER Mechanic SUBTITLE "Man, I hope phase two has rides."
+RESPONSE PlayerRemarkWorldC6M2_Phase2Mechanic CHARACTER Mechanic SUBTITLE "Phase one is over? Jeez..."
+RESPONSE PlayerRemarkWorldC6M2_Phase2Mechanic CHARACTER Mechanic SUBTITLE "Hey,sorry about the lack of history in phase one coach."
+RESPONSE PlayerRemarkWorldC6M2_Phase2Mechanic CHARACTER Mechanic SUBTITLE "Hope this goes under the river."
+RULE PlayerRemarkWorldC6M2_Phase2Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_Phase2 IsNotSaidWorldC6M2_Phase2 IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_Phase2Mechanic
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownMechanic CHARACTER Mechanic SUBTITLE "Let's get down these stairs."
+RULE PlayerRemarkWorldC6M2_Phase2DownMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_Phase2Down IsNotSaidWorldC6M2_Phase2Down IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_Phase2DownMechanic
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseMechanic CHARACTER Mechanic SUBTITLE "GET DOWN THE STAIRS!"
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseMechanic CHARACTER Mechanic SUBTITLE "Go down. Go down. Go down."
+RULE PlayerRemarkWorldC6M2_Phase2DownIntenseMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_Phase2Down IsNotSaidWorldC6M2_Phase2Down IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IntensityOver75 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseMechanic
+RESPONSE PlayerRemarkWorldC6M2_PostGate1xMechanic CHARACTER Mechanic SUBTITLE "Back in the water."
+RESPONSE PlayerRemarkWorldC6M2_PostGate1xMechanic CHARACTER Mechanic SUBTITLE "Back in the water, everybody."
+RESPONSE PlayerRemarkWorldC6M2_PostGate1xMechanic CHARACTER Mechanic SUBTITLE "Time for your bath Nick."
+RULE PlayerRemarkWorldC6M2_PostGate1xMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_PostGate1 IsNotSaidWorldC6M2_PostGate1 IsNotCoughing IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsSaidOpenedGate1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_PostGate1xMechanic
+RESPONSE PlayerRemarkWorldC6M2_SafeRoomMechanic CHARACTER Mechanic SUBTITLE "We're getting close, I can feel her. I mean the car of course."
+RESPONSE PlayerRemarkWorldC6M2_SafeRoomMechanic CHARACTER Mechanic SUBTITLE "Oh man, we're getting close, I can just feel her. I mean the car of course."
+RESPONSE PlayerRemarkWorldC6M2_SafeRoomMechanic CHARACTER Mechanic SUBTITLE "Hey there's a dry saferoom up here!"
+RESPONSE PlayerRemarkWorldC6M2_SafeRoomMechanic CHARACTER Mechanic SUBTITLE "Dry saferoom up here!"
+RESPONSE PlayerRemarkWorldC6M2_SafeRoomMechanic CHARACTER Mechanic SUBTITLE "Oh We are getting close, man, I can feel her. I mean the car."
+RULE PlayerRemarkWorldC6M2_SafeRoomMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_SafeRoom IsNotSaidWorldC6M2_SafeRoom IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear800 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_SafeRoomMechanic
+RESPONSE PlayerRemarkWorldC6M2_TattooMechanic CHARACTER Mechanic SUBTITLE "TATTOOS!"
+RESPONSE PlayerRemarkWorldC6M2_TattooMechanic CHARACTER Mechanic SUBTITLE "TATTOOS! TATTOOS!"
+RESPONSE PlayerRemarkWorldC6M2_TattooMechanic CHARACTER Mechanic SUBTITLE "Man, I love tattoos. I only have one, but I was gonna get my truck tattooed on my other arm. Damn zombies."
+RESPONSE PlayerRemarkWorldC6M2_TattooMechanic CHARACTER Mechanic SUBTITLE "I love tattoos. I only have one, but I was gonna get my truck tattooed on my other arm."
+RESPONSE PlayerRemarkWorldC6M2_TattooMechanic CHARACTER Mechanic SUBTITLE "Man, I love tattoos. I only have one, I was gonna get my truck tattooed on the other arm, but maybe now I get Jimmy Gibbs Jr car. Damn zombies."
+RULE PlayerRemarkWorldC6M2_TattooMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_Tattoo IsNotSaidWorldC6M2_Tattoo IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_TattooMechanic
+RESPONSE PlayerRemarkWorldC6M2_TattooE&GMechanic CHARACTER Mechanic SUBTITLE "Hey Nick, you and me ought to get tattoos that say "bros"."
+RULE PlayerRemarkWorldC6M2_TattooE&GMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_Tattoo IsNotSaidWorldC6M2_Tattoo IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsGamblerNear800Weight0 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_TattooE&GMechanic
+RESPONSE PlayerRemarkWorldC6M2_TourEntranceMechanic CHARACTER Mechanic SUBTITLE "Should we leave some money?"
+RESPONSE PlayerRemarkWorldC6M2_TourEntranceMechanic CHARACTER Mechanic SUBTITLE "Let's go under-the-river!"
+RULE PlayerRemarkWorldC6M2_TourEntranceMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_TourEntrance IsNotSaidWorldC6M2_TourEntrance IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_TourEntranceMechanic
+RESPONSE PlayerRemarkWorldC6M2_UpCatWalkMechanic CHARACTER Mechanic SUBTITLE "A ladder!"
+RESPONSE PlayerRemarkWorldC6M2_UpCatWalkMechanic CHARACTER Mechanic SUBTITLE "Ladder!"
+RESPONSE PlayerRemarkWorldC6M2_UpCatWalkMechanic CHARACTER Mechanic SUBTITLE "There's a  ladder!"
+RESPONSE PlayerRemarkWorldC6M2_UpCatWalkMechanic CHARACTER Mechanic SUBTITLE "Oh, finally, a ladder!"
+RULE PlayerRemarkWorldC6M2_UpCatWalkMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_UpCatWalk IsNotSaidWorldC6M2_UpCatWalk IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_UpCatWalkMechanic
+RESPONSE PlayerRemarkWorldC6M2_UpStairsMechanic CHARACTER Mechanic SUBTITLE "Up the stairs."
+RESPONSE PlayerRemarkWorldC6M2_UpStairsMechanic CHARACTER Mechanic SUBTITLE "There's a street up there."
+RESPONSE PlayerRemarkWorldC6M2_UpStairsMechanic CHARACTER Mechanic SUBTITLE "Hey, let's get up to the street."
+RULE PlayerRemarkWorldC6M2_UpStairsMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_UpStairs IsNotSaidWorldC6M2_UpStairs IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_UpStairsMechanic
+RESPONSE PlayerRemarkWorldC6M2_UpStairs2Mechanic CHARACTER Mechanic SUBTITLE "Go upstairs."
+RESPONSE PlayerRemarkWorldC6M2_UpStairs2Mechanic CHARACTER Mechanic SUBTITLE "Let's try upstairs."
+RESPONSE PlayerRemarkWorldC6M2_UpStairs2Mechanic CHARACTER Mechanic SUBTITLE "Upstairs, everybody."
+RULE PlayerRemarkWorldC6M2_UpStairs2Mechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M2_UpStairs2 IsNotSaidWorldC6M2_UpStairs2 IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_UpStairs2Mechanic
+RESPONSE PlayerRemarkWorldC6M3_BridgeRunMechanic CHARACTER Mechanic SUBTITLE "I'm coming baby!"
+RESPONSE PlayerRemarkWorldC6M3_BridgeRunMechanic CHARACTER Mechanic SUBTITLE "This is the longest run of my life!"
+RESPONSE PlayerRemarkWorldC6M3_BridgeRunMechanic CHARACTER Mechanic SUBTITLE "Oh man, this is the longest run of my life!"
+RESPONSE PlayerRemarkWorldC6M3_BridgeRunMechanic CHARACTER Mechanic SUBTITLE "I'm coming baby! I'm comin'!"
+RESPONSE PlayerRemarkWorldC6M3_BridgeRunMechanic CHARACTER Mechanic SUBTITLE "I'm comin'! I'm sorry I left you!"
+RULE PlayerRemarkWorldC6M3_BridgeRunMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M3_BridgeRun IsNotSaidWorldC6M3_BridgeRun IsNotCoughing  IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M3_BridgeRunMechanic
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeMechanic CHARACTER Mechanic SUBTITLE "Hey, thanks Zoey, I won't forget you!"
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeMechanic CHARACTER Mechanic SUBTITLE "THANK YOU ZOEY!"
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeMechanic CHARACTER Mechanic SUBTITLE "Thank you, thank you Zoey."
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeMechanic CHARACTER Mechanic SUBTITLE "Thanks Francis."
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeMechanic CHARACTER Mechanic SUBTITLE "Man, Francis, you are the coolest."
+RULE PlayerRemarkWorldC6M3_ByBridgeMechanic CRITERIA ConceptRemark IsMechanic IsWorldC6M3_ByBridge IsNotSaidWorldC6M3_ByBridge IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear300 IsSaidFinalVehicleArrived IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M3_ByBridgeMechanic
+RESPONSE PlayerRemarkWorldFootLockerMechanic CHARACTER Mechanic SUBTITLE "Hey open up the lockers."
+RESPONSE PlayerRemarkWorldFootLockerMechanic CHARACTER Mechanic SUBTITLE "Hey, let's search the lockers."
+RESPONSE PlayerRemarkWorldFootLockerMechanic CHARACTER Mechanic SUBTITLE "Hey, we should probably check these lockers."
+RESPONSE PlayerRemarkWorldFootLockerMechanic CHARACTER Mechanic SUBTITLE "Open up the locker."
+RESPONSE PlayerRemarkWorldFootLockerMechanic CHARACTER Mechanic SUBTITLE "Search the locker."
+RESPONSE PlayerRemarkWorldFootLockerMechanic CHARACTER Mechanic SUBTITLE "We should probably check this locker."
+RULE PlayerRemarkWorldFootLockerMechanic CRITERIA ConceptRemark IsMechanic IsWorldFootLocker IsNotSaidWorldFootLocker IsNotCoughing NotInCombat IsTalk IsTalkMechanic IsWorldTalkMechanic IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldFootLockerMechanic
+RESPONSE C6M3_PourFinishedMechanic CHARACTER Mechanic SUBTITLE ""
+RULE C6M3_PourFinishedMechanic CRITERIA ConceptPlayerPourFinished IsMechanic IsTalk IsTalkMechanic IsWorldTalkMechanic  Isc6m3_port ChanceToFire20Percent RESPONSE C6M3_PourFinishedMechanic
+RESPONSE SurvivorNearFinaleC6M3Mechanic CHARACTER Mechanic SUBTITLE ""
+RULE SurvivorNearFinaleC6M3Mechanic CRITERIA ConceptPlayerNearFinale IsNotCoughing IsMechanic IsNotSaidFinaleAhead NotInCombat IsTalk IsTalkMechanic IsNotIncapacitated IsWorldTalkMechanic Isc6m3_port RESPONSE SurvivorNearFinaleC6M3Mechanic
+RESPONSE SurvivorPickupGolfCLubMechanic CHARACTER Mechanic SUBTITLE "Grabbing a golf club."
+RESPONSE SurvivorPickupGolfCLubMechanic CHARACTER Mechanic SUBTITLE "Grabbing the club."
+RESPONSE SurvivorPickupGolfCLubMechanic CHARACTER Mechanic SUBTITLE "I'm going with the golf club."
+RULE SurvivorPickupGolfCLubMechanic CRITERIA ConceptPlayerPickup IsNotCoughing IsMechanic IsPickedUpGolfClub  IsNotSpeaking  MechanicNotPickedUpItem IsTalk IsTalkMechanic IsWorldTalkMechanic RESPONSE SurvivorPickupGolfCLubMechanic
+RESPONSE SurvivorPickupM60Mechanic CHARACTER Mechanic SUBTITLE "Shit, this is heavy."
+RESPONSE SurvivorPickupM60Mechanic CHARACTER Mechanic SUBTITLE "This is a big gun."
+RESPONSE SurvivorPickupM60Mechanic CHARACTER Mechanic SUBTITLE "Now this is a big gun."
+RESPONSE SurvivorPickupM60Mechanic CHARACTER Mechanic SUBTITLE "Grabbing the belt gun."
+RESPONSE SurvivorPickupM60Mechanic CHARACTER Mechanic SUBTITLE "Grabbing the belt gun."
+RULE SurvivorPickupM60Mechanic CRITERIA ConceptPlayerPickup IsNotCoughing IsMechanic IsPickedUpM60  IsNotSpeaking  MechanicNotPickedUpItem IsTalk IsTalkMechanic IsWorldTalkMechanic RESPONSE SurvivorPickupM60Mechanic
+RESPONSE WeddingWitchDead04Mechanic CHARACTER Mechanic SUBTITLE "Whole thing makes me uncomfortable."
+RULE WeddingWitchDead04Mechanic CRITERIA ConceptWeddingWitchDead04 IsMechanic RESPONSE WeddingWitchDead04Mechanic
+RESPONSE Player.LostCallC6M3Mechanic CHARACTER Mechanic SUBTITLE ""
+RULE Player.LostCallC6M3Mechanic CRITERIA ConceptTalkIdle IsMechanic IsClosestSurvivorFar3000 IsNotSaidPlayerLostCall Isc6m3_port  ChanceToFire100Percent IsNotSpeakingWeight0 RESPONSE Player.LostCallC6M3Mechanic
+RESPONSE SurvivorSpottedGolfClubMechanic CHARACTER Mechanic SUBTITLE "Golf club!"
+RESPONSE SurvivorSpottedGolfClubMechanic CHARACTER Mechanic SUBTITLE "I got a golf club here."
+RESPONSE SurvivorSpottedGolfClubMechanic CHARACTER Mechanic SUBTITLE "Club here."
+RULE SurvivorSpottedGolfClubMechanic CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsMechanic IsTalk IsTalkMechanic IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsGolfClub IsWorldTalkMechanic IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGolfClubMechanic
+RESPONSE SurvivorSpottedGolfClubAutoMechanic CHARACTER Mechanic SUBTITLE "Golf club!"
+RESPONSE SurvivorSpottedGolfClubAutoMechanic CHARACTER Mechanic SUBTITLE "I got a golf club here."
+RESPONSE SurvivorSpottedGolfClubAutoMechanic CHARACTER Mechanic SUBTITLE "Club here."
+RULE SurvivorSpottedGolfClubAutoMechanic CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsMechanic IsTalk IsTalkMechanic IsNotSmartLookAuto IsGolfClub IsWorldTalkMechanic RESPONSE SurvivorSpottedGolfClubAutoMechanic
+RESPONSE SurvivorSpottedM60Mechanic CHARACTER Mechanic SUBTITLE "Hey that's an M60."
+RESPONSE SurvivorSpottedM60Mechanic CHARACTER Mechanic SUBTITLE "Big gun here."
+RESPONSE SurvivorSpottedM60Mechanic CHARACTER Mechanic SUBTITLE "Big gun here."
+RESPONSE SurvivorSpottedM60Mechanic CHARACTER Mechanic SUBTITLE "Belt gun here."
+RULE SurvivorSpottedM60Mechanic CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsMechanic IsTalk IsTalkMechanic IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsM60 IsWorldTalkMechanic IsNotSpeakingWeight0 RESPONSE SurvivorSpottedM60Mechanic
+RESPONSE SurvivorSpottedM60AutoMechanic CHARACTER Mechanic SUBTITLE "Hey that's an M60."
+RESPONSE SurvivorSpottedM60AutoMechanic CHARACTER Mechanic SUBTITLE "Big gun here."
+RESPONSE SurvivorSpottedM60AutoMechanic CHARACTER Mechanic SUBTITLE "Big gun here."
+RESPONSE SurvivorSpottedM60AutoMechanic CHARACTER Mechanic SUBTITLE "Belt gun here."
+RULE SurvivorSpottedM60AutoMechanic CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsMechanic IsTalk IsTalkMechanic IsNotSmartLookAuto IsM60 IsWorldTalkMechanic RESPONSE SurvivorSpottedM60AutoMechanic
+
+
+

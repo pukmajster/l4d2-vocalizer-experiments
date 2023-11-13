@@ -1,0 +1,46 @@
+"RadialMenu"
+{
+	"Orders,Survivor,Alive" 
+	{	
+		"Center"
+		{
+			"Command" ""
+			"Text" ""
+		}
+		"North"
+		{
+			"Command" ""
+			"Text" ""
+		}
+		"NorthWest"
+		{
+			"Command" ""
+			"Text" ""
+		}
+		"West"
+		{
+			"Command" "vocalize PlayerRemarkc5m4pooltableGambler"
+			"Text" "N I love pool"
+		}
+		"SouthWest"
+		{
+			"Command" "vocalize ConceptBlock013"
+			"Text" "F Screw churchguy"
+		}
+		"South"
+		{
+			"Command" "vocalize ConceptBlock558"
+			"Text" "F Have a heart"
+		}
+		"SouthEast"
+		{
+			"Command" "vocalize WorldC6M2_FinalWater01B"
+			"Text" "E I still like you Nick"
+		}
+		"NorthEast"
+		{
+			"Command" "vocalize WorldC6M1_WeddingWarn03D"
+			"Text" "E Huh"
+		}
+	}
+}

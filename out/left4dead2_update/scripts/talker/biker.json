@@ -1,0 +1,2963 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {},
+  "NamVet": {},
+  "Manager": {},
+  "Biker": {
+    "C6M3PlayerNiceShotBiker": [
+      "Nice shot.",
+      "Good shot.",
+      "Whoah. Nice shot.",
+      "Good shot!",
+      "Great shot!",
+      "Good one!"
+    ],
+    "L4D1PlayerRemarkFarm05_path09BBiker": [
+      "Shit. Never thought I'd go lookin' for the military."
+    ],
+    "L4D1PlayerRemarkFarm05_path09CBiker": [
+      "Shit. Never thought I'd go lookin' for the military."
+    ],
+    "L4D1ReviveMeInterruptedMinorBiker": [
+      "[Pain noise - short minor pain]"
+    ],
+    "L4D1ReviveMeInterruptedMajorBiker": [
+      "[Pain noise - ahh]",
+      "[Pain noise - huh]",
+      "[Pain noise - oy]",
+      "[Pain noise - ugh]"
+    ],
+    "L4D1ReviveMeInterruptedCriticalBiker": [
+      "[Pain noise - loud major pain]"
+    ],
+    "L4D1SurvivorMournBillBiker": [
+      "Bill's gone!",
+      "Rest in peace, old man.",
+      "Shit, I'm gonna miss the old guy."
+    ],
+    "L4D1SurvivorMournLouisBiker": [
+      "Ahhh. the manager's down for the count.",
+      "Ah shit, I was just starting to like that guy.",
+      "Damn it, he didn't deserve this.",
+      "The manager's down for the count.",
+      "Shit, I was just starting to like that guy."
+    ],
+    "L4D1SurvivorMournZoeyBiker": [
+      "Ah hell, she's dead.",
+      "Ahh Zoey. No.",
+      "Ahh damnit, not Zoey."
+    ],
+    "PlayerRelaxedSighBiker": [
+      "ah",
+      "ohh"
+    ],
+    "PlayerUseAdrenalineBiker": [
+      "Ahhh",
+      "ohh"
+    ],
+    "L4D1RescuedSurvivorBiker": [
+      "I'm here!",
+      "Hey, I'm here!",
+      "Hello!"
+    ],
+    "PlayerGivenItemBiker": [
+      "Thanks.",
+      "Thank you.",
+      "Thanks, I owe ya.",
+      "Thanks, dude.",
+      "Thanks for that.",
+      "Thanks. [noise you make gun clicking your mouth twice]"
+    ],
+    "ItemDonorProducerBiker": [
+      "Thanks.",
+      "Thank you.",
+      "Thanks, I owe ya.",
+      "Thanks for that.",
+      "Thanks. [noise you make gun clicking your mouth twice]"
+    ],
+    "ItemDonorCoachBiker": [
+      "Thanks.",
+      "Thank you.",
+      "Thanks, I owe ya.",
+      "Thanks, dude.",
+      "Thanks for that."
+    ],
+    "ItemDonorGamblerBiker": [
+      "Thanks.",
+      "Thank you.",
+      "Thanks, I owe ya.",
+      "Thanks, dude.",
+      "Thanks for that."
+    ],
+    "ItemDonorMechanicBiker": [
+      "Thanks.",
+      "Thank you.",
+      "Thanks, I owe ya.",
+      "Thanks, dude.",
+      "Thanks for that."
+    ],
+    "ItemDonorManagerBiker": [
+      "Thanks.",
+      "Thank you.",
+      "Thanks, I owe ya.",
+      "Thanks, dude.",
+      "Thanks for that."
+    ],
+    "ItemDonorTeenGirlBiker": [
+      "Thanks.",
+      "Thank you.",
+      "Thanks, I owe ya.",
+      "Thanks for that."
+    ],
+    "ItemDonorNamVetBiker": [
+      "Thanks.",
+      "Thank you.",
+      "Thanks, I owe ya.",
+      "Thanks, dude.",
+      "Thanks for that."
+    ],
+    "L4D1HealThanksBiker": [
+      "Thanks.",
+      "Thanks [noise you make gun clicking your mouth twice]",
+      "Thanks, man.",
+      "Hey, thanks man.",
+      "Thanks, I owe ya."
+    ],
+    "L4D1ReviveThanksBillBiker": [
+      "Thanks brother.",
+      "Thanks, Bill."
+    ],
+    "L4D1ReviveThanksLouisBiker": [
+      "Thanks bro.",
+      "Thanks, Louis.",
+      "Thanks, Louis. I owe you one",
+      "Hey, thanks for not forgettin' me.",
+      "Hell, I guess that's one I owe YOU."
+    ],
+    "L4D1ReviveThanksZoeyBiker": [
+      "Thanks, Zoey.",
+      "I owe you one."
+    ],
+    "BotHurrahAlsoBiker": [
+      "YEAH!",
+      "Hell yeah!",
+      "HELL YEAH!"
+    ],
+    "L4D1AutoYouAreWelcomeBiker": [
+      "I got your back.",
+      "Hey, no problem.",
+      "No problem.",
+      "Sure.",
+      "I told ya I'd take care of ya.",
+      "No, thank YOU!",
+      "Yer welcome.",
+      "Yea, I\u0092m pretty awesome.",
+      "No problemo, pal.",
+      "It's all good.",
+      "Gotcha.",
+      "Whatever, whenever, man."
+    ],
+    "L4D1BotAttentionBattleBiker": [
+      "Let's go kill somethin'!",
+      "Let's go break stuff!",
+      "Yeah, let's do it.",
+      "What?",
+      "I'm with ya!",
+      "Allright, let's go",
+      "Come on, we ain't got all day.",
+      "Let's go.",
+      "Let's get moving.",
+      "Let's move.",
+      "Time to go, ladies.",
+      "I'm tired of waitin' around here. Come on, let's go.",
+      "Come on, let's go.",
+      "Come on, let's move.",
+      "Come on,come on, let's go.",
+      "I'll follow you.",
+      "You go ahead, I'll follow you.",
+      "You take the lead.",
+      "Go ahead.",
+      "After you.",
+      "Right behind you!",
+      "I've got your back!",
+      "I got your back!",
+      "Behind you!",
+      "I'm here!"
+    ],
+    "L4D1BotNoteHumanAttentionBiker": [
+      "Ready for this?",
+      "Ready?",
+      "Ready for some fun?",
+      "Everybody ready?",
+      "You ready to roll?",
+      "We ready?",
+      "Everyone ready?",
+      "You ladies ready for this?",
+      "What?"
+    ],
+    "L4D1BotPlayer.YourWelcomeBiker": [
+      "I got your back.",
+      "Hey, no problem.",
+      "No problem.",
+      "Sure.",
+      "I told ya I'd take care of ya.",
+      "No, thank YOU!",
+      "Yer welcome.",
+      "Yea, I\u0092m pretty awesome.",
+      "No problemo, pal.",
+      "It's all good.",
+      "Gotcha.",
+      "Whatever, whenever, man."
+    ],
+    "L4D1BotReassureComingBiker": [
+      "Yes.",
+      "Okay.",
+      "Yep.",
+      "Yeah.",
+      "Roger that good buddy."
+    ],
+    "L4D1BotReassureNearbyBiker": [
+      "Right behind you!",
+      "I've got your back!",
+      "I'm with ya!",
+      "I got your back!",
+      "Behind you!",
+      "I'm here!"
+    ],
+    "L4D1BotYesReadyBiker": [
+      "Yes.",
+      "Okay.",
+      "Yep.",
+      "Yeah.",
+      "Roger that good buddy."
+    ],
+    "C6M1Intro_01bBiker": [
+      "Nope!",
+      "Nope, not a chance.",
+      "Nope, no way in hell."
+    ],
+    "C6M1Intro_01Biker01Biker": [
+      "And I'm telling you: I can't lower the bridge, you'll have to get around to the other side."
+    ],
+    "C6M1Intro_01Biker01CoachBiker": [
+      "Are any of you vampires?"
+    ],
+    "C6M1Intro_01Biker01ProducerBiker": [
+      "Ma'am uhh Miss? I'm sorry but I can't lower the bridge myself. If you can get to the other side I can help you lower it.",
+      "Are any of you vampires?"
+    ],
+    "C6M1Intro_01Biker01MechanicBiker": [
+      "Heyyy! Nice ride!",
+      "Heyy! Are you a racecar driver?"
+    ],
+    "C6M1Intro_01Biker01GamblerBiker": [
+      "And I'm telling you, I can't lower the bridge. You gotta get around to the other side."
+    ],
+    "C6M1Intro_01Biker01GamblerProducerBiker": [
+      "Hey!",
+      "You down there, be calm. We're cops.",
+      "Brother, that's what I'm trying to tell ya. We can't get this thing down ourselves. You have to get to the other side."
+    ],
+    "C6M1Intro_01dBiker": [
+      "Generator's out. Get to the other side and we'll help you get this thing down!",
+      "Can't generator's out"
+    ],
+    "C6M1Intro_02bBiker": [
+      "Can't! Generator's out. Get to the other side and fill it up! We'll cover ya!"
+    ],
+    "C6M1Intro_05bBiker": [
+      "Ahh sorry, No Ma'am."
+    ],
+    "C6M1Intro_05dBiker": [
+      "No ma'am."
+    ],
+    "C6M1Intro_06aBiker": [
+      "If I could, I would. Can't. Get to the other side and we can lower it together."
+    ],
+    "C6M1Intro_06cBiker": [
+      "(fumbling) Uhhh yyyeaaah.",
+      "Yeah."
+    ],
+    "C6M1Intro_06eBiker": [
+      "HELL YEAH!"
+    ],
+    "C6M1Intro_07aBiker": [
+      "If you want to keep going this way, you're gonna have to walk to the other side of this bridge and then me and an some uhh other cops up here can help you lower the bridge."
+    ],
+    "C6M1Intro_09cBiker": [
+      "I was talking to the little lady."
+    ],
+    "C6M1Intro_09gBiker": [
+      "Ahh shit. Nooo. But if you can get to the other side we can help you lower it."
+    ],
+    "C6M1Intro_10aBiker": [
+      "Go to hell suit.",
+      "Bite me Colonel Sanders."
+    ],
+    "C6M1Intro_10cBiker": [
+      "Hell yeah, I'll help *YOU*."
+    ],
+    "C6M1Intro_14bBiker": [
+      "Hey! I heard that.",
+      "And I'm telling you: I can't lower the bridge, you'll have to get around to the other side.",
+      "Is there anyone of you four who isn't an asshole?"
+    ],
+    "C6M1Intro_16bBiker": [
+      "Look, I don't love this bridge. But we just lost a man and\u0085 Sorry brother, but you are on your own.",
+      "Brother, I don't love this bridge, but right now we just lost a man and got a man down. Sorry, you are on your own."
+    ],
+    "C6M1Intro_18aBiker": [
+      "Okay! Bridge is down! That's as far as it goes."
+    ],
+    "C6M1Intro_18cBiker": [
+      "Really, this is as far as it goes. Never saw it any lower."
+    ],
+    "C6M1Intro_18eBiker": [
+      "Oh yeah... uh, yeah it is."
+    ],
+    "C6M1Intro_19aBiker": [
+      "Kick ASS! Now all you gotta do is go back into town, find some way to cross the river, fight your way to the other side of this bridge, refuel the generator and get it back going. Then its kissing time!"
+    ],
+    "C6M1Intro_20cBiker": [
+      "Sorry, can't."
+    ],
+    "C6M1Intro_20eBiker": [
+      "Louis! I told you, there were vampires!"
+    ],
+    "C6M1Intro_20fBiker": [
+      "I'm not talking to any goddamn vampires."
+    ],
+    "C6M1Intro_24bBiker": [
+      "Yeah! Yeah! That's what I've been saying."
+    ],
+    "C6M1Intro_24dBiker": [
+      "Sorry brother. Like I've been telling you. This bridge is up until the generator gets refueled."
+    ],
+    "C6M3_BridgeDownBiker": [
+      "Don't just stand there! HAUL ASS!"
+    ],
+    "c6m3_outroL4D1Biker": [
+      "I hate goodbyes."
+    ],
+    "c6m3_outroL4D1010aBiker": [
+      "Yeah."
+    ],
+    "c6m3_outroL4D104bBiker": [
+      "What? Seriously, what?"
+    ],
+    "c6m3_outroL4D108aBiker": [
+      "No, I haven't heard that one."
+    ],
+    "c6m3_outroL4D1AllBiker": [
+      "You know, they were all right.",
+      "I'm gonna miss them."
+    ],
+    "c6m3_outroL4D1CoachBiker": [
+      "Bye Coach! Keep the pedal to the metal!"
+    ],
+    "c6m3_outroL4D1CopGibbsBiker": [
+      "I really am a cop you know!",
+      "I really am a cop!",
+      "I love that car.",
+      "Look at that car go!"
+    ],
+    "c6m3_outroL4D1GamblerBiker": [
+      "Nick! Good luck, my brother!"
+    ],
+    "c6m3_outroL4D1MechanicBiker": [
+      "See Ya Ellis! Keep the pedal to the metal!",
+      "Hey Ellis, I HATE YOUR HAT! [laughs]"
+    ],
+    "c6m3_outroL4D1ProducerBiker": [
+      "Bye-bye RO! My lovely little angel.",
+      "I'm gonna miss Ro.",
+      "Bye RO! I love you!!!!!!!",
+      "Bye RO! I love you!!!!!!! (sobbing) I love you!",
+      "Go, Ro, go!"
+    ],
+    "IncapBounce2Biker": [
+      "Keep together!",
+      "Stay together!",
+      "Don't split up!"
+    ],
+    "L4D1_NiceJobPourBiker": [
+      "Nice job."
+    ],
+    "L4D1_AttractPlayerForThrowBiker": [
+      "Hey come over here.",
+      "Take this!",
+      "You can have this."
+    ],
+    "L4D1_SurvivorBotTakeThisItemBiker": [
+      "Here, you're gonna need this.",
+      "You lookin' for this?",
+      "Take this, now be safe."
+    ],
+    "WorldC6M3_ByBridge01Biker": [
+      "Get to your car, we'll hold them off!"
+    ],
+    "C6M3_BridgeGettoCarBiker": [
+      "Get your asses to your car!",
+      "Get your goddamn asses to your car!"
+    ],
+    "WorldC6M3Loss2Biker": [
+      "There's not many of us left, brother."
+    ],
+    "C7M1_saferoom01Biker": [
+      "Is this the Keys? Because I don't wanna live here."
+    ],
+    "C7M1_saferoom04Biker": [
+      "And why don't we want any of these perfectly good boats?",
+      "And why don't we want any of these boats?  They look cool."
+    ],
+    "C7M1_saferoom05Biker": [
+      "Louis. Tell Zoey I don't know what's going on."
+    ],
+    "C7M1_saferoom06Biker": [
+      "Found one.",
+      "Hey! Found one!"
+    ],
+    "C7M1_saferoom07aBiker": [
+      "What? We're not even gonna try driving it on the ground?"
+    ],
+    "C7M1_saferoom12aBiker": [
+      "Really? This is you pissed?"
+    ],
+    "C7M1_saferoom13Biker": [
+      "I think those are Bill's tears."
+    ],
+    "C7M1_saferoom14aBiker": [
+      "Hey, I ain't the one that thought we could drive a frickin'  train through the ocean."
+    ],
+    "C7M1_saferoom15bBiker": [
+      "Wow, I never thought I'd say this, but I think I wanna hang out with Louis.",
+      "Louis, I never thought I'd say this, but I think I wanna hang out with you."
+    ],
+    "C7M1_saferoom16Biker": [
+      "Hey Bill, I think I mighta missed the finer points of your plan. I caught all the train stuff. Something about a boat to an island paradise. But I missed the part where we're stranded in the middle of goddamn nowhere."
+    ],
+    "C7M1_saferoom16bBiker": [
+      "I'm goin', I'm goin'."
+    ],
+    "C7M1_saferoom17Biker": [
+      "Yeah! Sandy beaches. Coconuts. Sand. Beaches. Sand... Wait a minute, I hate islands."
+    ],
+    "C7M1_saferoom18aBiker": [
+      "Okay. I vote for the island paradise where we don't have to fight any more zombies."
+    ],
+    "C7M1_saferoom21Biker": [
+      "Aye, Aye Captain!",
+      "Bill, when you sailed ships were they all still made of wood?"
+    ],
+    "C7M1_saferoom21aBiker": [
+      "Nah, don't worry, I hate boats too."
+    ],
+    "C7M1OpenTankDoorBiker": [
+      "Get ready with some fire.",
+      "Alright, alright, I'll be the brave one.",
+      "Oh shit. There is a tank in here.",
+      "Hey, remember who letcha out of here."
+    ],
+    "C7M1OpenTankDoorTieBiker": [
+      "Go for the one with the tie.",
+      "Psst! Go for the one with the tie."
+    ],
+    "C7M1IntroBiker": [
+      "Why'd we stop?",
+      "Holy shit! Did that truck have a head-on collision with a boat? Man, I wish I could have seen that.",
+      "Man, Zoey is pissed.",
+      "So this is the Florida Keys. Crazy how it looks like some shithole in the middle of nowhere.",
+      "I was getting' tired of being cooped up, lookin' forward to some walking."
+    ],
+    "InfoRemc7m1_pretank01Biker": [
+      "Fine with me."
+    ],
+    "InfoRemc7m1_pretank03Biker": [
+      "What?"
+    ],
+    "InfoRemc7m1_pretank04BillBiker": [
+      "Hey, Bill. Zoey said you should open the door."
+    ],
+    "InfoRemc7m1_pretank04Biker": [
+      "No pro-- Hey... Hey! Wait a minute!"
+    ],
+    "InfoRemc7m1_tankcar01Biker": [
+      "Tanks?"
+    ],
+    "C7M2_saferoom02aBiker": [
+      "Whoa. How'd you do that?"
+    ],
+    "C7M2_saferoom02cBiker": [
+      "Bullshit. Say \"Bill's an idiot\" in Japanese."
+    ],
+    "C7M2_saferoom02eBiker": [
+      "Nice."
+    ],
+    "C7M2_saferoom03Biker": [
+      "Louis, if you don't stop being positive, I'm gonna sink the boat just to make you sad."
+    ],
+    "C7M2_saferoom03bBiker": [
+      "About to die in a brick factory? Cause I'm about to do that too. And I got to complain about shit the whole time."
+    ],
+    "C7M2_saferoom05aBiker": [
+      "Okay. But why didn't we drive one of those boats to look for a sail boat?",
+      "Okay. But why didn't we drive one of the other boats to look for a sail boat?"
+    ],
+    "C7M2SafeRoomBiker": [
+      "What the hell does this mean?",
+      "Hey, Louis. We been through the whole goddamn country, and it's all one big shithole. Still think it's going back to normal?",
+      "Okay. Explain to me again why we didn't take any one of the perfectly good boats we passed?",
+      "I'm still not seeing a boat. Why don't we head back and see if the train floats?"
+    ],
+    "Player.WarnMegaMobc7m201Biker": [
+      "Into the chute!",
+      "Get into the chute!"
+    ],
+    "C7M3_saferoom001Biker": [
+      "I wish I was heading to a deserted island. Can we each get our own?"
+    ],
+    "C7M3_saferoom002Biker": [
+      "I hate your good feelings."
+    ],
+    "C7M3_saferoom004bBiker": [
+      "Why aren't I allowed to shoot you again?",
+      "Yeah, I get it, Louis. Bill gets it for chrissake, and he can't even work a flush toilet.",
+      "Louis, you're such a nerd.",
+      "Nerd.",
+      "You're such a nerd."
+    ],
+    "C7M3_saferoom006aBiker": [
+      "No more vampires."
+    ],
+    "C7M3_saferoom008Biker": [
+      "Why don't we just live on the boat?"
+    ],
+    "C7M3_saferoom008bBiker": [
+      "Well\u0085 there was that ship back there."
+    ],
+    "C7M3_saferoom012aBiker": [
+      "Jesus, have you ever been to an island? They're goddamn horrible."
+    ],
+    "C7M3_saferoom012cBiker": [
+      "They're not the only ones..."
+    ],
+    "C7M3_saferoom012eBiker": [
+      "I hate this plan."
+    ],
+    "C7M3_saferoom013Biker": [
+      "Start hating it."
+    ],
+    "C7M3_saferoom013bBiker": [
+      "I hate it now too.",
+      "Yeah, I guess I hate it now, too."
+    ],
+    "C7M3_saferoom013dBiker": [
+      "I seriously doubt it."
+    ],
+    "C7M3_saferoom014Biker": [
+      "I hate fish."
+    ],
+    "C7M3_saferoom014bBiker": [
+      "Oh no, I like eating them. That's one of the ways I let fish know how much I hate them."
+    ],
+    "C7M3_saferoom015Biker": [
+      "The vampires want to kill us, the army wants to kill us. With our luck, Zoey probably crossed the mob. What the hell makes you think we're gonna live to see Bill's horrible goddamn island in the keys?"
+    ],
+    "C7M3_saferoom016aBiker": [
+      "That's the spirit allright - of insanity.",
+      "I mean, I'd like to hear your reasons why Louis isn't some sort of lunatic. For all we know, he's a serial killer."
+    ],
+    "C7M3_saferoom016cBiker": [
+      "See? I'm serious. Given, you know, current goddamn events, that's not optimism, it's mental illness."
+    ],
+    "C7M3_saferoom017aBiker": [
+      "No, I'm being serious. I really hate islands. I have insulaphobia - I'm afraid of islands."
+    ],
+    "C7M3_saferoom017cBiker": [
+      "No, man. It's a medical condition. Just my goddamn luck..."
+    ],
+    "C7M3_saferoom017eBiker": [
+      "Stupid island..."
+    ],
+    "C7M3_saferoom017gBiker": [
+      "Dumbass island shithole..."
+    ],
+    "C7M3_saferoom017hBiker": [
+      "Damn right."
+    ],
+    "C7M3BridgeBreaksBiker": [
+      "Goddamn it, who broke the bridge?",
+      "Someone's gotta restart that generator.",
+      "Do you think that generator might restart itself?"
+    ],
+    "C7M3FinalPressManagerBiker": [
+      "I could have predicted that.",
+      "Louis is dead.",
+      "Louis little buddy, you did it!",
+      "Louis, the island won't be the same without you.",
+      "Thanks Louis!",
+      "LOUUUUUIIIISSSS!"
+    ],
+    "C7M3FinalPressNamVetBiker": [
+      "Bill! It should have been Louis! It should have been Louis!",
+      "Bill did it!",
+      "Bill restarted the generator!",
+      "The bridge is going up",
+      "We're safe! We're safe!",
+      "Thanks Bill, I owe you one. You old bastard...",
+      "Bill, you did it, buddy! You really did it!"
+    ],
+    "C7M3FinalPressTeenGirlBiker": [
+      "Noooo! You monsters! Take Louis instead!",
+      "Not ZOEY!",
+      "SHIT ZOEY!",
+      "I hate this!"
+    ],
+    "C7M3GeneratorPress01Biker": [
+      "Let's start these generators.",
+      "We gotta start these generators."
+    ],
+    "C7M3GeneratorPress02Biker": [
+      "Everyone ready to start this one?"
+    ],
+    "C7M3GeneratorPress03Biker": [
+      "I hate these stupid generators.",
+      "Last generator."
+    ],
+    "C7M3PlayerGetToRescueVehicleBiker": [
+      "All aboard! The bridge"
+    ],
+    "C7M3PlayerGetToRescueVehicleNagBiker": [
+      "Everyone to the bridge!",
+      "Get to the bridge!"
+    ],
+    "C7M3PlayerIsInRescueVehicleNagBiker": [
+      "Get on the bridge!",
+      "Get to the bridge! Get to the bridge!",
+      "Get to the bridge! Get to the bridge, come on! Get to the bridge!"
+    ],
+    "C7M3PlayerRaiseBridgeNagBiker": [
+      "We need to raise the bridge.",
+      "Let's hit the button already.",
+      "I think this bridge can go higher."
+    ],
+    "C7M3BridgeButtonSpeakBiker": [
+      "Got it!",
+      "Come on, let's go, COME ON!",
+      "Now there's a sight for sore eyes. Looks like we're gonna make it, kids.",
+      "Hey, we're almost outta this shithole. I told you I'd get you here.",
+      "Come on, let's go!"
+    ],
+    "C7M3SafeRoomBiker": [
+      "Bill, I just wanna make it clear - in front of everyone - that I am against the island plan.",
+      "Hey, um... Louis... did I ever mention how I feel about islands?"
+    ],
+    "C7M3WaveOverGen1Biker": [
+      "Okay, its done let's go!",
+      "Why are we still here? To the next generator!"
+    ],
+    "C7M3WaveOverGen2Biker": [
+      "You think that last generator is going to start itself?",
+      "One more!"
+    ],
+    "CrashWarnMegaMobBiker": [
+      "Here they come! Zoey, just pretend they're all helicopter pilots!"
+    ],
+    "HowitzerBurnEnd00Biker": [
+      "Fire's out.",
+      "Bridge is clear!"
+    ],
+    "HowitzerBurnEnd01Biker": [
+      "Everybody across the bridge!"
+    ],
+    "L4D1crashHowitzerNagBiker": [
+      "Somebody fire the goddamn cannon!"
+    ],
+    "L4D1HowitzerFiredBiker": [
+      "Hell yeah!",
+      "HELL YEAH!",
+      "OH YEAH!",
+      "Oh yeah!",
+      "YEAH! YEAH!",
+      "Damn straight!"
+    ],
+    "CrashFinaleGenerator2OnSpkBiker": [
+      "Alright, it's moving!"
+    ],
+    "CrashFinaleGenerator2SpeakBiker": [
+      "Come on, you stupid generator, COME ON!",
+      "Come on, let's go, COME ON!",
+      "Goddamn generator. Come ON, let's GO!",
+      "Goddamn it. Piece a shit generator...",
+      "I'm gettin' so sick of this goddamn generator...",
+      "Soon as we get the truck moving, I am going to RUN YOU OVER. You goddamn piece of shit."
+    ],
+    "CrashFinaleGeneratorBreakSpkBiker": [
+      "POWER'S OUT! We gotta kickstart the generator!",
+      "POWER'S OUT!"
+    ],
+    "CrashFinaleGeneratorSpeakBiker": [
+      "Everybody hang on. This'll just take a second.",
+      "Get in position, this'll only take a sec."
+    ],
+    "CrashFinaleGenerator1NagBiker": [
+      "Someone wanna power up the generator?",
+      "Somebody should activate the lift.",
+      "Somebody wanna activate the generator?"
+    ],
+    "CrashFinaleTruckNagBiker": [
+      "Run to the truck! Go go go!"
+    ],
+    "CrashFinaleInsideTruckNagBiker": [
+      "To the truck!",
+      "Get to the truck!"
+    ],
+    "CrashFinaleTruckResp01Biker": [
+      "We gotta lower that lift!",
+      "That lift won't come down till we power up the generator."
+    ],
+    "CrashFinaleTruckRespZombieBiker": [
+      "Hey, Zoey-when I drive us outta here, don't SHOOT me, alright?",
+      "I'm not driving. I don't wanna get shot."
+    ],
+    "CrashYerKiddingBiker": [
+      "Yer kidding, right?"
+    ],
+    "L4D1CrashFinaleGeneratorNagBiker": [
+      "We gotta kickstart the generator!",
+      "Someone needs to restart the generator!"
+    ],
+    "L4D1CrashFinaleGenUnPressSpeakBiker": [
+      "Son of a bitch.",
+      "Dammit."
+    ],
+    "L4D1CrashFinaleGen2UnPressSpeakBiker": [
+      "Goddammit.",
+      "Shit.",
+      "Ah shit.",
+      "Ah hell.",
+      "Ah bullshit.",
+      "Dammit.",
+      "Bullshit."
+    ],
+    "L4D1CrashFinaleTruckReadySpkBiker": [
+      "Lift's down! Get in the goddamn truck!"
+    ],
+    "L4D1CrashFinaleTruckReadyRespBiker": [
+      "Thank god, I hate walking."
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path14Biker": [
+      "Let's get in that truck, step on the gas, and not stop till we see the army.",
+      "I got an idea. Let's steal that truck."
+    ],
+    "CrashCourseR02Biker": [
+      "I hate latest issues."
+    ],
+    "CrashCourseR09Biker": [
+      "Yeah ha ha ha. This the one you wanna die in?"
+    ],
+    "CrashCourseR10Biker": [
+      "Nice one."
+    ],
+    "CrashCourseR13Biker": [
+      "Yeah... steam's alright, I guess.",
+      "Oh, I love steam. I just hate the pipes.."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path02Biker": [
+      "I hate birds."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path05Biker": [
+      "Truck's blocking the whole goddamn road...",
+      "Sayyy. An alley!"
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path06Biker": [
+      "Might be something in this warehouse.",
+      "Probably some free crap in these buildings."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path07Biker": [
+      "I drove for Hersch once. Till some guy laughed at my little brown shorts. And I beat him to death."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path11Biker": [
+      "Huh. The army. Fat lotta help they've been to US.",
+      "Huh. The army. They're about as much help as the cops."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path12Biker": [
+      "Whoa. Zoey must have shot the train conductor!"
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path13Biker": [
+      "Let's follow that bridge. Might be a way outta this dump.",
+      "Let's get across the river."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path14Biker": [
+      "We can get back up over here!"
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path17Biker": [
+      "We gotta get over this bridge.",
+      "Ah hell, the bridge is blocked."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path18Biker": [
+      "We need to shoot that barricade down."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path19Biker": [
+      "'For...lease.'  Anybody got a pen? I wanna write this number down.",
+      "'For...lease.'"
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path24Biker": [
+      "The safehouse is down there!"
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path05Biker": [
+      "Through this container!"
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path06ZoeyBiker": [
+      "Hey, Zoey, look! We're 'passing gas'... [chuckles]"
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path06LouisBiker": [
+      "Hey, Louis, look! We're 'passing gas'... [chuckles]"
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path06BillBiker": [
+      "Hey, Bill, look! We're 'passing gas'... [chuckles]"
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path26Biker": [
+      "This sign says 'I hate Mondays'! Man, tell me about it."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path26SelfBiker": [
+      "This sign says 'I hate Mondays'! Man, tell me about it."
+    ],
+    "CrashCourseR11Biker": [
+      "Unless it's Lasagna Mondays. I love lasagna."
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path08Biker": [
+      "Hey, watch out for that goddamn steam pipe.",
+      "I hate steam... pipes."
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path10Biker": [
+      "Over that truck!"
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path11Biker": [
+      "Thanks for saving the planet, recyclers. Mission accomplished.",
+      "Copper... aluminum... brass... those guys recycle everything!"
+    ],
+    "L4D1PlayerRemarkcrashcourse02_path12Biker": [
+      "Through the truck yard!"
+    ],
+    "PlayerRemarkcrashcourse01_path21Biker": [
+      "Waterworks. That where you pick up your crying supplies, Bill? Ah ha ha, I'm hilarious."
+    ],
+    "IntroCrashR02Biker": [
+      "I guess I DID tell ya."
+    ],
+    "IntroCrashR04Biker": [
+      "Alright. I'll give ya that."
+    ],
+    "IntroCrashR06Biker": [
+      "Well, it's pretty complicated. I don't wanna bore you with a lotta... complex... fractions. But step one is we walk THAT way."
+    ],
+    "IntroCrashR08Biker": [
+      "Whoah. Musta hit my head in the crash. I'm okay now. I hate helicopters."
+    ],
+    "IntroCrashR10Biker": [
+      "Let's just hike the hell out of here.",
+      "Looks like we're walking again.",
+      "I already hate this place. Let's get outta here."
+    ],
+    "IntroCrashR12Biker": [
+      "Yeah! Stupid helicopter."
+    ],
+    "IntroCrashR14Biker": [
+      "Terrific. Looks like we're walkin, then."
+    ],
+    "IntroCrashR16Biker": [
+      "That's what I thought..."
+    ],
+    "IntroCrashR18Biker": [
+      "'Cause it's money in the bank. Remind me to explain gambling to you sometime."
+    ],
+    "IntroCrashR20Biker": [
+      "[pouty] Well, I guess NOW we'll never know, will we?"
+    ],
+    "IntroCrashR21Biker": [
+      "I hate walking."
+    ],
+    "IntroCrashR23Biker": [
+      "And it turns out I was right about that."
+    ],
+    "IntroCrashR26Biker": [
+      "[grumbling under breath]...Don't see what's wrong with vests...",
+      "[grumbling under breath]...not even WEARING chaps...",
+      "[grumbling under breath]... I HATE parades."
+    ],
+    "IntroCrashR27Biker": [
+      "Yeah, well--Next time someone offers us a ride, don't SHOOT him."
+    ],
+    "IntroCrashR29Biker": [
+      "[confused] Wait, WHAT happened?"
+    ],
+    "IntroCrashR31Biker": [
+      "Or, in this case, a vampire."
+    ],
+    "L4D1PlayerCrashCourseIntroBiker": [
+      "I still can't believe you shot the pilot!",
+      "See? I TOLD ya. Helicopter crashed. We're not saved, we're all gonna die. Pay up.",
+      "Hey, Mr. Positive! We just CRASHED. You got somethin' positive to say about that?",
+      "Hey. Sunshine Beams. We just CRASHED. You got somethin' positive to say about that?",
+      "Is that how helicopters are supposed to land?",
+      "Hey Louis. That fancy college of yours teach ya how to fix a helicopter?",
+      "Goddamnit, where'd they buy this helicopter? At the ... uh... um... hold on...",
+      "I ever tell you how I feel about helicopters?",
+      "Guys. Everyone. I wanna say something: I. hate. helicopters.",
+      "[sincere] Wow! I love helicopters! I love 'em so much.",
+      "Alright, nobody panic. I have a plan.",
+      "You still wearin' that tie, Louis? What, you got a meeting? Bah ha ha."
+    ],
+    "CrashCourseI01Biker": [
+      "Yeah, let's do it."
+    ],
+    "CrashCourseB02Biker": [
+      "Oh my god, I hate Canada so much.",
+      "Guess I've been hatin' Riverside all this time for nothin' then."
+    ],
+    "CrashCourseC01Biker": [
+      "Ahhhh, I doubt it."
+    ],
+    "L4D1C9M2SafeRoomBiker": [
+      "Looks like we should check out that truck depot.",
+      "Riverside! Ain't that where the army's holed up?",
+      "Riverside? Aww, I hate Canada."
+    ],
+    "L4D1IntroFarm4Biker": [
+      "Yeah, let's do it."
+    ],
+    "L4D1SurvivorBoomerBlunderBiker": [
+      "Sorry about that.",
+      "Sorry, man, shit happens.",
+      "Uh, yeah, sorry.",
+      "Ah shit.",
+      "Yeah, guess that was my fault.",
+      "Yeah, guess that was my fault. Again."
+    ],
+    "L4D1SurvivorFinaleTriggeredBoatBiker": [
+      "We got a boat coming!"
+    ],
+    "L4D1SurvivorFinaleTriggeredFarmBiker": [
+      "Help'll be here soon! You ladies ready for some fun until they show up?",
+      "A truck should be here soon - we just gotta hold out until it shows."
+    ],
+    "L4D1SurvivorFinaleTriggeredRooftopBiker": [
+      "Chopper's on its way!",
+      "We got some help comin'. Let's get ready!",
+      "Help's on its way. Let's have some fun while we wait.",
+      "Help is on the way!"
+    ],
+    "L4D1SurvivorFinalVehicleBoatBiker": [
+      "Everyone to the boat!"
+    ],
+    "L4D1SurvivorFinalVehicleInsideBoatBiker": [
+      "Get to the boat!",
+      "Get your asses on that boat!"
+    ],
+    "L4D1SurvivorFinalVehicleFarmBiker": [
+      "Run to the truck! Go go go!"
+    ],
+    "L4D1SurvivorFinalVehicleInsideFarmBiker": [
+      "To the truck!",
+      "Get to the truck!"
+    ],
+    "L4D1SurvivorFinalVehicleFarmSpottedBiker": [
+      "C'mon, that's the last truck outta this shithole. LET'S GO!",
+      "The truck's here! Let's go!"
+    ],
+    "L4D1SurvivorFinalVehicleRooftopBiker": [
+      "Everybody to the chopper!"
+    ],
+    "L4D1SurvivorFinalVehicleInsideRooftopBiker": [
+      "Get to the chopper!"
+    ],
+    "L4D1SurvivorFinalVehicleRunwayBiker": [
+      "Get to the plane. Let's go!",
+      "This is the last flight out of here! Let's go"
+    ],
+    "L4D1SurvivorFinalVehicleInsideRunwayBiker": [
+      "Get to the plane!"
+    ],
+    "L4D1SurvivorFinalVehicleSpottedBoatBiker": [
+      "Our boat's here, all aboard!",
+      "Our boat's here! Let's go!"
+    ],
+    "L4D1SurvivorFinalVehicleSpottedRooftopBiker": [
+      "The chopper's here! Let's go!",
+      "The chopper's here! About time, too..."
+    ],
+    "L4D1PlayerShotCarNotBiker": [
+      "Ah shit.",
+      "Ah hell.",
+      "Ah bullshit."
+    ],
+    "L4D1PlayerShotCarBiker": [
+      "Goddammit.",
+      "Shit.",
+      "Dammit.",
+      "Bullshit."
+    ],
+    "L4D1ResponseSoftDispleasureSwearBiker": [
+      "[Improv non-verbal displeasure & frustration sounds]",
+      "I don't like ths one damn bit.",
+      "Shit",
+      "Ahhhhh.",
+      "Shit.",
+      "Ah hell.",
+      "Son of a bitch.",
+      "Ah bullshit.",
+      "Dammit."
+    ],
+    "L4D1SurvivorAskBillForHealthBiker": [
+      "Bill, could I borrow your med kit? I just wanna look at it.",
+      "Bill, you got a med kit I could have?",
+      "Old man, you forget you have a health pack, or you  saving that for me?"
+    ],
+    "L4D1SurvivorAskLouisForHealthBiker": [
+      "Louis, you got a med kit I could have?",
+      "Louis, don't bogard that med kit, man. I'm hurt.",
+      "Louis, while I hate to break that ensemble and all, can I have your health pack?",
+      "Louis, gimme your health pack."
+    ],
+    "L4D1SurvivorAskZoeyForHealthBiker": [
+      "Zoey, you got a health kit for me?",
+      "Hey little lady, if you ain't gonna use that health kit I could use it."
+    ],
+    "L4D1SurvivorSpottedBillCloseBiker": [
+      "Bill (quiet)"
+    ],
+    "L4D1SurvivorSpottedBillFarBiker": [
+      "Billllll! (loud)",
+      "Bill! (loud)"
+    ],
+    "L4D1SurvivorSpottedLouisCloseBiker": [
+      "Louis (quiet)"
+    ],
+    "L4D1SurvivorSpottedLouisFarBiker": [
+      "Louis! (loud)",
+      "Louissss! (loud)"
+    ],
+    "L4D1SurvivorSpottedWorldCloseBiker": [
+      "Check this out.",
+      "Look at this.",
+      "Well, hell, look at this.",
+      "Look here.",
+      "Somebody better check this out.",
+      "What the hell is this?"
+    ],
+    "L4D1SurvivorSpottedZoeyCloseBiker": [
+      "Zoey (quite)"
+    ],
+    "L4D1SurvivorSpottedZoeyClose2Biker": [
+      "Zoey (quite)"
+    ],
+    "L4D1SurvivorSpottedZoeyFarBiker": [
+      "Zoey! (loud)",
+      "Zoeyyyyy! (loud)"
+    ],
+    "SurvivorSpottedAmmoBiker": [
+      "Ammo here!"
+    ],
+    "SurvivorSpottedGrenadeBiker": [
+      "There's a pipebomb here.",
+      "There's a pipe bomb here.",
+      "Pipe bombs!"
+    ],
+    "SurvivorSpottedGrenadeAutoBiker2": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Cool",
+      "Yes.",
+      "Yeah.",
+      "Roger that good buddy."
+    ],
+    "SurvivorSpottedHealthBiker": [
+      "First Aid Kit here!",
+      "First Aid kit here!",
+      "First Aid here!",
+      "First aid kits over here.",
+      "There's a first aid kit here.",
+      "First aid kit over here."
+    ],
+    "SurvivorSpottedMolotovBiker": [
+      "Molotov's over here.",
+      "Molotovs!"
+    ],
+    "SurvivorSpottedVomitJarBiker": [
+      "Grenades here."
+    ],
+    "SurvivorSpottedPillsBiker": [
+      "Pills here!"
+    ],
+    "SurvivorSpottedAdrenalineBiker": [
+      "Check this out.",
+      "Well, hell, look at this.",
+      "Somebody better check this out."
+    ],
+    "L4D1SurvivorMovingToBattleStationBiker": [
+      "Ready.",
+      "Yeah, let's do it.",
+      "Allright, then, let's do it.",
+      "I say we just do it."
+    ],
+    "L4D1SpottedBoomerBiker": [
+      "BOOMER!"
+    ],
+    "L4D1SpottedHunterBiker": [
+      "HUNTER!"
+    ],
+    "L4D1SpottedCanadianHunterBiker": [
+      "HUNTER! It looked Canadian!"
+    ],
+    "L4D1SpottedSmokerBiker": [
+      "SMOKER!"
+    ],
+    "L4D1SpottedChargerBiker": [
+      "CHARGER!"
+    ],
+    "L4D1SpottedJockeyBiker": [
+      "JOCKEY!",
+      "Little guy!",
+      "Little vampire!"
+    ],
+    "L4D1SpottedSpitterBiker": [
+      "SPITTER!"
+    ],
+    "L4D1SurvivorSpottedInfectedBiker": [
+      "Here they come!",
+      "Holy shit, here they come!",
+      "They're coming!",
+      "Incoming!",
+      "Get ready ladies!",
+      "INCOMING!",
+      "This is gonna be good.",
+      "Shit, Get ready!"
+    ],
+    "SurvivorSpottedTankBiker": [
+      "TANK!"
+    ],
+    "L4D1SpottedTankBiker": [
+      "Lead 'em over here!",
+      "Oh shit, two tanks!",
+      "TWO TANKS! I HATE THE SOUTH!"
+    ],
+    "SurvivorSpottedWitchBiker": [
+      "WITCH!"
+    ],
+    "L4D1EmphaticArriveRunBiker": [
+      "RUN!",
+      "HOLY SHIT! Run!",
+      "LET'S BEAT IT!",
+      "SHIT! Run!",
+      "Get the lead out!",
+      "Haul Ass!"
+    ],
+    "L4D1PlayerAlertGiveItemBiker": [
+      "Here, take this.",
+      "I got something for you.",
+      "Take this.",
+      "Merry Christmas.",
+      "Share the wealth, brother.",
+      "Hold up I got something for you.",
+      "Take it. Hell, I don't need it."
+    ],
+    "L4D1PlayerFriendlyFireBiker": [
+      "That hurt.",
+      "Dammit! Will you knock it off!",
+      "Will you knock it off!",
+      "Do I look like a target?",
+      "You know I would appreciate it, IF YOU'D STOP SHOOTING ME.",
+      "Watch where the hell you're shooting.",
+      "Watch where you're shooting!",
+      "Stop. Shooting. Me.",
+      "Hey! Stop. Shooting. Me.",
+      "Don't shoot me!",
+      "Watch where you point that thing",
+      "Dammit! Watch where you're shooting!",
+      "Monsters all over the damn place, and you gotta shoot me.",
+      "Quit freaking shooting me!",
+      "Shoot me again, I'm gonna kick your ass.",
+      "Do that again, and you're gonna be firing that thing outta your ass."
+    ],
+    "L4D1PlayerFriendlyFire2Biker": [
+      "Pull yer head outta yer ass.",
+      "Careful!",
+      "Hey! Careful!"
+    ],
+    "L4D1PlayerFriendlyFireFromBillBiker": [
+      "AH! You havin' some kinda flashback Old Man?",
+      "God DAMMIT, Bill.",
+      "Bill, quit shootin' me.",
+      "Watch yer fire, Old Man.",
+      "Nice Shot, Bill.That was my ass."
+    ],
+    "L4D1PlayerFriendlyFireFromLouisBiker": [
+      "OW! Louis!",
+      "GODDAMN IT LOUIS! Stop shootin' me.",
+      "LOU-IS  STOP SHOOTING ME (Snarled)"
+    ],
+    "L4D1PlayerFriendlyFireFromZoeyBiker": [
+      "Knock it off, Zoey.",
+      "Zoey! Stop shooting me."
+    ],
+    "L4D1PlayerFriendlyFireNoBulletBiker": [
+      "That hurt.",
+      "Dammit! Will you knock it off!",
+      "Will you knock it off!"
+    ],
+    "L4D1PlayerToTheRescueBiker": [
+      "Hang on, I'm on my way!",
+      "I'm coming!",
+      "Hang in there buddy, I'm comin.",
+      "I'm coming for ya!",
+      "Hang on I'm coming!",
+      "Hang in there, I'm comin!",
+      "Hang on, hang on, I'm comin!",
+      "I heard ya, I'm comin'!"
+    ],
+    "L4D1SurvivorTauntResponseBiker": [
+      "All right.",
+      "Aw riiiight.",
+      "Awesome.",
+      "Goddamn right!",
+      "Hell yeah!",
+      "That's right!",
+      "HELL YEAH!",
+      "OH YEAH!",
+      "Oh yeah!",
+      "[Loud, evil laugh]",
+      "YEAH! YEAH!",
+      "Damn straight!"
+    ],
+    "PlayerToTheRescueRosBiker": [
+      "Hang on, I'm on my way!",
+      "I'm coming!",
+      "Hang in there buddy, I'm comin.",
+      "I'm coming for ya!",
+      "Hang on I'm coming!",
+      "Hang in there, I'm comin!",
+      "Hang on, hang on, I'm comin!",
+      "I heard ya, I'm comin'!"
+    ],
+    "L4D1EmphaticArriveRunFarm2Biker": [
+      "I forgive you, Army. I love you guys!",
+      "I LOVE the goddamn army!"
+    ],
+    "L4D1PlayerChokeResponseBiker": [
+      "[Choking]"
+    ],
+    "PlayerWitchChasingBiker": [
+      "I'm in trouble!",
+      "I'm in some trouble!",
+      "[Ahhhh - terrified yell]"
+    ],
+    "PlayerWitchStartAttackBiker": [
+      "Oh no.",
+      "Shit.",
+      "Ah shit.",
+      "Damnit.",
+      "Goddammit.",
+      "Crap."
+    ],
+    "L4D1SurvivorCriticalHurtBiker": [
+      "[Pain noise - loud major pain]"
+    ],
+    "L4D1SurvivorIncapacitatedHurtBiker": [
+      "[Ahhhh - terrified yell]"
+    ],
+    "L4D1SurvivorMajorHurtBiker": [
+      "[Pain noise - ahh]",
+      "[Pain noise - huh]",
+      "[Pain noise - oy]",
+      "[Pain noise - ugh]"
+    ],
+    "L4D1SurvivorMinorHurtBiker": [
+      "[Pain noise - short minor pain]"
+    ],
+    "L4D1SurvivorReloadingBiker": [
+      "Reloading!"
+    ],
+    "SurvivorJockeyHurtMajorBiker": [
+      "[groan]",
+      "[groan2]",
+      "[Pain noise - loud major pain]",
+      "[Pain noise - huh]",
+      "[Pain noise - oy]",
+      "[Pain noise - short minor pain]",
+      "GET IT OFF!",
+      "GET IT OFF! [angry]",
+      "GET IT OFF",
+      "GET IT OFF GET IT OFF",
+      "[Reaction to body hits - uhs ahs]"
+    ],
+    "L4D1PlayerHelpIncappedBiker": [
+      "Help!",
+      "Help me!"
+    ],
+    "L4D1PlayerHelpIncappedBleedingBiker": [
+      "I need some help over here.",
+      "I'm in trouble!",
+      "I'm in some trouble!",
+      "I'm not screwing around, I really need some help over here!",
+      "Dammit, I need some help",
+      "Hey! I need some help!",
+      "I need a hand over here",
+      "I'm in a little trouble over here",
+      "Dammit, I need some help.",
+      "Hey, I could use a hand.",
+      "Get your ass over here and help me up.",
+      "Someone want to help me out here?",
+      "Hello. I could use a hand.",
+      "Someone wannna give me a hand?",
+      "Hey, I really need a hand.",
+      "Could use a hand here."
+    ],
+    "L4D1PlayerHelpIncappedLethargicBiker": [
+      "I need help NOW!",
+      "This is it, I need help now!"
+    ],
+    "L4D1HelpResponseBillBiker": [
+      "Are we just gonna leave someone behind?",
+      "That old man wouldn't leave one of US out there.",
+      "Ahh shit, I just can't sit here and wait for them to die.",
+      "We just leavin' Bill out there?"
+    ],
+    "L4D1HelpResponseLouisBiker": [
+      "Are we just gonna leave someone behind?",
+      "Ahh shit, I just can't sit here and wait for them to die.",
+      "We should maybe go get Louis. I'm just sayin'...",
+      "We just leavin' Louis out there?"
+    ],
+    "L4D1HelpResponseLouisBBiker": [
+      "We just leavin' Louis out there?"
+    ],
+    "L4D1HelpResponseLouisB2Biker": [
+      "I mean, I'm cool with that if everyone else is."
+    ],
+    "L4D1HelpResponseZoeyBiker": [
+      "Are we just gonna leave someone behind?",
+      "We can't leave Zoey out there."
+    ],
+    "L4D1PlayeGoingToDie3VampirebBiker": [
+      "Call these freaks whatever you want."
+    ],
+    "L4D1PlayerAirport02CraneStartedBiker": [
+      "Ah shit, here we go again."
+    ],
+    "L4D1PlayerAirport02DumpsterDownBiker": [
+      "It's down! Let's move!",
+      "Our dumpster has arrived! Let's go!",
+      "Our dumpster has arrived! Let's go, girls!"
+    ],
+    "L4D1Playerairport03_barrieraBiker": [
+      "It figures the only thing in the damn city not on fire is the one thing we need burned down."
+    ],
+    "L4D1PlayerAirport03FirePathClearaBiker": [
+      "Lets get out of here. Go go go!"
+    ],
+    "L4D1PlayerAirport03FirePathClearXBiker": [
+      "The path is clear!",
+      "We burned a path!"
+    ],
+    "L4D1PlayerAirport03FireStartedXBiker": [
+      "Burn you son of a bitch.",
+      "Heh heh, hot shot."
+    ],
+    "L4D1Playerairport04_05aBiker": [
+      "<Short laugh>",
+      "[laugh]"
+    ],
+    "L4D1Playerairport04_08aBiker": [
+      "Bill? I was the one that said that."
+    ],
+    "L4D1Playerairport04_08bBiker": [
+      "That sounds about right.",
+      "Holy shit..."
+    ],
+    "L4D1Playerairport04_08cBiker": [
+      "We need to get out to the runway.",
+      "We gotta get to the runway."
+    ],
+    "L4D1Playerairport04_vanaBiker": [
+      "I hate vans."
+    ],
+    "L4D1PlayerRemarkairport02_creshendo01aBiker": [
+      "The crane'll lower that dumpster, then we can jump across.",
+      "We can get across on that dumpster.",
+      "Somebody wanna lower that dumpster so we can get across?",
+      "Somebody start the crane.",
+      "Don't everybody start the crane at once."
+    ],
+    "L4D1PlayerRemarkairport02_path01Biker": [
+      "We can get back to the rooftops.",
+      "Let's head back up.",
+      "We oughtta get back on the rooftops."
+    ],
+    "L4D1PlayerRemarkairport02_path02Biker": [
+      "I hate lawyers",
+      "I hate boat lawyers. When are they gonna get done practicing law?"
+    ],
+    "L4D1PlayerRemarkairport02_path03Biker": [
+      "Hey suit, this look familiar? tch tck?"
+    ],
+    "L4D1PlayerRemarkairport02_path04Biker": [
+      "Down the stairs!",
+      "Let's head down the stairs.",
+      "Looks like we take the stairs."
+    ],
+    "L4D1PlayerRemarkairport02_path06Biker": [
+      "We're getting close the airport!",
+      "We're almost to the airport!"
+    ],
+    "L4D1PlayerRemarkairport03_01Biker": [
+      "This better not be the plane we saw.",
+      "What idiot bombed the airport?",
+      "Ah shit, that half a plane ain't real encouraging."
+    ],
+    "L4D1PlayerRemarkairport03_02Biker": [
+      "THE AIRPORT!",
+      "HELL YES, IT'S THE AIRPORT!",
+      "What the hell happened to the airport?",
+      "THE AIRPORT! Told ya I'd get us here.",
+      "What friggin' idiot bombed the airport?"
+    ],
+    "L4D1PlayerRemarkairport03_03Biker": [
+      "The doors are all blocked!"
+    ],
+    "L4D1PlayerRemarkairport03_04Biker": [
+      "We can get inside over the skybridge.",
+      "There's the skybridge!"
+    ],
+    "L4D1PlayerRemarkairport03_05Biker": [
+      "Never a cop when you need one."
+    ],
+    "L4D1PlayerRemarkairport03_06Biker": [
+      "Let's go through here."
+    ],
+    "L4D1PlayerRemarkairport03_barrierBiker": [
+      "Let's burn down this barricade.",
+      "Let's burn this pile a' crap."
+    ],
+    "L4D1PlayerRemarkairport04_01Biker": [
+      "Let's go through the offices!"
+    ],
+    "L4D1PlayerRemarkairport04_03Biker": [
+      "God's dead, huh? Well, join the damn club."
+    ],
+    "L4D1PlayerRemarkairport04_07Biker": [
+      "I hate Ayn Rand.",
+      "This is the most sober I've ever been in an airport."
+    ],
+    "L4D1PlayerRemarkairport04_08Biker": [
+      "There's the plane we saw!",
+      "Let's get down to that plane!",
+      "There's the plane! How the hell do to it?",
+      "There's the plane!"
+    ],
+    "L4D1PlayerRemarkairport04_vanBiker": [
+      "We can send the van through that pile a' crap.",
+      "We gotta get through that pile a' junk."
+    ],
+    "L4D1PlayerRemarkcrashcourse01_path01Biker": [
+      "Hey, Zoey, here's the pilot. Case you wanna shoot him again."
+    ],
+    "L4D1PlayerRemarkFarm01_path01Biker": [
+      "I hate the woods."
+    ],
+    "L4D1PlayerRemarkFarm01_path02Biker": [
+      "This way."
+    ],
+    "L4D1PlayerRemarkFarm01_path03Biker": [
+      "Nice place."
+    ],
+    "L4D1PlayerRemarkFarm01_path04Biker": [
+      "There's the tracks. Now we just need to get to 'em."
+    ],
+    "L4D1PlayerRemarkFarm02_path01Biker": [
+      "The tracks should just be downstairs.",
+      "I hate stairs."
+    ],
+    "L4D1PlayerRemarkFarm02_path02Biker": [
+      "There's the tracks!"
+    ],
+    "L4D1PlayerRemarkFarm02_path02bBiker": [
+      "The tracks!"
+    ],
+    "L4D1PlayerRemarkFarm02_path06Biker": [
+      "Down here!"
+    ],
+    "L4D1PlayerRemarkFarm02_path08Biker": [
+      "This tunnel heads the right way."
+    ],
+    "L4D1PlayerRemarkFarm02_path09Biker": [
+      "Let's get up that ladder!"
+    ],
+    "L4D1PlayerRemarkFarm03_path01Biker": [
+      "This better go through."
+    ],
+    "L4D1PlayerRemarkFarm03_path03aBiker": [
+      "Bet we can get to the tracks from that building."
+    ],
+    "L4D1PlayerRemarkFarm03_path04Biker": [
+      "The tracks!"
+    ],
+    "L4D1PlayerRemarkFarm03_path06Biker": [
+      "Well, goddamnit, the tracks are blocked."
+    ],
+    "L4D1PlayerRemarkFarm03_path07Biker": [
+      "Yech..."
+    ],
+    "L4D1PlayerRemarkFarm03_path08Biker": [
+      "You know - I bet we could knock that bridge down."
+    ],
+    "L4D1PlayerRemarkFarm03_path10Biker": [
+      "Up there!"
+    ],
+    "L4D1PlayerRemarkFarm04_path01Biker": [
+      "Let's check out the barn."
+    ],
+    "L4D1PlayerRemarkFarm04_path02Biker": [
+      "There's the tracks!"
+    ],
+    "L4D1PlayerRemarkFarm04_path06Biker": [
+      "We can get around down here."
+    ],
+    "L4D1PlayerRemarkFarm04_path07Biker": [
+      "Up the stairs!"
+    ],
+    "L4D1PlayerRemarkFarm04_path08Biker": [
+      "Through here!"
+    ],
+    "L4D1PlayerRemarkFarm04_path10Biker": [
+      "Whoa.",
+      "Holy shit..."
+    ],
+    "L4D1PlayerRemarkFarm05_path06Biker": [
+      "Get to the farm house!"
+    ],
+    "L4D1PlayerRemarkFarm05_path07Biker": [
+      "Goddamn tape loop piece of shit."
+    ],
+    "L4D1PlayerRemarkFarm05_path07VampiresBiker": [
+      "You got to be shittin me.  We walk a hundred miles, fight 5 million vampires -"
+    ],
+    "L4D1PlayerRemarkFarm05_path07VampirescBiker": [
+      "-whatever. And all they got is a goddamn tape loop? Screw the goddamn army."
+    ],
+    "L4D1PlayerRemarkFarm05_path08Biker": [
+      "An outpost!",
+      "Yeah, we made it!"
+    ],
+    "L4D1PlayerRemarkhospital03_path03Biker": [
+      "Get on the lift!"
+    ],
+    "L4D1PlayerRemarkhospital03_path04Biker": [
+      "This way, kids."
+    ],
+    "L4D1PlayerRemarkhospital03_path07Biker": [
+      "I hate sewers."
+    ],
+    "L4D1PlayerRemarkhospital03_path08Biker": [
+      "Now this is some shit."
+    ],
+    "L4D1PlayerRemarkhospital03_path08a2Biker": [
+      "Oh hey, that is uncalled for!",
+      "Hey! hey!"
+    ],
+    "L4D1PlayerRemarkhospital04_path01Biker": [
+      "I hate hospitals.  And doctors and lawyers and cops...",
+      "I hate hospitals."
+    ],
+    "L4D1PlayerRemarkhospital04_path02Biker": [
+      "I hate stairs."
+    ],
+    "L4D1PlayerRemarkhospital04_path04Biker": [
+      "Elevator's here!",
+      "Get on the elevator!"
+    ],
+    "L4D1PlayerRemarkhospital04_path04aBiker": [
+      "Elevator's here!",
+      "Get on the elevator!"
+    ],
+    "L4D1PlayerRemarkhospital05_path01aBiker": [
+      "If he ain't, at least we'll die with a nice view of the city."
+    ],
+    "L4D1PlayerRemarkhospital05_path02Biker": [
+      "Through here!"
+    ],
+    "L4D1PlayerAirport04VanStartedXBiker": [
+      "Let's go break stuff!"
+    ],
+    "L4D1PlayerRemarkPathClearVanBiker": [
+      "Let's get out of here. GoGoGO!",
+      "Allright, let's go",
+      "Time to go, ladies.",
+      "Come on, let's go.",
+      "Path's clear! Let's go!",
+      "The path is clear!"
+    ],
+    "L4D1PlayerRemarkSmalltown01_path03Biker": [
+      "Let's get up that ladder!"
+    ],
+    "L4D1PlayerRemarkSmalltown01_path05Biker": [
+      "Fan-tastic. A tunnel.",
+      "Looks like this tunnel heads the right way.",
+      "Let's try this tunnel."
+    ],
+    "L4D1PlayerRemarkSmalltown01_path06Biker": [
+      "I don't like ths one damn bit.",
+      "I hate tunnels."
+    ],
+    "L4D1PlayerRemarkSmalltown01_path08Biker": [
+      "Through here!",
+      "Let's go through here."
+    ],
+    "L4D1PlayerRemarkSmalltown01_path10Biker": [
+      "Uh oh. Watch out. There might be *deer* around here."
+    ],
+    "L4D1PlayerRemarksmalltown02_path01aBiker": [
+      "How the hell do you know *that*?"
+    ],
+    "L4D1PlayerRemarksmalltown02_path01cBiker": [
+      "Know what? I just realized I don't care. Lead on."
+    ],
+    "L4D1PlayerRemarksmalltown02_path02Biker": [
+      "Through here!"
+    ],
+    "L4D1PlayerRemarksmalltown02_path06Biker": [
+      "We gotta activate that bridge."
+    ],
+    "L4D1PlayerRemarksmalltown02_path07aBiker": [
+      "<Short laugh>"
+    ],
+    "L4D1PlayerRemarksmalltown02_path08Biker": [
+      "[Improv non-verbal pleasure & interest sounds]"
+    ],
+    "L4D1PlayerRemarkSmalltown03_path01Biker": [
+      "I hate trainyards."
+    ],
+    "L4D1PlayerRemarkSmalltown03_path03Biker": [
+      "We gotta get over this thing."
+    ],
+    "L4D1PlayerRemarkSmalltown03_path04Biker": [
+      "Up the stairs!"
+    ],
+    "L4D1PlayerRemarkSmalltown03_path08Biker": [
+      "Almost to Riverside.",
+      "Riverside ain't too far from here."
+    ],
+    "L4D1PlayerRemarkSmalltown03_path10Biker": [
+      "There might be supplies in that house.",
+      "Let's check this house.",
+      "That is one creepy ass house."
+    ],
+    "L4D1PlayerRemarkSmalltown03_path11Biker": [
+      "The town's pretty quiet..."
+    ],
+    "L4D1PlayerRemarkSmalltown03_path12Biker": [
+      "There's lights on in that church!"
+    ],
+    "L4D1PlayerRemarkSmalltown04_path01Biker": [
+      "Looks like Riverside couldn't hold it together.",
+      "Riverside's a bust. Let's just get to the river and steal a boat."
+    ],
+    "L4D1PlayerRemarkSmalltown04_path05Biker": [
+      "This way."
+    ],
+    "L4D1PlayerRemarkSmalltown04_path05aBiker": [
+      "I'm comin' Bill. Keep yer beard on."
+    ],
+    "L4D1PlayerRemarkSmalltown04_path10Biker": [
+      "Up the stairs!",
+      "Let's head back up.",
+      "We need to get up there.",
+      "We can take these stairs!"
+    ],
+    "L4D1PlayerRemarkSmalltown05_path01Biker": [
+      "There might be supplies in that house.",
+      "Let's check this house."
+    ],
+    "L4D1PlayerRemarkSmalltown05_path02Biker": [
+      "I hate small towns."
+    ],
+    "L4D1PlayerRemarkSmalltown05_path03Biker": [
+      "We can get to the river through here."
+    ],
+    "L4D1PlayerRemarkSmalltown05_path03aBiker": [
+      "I hate the water."
+    ],
+    "L4D1PlayerRemarkSmalltown05_path04Biker": [
+      "I hate vans."
+    ],
+    "L4D1PlayerRemarkSmalltown05_path05Biker": [
+      "I hate vans."
+    ],
+    "L4D1PlayerRemarkSmalltown05_path06Biker": [
+      "Through here!"
+    ],
+    "L4D1PlayerRemarkThroughHereBiker": [
+      "Through here!"
+    ],
+    "L4D1PlayerRemarkUpThatLadderBiker": [
+      "Let's get up that ladder!"
+    ],
+    "L4D1PlayerZoeySuggestsCraneBiker": [
+      "Sure, why not?",
+      "That sounds about right.",
+      "Good thinking.",
+      "Good thinking!",
+      "Good thinking, Zoey!"
+    ],
+    "L4D1RespondAffirmativeBiker": [
+      "Okay.",
+      "Yeah."
+    ],
+    "L4D1RiversideIsDeadPlanBiker": [
+      "Good thinking.",
+      "That's better than my plan."
+    ],
+    "L4D1RiversideIsDeadSpecial1BBiker": [
+      "I didn't have one."
+    ],
+    "PlayerRemarkc7m1_bricktopBiker": [
+      "On top the bricks."
+    ],
+    "PlayerRemarkc7m1_pastbricksBiker": [
+      "Past the bricks."
+    ],
+    "PlayerRemarkc7m1_pretankBiker": [
+      "Do we really want to open that door? Please say no.",
+      "Okay. So, I'm not opening the door. You guys work it out and let me know when the door's open."
+    ],
+    "PlayerRemarkc7m1_pretankBillBiker": [
+      "Hey, Bill, I think there's a sailboat in the train."
+    ],
+    "PlayerRemarkc7m1_pretankLouisBiker": [
+      "Hey Louis, I don't think it's a tank in there.  It sounds like a puppy.  You should stand closer.",
+      "Louis, you gonna open that door or what?"
+    ],
+    "PlayerRemarkc7m1_tankcarBiker": [
+      "Hey, Bill. Your sailboat smells like shit.",
+      "God. Smells like Bill's beard in here"
+    ],
+    "PlayerRemarkc7m2_climbupcrapBiker": [
+      "We can get back up over here!",
+      "Up that fence!"
+    ],
+    "PlayerRemarkc7m2_gravelhillBiker": [
+      "Get up this pile of crap!",
+      "Anyone wanna guess what I'm hatin' right now?"
+    ],
+    "PlayerRemarkc7m2_gravelhillBillBiker": [
+      "Nesting birds, Bill! Watch your beard?"
+    ],
+    "PlayerRemarkc7m2_listingtugBiker": [
+      "Hey, here's a boat."
+    ],
+    "PlayerRemarkc7m2_overboatBiker": [
+      "Over the ship!"
+    ],
+    "PlayerRemarkc7m2_seebargeBiker": [
+      "Yo, Captain Bill, can we take this ship?"
+    ],
+    "PlayerRemarkc7m2_throughhereBiker": [
+      "Through here!"
+    ],
+    "PlayerRemarkc7m3_seesailboatBiker": [
+      "That boat'll do. We better lift the bridge so we can head out.",
+      "We're gonna need to raise that bridge."
+    ],
+    "PlayerRemarkc7m3_seesailboatBillBiker": [
+      "There's your sailboat Bill, by the bridge.",
+      "Bill, is that a sailboat by the bridge?  WHY YES IT IS!"
+    ],
+    "PlayerRemarkinfo_carboatBiker": [
+      "I think this car will float."
+    ],
+    "PlayerRemarkinfo_carnotboatBiker": [
+      "Boat! Hop in, let's get outta here!"
+    ],
+    "PlayerRemarkInfo_powerboatBiker": [
+      "There's a boat.",
+      "How about this boat?",
+      "Hey, there's a boat.",
+      "That boat?",
+      "BOAT!"
+    ],
+    "PlayerRemarkinfo_powerboat4Biker": [
+      "There's a boat.",
+      "Will that boat work?"
+    ],
+    "PlayerRemarkinfo_sunkboatthereBiker": [
+      "Bill, there's a boat."
+    ],
+    "PlayerRemarkinfo_trailerboatBiker": [
+      "Look Bill, this boat has wheels."
+    ],
+    "PlayerRemarkinfo_trailerboatruckBiker": [
+      "What about this one? It comes with a truck!"
+    ],
+    "L4D1SurvivorNearFinaleBiker": [
+      "We're almost there!",
+      "We're almost out of here!",
+      "Now there's a sight for sore eyes. Looks like we're gonna make it, kids.",
+      "Hey, we're almost outta this shithole. I told you I'd get you here."
+    ],
+    "L4D1PlayerNearFinaleC7M3Biker": [
+      "Let's go kill somethin'!",
+      "Let's go, let's go!",
+      "Let's go.",
+      "I'm tired of waitin' around here. Come on, let's go.",
+      "Come on, let's go."
+    ],
+    "L4D1PlayerNearFinaleC11M5Biker": [
+      "Look!"
+    ],
+    "L4D1PlayerNearFinaleC12M5Biker": [
+      "Anyone wanna guess what I'm hatin' right now?'",
+      "Shut up, you stupid birds."
+    ],
+    "L4D1C11M5NearFinale2Biker": [
+      "This is gonna be good."
+    ],
+    "SurvivorNearCheckpointBiker": [
+      "Safe house ahead!",
+      "Safe house!",
+      "Safe house, let's go!",
+      "We're near a safe spot."
+    ],
+    "SurvivorNearCheckpointC8M3Biker": [
+      "We've got to get to the hospital.",
+      "Into the hospital!",
+      "There's a safe house in the hospital!"
+    ],
+    "SurvivorNearCheckpointC10M1Biker": [
+      "Safe house up there!"
+    ],
+    "SurvivorNearCheckpointC11M2Biker": [
+      "Safe house in that storage place!"
+    ],
+    "SurvivorNearCheckpointC11M3Biker": [
+      "There's a safe house across the skybridge!"
+    ],
+    "SurvivorNearCheckpointC11M4Biker": [
+      "The sad thing is this is only the second worst time I've ever had in an airport."
+    ],
+    "SurvivorNearCheckpointC12M4Biker": [
+      "Run for the train car!"
+    ],
+    "SurvivorNearCheckpointC10M4Biker": [
+      "MOVE.",
+      "Let's go ladies!",
+      "Put your rear in gear!",
+      "Let's go, let's go!",
+      "Come on, let's go!"
+    ],
+    "SafeSpotAheadResponseBiker": [
+      "Finally!",
+      "A-men to that!",
+      "Cool!",
+      "Well, all right!",
+      "Finally.",
+      "A-frickin'-men."
+    ],
+    "L4D1AynRandResponseBiker": [
+      "I hate Ayn Rand."
+    ],
+    "L4D1PlayerCoverMeBiker": [
+      "Cover me!",
+      "Get my back.",
+      "Watch my back"
+    ],
+    "L4D1PlayerFollowMeBiker": [
+      "Come on, this way.",
+      "Follow me!",
+      "Follow me.",
+      "This way.",
+      "I got the lead - follow me.",
+      "I got the lead.",
+      "Well, hell, let's all follow me.",
+      "This way, kids."
+    ],
+    "L4D1PlayerHelpBiker": [
+      "Help!",
+      "I need some help over here.",
+      "I'm in trouble!",
+      "Help me!",
+      "I'm in some trouble!",
+      "Hey! I need some help!",
+      "I need a hand over here",
+      "I'm in a little trouble over here"
+    ],
+    "L4D1PlayerHurryUpBiker": [
+      "Hurry up!",
+      "Hurry!",
+      "MOVE.",
+      "Let's go ladies!",
+      "Put your rear in gear!",
+      "Let's go, let's go!",
+      "Come on, let's go!"
+    ],
+    "L4D1PlayerKillThatLightBiker": [
+      "Kill that light!",
+      "Turn your light off!",
+      "Lights off!",
+      "Flashlights off!",
+      "Shut off your flashlight, they'll see us!",
+      "Turn off your light.",
+      "No lights!"
+    ],
+    "L4D1PlayerLeadOnBiker": [
+      "I'll follow you.",
+      "You go ahead, I'll follow you.",
+      "You take the lead.",
+      "Go ahead.",
+      "After you.",
+      "After you, ladies."
+    ],
+    "L4D1PlayerMoveOnBiker": [
+      "Allright, let's go",
+      "Come on, we ain't got all day.",
+      "Let's go.",
+      "Let's get moving.",
+      "Let's move.",
+      "Time to go, ladies.",
+      "I'm tired of waitin' around here. Come on, let's go.",
+      "Come on, let's go.",
+      "Come on, let's move.",
+      "Come on,come on, let's go."
+    ],
+    "L4D1PlayerStayTogetherBiker": [
+      "Stay close!",
+      "We gotta stay together.",
+      "Keep together!",
+      "Stay together!",
+      "Don't split up!",
+      "Don't nobody wander off.",
+      "Stay close.",
+      "Don't get split up!",
+      "Don't stray!"
+    ],
+    "L4D1PlayerWatchOutBehindBiker": [
+      "Behind us!",
+      "They're behind us!"
+    ],
+    "L4D1PlayerAskReadyBiker": [
+      "Ready for this?",
+      "Ready?",
+      "Ready for some fun?",
+      "Everybody ready?",
+      "You ready to roll?",
+      "We ready?",
+      "Everyone ready?",
+      "You ladies ready for this?"
+    ],
+    "L4D1PlayerImWithYouBiker": [
+      "Right behind you!",
+      "I've got your back!",
+      "I'm with ya!",
+      "I got your back!",
+      "Behind you!",
+      "I'm here!"
+    ],
+    "L4D1PlayerLaughBiker": [
+      "<Short Laugh>",
+      "<Hearty Laugh>"
+    ],
+    "L4D1PlayerLostCallBiker": [
+      "Hello",
+      "Is anyone there?",
+      "Marco!",
+      "Hello? Where dija go?"
+    ],
+    "L4D1PlayerNiceJobResponseBiker": [
+      "Nice.",
+      "Nice job.",
+      "Shit, that was all right",
+      "Damn, not bad.",
+      "Nice work.",
+      "Well, shit, that was all right",
+      "Nice damn job.",
+      "Shiiiit.",
+      "Hey, nice work.",
+      "Well whaddya know. Good job!",
+      "Cool.",
+      "You suprised me. Nice job.",
+      "I knew you had it in ya."
+    ],
+    "L4D1PlayerNoBiker": [
+      "No",
+      "No way.",
+      "Um, no.",
+      "No way, jose.",
+      "Hell no.",
+      "Nope.",
+      "No way, jose",
+      "Negatory.",
+      "Uh, no.",
+      "No.",
+      "No siree bob.",
+      "Not a chance."
+    ],
+    "L4D1PlayerAnswerLostCallBiker": [
+      "I'm here!",
+      "Hey, I'm here!"
+    ],
+    "L4D1PlayerSorryBiker": [
+      "Sorry.",
+      "Aww, man, sorry."
+    ],
+    "L4D1PlayerSorryFFBiker": [
+      "Sorry about that.",
+      "Yeah, guess that was my fault.",
+      "Yeah, guess that was my fault. Again.",
+      "Sorry, man. Shit happens.",
+      "My bad.",
+      "Whoopsie.",
+      "Uh, yeah, sorry.",
+      "oopsy daisy",
+      "That was my fault."
+    ],
+    "L4D1PlayerThanksBiker": [
+      "I owe you one.",
+      "Thanks.",
+      "Thanks [noise you make gun clicking your mouth twice]",
+      "Thanks, man.",
+      "Hey, thanks man.",
+      "Yeah, thanks.",
+      "Thank you.",
+      "Thanks, I owe ya.",
+      "Thanks, dude.",
+      "Thanks for that."
+    ],
+    "L4D1PlayerYesBiker": [
+      "Yes.",
+      "Okay.",
+      "Yep.",
+      "Yeah.",
+      "Roger that good buddy."
+    ],
+    "L4D1PlayerYouAreWelcomeBiker": [
+      "I got your back.",
+      "Hey, no problem.",
+      "No problem.",
+      "Sure.",
+      "I told ya I'd take care of ya.",
+      "No, thank YOU!",
+      "Yer welcome.",
+      "Yea, I\u0092m pretty awesome.",
+      "No problemo, pal.",
+      "It's all good.",
+      "Gotcha.",
+      "Whatever, whenever, man."
+    ],
+    "PlayerYellRunBiker": [
+      "RUN!",
+      "HOLY SHIT! Run!",
+      "LET'S BEAT IT!",
+      "SHIT! Run!",
+      "Get the lead out!",
+      "Haul Ass!"
+    ],
+    "L4D1PlayerNegativeBiker": [
+      "That's bad.",
+      "Damn.",
+      "Holy Jesus.",
+      "Shit.",
+      "Ah shit.",
+      "Ahhhhh.",
+      "Damnit.",
+      "Effin hell."
+    ],
+    "L4D1PlayerAreaClearBiker": [
+      "Clear.",
+      "It's clear.",
+      "Nothin' in here.",
+      "Clear, sir.",
+      "blph... Looks empty.",
+      "Looks empty.",
+      "I don't see anything here",
+      "I got nothin' here."
+    ],
+    "L4D1SurvivorSpottedWorldFarBiker": [
+      "Over there!",
+      "Look!"
+    ],
+    "PlayerHurrahBiker": [
+      "We just might make it out of here after all.",
+      "We're gonna be okay.",
+      "I think we're gonna make it.",
+      "They can't stop us.",
+      "Nothing can stop us.",
+      "We are unstoppable!",
+      "YEAH!",
+      "Everybody havin' as much fun as me?",
+      "Everyone havin' fun?",
+      "You know all those monsters? I don't think they're gonna make it.",
+      "You guys are all right.",
+      "I think we gotta chance",
+      "lookin good",
+      "Hey, this is just gettin fun."
+    ],
+    "PlayerWarnCarefulBiker": [
+      "Careful...",
+      "Be careful...",
+      "Take it easy...",
+      "Take er easy...",
+      "Watch yourself, now...",
+      "Careful now...",
+      "Watch it...",
+      "Carrrefullll...",
+      "Careful, kids..."
+    ],
+    "GasPourDoneSCBiker": [
+      "Goddamn right!",
+      "Hell yeah!",
+      "That's right!",
+      "HELL YEAH!",
+      "OH YEAH!",
+      "Oh yeah!",
+      "[Loud, evil laugh]",
+      "YEAH! YEAH!",
+      "Damn straight!",
+      "They can't stop us.",
+      "Nothing can stop us.",
+      "We are unstoppable!",
+      "YEAH!",
+      "Everybody havin' as much fun as me?",
+      "Everyone havin' fun?",
+      "You know all those monsters? I don't think they're gonna make it.",
+      "You guys are all right.",
+      "lookin good",
+      "Hey, this is just gettin fun."
+    ],
+    "GasPourSCBiker": [
+      "Cover me!",
+      "Get my back.",
+      "Watch my back",
+      "Cover my ass."
+    ],
+    "GrabbingGasSCBiker": [
+      "Got it!"
+    ],
+    "PlayerShotGasCanBiker": [
+      "Shit",
+      "Damnit.",
+      "Ah shit.",
+      "Ah bullshit.",
+      "Dammit.",
+      "Bullshit."
+    ],
+    "ScavengeStartBiker": [
+      "Let's get moving.",
+      "Let's move.",
+      "Time to go, ladies.",
+      "Come on, let's go."
+    ],
+    "L4D1IntroSmalltown3Biker": [
+      "Sounds good to me. Let's head to Riverside."
+    ],
+    "L4D1IntroSmalltownEasterEggBiker": [
+      "Watch it, we got a Boomer."
+    ],
+    "L4D1IntroSmalltownEasterEgg2Biker": [
+      "<Hearty Laugh>"
+    ],
+    "L4D1SurvivorSpawnBiker": [
+      "I'm here!",
+      "Hey, I'm here!",
+      "Hello!"
+    ],
+    "PlayerCommentJockeyBiker": [
+      "Oh, that's disgusting.",
+      "Jee-zus...",
+      "Did you see that?"
+    ],
+    "L4D1PlayerBillPouncedBiker": [
+      "Hunter's got Bill!",
+      "Hunter's on Bill!"
+    ],
+    "L4D1PlayerEatPillsBiker": [
+      "Ahhh",
+      "ohh"
+    ],
+    "L4D1PlayerGetInsideCheckPointBiker": [
+      "Get your asses in here!",
+      "Come on ladies, everyone inside!",
+      "Get in here!",
+      "Everyone inside!",
+      "Quit pissin' around and get in here!"
+    ],
+    "L4D1PlayerGrenadeBiker": [
+      "GRENADE!",
+      "FIRE IN THE HOLE!!"
+    ],
+    "L4D1PlayerIncapacitatedInitialBiker": [
+      "I'm down!",
+      "Damnit, I'm down.",
+      "Shit, I need some help."
+    ],
+    "L4D1PlayerKillConfirmationBiker": [
+      "Got it!",
+      "Nailed it!",
+      "Down!",
+      "That's mine.",
+      "Dead!",
+      "Popped it!",
+      "Popped a cap in his ass!"
+    ],
+    "PlayerKillTankConfirmationBiker": [
+      "I hate tanks.",
+      "Got it!",
+      "Nailed it!",
+      "Down!",
+      "That's mine.",
+      "Dead!"
+    ],
+    "PlayerKillTankNotHealthyBiker": [
+      "Anyone wanna guess what I'm hatin' right now?",
+      "Killin' vampires looked easier in the brochure, dinnit?",
+      "Thought we were goners (lauging)",
+      "This shit ain't easy.",
+      "That was close!"
+    ],
+    "L4D1PlayerKillConfirmationTankBiker": [
+      "I hate tanks."
+    ],
+    "L4D1C9M2KillTankBiker": [
+      "Jesus, this thing takes forever."
+    ],
+    "L4D1PlayerLockTheDoorCheckPointBiker": [
+      "Lock the damn door.",
+      "Lock the door.",
+      "Lock that door!",
+      "You born in a barn? Lock the goddamn door.",
+      "Lock the freakin' door.",
+      "Personally, I'm happy to keep fighting. But YOU ladies might want to lock the door.",
+      "Someone gonna lock that door?",
+      "Get that lock.",
+      "Lock the goddamn door.",
+      "Would you lock that sucker?",
+      "Keep 'em out! Lock that door!"
+    ],
+    "L4D1PlayerLouisPouncedBiker": [
+      "Hunter's got Louis!",
+      "Hunter on Louis!"
+    ],
+    "L4D1PlayerRemarkairport01_burningBiker": [
+      "The whole damn city's on fire.",
+      "Holy shit, the whole damn city's on fire."
+    ],
+    "L4D1PlayerRemarkfarm01_campingBiker": [
+      "Yer tellin' me people camp for fun?"
+    ],
+    "L4D1PlayerSuggestHealthBiker": [
+      "You should heal up.",
+      "Someone should use their health pack..."
+    ],
+    "L4D1PlayerSuggestHealthBillBiker": [
+      "Old man - use your health kit.",
+      "Bill, man, heal up",
+      "Bro, heal up."
+    ],
+    "L4D1PlayerSuggestHealthLouisBiker": [
+      "Hey Louie, use your first aid kit.",
+      "Louis, you gotta heal up, man.",
+      "Louis, heal fer chrissake."
+    ],
+    "L4D1PlayerSuggestHealthZoeyBiker": [
+      "Zoey, heal up.",
+      "Zoey darlin', heal up.",
+      "Zoey, patch yerself up.",
+      "Hey Zoey, you oughtta heal."
+    ],
+    "L4D1PlayerTransitionBiker": [
+      "Hey, this is just gettin fun.",
+      "Shit, that was all right",
+      "Well, shit, that was all right",
+      "Rock-n-roll!",
+      "Hell yeah!",
+      "Yeah!",
+      "All right!",
+      "HELL YEAH!"
+    ],
+    "L4D1PlayerTransitionCloseBiker": [
+      "Any zombie fight you can crawl away from means you won it.",
+      "Heh heh, well all right!",
+      "That was close!",
+      "Thought we were goners (lauging)",
+      "This shit ain't easy.",
+      "Killin' vampires looked easier in the brochure, dinnit?"
+    ],
+    "L4D1PlayerWarnHeardBoomerBiker": [
+      "I hear a Boomer out there.",
+      "Careful, I hear a Boomer.",
+      "There's a Boomer around here.",
+      "Watch it, we got a Boomer.",
+      "Hear that Boomer? I'm gonna kill its ass.",
+      "I hear a Boomer."
+    ],
+    "L4D1PlayerWarnHeardCanadianBoomerBiker": [
+      "I HEAR A BOOMER! And it sounded Canadian!"
+    ],
+    "L4D1PlayerWarnHeardHunterBiker": [
+      "There's a hunter out there.",
+      "Careful, there's a Hunter around here.",
+      "I hear a Hunter.",
+      "Sounds like a freakin' Hunter.",
+      "Hunter out there.",
+      "There's a Hunter someplace around here.",
+      "I hear a Hunter. COME ON OUT, WUSSY!",
+      "YEAH, YOU BETTER HIDE! Sweathshirt wearin' little wuss."
+    ],
+    "L4D1PlayerWarnHeardSmokerBiker": [
+      "Man, there's a Smoker around here.",
+      "Smell that Smoker?",
+      "Smoker. Hear it?",
+      "I hear a smoker.",
+      "Sounds like a Smoker.",
+      "Smoker. He's gonna have to use that tongue to choke my foot out of his ass."
+    ],
+    "L4D1PlayerWarnHeardWitchBiker": [
+      "I hear a Witch.",
+      "Witch, and she's close!",
+      "There's a Witch around here.",
+      "Hear that Witch? I'm gonna give her something to cry about.",
+      "Shhh, I hear a Witch."
+    ],
+    "PlayerHeardWitchBiker": [
+      "I hear a Witch.",
+      "Witch, and she's close!",
+      "There's a Witch around here.",
+      "Hear that Witch? I'm gonna give her something to cry about.",
+      "Shhh, I hear a Witch."
+    ],
+    "L4D1PlayerWarnMegaMobBiker": [
+      "Here they come!",
+      "Holy shit, here they come!",
+      "They're coming!",
+      "Incoming!",
+      "Get ready ladies!",
+      "INCOMING!",
+      "This is gonna be good.",
+      "Shit, Get ready!",
+      "Get ready!",
+      "Bring it on!"
+    ],
+    "L4D1PlayerWarnWitchAngryBiker": [
+      "You got a death wish? Leave that witch alone!",
+      "Stop spookin' the effin witch!",
+      "Oh shit, the witch's gettin' riled up!",
+      "Watch it, that witch is gettin' pissed!"
+    ],
+    "L4D1PlayerZoeyPouncedBiker": [
+      "Hunter's got Zoey!",
+      "Hunter on  Zoey!",
+      "Hey, hunter's got Zoey!"
+    ],
+    "L4D1SurvivorCaughtVomitBiker": [
+      "He puked on me!",
+      "Shit.",
+      "Ah, ewww, ah, yuck.",
+      "Holy Jesus! That's bad!",
+      "Eh, yech...",
+      "Ewwww...ah shit! Yech...",
+      "Ewwww...",
+      "Blecch..",
+      "Yecch...",
+      "Eh...",
+      "Blecch...",
+      "Yech...",
+      "Sick...",
+      "Ohhh...",
+      "Oh, that's disgusting."
+    ],
+    "L4D1SurvivorCoughingBiker": [
+      "[Coughing from smoke]"
+    ],
+    "L4D1SurvivorDeathBiker": [
+      "[Death rattle]",
+      "[Death rattle] Mama...",
+      "[Short quick death scream]",
+      "[Loud painful death scream]"
+    ],
+    "L4D1SurvivorGrabbedByTongueBiker": [
+      "no, No, NO, NOOOOOOO!!!!!!!!!",
+      "no, No, NO, NO!!!"
+    ],
+    "L4D1SurvivorTankPoundBiker": [
+      "Get this thing off me!",
+      "This thing's poundin the hell outta me!",
+      "This thing's killing me!",
+      "I gotta Tank on me!"
+    ],
+    "L4D1SurvivorVocalizeBackUpBiker": [
+      "BackBackBack!",
+      "Back up!",
+      "Get the hell back!",
+      "Back it up!"
+    ],
+    "L4D1SurvivorVocalizeEmphaticGoBiker": [
+      "GET MOVING!",
+      "MOVE!",
+      "Go go go!",
+      "GO!",
+      "Get your rear in gear!"
+    ],
+    "L4D1SurvivorVocalizeGoingToDieBiker": [
+      "I don't feel so good.",
+      "Man, I feel like you guys look.",
+      "I've, I've felt better.",
+      "This is turning into one of those days",
+      "I have definitely felt better.",
+      "Even my ass hurts.",
+      "This is startin' to get to me.",
+      "I don't wanna sound like a sissy, but I'm hurt bad.",
+      "I think I'm pretty screwed up.",
+      "I'm hurtin'.",
+      "Damnit, I am messed up.",
+      "Shit, this just hurts.",
+      "Oooh mama, this hurts.",
+      "I feel terrible.",
+      "God, I feel awful.",
+      "I think I'm gonna puke.",
+      "I'm feelin' pretty shitty and a little woozy, the woozy is kinda fun",
+      "Shit, I just hurt.",
+      "I feel like shit.",
+      "I ain't doing so good.",
+      "I feel pretty crappy.",
+      "I feel like guys look after I've punched them in the face",
+      "Ah christ this hurts like hell.",
+      "Goddammit, this hurts.",
+      "Ah man, somethin' don't feel right",
+      "This [cough] hurts."
+    ],
+    "L4D1SurvivorVocalizeGoingToDie3Biker": [
+      "[loud exhale] Shit... [blows air through pursed lips]",
+      "I'm pretty hosed.",
+      "Killed by vampires. What a goddamn disgrace.",
+      "I don't, I don't know if I am going to make it.",
+      "I need to get patched up.",
+      "I ain't gonna make it much further.",
+      "Sheeet, I ain't gonna make it.",
+      "I ain't gonna let these goddamn vampires beat me."
+    ],
+    "L4D1SurvivorVocalizeGoingToDieAloneBiker": [
+      "[Not-So-Nervous Humming]",
+      "[Not-So-Nervous Humming with lame zombie lyrics]"
+    ],
+    "L4D1SurvivorVocalizeLookOutBiker": [
+      "Look out!",
+      "Watch out!",
+      "Watch your ass!",
+      "Heads up!"
+    ],
+    "L4D1SurvivorVocalizeThisWayBiker": [
+      "Come on, this way.",
+      "Follow me!",
+      "Follow me.",
+      "This way.",
+      "I got the lead - follow me.",
+      "I got the lead.",
+      "This way, kids."
+    ],
+    "L4D1SurvivorVocalizeWaitHereBiker": [
+      "Everyone stop!",
+      "Stop for a second!",
+      "Hold up a minute!",
+      "Hold up!",
+      "Hold up - I'm tired of runnin from these pussies.",
+      "Park your ass for a sec."
+    ],
+    "Player.C7M2CrowsFlyBiker": [
+      "Shut up, you stupid birds.",
+      "Nice rockpile, birds! Ha ha, hold on, do you hear a zombie?"
+    ],
+    "Player.C7M3BridgeLeapBiker": [
+      "Jesus, I'm brave.",
+      "Guess I better save everybody.",
+      "Stay there! God damn it, I don't wanna die",
+      "Stay there! Oh my god, I'm an idiot",
+      "Stay there! Oh god, it shoulda been Louis.",
+      "Nobody try to help me! Unless you want!",
+      "Don't try to talk me out of this! Anyone?"
+    ],
+    "SacrificeSuccessfulBiker": [
+      "[Short quick death scream]",
+      "[Loud painful death scream]"
+    ],
+    "SacrificeFailedBiker": [
+      "I hate suicide missions.",
+      "Don't move! I have a plan!"
+    ],
+    "PlayerGrabbedByJockeyBiker": [
+      "[groan]",
+      "[groan2]",
+      "[Pain noise - loud major pain]",
+      "[Pain noise - huh]",
+      "[Pain noise - oy]",
+      "[Pain noise - short minor pain]",
+      "GET IT OFF!",
+      "GET IT OFF! [angry]",
+      "GET IT OFF",
+      "GET IT OFF GET IT OFF",
+      "[Reaction to body hits - uhs ahs]"
+    ],
+    "PlayerRevivedByDefibrillatorBiker": [
+      "Whoah!",
+      "AHHHH!",
+      "Whoah! Jesus...",
+      "What the?"
+    ],
+    "PlayerRevivedByDefibrillator2Biker": [
+      "Aw riiiight.",
+      "Awesome.",
+      "Shit, that was all right",
+      "Heh heh, well all right!",
+      "That was close!",
+      "<laugh>Whoa-ho-ho, YEAH!"
+    ],
+    "PlayerUsingDefibrillatorBiker": [
+      "Clear.",
+      "Let's go, let's go!",
+      "Come on, let's go!",
+      "You gonna make it?",
+      "Come on, come on! Get up!"
+    ],
+    "SurvivorchargerpoundBiker": [
+      "Get this thing off me!",
+      "This thing's poundin the hell outta me!",
+      "This thing's killing me!"
+    ],
+    "SurvivorGooedBySpitterBiker": [
+      "MOVE!",
+      "Ewwww...",
+      "Yech...",
+      "Goddammit.",
+      "Shit.",
+      "Ah bullshit."
+    ],
+    "SurvivorPouncedByHunterBiker": [
+      "GET IT OFF!",
+      "GET IT OFF! [angry]",
+      "GET IT OFF",
+      "GET IT OFF GET IT OFF"
+    ],
+    "SurvivorWarnSpitterIncomingBiker": [
+      "Incoming!",
+      "INCOMING!",
+      "Look out!",
+      "Watch out!",
+      "Heads up!"
+    ],
+    "L4D1PlayerLedgeHangEndBiker": [
+      "I'M SLIPPING! PULL ME UP!",
+      "GET OVER HERE OR I'M GONNA FALL!",
+      "I CAN'T HOLD ON - I'M GONNA FALL!",
+      "SHIT...I'M GONNA FALL!",
+      "I'M GONNA FALL!",
+      "I CAN'T HOLD ON!"
+    ],
+    "L4D1PlayerLedgeHangMiddleBiker": [
+      "Okay, joke's over, get your ass over here and pull me up!",
+      "Someone pull me up already!",
+      "I ain't gonna last hanging here much longer.",
+      "I'm not screwing around, I really need some help over here!",
+      "For chrissake, pull me up already."
+    ],
+    "L4D1PlayerLedgeHangStartBiker": [
+      "Hey, I could use a hand.",
+      "Get your ass over here and help me up.",
+      "Someone want to help me out here?",
+      "Hello. I could use a hand.",
+      "Someone wannna give me a hand?",
+      "I'm hanging here.",
+      "I ain't hangin' here for fun, get over here and help me.",
+      "Hey, I really need a hand.",
+      "Could use a hand here."
+    ],
+    "L4D1DoubleDeathBiker": [
+      "Two left. Allright. We can still do this.",
+      "Just two of us left. Shit.",
+      "You and me gotta find some tougher friends."
+    ],
+    "L4D1DeathOneBiker": [
+      "I hate this!"
+    ],
+    "L4D1TeamKillBiker": [
+      "Be careful!",
+      "That was not cool."
+    ],
+    "L4D1PickupAutoShotgunGroovyLouisBiker": [
+      "Groovy."
+    ],
+    "L4D1PickupAutoShotgunGroovyZoeyBiker": [
+      "Groovy."
+    ],
+    "L4D1SurvivorPickupAutoShotgunBiker": [
+      "Got an auto shotgun.",
+      "Come to daddy my sweet shotgun.",
+      "Now this is a shotgun I can love.",
+      "Huh, this shotgun is more my style."
+    ],
+    "L4D1SurvivorPickupFirstAidKitBiker": [
+      "Ho oh, some first aid.",
+      "Grabbing First Aid.",
+      "Might need these."
+    ],
+    "L4D1SurvivorPickupHuntingRifleBiker": [
+      "A hunting rifle. Nice.",
+      "Now that is a sweet ass scope."
+    ],
+    "L4D1SurvivorPickupMilitarySniperBiker": [
+      "Now that is a sweet ass scope."
+    ],
+    "L4D1SurvivorPickupMolotovBiker": [
+      "Allright, cocktails! [to self]",
+      "Grabbing a Molotov. [to self]"
+    ],
+    "L4D1SurvivorPickupPainPillsBiker": [
+      "Might need these.",
+      "Grabbing pills",
+      "Hey, a little pick me up."
+    ],
+    "L4D1SurvivorPickupAdrenalineBiker": [
+      "Might need these."
+    ],
+    "L4D1SurvivorPickupPipeBombBiker": [
+      "Ah great, homemade explosives.",
+      "Grabbing a pipe bomb.",
+      "This'll blow some shit up.",
+      "This'll blow the crap outta something."
+    ],
+    "L4D1SurvivorPickupPumpShotgunBiker": [
+      "Shotgun! Allright folks, I'm on crowd control.",
+      "Grabbing a shotgun.",
+      "I'll take this room sweeper."
+    ],
+    "L4D1SurvivorPickupRifleBiker": [
+      "Gonna rack some up with this assault rifle.",
+      "This assault rifle should help.",
+      "I'm grabbing this rifle."
+    ],
+    "L4D1SurvivorPickupSMGBiker": [
+      "Full auto - right on.",
+      "Whoah, full auto. Everybody stand back.",
+      "Grabbing a machinegun"
+    ],
+    "L4D1TakeShotgunGroovyBikerLaugh": [
+      "What's so funny? It is groovy."
+    ],
+    "L4D1TakeShotgunGroovyZoey2Biker": [
+      "Allright, then, let's do it.",
+      "Yeah!",
+      "A-frickin'-men."
+    ],
+    "SurvivorDeployUpExplosivesBiker": [
+      "Hold up a minute!",
+      "Hold up!",
+      "Ammo here!"
+    ],
+    "SurvivorPickupSecondPistolBiker": [
+      "A little double pistol action.",
+      "I'm taking an extra pistol.",
+      "Double my fun.",
+      "Two pistols. Hell yeah."
+    ],
+    "L4D1SurvivorPickupM60Biker": [
+      "Those bastards think they're sick now, wait'll they get a taste of this.",
+      "This oughtta put the fear a' God into 'em."
+    ],
+    "L4D1SurvivorPickupMeleeBiker": [
+      "Nice.",
+      "Shiiiit.",
+      "Cool."
+    ],
+    "L4D1SurvivorPickupChainsawBiker": [
+      "[Loud, evil laugh]"
+    ],
+    "L4D1PlayerChainSawUsedBiker": [
+      "Goddamn right!",
+      "Hell yeah!",
+      "That's right!",
+      "HELL YEAH!",
+      "OH YEAH!",
+      "Oh yeah!",
+      "YEAH! YEAH!",
+      "Damn straight!"
+    ],
+    "L4D1SurvivorPickupUpIncendiaryAmmoBiker": [
+      "Nice.",
+      "Shiiiit.",
+      "Cool.",
+      "Fire! (to self)"
+    ],
+    "L4D1SurvivorPickupUpExplosivesBiker": [
+      "This'll blow some shit up.",
+      "This'll blow the crap outta something."
+    ],
+    "L4D1PlayerGettingRevivedBiker": [
+      "I'm okay.",
+      "No, no, I'm allright.",
+      "[groan]",
+      "Hell if I know.",
+      "Ah, hey, is this my blood?",
+      "[groan2]",
+      "I'll make it.",
+      "I'll live, I'll live.",
+      "Uh, how's my face?",
+      "I've been better.",
+      "Shit. I hope I don't NEED all that blood.",
+      "Good thing I'm indestructible.",
+      "You... should see the other hundred guys.",
+      "You think they'll call us heroes someday?"
+    ],
+    "L4D1PlayerHealOtherBiker": [
+      "Lemme patch you up.",
+      "Hold on, lemme patch you up.",
+      "Stand still, I'm gonna fix ya.",
+      "Don't move, I'm healin' ya.",
+      "C'mon. lemme heal ya up.",
+      "Quit fidgitin' and let me heal ya.",
+      "Goddamit, quit fussin and let me heal ya."
+    ],
+    "L4D1PlayerHealOtherCombatBiker": [
+      "Hold on! Hold on!",
+      "Hold on! I'm gonna patch ya up!",
+      "Don't move, I'm healin ya!",
+      "Don't go nowhere, I gotta heal ya.",
+      "Lemme heal ya!",
+      "Hang on. I got ya!",
+      "Stand still, I'm healin' ya!"
+    ],
+    "L4D1PlayerReviveFriendBiker": [
+      "Hang on, hang on, I'm here. Relax, I gotcha. Get up. Get up now. We gotta move.",
+      "Woah, I thought you were hosed for sure, but I think I can get you back on your feet.",
+      "Come on, lazy - can't have ya laying around all day. We gotta get moving.  Let me get you up.",
+      "You look like shit, but I think I can get you up on your feet enough to keep moving.",
+      "C'mon, let's get you on your feet. You look pretty messed up, but that might help you out a little if you know what I mean.",
+      "Don't worry, don't worry, we all go down sometime. Lemme get you up.",
+      "Didn't think you were gettin' back up.",
+      "You okay?",
+      "How d'ya feel?",
+      "Can you make it?",
+      "You gonna make it?",
+      "How bad are you?",
+      "How ya doin'?"
+    ],
+    "L4D1PlayerReviveFriendCriticalBiker": [
+      "I gotcha, I gotcha. Man, you took a real beatin'. We gotta find you some first aid, cuz you go down like this again and it's over.",
+      "No worries - I gotcha, I gotcha. Man, you took a real beatin'. We gotta find you some first aid, cuz you go down like this again and it's over.",
+      "Okay, okay.  Come on.  Man, you are on death's door.  We gotta get you some first aid, cuz you go down like this again and it's over.",
+      "Ah shit, I can't lie, you are messed up bad. We gotta get you some first aid, cuz you go down like this again and it's over.",
+      "I can help you up, but you ain't gonna last.  We gotta get you some first aid, cuz you go down like this again and it's over.",
+      "Okay, let's get you - Oh, man, they really tore you up.  We gotta get you some first aid,  cuz you go down like this again and it's over.",
+      "I can get you up, but oh shit, We gotta get you some first aid, cuz you go down like this again and it's over.",
+      "Relax, I gotcha.  But, shit, we gotta get you some first aid, cuz you go down like this again and it's over."
+    ],
+    "L4D1PlayerReviveFriendLoudBiker": [
+      "Hold on. I'm gonna get you up!",
+      "Come on, come on! Get up!",
+      "Get your ass up, let's go!"
+    ],
+    "L4D1PlayerReviveFriendLoudBillBiker": [
+      "Get the hell up, Bill!",
+      "C'mon Bill, get up!",
+      "I ain't gonna carry you, Bill. Get the hell up!",
+      "Let's go, Bill. Up an' at 'em!"
+    ],
+    "L4D1PlayerReviveFriendLoudLouisBiker": [
+      "Get up, Louis!",
+      "Let's go, Louis. Get up!"
+    ],
+    "L4D1PlayerReviveFriendLoudZoeyBiker": [
+      "Zoey, let's go, get up!",
+      "C'mon Zoey, get the hell up!"
+    ],
+    "L4D1ReviveFriendDownFinalBiker": [
+      "Up and at 'em.",
+      "Come on up!",
+      "Up ya go.",
+      "You'll be okay.",
+      "I got ya.",
+      "Up we go.",
+      "Hell, you're fine.",
+      "It don't look bad.",
+      "Come on up.",
+      "Let's move!",
+      "You're fine."
+    ],
+    "L4D1ReviveFriendDownFinalManagerBiker": [
+      "Let's get to it, Louis."
+    ],
+    "L4D1ReviveFriendDownFinalNamVetBiker": [
+      "Back to the fight, Billy."
+    ],
+    "L4D1ReviveFriendDownFinalTeenGirlBiker": [
+      "You're fine, Zoey."
+    ],
+    "PlayerLedgeSaveBiker": [
+      "Come on, don't worry, I gotcha.  Up you go.",
+      "You think I was gonna let you just hang around all day?  Get your ass up here.",
+      "You ain't gonna fall, I gotcha. Quit blubberin' ya little baby, now get your ass back up here.",
+      "You ain't gonna fall, I gotcha. Get yer ass up here!",
+      "You ain't gonna fall, I gotcha. Quit blubberin and get back up here."
+    ],
+    "L4D1PlayerAirportIntroBiker": [
+      "Working plane means working airport. I say we head there.",
+      "That plane's headed right for the airport. I say we head there too.",
+      "I sure as hell wouldn't mind flyin' outta here. Let's head to the airport.",
+      "That plane's headed for the airport and the airport ain't far from here. If nobody's got a better idea, I say we head for the airport too."
+    ],
+    "L4D1PlayerAirportIntrobcBiker": [
+      "I hate planes."
+    ],
+    "L4D1PlayerAirportIntrofbBiker": [
+      "Working plane means working airport. I say we head there."
+    ],
+    "L4D1PlayerFarmHouseIntroBiker": [
+      "I heard the military's got a safe zone north of here. We just gotta follow the train tracks.",
+      "We ain't gonna survive on our own forever. I heard the military's got a safe zone north of here. We just gotta follow the train tracks."
+    ],
+    "L4D1PlayerFarmHouseIntro2Biker": [
+      "Yeah, I heard that, too."
+    ],
+    "L4D1PlayerHospitalIntro02Biker": [
+      "I hate subways."
+    ],
+    "InfoReminfo_powerboat4aBiker": [
+      "Quiet Zoey."
+    ],
+    "L4D1PlayerCoverMeHealBiker": [
+      "Cover me!",
+      "Get my back.",
+      "Watch my back",
+      "Watch my back! But don't stare at my ass.",
+      "Cover my ass.",
+      "Healing, cover me.",
+      "Wait up, I'm healing.",
+      "Hold on, gotta heal.",
+      "I'm healing."
+    ],
+    "AutoPlayerLostCallBiker": [
+      "Hello",
+      "Is anyone there?",
+      "Marco!",
+      "Hello? Where dija go?"
+    ],
+    "SurvivorSpottedChainsawBiker": [
+      "Groovy."
+    ],
+    "SurvivorSpottedWeaponBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "Buncha guns over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedMeleeWeaponBiker": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "We got weapons over here."
+    ],
+    "SurvivorSpottedRifleAutoBiker2": [
+      "Cool.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Cool",
+      "Yes.",
+      "Yeah.",
+      "Roger that good buddy."
+    ],
+    "L4D1PlayerLighthouseIntroBiker": [
+      "Goddamn it, where did you learn to drive?"
+    ],
+    "L4D1PlayerLighthouseIntro01Biker": [
+      "Ehh, I doubt it."
+    ],
+    "L4D1PlayerLighthouseIntro03Biker": [
+      "I hate walking."
+    ],
+    "L4D1PlayerLighthouseIntro03bBiker": [
+      "*What*ever."
+    ],
+    "L4D1PlayerLighthouseIntro04aBiker": [
+      "Let's just hike the hell out of here.",
+      "Looks like we're walking again."
+    ],
+    "L4D1RemarkC14M1HumveeBiker": [
+      "This way.",
+      "This way, kids."
+    ],
+    "L4D1C14M1PlaneFlyByBiker": [
+      "Look",
+      "Look!"
+    ],
+    "L4D1C14M1EngineBrokeBiker": [
+      "Ah shit.",
+      "Dammit."
+    ],
+    "L4D1RemarkC14M1CabinUpstairsBiker": [
+      "Up the stairs!",
+      "We can take these stairs!"
+    ],
+    "L4D1RemarkC14M1JunkyardEntranceBiker": [
+      "Through here!",
+      "Let's go through here."
+    ],
+    "L4D1RemarkC14M1TraincarBiker": [
+      "Through here!"
+    ],
+    "L4D1RemarkC14M1PrePanicBiker": [
+      "Ready for some fun?"
+    ],
+    "L4D1C14M1PanicSpeakQuickReadyBiker": [
+      "Got it!"
+    ],
+    "L4D1C14M1PanicSpeakBiker": [
+      "Let's go kill somethin'!",
+      "Let's go break stuff!",
+      "Yeah, let's do it."
+    ],
+    "L4D1C14M1GeneratorActivatedSpeakBiker": [
+      "Why are we still here? To the next generator!"
+    ],
+    "L4D1C14M1ThirdGeneratorActivatedSpeakBiker": [
+      "You think that last generator is going to start itself?",
+      "One more!"
+    ],
+    "L4D1C14M1PathClearBiker": [
+      "LET'S BEAT IT!"
+    ],
+    "L4D1RemarkC14M1DownCliffBiker": [
+      "Down here!"
+    ],
+    "L4D1C14M2RadioSpeakBiker": [
+      "Uh, hello?"
+    ],
+    "L4D1C14M2RadioDestroyedBiker": [
+      "Son of a bitch.",
+      "Dammit."
+    ],
+    "L4D1RemarkC14M2DropBiker": [
+      "You ready to roll?"
+    ],
+    "L4D1RemarkC14M2NoteLighthouseBiker": [
+      "Look here."
+    ],
+    "L4D1C14M2NoteLighthouse2Biker": [
+      "I don't like ths one damn bit."
+    ],
+    "L4D1C14M2PowerOutAgainBiker": [
+      "Goddammit.",
+      "Ah bullshit.",
+      "Bullshit."
+    ],
+    "L4D1SurvivorFinalVehicleSpottedBoatC14M2Biker": [
+      "Our boat's here, all aboard!",
+      "Our boat's here! Let's go!"
+    ]
+  }
+}

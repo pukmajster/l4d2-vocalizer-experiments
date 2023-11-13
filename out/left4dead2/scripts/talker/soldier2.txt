@@ -1,0 +1,10 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2/scripts/talker/soldier2.txt
+-------------------------------------------------------
+
+RULE C5M5_Soldier2Soldier2 CRITERIA ConceptC5M5_Soldier2 AutoIsNotScavenge AutoIsNotSurvival _auto_IsSoldierChatter _auto_NotButton2 RESPONSE C5M5_Soldier2Soldier2
+RULE C5M5_Soldier2Conv01Soldier2 CRITERIA ConceptC5M5_Soldier2Conv01 AutoIsNotScavenge AutoIsNotSurvival _auto_NotButton2 RESPONSE C5M5_Soldier2Conv01Soldier2
+RULE C5M5StartHeliNagSoldier2 CRITERIA ConceptC5M5StartHeliNag IsMapc5m5_bridge AutoIsNotScavenge AutoIsNotSurvival _auto_IsGetToHeli RESPONSE C5M5StartHeliNagSoldier2
+
+
+

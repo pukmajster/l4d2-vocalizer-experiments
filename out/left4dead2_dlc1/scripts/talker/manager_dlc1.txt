@@ -1,0 +1,112 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc1/scripts/talker/manager_dlc1.txt
+-------------------------------------------------------
+
+RESPONSE L4D1PlayerNiceShotManager CHARACTER Manager SUBTITLE "Nice job."
+RESPONSE L4D1PlayerNiceShotManager CHARACTER Manager SUBTITLE "That was great."
+RESPONSE L4D1PlayerNiceShotManager CHARACTER Manager SUBTITLE "Nice shot!"
+RESPONSE L4D1PlayerNiceShotManager CHARACTER Manager SUBTITLE "Oh man, great shot."
+RESPONSE L4D1PlayerNiceShotManager CHARACTER Manager SUBTITLE "Wooo, nice baby!"
+RESPONSE L4D1PlayerNiceShotManager CHARACTER Manager SUBTITLE "Nice one!"
+RESPONSE L4D1PlayerNiceShotManager CHARACTER Manager SUBTITLE "Nice shot!"
+RESPONSE L4D1PlayerNiceShotManager CHARACTER Manager SUBTITLE "Great shot!"
+RULE L4D1PlayerNiceShotManager CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsManager IsSubjectDistNear1500  IsTalk IsTalkManager IsWorldTalkManager IsNotSpeaking ChanceToFire70Percent RESPONSE L4D1PlayerNiceShotManager
+RESPONSE c6m3_outroL4D1Manager CHARACTER Manager SUBTITLE "Bye! Be safe! We're gonna miss you!"
+RULE c6m3_outroL4D1Manager CRITERIA Conceptc6m3_outro3 IsManager isC6m3_port IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1Manager
+RESPONSE c6m3_outroL4D102aManager CHARACTER Manager SUBTITLE "It was nice see normal people again."
+RESPONSE c6m3_outroL4D102aManager CHARACTER Manager SUBTITLE "It was nice see normal people again. Except for that Nick guy..."
+RULE c6m3_outroL4D102aManager CRITERIA Conceptc6m3_outroL4D102a IsManager RESPONSE c6m3_outroL4D102aManager
+RESPONSE c6m3_outroL4D106aManager CHARACTER Manager SUBTITLE "Go Ellis! GO!"
+RULE c6m3_outroL4D106aManager CRITERIA Conceptc6m3_outroL4D106a IsManager RESPONSE c6m3_outroL4D106aManager
+RESPONSE c6m3_outroL4D1AllManager CHARACTER Manager SUBTITLE "I'm gonna miss them."
+RESPONSE c6m3_outroL4D1AllManager CHARACTER Manager SUBTITLE "Should we have told them?"
+RESPONSE c6m3_outroL4D1AllManager CHARACTER Manager SUBTITLE "BYE RO! BYE COACH! BYE ELLIS! BYE WHATEVER YOUR NAME IS!"
+RESPONSE c6m3_outroL4D1AllManager CHARACTER Manager SUBTITLE "I've got a good feeling about them. I think they're gonna be okay."
+RULE c6m3_outroL4D1AllManager CRITERIA Conceptc6m3_outro3 IsManager isC6m3_port IsEveryoneAliveWeight0 IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1AllManager
+RESPONSE c6m3_outroL4D1CoachManager CHARACTER Manager SUBTITLE "Bye Coach! Keep it positive!"
+RESPONSE c6m3_outroL4D1CoachManager CHARACTER Manager SUBTITLE "I think we're gonna be seeing more of that guy!"
+RULE c6m3_outroL4D1CoachManager CRITERIA Conceptc6m3_outro3 IsManager isC6m3_port IsCoachAlive IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1CoachManager
+RESPONSE c6m3_outroL4D1GamblerManager CHARACTER Manager SUBTITLE "I think we're gonna be seeing more of that guy!"
+RULE c6m3_outroL4D1GamblerManager CRITERIA Conceptc6m3_outro3 IsManager isC6m3_port IsGamblerAlive IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1GamblerManager
+RESPONSE c6m3_outroL4D1MechanicManager CHARACTER Manager SUBTITLE "Bye Ellis! You're gonna make it to New Orleans! I know you will!"
+RULE c6m3_outroL4D1MechanicManager CRITERIA Conceptc6m3_outro3 IsManager isC6m3_port IsMechanicAlive IsNotVersus IsNotSaidc6m3_outro3 RESPONSE c6m3_outroL4D1MechanicManager
+RESPONSE C6M3VocalizeLookOutManager CHARACTER Manager SUBTITLE "Look out!"
+RESPONSE C6M3VocalizeLookOutManager CHARACTER Manager SUBTITLE "Look out!"
+RESPONSE C6M3VocalizeLookOutManager CHARACTER Manager SUBTITLE "Watch out!"
+RESPONSE C6M3VocalizeLookOutManager CHARACTER Manager SUBTITLE "Watch out!"
+RESPONSE C6M3VocalizeLookOutManager CHARACTER Manager SUBTITLE "Heads up!"
+RESPONSE C6M3VocalizeLookOutManager CHARACTER Manager SUBTITLE "Heads up!"
+RULE C6M3VocalizeLookOutManager CRITERIA ConceptPlayerLookOut IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager RESPONSE C6M3VocalizeLookOutManager
+RESPONSE L4D1_NiceJobPourManager CHARACTER Manager SUBTITLE "Nice work."
+RESPONSE L4D1_NiceJobPourManager CHARACTER Manager SUBTITLE "Nice job."
+RULE L4D1_NiceJobPourManager CRITERIA ConceptL4D1_NiceJobPour IsManager RESPONSE L4D1_NiceJobPourManager
+RESPONSE WorldC6M3_ByBridge01Manager CHARACTER Manager SUBTITLE "Get to your car, we got 'em."
+RESPONSE WorldC6M3_ByBridge01Manager CHARACTER Manager SUBTITLE "Get going! Get going!"
+RULE WorldC6M3_ByBridge01Manager CRITERIA ConceptWorldC6M3_ByBridge01 IsManager RESPONSE WorldC6M3_ByBridge01Manager
+RESPONSE L4D1AlsoSpottedBoomerManager CHARACTER Manager SUBTITLE "BOOMER!"
+RESPONSE L4D1AlsoSpottedBoomerManager CHARACTER Manager SUBTITLE "BOOMER!"
+RESPONSE L4D1AlsoSpottedBoomerManager CHARACTER Manager SUBTITLE "BOOMER!"
+RULE L4D1AlsoSpottedBoomerManager CRITERIA ConceptPlayerAlsoWarnBoomer IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager RESPONSE L4D1AlsoSpottedBoomerManager
+RESPONSE L4D1AlsoSpottedHunterManager CHARACTER Manager SUBTITLE "HUNTER!"
+RESPONSE L4D1AlsoSpottedHunterManager CHARACTER Manager SUBTITLE "HUNTER!"
+RESPONSE L4D1AlsoSpottedHunterManager CHARACTER Manager SUBTITLE "HUNTER!"
+RULE L4D1AlsoSpottedHunterManager CRITERIA ConceptPlayerAlsoWarnHunter IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager RESPONSE L4D1AlsoSpottedHunterManager
+RESPONSE L4D1AlsoSpottedSmokerManager CHARACTER Manager SUBTITLE "SMOKER!"
+RESPONSE L4D1AlsoSpottedSmokerManager CHARACTER Manager SUBTITLE "SMOKER!"
+RESPONSE L4D1AlsoSpottedSmokerManager CHARACTER Manager SUBTITLE "SMOKER!"
+RULE L4D1AlsoSpottedSmokerManager CRITERIA ConceptPlayerAlsoWarnSmoker IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager RESPONSE L4D1AlsoSpottedSmokerManager
+RESPONSE L4D1AlsoSpottedTankManager CHARACTER Manager SUBTITLE "Lead those puppies this way!"
+RESPONSE L4D1AlsoSpottedTankManager CHARACTER Manager SUBTITLE "I am going to rip those tanks up!"
+RESPONSE L4D1AlsoSpottedTankManager CHARACTER Manager SUBTITLE "This is just why we put this up here!"
+RESPONSE L4D1AlsoSpottedTankManager CHARACTER Manager SUBTITLE "This is why we put this baby up here!"
+RESPONSE L4D1AlsoSpottedTankManager CHARACTER Manager SUBTITLE "This is why we put this baby up here!"
+RESPONSE L4D1AlsoSpottedTankManager CHARACTER Manager SUBTITLE "TWO TANKS!"
+RULE L4D1AlsoSpottedTankManager CRITERIA ConceptPlayerAlsoWarnTank IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager Isc6m3_port RESPONSE L4D1AlsoSpottedTankManager
+RESPONSE L4D1SpottedBoomerManager CHARACTER Manager SUBTITLE "BOOMER!"
+RESPONSE L4D1SpottedBoomerManager CHARACTER Manager SUBTITLE "BOOMER!"
+RESPONSE L4D1SpottedBoomerManager CHARACTER Manager SUBTITLE "BOOMER!"
+RULE L4D1SpottedBoomerManager CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeBoomer IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager IsNotSpeaking RESPONSE L4D1SpottedBoomerManager
+RESPONSE L4D1SpottedChargerManager CHARACTER Manager SUBTITLE "CHARGER!"
+RESPONSE L4D1SpottedChargerManager CHARACTER Manager SUBTITLE "CHARGER!"
+RESPONSE L4D1SpottedChargerManager CHARACTER Manager SUBTITLE "CHARGER!"
+RULE L4D1SpottedChargerManager CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeCharger  IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager IsNotSpeakingWeight0 RESPONSE L4D1SpottedChargerManager
+RESPONSE L4D1SpottedHunterManager CHARACTER Manager SUBTITLE "HUNTER!"
+RESPONSE L4D1SpottedHunterManager CHARACTER Manager SUBTITLE "HUNTER!"
+RESPONSE L4D1SpottedHunterManager CHARACTER Manager SUBTITLE "HUNTER!"
+RULE L4D1SpottedHunterManager CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeHunter IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager IsNotSpeakingWeight0 RESPONSE L4D1SpottedHunterManager
+RESPONSE L4D1SpottedJockeyManager CHARACTER Manager SUBTITLE "JOCKEY!"
+RESPONSE L4D1SpottedJockeyManager CHARACTER Manager SUBTITLE "JOCKEY!"
+RESPONSE L4D1SpottedJockeyManager CHARACTER Manager SUBTITLE "JOCKEY!"
+RULE L4D1SpottedJockeyManager CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeJockey IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager IsNotSpeakingWeight0 RESPONSE L4D1SpottedJockeyManager
+RESPONSE L4D1SpottedSmokerManager CHARACTER Manager SUBTITLE "SMOKER!"
+RESPONSE L4D1SpottedSmokerManager CHARACTER Manager SUBTITLE "SMOKER!"
+RESPONSE L4D1SpottedSmokerManager CHARACTER Manager SUBTITLE "SMOKER!"
+RULE L4D1SpottedSmokerManager CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeSmoker IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager IsNotSpeakingWeight0 RESPONSE L4D1SpottedSmokerManager
+RESPONSE L4D1SpottedSpitterManager CHARACTER Manager SUBTITLE "SPITTER!"
+RESPONSE L4D1SpottedSpitterManager CHARACTER Manager SUBTITLE "SPITTER!"
+RESPONSE L4D1SpottedSpitterManager CHARACTER Manager SUBTITLE "SPITTER!"
+RULE L4D1SpottedSpitterManager CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeSpitter IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager IsNotSpeakingWeight0 RESPONSE L4D1SpottedSpitterManager
+RESPONSE L4D1SpottedTankManager CHARACTER Manager SUBTITLE "Lead those puppies this way!"
+RESPONSE L4D1SpottedTankManager CHARACTER Manager SUBTITLE "I am going to rip those tanks up!"
+RESPONSE L4D1SpottedTankManager CHARACTER Manager SUBTITLE "This is just why we put this up here!"
+RESPONSE L4D1SpottedTankManager CHARACTER Manager SUBTITLE "This is why we put this baby up here!"
+RESPONSE L4D1SpottedTankManager CHARACTER Manager SUBTITLE "This is why we put this baby up here!"
+RESPONSE L4D1SpottedTankManager CHARACTER Manager SUBTITLE "TWO TANKS!"
+RULE L4D1SpottedTankManager CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeTank IsNotCoughing IsManager IsTalk IsTalkManager IsWorldTalkManager Isc6m3_port IsNotSpeakingWeight0 RESPONSE L4D1SpottedTankManager
+RESPONSE L4D1PlayerKillConfirmationManager CHARACTER Manager SUBTITLE "Got it!"
+RESPONSE L4D1PlayerKillConfirmationManager CHARACTER Manager SUBTITLE "Killed it!"
+RESPONSE L4D1PlayerKillConfirmationManager CHARACTER Manager SUBTITLE "Dead!"
+RESPONSE L4D1PlayerKillConfirmationManager CHARACTER Manager SUBTITLE "Got it!"
+RESPONSE L4D1PlayerKillConfirmationManager CHARACTER Manager SUBTITLE "Killed it!"
+RESPONSE L4D1PlayerKillConfirmationManager CHARACTER Manager SUBTITLE "Dead!"
+RULE L4D1PlayerKillConfirmationManager CRITERIA ConceptKilledZombie IsNotCoughing IsManager  IsTalk IsTalkManager IsSubjectFar300 ChanceToFire80Percent IsWorldTalkManager RESPONSE L4D1PlayerKillConfirmationManager
+RESPONSE L4D1PlayerKillConfirmationTankManager CHARACTER Manager SUBTITLE "That is for Bill!"
+RESPONSE L4D1PlayerKillConfirmationTankManager CHARACTER Manager SUBTITLE "That is for Bill!"
+RULE L4D1PlayerKillConfirmationTankManager CRITERIA ConceptKilledZombie IsNotCoughing IsManager  IsTalk IsTalkManager IsWorldTalkManager SubjectIsTank ChanceToFire30Percent RESPONSE L4D1PlayerKillConfirmationTankManager
+RESPONSE L4D1PlayerWarnMegaMobManager CHARACTER Manager SUBTITLE "Here they come!"
+RESPONSE L4D1PlayerWarnMegaMobManager CHARACTER Manager SUBTITLE "They're comin'!"
+RESPONSE L4D1PlayerWarnMegaMobManager CHARACTER Manager SUBTITLE "Incoming!"
+RULE L4D1PlayerWarnMegaMobManager CRITERIA ConceptPlayerWarnMegaMob IsNotCoughing IsManager IsNotWarnMegaMob IsTalk IsTalkManager IsNotSpeaking IsWorldTalkManager RESPONSE L4D1PlayerWarnMegaMobManager
+
+
+

@@ -1,0 +1,3725 @@
+{
+  "Coach": {
+    "C1M1InSmokeCoach": [
+      "[Coughing from smoke]"
+    ],
+    "C1M3AlarmOffCoach": [
+      "Got it!"
+    ],
+    "C1M3BrokeWindowCoach": [
+      "We gotta turn off that alarm!",
+      "Last one to turn off the alarm is a rotten egg!"
+    ],
+    "C1M3DoorAlarmCoach": [
+      "We gotta turn off that alarm!",
+      "Last one to turn off the alarm is a rotten egg!"
+    ],
+    "C1M3SafeRoomCoach": [
+      "Blank"
+    ],
+    "C1M4SafeRoomCoach": [
+      "Blank"
+    ],
+    "C4M3Saferoom001Coach": [
+      "Allright, people. Everybody got a can?"
+    ],
+    "PlayerNiceShotCoach": [
+      "Nice shot..",
+      "Damn. Good one.",
+      "Good one!",
+      "You on it.",
+      "You got it.",
+      "ohh hoo hoo, allright!",
+      "Damn. I'm impressed.",
+      "You nailed it.",
+      "You beat 'em.",
+      "Well alright now, you're in charge.",
+      "Alright now, yeah!  You got it, boy!"
+    ],
+    "PlayerNiceShotGamblerCoach": [
+      "NIce kill Nick."
+    ],
+    "PlayerNiceShotMechanicCoach": [
+      "Nice shot, youngin'.",
+      "Ellis, nice shot."
+    ],
+    "PlayerNiceShotProducerCoach": [
+      "Ro that was a nice shot."
+    ],
+    "SurvivorMournGamblerCoach": [
+      "NIck, you gonna be missed.",
+      "Bye Nick."
+    ],
+    "SurvivorMournGamblerC1Coach": [
+      "NIck, we're gonna miss your gun.",
+      "Damn. Nick, this just got a whole lot harder."
+    ],
+    "SurvivorMournMechanicCoach": [
+      "Boy, I'm going to miss your goofy ass.",
+      "Bye Ellis."
+    ],
+    "SurvivorMournMechanicC1Coach": [
+      "Ahh damnit, I can't take losing anymore people.",
+      "Little man, we are goin' to miss you."
+    ],
+    "SurvivorMournProducerCoach": [
+      "Ahh baby girl, goodbye.",
+      "Oh Ro, oh Ro man...",
+      "Ahh baby girl, mmm."
+    ],
+    "SurvivorMournProducerC1Coach": [
+      "Gentlemen, we just lost the best thing in our little group.",
+      "Damn. Baby, I should have tried to protect you more."
+    ],
+    "C1M1_ElevatorHello01_02MCoach": [
+      "People call me Coach, what's your name?"
+    ],
+    "C3M1FerryInTransitCoach": [
+      "Boat's almost here!"
+    ],
+    "Playerc1m1_enter_elevatorCoach": [
+      "This elevator's still on!",
+      "Thank Jesus, this one's still on. I ain't walkin' down thirty flights of stairs.",
+      "I don't think you're supposed to use an elevator when the buildin's on fire.",
+      "Everybody into the elevator!",
+      "Get in the elevator!"
+    ],
+    "PlayerC1M2AlarmDoor2Coach": [
+      "Let's go people.",
+      "Go go GO!",
+      "MOVE IT!",
+      "Here comes the alarm.",
+      "Grab the cola!"
+    ],
+    "PlayerC1M2GrabbingCola2Coach": [
+      "I got the cola, let's get back!",
+      "Alright, I got the crazy man's cola! Let's go!",
+      "I got the cola!",
+      "Grabbin' cola!"
+    ],
+    "PlayerC1M2GunRoomDoorResponseCoach": [
+      "Well man-I'll get you your drinks, but you better help us.",
+      "I hear ya my man. I understand your need for snacks. But I just gotta be clear that if we get 'em, you ARE gonna help us.",
+      "Finally something that makes sense to me. A man and his snacks. We'll hook ya up. Just don't forget to take care of us.",
+      "I have never killed zombies on a snack run, but today is a day of firsts. If you don't mind us using your guns to do it, we're good to go."
+    ],
+    "PlayerC1M2InsideGunShop2Coach": [
+      "Paydirt!",
+      "This here is A LOT of guns."
+    ],
+    "PlayerC3M1CallFerry2Coach": [
+      "Get ready, callin' the boat.",
+      "Boat's coming!"
+    ],
+    "PlayerC3M1FerryLanded2Coach": [
+      "Get on the boat!",
+      "Everyone on the boat!"
+    ],
+    "PlayerC3M1FerryLaunched2aCoach": [
+      "Blank"
+    ],
+    "PlayerC3M2ComingHomeCoach": [
+      "Hello!",
+      "Anyone there!?!!",
+      "Anyone home!",
+      "Swamp people, we comin' home!",
+      "I wonder if they got dinner cookin'?"
+    ],
+    "PlayerC3M2OpenDoor2Coach": [
+      "Everyone ready for this shit?",
+      "We ready to get it on?"
+    ],
+    "PlayerC3M2PlaneDoorOpenCoach": [
+      "Everyone geared up?",
+      "I'm opening it!",
+      "I'm opening this door!"
+    ],
+    "Playerc5m4floatstart2Coach": [
+      "I hit it!",
+      "Damn, I am too old for this shit."
+    ],
+    "PlayercoachcoachesCoach": [
+      "Come on now, put it all out there.",
+      "Come on, it's all you.",
+      "That's it. Stay focused.",
+      "Stay with us.",
+      "That's it. Yeah. Fight thru it.",
+      "Come on now, walk that shit off.",
+      "Keep it up, come on, keep it up, keep it up. You're gonna make it.",
+      "Hey. Listen to me, you are gonna make it.",
+      "They put a hurtin on ya but ain't no thing.",
+      "Come on now, put it behind ya, you good, you good."
+    ],
+    "PlayercoachcoachesGamblerCoach": [
+      "Nick, ain't gonna leave ya man.",
+      "Nick, at least you dressed for a funeral."
+    ],
+    "PlayercoachcoachesMechanicCoach": [
+      "Come on Ellis. Ya got it in ya.",
+      "Come on youngin' if I can do it, you can do it."
+    ],
+    "PlayercoachcoachesProducerCoach": [
+      "Come on girl, we ain't gonna leave you behind.",
+      "I know you got in ya girl, keep at it."
+    ],
+    "PlayerPlayerUsingColaBottlesCoach": [
+      "Blank"
+    ],
+    "PlayerRelaxedSighCoach": [
+      "Ooh. That's what I'm talkin' about.",
+      "Ohhh yeahhh. Yeah.",
+      "That's what I'm talkin' about.",
+      "All good now.",
+      "Ohhh yeahhh.",
+      "Yesss!"
+    ],
+    "PlayerStayTogetherInsideReponseCoach": [
+      "I'm goin as fast as I can.",
+      "Goin' as fast as I can.",
+      "Can't go no faster.",
+      "I'm hurt too bad to go any faster."
+    ],
+    "PlayerUseAdrenalineCoach": [
+      "Aahhh...",
+      "Ooff, ahh."
+    ],
+    "PlayerWorldC3M1FerryCrossingA01Coach": [
+      "I normally stay the hell away from swamps on principle.  You remember that movie with that golfer that got his hand ate by a gator?  That shit's real."
+    ],
+    "PlayerWorldC3M1FerryCrossingD01Coach": [
+      "I don't think anyone likes the swamp.",
+      "Maybe we oughta just stop this boat right here and live the rest of years between the shores.",
+      "Look, maybe we oughta just stop this boat right here and live the rest of years between the shores."
+    ],
+    "PlayerWorldC3M1FerryCrossingD02Coach": [
+      "Hell. sometimes its best not to find out what you don't know."
+    ],
+    "PlayerWorldC3M1FerryCrossingE03Coach": [
+      "I seen that movie. It don't end well.",
+      "Nah, that don't sound good at all."
+    ],
+    "PlayerWorldC3M1FerryCrossingG01Coach": [
+      "Though I walk through the valley of the shadow of death, I will fear no evil"
+    ],
+    "PlayerWorldC3M1FerryCrossingG03Coach": [
+      "Nick, we're goin into a swamp filled with zombies.  Y'all want me to lie to ya?"
+    ],
+    "PlayerWorldC3M1FerryCrossingI03Coach": [
+      "Nick, don't pay no attention to that boy.",
+      "Heh, alright. Look at you youngin' given Nick some shit right back.",
+      "Look at you youngin' given Nick some shit."
+    ],
+    "PlayerWorldC3M1Walkways2Coach": [
+      "Yeah, don't wander off.",
+      "Girls got the right idea."
+    ],
+    "PlayerWorldIntroC31Coach": [
+      "No CEDA, No Military.  Stay out.",
+      "That was some shit, the pilot becoming a zombie right before our eyes. Nice shooting Nick.",
+      "You know what? No more helicopters. I'm just saying that now. I'm good.",
+      "That was the first time I was in a helicopter. I always imagined it with less zombies.",
+      "Anyone check where we were before we went down?"
+    ],
+    "ThanksGotItemCoach": [
+      "Thanks.",
+      "Allrighht thanks.",
+      "THANKS!"
+    ],
+    "ReviveThanksCoach": [
+      "Thanks.",
+      "Allrighht thanks.",
+      "THANKS!"
+    ],
+    "ReviveThanksGamblerCoach": [
+      "Thanks.",
+      "Allrighht thanks.",
+      "THANKS!",
+      "Thanks man."
+    ],
+    "ReviveThanksMechanicCoach": [
+      "Thanks.",
+      "Thanks, we straight?",
+      "Thanks man."
+    ],
+    "ReviveThanksProducerCoach": [
+      "Thanks.",
+      "Allrighht thanks.",
+      "THANKS!"
+    ],
+    "AutoYouAreWelcomeCoach": [
+      "It ain't nothin.",
+      "We cool.",
+      "We straight.",
+      "It's all good.",
+      "You're Welcome."
+    ],
+    "BotPlayer.YourWelcomeCoach": [
+      "It ain't nothin.",
+      "We cool.",
+      "We straight.",
+      "It's all good.",
+      "You're Welcome."
+    ],
+    "BotReassureComingCoach": [
+      "Yeah.",
+      "Yes.",
+      "Oh Yeah.",
+      "For sure.",
+      "Know that's right.",
+      "Positively.",
+      "Sho sho."
+    ],
+    "BotReassureNearbyCoach": [
+      "I've got ya.",
+      "I'm right behind ya.",
+      "I'm with ya.",
+      "I got yer back.",
+      "We tight."
+    ],
+    "BotYesReadyCoach": [
+      "Yeah.",
+      "Yes.",
+      "Oh Yeah.",
+      "For sure.",
+      "Know that's right.",
+      "Positively.",
+      "Sho sho."
+    ],
+    "C1M2LeavingSafeRoomCoach": [
+      "Let's go find that mall."
+    ],
+    "C1M2SafeRoomCoach": [
+      "Blank"
+    ],
+    "C1M2SafeRoomb2Coach": [
+      "Mister... I don't think I like your attitude."
+    ],
+    "C1M2TankerAttackCoach": [
+      "Barrier's down! Let's move, baby!",
+      "Path clear! Let's get to that mall!",
+      "[laughs] When that man says he's gonna clear a path, he clears a path!",
+      "That's how I used clear a path when I played college ball.",
+      "Path's clear! Let's move, baby!",
+      "Path's clear! Let's get to that mall!"
+    ],
+    "c1m4escapeCoach": [
+      "Here we come, New Orleans!",
+      "HIT IT!",
+      "Woo! Thank you, Mr. Gibbs."
+    ],
+    "C1M4GasPourCoach": [
+      "Oh, come on, baby, come on...",
+      "Please, baby, baby, please, please...",
+      "Hurry up, hurrrry upppp...",
+      "Come onnnn, come onnnnnn...",
+      "Fillin' it up here!"
+    ],
+    "C1M4PlayerGetToRescueVehicleCoach": [
+      "Let's go people.",
+      "Haul some ass y'all.",
+      "Hurry up!",
+      "Move your damn ass!"
+    ],
+    "c1m4startelevatorCoach": [
+      "Alright, so...Getting' evac'd ain't happening. Anybody got an idea, now's the time.",
+      "Looks like we're gonna have to save ourselves. Anybody got an idea, speak up, we're listenin'."
+    ],
+    "FinaleStartC1M4Coach": [
+      "Haul ass and get gas!",
+      "Let's go! Find a gas can!",
+      "Let's get this car gassed up!"
+    ],
+    "GasPourDoneC1M4Coach": [
+      "We're all gassed up, get to the car!",
+      "GET TO THE CAR!",
+      "GET TO THE CAR, PEOPLE!",
+      "Sorry about this, Mr. Gibbs."
+    ],
+    "C2M2CarouselIdleCoach": [
+      "Turn it off!",
+      "Stop it!",
+      "Turn it off, turn the damn thing off!"
+    ],
+    "C2M2TunnelIdleCoach": [
+      "Come on, get into the tunnel of love.",
+      "Get in the tunnel of love!",
+      "Get your ass in the tunnel of love!"
+    ],
+    "C2M3RubbleNagIdleCoach": [
+      "Let's get it going."
+    ],
+    "C2M2Saferoom001Coach": [
+      "Hey, the Midnight Riders! I used to LOVE that band. Best pyrotechnics in the business.",
+      "Hey! The Midnight Riders!",
+      "Midnight Riders are supposed to play here?"
+    ],
+    "c2m3CoasterEndCoach": [
+      "Okay, alarm's off!"
+    ],
+    "C2M3CoasterStartCoach": [
+      "Get ready to run, I'm hittin' it.",
+      "That set off the alarm!"
+    ],
+    "c2m3SeeChopperCoach": [
+      "There's a chopper!"
+    ],
+    "PlayerRemarkc2m3_saferoomaCoach": [
+      "Blank"
+    ],
+    "c2m4_saferoominitCoach": [
+      "Blank"
+    ],
+    "C2M4ButtonPressedCoach": [
+      "Alright, this is gonna open the gate and what the hell else?",
+      "I'm opening the gate!"
+    ],
+    "C2M4Chopper001Coach": [
+      "There's that chopper again!",
+      "There goes the chopper!"
+    ],
+    "C2M4GateIdle1Coach": [
+      "We'll have to get this gate open."
+    ],
+    "C2M4GateIdle2Coach": [
+      "Press the button!",
+      "Gotta keep movin', open the gate."
+    ],
+    "C2M4GateOpenIdleCoach": [
+      "Gate's open!"
+    ],
+    "c2m4SeeChopperCoach": [
+      "There's that chopper again!",
+      "There goes the chopper!"
+    ],
+    "C2M5_Button2YellCoach": [
+      "These zombies better be ready to rock.",
+      "They nailed this damn song!",
+      "I ain't normally a rock music man, but damn I love the Riders!",
+      "All right Midnight Riders!",
+      "This is gonna be good!",
+      "Finale's on! Get ready to rock!",
+      "I love you, Midnight Riders!",
+      "I love this song! I love ALL these notes!",
+      "Let loose!",
+      "Come on Midnight Riders!",
+      "This music IS GREAT!",
+      "I forgot how much I like this song!"
+    ],
+    "C2M5_ChoppercomingCoach": [
+      "The chopper saw us!",
+      "The chopper's coming!"
+    ],
+    "c2m5_intro001Coach": [
+      "First we look for supplies."
+    ],
+    "c2m5_intro002Coach": [
+      "Then we start the Midnight Rider finale. It's all kinds of fireworks, smokepots, and lights and shit. That chopper pilot can't miss it."
+    ],
+    "c2m5_intro006Coach": [
+      "We start their finale, that chopper is gonna know something's up."
+    ],
+    "c2m5_intro007Coach": [
+      "Because nobody - and I mean NOBODY - has a bigger light show than the Midnight Riders."
+    ],
+    "c2m5_intro010Coach": [
+      "It's been a long time since I seen the Riders, but if their finale's the same, that'll signal the chopper pilot. We just need to start it."
+    ],
+    "c2m5_intro012Coach": [
+      "Then let's do it. Everybody grab a weapon, and let's go."
+    ],
+    "c2m5_intro013Coach": [
+      "Midnight Rider's finale? That'll alert the goddamn chopper."
+    ],
+    "c2m5_intro014Coach": [
+      "Because nobody - and I mean NOBODY - has a bigger light show than the Midnight Riders."
+    ],
+    "c2m5_intro016Coach": [
+      "Then let's do it. Everybody grab a weapon, and let's go."
+    ],
+    "c2m5_intro017Coach": [
+      "Y'all know the Midnight Riders? They gonna save us."
+    ],
+    "c2m5_intro018Coach": [
+      "Because nobody - and I mean NOBODY - has a bigger light show than the Midnight Riders."
+    ],
+    "c2m5_intro020Coach": [
+      "Then let's do it. Everybody grab a weapon, and let's go."
+    ],
+    "c2m5_intro021Coach": [
+      "First we look for supplies."
+    ],
+    "c2m5_intro022Coach": [
+      "Then we start the Midnight Rider finale. It's all kinds of fireworks, smokepots, and lights and shit. That chopper pilot can't miss it."
+    ],
+    "c2m5_intro023Coach": [
+      "Ellis, you ready to rock?"
+    ],
+    "c2m5_intro025Coach": [
+      "Then let's do it. Everybody grab a weapon, and let's go."
+    ],
+    "c2m5_intro027Coach": [
+      "First we look for supplies."
+    ],
+    "c2m5_intro028Coach": [
+      "Then we start the Midnight Rider finale. It's all kinds of fireworks, smokepots, and lights and shit. That chopper pilot can't miss it."
+    ],
+    "C2M5_PlanWorkedCoach": [
+      "The Midnight Riders saved us!",
+      "I'll be damned! Even I didn't think that was gonna work!"
+    ],
+    "c2m5_saferoominitCoach": [
+      "Blank"
+    ],
+    "C2M5Button1Coach": [
+      "I hit it!"
+    ],
+    "C2M5ChopperNagCoach": [
+      "Get on the chopper!",
+      "Everyone to the chopper!",
+      "Get on that chopper!"
+    ],
+    "C2M5InArenaNagCoach": [
+      "We have to figure out how to turn all this stuff on.",
+      "Turn on the lights!",
+      "Hit the lights!",
+      "Hit the spotlights!"
+    ],
+    "C2M5Saferoom001Coach": [
+      "I know how we can signal that chopper.",
+      "Y'all know the Midnight Riders? They gonna save us.",
+      "Okay, here's the plan."
+    ],
+    "C2M5SingingCoach": [
+      "[singing] ...Gotta reach for the top, stay on that mountainnnn... dunh-nuh-NAH-nuh-NAH-nha!",
+      "[singing] ...Every lady's crazy when her daddy's not around... dunh-nuh-NAH-nuh-NAH-nha!"
+    ],
+    "C2M5WeAreRocking##Name##": [
+      "We cool.",
+      "We gonna be all right.",
+      "We gonna do this.",
+      "Oh hell yeah!",
+      "We got up in their shit.",
+      "That is how you kick some ASS, baby!"
+    ],
+    "C2M3Saferoom001Coach": [
+      "Well-looks like we're going through the tunnel of love, people. No hanky panky.",
+      "Well-looks like we're going through the tunnel of love, people. Stay close to me."
+    ],
+    "C3M1FerryEnd2Coach": [
+      "Come on, people, let's get with it.",
+      "We should get movin', ya hear me?",
+      "Alright, let's get it on.",
+      "All right, let's roll."
+    ],
+    "C3M2DisgustCoach": [
+      "You have got to be kidding me.",
+      "Son of a bitch."
+    ],
+    "C3M2SafeRoomCoach": [
+      "Man. When you're forced to turn to people livin' in a swamp to help you get out of a city? I don't think CEDA's doing their job right."
+    ],
+    "InfoRemc3m2_parachutist2Coach": [
+      "Shit, why would you ever jump out of a plane?"
+    ],
+    "C3M3SafeRoom2b2Coach": [
+      "All right, this just makes me sad.",
+      "It did not end well for these people."
+    ],
+    "InfoRemC3M3LowerGateaCoach": [
+      "Lower the bridge."
+    ],
+    "C3M4BoatNagsCoach": [
+      "Get on the boat!",
+      "Everyone on the boat!",
+      "Run to the boat!",
+      "Everyone onto the boat!",
+      "Get your asses on the boat!",
+      "GET TO THE BOAT!"
+    ],
+    "C3M4Button1Coach": [
+      "Anyone out there?",
+      "Can anyone here me?"
+    ],
+    "C3M4Button201Coach": [
+      "Shit, we're at the plantation house.",
+      "We're at the big house."
+    ],
+    "C3M4GateBlow01Coach": [
+      "Oh shit! Gate open!",
+      "Our Cajun friend opened the gate!"
+    ],
+    "C4GoingToDieCoachCoach": [
+      "I am not dying in a goddamn sugar mill."
+    ],
+    "C4StormBlindIdleCoach": [
+      "Can't see two feet. Shit.",
+      "Can't see a goddamn thing."
+    ],
+    "_c4m1Intro22Coach": [
+      "We should be in and out here. Get the gas, get back to shore, signal Virgil with the flare gun in the gun bag. Then we just, uh... um... aw, HELL. Tell me SOMEONE brought the GUN BAG."
+    ],
+    "C4M2IdleWitchville01Coach": [
+      "Goddamn it, wha't with all these witches.",
+      "Whole lotta witches round here...",
+      "Lotta damn witches up in this place."
+    ],
+    "C4M2PushedButtonCoach": [
+      "I hit it!"
+    ],
+    "C4M5BoatNagsCoach": [
+      "Get on the boat!",
+      "Run to the boat!",
+      "Get your asses on the boat!",
+      "GET TO THE BOAT!"
+    ],
+    "C5M1_intro002Coach": [
+      "Thanks, Virgil. You stay safe, brother."
+    ],
+    "C5M1_intro005Coach": [
+      "Blank",
+      "We made it REAL damn far, people. I'm proud of you. Now let's just cross that last mile.",
+      "We BEEN through hell getting here. Now we're at the last mile. Let's make this COUNT.",
+      "All right people, let's get to that bridge.",
+      "We're almost home free, people."
+    ],
+    "C5M1_intro008Coach": [
+      "Oh yeaah. Our goal is right next to the bridge, ON THE OTHER MOTHER F'IN SIDE OF THE RIVER!"
+    ],
+    "C5M1_intro010Coach": [
+      "We made it REAL damn far, people. I'm proud of you. Now let's just cross that last mile.",
+      "We BEEN through hell getting here. Now we're at the last mile. Let's make this COUNT.",
+      "All right people, let's get to that bridge.",
+      "We're almost home free, people."
+    ],
+    "C5M1Flyby01Coach": [
+      "They're still flying jets!",
+      "Alright, Military's still here!"
+    ],
+    "C5M1Flyby03Coach": [
+      "It means they haven't abandoned New Orleans. C'mon, let's move!"
+    ],
+    "C5M2_signcontagious01Coach": [
+      "It sure is."
+    ],
+    "C5M2AlarmNagCoach": [
+      "RUN!",
+      "MOVE YOUR ASSES!",
+      "GO!",
+      "KEEP MOVIN'!",
+      "JUST RUN!",
+      "GET THE LEAD OUT, PEOPLE!",
+      "WE GOTTA TURN OFF THAT ALARM!",
+      "MOVE!"
+    ],
+    "C5M2Freeway01Coach": [
+      "Allright, then, let's follow it!"
+    ],
+    "PlayerRemarkc5m2busstationCoach": [
+      "Through the bus station!"
+    ],
+    "PlayerRemarkc5m2freewayCoach": [
+      "Look, that freeway's headin' right to our bridge."
+    ],
+    "PlayerRemarkc5m2parkCoach": [
+      "C'mon, let's head through the park!"
+    ],
+    "C5M3AlarmFieldNagsCoach": [
+      "Everybody take it slow, now.",
+      "Move careful, watch your fire, and we'll be just fine."
+    ],
+    "C5M3Bodies01Coach": [
+      "[annoyed] How does bein' so right feel, Nick?"
+    ],
+    "C5M3Bodies03Coach": [
+      "I don't know shit. We gonna keep movin'."
+    ],
+    "C5M3FirstInAlarmCoach": [
+      "Alarms everywhere, people. Watch yourselves!"
+    ],
+    "C5M3Freeway01Coach": [
+      "Bridge can't be too far now."
+    ],
+    "C5M3Jets2Coach": [
+      "MOTHERF-"
+    ],
+    "C5M3OnBridgeCoach": [
+      "Allright. We allright y'all. We made it."
+    ],
+    "C5M3SeeGraveyard02Coach": [
+      "Get your ass movin', Nick."
+    ],
+    "C5M3ShootCarCoach": [
+      "Shit.",
+      "Man this is about to get all baghdad and shit..",
+      "Oh hell, this about to get bad.",
+      "Goddamnit!",
+      "Son of a bitch."
+    ],
+    "C5M3ShootCar2Coach": [
+      "WOULD YOU STOP SHOOTIN' THE GODDAMN CARS!"
+    ],
+    "C5M3Sniper01Coach": [
+      "Man, I hope not."
+    ],
+    "PlayerRemarkc5m3bodiesCoach": [
+      "These ain't zombies. Somebody's been shootin' people."
+    ],
+    "PlayerRemarkc5m3crashedheliCoach": [
+      "Zombies didn't bring down that chopper."
+    ],
+    "PlayerRemarkc5m3freewayCoach": [
+      "This freeway's gotta hook up with the bridge."
+    ],
+    "PlayerRemarkc5m3insewerCoach": [
+      "Blank"
+    ],
+    "PlayerRemarkc5m3manholeCoach": [
+      "Everybody in the sewer."
+    ],
+    "PlayerRemarkc5m3manhole2Coach": [
+      "Nick! Good news - we're going down into this sewer."
+    ],
+    "PlayerRemarkc5m3seegraveyardCoach": [
+      "Allright. Shit. Nobody panic. We gonna head down and find another way up onto the bridge."
+    ],
+    "PlayerRemarkc5m3seesaferoomCoach": [
+      "Safe house up ahead!",
+      "Safe house!"
+    ],
+    "PlayerRemarkc5m3sewercommentCoach": [
+      "Man, Nick, you picked a bad day to wear your white suit."
+    ],
+    "PlayerRemarkc5m3sniperCoach": [
+      "I hope those hash marks mean zombies."
+    ],
+    "PlayerRemarkc5m3upladderCoach": [
+      "Up that ladder!"
+    ],
+    "PlayerRemarkc5m3upstepsCoach": [
+      "Up here."
+    ],
+    "PlayerRemarkc5m3wargrafittiCoach": [
+      "There was some kinda war goin on out here."
+    ],
+    "C5M4BombInt01Coach": [
+      "SHIT!"
+    ],
+    "C5M4BombInt01ACoach": [
+      "Man, they're lighting up this whole place. We gotta get to the bridge."
+    ],
+    "C5M4BombInt02Coach": [
+      "Damn! That one was close!",
+      "Shit. Damn, that one was close!"
+    ],
+    "C5M4BombInt03Coach": [
+      "STOP BOMBING US."
+    ],
+    "PlayerRemarkc5m4seebridgeCoach": [
+      "There's the bridge.",
+      "There're the bridge!"
+    ],
+    "PlayerRemarkc5m4seesaferoomCoach": [
+      "There's a safe room in the bridge!"
+    ],
+    "EllisStoryInterruptCoach": [
+      "We ain't got time for this, Ellis."
+    ],
+    "EllisStoryInterrupt2Coach": [
+      "We ain't got time for this, Ellis."
+    ],
+    "C5M5_Button2Coach": [
+      "Blank"
+    ],
+    "C5M5_saferoom002Coach": [
+      "Well, you free to make yourself a new life here in this room, Nick.",
+      "No."
+    ],
+    "C5M5_saferoom005Coach": [
+      "Well, you free to make yourself a new life here in this room, Nick."
+    ],
+    "C5M5_SurvivorConv01Coach": [
+      "Hey! There's four of us on the bridge!"
+    ],
+    "C5M5_SurvivorConv02Coach": [
+      "We are NOT infected."
+    ],
+    "C5M5_SurvivorConv03Coach": [
+      "\"Encountered\"? Boy, I am covered in zombie blood and puke and eyeballs and twenty other parts I don't even recognize. We are immune as SHIT."
+    ],
+    "C5M5_SurvivorConv04Coach": [
+      "I hear ya man.  See ya soon.",
+      "Wind up the chopper, because here we come.",
+      "We're on our way."
+    ],
+    "C5M5_SurvivorConv05Coach": [
+      "I hear ya man.  See ya soon.",
+      "Wind up the chopper, because here we come.",
+      "We're on our way."
+    ],
+    "C5M5Button1Coach": [
+      "Hello!"
+    ],
+    "C5M5HearSoldiersCoach": [
+      "Those sound like soldiers! Somebody talk to 'em."
+    ],
+    "C5M5HearSoldiersNagCoach": [
+      "Somebody pick up the radio."
+    ],
+    "C5M5LeaveSafeCoach": [
+      "Blank"
+    ],
+    "C5M5RescueStartCoach": [
+      "THERE'S OUR CHOPPER! COME ON!"
+    ],
+    "C5M5RunToHeliCoach": [
+      "Everyone to the chopper!",
+      "Get on that chopper!",
+      "GET TO THE CHOPPER!"
+    ],
+    "C5M5SafeRoomIdleCoach": [
+      "Allrightallright. We gonna stroll across that bridge, and the army's gonna take care of us."
+    ],
+    "C5M5SafeRoomStartCoach": [
+      "Blank"
+    ],
+    "ScenarioJoinLastCoach": [
+      "Blank"
+    ],
+    "SurvivorSpotFirstWeaponsCoach": [
+      "We better grab a weapon. Might need to defend ourselves.",
+      "I'm not a violent man. But I ain't stupid neither. Let's grab some weapons.",
+      "Arm up. I don't have a good feeling about this.",
+      "Grab whatever you can find to hit something with."
+    ],
+    "SurvivorSpottedAdrenalineCoach": [
+      "Adrenaline shot here!"
+    ],
+    "SurvivorSpottedAdrenalineAutoCoach": [
+      "Adrenaline shot here!"
+    ],
+    "SurvivorSpottedAmmoCoach": [
+      "Ammo here!",
+      "Ammo up here!",
+      "Hey, ammo here!"
+    ],
+    "SurvivorSpottedDefibrillatorCoach": [
+      "Chest paddles here.",
+      "Defib unit here."
+    ],
+    "SurvivorSpottedDefibrillatorAutoCoach": [
+      "Chest paddles here.",
+      "Defib unit here."
+    ],
+    "SurvivorSpottedGamblerCloseCoach": [
+      "Nick.",
+      "Nicolas.",
+      "Niiick."
+    ],
+    "SurvivorSpottedGamblerClose2Coach": [
+      "Nick.",
+      "Nicolas.",
+      "Niiick."
+    ],
+    "SurvivorSpottedGamblerClose2C1Coach": [
+      "Hey suit.",
+      "Sir."
+    ],
+    "SurvivorSpottedGamblerCloseC1Coach": [
+      "Hey suit.",
+      "Sir."
+    ],
+    "SurvivorSpottedGamblerFarCoach": [
+      "Nick!",
+      "Nicky.",
+      "NI-colas!"
+    ],
+    "SurvivorSpottedGamblerFarC1Coach": [
+      "Hey suit.",
+      "Sir."
+    ],
+    "SurvivorSpottedGrenadeCoach": [
+      "Got a pipe bomb here.",
+      "Pipe bomb!",
+      "Pipe bomb for me.",
+      "Pipe bombs!",
+      "Pipe bombs here!"
+    ],
+    "SurvivorSpottedGrenadeAutoCoach": [
+      "Got a pipe bomb here.",
+      "Pipe bomb!",
+      "Pipe bomb for me.",
+      "Pipe bombs!",
+      "Pipe bombs here!"
+    ],
+    "SurvivorSpottedGrenadeAutoCoach2": [
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Oh Yeah."
+    ],
+    "SurvivorSpottedGrenadeLauncherCoach": [
+      "Grenade launcher.",
+      "Goddamn grenade launcher.",
+      "Grenade launcher up here."
+    ],
+    "SurvivorSpottedGrenadeLauncherAutoCoach": [
+      "Grenade launcher.",
+      "Goddamn grenade launcher.",
+      "Grenade launcher up here."
+    ],
+    "SurvivorSpottedHealthCoach": [
+      "First Aid Kit here!",
+      "First Aid kit here!",
+      "First Aid here!"
+    ],
+    "SurvivorSpottedHealthAutoCoach": [
+      "First Aid Kit here!",
+      "First Aid kit here!",
+      "First Aid here!"
+    ],
+    "SurvivorSpottedHealthAutoCoach2": [
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Oh Yeah."
+    ],
+    "SurvivorSpottedMechanicCloseCoach": [
+      "ellis",
+      "Youngin.",
+      "Boy."
+    ],
+    "SurvivorSpottedMechanicClose2Coach": [
+      "ellis",
+      "Youngin.",
+      "Boy."
+    ],
+    "SurvivorSpottedMechanicClose2C1Coach": [
+      "Youngin."
+    ],
+    "SurvivorSpottedMechanicCloseC1Coach": [
+      "Youngin."
+    ],
+    "SurvivorSpottedMechanicFarCoach": [
+      "Ellis!",
+      "Ellis.",
+      "ELLIS!",
+      "Boyyy!"
+    ],
+    "SurvivorSpottedMechanicFarC1Coach": [
+      "Boyyy!",
+      "Boy.",
+      "Youngin."
+    ],
+    "SurvivorSpottedMolotovCoach": [
+      "Molotov's over here.",
+      "Molotovs!",
+      "Molotovs here!"
+    ],
+    "SurvivorSpottedMolotovAutoCoach": [
+      "Molotov's over here.",
+      "Molotovs!",
+      "Molotovs here!"
+    ],
+    "SurvivorSpottedMolotovAutoCoach2": [
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Oh Yeah."
+    ],
+    "SurvivorSpottedPillsCoach": [
+      "Pills here!",
+      "We got pills!"
+    ],
+    "SurvivorSpottedPillsAutoCoach": [
+      "Pills here!",
+      "We got pills!"
+    ],
+    "SurvivorSpottedPillsAutoCoach2": [
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Oh Yeah."
+    ],
+    "SurvivorSpottedPillsAutoHasPillsCoach": [
+      "Anyone need some pills?"
+    ],
+    "SurvivorSpottedProducerCloseCoach": [
+      "Ro!",
+      "Rochelle.",
+      "Girl.",
+      "rochelle",
+      "ro"
+    ],
+    "SurvivorSpottedProducerClose2Coach": [
+      "Ro!",
+      "Rochelle.",
+      "Girl.",
+      "rochelle",
+      "ro"
+    ],
+    "SurvivorSpottedProducerClose2C1Coach": [
+      "Girl.",
+      "Sweety.",
+      "Excuse me, sweety.",
+      "Uh, girl.",
+      "Sweetheart",
+      "Miss."
+    ],
+    "SurvivorSpottedProducerCloseC1Coach": [
+      "Girl.",
+      "Sweety.",
+      "Excuse me, sweety.",
+      "Uh, girl.",
+      "Sweetheart",
+      "Miss."
+    ],
+    "SurvivorSpottedProducerFarCoach": [
+      "Girl.",
+      "Ro!",
+      "ROCHELLE!"
+    ],
+    "SurvivorSpottedProducerFarC1Coach": [
+      "Girl.",
+      "Hey, girl."
+    ],
+    "SurvivorSpottedUpPack_ExplosiveCoach": [
+      "Explosive rounds here!",
+      "Frag rounds here!"
+    ],
+    "SurvivorSpottedUpPack_ExplosiveAutoCoach": [
+      "Explosive rounds here!",
+      "Frag rounds here!"
+    ],
+    "SurvivorSpottedUpPack_IncendiaryCoach": [
+      "Fire bullets here!"
+    ],
+    "SurvivorSpottedUpPack_IncendiAutoCoach": [
+      "Fire bullets here!"
+    ],
+    "SurvivorSpottedVomitJarCoach": [
+      "Boomer bile here!"
+    ],
+    "SurvivorSpottedVomitJarAutoCoach": [
+      "Boomer bile here!"
+    ],
+    "SurvivorSpottedVomitJarAutoC1Coach": [
+      "Bottle of... ugh... puke here."
+    ],
+    "SurvivorSpottedVomitJarC1Coach": [
+      "Bottle of... ugh... puke here."
+    ],
+    "SurvivorSpottedWorldCloseCoach": [
+      "Look at this.",
+      "What do ya'all make of this?",
+      "Check this shit out."
+    ],
+    "SurvivorSpottedArmoredCoach": [
+      "That zombie's got armor. I want armor!",
+      "Well I'll be damned, that zombie's wearin' armor!",
+      "Shoot that zombie in the back!",
+      "Those zombies are goddamn bullet proof!"
+    ],
+    "SurvivorSpottedBoomerCoach": [
+      "BOOMER!"
+    ],
+    "SurvivorSpottedBoomerC1Coach": [
+      "Fat guy!",
+      "Roly poly!",
+      "Fat thing!"
+    ],
+    "SurvivorSpottedCedaCoach": [
+      "What are those guys doing in those suits?",
+      "What's with those suits?"
+    ],
+    "SurvivorSpottedChargerCoach": [
+      "CHARGER!"
+    ],
+    "SurvivorSpottedChargerAlsoCoach": [
+      "CHARGER!"
+    ],
+    "SurvivorSpottedChargerAlsoC1Coach": [
+      "Big arm!",
+      "One arm!"
+    ],
+    "SurvivorSpottedChargerC1Coach": [
+      "Big arm!",
+      "One arm!"
+    ],
+    "SurvivorSpottedClownCoach": [
+      "Shoot the clown!",
+      "That clown's attracting zombies!"
+    ],
+    "SurvivorSpottedFirstClownCoach": [
+      "CLOWNS!?!??",
+      "CLOWNS!? Give me a break.",
+      "Clowns?"
+    ],
+    "SurvivorSpottedHunterCoach": [
+      "We gotta HUNTER!",
+      "HUNTER!"
+    ],
+    "SurvivorSpottedHunterC1Coach": [
+      "We got a Jumper!",
+      "Crazy legs!"
+    ],
+    "SurvivorSpottedInfectedCoach": [
+      "Here they come!",
+      "Ah shit, this ain't gonna be good.",
+      "Shit, Get ready!",
+      "Allright now, they comin'.",
+      "It's on.",
+      "Game on, baby!",
+      "INCOMING!",
+      "Alright, let's put on our game faces, they're comin!",
+      "Y'all stay close, it's on!"
+    ],
+    "SurvivorSpottedJimmyCoach": [
+      "Heyyy! Jimmy Gibbs!",
+      "Forgive us Jimmy, but we need your car.",
+      "Sorry about this, Mr. Gibbs."
+    ],
+    "SurvivorSpottedJockeyCoach": [
+      "JOCKEY!"
+    ],
+    "SurvivorSpottedJockeyAlsoCoach": [
+      "JOCKEY!"
+    ],
+    "SurvivorSpottedJockeyAlsoC1Coach": [
+      "Little guy!",
+      "Little creep!",
+      "Skittish one."
+    ],
+    "SurvivorSpottedJockeyC1Coach": [
+      "Little guy!",
+      "Little creep!",
+      "Skittish one."
+    ],
+    "SurvivorSpottedMudmenCoach": [
+      "Mudmen!",
+      "Shoot the mudmen!"
+    ],
+    "SurvivorSpottedSmokerCoach": [
+      "SMOKER!"
+    ],
+    "SurvivorSpottedSmokerC1Coach": [
+      "Smokin' one.",
+      "Tonguer!"
+    ],
+    "SurvivorSpottedSpitterCoach": [
+      "SPITTER!"
+    ],
+    "SurvivorSpottedSpitterAlsoCoach": [
+      "SPITTER!"
+    ],
+    "SurvivorSpottedSpitterAlsoC1Coach": [
+      "Crazy woman!",
+      "Neck!",
+      "Spitting thing!"
+    ],
+    "SurvivorSpottedSpitterC1Coach": [
+      "Crazy woman!",
+      "Neck!",
+      "Spitting thing!"
+    ],
+    "SurvivorSpottedTankCoach": [
+      "Oh SHIT! TANK!",
+      "TANK!",
+      "I'm gonna beat that tank's ass.",
+      "We all gotta shoot the tank, ya hear me?"
+    ],
+    "SurvivorSpottedTankC1Coach": [
+      "Some kind of super ass zombie.",
+      "Gigantic thing!",
+      "HOLY SHIT WHAT IS THAT?!?!"
+    ],
+    "SurvivorSpottedWitchCoach": [
+      "Witch!",
+      "We gotta witch!",
+      "I see that Bitch!",
+      "Bitch!",
+      "Witch."
+    ],
+    "SurvivorSpottedWitchC1Coach": [
+      "Blank"
+    ],
+    "PlayerAlertGiveItemCoach": [
+      "Take it. Hell, I don't need it.",
+      "You make sure you use this now.",
+      "Ain't no shame in gettin' some help.",
+      "Take this.",
+      "Here ya go."
+    ],
+    "PlayerAlertGiveItemC1Coach": [
+      "You can have this.",
+      "Excuse me, here ya go.",
+      "Hey, you can have this."
+    ],
+    "PlayerAlertGiveItemCombatCoach": [
+      "Take it.",
+      "Here.",
+      "Have it."
+    ],
+    "PlayerFriendlyFireCoach": [
+      "Excuse me? EXCUSE ME?!?!",
+      "Where in the hell ya think you're shootin?",
+      "Watch where you're shooting!",
+      "Cut that shit out!",
+      "I swear to god you can't shoot worth shit.",
+      "There's gonna be some biblical shit happening to you if you do that again.",
+      "Shoot me again, and you gonna be meetin' your maker right soon.",
+      "Let's not all start shootin' each other now.",
+      "Youngin, stop that shit.",
+      "Man, I swear to god you can't shoot worth shit.",
+      "Shootin' me? That's some crazy shit.",
+      "You do know you shootin' me right?",
+      "Look, try shootin' some damn zombies instead of me.",
+      "Are you outta your mind shootin' at me?",
+      "Will you cut that shit out?",
+      "Yo! Stop shooting me, all right?",
+      "Y'all gotta stop shootin me.",
+      "GODDAMNIT STOP SHOOTIN ME!",
+      "Ah hell no! Do not shoot me.",
+      "Come on now, seriously.",
+      "Stop shooting me.",
+      "Don't be shooting me.",
+      "You are shooting me!",
+      "That's some bullshit!",
+      "Do that again and I'll come back on you.",
+      "You shot me!",
+      "Man, you shot me?"
+    ],
+    "PlayerFriendlyFire2Coach": [
+      "Woah, that there is some screwed up shit.",
+      "You gotta watch where you aimin' that thing.",
+      "Man, are you wrong in the head shootin like that?",
+      "What the hell are you on shootin' like that.",
+      "What the f'...  don't be doin that.",
+      "Hey! Don't be doin that.",
+      "You try that shit on me and you'll be wishin' your momma never met ya father.",
+      "Keep goin at em like that and you gonna be the last man on earth."
+    ],
+    "PlayerFriendlyFireC1Coach": [
+      "Y'all need to focus!",
+      "Listen, y'all, We need to pull together as a team.",
+      "Now come on now, Let's put some effort into this.",
+      "I'm trying to tell you, shooting each other is not helping each other.",
+      "Work as a team people, work as a team.",
+      "Y'all shootin' me.",
+      "Let's not be shootin' each other people.",
+      "Come'on y'all - none of that.",
+      "Come on now, seriously.",
+      "STOP! I am getting pissed off!"
+    ],
+    "PlayerFriendlyFireFromGamblerC1Coach": [
+      "Nicolas, I thought you knew how to use a gun.",
+      "Nick! You shot me!",
+      "Hey Nick, that was my ass you shot.",
+      "Quit shootin' me Nick."
+    ],
+    "PlayerFriendlyFireFromMechanicCoach": [
+      "Ahhh hell no boy, don't you be shootin' me.",
+      "Boy, quit pointing that thing my way."
+    ],
+    "PlayerFriendlyFireFromMechanicC1Coach": [
+      "Ellis, settle down boy.  Ya shot me.",
+      "Ellis! I'll take that gun away from ya!",
+      "Ellis you are shooting me!",
+      "Ellis damnit, you shot me!"
+    ],
+    "PlayerFriendlyFireFromProducerCoach": [
+      "Little sister, you gotta learn to shoot.",
+      "Girl, you gotta learn to shoot."
+    ],
+    "PlayerFriendlyFireFromProducerC1Coach": [
+      "Ro! Quit shootin' me.",
+      "Rochelle girl, you shot me.",
+      "Ro! What's gotten into you girl?",
+      "Ro! You know damn well better than that."
+    ],
+    "PlayerFriendlyFireNoBulletCoach": [
+      "Excuse me? EXCUSE ME?!?!",
+      "Cut that shit out!",
+      "Youngin, stop that shit.",
+      "Will you cut that shit out?"
+    ],
+    "PlayerFriendlyFireNoBulletC1Coach": [
+      "Excuse me? EXCUSE ME?!?!",
+      "Now come on now, Let's put some effort into this.",
+      "Work as a team people, work as a team.",
+      "Come'on y'all - none of that."
+    ],
+    "PlayerToTheRescueCoach": [
+      "Hang on, hang on, I'm comin!",
+      "Hang in there, I'm coming!",
+      "I hear ya, I'm comin'!",
+      "I comin', I comin'.",
+      "On my way! Right now!",
+      "Hang on, I'm comin'"
+    ],
+    "PlayerToTheRescueRosCoach": [
+      "Hang on, hang on, I'm comin!",
+      "Hang in there, I'm coming!",
+      "I hear ya, I'm comin'!",
+      "I comin', I comin'.",
+      "On my way! Right now!",
+      "Hang on, I'm comin'"
+    ],
+    "SurvivorTauntResponseCoach": [
+      "Hell yeah!",
+      "Goddamn right!",
+      "Aw riiiight.",
+      "Oh hell yeah!",
+      "Ooh. How ya like me now? Mmm.",
+      "[Loud, evil laugh]"
+    ],
+    "ShotMannequinCoach2": [
+      "<Short laugh>",
+      "<Hearty Laugh>"
+    ],
+    "C4M1IdleComment01Coach": [
+      "Keep your eyes open for landmarks. We gonna have to come back through here."
+    ],
+    "C4M2IdleCommentCane01Coach": [
+      "KEEP MOVING! HEAD FOR THE SIGN!",
+      "HEAD TOWARD THE SIGN!"
+    ],
+    "PlayerChokeResponseCoach": [
+      "[Choking]",
+      "[Choking - yells screaming for help]",
+      "This bitch is chokin' me! [Choking]"
+    ],
+    "PlayerReloadingC502RunCoach": [
+      "Haul some ass y'all.",
+      "Allright allright, gotta keep movin'.",
+      "Run!",
+      "Just run!"
+    ],
+    "PlayerReloadingTankCoach": [
+      "Shoot that big mother!",
+      "Keep pouring it on!",
+      "Shoot it! Shoot it!",
+      "Don't stop now, shoot it!",
+      "Hit it! Hit it!",
+      "Shoot it!"
+    ],
+    "PlayerReloadingTankC1Coach": [
+      "We are going to have to focus on that thing.",
+      "Ahhh nooooo.",
+      "That thing is too dang big.",
+      "Ohhh.. that ain't fair."
+    ],
+    "PlayerTonguePullStartResponseCoach": [
+      "no, No, NO, NOOOOOOO!!!!!!!!!",
+      "No...",
+      "NO...",
+      "NOOOOOOO!!!!!!!!!",
+      "Nah...",
+      "NO!",
+      "AUGH!",
+      "no, No, NO, NO!!!",
+      "No!",
+      "NO!!!"
+    ],
+    "PlayerTonguePullStartResponseC1Coach": [
+      "Something's got me!",
+      "What's got me?",
+      "I'm all wrapped up!",
+      "Hey! Where am I gettin' dragged to!?!"
+    ],
+    "PlayerWitchChasingCoach": [
+      "The bitch is chasing me!",
+      "Bitch on my ass!",
+      "Run, run, witch coming through!",
+      "Shoot the witch! Shoot the witch!",
+      "Coming through! Witch on my ass!",
+      "Get out of the way! Witch!!!!",
+      "Aw shit. Witch! Witch! Witch!"
+    ],
+    "PlayerWitchStartAttackCoach": [
+      "Oh Shit!",
+      "Ohhh shit.",
+      "Shit no.",
+      "Shit.",
+      "Damn!",
+      "Goddamnit!"
+    ],
+    "SurvivorCriticalHurtCoach": [
+      "[Pain noise - loud major pain]"
+    ],
+    "SurvivorIncapacitatedHurtCoach": [
+      "[Ahhhh - terrified yell]"
+    ],
+    "SurvivorJockeyHurtMajorCoach": [
+      "Jockey on me!",
+      "JOCKEY ON MY BACK!",
+      "Oh lord no, that things on me!",
+      "Agh, that things on me!",
+      "Kill the thing on my back!",
+      "Ellis is that you? What the hell!?!?",
+      "OH SHIT GET THIS THING OFF ME!",
+      "Gah, get this thing off my back!",
+      "[Pain noise - loud major pain]",
+      "[Pain noise - ugh]",
+      "GET IT OFF! [angry]",
+      "GET IT OFF!"
+    ],
+    "SurvivorJockeyHurtMajorC1Coach": [
+      "Agh, that things on me!",
+      "Kill the thing on my back!",
+      "Gah, get this thing off my back!"
+    ],
+    "SurvivorJockeyHurtMinorCoach": [
+      "Jockey on me!",
+      "JOCKEY ON MY BACK!",
+      "Oh lord no, that things on me!",
+      "Agh, that things on me!",
+      "Kill the thing on my back!",
+      "Ellis is that you? What the hell!?!?",
+      "OH SHIT GET THIS THING OFF ME!",
+      "Gah, get this thing off my back!",
+      "[Pain noise - loud major pain]",
+      "[Pain noise - ugh]",
+      "GET IT OFF! [angry]",
+      "GET IT OFF!"
+    ],
+    "SurvivorJockeyHurtMinorC1Coach": [
+      "Agh, that things on me!",
+      "Kill the thing on my back!",
+      "Gah, get this thing off my back!"
+    ],
+    "SurvivorMajorHurtCoach": [
+      "[Pain noise - huh]",
+      "[Pain noise - ahh]",
+      "[Pain noise - oy]",
+      "[Pain noise - ugh]"
+    ],
+    "SurvivorMinorHurtCoach": [
+      "[Pain noise - short minor pain]"
+    ],
+    "SurvivorReloadingCoach": [
+      "Reloading!"
+    ],
+    "SurvivorReloadingIntenseCoach": [
+      "Reloading!",
+      "Re-god-damn-loading!",
+      "Gotta reload!"
+    ],
+    "PlayerHelpIncappedCoach": [
+      "I need some help!",
+      "Help! [Screamed angrily]",
+      "Hey y'all I need some help.",
+      "Could use some help over here.",
+      "Get ya ass over here and help me!",
+      "Help!"
+    ],
+    "HelpResponseCoachCoach": [
+      "Blank"
+    ],
+    "C2M1FallingCoach": [
+      "Whoa...",
+      "Whoaaa! Whoa!",
+      "Whoa, whoa, whoa, Whoaaa!"
+    ],
+    "C2M2CarouselOffCoach": [
+      "It's off."
+    ],
+    "C2M2CarouselOnCoach": [
+      "I'm opening the gate!",
+      "Gate's open!"
+    ],
+    "C3M3BridgeButtonCoach": [
+      "Get ready to run, I'm hittin' it.",
+      "Once it's down, lets go!"
+    ],
+    "PlayerChainSawUsedCoach": [
+      "GYEAHHHHHH!",
+      "GRRRR YEAH!",
+      "WHOOO! YEAH BABY!"
+    ],
+    "PlayerRemarkC1M1OverTableCoach": [
+      "Come on y' all this way.",
+      "This way.",
+      "Over here."
+    ],
+    "PlayerRemarkC1M1SearchRoomsCoach": [
+      "Search these rooms. Might be something we can use."
+    ],
+    "PlayerRemarkC1M1ThroughThisDoorCoach": [
+      "Through this door!"
+    ],
+    "PlayerRemarkC1M2SpotGunStoreCoach": [
+      "Gun store's just down these stairs!"
+    ],
+    "PlayerRemarkC1M3AlarmDoorsCoach": [
+      "Get ready, alarm is gonna sound."
+    ],
+    "PlayerRemarkC1M3CarefulWindowsCoach": [
+      "Shit ain't right, be careful."
+    ],
+    "PlayerRemarkC1M3CEDAGone1Coach": [
+      "I won't lie. It don't look good.",
+      "I hope SOMEBODY got out alright..."
+    ],
+    "PlayerRemarkC1M3DownHereCoach": [
+      "We can get down here!",
+      "Down here.",
+      "Head down this way."
+    ],
+    "PlayerRemarkC1M3DownHere2Coach": [
+      "We can get down here!",
+      "Down here.",
+      "Head down this way."
+    ],
+    "PlayerRemarkC1M3DownTheEscalator1Coach": [
+      "Down that escalator!"
+    ],
+    "PlayerRemarkC1M3FoodCourtNotOkayCoach": [
+      "...poor food court never stood a chance...",
+      "I hope SOMEBODY got out alright..."
+    ],
+    "PlayerRemarkC1M3FoodCourtOkayCoach": [
+      "I hope the food court's okay.",
+      "Please, lord, let the food court be okay.",
+      "I could roll up a whole pizza right now, eat it sub-style.",
+      "If I see a zombie running at me with a sample tray, I ain't shootin' it."
+    ],
+    "PlayerRemarkC1M3OverHereCoach": [
+      "Over this door!",
+      "Through this door!"
+    ],
+    "PlayerRemarkC1M3SearchRoomsCoach": [
+      "Search these rooms. Might be something we can use."
+    ],
+    "PlayerRemarkC1M3ThisWayCoach": [
+      "This way.",
+      "Come on, this way.",
+      "Evac's this way!"
+    ],
+    "PlayerRemarkC1M3ThroughHereCoach": [
+      "Through here!",
+      "Let's go through here!",
+      "Through that gate!",
+      "Let's go through here."
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm1Coach": [
+      "Keep going!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm1aCoach": [
+      "Keep going!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm1bCoach": [
+      "Keep going!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm1cCoach": [
+      "Keep going!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2Coach": [
+      "Just run!",
+      "We gotta turn off that alarm!",
+      "Don't stop running!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2aCoach": [
+      "Just run!",
+      "We gotta turn off that alarm!",
+      "Don't stop running!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2bCoach": [
+      "Just run!",
+      "We gotta turn off that alarm!",
+      "Don't stop running!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2cCoach": [
+      "Just run!",
+      "We gotta turn off that alarm!",
+      "Don't stop running!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm2dCoach": [
+      "Just run!",
+      "We gotta turn off that alarm!",
+      "Don't stop running!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm3Coach": [
+      "We gotta turn off that alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm3aCoach": [
+      "Keep going!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm3bCoach": [
+      "Keep going!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3TurnOffAlarm3cCoach": [
+      "Keep going!",
+      "Someone turn off the alarm!"
+    ],
+    "PlayerRemarkC1M3UpEscalator1Coach": [
+      "Up this escalator!"
+    ],
+    "PlayerRemarkC1M3UpEscalator2Coach": [
+      "Up this escalator!"
+    ],
+    "PlayerRemarkC1M3UpEscalator3Coach": [
+      "Up this escalator!"
+    ],
+    "PlayerRemarkc2m1_campsiteCoach": [
+      "We ain't the only ones that thought to take this short-cut"
+    ],
+    "PlayerRemarkc2m1_checkroomsaCoach": [
+      "Check the rooms.",
+      "Check the rooms. Might be somethin' useful."
+    ],
+    "PlayerRemarkc2m1_cliffaCoach": [
+      "Whoa... Take it slow down this hill. Looks like a pretty big drop.",
+      "Watch yerself on this hill..."
+    ],
+    "PlayerRemarkc2m1_downstairsCoach": [
+      "Down here."
+    ],
+    "PlayerRemarkc2m1_motelsignCoach": [
+      "Whispering oaks motel?  Sheeet....  I know where we are."
+    ],
+    "PlayerRemarkc2m1_offrampaCoach": [
+      "Alright, take the off ramp.",
+      "Down this off ramp!"
+    ],
+    "PlayerRemarkc2m1_parkaCoach": [
+      "There she is! Whispering Oaks!"
+    ],
+    "PlayerRemarkc2m1_saferoomCoach": [
+      "Safe house!"
+    ],
+    "PlayerRemarkc2m1_searchlightsaCoach": [
+      "Look at this.",
+      "Look, searchlights! Might be survivors there, we should check it out.",
+      "Look, searchlights! I bet that's Whisperin' Oaks."
+    ],
+    "PlayerRemarkc2m1_throughhereCoach": [
+      "Through this door!"
+    ],
+    "PlayerRemarkc2m1_throughmotelaCoach": [
+      "Highway's blocked! Let's check out the motel!"
+    ],
+    "PlayerRemarkc2m1_throughwindowCoach": [
+      "Through this window!"
+    ],
+    "PlayerRemarkc2m1_uphillCoach": [
+      "Up the hill."
+    ],
+    "PlayerRemarkc2m1_upstairsaCoach": [
+      "Let's try the second floor."
+    ],
+    "PlayerRemarkc2m2_burgersaCoach": [
+      "I find a Burger Tank in this place? I'm-a be a one-man cheeseburger apocalypse."
+    ],
+    "PlayerRemarkc2m2_candymachineaCoach": [
+      "Damn it. They can't keep a candy machine filled up around here?"
+    ],
+    "PlayerRemarkc2m2_carouselbuttonCoach": [
+      "Alright, this is gonna open the gate and what the hell else?"
+    ],
+    "PlayerRemarkc2m2_cobbleraCoach": [
+      "Mmmhmm. Peach cobbler."
+    ],
+    "PlayerRemarkc2m2_cottoncandyaCoach": [
+      "Cotton Candy. The king of foods.",
+      "Ah yeah. Cotton Candy. The wise pharaoh of food. Sittin' atop the food pyramid, passin' judgement on all lesser foods."
+    ],
+    "PlayerRemarkc2m2_entrancesignCoach": [
+      "Man, I loved this place as a kid."
+    ],
+    "PlayerRemarkc2m2_favoriterideaCoach": [
+      "I was a lil' peanut riding these.  This here was my favorite."
+    ],
+    "PlayerRemarkc2m2_kettlekornaCoach": [
+      "Oh, baby, I could destroy some kettle corn right now."
+    ],
+    "PlayerRemarkc2m2_miscfoodaCoach": [
+      "All these signs are making me hungry.",
+      "Elephant ears... funnel cakes... corn dogs... Man, these signs are bringin' back some memories."
+    ],
+    "PlayerRemarkc2m2_steakeCoach": [
+      "Once the world goes back to normal? I'm buyin' you guys a steak dinner."
+    ],
+    "PlayerRemarkc2m2_thistallCoach": [
+      "'You must be this tall to ride.' Well-least there won't be no jockeys in there."
+    ],
+    "PlayerRemarkc2m2_thistall2Coach": [
+      "'You must be this tall to ride.' Sorry Ellis. It's been real man."
+    ],
+    "PlayerRemarkc2m2_topofslideaCoach": [
+      "We gotta hurry."
+    ],
+    "PlayerRemarkc2m2_tunnelofloveCoach": [
+      "There's the saferoom! Everybody in the tunnel of love!"
+    ],
+    "PlayerRemarkc2m3_coasteroffaCoach": [
+      "Turn that shit off.",
+      "Kill that alarm.",
+      "We gotta turn that alarm off!",
+      "Somebody turn off that alarm!"
+    ],
+    "PlayerRemarkc2m3_coollightaCoach": [
+      "Hey. No smoochin' y'all.",
+      "Back in the day, I had some posters that woulda looked GOOD in this light."
+    ],
+    "PlayerRemarkc2m3_freshairCoach": [
+      "Hm. Shit. First time I ever couldn't wait to get out of the tunnel of love."
+    ],
+    "PlayerRemarkc2m3_holeCoach": [
+      "Down this hole!"
+    ],
+    "PlayerRemarkc2m3_longesttunnelaCoach": [
+      "I don't remember the tunnel of love bein' this LONG. I musta had something else on my mind."
+    ],
+    "PlayerRemarkc2m3_overfenceCoach": [
+      "Over this fence!"
+    ],
+    "PlayerRemarkc2m3_rubbleaCoach": [
+      "The only way over is on the coaster."
+    ],
+    "PlayerRemarkc2m3_saferoomendaCoach": [
+      "Safe house up ahead!",
+      "Safe house!",
+      "Safe house, let's go!"
+    ],
+    "PlayerRemarkc2m3_swanroomaCoach": [
+      "In the maintenance room."
+    ],
+    "PlayerRemarkc2m3_tracks01Coach": [
+      "Just keep following the tracks and we'll get through this!",
+      "Stay on the tracks!"
+    ],
+    "PlayerRemarkc2m3_waterCoach": [
+      "This water don't look natural..."
+    ],
+    "PlayerRemarkc2m3_wayblocked1Coach": [
+      "Blocked down here."
+    ],
+    "PlayerRemarkc2m4_barnentryCoach": [
+      "Through the farm exhibits.",
+      "Through the farm hall."
+    ],
+    "PlayerRemarkc2m4_bumpercarsaCoach": [
+      "Through the bumper cars!"
+    ],
+    "PlayerRemarkc2m4_pendoorCoach": [
+      "Through this door!"
+    ],
+    "PlayerRemarkc2m4_seesaferoomCoach": [
+      "Safe house!"
+    ],
+    "PlayerRemarkc2m4_stadiumaCoach": [
+      "Let's get inside the stadium, I have an idea!"
+    ],
+    "PlayerRemarkc2m4_upbarnaCoach": [
+      "Over the roof!"
+    ],
+    "PlayerRemarkc2m5_button2Coach": [
+      "Well ain't this a bitch, they got a tape for their music. To think I used to like these guys.",
+      "Lip syncing old ass bitches, they got a tape back here.",
+      "There's a tape back here, this is all setup for the finale.",
+      "The Rider's have their finale all cued up back here.",
+      "When I hit this tape deck, it's all gonna start. Get ready!",
+      "This tape's gonna start the finale! Get ready!",
+      "When we start this tape, it's gonna be on. So get ready!",
+      "When we start this tape, get ready! The music's gonna be INCREDIBLY GOOD, but try to focus.",
+      "Get ready to rock, I'm gonna start the finale!"
+    ],
+    "PlayerRemarkc2m5_seestageCoach": [
+      "There's the stage."
+    ],
+    "PlayerRemarkC3M#BridgeDownCoach": [
+      "Let's go people.",
+      "Bridge is down, let's go!",
+      "Let's keep moving."
+    ],
+    "PlayerRemarkC3M2PlaneCrashCoach": [
+      "All right, now I understand why you would jump out of a plane.",
+      "Looks like we weren't the only people crashing today.",
+      "Nick, you didn't shoot this pilot too did you?"
+    ],
+    "PlayerRemarkC3M2PlaneDoorNagCoach": [
+      "We gotta open this door.",
+      "You know an alarm will sound when we open this.",
+      "This here is gonna set off an alarm, get ready."
+    ],
+    "PlayerRemarkC3M2SickOfSwampCoach": [
+      "This swamp shit's gettin' old."
+    ],
+    "PlayerRemarkC3M2Village1Coach": [
+      "Lights are on!"
+    ],
+    "PlayerRemarkC3M2Village2Coach": [
+      "Safe house up ahead!",
+      "Safe house!",
+      "Safe house, let's go!"
+    ],
+    "PlayerRemarkC3M2WhereAreWeCoach": [
+      "Where in the hell are we?"
+    ],
+    "PlayerRemarkC3M3LowerGateCoach": [
+      "We have to lower this bridge."
+    ],
+    "PlayerRemarkC3M3SafeHouseAheadCoach": [
+      "Finally a safe house!"
+    ],
+    "PlayerRemarkC3M3SearchHousesCoach": [
+      "I don't think they'd mind if we look for supplies.",
+      "Careful lookin' for supplies, show respect."
+    ],
+    "PlayerRemarkC3M3StayUpHereCoach": [
+      "Stay up here!",
+      "Let's keep moving.",
+      "Try sticking to the dry ground."
+    ],
+    "PlayerRemarkC3M3ThisWayCoach": [
+      "Come on y' all this way.",
+      "This way.",
+      "C'mon, this way!",
+      "I think we're at the end of the swamp."
+    ],
+    "PlayerRemarkC3M3ThroughHereCoach": [
+      "Through this door!",
+      "Through here."
+    ],
+    "PlayerRemarkC3M3ThroughThisHouseCoach": [
+      "Through here."
+    ],
+    "PlayerRemarkC3M3UpHereCoach": [
+      "Up here."
+    ],
+    "PlayerRemarkc3m4downroadCoach": [
+      "Down this street."
+    ],
+    "PlayerRemarkc3m4houseCoach": [
+      "There's the house!"
+    ],
+    "PlayerRemarkc3m4radioCoach": [
+      "Let's try the radio."
+    ],
+    "PlayerRemarkc3m4shacksCoach": [
+      "Search these houses."
+    ],
+    "PlayerRemarkc4m1_carcrashCoach": [
+      "That's a nasty damn wreck."
+    ],
+    "PlayerRemarkc4m1_garagesaleCoach": [
+      "Let's cut through the garage sale."
+    ],
+    "PlayerRemarkc4m1_InBurgerTankCoach": [
+      "Man, I sure wish the Burger Tank was open."
+    ],
+    "PlayerRemarkc4m1_nogasCoach": [
+      "Outta gas. Shit."
+    ],
+    "PlayerRemarkc4m1_playgroundfarCoach": [
+      "Through that playground!"
+    ],
+    "PlayerRemarkc4m1_playgroundnearCoach": [
+      "Through this playground!"
+    ],
+    "PlayerRemarkc4m1_saferoomcloseCoach": [
+      "There's a safe room up there!"
+    ],
+    "PlayerRemarkc4m1_throughhereACoach": [
+      "Through here!"
+    ],
+    "PlayerRemarkc4m2_gasinsidesignaCoach": [
+      "Says there's gas inside.",
+      "[reading sign] Gas inside."
+    ],
+    "PlayerRemarkc4m2_millentranceCoach": [
+      "In here!"
+    ],
+    "PlayerRemarkc4m2_millentranceexitCoach": [
+      "This way!",
+      "C'mon, this way!"
+    ],
+    "PlayerRemarkc4m2_seegasstationaCoach": [
+      "There's the gas station!"
+    ],
+    "PlayerRemarkc4m2_seesaferoomaCoach": [
+      "There's gas in the safe room!"
+    ],
+    "PlayerRemarkc4m2_streetblockedaCoach": [
+      "Road's blocked."
+    ],
+    "PlayerRemarkc4m2_uprampCoach": [
+      "Up that ramp!"
+    ],
+    "PlayerRemarkc4m2_upthestairsCoach": [
+      "Up here."
+    ],
+    "PlayerRemarkc4m2_useelevatoraCoach": [
+      "We can take that elevator down to the field."
+    ],
+    "PlayerRemarkc4m2_waterpoolaCoach": [
+      "Water's starting to pool. We gotta move!",
+      "[pointing at huge puddle] Look, it's already starting to flood."
+    ],
+    "PlayerRemarkc4m2_weatheraCoach": [
+      "If this rain really comes, we gonna get washed away.",
+      "People, if this rain really comes, we gonna be in trouble."
+    ],
+    "PlayerRemarkc4m3_caneaCoach": [
+      "Retrace our steps! Head through the field!"
+    ],
+    "PlayerRemarkc4m3_crosshere1Coach": [
+      "We can cross here!",
+      "Cross here!"
+    ],
+    "PlayerRemarkc4m3_downhere1Coach": [
+      "Jump down here!",
+      "Down here!",
+      "Down here."
+    ],
+    "PlayerRemarkc4m3_downstairsaCoach": [
+      "Back down the stairs!"
+    ],
+    "PlayerRemarkc4m3_ducatelsignCoach": [
+      "There's the sign. We're almost outta the mill."
+    ],
+    "PlayerRemarkc4m3_elevatoraCoach": [
+      "We can take the elevator back up!"
+    ],
+    "PlayerRemarkc4m3_floodedaCoach": [
+      "This place is under water.",
+      "It's all flooded."
+    ],
+    "PlayerRemarkc4m3_floodedbCoach": [
+      "Goddamn this is slow going.",
+      "This shit's worse than the swamp."
+    ],
+    "PlayerRemarkc4m3_overtankaCoach": [
+      "We can cross on that tank!"
+    ],
+    "PlayerRemarkc4m3_rainaCoach": [
+      "Damn. It's really stormin' now.",
+      "It is coming down."
+    ],
+    "PlayerRemarkc4m3_safehousedownaCoach": [
+      "Safe house!"
+    ],
+    "PlayerRemarkc4m3_startsaferoomaCoach": [
+      "Blank"
+    ],
+    "PlayerRemarkc4m3_uppipesCoach": [
+      "Up this pipe!"
+    ],
+    "PlayerRemarkc4m4_floodedaCoach": [
+      "Towns flooded."
+    ],
+    "PlayerRemarkc4m4_garagesaleaCoach": [
+      "The yard sale! We're goin' the right way!"
+    ],
+    "PlayerRemarkc4m4_playgroundaCoach": [
+      "There's the playground! We're close!"
+    ],
+    "PlayerRemarkc4m4_porchlightaCoach": [
+      "I remember that porch light."
+    ],
+    "PlayerRemarkc4m4_safehouseaCoach": [
+      "Safe house up ahead!"
+    ],
+    "PlayerRemarkc4m4_useroofsaCoach": [
+      "Let's try the roof."
+    ],
+    "PlayerRemarkpathc2m1_billboardCoach": [
+      "Hey, Whisperin' Oaks! Shit, I used to go there when I was a kid!"
+    ],
+    "PlayerRemarkWorldC1M1AlmostThereCoach": [
+      "Almost there!",
+      "We're almost home free, people."
+    ],
+    "PlayerRemarkWorldC1M1CedaMapsCoach": [
+      "Look at that map. We need to get ourselves to New Orleans.",
+      "Man, LOOK at this map. We're all that's left.",
+      "We need to get to New Orleans.",
+      "Would you look at this. Folks, I think N'awlins is the last city standing."
+    ],
+    "PlayerRemarkWorldC1M1DownHereCoach": [
+      "Down here!",
+      "Through here.",
+      "Down here.",
+      "Head down this way."
+    ],
+    "PlayerRemarkWorldC1M1DownStairsCoach": [
+      "Back down the stairs!"
+    ],
+    "PlayerRemarkWorldC1M1ElevatorBrokenCoach": [
+      "Elevator's out!"
+    ],
+    "PlayerRemarkWorldC1M1FireRoomCoach": [
+      "Fire over here, too."
+    ],
+    "PlayerRemarkWorldC1M1FireSpreadingCoach": [
+      "We gotta find a way around this fire!",
+      "This way's blocked!",
+      "[coughing] The fire's spreading!",
+      "The fire's spreading!"
+    ],
+    "PlayerRemarkWorldC1M1FirstCoach": [
+      "Jumpin' Jehosaphat! What ARE these things?",
+      "Y'all know what the hell these things are?",
+      "It's them or us."
+    ],
+    "PlayerRemarkWorldC1M1LedgeCoach": [
+      "We can walk along the ledge!",
+      "Let's try the ledge!"
+    ],
+    "PlayerRemarkWorldC1M1StairsSignCoach": [
+      "Gotta find some stairs.",
+      "Let's get to the stairs."
+    ],
+    "PlayerRemarkWorldC1M2DownStairsCoach": [
+      "Down here."
+    ],
+    "PlayerRemarkWorldC1M2DumpsterCoach": [
+      "Over the dumpster!"
+    ],
+    "PlayerRemarkWorldC1M2GunStoreCloseCoach": [
+      "That gun store's around here somewhere.",
+      "We're getting close to that gun store.",
+      "That gun store's just up ahead. Let's stock up and keep moving."
+    ],
+    "PlayerRemarkWorldC1M2InHereCoach": [
+      "In here!"
+    ],
+    "PlayerRemarkWorldC1M2JumpTruckCoach": [
+      "We can jump down onto this truck!"
+    ],
+    "PlayerRemarkWorldC1M2MadeItCoach": [
+      "Hmm. This mall look busy to you?"
+    ],
+    "PlayerRemarkWorldC1M2MallSignHereCoach": [
+      "Stay with me! That mall's JUST up ahead!",
+      "Look alive! We're getting close to the mall!"
+    ],
+    "PlayerRemarkWorldC1M2MallThisWayCoach": [
+      "Let's go find that mall.",
+      "Let's go find that helicopter.",
+      "Mall's THAT way! Let's move!"
+    ],
+    "PlayerRemarkWorldC1M2UpStairsCoach": [
+      "This way!",
+      "C'mon, this way!"
+    ],
+    "PlayerRemarkWorldC3M1FeedGatorCoach": [
+      "Do not feed the gators."
+    ],
+    "PlayerRemarkWorldC3M1FerryNagaCoach": [
+      "We gotta call that boat over here.",
+      "Hit the button."
+    ],
+    "PlayerRemarkWorldC3M1Path01Coach": [
+      "Anything in those houses?",
+      "Search these houses."
+    ],
+    "PlayerRemarkWorldC3M1StayOnCoach": [
+      "Stay on the walk ways."
+    ],
+    "PlayerRemarkWorldC502AlleyCoach": [
+      "Through here."
+    ],
+    "PlayerRemarkWorldC502NotZombies2Coach": [
+      "They been shot.",
+      "Shit got bad here."
+    ],
+    "PlayerRemarkWorldC502NotZombies3bCoach": [
+      "Yeah, true that."
+    ],
+    "PlayerRemarkWorldC502Run1Coach": [
+      "Haul some ass y'all.",
+      "Allright allright, gotta keep movin'.",
+      "Run!",
+      "Just run!"
+    ],
+    "PlayerRemarkWorldC502Smell2Coach": [
+      "Smells like people have been living here and shit."
+    ],
+    "PlayerRemarkWorldC502SpotSafeHouseCoach": [
+      "Safe house up ahead!",
+      "Safe house, let's go!"
+    ],
+    "PlayerRemarkWorldSignContagiousCoach": [
+      "Highly contagious area."
+    ],
+    "PlayerRemarkWorldSignDeadlyForceCoach": [
+      "This shit says: Use of deadly force authorized.",
+      "Use of deadly force authorized. Shit. Allright. It sure is."
+    ],
+    "PlayerRemarkWorldSignDeadlyForce2Coach": [
+      "It sure is."
+    ],
+    "PlayerRemarkWorldSignFormLineCoach": [
+      "Form orderly line."
+    ],
+    "PlayerRemarkWorldSignPhotographyCoach": [
+      "Photography prohibited."
+    ],
+    "PlayerRemarkWorldSignReportSickCoach": [
+      "Report the sick."
+    ],
+    "PlayerRemarkWorldSignReportUnusCoach": [
+      "Report unusual behavoir."
+    ],
+    "PlayerRemarkWorldSignRestrictedAreaCoach": [
+      "Restricted area.",
+      "Restriced area."
+    ],
+    "PlayerRemarkWorldSignsInfectedDetCoach": [
+      "Infected detected in this area."
+    ],
+    "PlayerRemarkWorldSignStayInGroupCoach": [
+      "Stay in your group."
+    ],
+    "PlayerRemarkWorldSignStayInGroup2Coach": [
+      "That's what I keep sayin'"
+    ],
+    "PlayerRemarkWorldSignWhereIsCEDACoach": [
+      "Where is CEDA."
+    ],
+    "PlayerRemarkWorldSignWhereIsCEDA2Coach": [
+      "Zombiefied.",
+      "Good question, where in the hell is CEDA. Cause I'd like to shoot some of their asses."
+    ],
+    "PlayerWorldSignC5AlarmWillSoundCoach": [
+      "Warning.  Alarm will sound if door is opened before clearance from tower."
+    ],
+    "PlayerWorldSignC5AlarmWillSound3Coach": [
+      "Gotta agree with that."
+    ],
+    "RespondAffirmativeCoach": [
+      "Oh Yeah.",
+      "For sure.",
+      "Positively.",
+      "Sho sho."
+    ],
+    "C4M1_SpotStuffResponseCoach": [
+      "Now, try to remember where the ammo dumps're at. We might need some on the way back."
+    ],
+    "PlayerFollowMeCoach": [
+      "Come on y' all this way.",
+      "This way.",
+      "Come on, this way.",
+      "Follow me.",
+      "Y'all stay close."
+    ],
+    "PlayerHelpCoach": [
+      "I need some help!",
+      "Help! [Screamed angrily]",
+      "Hey y'all I need some help.",
+      "Could use some help over here.",
+      "Get ya ass over here and help me!"
+    ],
+    "PlayerHurryUpCoach": [
+      "Come on, we gotta go.",
+      "Haul some ass y'all.",
+      "Hurry up!",
+      "Hurry!",
+      "Move your damn ass!",
+      "Alright, people, you best hop to it.",
+      "Let's go, let's go all right?",
+      "You best hop to it."
+    ],
+    "PlayerKillThatLightCoach": [
+      "Turn off ya light.",
+      "Kill that light.",
+      "Hey, kill that light.",
+      "Ya all need to kill your lights.",
+      "No lights.",
+      "Lights out."
+    ],
+    "PlayerLeadOnCoach": [
+      "I'll follow ya.",
+      "I'm followin ya.",
+      "All right, I with ya.",
+      "Lead on man."
+    ],
+    "PlayerMoveOnCoach": [
+      "Allright, let's go.",
+      "Come on, people, let's get with it.",
+      "Allright allright, gotta keep movin'.",
+      "We gonna put up tents and shit or keep movin'?",
+      "We should get movin', ya hear me?",
+      "Alright, let's get it on.",
+      "All right, let's roll.",
+      "Let's get it on.",
+      "Alright people, let's get it on."
+    ],
+    "PlayerStayTogetherCoach": [
+      "Stay close people!",
+      "Y'all stay close.",
+      "Keep tight.",
+      "No one wander off."
+    ],
+    "PlayerWatchOutBehindCoach": [
+      "Behind us!",
+      "They're behind us!",
+      "Behind us."
+    ],
+    "PlayerAskReadyCoach": [
+      "You kids ready?",
+      "We ready?",
+      "We all ready?",
+      "Ready?",
+      "Everyone ready for this shit?",
+      "Everybody ready?",
+      "We ready to get it on?",
+      "Hey, we ready to get it on?"
+    ],
+    "PlayerImWithYouCoach": [
+      "I've got ya.",
+      "I'm right behind ya.",
+      "I'm with ya.",
+      "I got yer back.",
+      "We tight."
+    ],
+    "PlayerLaughCoach": [
+      "<Short laugh>",
+      "<Hearty Laugh>"
+    ],
+    "PlayerLostCallCoach": [
+      "Where you all at?",
+      "Hey! Anyone out there?",
+      "Holler back at me folks!"
+    ],
+    "PlayerNiceJobResponseCoach": [
+      "Nice.",
+      "Nice work.",
+      "Allright, you doin' good.",
+      "You're on that shit.",
+      "Way to go.",
+      "Allright now, you done good,.",
+      "Nice, keep goin at em like that.",
+      "That there was nice work.",
+      "Allright. You beat their ass good.",
+      "You done good.",
+      "Alright, alright. Not bad, not bad.",
+      "Come one now, keep it up, keep it up.",
+      "Alright, way to go, way to go.",
+      "Way to stick it to 'em.",
+      "Alright everybody, you are giving 110%."
+    ],
+    "PlayerNoCoach": [
+      "No.",
+      "Oh hell no.",
+      "Excuse me?",
+      "enh. Oh.",
+      "No thank you.",
+      "Nope.",
+      "Uh uh.",
+      "Ain't gonna happen.",
+      "hell no.",
+      "Shit no.",
+      "You crazy?"
+    ],
+    "PlayerProfanityCoach": [
+      "Shit.",
+      "What the f-",
+      "Damn!",
+      "Man this is about to get all baghdad and shit..",
+      "Oh hell, this about to get bad.",
+      "Hell no.",
+      "hhhhhhh [frustrated]",
+      "Goddamnit!",
+      "Shiiit.",
+      "What the? hhhhhhh [frustrated]",
+      "Bullshit.",
+      "Well, I'll be a monkey's uncle.",
+      "Goddamn!",
+      "Son of a bitch."
+    ],
+    "PlayerSorryCoach": [
+      "My bad.",
+      "Sorry.",
+      "Hey, sorry.",
+      "Oh shit, sorry."
+    ],
+    "PlayerThanksCoach": [
+      "Thanks.",
+      "Thanks, we straight?",
+      "THANKS!"
+    ],
+    "PlayerYellRunCoach": [
+      "Run!",
+      "Haul ASS!",
+      "Don't stop running!",
+      "Run! Run! Run!",
+      "Run! Run!",
+      "KEEP RUNNING!"
+    ],
+    "PlayerYesCoach": [
+      "Yeah.",
+      "Yes.",
+      "Oh Yeah.",
+      "For sure.",
+      "Know that's right.",
+      "Positively.",
+      "Sho sho."
+    ],
+    "PlayerYouAreWelcomeCoach": [
+      "It ain't nothin.",
+      "We cool.",
+      "We straight.",
+      "It's all good.",
+      "You're Welcome."
+    ],
+    "PlayerNegativeCoach": [
+      "Shit.",
+      "What the f-",
+      "Damn!",
+      "hhhhhhh [frustrated]",
+      "Goddamnit!"
+    ],
+    "PlayerHeardBoomerCoach": [
+      "I hear a Boomer.",
+      "Boomer's sneakin 'round.",
+      "Careful now, boomer.",
+      "Step slow ya' all, boomer round."
+    ],
+    "PlayerHeardHunterCoach": [
+      "I hear a hunter.",
+      "Punk ass hunter around.",
+      "Sounds like a hunter."
+    ],
+    "PlayerHeardSmokerCoach": [
+      "Sounds like a Smoker.",
+      "I hear a smoker.",
+      "Sounds like one of them smoker bitches."
+    ],
+    "PlayerHeardTankCoach": [
+      "Oh SHIT! TANK!",
+      "TANK!",
+      "I'm gonna beat that tank's ass.",
+      "We all gotta shoot the tank, ya hear me?"
+    ],
+    "PlayerHurrahCoach": [
+      "We cool.",
+      "We gonna be all right.",
+      "We good, this ain't shit.",
+      "We gonna do this.",
+      "We got this.",
+      "Those things ain't shit.",
+      "Oh hell yeah!",
+      "We're gonna be okay.",
+      "We got up in their shit.",
+      "We are kicking their ass.",
+      "mmm. Allright.",
+      "Woo! Haha! That's how we do it.",
+      "Alright! Way to go! Way to go!",
+      "Yeah! You are a great bunch.",
+      "That was outstanding.",
+      "Alright! Good effort.",
+      "Alright, alright! Way to put it all out there!",
+      "Ya boy!",
+      "We are kickin' some zombie ASS!",
+      "THAT is how you kick zombie ASS!"
+    ],
+    "PlayerWarnCarefulCoach": [
+      "Careful now...",
+      "Shit ain't right, be careful.",
+      "Everybody? Keep ya shit tight.",
+      "Keep ya shit tight."
+    ],
+    "SurvivorSpottedWorldFarCoach": [
+      "Over there!",
+      "Look!"
+    ],
+    "GasPourDoneSCCoach": [
+      "EAT THAT SHIT!",
+      "How you like that?",
+      "HOW THAT FEEL?",
+      "YEAH!",
+      "CHEW ON THAT!",
+      "ALLRIGHT!",
+      "WHOOO! YEAH BABY!",
+      "We are kicking their ass.",
+      "Goddamn right!",
+      "[Loud, evil laugh]"
+    ],
+    "GasPourSCCoach": [
+      "Oh, come on, baby, come on...",
+      "Please, baby, baby, please, please...",
+      "Hurry up, hurrrry upppp...",
+      "Come onnnn, come onnnnnn...",
+      "Fillin' it up here!",
+      "I got this one!"
+    ],
+    "GrabbingGasSCCoach": [
+      "Got it!",
+      "I got it. [calmer]",
+      "I got this one!",
+      "I got one."
+    ],
+    "ScavengeStartCoach": [
+      "Allright, let's go.",
+      "Haul ass and get gas!",
+      "Let's go! Find a gas can!"
+    ],
+    "PlayerCommentJockeyCoach": [
+      "That ain't right for a man to be ridden like that.",
+      "Damn. That ain't right."
+    ],
+    "C4M2LockTheDoorCheckPointCoach": [
+      "Close the door and let's get the gas."
+    ],
+    "GoingToDieCoachCoachCoach": [
+      "This here is some serious bullshit.",
+      "This ain't how i thought this would go.",
+      "I can walk this shit off.",
+      "Ahhhhhhh.",
+      "Damn, they messed me up.",
+      "Man, this shit hurts.",
+      "Man said there was nothing to worry about, well buullshit.",
+      "Ya'll crazy if you don't think this hurts.",
+      "Shit, I'm messed up.",
+      "It hurts, but ain't nothin.",
+      "This shit ain't pretty.",
+      "Ahh damnit. (frustrated)",
+      "Man, this right here hurts somethin' fierce.",
+      "This is some outrageous shit.",
+      "Crazy sons of a bitches messed me up.",
+      "Damn. They beat me good.",
+      "They beat my ass fair and square.",
+      "I shoulda learned to drive a tank or some shit.",
+      "Ahh damnit now.",
+      "No pain, no gain. I must be about to gain some serious shit.",
+      "I ain't ready to lay down yet.",
+      "Hey. Now this here is some bullshit.",
+      "I can walk this off.",
+      "Tryin' to walk this off.",
+      "I'm gotta get right.",
+      "I ain't dead yet.",
+      "Man, those zombies beat my ass."
+    ],
+    "PlayerAlertGiveItemStopCoach": [
+      "Hold on, I got something for you.",
+      "Hold up now, I got something for you.",
+      "Hold up, I got something for you."
+    ],
+    "PlayerAlertGiveItemStopAnFirstAidCoach": [
+      "Blank"
+    ],
+    "PlayerAlertGiveItemStopC1Coach": [
+      "Yo! I got somethin' for ya.",
+      "Hey! Hey! Hold up."
+    ],
+    "PlayerAlertGiveItemStopQnFirstAidCoach": [
+      "Blank"
+    ],
+    "PlayerEatPillsCoach": [
+      "Alright, that hit the spot.",
+      "That hit the spot.",
+      "Yeah, that'll hold me.",
+      "Alright, that'll keep me tight.",
+      "Woo, that'll hold me."
+    ],
+    "PlayerGamblerPouncedCoach": [
+      "Hunter's got Nick!",
+      "Hunter's on Nick!"
+    ],
+    "PlayerGamblerPouncedC1Coach": [
+      "That thing's ripping him up!",
+      "Zombie's ripping him up!"
+    ],
+    "PlayerGetInsideCheckPointCoach": [
+      "Come on people, get you asses in here!",
+      "Get you asses in here!",
+      "Ain't got time for this shit, get in here.",
+      "Come on people, come on, get in here!",
+      "Hey! Get in here!",
+      "Get you asses in here right now!"
+    ],
+    "PlayerGrabbedByJockeyCoach": [
+      "Jockey on me!",
+      "JOCKEY ON MY BACK!",
+      "Oh lord no, that things on me!",
+      "Agh, that things on me!",
+      "Kill the thing on my back!",
+      "Ellis is that you? What the hell!?!?",
+      "OH SHIT GET THIS THING OFF ME!",
+      "Gah, get this thing off my back!",
+      "[Pain noise - loud major pain]",
+      "[Pain noise - ugh]",
+      "GET IT OFF! [angry]",
+      "GET IT OFF!"
+    ],
+    "PlayerGrabbedByJockeyC1Coach": [
+      "Agh, that things on me!",
+      "Kill the thing on my back!",
+      "Gah, get this thing off my back!"
+    ],
+    "PlayerGrenadeMolotovCoach": [
+      "GRENADE!",
+      "FIRE IN THE HOLE!!"
+    ],
+    "PlayerGrenadePipeBombCoach": [
+      "GRENADE!",
+      "FIRE IN THE HOLE!!",
+      "GRENADE! Comin at ya!",
+      "Pipe bomb out!",
+      "Throwin' a pipe bomb!"
+    ],
+    "PlayerGrenadeVomitJarCoach": [
+      "Heads up!",
+      "Incoming!"
+    ],
+    "PlayerGrenadeVomitJarC1Coach": [
+      "Incoming!"
+    ],
+    "PlayerIncapacitatedInitialCoach": [
+      "Ahh shit, I'm down!",
+      "Damnit, I'm down.",
+      "Shit, need some help."
+    ],
+    "PlayerKillConfirmationCoach": [
+      "Got it!",
+      "Hit it.",
+      "I got it.",
+      "Dead!",
+      "Pow! Got it!",
+      "It's down.",
+      "Got it! [calmer]",
+      "I got it. [calmer]",
+      "That one's mine."
+    ],
+    "PlayerMechanicPouncedCoach": [
+      "Hunter's got Ellis!",
+      "Hunter on Ellis!"
+    ],
+    "PlayerMechanicPouncedC1Coach": [
+      "That thing's ripping him up!",
+      "Zombie's ripping him up!"
+    ],
+    "PlayerProducerPouncedCoach": [
+      "Hunter's got Ro!",
+      "Hunter on  Rochelle!"
+    ],
+    "PlayerProducerPouncedC1Coach": [
+      "Zombie's on RO!",
+      "Ro's getting ripped up!"
+    ],
+    "PlayerRevivedByDefibrillatorCoach": [
+      "[being shocked]",
+      "[gasp for breath]"
+    ],
+    "PlayerRevivedByDefibrillator2Coach": [
+      "Whoa...",
+      "Agggh damn it! You're SHOCKIN' me!",
+      "Aw hell, I'm back here.",
+      "[spitting] You didn't do mouth to mouth on me, did you?"
+    ],
+    "PlayerStayTogetherInsideCoach": [
+      "Come on people, get you asses in here!",
+      "Get you asses in here!",
+      "Ain't got time for this shit, get in here.",
+      "Come on people, come on, get in here!",
+      "Hey! Get in here!",
+      "Get you asses in here right now!"
+    ],
+    "PlayerSuggestHealthCoachC1Coach": [
+      "This would be the time to heal up.",
+      "Now's a good time to heal if you can.",
+      "If you got a health kit you should use it."
+    ],
+    "PlayerSuggestHealthGamblerCoach": [
+      "This ain't about me people, let's heal up.",
+      "Nick, don't be stupid, heal up.",
+      "Nicolas I think it is time for you to heal.",
+      "Nick, you should use that kit on your self.",
+      "Nick, its all right, we all gotta heal sometime."
+    ],
+    "PlayerSuggestHealthGamblerC1Coach": [
+      "This would be the time to heal up.",
+      "Now's a good time to heal if you can.",
+      "If you got a health kit you should use it."
+    ],
+    "PlayerSuggestHealthMechanicCoach": [
+      "Heal if ya got em.",
+      "Ellis, time for you to heal boy.",
+      "Allright Ellis, come on now, get yourself right.",
+      "Hey Ellis, that health kit ain't gonna use itself."
+    ],
+    "PlayerSuggestHealthMechanicC1Coach": [
+      "This would be the time to heal up.",
+      "Now's a good time to heal if you can.",
+      "If you got a health kit you should use it."
+    ],
+    "PlayerSuggestHealthProducerCoach": [
+      "Ro, time to heal.",
+      "Ro, heal up, hear me girl?",
+      "Girl, time for you to heal up.",
+      "Hey girl, why don't you heal up?"
+    ],
+    "PlayerSuggestHealthProducerC1Coach": [
+      "This would be the time to heal up.",
+      "Now's a good time to heal if you can.",
+      "If you got a health kit you should use it."
+    ],
+    "PlayerTransitionCoach": [
+      "We cool.",
+      "Oh hell yeah!",
+      "Baby, that is how that's DONE!",
+      "You made me proud out there, people...",
+      "[Loud, evil laugh]"
+    ],
+    "PlayerTransitionCloseCoach": [
+      "That shit was crazy.",
+      "That was some close ass shit.",
+      "We just made that.",
+      "I was bettin on the other guys (laughing).",
+      "Man said, any fight you walk away from is a win.",
+      "Let's put it behind us, we good, we good.",
+      "Touchdown!",
+      "They played us tough.",
+      "That was some epic shit. Right there.",
+      "Allright. We allright y'all. We made it.",
+      "That shit was too goddamn close...",
+      "We almost didn't make it...",
+      "That was a little TOO close...",
+      "Damn. I can't be all that's left...",
+      "We got sloppy out there.",
+      "I know we can do better than THAT.",
+      "Man. That got BAD."
+    ],
+    "PlayerUsingDefibrillatorCoach": [
+      "Clear!",
+      "Come on!",
+      "Come ON!",
+      "Don't you die on me..."
+    ],
+    "PlayerWarnHeardBoomerCoach": [
+      "I hear a Boomer.",
+      "Boomer's sneakin 'round.",
+      "Careful now, boomer.",
+      "Step slow ya' all, boomer round."
+    ],
+    "PlayerWarnHeardBoomerC1Coach": [
+      "Ahh what the heck is that?!",
+      "I don't like the sound of that one bit.",
+      "Anyone know what that is?",
+      "From the sounds of it, its about to get a whole lot worse."
+    ],
+    "PlayerWarnHeardChargerCoach": [
+      "We gotta Charger round.",
+      "Gotta Charger round.",
+      "I hear a Charger.",
+      "I hear a charger, don't get charged and shit."
+    ],
+    "PlayerWarnHeardChargerC1Coach": [
+      "Ahh what the heck is that?!",
+      "I don't like the sound of that one bit.",
+      "Anyone know what that is?",
+      "From the sounds of it, its about to get a whole lot worse."
+    ],
+    "PlayerWarnHeardHunterCoach": [
+      "I hear a hunter.",
+      "Punk ass hunter around.",
+      "Sounds like a hunter."
+    ],
+    "PlayerWarnHeardHunterC1Coach": [
+      "Ahh what the heck is that?!",
+      "I don't like the sound of that one bit.",
+      "Anyone know what that is?",
+      "From the sounds of it, its about to get a whole lot worse."
+    ],
+    "PlayerWarnHeardJockeyCoach": [
+      "I hear a jockey.",
+      "One of those little jockeys is around.",
+      "That sounds like a little jockey.",
+      "One of those leapin' on your back bitches is around.",
+      "I hear one of those jockeys.  If I see it, I'm gonna shoot the shit out of it."
+    ],
+    "PlayerWarnHeardJockeyC1Coach": [
+      "What is that noise?",
+      "Is that one of those little things?"
+    ],
+    "PlayerWarnHeardSmokerCoach": [
+      "Sounds like a Smoker.",
+      "I hear a smoker.",
+      "Sounds like one of them smoker bitches."
+    ],
+    "PlayerWarnHeardSmokerC1Coach": [
+      "Ahh what the heck is that?!",
+      "I don't like the sound of that one bit.",
+      "Anyone know what that is?",
+      "From the sounds of it, its about to get a whole lot worse."
+    ],
+    "PlayerWarnHeardSpitterCoach": [
+      "I hear a spitter.",
+      "That sounds like a spitter.",
+      "Spitter's around.",
+      "That fat spittin' bitch is around.",
+      "I hear that fat woman."
+    ],
+    "PlayerWarnHeardSpitterC1Coach": [
+      "Ahh what the heck is that?!",
+      "I don't like the sound of that one bit.",
+      "Anyone know what that is?",
+      "From the sounds of it, its about to get a whole lot worse."
+    ],
+    "PlayerWarnHeardWitchCoach": [
+      "Ya'all hear her?,Get ready to toss that bitch.",
+      "Quiet everybody I hear a bitch.",
+      "That there sounds like a witch.",
+      "Quiet y'all, I hear a witch."
+    ],
+    "PlayerWarnHeardWitchC1Coach": [
+      "Rochelle, that ain't you is it girl?",
+      "What is that crying?",
+      "What's doing that crying?",
+      "Man, that crying don't sound right."
+    ],
+    "PlayerWarnMegaMobCoach": [
+      "Here they come!",
+      "Ah shit, this ain't gonna be good.",
+      "It's on.",
+      "Game on, baby!"
+    ],
+    "PlayerWarnMegaMobC501Coach": [
+      "Here they come!",
+      "Ah shit, this ain't gonna be good.",
+      "It's on.",
+      "Game on, baby!"
+    ],
+    "PlayerWarnWitchAngryCoach": [
+      "Oh shit, that bitch's pissed.",
+      "Quit trifling with that bitch, she gonna explode.",
+      "Watch out ya'all, someone pissed off that bitch.",
+      "Ohh shit, that bitch's gettin' angry!"
+    ],
+    "PlayerWorldInfectedDet2Coach": [
+      "No shit."
+    ],
+    "PlayerWorldIntroC31BlankCoach": [
+      "Blank"
+    ],
+    "PlayerWorldIntroC51Coach": [
+      "Blank"
+    ],
+    "PlayerWorldIntroC513Coach": [
+      "Oh yeaah. Our goal is right next to the bridge, ON THE OTHER MOTHER F'IN SIDE OF THE RIVER!"
+    ],
+    "PlayerWorldSignColdBeer2Coach": [
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Oh Yeah.",
+      "For sure.",
+      "Positively."
+    ],
+    "SurvivorCaughtVomitCoach": [
+      "[Reaction noise to boomer vomit - gross and bad]"
+    ],
+    "SurvivorchargerpoundCoach": [
+      "Charger got me!",
+      "Charger!  Shoot!",
+      "Shoot the charger!",
+      "Shoot this damn charger!",
+      "One of y'all gonna shoot this thing?",
+      "This thing is beatin' my ass.",
+      "Don't stand there, kill this thing!",
+      "Charger is pounding me into the ground!",
+      "This charger is pounding me!"
+    ],
+    "SurvivorCoughingCoach": [
+      "[Coughing from smoke]"
+    ],
+    "SurvivorCoughingDeathCoach": [
+      "[Coughing from smoke]"
+    ],
+    "SurvivorDeathCoach": [
+      "[Loud painful death scream]",
+      "[Short quick death scream]",
+      "[Death rattle]"
+    ],
+    "SurvivorGooedBySpitterCoach": [
+      "Spittttt! (disgusted)",
+      "Damn spitter got me.",
+      "Shit! That long necked bitch hit me.",
+      "Burning goo!",
+      "Get out of the goo.",
+      "Goddamn it, goo!"
+    ],
+    "SurvivorGooedBySpitterC1Coach": [
+      "What's this burning stuff?",
+      "That female zombie spat somethin' on me!",
+      "You have got to be kidding me."
+    ],
+    "SurvivorGrabbedByTongueCoach": [
+      "no, No, NO, NOOOOOOO!!!!!!!!!",
+      "No...",
+      "NO...",
+      "NOOOOOOO!!!!!!!!!",
+      "Nah...",
+      "NO!",
+      "AUGH!",
+      "no, No, NO, NO!!!",
+      "No!",
+      "NO!!!"
+    ],
+    "SurvivorGrabbedByTongueC1Coach": [
+      "Something's got me!",
+      "What's got me?",
+      "I'm all wrapped up!",
+      "Hey! Where am I gettin' dragged to!?!"
+    ],
+    "SurvivorNearCheckpoinC3M1tCoach": [
+      "Into the drainage ditch."
+    ],
+    "SurvivorPouncedByHunterCoach": [
+      "GET IT OFF! [angry]",
+      "GET IT OFF. GET IT OFF.",
+      "GET IT OFF!"
+    ],
+    "SurvivorTankPoundCoach": [
+      "Oh shit get this thing off me!",
+      "Can't y'all see this thing is beatin' the shit out of me!!?!?!!?",
+      "Hey! in case ya'll didn't see it, I got a tank on me!",
+      "I got a tank on me!",
+      "Get it off - ah - Get it off me!",
+      "Get this damn thing off!"
+    ],
+    "SurvivorVocalizeBackUpCoach": [
+      "Oh shit, back it up!",
+      "Back it up!",
+      "BackBackBack!",
+      "Back up, back up!",
+      "Back up!",
+      "Back Back Back Back Back!"
+    ],
+    "SurvivorVocalizeEmphaticGoCoach": [
+      "GO!",
+      "Let's go people.",
+      "Move your ass.",
+      "Go go go!",
+      "Go go GO!",
+      "MOVE IT!"
+    ],
+    "SurvivorVocalizeFollowMeCoach": [
+      "Come on y' all this way.",
+      "This way.",
+      "Come on, this way.",
+      "Follow me.",
+      "Y'all stay close."
+    ],
+    "SurvivorVocalizeGoingToDieCoach": [
+      "This here is some serious bullshit.",
+      "This ain't how i thought this would go.",
+      "I can walk this shit off.",
+      "Ahhhhhhh.",
+      "Damn, they messed me up.",
+      "Man, this shit hurts.",
+      "Man said there was nothing to worry about, well buullshit.",
+      "Ya'll crazy if you don't think this hurts.",
+      "Shit, I'm messed up.",
+      "It hurts, but ain't nothin.",
+      "This shit ain't pretty.",
+      "Ahh damnit. (frustrated)",
+      "Man, this right here hurts somethin' fierce.",
+      "This is some outrageous shit.",
+      "Crazy sons of a bitches messed me up.",
+      "Damn. They beat me good.",
+      "They beat my ass fair and square.",
+      "I shoulda learned to drive a tank or some shit.",
+      "Ahh damnit now.",
+      "No pain, no gain. I must be about to gain some serious shit.",
+      "I ain't ready to lay down yet.",
+      "Hey. Now this here is some bullshit.",
+      "I can walk this off.",
+      "Tryin' to walk this off.",
+      "I'm gotta get right.",
+      "I ain't dead yet.",
+      "Man, those zombies beat my ass."
+    ],
+    "SurvivorVocalizeGoingToDie3Coach": [
+      "I'm just gonna admit it, I need some help.",
+      "I need to get right.",
+      "Sheeeeeet, I ain't gonna make it.",
+      "Come on, pull it together man. You can make it through this shit. [to self]"
+    ],
+    "SurvivorVocalizeLookOutCoach": [
+      "Look out!",
+      "Oh shit, watch out!",
+      "Watch out!"
+    ],
+    "SurvivorVocalizeThisWayCoach": [
+      "Come on y' all this way.",
+      "This way.",
+      "Come on, this way.",
+      "Follow me.",
+      "Y'all stay close."
+    ],
+    "SurvivorVocalizeWaitHereCoach": [
+      "Hold up.",
+      "Rest you ass for a sec.",
+      "Wait up.",
+      "Stop.",
+      "Hold up, hold up y'all.",
+      "Slow down. Damn."
+    ],
+    "SurvivorWarnSpitterIncomingCoach": [
+      "Spit coming!",
+      "Goo coming!",
+      "Burning shit coming!",
+      "Heads up, goo!",
+      "Watch out, spit!"
+    ],
+    "PlayerLedgeHangEndCoach": [
+      "Allright, SHIT...I'M GONNA FALL!",
+      "HEY! I CAN'T HOLD ON ANYMORE!",
+      "HELP ME UP ALREADY!"
+    ],
+    "PlayerLedgeHangMiddleCoach": [
+      "God dammit, I knew I shoulda lost some weight.",
+      "Man, shit's gettin' old, help!",
+      "Look, somebody wanna pull me up?",
+      "Hey! I'm still hanging here!"
+    ],
+    "PlayerLedgeHangStartCoach": [
+      "Ahh shit, need a hand.",
+      "This is screwed up ya' all, I need some help.",
+      "Shit, I f'd this up, can you help me out?",
+      "Hey ya'all I fell off the damn ledge."
+    ],
+    "DoubleDeathCoach": [
+      "We can do this, man, we can do this.",
+      "Ooooh! We gotta pull our shit together.",
+      "Stay close, we're a party of two.",
+      "Damn. This here is all we got."
+    ],
+    "DoubleDeath2Coach": [
+      "Shit! It's just you and me!  Hang tough.",
+      "Shit! Just us two left. Stay close!",
+      "Ain't no one else but you and me left."
+    ],
+    "SurvivorDiedGamblerCoach": [
+      "Nick!",
+      "Nicolas!"
+    ],
+    "SurvivorDiedMechanicCoach": [
+      "Damn. Ellis!",
+      "Ellis!"
+    ],
+    "SurvivorDiedProducerCoach": [
+      "Rochelle.",
+      "Ro!",
+      "ROCHELLE!"
+    ],
+    "SurvivorDeployUpExplosivesCoach": [
+      "Deploying frag rounds!"
+    ],
+    "SurvivorDeployUpIncendiaryCoach": [
+      "Deploying fire bullets!",
+      "Everyone, grab some incendiary ammo!"
+    ],
+    "SurvivorPickupAdrenalineCoach": [
+      "Grabbin' a shot!"
+    ],
+    "SurvivorPickupAdrenalineAlwaysCoach": [
+      "Grabbin' a shot!"
+    ],
+    "SurvivorPickupAutoShotgunCoach": [
+      "This shotgun will put the hurt on them zombies.",
+      "Autoshottie is mine.",
+      "Oh hell yeah, I'm takin an autoshotgun."
+    ],
+    "SurvivorPickupAutoShotgunAlwaysCoach": [
+      "This shotgun will put the hurt on them zombies.",
+      "Autoshottie is mine.",
+      "Oh hell yeah, I'm takin an autoshotgun."
+    ],
+    "SurvivorPickupchainsawCoach": [
+      "Got a chainsaw.",
+      "I am gonna set some zombies straight with this."
+    ],
+    "SurvivorPickupcricket_batCoach": [
+      "Paddle bat here.",
+      "Got a paddle bat.",
+      "I am gonna paddle the SHIT outta somethin'.",
+      "Alright. Now I am ready."
+    ],
+    "SurvivorPickupCricketBatCoach": [
+      "Oh yeah.",
+      "Alright now, mm-hm. This is gonna work.",
+      "I am gonna smack some shit with this.",
+      "I am gonna set some zombies straight with this.",
+      "Yeah. This is my kind of weapon.",
+      "Shit. I'd pay cash money for this.",
+      "Alright. Now I am ready."
+    ],
+    "SurvivorPickupCrowBarCoach": [
+      "Grabbing a crowbar.",
+      "Alright now, mm-hm. This is gonna work.",
+      "Yeah. This is my kind of weapon."
+    ],
+    "SurvivorPickupDefibrillatorCoach": [
+      "Got some chest paddles.",
+      "Got a defib unit."
+    ],
+    "SurvivorPickupelectric_guitarCoach": [
+      "Grabbing a guitar."
+    ],
+    "SurvivorPickupFirstAidKitCoach": [
+      "I'm grabbin' some first aid.",
+      "Look here, this here first aid is mine.",
+      "I got the first aid."
+    ],
+    "SurvivorPickupFirstAidKitAlwaysCoach": [
+      "I'm grabbin' some first aid.",
+      "Look here, this here first aid is mine.",
+      "I got the first aid."
+    ],
+    "SurvivorPickupFirstSMGCoach": [
+      "Think the zombies mind if I take one of their guns?",
+      "Now I ain't effin' around!",
+      "I have NEVER been so happy to see a gun.",
+      "Now we're talking.",
+      "THAT levels the playin' field."
+    ],
+    "SurvivorPickupGrenadeLauncherCoach": [
+      "Damn, this shit looks dangerous.",
+      "Alright now this is gonna blow some shit up.",
+      "Man, it's gonna be raining zombie parts.",
+      "Alright now, let's blow some shit up.",
+      "I tell ya, it's gonna be raining zombie pieces."
+    ],
+    "SurvivorPickupHuntingRifleCoach": [
+      "Gonna scope some smoker ass with this.",
+      "Pow! I'm gonna snipe some bitches.",
+      "Hey boy. Pow! Some bitches gonna get sniped."
+    ],
+    "SurvivorPickupHuntingRifleAlwaysCoach": [
+      "Gonna scope some smoker ass with this.",
+      "Pow! I'm gonna snipe some bitches.",
+      "Hey boy. Pow! Some bitches gonna get sniped."
+    ],
+    "SurvivorPickupIncendiaryAmmoCoach": [
+      "Let's burn some shit UP!",
+      "Yes."
+    ],
+    "SurvivorPickupKatanaCoach": [
+      "Ninja sword here.",
+      "Grabbing a sword.",
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Oh yeah.",
+      "Shit. I'd pay cash money for this."
+    ],
+    "SurvivorPickupLaserSightsAlwaysCoach": [
+      "Yes.",
+      "Oh Yeah.",
+      "For sure."
+    ],
+    "SurvivorPickupMacheteCoach": [
+      "Got a machete.",
+      "Oh yeah."
+    ],
+    "SurvivorPickupMagnumCoach": [
+      "This right here'll mess some shit up."
+    ],
+    "SurvivorPickupMagnumAlwaysCoach": [
+      "This right here'll mess some shit up."
+    ],
+    "SurvivorPickupMolotovCoach": [
+      "Grabbing a Molotov. [to self]",
+      "Grabbing me a Molotov. [to self]"
+    ],
+    "SurvivorPickupMolotovAlwaysCoach": [
+      "Grabbing a Molotov. [to self]",
+      "Grabbing me a Molotov. [to self]"
+    ],
+    "SurvivorPickupPainPillsCoach": [
+      "Damn right. Gonna take everything I can.",
+      "This shit'll help.",
+      "I'm grabbing pills.",
+      "I know one thing, I'm grabbing pills.",
+      "I got the pills!"
+    ],
+    "SurvivorPickupPainPillsAlwaysCoach": [
+      "Damn right. Gonna take everything I can.",
+      "This shit'll help.",
+      "I'm grabbing pills.",
+      "I know one thing, I'm grabbing pills.",
+      "I got the pills!"
+    ],
+    "SurvivorPickupPipeBombCoach": [
+      "Grabbin a pipe bomb.",
+      "Ya boy!",
+      "Oh shit yeah."
+    ],
+    "SurvivorPickupPipeBombAlwaysCoach": [
+      "Grabbin a pipe bomb.",
+      "Ya boy!",
+      "Oh shit yeah."
+    ],
+    "SurvivorPickupPumpShotgunCoach": [
+      "Grabbing a shotgun.",
+      "This shotgun 'll work."
+    ],
+    "SurvivorPickupPumpShotgunAlwaysCoach": [
+      "Grabbing a shotgun.",
+      "This shotgun 'll work."
+    ],
+    "SurvivorPickupRifleCoach": [
+      "Shit. Shoulda taught this class.",
+      "This right here'll mess some shit up.",
+      "Ah hell. Gonna set some things right with this shit.",
+      "I got the assault rifle.",
+      "Gonna take the assault rifle."
+    ],
+    "SurvivorPickupRifleAlwaysCoach": [
+      "Shit. Shoulda taught this class.",
+      "This right here'll mess some shit up.",
+      "Ah hell. Gonna set some things right with this shit.",
+      "I got the assault rifle.",
+      "Gonna take the assault rifle."
+    ],
+    "SurvivorPickupSecondPistolCoach": [
+      "Takin an extra pistol.",
+      "Gonna go all Akimbo and shit.",
+      "Yeah, I'm goin two for one here."
+    ],
+    "SurvivorPickupSMGCoach": [
+      "Guess I'll take this here machine gun.",
+      "Grabbing a machinegun.",
+      "Pat at tat tat [to self]"
+    ],
+    "SurvivorPickupSMGAlwaysCoach": [
+      "Guess I'll take this here machine gun.",
+      "Grabbing a machinegun.",
+      "Pat at tat tat [to self]"
+    ],
+    "SurvivorPickuptonfaCoach": [
+      "Grabbing a nightstick.",
+      "I am gonna smack some shit with this."
+    ],
+    "SurvivorPickupUpExplosiveAmmoCoach": [
+      "Yes.",
+      "Oh Yeah.",
+      "For sure."
+    ],
+    "SurvivorPickupUpExplosivesCoach": [
+      "Grabbin' some frag rounds!"
+    ],
+    "SurvivorPickupUpIncendiaryCoach": [
+      "Grabbin' fire bullets!"
+    ],
+    "SurvivorPickupUpIncendiaryAmmoCoach": [
+      "Let's burn some shit UP!",
+      "Yes."
+    ],
+    "SurvivorPickupVomitJarCoach": [
+      "Grabbin' puke!",
+      "Grabbin' a bile jar!"
+    ],
+    "SurvivorPickupVomitJarAlwaysCoach": [
+      "Grabbin' puke!",
+      "Grabbin' a bile jar!"
+    ],
+    "SurvivorPickupVomitJarAlwaysC1Coach": [
+      "Grabbin' puke!"
+    ],
+    "SurvivorPickupVomitJarC1Coach": [
+      "Grabbin' puke!"
+    ],
+    "PlayerGettingRevivedCoach": [
+      "I'm cool.",
+      "It's all good.",
+      "Hell yeah it hurts.",
+      "Yeah it hurts.",
+      "I'm good, I'm good.",
+      "What in the hell do you think?",
+      "Ohhh shit.",
+      "Hook me up.",
+      "Hurry it up.",
+      "[groan]",
+      "[groan2]",
+      "They better name a school after me for this shit.",
+      "Help me up and I can walk this off.",
+      "Ain't gonna be nothing left of me.",
+      "I'm just screwin with ya.",
+      "What ya tellin me man?",
+      "I've been worse.",
+      "Whata you mean?",
+      "I'm okay.",
+      "Ain't nothin'.",
+      "I can walk it off.",
+      "Okay.",
+      "Good enough.",
+      "Just get me up.",
+      "Man, been better, been better.",
+      "Can't lie, been better.",
+      "Damn, this shit hurts.",
+      "Don't like bein' on the ground.",
+      "I'm hurtin down here.",
+      "Well I ain't on my back for nothin'.",
+      "Man, how the hell you think I'm doin'?",
+      "I'm fine, but let's not waste time chit-chattin'.",
+      "I'm good.",
+      "I'll live... most likely.",
+      "Tell you what, ain't my best day."
+    ],
+    "PlayerHealOtherCoach": [
+      "Stop squirmin' I'm gonna heal ya.",
+      "Hold up, I'm gonna heal your ass.",
+      "Hold up now, I'll fix ya.",
+      "Shit they beat ya good, let me heal ya'll.",
+      "Quit fussin' I'll heal ya.",
+      "Goddamit, quit fussin and let me heal ya.",
+      "Allright hang on, this might sting a bit."
+    ],
+    "PlayerHealOtherC1Coach": [
+      "Quit squirming, or I might mess this up.",
+      "Stand still now, 'cause I ain't used to doin' this.",
+      "I hope this makes you feel better ain't sure what I'm doin'."
+    ],
+    "PlayerHealOtherCombatCoach": [
+      "Hold on! Hold on!",
+      "Let me heal your shit.",
+      "Let me heal ya now.",
+      "Lemme heal ya!",
+      "Hold up, I'll fix ya.",
+      "Stand still, I'm healin' ya!"
+    ],
+    "PlayerLedgeSaveCoach": [
+      "Oh shit, look at ya. Let me help you up.",
+      "I got ya, I got ya.",
+      "Damn, this shit's messed up, you gonna hurt yourself hangin there.",
+      "What do you say we get your ass up off this here ledge?",
+      "Easy, let me help ya up now, cause I ain't gonna go get your ass if you fall."
+    ],
+    "PlayerReviveFriendCoach": [
+      "Don't mean to be pickin on ya, but y'all look like shit.",
+      "What we got here?  Ain't nothin'. Ya good.",
+      "You ain't right, but lets get ya up and movin'.",
+      "Let's get ya up and take a look at ya, yeah yeah you good.",
+      "Damn, they beat ya ass good didn't they?  I get ya up though.",
+      "You for real?  You gonna stay down with a little scratch like that?  Get up!",
+      "Let's get ya ass up, a little nick ain't no reason to give up.",
+      "Come on man, don't shit yourself over this. You gonna be okay. Let me get ya up.",
+      "Down and give me 20.  Just foolin', let's get ya back up on your feet.",
+      "Where that put you at?",
+      "They put a hurtin on ya.",
+      "What we got here?",
+      "No time to be gentle.  Let's get you up on your feet.",
+      "Come on now, what you goin' on about? You're gonna make it.  Let's get you up.",
+      "You dead?",
+      "You good?",
+      "Gonna lay there all day?",
+      "So what happened?",
+      "They end you?",
+      "This it for you?",
+      "You right?",
+      "You wanna stay down?"
+    ],
+    "PlayerReviveFriendBCoach": [
+      "Allright good.",
+      "Walk it off.",
+      "You okay.",
+      "You look good.",
+      "Come on now.",
+      "Now you're back in business.",
+      "Up we go.",
+      "You good.",
+      "You're doin fine.",
+      "This don't look bad.",
+      "Can't lose you now can we?",
+      "See you're gonna make it.",
+      "Told ya. Wasn't nothing.",
+      "All right, let's finish what we started.",
+      "Alright now, we're back in business."
+    ],
+    "PlayerReviveFriendCriticalCoach": [
+      "You might want to make your peace. You hurt bad. One more time and that is it for ya.",
+      "They keep jumpin your shit and you keep goin' down... One more time and that's it.",
+      "You gonna be okay... ah nah, nah, I can't lie to ya. Go down again and that's it for ya.",
+      "You look like one of those dudes in a drivin school film, this may be it for ya.",
+      "I ain't clownin' when I say this, but you better not go down again, cause that be it for ya.",
+      "I gotta be straight with ya, you gonna die if you go down again, you understand?",
+      "You gonna want to make peace my man, you go down again and you ain't gettin back up."
+    ],
+    "PlayerReviveFriendLoudCoach": [
+      "Come on now! Get ya ass up.",
+      "We ain't got time for this, get up.",
+      "Let's get you ass up.",
+      "Oh shit, come on, get up.",
+      "Come on now, ain't got time for this, get up.",
+      "Get your ass up! Get up!",
+      "Getup! Come on now. Get. Up!"
+    ],
+    "_C1M1_ElevatorHelloCoach": [
+      "My name's Coach. I don't like bein' here any more than you do-but if we gotta fight, we might as well fight together.",
+      "My name's Coach. And I KNOW how to shoot a gun.",
+      "And you?",
+      "There we go. Most people call me Coach. And we're gonna be okay. Just gotta keep our heads.",
+      "Everyone just calls me Coach.",
+      "Naw, I'm good. You?",
+      "People call me Coach, what's your name?",
+      "Coach'll work.",
+      "So. Pleased to meet you. You can call me Coach. What's your name?",
+      "Coach."
+    ],
+    "_C1M1_ElevatorHello01aCoach": [
+      "People just call me Coach."
+    ],
+    "_C1M1_ElevatorHello01cCoach": [
+      "Settle down, son. We're going to be okay. What's your name?"
+    ],
+    "_C1M1_ElevatorHello01dCoach": [
+      "Coach."
+    ],
+    "_C1M1_ElevatorHello02bCoach": [
+      "No, I'm good.",
+      "I don't think so."
+    ],
+    "_C1M1_ElevatorHello03bCoach": [
+      "My friends call me Coach. I guess y'all can do the same."
+    ],
+    "_C1M1_ElevatorHello05cCoach": [
+      "Let's stay together... for a little longer at least. Okay, Nick?"
+    ],
+    "_c1m4startelevator4bCoach": [
+      "Son, you got a DEAL.",
+      "Ha HA! All the way to New Orleans! Baby, that sounds like a PLAN.",
+      "Normally I wouldn't do this. But in these circumstances, I think Mr. Gibbs, Jr. ain't gonna mind.",
+      "Forgive us Jimmy, but we need your car."
+    ],
+    "_c1m4startelevatorLastCoach": [
+      "Soon as them doors open? You run your ass off and find some GAS.",
+      "Soon as these doors open, get ready to MOVE."
+    ],
+    "_C2M1_Fall01Coach": [
+      "Damn, I am too old for this shit."
+    ],
+    "_C2M1_Fall02Coach": [
+      "Nah, hell no.",
+      "You a crazy man Ellis."
+    ],
+    "_C2M1_Fall04Coach": [
+      "[laughs] It's not funny. You coulda really hurt yours[breaks into laughs again] Naw, it's funny."
+    ],
+    "_c2m1_searchlights01Coach": [
+      "That there's whispering oaks."
+    ],
+    "_c2m1_searchlights02Coach": [
+      "There's still searchlights on. I'd say that's a good sign."
+    ],
+    "_c2m1_searchlights03Coach": [
+      "We'll head towards the searchlights. If there's an evac, it'll be there."
+    ],
+    "_C2M1abandoned01Coach": [
+      "Maybe they left 'em when they got rescued."
+    ],
+    "_C2M1BillboardCoach": [
+      "Hey, Whisperin' Oaks! Shit, I used to go there when I was a kid!"
+    ],
+    "_C2M2_Bathroom01Coach": [
+      "Oh. Ahh sorry Ro."
+    ],
+    "_C2M2_CaroStart03Coach": [
+      "Ahh damn, the merry-go-round started!",
+      "Shit. That things make it a racket!"
+    ],
+    "_C2M2_CottonCandy01Coach": [
+      "Cotton Candy. The king of foods.",
+      "Ah yeah. Cotton Candy. The wise pharaoh of food. Sittin' atop the food pyramid, passin' judgement on all lesser foods."
+    ],
+    "_C2M2_Kiddie01Coach": [
+      "Sometimes it feels like we're babysitting, doesn't it?"
+    ],
+    "_C2M2_Riders04Coach": [
+      "Hell yes! I got ALL their albums. Even their new stuff that ain't no good."
+    ],
+    "_C2M2_Riders05Coach": [
+      "Best light show in the business, though."
+    ],
+    "_C2M2_Riders07Coach": [
+      "Hell yes! I got ALL their albums. Even their new stuff that ain't no good."
+    ],
+    "_C2M2_SeeSafehouse01Coach": [
+      "Oh yeah... tunnel of love."
+    ],
+    "_c2m3_coaster01Coach": [
+      "Running the screaming oak...now don't that beat all..."
+    ],
+    "_c2m3_coaster05Coach": [
+      "No, this ain't gonna be cool. You ain't right in the head boy."
+    ],
+    "_c2m3_coaster08Coach": [
+      "Running the screaming oak...now don't that beat all..."
+    ],
+    "_c2m3_freshair01Coach": [
+      "Hm. Shit. First time I ever couldn't wait to get out of the tunnel of love."
+    ],
+    "_c2m3_hole01Coach": [
+      "Alright, let's do this together."
+    ],
+    "_C4_BigStormHits01Coach": [
+      "SQUALL'S STARTIN', PEOPLE!",
+      "STORM COMIN'!"
+    ],
+    "_C4_BigStormHits02Coach": [
+      "STICK TOGETHER!"
+    ],
+    "_c4m1_rainresponseCoach": [
+      "Aw hell. Looks like a bad storm's comin."
+    ],
+    "_c4m1Intro05Coach": [
+      "What gun bag? Oh for-TELL ME we didn't forget the guns."
+    ],
+    "_c4m1Intro09Coach": [
+      "Look here, the gas station's right across the street. We coulda already been there and back by now. Come on."
+    ],
+    "_c4m1Intro14Coach": [
+      "No."
+    ],
+    "_c4m2_caneyell01Coach": [
+      "KEEP MOVING!"
+    ],
+    "_c4m2_ElevatorHere01Coach": [
+      "ELEVATOR'S HERE!",
+      "EVERYBODY IN THE ELEVATOR!",
+      "GET YOUR ASSES IN THE ELEVATOR!"
+    ],
+    "_c4m2_gasinside01Coach": [
+      "Cool. Let's go get it."
+    ],
+    "_c4m2_seestation01Coach": [
+      "Through the cane field!"
+    ],
+    "_c4m2_streetblocked01Coach": [
+      "We gotta head through the sugar mill."
+    ],
+    "_c4m2_streetblocked02Coach": [
+      "We gotta head through the sugar mill."
+    ],
+    "_c4m2_waterpool02Coach": [
+      "First the plague, now the flood. I feel like I should be buildin' an ark.",
+      "First the plague, now the flood. I think somebody's trying to tell us something.",
+      "We already got plague. Maybe the Lord'll let us slide on the flood."
+    ],
+    "_c4m2_Witchville05Coach": [
+      "Dang. Bitches must like sugar.",
+      "Maybe the rain brings 'em out."
+    ],
+    "_C4M3_FLOODED01Coach": [
+      "All that sugar... It's a damn shame.",
+      "All that sugar... it's a goddamn tragedy, is what it is."
+    ],
+    "_c4m3_rain01Coach": [
+      "I told ya these storms come up quick."
+    ],
+    "_c4m3_startsafe02Coach": [
+      "I got one."
+    ],
+    "_c4m3_startsafe03Coach": [
+      "Let's head back to the boat.",
+      "Back to the boat, people.",
+      "Getting' back to the boat ain't gonna be as easy as getting' here."
+    ],
+    "_C4M5_BoatComing01Coach": [
+      "THERE'S VIRGIL!"
+    ],
+    "_C4M5_Intro01Coach": [
+      "Let's go, almost back to the boat."
+    ],
+    "_C4M5_Intro03Coach": [
+      "If we fire up the Burger Tank sign, Virgil might see it."
+    ],
+    "_introc1m1a03Coach": [
+      "HEYYY! COME BACK! COME-ahh, he ain't comin' back."
+    ],
+    "_introc1m1a05Coach": [
+      "Gotta agree. Let's follow them to the mall."
+    ],
+    "_introc1m1b01Coach": [
+      "Hey! There's still people on the roof! Get BACK HERE!"
+    ],
+    "_introc1m1b04Coach": [
+      "Looked like it was headin' to the mall across town."
+    ],
+    "c1m1_elevator_door_open": [
+      "[Coughing from smoke]"
+    ],
+    "c1m1_elevator_ready2Coach": [
+      "Hit the button before this turns into a bad idea.",
+      "Alright, enough chat. Get ready."
+    ],
+    "C1M1_ElevatorHello01_02G1Coach": [
+      "People just call me Coach."
+    ],
+    "C1M1_ElevatorHello01_02G4Coach": [
+      "Boy, you are WEARIN' me out."
+    ],
+    "C1M1_ElevatorHello01_02G5Coach": [
+      "Who'd we lose?"
+    ],
+    "C1M1_ElevatorHello01_02M6Coach": [
+      "Little man, we are goin' to miss you."
+    ],
+    "C1M1_ElevatorHello01_03a4Coach": [
+      "People just call me Coach."
+    ],
+    "C1M1_ElevatorHello01_03a5Coach": [
+      "Who'd we lose?"
+    ],
+    "C1M1_ElevatorHello01_03b3Coach": [
+      "People just call me Coach."
+    ],
+    "C1M1_ElevatorHello01_03b4Coach": [
+      "Who'd we lose?"
+    ],
+    "C1M1_ElevatorHello01_03b6Coach": [
+      "I think it was Ellis."
+    ],
+    "C1M1CoughCoach": [
+      "[Coughing from smoke]"
+    ],
+    "C1M2SafeRoom2Coach": [
+      "There's a gun store on the way to the mall. What do you say we pay it a visit?"
+    ],
+    "C1M3AlarmOffaCoach": [
+      "Amen",
+      "I can still hear it in my head, but I think the alarm is off."
+    ],
+    "C1M3SafeRoom2Coach": [
+      "Keep an eye out for the evac center. Also the food court. I am STARVING.",
+      "Everybody, gather 'round. Let's pray. Dear Lord. See us safely through our time of trial in this mall. And please Lord... let the food court be okay."
+    ],
+    "C1M3SafeRoom2cCoach": [
+      "CEDA's gotta be around here somewhere. Let's find this evac and get out of here."
+    ],
+    "C1M4NearFinale03aCoach": [
+      "Gotta agree with that.",
+      "Yeah, true that.",
+      "No shit."
+    ],
+    "C1M4NearFinale03bCoach": [
+      "Nah, hell no."
+    ],
+    "c1m4NearFinale1aCoach": [
+      "What do ya'all make of this?"
+    ],
+    "C1M4SafeRoom2a1Coach": [
+      "Ohh heyyy! Jimmy Gibbs!",
+      "I heard of Jimmy Gibbs! That man's a stock car LEGEND."
+    ],
+    "C1M4SafeRoom2a3Coach": [
+      "Well, trust me-in these parts? He's as famous as... Elvis. Or the President."
+    ],
+    "C1M4SafeRoom2a5Coach": [
+      "Get your ass movin', Nick."
+    ],
+    "C1M4SafeRoom2b5Coach": [
+      "Amen"
+    ],
+    "C1M4SafeRoomEndCoach": [
+      "Allright, let's go.",
+      "Come on, people, let's get with it.",
+      "We gonna put up tents and shit or keep movin'?",
+      "If we see a Jimmy Gibbs zombie. somebody else is gonna have to kill him."
+    ],
+    "C2M1DoneFallingAlt1Coach": [
+      "[laughs] Watch that first step, baby."
+    ],
+    "C2M1Intro002Coach": [
+      "Hell, it got us this far. We'll find another way to N'awlins."
+    ],
+    "C2M3SafeIntro009Coach": [
+      "This is some crazy ass world we live in now."
+    ],
+    "C2M3SafeIntro011Coach": [
+      "Nick, I was on the football team. Coach did just fine.",
+      "Coach didn't do too bad for himself back in the day, Nick.",
+      "How many tunnel of love memories YOU got, Nick?"
+    ],
+    "C2M5_lipsync001Coach": [
+      "They have taped music? Shit. Old ass classic rock clowns.",
+      "No, they're just saving their voices for the studio, Nick. That's SMART.",
+      "You mock because you're jealous, Nick. These men are living legends."
+    ],
+    "C4FinaleStartCoach": [
+      "I knew Burger Tank wouldn't let us down.",
+      "Burger tank to the rescue!",
+      "The sign's lit!"
+    ],
+    "c4m1_InBurgerTank01Coach": [
+      "I could go for a BBQ bacon burger.",
+      "And a large order of fries, and...",
+      "An orange soda with no ice, and a...",
+      "piece of hot apple pie.",
+      "Goddamn I miss Burger Tank."
+    ],
+    "c4m1_nogas01Coach": [
+      "Next gas two miles. Looks like Virgil's gonna be waitin' a bit longer than he thought.",
+      "Next gas two miles. Hope Virgil likes waitin', 'cause it looks we're goin' for a walk.",
+      "Let's head to this Ducatel diesel."
+    ],
+    "c4m1_nogas03Coach": [
+      "Because if they DON'T, we gonna be stuck here forever, Nick."
+    ],
+    "c4m1_nogas06Coach": [
+      "Let's just get this done and head back."
+    ],
+    "c4m1_nogas10Coach": [
+      "Let's head to this Ducatel diesel."
+    ],
+    "GasPour10MoreTalkCoach": [
+      "We still need ten more!"
+    ],
+    "GasPour1MoreCoach": [
+      "One more can to go!"
+    ],
+    "GasPour2MoreCoach": [
+      "Just two more!"
+    ],
+    "GasPour3MoreCoach": [
+      "Just three more!"
+    ],
+    "GasPour5MoreCoach": [
+      "We still need five more!"
+    ],
+    "Player.CoverMeC1RCoach2Coach": [
+      "I ain't never done this before.",
+      "Hell, no, I ain't never done this before."
+    ],
+    "Player.TakeBatRCoach": [
+      "You play ball Nick?"
+    ],
+    "Player.TakeVomitJarC1aCoach": [
+      "I can not believe I just said that."
+    ],
+    "PlayerShotGasCanCoach": [
+      "Shit.",
+      "Damn!",
+      "Goddamnit!",
+      "Shiiit.",
+      "Goddamn!",
+      "Son of a bitch."
+    ],
+    "WorldIntroC31e3Coach": [
+      "Come on now, if I was having a cookout, I ain't invitin' CEDA either."
+    ],
+    "WorldIntroC3e1Coach": [
+      "Next time someone wants to shoot our pilot, can I get a little warning?"
+    ],
+    "WorldIntroC3f1Coach": [
+      "Shit, that pilot just changed. One minute he was flying us to safety, the next he was... well... I am pretty damn sure he was trying to eat us."
+    ],
+    "PlayerCoverMeHealCoach": [
+      "Hold on y'all I gotta heal.",
+      "Cover me for a sec, I gotta heal.",
+      "Hold up, healin'.",
+      "Hey man, hold up - healin'.",
+      "Healing! Hold on a sec.",
+      "Give me a minute, gotta heal.",
+      "Shit, gotta heal my ass.",
+      "Hold on y'all I'm healing."
+    ],
+    "PlayerCoverMeHealC1Coach": [
+      "Hold up, gotta try and heal myself.",
+      "Wait up, gonna try and use this thing.",
+      "Man, no idea how this thing works."
+    ],
+    "SurvivorSpottedChainsawCoach": [
+      "Chainsaw here..."
+    ],
+    "SurvivorSpottedChainsawAutoCoach": [
+      "Chainsaw here..."
+    ],
+    "SurvivorSpottedcricket_batCoach": [
+      "Paddle bat here.",
+      "Got a paddle bat."
+    ],
+    "SurvivorSpottedcricket_batAutoCoach": [
+      "Paddle bat here.",
+      "Got a paddle bat."
+    ],
+    "SurvivorSpottedcrowbarCoach": [
+      "Crowbar.",
+      "Weapons here!"
+    ],
+    "SurvivorSpottedcrowbarAutoCoach": [
+      "Crowbar.",
+      "Weapons here!"
+    ],
+    "SurvivorSpottedGuitarCoach": [
+      "Guitar here."
+    ],
+    "SurvivorSpottedGuitarAutoCoach": [
+      "Guitar here."
+    ],
+    "SurvivorSpottedKatanaCoach": [
+      "Ninja sword here."
+    ],
+    "SurvivorSpottedKatanaAutoCoach": [
+      "Ninja sword here."
+    ],
+    "SurvivorSpottedLaserSightsCoach": [
+      "Laser sights here."
+    ],
+    "SurvivorSpottedLaserSightsAutoCoach": [
+      "Laser sights here."
+    ],
+    "SurvivorSpottedMacheteCoach": [
+      "Machete here..."
+    ],
+    "SurvivorSpottedMacheteAutoCoach": [
+      "Machete here..."
+    ],
+    "SurvivorSpottedMagnumCoach": [
+      "Look at this.",
+      "Check this shit out.",
+      "This right here'll mess some shit up."
+    ],
+    "SurvivorSpottedMagnumAutoCoach": [
+      "Look at this.",
+      "Check this shit out.",
+      "This right here'll mess some shit up."
+    ],
+    "SurvivorSpottedRifleAutoCoach2": [
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Oh Yeah."
+    ],
+    "SurvivorSpottedSMGAutoCoach2": [
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Oh Yeah."
+    ],
+    "SurvivorSpottedSniperRifleAutoCoach2": [
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Oh Yeah."
+    ],
+    "SurvivorSpottedtonfaCoach": [
+      "nightstick here..."
+    ],
+    "SurvivorSpottedtonfaAutoCoach": [
+      "nightstick here..."
+    ],
+    "SurvivorSpottedWeaponCoach": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "Weapons!",
+      "Guns!",
+      "We got guns!",
+      "All right, guns!"
+    ],
+    "SurvivorSpottedWeaponPistolAutoCoach": [
+      "Weapons here!",
+      "Weapon's over here!",
+      "Weapons!",
+      "Guns!",
+      "We got guns!",
+      "All right, guns!"
+    ],
+    "SurvivorSpottedWeaponPistolAutoCoach2": [
+      "[Improv non-verbal pleasure & interest sounds]",
+      "Oh Yeah."
+    ],
+    "C2M3Chopper001Coach": [
+      "There's a chopper!"
+    ]
+  },
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {},
+  "NamVet": {},
+  "Manager": {},
+  "Biker": {}
+}

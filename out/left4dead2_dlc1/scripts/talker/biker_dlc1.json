@@ -1,0 +1,260 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {},
+  "NamVet": {},
+  "Manager": {},
+  "Biker": {
+    "L4D1PlayerNiceShotBiker": [
+      "Nice job.",
+      "Whoah. Nice shot.",
+      "Good one!"
+    ],
+    "C6M1Intro_01bBiker": [
+      "Nope!",
+      "Nope, not a chance.",
+      "Nope, no way in hell."
+    ],
+    "C6M1Intro_01Biker01Biker": [
+      "Heyyy! Nice ride!",
+      "Heyy! Are you a racecar driver?"
+    ],
+    "C6M1Intro_01Biker03Biker": [
+      "Ma'am uhh Miss? I'm sorry but I can't lower the bridge myself. If you can get to the other side I can help you lower it."
+    ],
+    "C6M1Intro_01Biker05Biker": [
+      "Brother, that's what I'm trying to tell ya. We can't get this thing down ourselves. You have to get to the other side.",
+      "And I'm telling you, I can't lower the bridge. You gotta get around to the other side."
+    ],
+    "C6M1Intro_01Biker06Biker": [
+      "You down there, be calm. We're cops."
+    ],
+    "C6M1Intro_01Biker07Biker": [
+      "Hey!"
+    ],
+    "C6M1Intro_01Biker08Biker": [
+      "Are any of you vampires?"
+    ],
+    "C6M1Intro_01dBiker": [
+      "Generator's out. Get to the other side and we'll help you get this thing down!",
+      "Can't generator's out"
+    ],
+    "C6M1Intro_02bBiker": [
+      "Can't! Generator's out. Get to the other side and fill it up! We'll cover ya!"
+    ],
+    "C6M1Intro_05bBiker": [
+      "Ahh sorry, No Ma'am."
+    ],
+    "C6M1Intro_05dBiker": [
+      "No ma'am."
+    ],
+    "C6M1Intro_06aBiker": [
+      "If I could, I would. Can't. Get to the other side and we can lower it together."
+    ],
+    "C6M1Intro_06cBiker": [
+      "(fumbling) Uhhh yyyeaaah.",
+      "Yeah."
+    ],
+    "C6M1Intro_06eBiker": [
+      "HELL YEAH!"
+    ],
+    "C6M1Intro_07aBiker": [
+      "If you want to keep going this way, you're gonna have to walk to the other side of this bridge and then me and an some uhh other cops up here can help you lower the bridge."
+    ],
+    "C6M1Intro_09cBiker": [
+      "I was talking to the little lady."
+    ],
+    "C6M1Intro_09gBiker": [
+      "Ahh shit. Nooo. But if you can get to the other side we can help you lower it."
+    ],
+    "C6M1Intro_10aBiker": [
+      "Go to hell suit.",
+      "Bite me Colonel Sanders."
+    ],
+    "C6M1Intro_10cBiker": [
+      "Hell yeah, I'll help *YOU*."
+    ],
+    "C6M1Intro_14bBiker": [
+      "Is there anyone of you four who isn't an asshole?"
+    ],
+    "C6M1Intro_16bBiker": [
+      "Look, I don't love this bridge. But we just lost a man and\u0085 Sorry brother, but you are on your own.",
+      "Brother, I don't love this bridge, but right now we just lost a man and got a man down. Sorry, you are on your own."
+    ],
+    "C6M1Intro_18aBiker": [
+      "Okay! Bridge is down! That's as far as it goes."
+    ],
+    "C6M1Intro_18cBiker": [
+      "Really, this is as far as it goes. Never saw it any lower."
+    ],
+    "C6M1Intro_18eBiker": [
+      "Oh yeah... uh, yeah it is."
+    ],
+    "C6M1Intro_19aBiker": [
+      "Kick ASS! Now all you gotta do is go back into town, find some way to cross the river, fight your way to the other side of this bridge, refuel the generator and get it back going. Then its kissing time!"
+    ],
+    "C6M1Intro_20cBiker": [
+      "Sorry, can't."
+    ],
+    "C6M1Intro_20eBiker": [
+      "Louis! I told you, there were vampires!"
+    ],
+    "C6M1Intro_20fBiker": [
+      "I'm not talking to any goddamn vampires."
+    ],
+    "C6M1Intro_21cBiker": [
+      "Sorry, can't."
+    ],
+    "C6M1Intro_21eBiker": [
+      "Louis! I told you, there were vampires!"
+    ],
+    "C6M1Intro_21fBiker": [
+      "I'm not talking to any goddamn vampires."
+    ],
+    "C6M1Intro_24bBiker": [
+      "Yeah! Yeah! That's what I've been saying."
+    ],
+    "C6M1Intro_24dBiker": [
+      "Sorry brother. Like I've been telling you. This bridge is up until the generator gets refueled."
+    ],
+    "c6m3_outroL4D1Biker": [
+      "I hate goodbyes."
+    ],
+    "c6m3_outroL4D1010aBiker": [
+      "Yeah."
+    ],
+    "c6m3_outroL4D104bBiker": [
+      "What? Seriously, what?"
+    ],
+    "c6m3_outroL4D108aBiker": [
+      "No, I haven't heard that one."
+    ],
+    "c6m3_outroL4D1AllBiker": [
+      "You know, they were all right.",
+      "I'm gonna miss them."
+    ],
+    "c6m3_outroL4D1CoachBiker": [
+      "Bye Coach! Keep the pedal to the metal!"
+    ],
+    "c6m3_outroL4D1CopBiker": [
+      "I really am a cop you know!",
+      "I really am a cop!"
+    ],
+    "c6m3_outroL4D1GamblerBiker": [
+      "Nick! Good luck, my brother!"
+    ],
+    "c6m3_outroL4D1GibbsBiker": [
+      "I love that car.",
+      "Look at that car go!"
+    ],
+    "c6m3_outroL4D1MechanicBiker": [
+      "See Ya Ellis! Keep the pedal to the metal!"
+    ],
+    "c6m3_outroL4D1ProducerBiker": [
+      "Bye-bye RO! My lovely little angel.",
+      "I'm gonna miss Ro.",
+      "Bye RO! I love you!!!!!!!",
+      "Bye RO! I love you!!!!!!! (sobbing) I love you!",
+      "Go, Ro, go!"
+    ],
+    "C6M3VocalizeLookOutBiker": [
+      "Look out!",
+      "Watch out!",
+      "Watch your ass!",
+      "Heads up!"
+    ],
+    "IncapBounce2Biker": [
+      "Keep together!",
+      "Stay together!",
+      "Don't split up!"
+    ],
+    "L4D1_AttractPlayerForThrowBiker": [
+      "Hold up I got something for you.",
+      "Hey come over here.",
+      "Here, you're gonna need this.",
+      "You lookin' for this?",
+      "Check this out.",
+      "Look at this.",
+      "Look here.",
+      "Hello"
+    ],
+    "L4D1_SurvivorBotTakeThisItemBiker": [
+      "Here, take this.",
+      "Take it. Hell, I don't need it.",
+      "Take this!",
+      "You can have this.",
+      "Here, you're gonna need this.",
+      "Take this, now be safe."
+    ],
+    "WorldC6M3_ByBridge01Biker": [
+      "Don't just stand there! HAUL ASS!",
+      "Get to your car, we'll hold them off!",
+      "Get your asses to your car!",
+      "Get your goddamn asses to your car!"
+    ],
+    "WorldC6M3_ByBridge01EllisBiker": [
+      "Hey Ellis, I HATE YOUR HAT! [laughs]"
+    ],
+    "L4D1AlsoSpottedBoomerBiker": [
+      "BOOMER!"
+    ],
+    "L4D1AlsoSpottedHunterBiker": [
+      "HUNTER!"
+    ],
+    "L4D1AlsoSpottedSmokerBiker": [
+      "SMOKER!"
+    ],
+    "L4D1AlsoSpottedTankBiker": [
+      "Lead 'em over here!",
+      "Oh shit, two tanks!",
+      "TWO TANKS! I HATE THE SOUTH!"
+    ],
+    "L4D1SpottedBoomerBiker": [
+      "BOOMER!"
+    ],
+    "L4D1SpottedChargerBiker": [
+      "CHARGER!"
+    ],
+    "L4D1SpottedHunterBiker": [
+      "HUNTER!"
+    ],
+    "L4D1SpottedJockeyBiker": [
+      "JOCKEY!"
+    ],
+    "L4D1SpottedSmokerBiker": [
+      "SMOKER!"
+    ],
+    "L4D1SpottedSpitterBiker": [
+      "SPITTER!"
+    ],
+    "L4D1SpottedTankBiker": [
+      "Lead 'em over here!",
+      "Oh shit, two tanks!",
+      "TWO TANKS! I HATE THE SOUTH!"
+    ],
+    "L4D1_ReloadingBiker": [
+      "Reloading!"
+    ],
+    "L4D1PlayerKillConfirmationBiker": [
+      "Got it!",
+      "Nailed it!",
+      "Down!",
+      "That's mine.",
+      "Dead!",
+      "Popped it!",
+      "Popped a cap in his ass!"
+    ],
+    "L4D1PlayerKillConfirmationTankBiker": [
+      "I hate tanks."
+    ],
+    "L4D1PlayerWarnMegaMobBiker": [
+      "Holy shit, here they come!",
+      "They're coming!",
+      "Incoming!",
+      "Get ready ladies!",
+      "This is gonna be good."
+    ]
+  }
+}

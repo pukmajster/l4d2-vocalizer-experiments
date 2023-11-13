@@ -1,0 +1,25 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2/scripts/talker/conversation.txt
+-------------------------------------------------------
+
+RULE C1M2GrabbingColaCoach CRITERIA ConceptC1M2GrabbingCola PanicEventCoach RESPONSE C1M2GrabbingColaCoach
+RULE C1M2GrabbingColaGambler CRITERIA ConceptC1M2GrabbingCola PanicEventGambler RESPONSE C1M2GrabbingColaGambler
+RULE C1M2GrabbingColaMechanic CRITERIA ConceptC1M2GrabbingCola PanicEventMechanic RESPONSE C1M2GrabbingColaMechanic
+RULE C1M2GrabbingColaProducer CRITERIA ConceptC1M2GrabbingCola PanicEventProducer RESPONSE C1M2GrabbingColaProducer
+RULE C3M1CallFerryProducer CRITERIA ConceptC3M1CallFerry PanicEventProducer RESPONSE C3M1CallFerryProducer
+RULE C3M1CallFerryGambler CRITERIA ConceptC3M1CallFerry PanicEventGambler RESPONSE C3M1CallFerryGambler
+RULE C3M1CallFerryMechanic CRITERIA ConceptC3M1CallFerry PanicEventMechanic RESPONSE C3M1CallFerryMechanic
+RULE C3M1CallFerryCoach CRITERIA ConceptC3M1CallFerry PanicEventCoach RESPONSE C3M1CallFerryCoach
+RULE C3M1FerryLanded CRITERIA ConceptC3M1FerryLanded RESPONSE C3M1FerryLanded
+RULE C3M1FerryLaunched CRITERIA ConceptC3M1FerryLaunched RESPONSE C3M1FerryLaunched
+RULE C3M2OpenDoorProducer CRITERIA ConceptC3M2OpenDoor PanicEventProducer RESPONSE C3M2OpenDoorProducer
+RULE C3M2OpenDoorGambler CRITERIA ConceptC3M2OpenDoor PanicEventGambler RESPONSE C3M2OpenDoorGambler
+RULE C3M2OpenDoorMechanic CRITERIA ConceptC3M2OpenDoor PanicEventMechanic RESPONSE C3M2OpenDoorMechanic
+RULE C3M2OpenDoorCoach CRITERIA ConceptC3M2OpenDoor PanicEventCoach RESPONSE C3M2OpenDoorCoach
+RULE c5m4floatstartProducer CRITERIA Conceptc5m4floatstart PanicEventProducer RESPONSE c5m4floatstartProducer
+RULE c5m4floatstartGambler CRITERIA Conceptc5m4floatstart PanicEventGambler RESPONSE c5m4floatstartGambler
+RULE c5m4floatstartMechanic CRITERIA Conceptc5m4floatstart PanicEventMechanic RESPONSE c5m4floatstartMechanic
+RULE c5m4floatstartCoach CRITERIA Conceptc5m4floatstart PanicEventCoach RESPONSE c5m4floatstartCoach
+
+
+

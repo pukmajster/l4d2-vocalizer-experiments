@@ -1,0 +1,13 @@
+
+"AddonInfo"
+{
+	addonSteamAppID 550
+	addontitle "STFU base"
+	addonversion 1.0
+	addontagline "Because why not"
+	addonauthor "kri"
+	addonauthorSteamId "kryfixzzz"
+	
+	addonDescription "Cursed."
+}
+

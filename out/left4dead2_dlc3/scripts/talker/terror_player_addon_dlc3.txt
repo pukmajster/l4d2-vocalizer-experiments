@@ -1,0 +1,37 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc3/scripts/talker/terror_player_addon_dlc3.txt
+-------------------------------------------------------
+
+RULE c7m3finalspeakbiker CRITERIA ConceptCrashFinaleGenerator2On PanicEventBiker Ismapc7m3_Port RESPONSE c7m3finalspeakbiker
+RULE c7m3finalspeakmanager CRITERIA ConceptCrashFinaleGenerator2On PanicEventmanager Ismapc7m3_Port RESPONSE c7m3finalspeakmanager
+RULE c7m3finalspeakteengirl CRITERIA ConceptCrashFinaleGenerator2On PanicEventteengirl Ismapc7m3_Port RESPONSE c7m3finalspeakteengirl
+RULE c7m3finalspeaknamvet CRITERIA ConceptCrashFinaleGenerator2On PanicEventnamvet Ismapc7m3_Port RESPONSE c7m3finalspeaknamvet
+RULE C7M3PressBOrator CRITERIA ConceptCrashFinaleGeneratorPress PanicEventBiker Ismapc7m3_Port RESPONSE C7M3PressBOrator
+RULE C7M3GeneratorPressMOrator CRITERIA ConceptCrashFinaleGeneratorPress PanicEventManager Ismapc7m3_Port RESPONSE C7M3GeneratorPressMOrator
+RULE C7M3GeneratorPressNOrator CRITERIA ConceptCrashFinaleGeneratorPress PanicEventNamVet Ismapc7m3_Port RESPONSE C7M3GeneratorPressNOrator
+RULE C7M3GeneratorPressTOrator CRITERIA ConceptCrashFinaleGeneratorPress PanicEventTeenGirl Ismapc7m3_Port RESPONSE C7M3GeneratorPressTOrator
+RULE C7M3GeneratorOn1 CRITERIA ConceptCrashFinaleGeneratorOn Ismapc7m3_Port IsFirstGenerator ChanceToFire100Percent RESPONSE C7M3GeneratorOn1
+RULE C7M3GeneratorOn2 CRITERIA ConceptCrashFinaleGeneratorOn Ismapc7m3_Port  IsSecondGenerator ChanceToFire100Percent RESPONSE C7M3GeneratorOn2
+RULE C7M3GeneratorOn3 CRITERIA ConceptCrashFinaleGeneratorOn Ismapc7m3_Port IsThirdGenerator ChanceToFire100Percent RESPONSE C7M3GeneratorOn3
+RULE C7M3FinalPressBOrator CRITERIA ConceptCrashFinaleGeneratorOn Ismapc7m3_Port IsLastGenerator ChanceToFire100Percent PanicEventBiker RESPONSE C7M3FinalPressBOrator
+RULE C7M3FinalPressMOrator CRITERIA ConceptCrashFinaleGeneratorOn Ismapc7m3_Port IsLastGenerator ChanceToFire100Percent PanicEventManager RESPONSE C7M3FinalPressMOrator
+RULE C7M3FinalPressNOrator CRITERIA ConceptCrashFinaleGeneratorOn Ismapc7m3_Port IsLastGenerator ChanceToFire100Percent PanicEventNamVet RESPONSE C7M3FinalPressNOrator
+RULE C7M3FinalPressTOrator CRITERIA ConceptCrashFinaleGeneratorOn Ismapc7m3_Port IsLastGenerator ChanceToFire100Percent PanicEventTeenGirl RESPONSE C7M3FinalPressTOrator
+RULE C7M3WaveOver1 CRITERIA ConceptC7M3WaveOver Ismapc7m3_Port IsSecondGenerator ChanceToFire100Percent RESPONSE C7M3WaveOver1
+RULE C7M3WaveOver2 CRITERIA ConceptC7M3WaveOver Ismapc7m3_Port IsThirdGenerator ChanceToFire100Percent RESPONSE C7M3WaveOver2
+RULE C7M3BridgeBreaks CRITERIA ConceptCrashFinaleGeneratorBreak Ismapc7m3_Port RESPONSE C7M3BridgeBreaks
+RULE C7M2CrowsFlyBOrator CRITERIA ConceptC7M2CrowsFly PanicEventBiker Ismapc7m2_barge RESPONSE C7M2CrowsFlyBOrator
+RULE C7M2CrowsFlyMOrator CRITERIA ConceptC7M2CrowsFly PanicEventManager Ismapc7m2_barge RESPONSE C7M2CrowsFlyMOrator
+RULE C7M2CrowsFlyNOrator CRITERIA ConceptC7M2CrowsFly PanicEventNamVet Ismapc7m2_barge RESPONSE C7M2CrowsFlyNOrator
+RULE C7M2CrowsFlyTOrator CRITERIA ConceptC7M2CrowsFly PanicEventTeenGirl Ismapc7m2_barge RESPONSE C7M2CrowsFlyTOrator
+RULE C7M3BridgeLeapBOrator CRITERIA ConceptC7M3BridgeLeap PanicEventBiker Ismapc7m3_port RESPONSE C7M3BridgeLeapBOrator
+RULE C7M3BridgeLeapMOrator CRITERIA ConceptC7M3BridgeLeap PanicEventManager Ismapc7m3_port RESPONSE C7M3BridgeLeapMOrator
+RULE C7M3BridgeLeapNOrator CRITERIA ConceptC7M3BridgeLeap PanicEventNamVet Ismapc7m3_port RESPONSE C7M3BridgeLeapNOrator
+RULE C7M3BridgeLeapTOrator CRITERIA ConceptC7M3BridgeLeap PanicEventTeenGirl Ismapc7m3_port RESPONSE C7M3BridgeLeapTOrator
+RULE C7M1OpenTankDoorBOrator CRITERIA ConceptC7M1OpenTankDoor PanicEventBiker Ismapc7m1_docks RESPONSE C7M1OpenTankDoorBOrator
+RULE C7M1OpenTankDoorMOrator CRITERIA ConceptC7M1OpenTankDoor PanicEventManager Ismapc7m1_docks RESPONSE C7M1OpenTankDoorMOrator
+RULE C7M1OpenTankDoorNOrator CRITERIA ConceptC7M1OpenTankDoor PanicEventNamVet Ismapc7m1_docks RESPONSE C7M1OpenTankDoorNOrator
+RULE C7M1OpenTankDoorTOrator CRITERIA ConceptC7M1OpenTankDoor PanicEventTeenGirl Ismapc7m1_docks RESPONSE C7M1OpenTankDoorTOrator
+
+
+

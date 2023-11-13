@@ -1,0 +1,672 @@
+{
+  "Coach": {},
+  "Mechanic": {},
+  "Gambler": {},
+  "Producer": {},
+  "TeenGirl": {
+    "ConceptBlock519": [
+      "Hello!"
+    ],
+    "ConceptBlock538": [
+      "Let's go."
+    ],
+    "ConceptBlock032": [
+      "You know, we can *make* you open that goddamn door.",
+      "Hey! Jerkass. Why don't you just open the goddamn door?",
+      "You're not gonna just open the door? Really?"
+    ],
+    "ConceptBlock035": [
+      "[Disbelief] What?"
+    ],
+    "ConceptBlock037": [
+      "What a dick."
+    ],
+    "ConceptBlock052": [
+      "[Disbelief] What?"
+    ],
+    "ConceptBlock615": [
+      "[laugh]",
+      "<Short laugh>"
+    ],
+    "ConceptBlock617": [
+      "I can't get over how fast they all are. It's not even fair! I'm calling zombie bullshit on that, you know? [laughing at self] They're not allowed to be so fast."
+    ],
+    "ConceptBlock618": [
+      "You think one day its all just gonna go back to normal?"
+    ],
+    "ConceptBlock620": [
+      "You're an optimist. I'll give you that, Louis."
+    ],
+    "ConceptBlock622": [
+      "[Disbelief] What?"
+    ],
+    "ConceptBlock638": [
+      "You think one day its all just gonna go back to normal?"
+    ],
+    "ConceptBlock643": [
+      "Oops, sorry"
+    ],
+    "ConceptBlock647": [
+      "Game over man! Game over!"
+    ],
+    "ConceptBlock649": [
+      "<Short laugh>"
+    ],
+    "ConceptBlock654": [
+      "So um... yeah."
+    ],
+    "ConceptBlock655": [
+      "Things like this never end well"
+    ],
+    "ConceptBlock657": [
+      "Louis (quiet)"
+    ],
+    "ConceptBlock661": [
+      "<Hearty Laugh>"
+    ],
+    "ConceptBlock662": [
+      "[laugh]"
+    ],
+    "ConceptBlock666": [
+      "We're good to go! Come on!"
+    ],
+    "ConceptBlock673": [
+      "We're good to go! Come on!"
+    ],
+    "ConceptBlock680": [
+      "Okay."
+    ],
+    "ConceptBlock689": [
+      "Jee-zus...",
+      "Holy crap.",
+      "Wha-hoa!",
+      "Holy shit...",
+      "Did you see that?",
+      "Whoa."
+    ],
+    "ConceptBlock701": [
+      "Yep"
+    ],
+    "ConceptBlock704": [
+      "Shit."
+    ],
+    "ConceptBlock706": [
+      "YESSS!",
+      "Great.",
+      "Yep"
+    ],
+    "ConceptBlock719": [
+      "[Nervous Whistle]"
+    ],
+    "ConceptBlock585": [
+      "Hello!"
+    ],
+    "ConceptBlock953": [
+      "You okay?",
+      "How do you feel?",
+      "Can you make it?",
+      "You gonna make it?",
+      "How bad are you?",
+      "How ya doin'?"
+    ],
+    "ConceptBlock957": [
+      "I'm okay.",
+      "I'm fine.",
+      "Oh shit.",
+      "I don't know.",
+      "I'll make it.",
+      "How do I look?",
+      "Is it bad?",
+      "How bad is it?"
+    ],
+    "ConceptBlock961": [
+      "[Bill doesn't recognize her] Bill, it's Zoey!"
+    ],
+    "ConceptBlock978": [
+      "Up and at 'em.",
+      "Come on get up.",
+      "Up ya go.",
+      "I got ya.",
+      "Up we go.",
+      "Come on up!",
+      "Let's move!"
+    ],
+    "ConceptBlock979": [
+      "You'll be okay.",
+      "You're fine.",
+      "It doesn't look bad."
+    ],
+    "ConceptBlock980": [
+      "You're okay, Louis."
+    ],
+    "ConceptBlock981": [
+      "It's okay, Bill."
+    ]
+  },
+  "NamVet": {
+    "ConceptBlock515": [
+      "How ya doin'?",
+      "Hello?"
+    ],
+    "ConceptBlock536": [
+      "Go on and head out. We're ready.",
+      "Come and get us. We're good to go."
+    ],
+    "ConceptBlock012": [
+      "This guy's nuttier than candy bar shit.",
+      "I don't believe this."
+    ],
+    "ConceptBlock025": [
+      "We're as human as they come, son. I promise you.",
+      "Son, we're immune, we're tired, and there's infected in the damn woods. Now cut the shit and let us in!"
+    ],
+    "ConceptBlock028": [
+      "I don't believe this shit. We're arguin' for our lives here with a damn mental moron!",
+      "[Disbelief] What?",
+      "Oh shit."
+    ],
+    "ConceptBlock051": [
+      "[Disbelief] What?"
+    ],
+    "ConceptBlock556": [
+      "[indignant] Hey!"
+    ],
+    "ConceptBlock606": [
+      "We been immune so far, but - well, if I start to turn, promise you'll shoot me."
+    ],
+    "ConceptBlock608": [
+      "Don't be an ass, Francis.",
+      "Close your mouth and open your eyes, Francis. You'll aim better.",
+      "A few years in the service mighta slimmed you down and shut you up, Francis.",
+      "You know who's gonna survive this mess, Francis? It ain't the fella makin' jokes.",
+      "Speak up, Francis. Your voice got all muffled from yer head being so far up yer ass.",
+      "[laughing] You are an idiot."
+    ],
+    "ConceptBlock611": [
+      "We're fightin' a war of attrition with a horde of brainless killing machines. I ain't exactly optimistic about our chances."
+    ],
+    "ConceptBlock614": [
+      "<Short laugh>"
+    ],
+    "ConceptBlock621": [
+      "You call this a zombie apocalypse? It don't hold a candle to the great zombie attack of 1957. [beat] Nah, I'm horseshittin' ya."
+    ],
+    "ConceptBlock634": [
+      "I have a bad feeling about this"
+    ],
+    "ConceptBlock639": [
+      "I'll see peace back on earth if I gotta murder every one of these bastards with my bare goddamn hands."
+    ],
+    "ConceptBlock641": [
+      "Damn straight."
+    ],
+    "ConceptBlock646": [
+      "Even bein' in a war doesn't prepare you for this. They never stop. They come at you and come at you and they *never* goddamn *stop*."
+    ],
+    "ConceptBlock648": [
+      "What the hell was that?"
+    ],
+    "ConceptBlock653": [
+      "[Nervous Humming]"
+    ],
+    "ConceptBlock663": [
+      "<laugh>Whoa-ho-ho."
+    ],
+    "ConceptBlock668": [
+      "Cross the bridge! Go go go!"
+    ],
+    "ConceptBlock671": [
+      "go go go",
+      "HAUL ASS!"
+    ],
+    "ConceptBlock678": [
+      "All Aboard!"
+    ],
+    "ConceptBlock687": [
+      "Jee-zus...",
+      "Holy shit...",
+      "Holy Mother of God..."
+    ],
+    "ConceptBlock696": [
+      "They're zombies, Francis."
+    ],
+    "ConceptBlock700": [
+      "I'll say.",
+      "Yeah."
+    ],
+    "ConceptBlock703": [
+      "Oh shit."
+    ],
+    "ConceptBlock707": [
+      "Damn straight.",
+      "Yeah, yeah, yeah.",
+      "Yeah, okay, it don't mean we're married now"
+    ],
+    "ConceptBlock711": [
+      "Francis, is there anything you don't hate?"
+    ],
+    "ConceptBlock714": [
+      "[Nervous Humming]"
+    ],
+    "ConceptBlock715": [
+      "[chuckles and giggles]"
+    ],
+    "ConceptBlock579": [
+      "Hello?"
+    ],
+    "ConceptBlock592": [
+      "We're ready, soldier.",
+      "We're good to go, son."
+    ],
+    "ConceptBlock952": [
+      "You okay?",
+      "How ya feelin'?",
+      "Can you make it?",
+      "You gonna make it?",
+      "How bad are you?",
+      "How ya doin'?",
+      "Can you walk?"
+    ],
+    "ConceptBlock956": [
+      "I'm okay.",
+      "I'm allright.",
+      "Hell if I know.",
+      "Most of this blood ain't mine.",
+      "I'll make it.",
+      "I'll live.",
+      "Hell, I'll live.",
+      "I've had worse.",
+      "Well, I ain't *good*."
+    ],
+    "ConceptBlock958": [
+      "[confused from hit on head] Who are you?"
+    ],
+    "ConceptBlock972": [
+      "Up and at 'em.",
+      "Come on up!",
+      "I got ya.",
+      "Up we go.",
+      "Come on up.",
+      "Let's move!"
+    ],
+    "ConceptBlock973": [
+      "Up ya go, son."
+    ],
+    "ConceptBlock974": [
+      "Back on yer feet, Louis."
+    ],
+    "ConceptBlock975": [
+      "Looks like yer big mouth still works."
+    ],
+    "ConceptBlock976": [
+      "You'll be okay.",
+      "Hell, you're fine.",
+      "You're fine.",
+      "You'll be fine."
+    ],
+    "ConceptBlock977": [
+      "You're okay, Zoey."
+    ]
+  },
+  "Manager": {
+    "ConceptBlock521": [
+      "Hello?"
+    ],
+    "ConceptBlock539": [
+      "Go on and head out. We're ready."
+    ],
+    "ConceptBlock015": [
+      "Sir, please! We are NOT infected."
+    ],
+    "ConceptBlock017": [
+      "[Disbelief] What?"
+    ],
+    "ConceptBlock019": [
+      "Mister, if one of us get killed out here, I am gonna shoot my way in there and beat you to death with my gun!"
+    ],
+    "ConceptBlock050": [
+      "[Disbelief] What?"
+    ],
+    "ConceptBlock609": [
+      "Ahhh, this ain't so bad."
+    ],
+    "ConceptBlock610": [
+      "Humanity's gonna bounce right back, you watch."
+    ],
+    "ConceptBlock613": [
+      "<Short laugh>"
+    ],
+    "ConceptBlock616": [
+      "BELCHE - excuse me"
+    ],
+    "ConceptBlock619": [
+      "Humanity's gonna bounce right back, you watch."
+    ],
+    "ConceptBlock623": [
+      "Guys at the office used to laugh when I'd hit the rifle range on my lunch break. Ain't so damn funny now, is it?"
+    ],
+    "ConceptBlock626": [
+      "Tell me you ain't serious."
+    ],
+    "ConceptBlock628": [
+      "They're ZOMBIES, Francis."
+    ],
+    "ConceptBlock631": [
+      "[Disbelief] What?"
+    ],
+    "ConceptBlock636": [
+      "How long were you in prison, Francis?"
+    ],
+    "ConceptBlock640": [
+      "That's what I'm talkin' about"
+    ],
+    "ConceptBlock645": [
+      "I ain't dyin', man. Death gonna have to pry me off the Earth.",
+      "If I go down, go on without me. Actually, wait, no  Save my ass.",
+      "I ain't got time to bleed. Oh hell, I *AM* bleedin'!",
+      "I don't wanna die. I know nobody wants to die, but I'm like, fifty times that."
+    ],
+    "ConceptBlock650": [
+      "<Short laugh>"
+    ],
+    "ConceptBlock652": [
+      "[Nervous Whistle]"
+    ],
+    "ConceptBlock656": [
+      "Come on, cheer up! We're almost through!"
+    ],
+    "ConceptBlock658": [
+      "We are unstoppable."
+    ],
+    "ConceptBlock659": [
+      "That's right, we should call ourselves the unstoppables"
+    ],
+    "ConceptBlock660": [
+      "Nothing can stop us, do you hear me? Nothing can stop us!"
+    ],
+    "ConceptBlock664": [
+      "Any of you guys in the Cub Scouts? Surprisingly ineffective at preparin' you for some shit like this."
+    ],
+    "ConceptBlock669": [
+      "GO!"
+    ],
+    "ConceptBlock682": [
+      "Heads up!"
+    ],
+    "ConceptBlock688": [
+      "Whoa!",
+      "Jee-zus...",
+      "Holy shit..."
+    ],
+    "ConceptBlock699": [
+      "Hell yes.",
+      "You're damn right.",
+      "Allright.",
+      "Yeah."
+    ],
+    "ConceptBlock702": [
+      "Shit."
+    ],
+    "ConceptBlock705": [
+      "Hell yeah.",
+      "Hell yes.",
+      "You're damn right."
+    ],
+    "ConceptBlock716": [
+      "[Nervous Whistle]"
+    ],
+    "ConceptBlock717": [
+      "I am bad, yes I am bad, YES I AM! WOO!"
+    ],
+    "ConceptBlock720": [
+      "When things go back to normal, Zoe, Bill-I'm giving you both jobs. Francis, I'm gonna teach your ass how to read."
+    ],
+    "ConceptBlock581": [
+      "Hello?"
+    ],
+    "ConceptBlock594": [
+      "We're set to go, sir! Any time you're ready.",
+      "Man, we're good to go whenever you are."
+    ],
+    "ConceptBlock951": [
+      "You okay?",
+      "How d'ya feel?",
+      "Can you make it?",
+      "You gonna make it?",
+      "How bad are you?",
+      "How ya doin'?"
+    ],
+    "ConceptBlock955": [
+      "I'm okay.",
+      "I'm allright.",
+      "I don't even know.",
+      "Aw hell, I'm bleedin'.",
+      "I'll make it.",
+      "I'll live.",
+      "I can shake it off.",
+      "Just help me up.",
+      "I ain't done yet."
+    ],
+    "ConceptBlock960": [
+      "[Bill doesn't recognize him] Come on, Bill, it's Louis!"
+    ],
+    "ConceptBlock967": [
+      "Up and at 'em.",
+      "Come on up!",
+      "Up ya go.",
+      "I got ya.",
+      "Up we go.",
+      "Come on up.",
+      "Let's move!"
+    ],
+    "ConceptBlock968": [
+      "Come on, Francis."
+    ],
+    "ConceptBlock969": [
+      "Come on, Bill."
+    ],
+    "ConceptBlock970": [
+      "You'll be okay.",
+      "You're fine.",
+      "It doesn't look bad.",
+      "You'll be fine."
+    ],
+    "ConceptBlock971": [
+      "You'll be fine, girl."
+    ]
+  },
+  "Biker": {
+    "ConceptBlock517": [
+      "How ya doin'?",
+      "Uh, hello?"
+    ],
+    "ConceptBlock527": [
+      "Attention boat owner: We are the cops. I command you to pick us up."
+    ],
+    "ConceptBlock537": [
+      "Come get us!",
+      "We're all set!",
+      "We're ready!"
+    ],
+    "ConceptBlock009": [
+      "Well, let's see: I'm Francis, and that's Grandpa Bill, and - THERE'S ZOMBIES OUT HERE OPEN THE GODDAMN DOOR.",
+      "Just open the goddamn door."
+    ],
+    "ConceptBlock013": [
+      "I am going to tear that bell down and shove it up your ass!",
+      "If we live through this, I'm gonna frickin' kill that guy."
+    ],
+    "ConceptBlock021": [
+      "Man, I don't think the cop thing worked."
+    ],
+    "ConceptBlock023": [
+      "We're cops. Open up."
+    ],
+    "ConceptBlock040": [
+      "Listen candy-pants, we can *make* you open that goddamn door.",
+      "Ah hell."
+    ],
+    "ConceptBlock044": [
+      "Everyone but us is either a zombie or an asshole."
+    ],
+    "ConceptBlock049": [
+      "[Disbelief] What?"
+    ],
+    "ConceptBlock558": [
+      "Have a heart, we gotta a helpless old man with us!"
+    ],
+    "ConceptBlock607": [
+      "What if just your beard starts to turn? Can I shoot that?"
+    ],
+    "ConceptBlock612": [
+      "<Short laugh>",
+      "[laugh]"
+    ],
+    "ConceptBlock624": [
+      "<Snort>"
+    ],
+    "ConceptBlock625": [
+      "Where the hell did all these vampires come from?"
+    ],
+    "ConceptBlock627": [
+      "What?"
+    ],
+    "ConceptBlock629": [
+      "Yeah whatever you say, Professor Monster."
+    ],
+    "ConceptBlock630": [
+      "If we meet anyone. Tell 'em we're cops."
+    ],
+    "ConceptBlock632": [
+      "Most people'll do anything if a cop tells 'em to."
+    ],
+    "ConceptBlock633": [
+      "Trust me."
+    ],
+    "ConceptBlock635": [
+      "Hey, look on the bright side: even if you don't make it, I'll still be really handsome."
+    ],
+    "ConceptBlock637": [
+      "Long enough to know you got a pretty mouth."
+    ],
+    "ConceptBlock642": [
+      "Which one of you jackasses just beefed?"
+    ],
+    "ConceptBlock644": [
+      "Hey Louis, you look like shit."
+    ],
+    "ConceptBlock651": [
+      "[Not-So-Nervous Humming]"
+    ],
+    "ConceptBlock667": [
+      "We're good to go! Come on!"
+    ],
+    "ConceptBlock670": [
+      "Go go go!"
+    ],
+    "ConceptBlock674": [
+      "We're good to go! Come on!",
+      "We can get up there now!"
+    ],
+    "ConceptBlock676": [
+      "Watch out for the train!"
+    ],
+    "ConceptBlock686": [
+      "Jee-zus...",
+      "Holy crap.",
+      "Whoa.",
+      "Holy shit...",
+      "Did you see that?"
+    ],
+    "ConceptBlock695": [
+      "I ain't gonna let these goddamn vampires beat me."
+    ],
+    "ConceptBlock697": [
+      "*What*ever."
+    ],
+    "ConceptBlock698": [
+      "Two left. Allright. We can still do this.",
+      "Just two of us left. Shit.",
+      "You and me gotta find some tougher friends."
+    ],
+    "ConceptBlock708": [
+      "I hate elevators."
+    ],
+    "ConceptBlock709": [
+      "I hate helicopters."
+    ],
+    "ConceptBlock710": [
+      "I hate hospitals.  And doctors and lawyers and cops..."
+    ],
+    "ConceptBlock712": [
+      "You know what I don't hate? I don't hate vests."
+    ],
+    "ConceptBlock713": [
+      "[Not-So-Nervous Humming]"
+    ],
+    "ConceptBlock721": [
+      "[laughing] Go to hell."
+    ],
+    "ConceptBlock577": [
+      "Uh, hello?"
+    ],
+    "ConceptBlock588": [
+      "We're ready!",
+      "We're all set!",
+      "Come get us!",
+      "Rodger dodger."
+    ],
+    "ConceptBlock596": [
+      "Attention Army: This is the cops."
+    ],
+    "ConceptBlock950": [
+      "You okay?",
+      "How d'ya feel?",
+      "Can you make it?",
+      "You gonna make it?",
+      "How bad are you?",
+      "How ya doin'?"
+    ],
+    "ConceptBlock954": [
+      "I'm okay.",
+      "No, no, I'm allright.",
+      "[groan]",
+      "Hell if I know.",
+      "Ah, hey, is this my blood?",
+      "I'll make it.",
+      "I'll live, I'll live.",
+      "Uh, how's my face?",
+      "I've been better.",
+      "Good thing I'm indestructible.",
+      "You... should see the other hundred guys."
+    ],
+    "ConceptBlock959": [
+      "[Bill doesn't recognize him] It's Francis!",
+      "[Bill doesn't recognize him] Come on, man, it's Francis!"
+    ],
+    "ConceptBlock962": [
+      "Up and at 'em.",
+      "Come on up!",
+      "Up ya go.",
+      "You'll be okay.",
+      "I got ya.",
+      "Up we go.",
+      "Come on up.",
+      "Let's move!"
+    ],
+    "ConceptBlock963": [
+      "Let's get to it, Louis."
+    ],
+    "ConceptBlock964": [
+      "Back to the fight, Billy."
+    ],
+    "ConceptBlock965": [
+      "Hell, you're fine.",
+      "It don't look bad.",
+      "You're fine."
+    ],
+    "ConceptBlock966": [
+      "You're fine, Zoey."
+    ]
+  }
+}

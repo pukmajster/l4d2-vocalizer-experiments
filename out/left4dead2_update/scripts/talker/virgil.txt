@@ -1,0 +1,30 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_update/scripts/talker/virgil.txt
+-------------------------------------------------------
+
+RULE C3M4Button101RochelleVirgil CRITERIA ConceptC3M4Button101 _auto_IsTalkingProducer AutoIsNotScavenge AutoIsNotSurvival _auto_NotFinaleStarted RESPONSE C3M4Button101RochelleVirgil
+RULE C3M4Button101NickVirgil CRITERIA ConceptC3M4Button101 _auto_IsTalkingGambler AutoIsNotScavenge AutoIsNotSurvival _auto_NotFinaleStarted RESPONSE C3M4Button101NickVirgil
+RULE C3M4Button101CoachVirgil CRITERIA ConceptC3M4Button101 _auto_IsTalkingCoach AutoIsNotScavenge AutoIsNotSurvival _auto_NotFinaleStarted RESPONSE C3M4Button101CoachVirgil
+RULE C3M4Button101EllisVirgil CRITERIA ConceptC3M4Button101 _auto_IsTalkingMechanic AutoIsNotScavenge AutoIsNotSurvival _auto_NotFinaleStarted RESPONSE C3M4Button101EllisVirgil
+RULE C3M4Button102Virgil CRITERIA ConceptC3M4Button102 AutoIsNotScavenge AutoIsNotSurvival _auto_NotFinaleStarted RESPONSE C3M4Button102Virgil
+RULE C3M4ButtonHowManyVirgil CRITERIA ConceptC3M4ButtonHowMany AutoIsNotScavenge AutoIsNotSurvival _auto_NotFinaleStarted RESPONSE C3M4ButtonHowManyVirgil
+RULE C3M4ButtonHowManyRochelleSkipVirgil CRITERIA ConceptC3M4ButtonHowMany _auto_IsTalkingProducer IsNotTwo AutoIsNotScavenge AutoIsNotSurvival _auto_NotFinaleStarted RESPONSE C3M4ButtonHowManyRochelleSkipVirgil
+RULE C3M4ButtonHowManyEllisSkipVirgil CRITERIA ConceptC3M4ButtonHowMany _auto_IsTalkingMechanic IsAlone AutoIsNotScavenge AutoIsNotSurvival _auto_NotFinaleStarted RESPONSE C3M4ButtonHowManyRochelleSkipVirgil
+RULE C3M4ButtonHowManyEllis2SkipVirgil CRITERIA ConceptC3M4ButtonHowMany _auto_IsTalkingMechanic IsCoachNotAlive AutoIsNotScavenge AutoIsNotSurvival _auto_NotFinaleStarted RESPONSE C3M4ButtonHowManyRochelleSkipVirgil
+RULE C3M4Button104Virgil CRITERIA ConceptC3M4Button104 AutoIsNotScavenge AutoIsNotSurvival _auto_NotFinaleStarted RESPONSE C3M4Button104Virgil
+RULE C3M4Button201Virgil CRITERIA ConceptC3M4Button201 AutoIsNotScavenge AutoIsNotSurvival RESPONSE C3M4Button201Virgil
+RULE C3M4Button202Virgil CRITERIA ConceptC3M4Button202 AutoIsNotScavenge AutoIsNotSurvival RESPONSE C3M4Button202Virgil
+RULE C3M4GateBlow02Virgil CRITERIA ConceptC3M4GateBlow02 AutoIsNotScavenge AutoIsNotSurvival _auto_IsEscapeReady NotSaidOutro RESPONSE C3M4GateBlow02Virgil
+RULE VirgilC3M4Outro CRITERIA ConceptC3M4Outro AutoIsNotScavenge AutoIsNotSurvival RESPONSE VirgilC3M4Outro
+RULE C5M1_intro001Virgil CRITERIA ConceptC5M1_intro001 AutoIsNotScavenge AutoIsNotSurvival RESPONSE C5M1_intro001Virgil
+RULE C5M1_intro003Virgil CRITERIA ConceptC5M1_intro003 AutoIsNotScavenge AutoIsNotSurvival RESPONSE C5M1_intro003Virgil
+RULE _c4m1Intro01Virgil CRITERIA Concept_c4m1Intro01 IsVirgil AutoIsNotScavenge AutoIsNotSurvival RESPONSE _c4m1Intro01Virgil
+RULE _c4m1Intro02Virgil CRITERIA Concept_c4m1Intro02 IsVirgil AutoIsNotScavenge AutoIsNotSurvival RESPONSE _c4m1Intro02Virgil
+RULE C4BoatArrivedVirgil CRITERIA ConceptC4BoatArrived IsVirgil RESPONSE C4BoatArrivedVirgil
+RULE C4BoatArrived2Virgil CRITERIA ConceptC4BoatArrived2 IsVirgil IsNotZombiePresentTank NotSaidOutro RESPONSE C4BoatArrived2Virgil
+RULE C4M5BoatNagsTankVirgilVirgil CRITERIA ConceptC4BoatArrived2 IsVirgil IsZombiePresentTank NotSaidOutro RESPONSE C4M5BoatNagsTankVirgilVirgil
+RULE C4BoatComingVirgil CRITERIA ConceptC4BoatComing IsVirgil RESPONSE C4BoatComingVirgil
+RULE VirgilC4M5Outro CRITERIA ConceptC4M5Outro AutoIsNotScavenge AutoIsNotSurvival RESPONSE VirgilC4M5Outro
+
+
+

@@ -1,0 +1,444 @@
+-------------------------------------------------------
+  ./l4d2_scripts/left4dead2_dlc1/scripts/talker/coach_dlc1.txt
+-------------------------------------------------------
+
+RESPONSE L4D1PlayerNiceShotCoach CHARACTER Coach SUBTITLE "Nice shot.."
+RESPONSE L4D1PlayerNiceShotCoach CHARACTER Coach SUBTITLE "Good one!"
+RULE L4D1PlayerNiceShotCoach CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsCoach IsSubjectDistNear1500  IsTalk IsTalkCoach IsWorldTalkCoach IsNotSpeaking ChanceToFire70Percent RESPONSE L4D1PlayerNiceShotCoach
+RESPONSE L4D1PlayerNiceShotFrancisCoach CHARACTER Coach SUBTITLE "Thanks Francis!"
+RESPONSE L4D1PlayerNiceShotFrancisCoach CHARACTER Coach SUBTITLE "Nice shot Francis!"
+RESPONSE L4D1PlayerNiceShotFrancisCoach CHARACTER Coach SUBTITLE "Nice shot Francis!"
+RULE L4D1PlayerNiceShotFrancisCoach CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsCoach IsSubjectDistNear1500  IsTalk IsTalkCoach  IsWorldTalkCoach SubjectIsBiker ChanceToFire70Percent IsNotSpeaking RESPONSE L4D1PlayerNiceShotFrancisCoach
+RESPONSE L4D1PlayerNiceShotLouisCoach CHARACTER Coach SUBTITLE "Louis in the house!"
+RULE L4D1PlayerNiceShotLouisCoach CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsCoach IsSubjectDistNear1500  IsTalk IsTalkCoach  IsWorldTalkCoach SubjectIsManager ChanceToFire70Percent IsNotSpeaking RESPONSE L4D1PlayerNiceShotLouisCoach
+RESPONSE L4D1PlayerNiceShotZoeyCoach CHARACTER Coach SUBTITLE "Go Zoey!"
+RESPONSE L4D1PlayerNiceShotZoeyCoach CHARACTER Coach SUBTITLE "Keep it up Zoey!"
+RESPONSE L4D1PlayerNiceShotZoeyCoach CHARACTER Coach SUBTITLE "All right girl."
+RULE L4D1PlayerNiceShotZoeyCoach CRITERIA ConceptL4D1PlayerNiceShot IsNotCoughing IsCoach IsSubjectDistNear1500  IsTalk IsTalkCoach  IsWorldTalkCoach SubjectIsTeenGirl ChanceToFire70Percent IsNotSpeaking RESPONSE L4D1PlayerNiceShotZoeyCoach
+RESPONSE C6M3GasPourCoach CHARACTER Coach SUBTITLE "Filling the generator."
+RESPONSE C6M3GasPourCoach CHARACTER Coach SUBTITLE "Pouring a can."
+RESPONSE C6M3GasPourCoach CHARACTER Coach SUBTITLE "Got a can."
+RESPONSE C6M3GasPourCoach CHARACTER Coach SUBTITLE "I got this can."
+RULE C6M3GasPourCoach CRITERIA ConceptPlayerPourStarted IsCoach IsTalk IsTalkCoach IsWorldTalkCoach IsNotScavenge isC6M3_Port ChanceToFire70Percent RESPONSE C6M3GasPourCoach
+RESPONSE C6M1_IntotheparkNoHealthCoach CHARACTER Coach SUBTITLE "Don't run off without a health kit."
+RESPONSE C6M1_IntotheparkNoHealthCoach CHARACTER Coach SUBTITLE "Grab a health kit."
+RESPONSE C6M1_IntotheparkNoHealthCoach CHARACTER Coach SUBTITLE "Everyone grab a health kit."
+RESPONSE C6M1_IntotheparkNoHealthCoach CHARACTER Coach SUBTITLE "Health kits everyone!"
+RULE C6M1_IntotheparkNoHealthCoach CRITERIA ConceptC6M1_IntotheparkNoHealth IsCoach RESPONSE C6M1_IntotheparkNoHealthCoach
+RESPONSE C6M1Intro_01TeenGirl04Coach CHARACTER Coach SUBTITLE "Hey, hello there! You wanna let the bridge down for us?"
+RULE C6M1Intro_01TeenGirl04Coach CRITERIA ConceptintroC6M1 IsCoach IsZoeyIntroActor IsNotSaidIntroScene MoreThan60  LessThan100 IsNotVersus RESPONSE C6M1Intro_01TeenGirl04Coach
+RESPONSE C6M1Intro_04bCoach CHARACTER Coach SUBTITLE "Y'all can't climb down there and save us a trip?"
+RULE C6M1Intro_04bCoach CRITERIA ConceptC6M1Intro_04b IsCoach RESPONSE C6M1Intro_04bCoach
+RESPONSE C6M1Intro_08aCoach CHARACTER Coach SUBTITLE "Got it. We'll holla back at you when we get there."
+RULE C6M1Intro_08aCoach CRITERIA ConceptC6M1Intro_08a IsCoach RESPONSE C6M1Intro_08aCoach
+RESPONSE C6M1Intro_13bCoach CHARACTER Coach SUBTITLE "You been killin' zombies for the better part of 2 days boy you can talk to a girl."
+RULE C6M1Intro_13bCoach CRITERIA ConceptC6M1Intro_13b IsCoach RESPONSE C6M1Intro_13bCoach
+RESPONSE C6M1Intro_13eCoach CHARACTER Coach SUBTITLE "Okay, the boy says thank you."
+RULE C6M1Intro_13eCoach CRITERIA ConceptC6M1Intro_13e IsCoach RESPONSE C6M1Intro_13eCoach
+RESPONSE C6M1Intro_21aCoach CHARACTER Coach SUBTITLE "(to group) Tell me this boy ain't for real."
+RESPONSE C6M1Intro_21aCoach CHARACTER Coach SUBTITLE "(to group) Tell me this boy ain't for real."
+RULE C6M1Intro_21aCoach CRITERIA ConceptC6M1Intro_21a IsCoach RESPONSE C6M1Intro_21aCoach
+RESPONSE C6M1Intro_21bCoach CHARACTER Coach SUBTITLE "No. Can you lower the bridge?"
+RULE C6M1Intro_21bCoach CRITERIA ConceptC6M1Intro_21b IsCoach RESPONSE C6M1Intro_21bCoach
+RESPONSE C6M1Intro_21dCoach CHARACTER Coach SUBTITLE "Shit, okay. Yes, we are vampires? All of us are vampires?"
+RULE C6M1Intro_21dCoach CRITERIA ConceptC6M1Intro_21d IsCoach RESPONSE C6M1Intro_21dCoach
+RESPONSE C6M1Intro_21gCoach CHARACTER Coach SUBTITLE "Dear lord, why'd I ever leave Savannah."
+RULE C6M1Intro_21gCoach CRITERIA ConceptC6M1Intro_21g IsCoach RESPONSE C6M1Intro_21gCoach
+RESPONSE C6M1TakeSubMachineGun01Coach CHARACTER Coach SUBTITLE "Nick, you gotta pull yourself together."
+RULE C6M1TakeSubMachineGun01Coach CRITERIA ConceptC6M1TakeSubMachineGun01 IsCoach IsGamblerNear800 RESPONSE C6M1TakeSubMachineGun01Coach
+RESPONSE LeavingC6M1StartCoach CHARACTER Coach SUBTITLE ""
+RULE LeavingC6M1StartCoach CRITERIA ConceptSurvivorLeavingCheckpoint IsCoach RESPONSE LeavingC6M1StartCoach
+RESPONSE WorldC6M1_HistoricTourCoach CHARACTER Coach SUBTITLE "Historic Under-the-River Tour! This could be pretty interesting!"
+RESPONSE WorldC6M1_HistoricTourCoach CHARACTER Coach SUBTITLE "Let's all try this under-the-river tour to get across."
+RESPONSE WorldC6M1_HistoricTourCoach CHARACTER Coach SUBTITLE "Sign says there's an under-the-river tour, that'll get us across."
+RULE WorldC6M1_HistoricTourCoach CRITERIA ConceptWorldC6M1_HistoricTour IsCoach IsNotLeftC6M1Start RESPONSE WorldC6M1_HistoricTourCoach
+RESPONSE WorldC6M1_PostWedding01aCoach CHARACTER Coach SUBTITLE "No Ellis."
+RESPONSE WorldC6M1_PostWedding01aCoach CHARACTER Coach SUBTITLE "Got to keep your head on killin' zombies, Ellis."
+RULE WorldC6M1_PostWedding01aCoach CRITERIA ConceptWorldC6M1_PostWedding01a IsCoach IsSubjectDistNear800 RESPONSE WorldC6M1_PostWedding01aCoach
+RESPONSE WorldC6M1_WeddingWarn03aCoach CHARACTER Coach SUBTITLE "Come on, Nick, not the time."
+RULE WorldC6M1_WeddingWarn03aCoach CRITERIA ConceptWorldC6M1_WeddingWarn03a IsCoach RESPONSE WorldC6M1_WeddingWarn03aCoach
+RESPONSE WorldC6M1_WeddingWarn04aCoach CHARACTER Coach SUBTITLE "Man, I hope we don't see a tank in a tuxedo."
+RULE WorldC6M1_WeddingWarn04aCoach CRITERIA ConceptWorldC6M1_WeddingWarn04a IsCoach IsSubjectDistNear800 RESPONSE WorldC6M1_WeddingWarn04aCoach
+RESPONSE C6M2_OpenGate1Coach CHARACTER Coach SUBTITLE "I opened it."
+RESPONSE C6M2_OpenGate1Coach CHARACTER Coach SUBTITLE "Open, let's go!"
+RESPONSE C6M2_OpenGate1Coach CHARACTER Coach SUBTITLE "I hit it!"
+RESPONSE C6M2_OpenGate1Coach CHARACTER Coach SUBTITLE "Come on people, don't stand around, let's go!"
+RULE C6M2_OpenGate1Coach CRITERIA ConceptC6M2_OpenGate1 IsCoach RESPONSE C6M2_OpenGate1Coach
+RESPONSE C6M2_OpenGate2Coach CHARACTER Coach SUBTITLE "Open, let's go!"
+RESPONSE C6M2_OpenGate2Coach CHARACTER Coach SUBTITLE "That is some slow ass shit."
+RULE C6M2_OpenGate2Coach CRITERIA ConceptC6M2_OpenGate2 IsCoach RESPONSE C6M2_OpenGate2Coach
+RESPONSE C6M2SafeRoomCoach CHARACTER Coach SUBTITLE ""
+RULE C6M2SafeRoomCoach CRITERIA ConceptTalkIdle  Joined3 IsCoach isC6m2_bedlam IsInStartArea AutoIsNotScavenge AutoIsNotSurvival IsNotSaidC6M2SafeRoom IsNotSpeakingWeight0 RESPONSE C6M2SafeRoomCoach
+RESPONSE DLC1_C6M2_SafeRoomConvo01aCoach CHARACTER Coach SUBTITLE "Nick. Son. I think we got bigger problems."
+RULE DLC1_C6M2_SafeRoomConvo01aCoach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo01a IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo01aCoach
+RESPONSE DLC1_C6M2_SafeRoomConvo05Coach CHARACTER Coach SUBTITLE "City of Rayford! They used to have a boiled peanut festival here. Good memories."
+RULE DLC1_C6M2_SafeRoomConvo05Coach CRITERIA ConceptC6M2SafeRoom2 IsCoach IsZoeyIntroActor ZoeyGroup4 IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo05Coach
+RESPONSE DLC1_C6M2_SafeRoomConvo09aCoach CHARACTER Coach SUBTITLE "Oh, come on, you aren't afraid of a little dirt are you?"
+RULE DLC1_C6M2_SafeRoomConvo09aCoach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo09a IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo09aCoach
+RESPONSE DLC1_C6M2_SafeRoomConvo11Coach CHARACTER Coach SUBTITLE "I heard all about this under-the-river tour, supposed to be pretty damn good. Real educational."
+RULE DLC1_C6M2_SafeRoomConvo11Coach CRITERIA ConceptC6M2SafeRoom2 IsCoach IsZoeyIntroActor ZoeyGroup4 IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo11Coach
+RESPONSE DLC1_C6M2_SafeRoomConvo12Coach CHARACTER Coach SUBTITLE "Nick, tell me you ain't looking forward to this under-the-river tour."
+RULE DLC1_C6M2_SafeRoomConvo12Coach CRITERIA ConceptC6M2SafeRoom2 IsCoach IsFrancisIntroActor FrancisGroup5 IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo12Coach
+RESPONSE DLC1_C6M2_SafeRoomConvo12bCoach CHARACTER Coach SUBTITLE "You damn right. Under a river."
+RULE DLC1_C6M2_SafeRoomConvo12bCoach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo12b IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo12bCoach
+RESPONSE DLC1_C6M2_SafeRoomConvo12dCoach CHARACTER Coach SUBTITLE "Uh, historical shit. Man, how am I supposed to know? I ain't been there yet."
+RULE DLC1_C6M2_SafeRoomConvo12dCoach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo12d IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo12dCoach
+RESPONSE DLC1_C6M2_SafeRoomConvo13bCoach CHARACTER Coach SUBTITLE "Man, Nick you got a find a way to cheer your ass up. We ain't got much to look forward to."
+RULE DLC1_C6M2_SafeRoomConvo13bCoach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo13b IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo13bCoach
+RESPONSE DLC1_C6M2_SafeRoomConvo13dCoach CHARACTER Coach SUBTITLE "There you go Nick. Stay positive."
+RESPONSE DLC1_C6M2_SafeRoomConvo13dCoach CHARACTER Coach SUBTITLE "There you go Nick. Stay positive. Maybe you'll knock all his teeth out."
+RULE DLC1_C6M2_SafeRoomConvo13dCoach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo13d IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo13dCoach
+RESPONSE DLC1_C6M2_SafeRoomConvo14dCoach CHARACTER Coach SUBTITLE "Oh. In my heart, I'm there already."
+RULE DLC1_C6M2_SafeRoomConvo14dCoach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo14d IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo14dCoach
+RESPONSE DLC1_C6M2_SafeRoomConvo15bCoach CHARACTER Coach SUBTITLE "Man, I keep hoping we find an open burger tank."
+RULE DLC1_C6M2_SafeRoomConvo15bCoach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo15b IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo15bCoach
+RESPONSE DLC1_C6M2_SafeRoomConvo16a1Coach CHARACTER Coach SUBTITLE "Ellis, you do know that eventually we're gonna have to leave that car behind. Right?"
+RULE DLC1_C6M2_SafeRoomConvo16a1Coach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo16a1 IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo16a1Coach
+RESPONSE DLC1_C6M2_SafeRoomConvo16eCoach CHARACTER Coach SUBTITLE "Boy, the Military ain't exactly going to strap it to the bottom of a helicopter."
+RULE DLC1_C6M2_SafeRoomConvo16eCoach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo16e IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo16eCoach
+RESPONSE DLC1_C6M2_SafeRoomConvo18cCoach CHARACTER Coach SUBTITLE "Girl! What are you doing?"
+RULE DLC1_C6M2_SafeRoomConvo18cCoach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo18c IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo18cCoach
+RESPONSE DLC1_C6M2_SafeRoomConvo18eCoach CHARACTER Coach SUBTITLE "Listen, if you let your guard down for one minute we all pay the price."
+RULE DLC1_C6M2_SafeRoomConvo18eCoach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo18e IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo18eCoach
+RESPONSE DLC1_C6M2_SafeRoomConvo19Coach CHARACTER Coach SUBTITLE "Man, I just realized with all this runnin', climbin' and fightin', I ain't even had time to eat."
+RESPONSE DLC1_C6M2_SafeRoomConvo19Coach CHARACTER Coach SUBTITLE "All this runnin' we been doing? I bet I lost, what, five pounds."
+RULE DLC1_C6M2_SafeRoomConvo19Coach CRITERIA ConceptC6M2SafeRoom2 IsCoach IsNotSaidC6M2SafeRoom2 RESPONSE DLC1_C6M2_SafeRoomConvo19Coach
+RESPONSE DLC1_C6M2_SafeRoomConvo19bCoach CHARACTER Coach SUBTITLE "[happily] I bet I'm losin' some serious weight! [laughs proudly] Two more days, I'll be takin' my BELT in a notch."
+RULE DLC1_C6M2_SafeRoomConvo19bCoach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo19b IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo19bCoach
+RESPONSE DLC1_C6M2_SafeRoomConvo19dCoach CHARACTER Coach SUBTITLE "Man, I forgot about that."
+RULE DLC1_C6M2_SafeRoomConvo19dCoach CRITERIA ConceptDLC1_C6M2_SafeRoomConvo19d IsCoach RESPONSE DLC1_C6M2_SafeRoomConvo19dCoach
+RESPONSE WorldC6M2_InSewer101aCoach CHARACTER Coach SUBTITLE "Nick my man, face it. We are walkin' through shit."
+RULE WorldC6M2_InSewer101aCoach CRITERIA ConceptWorldC6M2_InSewer101a IsCoach RESPONSE WorldC6M2_InSewer101aCoach
+RESPONSE WorldC6M2_InSewer102aCoach CHARACTER Coach SUBTITLE "Hey Nick, try and keep your head above water."
+RESPONSE WorldC6M2_InSewer102aCoach CHARACTER Coach SUBTITLE "Don't trip, Nick. [laughs]"
+RESPONSE WorldC6M2_InSewer102aCoach CHARACTER Coach SUBTITLE "Gotta keep your head above water, man.[laughs]"
+RESPONSE WorldC6M2_InSewer102aCoach CHARACTER Coach SUBTITLE "Nick, if I give you a piggy back ride, will you shut up about the sewer?"
+RESPONSE WorldC6M2_InSewer102aCoach CHARACTER Coach SUBTITLE "Nick, if I give you a piggy back ride, will you shut up about the sewer?"
+RULE WorldC6M2_InSewer102aCoach CRITERIA ConceptWorldC6M2_InSewer102a IsCoach RESPONSE WorldC6M2_InSewer102aCoach
+RESPONSE WorldC6M2_InSewer202aCoach CHARACTER Coach SUBTITLE "Oh, Jesus! Ellis!"
+RULE WorldC6M2_InSewer202aCoach CRITERIA ConceptWorldC6M2_InSewer202a IsCoach RESPONSE WorldC6M2_InSewer202aCoach
+RESPONSE WorldC6M2_InSewerLadder101aCoach CHARACTER Coach SUBTITLE "Oh, come on! Jesus! Ellis!"
+RULE WorldC6M2_InSewerLadder101aCoach CRITERIA ConceptWorldC6M2_InSewerLadder101a IsCoach RESPONSE WorldC6M2_InSewerLadder101aCoach
+RESPONSE WorldC6M2_OnTourWalk101cCoach CHARACTER Coach SUBTITLE "Yeah. It's a shithole."
+RULE WorldC6M2_OnTourWalk101cCoach CRITERIA ConceptWorldC6M2_OnTourWalk101c IsCoach RESPONSE WorldC6M2_OnTourWalk101cCoach
+RESPONSE WorldC6M2_OnTourWalk103aCoach CHARACTER Coach SUBTITLE "Aw, shut up, Nick"
+RESPONSE WorldC6M2_OnTourWalk103aCoach CHARACTER Coach SUBTITLE "Aw, shut up, Nick"
+RULE WorldC6M2_OnTourWalk103aCoach CRITERIA ConceptWorldC6M2_OnTourWalk103a IsCoach RESPONSE WorldC6M2_OnTourWalk103aCoach
+RESPONSE WorldC6M2_Tattoo02b>Coach CHARACTER Coach SUBTITLE "Shit, it's allll south of the border."
+RESPONSE WorldC6M2_Tattoo02b>Coach CHARACTER Coach SUBTITLE "Coach's got a lot of real estate."
+RESPONSE WorldC6M2_Tattoo02b>Coach CHARACTER Coach SUBTITLE "Hey, Coach keeps his secrets."
+RULE WorldC6M2_Tattoo02b>Coach CRITERIA ConceptWorldC6M2_Tattoo02b> IsCoach RESPONSE WorldC6M2_Tattoo02b>Coach
+RESPONSE C6M3_BridgeDownCoach CHARACTER Coach SUBTITLE "Bridge here, let's go!"
+RESPONSE C6M3_BridgeDownCoach CHARACTER Coach SUBTITLE "Get to the car!"
+RESPONSE C6M3_BridgeDownCoach CHARACTER Coach SUBTITLE "Get to the car!"
+RESPONSE C6M3_BridgeDownCoach CHARACTER Coach SUBTITLE "Bridge is down, let's go!"
+RESPONSE C6M3_BridgeDownCoach CHARACTER Coach SUBTITLE "Bridge is down, let's go!"
+RESPONSE C6M3_BridgeDownCoach CHARACTER Coach SUBTITLE "GET TO THE CAR!"
+RESPONSE C6M3_BridgeDownCoach CHARACTER Coach SUBTITLE "GET TO THE CAR, PEOPLE!"
+RULE C6M3_BridgeDownCoach CRITERIA ConceptC6M3_BridgeDown IsCoach RESPONSE C6M3_BridgeDownCoach
+RESPONSE C6M3_BridgeGettoCarCoach CHARACTER Coach SUBTITLE "Bridge here, let's go!"
+RESPONSE C6M3_BridgeGettoCarCoach CHARACTER Coach SUBTITLE "Get to the car!"
+RESPONSE C6M3_BridgeGettoCarCoach CHARACTER Coach SUBTITLE "Get to the car!"
+RESPONSE C6M3_BridgeGettoCarCoach CHARACTER Coach SUBTITLE "Bridge is down, let's go!"
+RESPONSE C6M3_BridgeGettoCarCoach CHARACTER Coach SUBTITLE "Bridge is down, let's go!"
+RESPONSE C6M3_BridgeGettoCarCoach CHARACTER Coach SUBTITLE "GET TO THE CAR!"
+RESPONSE C6M3_BridgeGettoCarCoach CHARACTER Coach SUBTITLE "GET TO THE CAR, PEOPLE!"
+RULE C6M3_BridgeGettoCarCoach CRITERIA ConceptGetToVehicle IsCoach IsNotSaidGetToCar Isc6m3_port RESPONSE C6M3_BridgeGettoCarCoach
+RESPONSE C6M3_elevatorCoach CHARACTER Coach SUBTITLE "No messin' around let's get these cans."
+RESPONSE C6M3_elevatorCoach CHARACTER Coach SUBTITLE "We do this and get back to the car."
+RESPONSE C6M3_elevatorCoach CHARACTER Coach SUBTITLE "Let's fill that generator and then get back to the car."
+RESPONSE C6M3_elevatorCoach CHARACTER Coach SUBTITLE "Alright, look, no messin' around let's get these cans."
+RESPONSE C6M3_elevatorCoach CHARACTER Coach SUBTITLE "We do this and get back to the car."
+RESPONSE C6M3_elevatorCoach CHARACTER Coach SUBTITLE "Let's fill that generator and then get back to the car."
+RULE C6M3_elevatorCoach CRITERIA Conceptc6m3_elevatorCancel IsCoach IsNotSaidC6M3Elevator IsC6M3_port RESPONSE C6M3_elevatorCoach
+RESPONSE C6M3_elevatorZoeyCoach CHARACTER Coach SUBTITLE "Ellis. Keep your mind on the cans not the girl."
+RESPONSE C6M3_elevatorZoeyCoach CHARACTER Coach SUBTITLE "Ellis. Keep your mind on the cans not the girl."
+RULE C6M3_elevatorZoeyCoach CRITERIA Conceptc6m3_elevatorCancel IsCoach IsNotSaidC6M3Elevator IsC6M3_port IsZoeyIntroActor IsNotVersus ZoeyGroup1 RESPONSE C6M3_elevatorZoeyCoach
+RESPONSE C6M3_GivenItemBikerCoach CHARACTER Coach SUBTITLE "Thanks for sharing!"
+RESPONSE C6M3_GivenItemBikerCoach CHARACTER Coach SUBTITLE "Thanks my man."
+RESPONSE C6M3_GivenItemBikerCoach CHARACTER Coach SUBTITLE "Man, you guys are all right."
+RESPONSE C6M3_GivenItemBikerCoach CHARACTER Coach SUBTITLE "Thanks my man."
+RESPONSE C6M3_GivenItemBikerCoach CHARACTER Coach SUBTITLE "We owe you one."
+RULE C6M3_GivenItemBikerCoach CRITERIA ConceptPlayerPickup IsCoach IsDonorBiker Isc6m3_portHeavy RESPONSE C6M3_GivenItemBikerCoach
+RESPONSE C6M3_GivenItemTeenGirlCoach CHARACTER Coach SUBTITLE "Hey, thanks for the supplies."
+RESPONSE C6M3_GivenItemTeenGirlCoach CHARACTER Coach SUBTITLE "We owe you one."
+RESPONSE C6M3_GivenItemTeenGirlCoach CHARACTER Coach SUBTITLE "Thanks for sharing!"
+RESPONSE C6M3_GivenItemTeenGirlCoach CHARACTER Coach SUBTITLE "You guys are all right."
+RESPONSE C6M3_GivenItemTeenGirlCoach CHARACTER Coach SUBTITLE "Thanks for the supplies."
+RULE C6M3_GivenItemTeenGirlCoach CRITERIA ConceptPlayerPickup IsCoach IsDonorTeenGirl Isc6m3_portHeavy RESPONSE C6M3_GivenItemTeenGirlCoach
+RESPONSE C6M3SafeRoomCoach CHARACTER Coach SUBTITLE ""
+RULE C6M3SafeRoomCoach CRITERIA ConceptTalkIdle  Joined3 IsCoach isC6m3_port IsInStartArea AutoIsNotScavenge AutoIsNotSurvival IsNotSaidC6M3SafeRoom IsNotSpeakingWeight0 RESPONSE C6M3SafeRoomCoach
+RESPONSE DLC1_C6M3_SafeRoomConvo02eCoach CHARACTER Coach SUBTITLE "Sometimes you just gotta have faith, Nick."
+RULE DLC1_C6M3_SafeRoomConvo02eCoach CRITERIA ConceptDLC1_C6M3_SafeRoomConvo02e IsCoach  IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo02eCoach
+RESPONSE DLC1_C6M3_SafeRoomConvo03Coach CHARACTER Coach SUBTITLE "Ellis. It's showtime, buddy."
+RULE DLC1_C6M3_SafeRoomConvo03Coach CRITERIA ConceptC6M3SafeRoom2 IsCoach IsNotSaidC6M3SafeRoom2 IsZoeyIntroActor ZoeyGroup2 IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo03Coach
+RESPONSE DLC1_C6M3_SafeRoomConvo04Coach CHARACTER Coach SUBTITLE "Ellis, you ready to meet that Zoey girl again?"
+RESPONSE DLC1_C6M3_SafeRoomConvo04Coach CHARACTER Coach SUBTITLE "Hey, Ellis, you ready to meet that Zoey girl again? [laughs]"
+RULE DLC1_C6M3_SafeRoomConvo04Coach CRITERIA ConceptC6M3SafeRoom2 IsCoach IsNotSaidC6M3SafeRoom2 IsZoeyIntroActor ZoeyGroup4 IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo04Coach
+RESPONSE DLC1_C6M3_SafeRoomConvo08Coach CHARACTER Coach SUBTITLE "I don't trust that biker. He's probably long gone by now."
+RULE DLC1_C6M3_SafeRoomConvo08Coach CRITERIA ConceptC6M3SafeRoom2 IsCoach IsNotSaidC6M3SafeRoom2 IsFrancisIntroActor IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo08Coach
+RESPONSE DLC1_C6M3_SafeRoomConvo08bCoach CHARACTER Coach SUBTITLE "Minute we left, bet ya he stole the Jimmy Gibbs Jr."
+RULE DLC1_C6M3_SafeRoomConvo08bCoach CRITERIA ConceptDLC1_C6M3_SafeRoomConvo08b IsCoach IsInStartArea RESPONSE DLC1_C6M3_SafeRoomConvo08bCoach
+RESPONSE IncapBounceCoach CHARACTER Coach SUBTITLE ""
+RULE IncapBounceCoach CRITERIA ConceptSurvivorIncapacitated IsCoach IsNotSaidInCapBounce isC6m3_port RESPONSE IncapBounceCoach
+RESPONSE C6M3_CansDoneCoach CHARACTER Coach SUBTITLE "Let's get to the car!"
+RULE C6M3_CansDoneCoach CRITERIA Conceptc6m3escapeready IsCoach IsC6M3_Port IsNotSaidc6m3escapeready RESPONSE C6M3_CansDoneCoach
+RESPONSE L4D1AlsoSpottedTankCoach CHARACTER Coach SUBTITLE "Lead 'em back to the bridge!"
+RESPONSE L4D1AlsoSpottedTankCoach CHARACTER Coach SUBTITLE "Lead the tanks back to the bridge!"
+RESPONSE L4D1AlsoSpottedTankCoach CHARACTER Coach SUBTITLE "Two tanks!"
+RESPONSE L4D1AlsoSpottedTankCoach CHARACTER Coach SUBTITLE "Shit! Two tanks!"
+RESPONSE L4D1AlsoSpottedTankCoach CHARACTER Coach SUBTITLE "Shit! Two tanks!"
+RULE L4D1AlsoSpottedTankCoach CRITERIA ConceptPlayerAlsoWarnTank IsNotCoughing IsCoach IsTalk IsTalkCoach IsWorldTalkCoach Isc6m3_port RESPONSE L4D1AlsoSpottedTankCoach
+RESPONSE L4D1SpottedTankCoach CHARACTER Coach SUBTITLE "Lead 'em back to the bridge!"
+RESPONSE L4D1SpottedTankCoach CHARACTER Coach SUBTITLE "Lead the tanks back to the bridge!"
+RESPONSE L4D1SpottedTankCoach CHARACTER Coach SUBTITLE "Two tanks!"
+RESPONSE L4D1SpottedTankCoach CHARACTER Coach SUBTITLE "Shit! Two tanks!"
+RESPONSE L4D1SpottedTankCoach CHARACTER Coach SUBTITLE "Shit! Two tanks!"
+RULE L4D1SpottedTankCoach CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeTank IsNotCoughing IsCoach IsTalk IsTalkCoach IsWorldTalkCoach Isc6m3_port IsNotSpeakingWeight0 RESPONSE L4D1SpottedTankCoach
+RESPONSE SurvivorSpottedFallenCoach CHARACTER Coach SUBTITLE "Get that zombie!"
+RESPONSE SurvivorSpottedFallenCoach CHARACTER Coach SUBTITLE "Kill that zombie, it's got something."
+RESPONSE SurvivorSpottedFallenCoach CHARACTER Coach SUBTITLE "Get that zombie!"
+RESPONSE SurvivorSpottedFallenCoach CHARACTER Coach SUBTITLE "Take that zombie out!"
+RULE SurvivorSpottedFallenCoach CRITERIA ConceptPlayerWarnSpecial IsSpecialTypeFallen IsNotCoughing IsCoach IsTalk IsTalkCoach IsWorldTalkCoach IsNotSaidFallenWarn IsNotSpeakingWeight0 RESPONSE SurvivorSpottedFallenCoach
+RESPONSE PlayerWitchChasingC6M1Coach CHARACTER Coach SUBTITLE "Bride's chasing me!"
+RESPONSE PlayerWitchChasingC6M1Coach CHARACTER Coach SUBTITLE "Ugly brides chasing me! Brides chasing me!"
+RESPONSE PlayerWitchChasingC6M1Coach CHARACTER Coach SUBTITLE "Kill the bride! Kill the bride!"
+RULE PlayerWitchChasingC6M1Coach CRITERIA ConceptPlayerExertionMinor IsCoach IsWitchPresent SubjectIsNotWitch IsNotSaidCoachWitchChasing IsSaidCoachWitchAttacking isc6m1_riverbank RESPONSE PlayerWitchChasingC6M1Coach
+RESPONSE PlayerRemarkremark_MidnightRidersBusCoach CHARACTER Coach SUBTITLE "Man, I think I just saw... nah."
+RESPONSE PlayerRemarkremark_MidnightRidersBusCoach CHARACTER Coach SUBTITLE "I must be dreaming."
+RESPONSE PlayerRemarkremark_MidnightRidersBusCoach CHARACTER Coach SUBTITLE "I think I just saw... nah."
+RULE PlayerRemarkremark_MidnightRidersBusCoach CRITERIA ConceptRemark IsCoach Isremark_MidnightRidersBus IsNotSaidremark_MidnightRidersBus IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear1500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkremark_MidnightRidersBusCoach
+RESPONSE PlayerRemarkWorldC6M1_AcrossHereCoach CHARACTER Coach SUBTITLE "Get your ass across the walk-way."
+RULE PlayerRemarkWorldC6M1_AcrossHereCoach CRITERIA ConceptRemark IsCoach IsWorldC6M1_AcrossHere IsNotSaidWorldC6M1_AcrossHere IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_AcrossHereCoach
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowCoach CHARACTER Coach SUBTITLE "Down this alley."
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowCoach CHARACTER Coach SUBTITLE "We need to get up there."
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowCoach CHARACTER Coach SUBTITLE "We have to get into this building."
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowCoach CHARACTER Coach SUBTITLE "Let's all get up there."
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowCoach CHARACTER Coach SUBTITLE "Down this alley."
+RESPONSE PlayerRemarkWorldC6M1_AlleyBelowCoach CHARACTER Coach SUBTITLE "Down here."
+RULE PlayerRemarkWorldC6M1_AlleyBelowCoach CRITERIA ConceptRemark IsCoach IsWorldC6M1_AlleyBelow IsNotSaidWorldC6M1_AlleyBelow IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_AlleyBelowCoach
+RESPONSE PlayerRemarkWorldC6M1_AlleyIntoBuildingCoach CHARACTER Coach SUBTITLE "Into these apartments."
+RESPONSE PlayerRemarkWorldC6M1_AlleyIntoBuildingCoach CHARACTER Coach SUBTITLE "Across the walk-way."
+RESPONSE PlayerRemarkWorldC6M1_AlleyIntoBuildingCoach CHARACTER Coach SUBTITLE "Y'all get in there."
+RULE PlayerRemarkWorldC6M1_AlleyIntoBuildingCoach CRITERIA ConceptRemark IsCoach IsWorldC6M1_AlleyIntoBuilding IsNotSaidWorldC6M1_AlleyIntoBuilding IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_AlleyIntoBuildingCoach
+RESPONSE PlayerRemarkWorldC6M1_InAptsCoach CHARACTER Coach SUBTITLE "In here."
+RESPONSE PlayerRemarkWorldC6M1_InAptsCoach CHARACTER Coach SUBTITLE "Get in there."
+RESPONSE PlayerRemarkWorldC6M1_InAptsCoach CHARACTER Coach SUBTITLE "Search these rooms for supplies."
+RESPONSE PlayerRemarkWorldC6M1_InAptsCoach CHARACTER Coach SUBTITLE "We're goin' this way.."
+RULE PlayerRemarkWorldC6M1_InAptsCoach CRITERIA ConceptRemark IsCoach IsWorldC6M1_InApts IsNotSaidWorldC6M1_InApts IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_InAptsCoach
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreCoach CHARACTER Coach SUBTITLE "Through this store."
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreCoach CHARACTER Coach SUBTITLE "Guns in the store."
+RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreCoach CHARACTER Coach SUBTITLE "Let's get in the store."
+RULE PlayerRemarkWorldC6M1_IntoTheStoreCoach CRITERIA ConceptRemark IsCoach IsWorldC6M1_IntoTheStore IsNotSaidWorldC6M1_IntoTheStore IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_IntoTheStoreCoach
+RESPONSE PlayerRemarkWorldC6M1_PostWeddingCoach CHARACTER Coach SUBTITLE "Check those tents."
+RULE PlayerRemarkWorldC6M1_PostWeddingCoach CRITERIA ConceptRemark IsCoach IsWorldC6M1_PostWedding IsNotSaidWorldC6M1_PostWedding IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear600 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_PostWeddingCoach
+RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyCoach CHARACTER Coach SUBTITLE "Behind this bus."
+RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyCoach CHARACTER Coach SUBTITLE "Safe room back here!"
+RULE PlayerRemarkWorldC6M1_SafeRoomAlleyCoach CRITERIA ConceptRemark IsCoach IsWorldC6M1_SafeRoomAlley IsNotSaidWorldC6M1_SafeRoomAlley IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear600 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_SafeRoomAlleyCoach
+RESPONSE PlayerRemarkWorldC6M1_ThroughBarCoach CHARACTER Coach SUBTITLE "Through here!"
+RESPONSE PlayerRemarkWorldC6M1_ThroughBarCoach CHARACTER Coach SUBTITLE "Through here."
+RESPONSE PlayerRemarkWorldC6M1_ThroughBarCoach CHARACTER Coach SUBTITLE "Let's go through here."
+RULE PlayerRemarkWorldC6M1_ThroughBarCoach CRITERIA ConceptRemark IsCoach IsWorldC6M1_ThroughBar IsNotSaidWorldC6M1_ThroughBar IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_ThroughBarCoach
+RESPONSE PlayerRemarkWorldC6M1_UpHereCoach CHARACTER Coach SUBTITLE "Back this way."
+RESPONSE PlayerRemarkWorldC6M1_UpHereCoach CHARACTER Coach SUBTITLE "Up here."
+RULE PlayerRemarkWorldC6M1_UpHereCoach CRITERIA ConceptRemark IsCoach IsWorldC6M1_UpHere IsNotSaidWorldC6M1_UpHere IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_UpHereCoach
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairsCoach CHARACTER Coach SUBTITLE "Go upstairs."
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairsCoach CHARACTER Coach SUBTITLE "Let's try upstairs."
+RULE PlayerRemarkWorldC6M1_UpTheStairsCoach CRITERIA ConceptRemark IsCoach IsWorldC6M1_UpTheStairs IsNotSaidWorldC6M1_UpTheStairs IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_UpTheStairsCoach
+RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Coach CHARACTER Coach SUBTITLE "Up the stairs."
+RULE PlayerRemarkWorldC6M1_UpTheStairs2Coach CRITERIA ConceptRemark IsCoach IsWorldC6M1_UpTheStairs2 IsNotSaidWorldC6M1_UpTheStairs2 IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_UpTheStairs2Coach
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnCoach CHARACTER Coach SUBTITLE "Damn. This here wedding didn't end well."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnCoach CHARACTER Coach SUBTITLE "Look, uh, anyone see the wedding cake?"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnCoach CHARACTER Coach SUBTITLE "Anyone see the wedding cake?"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnCoach CHARACTER Coach SUBTITLE "Bride. Wedding. Gotta be cake around here somewhere."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnCoach CHARACTER Coach SUBTITLE "Bride. Wedding. Gotta be cake around here somewhere."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarnCoach CHARACTER Coach SUBTITLE "Shhh.. does anyone see the wedding cake."
+RULE PlayerRemarkWorldC6M1_WeddingWarnCoach CRITERIA ConceptRemark IsCoach IsWorldC6M1_WeddingWarn IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarnCoach
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Coach CHARACTER Coach SUBTITLE "Damn. This here wedding didn't end well."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Coach CHARACTER Coach SUBTITLE "Look, uh, anyone see the wedding cake?"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Coach CHARACTER Coach SUBTITLE "Anyone see the wedding cake?"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Coach CHARACTER Coach SUBTITLE "Bride. Wedding. Gotta be cake around here somewhere."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Coach CHARACTER Coach SUBTITLE "Bride. Wedding. Gotta be cake around here somewhere."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Coach CHARACTER Coach SUBTITLE "Shhh.. does anyone see the wedding cake."
+RULE PlayerRemarkWorldC6M1_WeddingWarn1Coach CRITERIA ConceptRemark IsCoach IsWorldC6M1_WeddingWarn1 IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarn1Coach
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Coach CHARACTER Coach SUBTITLE "Damn. This here wedding didn't end well."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Coach CHARACTER Coach SUBTITLE "Look, uh, anyone see the wedding cake?"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Coach CHARACTER Coach SUBTITLE "Anyone see the wedding cake?"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Coach CHARACTER Coach SUBTITLE "Bride. Wedding. Gotta be cake around here somewhere."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Coach CHARACTER Coach SUBTITLE "Bride. Wedding. Gotta be cake around here somewhere."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Coach CHARACTER Coach SUBTITLE "Shhh.. does anyone see the wedding cake."
+RULE PlayerRemarkWorldC6M1_WeddingWarn2Coach CRITERIA ConceptRemark IsCoach IsWorldC6M1_WeddingWarn2 IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarn2Coach
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Coach CHARACTER Coach SUBTITLE "Damn. This here wedding didn't end well."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Coach CHARACTER Coach SUBTITLE "Look, uh, anyone see the wedding cake?"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Coach CHARACTER Coach SUBTITLE "Anyone see the wedding cake?"
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Coach CHARACTER Coach SUBTITLE "Bride. Wedding. Gotta be cake around here somewhere."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Coach CHARACTER Coach SUBTITLE "Bride. Wedding. Gotta be cake around here somewhere."
+RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Coach CHARACTER Coach SUBTITLE "Shhh.. does anyone see the wedding cake."
+RULE PlayerRemarkWorldC6M1_WeddingWarn3Coach CRITERIA ConceptRemark IsCoach IsWorldC6M1_WeddingWarn3 IsNotSaidWorldC6M1_WeddingWarn IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M1_WeddingWarn3Coach
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankCoach CHARACTER Coach SUBTITLE "Over this plank."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankCoach CHARACTER Coach SUBTITLE "Hurry up and get your asses over this plank."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankCoach CHARACTER Coach SUBTITLE "Oh shit, do not look down."
+RESPONSE PlayerRemarkWorldC6M2_AcrossPlankCoach CHARACTER Coach SUBTITLE "Easy now, don't be playin' on this board."
+RULE PlayerRemarkWorldC6M2_AcrossPlankCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_AcrossPlank IsNotSaidWorldC6M2_AcrossPlank IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear250 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_AcrossPlankCoach
+RESPONSE PlayerRemarkWorldC6M2_AfterGate1Coach CHARACTER Coach SUBTITLE "Don't stop people!"
+RESPONSE PlayerRemarkWorldC6M2_AfterGate1Coach CHARACTER Coach SUBTITLE "Alright, let's keep moving. Unless Nick wants to stop and take a bath"
+RULE PlayerRemarkWorldC6M2_AfterGate1Coach CRITERIA ConceptRemark IsCoach IsWorldC6M2_AfterGate1 IsNotSaidWorldC6M2_AfterGate1 IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_AfterGate1Coach
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Coach CHARACTER Coach SUBTITLE "There's gotta be a ladder here somewhere."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Coach CHARACTER Coach SUBTITLE "Let's find ourselves a ladder."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Coach CHARACTER Coach SUBTITLE "Holla if you see a ladder."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Coach CHARACTER Coach SUBTITLE "We need to get on the catwalks."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Coach CHARACTER Coach SUBTITLE "We need to get out of this shit."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Coach CHARACTER Coach SUBTITLE "Keep running, that alarm ain't goin' off."
+RESPONSE PlayerRemarkWorldC6M2_AfterGate2Coach CHARACTER Coach SUBTITLE "That alarm is gonna keep goin'!"
+RULE PlayerRemarkWorldC6M2_AfterGate2Coach CRITERIA ConceptRemark IsCoach IsWorldC6M2_AfterGate2 IsNotSaidWorldC6M2_AfterGate2 IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_AfterGate2Coach
+RESPONSE PlayerRemarkWorldC6M2_DownHereCoach CHARACTER Coach SUBTITLE "Down here."
+RESPONSE PlayerRemarkWorldC6M2_DownHereCoach CHARACTER Coach SUBTITLE "We can get down here!"
+RESPONSE PlayerRemarkWorldC6M2_DownHereCoach CHARACTER Coach SUBTITLE "Down here."
+RESPONSE PlayerRemarkWorldC6M2_DownHereCoach CHARACTER Coach SUBTITLE "Down here."
+RULE PlayerRemarkWorldC6M2_DownHereCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_DownHere IsNotSaidWorldC6M2_DownHere IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_DownHereCoach
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingCoach CHARACTER Coach SUBTITLE "Through this building."
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingCoach CHARACTER Coach SUBTITLE "In here."
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingCoach CHARACTER Coach SUBTITLE "Down these stairs."
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingCoach CHARACTER Coach SUBTITLE "Get in there."
+RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingCoach CHARACTER Coach SUBTITLE "Everyone get in there."
+RULE PlayerRemarkWorldC6M2_DownIntoBuildingCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_DownIntoBuilding IsNotSaidWorldC6M2_DownIntoBuilding IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear400 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_DownIntoBuildingCoach
+RESPONSE PlayerRemarkWorldC6M2_FinalLadderCoach CHARACTER Coach SUBTITLE "Come on, let's get out of this sewer!"
+RESPONSE PlayerRemarkWorldC6M2_FinalLadderCoach CHARACTER Coach SUBTITLE "A ladder!"
+RESPONSE PlayerRemarkWorldC6M2_FinalLadderCoach CHARACTER Coach SUBTITLE "Up that ladder!"
+RULE PlayerRemarkWorldC6M2_FinalLadderCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_FinalLadder IsNotSaidWorldC6M2_FinalLadder IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_FinalLadderCoach
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterCoach CHARACTER Coach SUBTITLE "Back in the water."
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterCoach CHARACTER Coach SUBTITLE "Back in the water!"
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterCoach CHARACTER Coach SUBTITLE "Ah hell, more water."
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterCoach CHARACTER Coach SUBTITLE "Ah hell, back in the water!"
+RULE PlayerRemarkWorldC6M2_FinalWaterCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_FinalWater IsNotSaidWorldC6M2_FinalWater IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_FinalWaterCoach
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoCoach CHARACTER Coach SUBTITLE "Don't stop people!"
+RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoCoach CHARACTER Coach SUBTITLE "KEEP MOVING!"
+RULE PlayerRemarkWorldC6M2_FinalWaterGoGoCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_FinalWaterGoGo IsNotSaidWorldC6M2_FinalWaterGoGo IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_FinalWaterGoGoCoach
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubCoach CHARACTER Coach SUBTITLE "Into the Jazz Club."
+RESPONSE PlayerRemarkWorldC6M2_InJazzClubCoach CHARACTER Coach SUBTITLE "Tour's in the Jazz Club."
+RULE PlayerRemarkWorldC6M2_InJazzClubCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_InJazzClub IsNotSaidWorldC6M2_InJazzClub IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear1000 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InJazzClubCoach
+RESPONSE PlayerRemarkWorldC6M2_InSewer1Coach CHARACTER Coach SUBTITLE "Come on now, let's just get through this shit."
+RULE PlayerRemarkWorldC6M2_InSewer1Coach CRITERIA ConceptRemark IsCoach IsWorldC6M2_InSewer1 IsNotSaidWorldC6M2_InSewer1 IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InSewer1Coach
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Coach CHARACTER Coach SUBTITLE "Let's get out of the water."
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Coach CHARACTER Coach SUBTITLE "Everybody up there!"
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Coach CHARACTER Coach SUBTITLE "All right, out of the water."
+RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Coach CHARACTER Coach SUBTITLE "Everyone up there!"
+RULE PlayerRemarkWorldC6M2_InSewerLadder1Coach CRITERIA ConceptRemark IsCoach IsWorldC6M2_InSewerLadder1 IsNotSaidWorldC6M2_InSewerLadder1 IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_InSewerLadder1Coach
+RESPONSE PlayerRemarkWorldC6M2_IntoConstructionCoach CHARACTER Coach SUBTITLE "Let's get down there."
+RESPONSE PlayerRemarkWorldC6M2_IntoConstructionCoach CHARACTER Coach SUBTITLE "Down by the pipe."
+RULE PlayerRemarkWorldC6M2_IntoConstructionCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_IntoConstruction IsNotSaidWorldC6M2_IntoConstruction IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear150 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_IntoConstructionCoach
+RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallCoach CHARACTER Coach SUBTITLE "Into the pool hall."
+RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallCoach CHARACTER Coach SUBTITLE "Get into the pool hall."
+RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallCoach CHARACTER Coach SUBTITLE "Go through these windows."
+RULE PlayerRemarkWorldC6M2_IntoPoolHallCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_IntoPoolHall IsNotSaidWorldC6M2_IntoPoolHall IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_IntoPoolHallCoach
+RESPONSE PlayerRemarkWorldC6M2_JukeBoxCoach CHARACTER Coach SUBTITLE "This jukebox is all right."
+RESPONSE PlayerRemarkWorldC6M2_JukeBoxCoach CHARACTER Coach SUBTITLE "Oh shit, this thing is still on!"
+RULE PlayerRemarkWorldC6M2_JukeBoxCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_JukeBox IsNotSaidWorldC6M2_JukeBox IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear150 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_JukeBoxCoach
+RESPONSE PlayerRemarkWorldC6M2_JumpDownCoach CHARACTER Coach SUBTITLE "Together people."
+RESPONSE PlayerRemarkWorldC6M2_JumpDownCoach CHARACTER Coach SUBTITLE "Don't get left behind."
+RULE PlayerRemarkWorldC6M2_JumpDownCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_JumpDown IsNotSaidWorldC6M2_JumpDown IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_JumpDownCoach
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Coach CHARACTER Coach SUBTITLE "Man, this is a real..."
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Coach CHARACTER Coach SUBTITLE "Man, LOOK at all this, uh... uh... Aw, this tour is bullshit."
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Coach CHARACTER Coach SUBTITLE "Man, LOOK at all this, uh... uh... Aw, man, this tour is bullshit."
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Coach CHARACTER Coach SUBTITLE "Shit, they must have locked up all the history to keep it safe."
+RULE PlayerRemarkWorldC6M2_OnTourWalk1Coach CRITERIA ConceptRemark IsCoach IsWorldC6M2_OnTourWalk1 IsNotSaidWorldC6M2_OnTourWalk1 IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OnTourWalk1Coach
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk2Coach CHARACTER Coach SUBTITLE "Keep to the walkway."
+RESPONSE PlayerRemarkWorldC6M2_OnTourWalk2Coach CHARACTER Coach SUBTITLE "Follow the walkway."
+RULE PlayerRemarkWorldC6M2_OnTourWalk2Coach CRITERIA ConceptRemark IsCoach IsWorldC6M2_OnTourWalk2 IsNotSaidWorldC6M2_OnTourWalk2 IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OnTourWalk2Coach
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Coach CHARACTER Coach SUBTITLE "This here door is going to sound when we open it."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Coach CHARACTER Coach SUBTITLE "You know this shit's going to get loud."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Coach CHARACTER Coach SUBTITLE "Let's get ready before we open that door."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Coach CHARACTER Coach SUBTITLE "Shit, we gotta hit that button."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate1Coach CHARACTER Coach SUBTITLE "This looks like the only way."
+RULE PlayerRemarkWorldC6M2_OpenGate1Coach CRITERIA ConceptRemark IsCoach IsWorldC6M2_OpenGate1 IsNotSaidWorldC6M2_OpenGate1 IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSaidOpenedGate1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OpenGate1Coach
+RESPONSE PlayerRemarkWorldC6M2_OpenGate2Coach CHARACTER Coach SUBTITLE "Second time better be the charm."
+RESPONSE PlayerRemarkWorldC6M2_OpenGate2Coach CHARACTER Coach SUBTITLE "Oh damn, another one of these things?"
+RESPONSE PlayerRemarkWorldC6M2_OpenGate2Coach CHARACTER Coach SUBTITLE "Ellis, don't break it this time."
+RULE PlayerRemarkWorldC6M2_OpenGate2Coach CRITERIA ConceptRemark IsCoach IsWorldC6M2_OpenGate2 IsNotSaidWorldC6M2_OpenGate2 IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSaidOpenedGate2 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_OpenGate2Coach
+RESPONSE PlayerRemarkWorldC6M2_Phase2Coach CHARACTER Coach SUBTITLE "Tour's over? Shit."
+RESPONSE PlayerRemarkWorldC6M2_Phase2Coach CHARACTER Coach SUBTITLE "Tour's over? Bullshit."
+RESPONSE PlayerRemarkWorldC6M2_Phase2Coach CHARACTER Coach SUBTITLE "Phase two my ass."
+RESPONSE PlayerRemarkWorldC6M2_Phase2Coach CHARACTER Coach SUBTITLE "Phase two coming in 2010? Shit phase one ain't done."
+RULE PlayerRemarkWorldC6M2_Phase2Coach CRITERIA ConceptRemark IsCoach IsWorldC6M2_Phase2 IsNotSaidWorldC6M2_Phase2 IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_Phase2Coach
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownCoach CHARACTER Coach SUBTITLE "Down the stairs."
+RULE PlayerRemarkWorldC6M2_Phase2DownCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_Phase2Down IsNotSaidWorldC6M2_Phase2Down IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_Phase2DownCoach
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseCoach CHARACTER Coach SUBTITLE "Get your asses down the stairs!"
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseCoach CHARACTER Coach SUBTITLE "Come on, y'all, haul ass down the stairs!"
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseCoach CHARACTER Coach SUBTITLE "Haul ass down the stairs!"
+RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseCoach CHARACTER Coach SUBTITLE "DOWN DOWN DOWN!"
+RULE PlayerRemarkWorldC6M2_Phase2DownIntenseCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_Phase2Down IsNotSaidWorldC6M2_Phase2Down IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IntensityOver75 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_Phase2DownIntenseCoach
+RESPONSE PlayerRemarkWorldC6M2_PostGate1xCoach CHARACTER Coach SUBTITLE "Damn, back in water people."
+RESPONSE PlayerRemarkWorldC6M2_PostGate1xCoach CHARACTER Coach SUBTITLE "Let's just get this over with."
+RESPONSE PlayerRemarkWorldC6M2_PostGate1xCoach CHARACTER Coach SUBTITLE "Can't stay up here all day y'all."
+RESPONSE PlayerRemarkWorldC6M2_PostGate1xCoach CHARACTER Coach SUBTITLE "One more time!"
+RULE PlayerRemarkWorldC6M2_PostGate1xCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_PostGate1 IsNotSaidWorldC6M2_PostGate1 IsNotCoughing IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsSaidOpenedGate1 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_PostGate1xCoach
+RESPONSE PlayerRemarkWorldC6M2_SafeRoomCoach CHARACTER Coach SUBTITLE "Saferoom and it's dry!"
+RESPONSE PlayerRemarkWorldC6M2_SafeRoomCoach CHARACTER Coach SUBTITLE "Man, that bridge's gotta be close!"
+RULE PlayerRemarkWorldC6M2_SafeRoomCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_SafeRoom IsNotSaidWorldC6M2_SafeRoom IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear800 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_SafeRoomCoach
+RESPONSE PlayerRemarkWorldC6M2_SuitcaseCoach CHARACTER Coach SUBTITLE "[singing] "...a suitcase full of pistols and MON-NAY!""
+RULE PlayerRemarkWorldC6M2_SuitcaseCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_Suitcase IsNotSaidWorldC6M2_Suitcase IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear100 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_SuitcaseCoach
+RESPONSE PlayerRemarkWorldC6M2_TattooC&RCoach CHARACTER Coach SUBTITLE "I got that one, that one-hell, I got most of these."
+RULE PlayerRemarkWorldC6M2_TattooC&RCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_Tattoo IsNotSaidWorldC6M2_Tattoo IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsProducerNear800Weight0 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_TattooC&RCoach
+RESPONSE PlayerRemarkWorldC6M2_TourEntranceCoach CHARACTER Coach SUBTITLE "Here we go, under the river."
+RULE PlayerRemarkWorldC6M2_TourEntranceCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_TourEntrance IsNotSaidWorldC6M2_TourEntrance IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_TourEntranceCoach
+RESPONSE PlayerRemarkWorldC6M2_UpCatWalkCoach CHARACTER Coach SUBTITLE "A ladder!"
+RESPONSE PlayerRemarkWorldC6M2_UpCatWalkCoach CHARACTER Coach SUBTITLE "Ladder!"
+RESPONSE PlayerRemarkWorldC6M2_UpCatWalkCoach CHARACTER Coach SUBTITLE "Thank you Jesus, a ladder!"
+RULE PlayerRemarkWorldC6M2_UpCatWalkCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_UpCatWalk IsNotSaidWorldC6M2_UpCatWalk IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_UpCatWalkCoach
+RESPONSE PlayerRemarkWorldC6M2_UpStairsCoach CHARACTER Coach SUBTITLE "Up the stairs."
+RESPONSE PlayerRemarkWorldC6M2_UpStairsCoach CHARACTER Coach SUBTITLE "Let's get up to that street."
+RULE PlayerRemarkWorldC6M2_UpStairsCoach CRITERIA ConceptRemark IsCoach IsWorldC6M2_UpStairs IsNotSaidWorldC6M2_UpStairs IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_UpStairsCoach
+RESPONSE PlayerRemarkWorldC6M2_UpStairs2Coach CHARACTER Coach SUBTITLE "Go upstairs."
+RESPONSE PlayerRemarkWorldC6M2_UpStairs2Coach CHARACTER Coach SUBTITLE "Let's try upstairs."
+RULE PlayerRemarkWorldC6M2_UpStairs2Coach CRITERIA ConceptRemark IsCoach IsWorldC6M2_UpStairs2 IsNotSaidWorldC6M2_UpStairs2 IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear200 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M2_UpStairs2Coach
+RESPONSE PlayerRemarkWorldC6M3_BridgeRunCoach CHARACTER Coach SUBTITLE "Come on people, GET TO THE CAR! GET TO THE CAR!"
+RESPONSE PlayerRemarkWorldC6M3_BridgeRunCoach CHARACTER Coach SUBTITLE "We gotta run, GO!"
+RULE PlayerRemarkWorldC6M3_BridgeRunCoach CRITERIA ConceptRemark IsCoach IsWorldC6M3_BridgeRun IsNotSaidWorldC6M3_BridgeRun IsNotCoughing  IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M3_BridgeRunCoach
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeCoach CHARACTER Coach SUBTITLE "You three keep safe."
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeCoach CHARACTER Coach SUBTITLE "We owe you."
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeCoach CHARACTER Coach SUBTITLE "You good? See y'all!"
+RESPONSE PlayerRemarkWorldC6M3_ByBridgeCoach CHARACTER Coach SUBTITLE "Well alright.  We're gonna remember y'all."
+RULE PlayerRemarkWorldC6M3_ByBridgeCoach CRITERIA ConceptRemark IsCoach IsWorldC6M3_ByBridge IsNotSaidWorldC6M3_ByBridge IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear300 IsSaidFinalVehicleArrived IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldC6M3_ByBridgeCoach
+RESPONSE PlayerRemarkWorldFootLockerCoach CHARACTER Coach SUBTITLE "Open up the locker."
+RESPONSE PlayerRemarkWorldFootLockerCoach CHARACTER Coach SUBTITLE "Open the bitch up."
+RESPONSE PlayerRemarkWorldFootLockerCoach CHARACTER Coach SUBTITLE "Search the lockers."
+RULE PlayerRemarkWorldFootLockerCoach CRITERIA ConceptRemark IsCoach IsWorldFootLocker IsNotSaidWorldFootLocker IsNotCoughing NotInCombat IsTalk IsTalkCoach IsWorldTalkCoach IsSubjectNear500 IsNotSpeakingWeight0 RESPONSE PlayerRemarkWorldFootLockerCoach
+RESPONSE C6M3_PourFinishedCoach CHARACTER Coach SUBTITLE ""
+RULE C6M3_PourFinishedCoach CRITERIA ConceptPlayerPourFinished IsCoach IsTalk IsTalkCoach IsWorldTalkCoach  Isc6m3_port ChanceToFire20Percent RESPONSE C6M3_PourFinishedCoach
+RESPONSE SurvivorNearFinaleC6M3Coach CHARACTER Coach SUBTITLE ""
+RULE SurvivorNearFinaleC6M3Coach CRITERIA ConceptPlayerNearFinale IsNotCoughing IsCoach IsNotSaidFinaleAhead NotInCombat IsTalk IsTalkCoach IsNotIncapacitated IsWorldTalkCoach Isc6m3_port RESPONSE SurvivorNearFinaleC6M3Coach
+RESPONSE SurvivorPickupGolfCLubCoach CHARACTER Coach SUBTITLE "Grabbing a club."
+RESPONSE SurvivorPickupGolfCLubCoach CHARACTER Coach SUBTITLE "Grabbing a driver."
+RULE SurvivorPickupGolfCLubCoach CRITERIA ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpGolfClub  IsNotSpeaking  CoachNotPickedUpItem IsTalk IsTalkCoach IsWorldTalkCoach RESPONSE SurvivorPickupGolfCLubCoach
+RESPONSE SurvivorPickupM60Coach CHARACTER Coach SUBTITLE "Grabbing the big gun."
+RESPONSE SurvivorPickupM60Coach CHARACTER Coach SUBTITLE "Grabbing the machine gun."
+RESPONSE SurvivorPickupM60Coach CHARACTER Coach SUBTITLE "Shit, this is heavy."
+RESPONSE SurvivorPickupM60Coach CHARACTER Coach SUBTITLE "This some goddamn firepower."
+RESPONSE SurvivorPickupM60Coach CHARACTER Coach SUBTITLE "Grabbing the gun."
+RULE SurvivorPickupM60Coach CRITERIA ConceptPlayerPickup IsNotCoughing IsCoach IsPickedUpM60  IsNotSpeaking  CoachNotPickedUpItem IsTalk IsTalkCoach IsWorldTalkCoach RESPONSE SurvivorPickupM60Coach
+RESPONSE HistoricTour02aCoach CHARACTER Coach SUBTITLE "Yeah, it's historic."
+RESPONSE HistoricTour02aCoach CHARACTER Coach SUBTITLE "I don't know, goes under the river."
+RULE HistoricTour02aCoach CRITERIA ConceptHistoricTour02a IsCoach RESPONSE HistoricTour02aCoach
+RESPONSE WeddingWitchDead01Coach CHARACTER Coach SUBTITLE "You got problems boy. Deep down problems."
+RULE WeddingWitchDead01Coach CRITERIA ConceptWeddingWitchDead01 IsCoach RESPONSE WeddingWitchDead01Coach
+RESPONSE WeddingWitchDead02Coach CHARACTER Coach SUBTITLE "Yeah, that shit was creeping me out."
+RULE WeddingWitchDead02Coach CRITERIA ConceptWeddingWitchDead02 IsCoach RESPONSE WeddingWitchDead02Coach
+RESPONSE Player.LostCallC6M3Coach CHARACTER Coach SUBTITLE ""
+RULE Player.LostCallC6M3Coach CRITERIA ConceptTalkIdle IsCoach IsClosestSurvivorFar3000 IsNotSaidPlayerLostCall Isc6m3_port  ChanceToFire100Percent IsNotSpeakingWeight0 RESPONSE Player.LostCallC6M3Coach
+RESPONSE SurvivorSpottedGolfClubCoach CHARACTER Coach SUBTITLE "Driver here."
+RESPONSE SurvivorSpottedGolfClubCoach CHARACTER Coach SUBTITLE "Golf club!"
+RULE SurvivorSpottedGolfClubCoach CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsCoach IsTalk IsTalkCoach IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsGolfClub IsWorldTalkCoach IsNotSpeakingWeight0 RESPONSE SurvivorSpottedGolfClubCoach
+RESPONSE SurvivorSpottedGolfClubAutoCoach CHARACTER Coach SUBTITLE "Driver here."
+RESPONSE SurvivorSpottedGolfClubAutoCoach CHARACTER Coach SUBTITLE "Golf club!"
+RULE SurvivorSpottedGolfClubAutoCoach CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsCoach IsTalk IsTalkCoach IsNotSmartLookAuto IsGolfClub IsWorldTalkCoach RESPONSE SurvivorSpottedGolfClubAutoCoach
+RESPONSE SurvivorSpottedM60Coach CHARACTER Coach SUBTITLE "Big gun!"
+RESPONSE SurvivorSpottedM60Coach CHARACTER Coach SUBTITLE "Here's a big gun!"
+RESPONSE SurvivorSpottedM60Coach CHARACTER Coach SUBTITLE "Big gun!"
+RULE SurvivorSpottedM60Coach CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsCoach IsTalk IsTalkCoach IsSmartLookAuto  IsNotInSafeSpot IsNotAlone IsNotSaidSpotWeapons IsNotSaidSpot IsM60 IsWorldTalkCoach IsNotSpeakingWeight0 RESPONSE SurvivorSpottedM60Coach
+RESPONSE SurvivorSpottedM60AutoCoach CHARACTER Coach SUBTITLE "Big gun!"
+RESPONSE SurvivorSpottedM60AutoCoach CHARACTER Coach SUBTITLE "Here's a big gun!"
+RESPONSE SurvivorSpottedM60AutoCoach CHARACTER Coach SUBTITLE "Big gun!"
+RULE SurvivorSpottedM60AutoCoach CRITERIA ConceptPlayerSpotWeapon IsNotCoughing IsCoach IsTalk IsTalkCoach IsNotSmartLookAuto IsM60 IsWorldTalkCoach RESPONSE SurvivorSpottedM60AutoCoach
+
+
+
